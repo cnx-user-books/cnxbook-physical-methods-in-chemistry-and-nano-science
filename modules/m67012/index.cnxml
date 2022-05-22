@@ -1,0 +1,268 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Determination of Coordination Geometry by IR Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m67012</md:content-id>
+  <md:title>Determination of Coordination Geometry by IR Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>44f530bf-811d-4e28-b380-84c4d8c235d8</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm351533184">
+      <title>Introduction </title>
+      <section id="import-auto-idm1083627152">
+        <title>Infrared spectroscopy </title>
+        <para id="import-auto-idm360525264">In infrared (IR) spectroscopy, when light interacts with a complex, several molecular vibrations occur by absorbing light at specific frequencies. The absorbed light frequency depends on the mass of the atoms in the molecule, the bond strength, and the polarity of the bond. Some of the molecular vibrations include: stretching, bending, twisting and rocking. <link target-id="import-auto-idm992607120"/> shows the possible vibration modes of water. In order for a vibration to be IR active, a change in the dipole moment of the molecule must occur. The intensity of absorption bands depends on the extent of change in the dipole moment of the molecule upon light interaction. </para><figure id="import-auto-idm992607120"><media id="import-auto-idm1235029008" alt="">
+            <image mime-type="image/png" src="../../media/Picture 3-d44c.png" width="500" print-width="4.5in"/>
+          </media>
+        <caption>Vibration modes of water, showing stretching and bending modes. Adapted from R. Silverstein, F. Webester, D. Kiemle and D. Bryce, S<emphasis effect="italics">pectrometric Identification of Organic Compounds</emphasis>, 8<sup>th</sup> ed., John Wiley &amp; Sons, New York (2015).</caption></figure></section>
+      <section id="import-auto-idm993622064">
+        <title>IR spectroscopy of organometallic compounds </title>
+        <para id="import-auto-idm1246027104">IR spectroscopy is a great analytical tool for ligand identification in organometallic complexes, because data collection is fast, and different ligand binding modes have distinct absorption frequencies. <link url="https://cnx.org/contents/uieDnVBC@23.1:6oYLai6Q@1/Fourier-Transform-Infrared-Spe" window="new"> Fourier Transform Infrared Spectroscopy of Metal Ligand Complexes </link> has a list of absorption bands of typical functional groups. When a ligand binds to a metal, the absorption frequency of the ligand changes reflecting the new electronic structure of the complex. Organometallic complexes with different geometry also absorb light at different frequencies. </para></section>
+      <section id="import-auto-idm847840672">
+        <title>Advantage of IR techniques</title>
+        <para id="import-auto-idm1226298608">Infrared (IR) spectroscopy is a good analytical tool for geometry identification of organometallic compounds. It is a fast and relatively simple analytical technique. Moreover, metal-ligand chemistry has been studied extensively via IR spectroscopy and tables of different ligand frequencies have been reported in various studies, which makes it easier to determine the ligand and the complex’s structure based on those studies. </para></section>
+    </section>
+    <section id="import-auto-idm1067620592">
+      <title>IR Spectroscopy instrumentation</title><section id="import-auto-idm315728576">
+        <title>Sample preparation </title>
+        <para id="import-auto-idm342263088">While the sample preparation procedure was explained in great details in <link url="https://cnx.org/contents/uieDnVBC@23.1:vdl5g77_@1/IR-Sample-Preparation-A-Practi" window="new"> IR Sample Preparation: A Practical Guide</link>, modern Fourier transform infrared (FT-IR) instruments have developed rapidly over the past few years especially with instruments with increased sensitivity, resolution and speed. Some modern FT-IR sample cells are made out of diamond crystals that are strong. This kind of cells are versatile and great for testing liquids, powders, and rubbers without requiring any sample preparation. </para></section>
+      <section id="import-auto-idm852317808"><title>Spectra interpretation</title><para id="import-auto-idm861419360"><link url="https://cnx.org/contents/uieDnVBC@23.1:6oYLai6Q@1/Fourier-Transform-Infrared-Spe" window="new"> Fourier Transform Infrared Spectroscopy of Metal Ligand Complexes </link> has a great explanation of the common FT-IR bands. Nonetheless, <link target-id="import-auto-idm364911904"/> shows a regional representation of the positions of some typical functional groups. </para><figure id="import-auto-idm364911904"><media id="import-auto-idm854404272" alt=""><image mime-type="image/png" src="../../media/Picture 6-d83f.png" width="500" print-width="5in"/></media><caption>Regional assignment of the typical functional groups. </caption></figure></section></section>
+    <section id="import-auto-idm341649152">
+      <title>Case studies </title>
+      <section id="import-auto-idm865636992"><title>Isomers identification </title><section id="eip-831"><title>Coordination isomers</title><para id="import-auto-idm361724992">Geometric isomers can sometimes have different physical properties and applications. Therefore, having good analytical method for identifying isomers is crucial to differentiate between isomers. FTIR is a good tool for isomer identification because different isomers have distinct IR bands. For example, the <emphasis effect="italics">cis</emphasis> and <emphasis effect="italics">trans</emphasis> isomers of PtCl<sub>2</sub>(PEt<sub>3</sub>)<sub>2</sub>, have different ν<sub>Pt-P</sub> and ν<sub>Pt-Cl</sub> stretching as shown in <link target-id="import-auto-idm364911905"/>. The difference in stretching frequency is due to the change in bond length of the <emphasis effect="italics">cis</emphasis> and <emphasis effect="italics">trans</emphasis> isomers, inducing the change in the absorption frequency (<link target-id="eip-780"/>). </para><figure id="import-auto-idm364911905"><media id="import-auto-idm854404276Pt" alt=""><image mime-type="image/png" src="../../media/IR_1.jpg" width="300" print-width="3in"/></media><caption>The structure, bond length, and absorption frequency of <emphasis effect="italics">cis</emphasis>- and <emphasis effect="italics">trans</emphasis>-PtCl<sub>2</sub>(PEt<sub>3</sub>)<sub>2.</sub> Adapted from S. Komiya, <emphasis effect="italics">Synthesis of Organometallic Compounds: A Practical Guide</emphasis> , John Wiley Sons , New York (1997).</caption></figure><table id="eip-780" summary="Selected structural and IR parameters for cis and trans isomers.">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Compound</emphasis></entry>
+    <entry><emphasis effect="bold"><emphasis effect="italics">cis</emphasis>-PtCl<sub>2</sub>(PEt<sub>3</sub>)<sub>2</sub></emphasis></entry>
+    <entry><emphasis effect="bold"><emphasis effect="italics">trans</emphasis>-PtCl<sub>2</sub>(PEt<sub>3</sub>)<sub>2</sub></emphasis></entry>
+  </row>
+  <row>
+    <entry>ν<sub>Pt-P</sub></entry>
+    <entry>442, 427 cm<sup>-1</sup></entry>
+    <entry>419 cm<sup>-1</sup></entry>
+  </row>
+  <row>
+     <entry>ν<sub>Pt-Cl</sub></entry>
+    <entry>303, 281 cm<sup>-1</sup></entry>
+    <entry>339 cm<sup>-1</sup></entry>
+  </row>
+  <row>
+    <entry>Pt-P</entry>
+    <entry>2.31 Å</entry>
+    <entry>2.25 Å</entry>
+  </row>
+  <row>
+    <entry>Pt-Cl</entry>
+    <entry>2.32 Å</entry>
+    <entry>2.42 Å</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup><caption>Selected structural and IR parameters for <emphasis effect="italics">cis</emphasis> and <emphasis effect="italics">trans</emphasis> isomers of PtCl<sub>2</sub>(PEt<sub>3</sub>)<sub>2</sub>.  Data from S. Komiya, <emphasis effect="italics">Synthesis of Organometallic Compounds: A Practical Guide</emphasis> , John Wiley Sons , New York (1997).</caption>
+</table></section>
+<section id="eip-92"><title>Ligand coordination isomers</title><para id="import-auto-idm1048657073">Linkage ligands can have multiple binding sites to a metals center or multiple metal centers. One example is the nitrite ion (NO<sub>2</sub><sup>-</sup>), which can bind to the metal via the oxygen atom to form a nitrito ligand or via nitrogen atom to form nitro ligand <link target-id="import-auto-idm1038003025"/>. IR spectroscopy can be used to distinguish between linkage ligands. <link target-id="import-auto-idm1076899457"/> has some of the frequencies of the ligands with multiple binding sites.</para><figure id="import-auto-idm1038003025"><media id="import-auto-idm845514577" alt="">
+            <image mime-type="image/png" src="../../media/Picture 8-b046.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Different binding sites for nitrite ion. </caption></figure>
+
+<table id="import-auto-idm1076899457" summary="Absorption frequencies of ligands with two possible binding sites.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Ligand </emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Wavenumber (cm<sup>-1</sup></emphasis>
+                  <emphasis effect="bold">)</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Nitro (-O-N-O)</entry>
+                <entry>1430-1360, 1340-1300</entry>
+              </row>
+              <row>
+                <entry>Nitrito (-NO<sub>2</sub>)</entry>
+                <entry>1500-1400, 1100-100</entry>
+              </row>
+              <row>
+                <entry>Thiocyanato (-S-C≡N)</entry>
+                <entry>2140-2100, 720-680</entry>
+              </row>
+              <row>
+                <entry>Isothiocyanato (-N=C=S)</entry>
+                <entry>2100-2040, 850-800</entry>
+              </row>
+              <row>
+                <entry>Cyanato (-O-C≡N)</entry>
+                <entry>2210-2000, 1300-1150</entry>
+              </row>
+              <row>
+                <entry>Isocyanato (-N=C=O)</entry>
+                <entry>2250-2150, 1450-1300</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+</tgroup><caption>Absorption frequencies of linkage ligands.</caption>
+</table><para id="eip-992">The ability to differentiate between chelating (<link target-id="import-auto-idm1038003025Al"/>a) and bridging (<link target-id="import-auto-idm1038003025Al"/>b) bidentate modes of carboxylate coordination by IR spectroscopy is often difficult. However, the presence of bands in the IR spectra at 1559-1489 cm<sup>-1</sup> [ν<sub>asymm</sub>(CO<sub>2</sub>)] and 1496-1448 cm<sup>-1</sup> [ν<sub>symm</sub>(CO<sub>2</sub>)] are consistent with the dimeric structures in the solid state. Importantly, they preclude unidentate coordination of a carboxylic acid group to aluminum whose IR spectrum would contain stretches at 1680-1640 and 1610-1570 cm<sup>-1</sup>. </para><figure id="import-auto-idm1038003025Al"><media id="import-auto-idm845514577Al2" alt="">
+            <image mime-type="image/png" src="../../media/Alcarboxylate.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>Different binding modes for carboxylate ligand to a typical metal, aluminum. </caption></figure>
+
+
+</section>
+
+</section><section id="import-auto-idm1182515232"><title>Metal carbonyl complexes </title><para id="import-auto-idm901758000">A classic example of metal-ligand complexes are metal carbonyl complexes. They are wildly used as catalysis and have been studied extensively in literature. The IR stretching of free isolated CO occurs at 2143 cm<sup>-1</sup>; however, the frequency of ν<sub>C-O</sub> stretching in a complex differs from that of the free CO. The change of the stretching frequency is related to electron density of the metal. Having extra electrons in the system promotes filling π<sup>∗</sup> anti-bonding orbitals weakening the C–O bond and lowering absorption frequency. <link target-id="import-auto-idm996253536"/> shows how the charge of the complex affects the C-O stretching frequency on increasing the charge, while maintaining the overall electron configuration, i.e., d<sup>18</sup>. </para><table id="import-auto-idm996253536" summary="C-O stretching of carbonyl complexes with different charges.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Complex</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Charge </emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Wavenumber (cm</emphasis>
+               <emphasis effect="bold"><sup>-1</sup></emphasis>
+                  <emphasis effect="bold">)</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>[Mn(CO)<sub>6</sub>]<sup>+</sup></entry>
+                <entry>+1</entry>
+                <entry>2143</entry>
+              </row>
+              <row>
+                <entry>Cr(CO)<sub>6</sub></entry>
+                <entry>0</entry>
+                <entry>2090</entry>
+              </row>
+              <row>
+                <entry>[V(CO)<sub>6</sub>]<sup>-</sup></entry>
+                <entry>-1</entry>
+                <entry>1860</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+</tgroup><caption>The C-O stretching frequency of selected d<sup>18</sup> metal carbonyl complexes with different overall charges. </caption>
+</table><para id="import-auto-idm315142368">Furthermore, a single metal atom can bind to multiple carbonyl molecules to form complexes with different geometries depending on the number of carbonyl groups in the formed complex. <link target-id="import-auto-idm846269840"/> shows how changing the number of CO ligands around Mn changes the overall symmetry of the molecule, which changes the number of the IR active bands and the absorption frequency. To measure the CO stretching of different manganese carbonyl cations, [Mn(CO)<sub>6</sub>]<sup>+</sup> was bombarded with argon molecules to fragment the complex giving a mixture of [Mn(CO)<sub>n</sub>]<sup>+</sup>(Ar)<sub>m</sub> complexes, from which argon is eliminated to measure the IR spectrum of the [Mn(CO)<sub>n</sub>]<sup>+</sup> species.  <link target-id="import-auto-idm1020392608"/> shows the IR spectra of [Mn(CO)<sub>n</sub>]<sup>+</sup>(Ar)<sub>m</sub> complexes after argon elimination. </para><table id="import-auto-idm846269840" summary="Symmetry elements of the different Mn carbonyl complexes. The bold symmetry element indicates the most stable structure of the complex.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Complex </emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Structure </emphasis>
+                </entry>
+              </row>
+
+
+
+            </thead>
+            <tbody>
+              <row>
+                <entry>[Mn(CO)]<sup>+</sup></entry>
+                <entry><emphasis effect="bold"><sup>7</sup>C<sub>v</sub></emphasis>, <sup>5</sup>C<sub>v</sub></entry>
+              </row>
+
+              <row>
+                <entry>[Mn(CO)<sub>2</sub>]<sup>+</sup></entry>
+                <entry><emphasis effect="bold"><sup>5</sup></emphasis><emphasis effect="bold">D</emphasis><emphasis effect="bold"><sub>h</sub></emphasis>, <sup>3</sup>D<sub>h</sub>, <sup>1</sup>D<sub>h</sub></entry>
+              </row>
+
+
+
+              <row>
+                <entry>[Mn(CO)<sub>3</sub>]<sup>+</sup></entry>
+                <entry><emphasis effect="bold"><sup>3</sup></emphasis><emphasis effect="bold">D</emphasis><emphasis effect="bold"><sub>3h</sub></emphasis><sub>, </sub><sup>1</sup>C<sub>2v</sub>, </entry>
+              </row>
+
+
+
+              <row>
+                <entry>[Mn(CO)<sub>4</sub>]<sup>+</sup></entry>
+                <entry><emphasis effect="bold"><sup>1</sup></emphasis><emphasis effect="bold">C</emphasis><emphasis effect="bold"><sub>2v</sub></emphasis><sub>, </sub><sup>3</sup>C<sub>3v</sub></entry>
+              </row>
+
+
+
+              <row>
+                <entry>[Mn(CO)<sub>5</sub>]<sup>+</sup></entry>
+                <entry><emphasis effect="bold"><sup>1</sup></emphasis><emphasis effect="bold">C</emphasis><emphasis effect="bold"><sub>4v</sub></emphasis>, <sup>3</sup>D<sub>3h</sub></entry>
+              </row>
+
+
+              <row>
+                <entry>[Mn(CO)<sub>6</sub>]<sup>+</sup></entry>
+                <entry><emphasis effect="bold"><sup>1</sup></emphasis><emphasis effect="bold">O</emphasis><emphasis effect="bold"><sub>h</sub></emphasis>, <sup>3</sup>C<sub>4h</sub></entry>
+              </row>
+
+
+            </tbody>
+          
+
+
+
+
+
+
+
+</tgroup><caption>Symmetry elements of the different Mn carbonyl complexes. The bold symmetry element indicates the most stable structure of the complex.</caption>
+</table><figure id="import-auto-idm1020392608"><media id="import-auto-idm894297280IR" alt="">
+              <image mime-type="image/png" src="../../media/IR_2.jpg" width="300" print-width="3in"/>
+            </media>
+          <caption>IR spectrum of different [Mn(CO)<sub>n</sub>]<sup>+</sup>(Ar)<sub>m</sub> complexes measured by the elimination of the argon atoms.  The dashed line represents the frequency of free CO. Reproduced with permission Z. D. Reed and M. A. Duncan,  <emphasis effect="italics">J. Am. Soc. Mass. Spectrom.</emphasis>, 2010, <emphasis effect="bold">21</emphasis>, 739. Copyright: Elsevier (2010). </caption></figure></section><section id="import-auto-idm345244064">
+        <title>Ruthenium impregnated zeolite geometry identification </title>
+        <para id="import-auto-idm870284768">Zeolites are porous materials that are widely used in industry as catalysis. The active catalytic site on zeolites is a metal oxide complex. The activity of the catalyst is determined based on the geometry of the metal oxide. For example, rhenium on zeolites can exhibit both tetrahedral and octahedral geometry having IR signals at 912 and 924 cm<sup>-1</sup>, respectively. The tetrahedral geometry is under coordinated, making the tetrahedral rhenium site highly active with catalytic properties. </para>
+      </section>
+    </section>
+    <section id="import-auto-idm991129040">
+      <title>Limitations </title>
+      <para id="import-auto-idm349893904">While IR spectroscopy is considered a powerful tool for organometallics characterization, it has some disadvantages and limitations. For example, the sample preparation can be laborious depending on the available IR cell. KBr ballets requires some skills and the nujol mulls can sometimes be tedious. Furthermore, their IR bands can potentially overlap hiding some important, but weak, bands. </para>
+    </section>
+    <section id="import-auto-idm1000774464">
+      <title>Bibliography</title>
+      <list id="import-auto-idm904748064" list-type="bulleted"><item>
+P. L. Gurian, L. K. Cheatham, J. W. Ziller, and A. R. Barron, <emphasis effect="italics">J. Chem. Soc., Dalton Trans.</emphasis>, 1991, 1449.
+</item>
+
+<item>C. E. Bethley, C. L. Aitken, Y. Koide, C. J. Harlan, S. G. Bott, and A. R. Barron, <emphasis effect="italics">Organometallics</emphasis>, 1997, <emphasis effect="bold">16</emphasis>, 329. </item>
+
+<item>H. Hamdan and Z. Ramli, <emphasis effect="italics">Stud. Surf. Sci. Catal.,</emphasis> 1994, <emphasis effect="bold">83</emphasis>, 125.</item>
+        <item>S. Komiya, <emphasis effect="italics">Synthesis of Organometallic Compounds: A Practical Guide</emphasis>, John Wiley Sons , New York (1997).</item>
+        <item>Z. D. Reed and M. A. Duncan,  <emphasis effect="italics">J. Am. Soc. Mass. Spectrom.</emphasis>, 2010, <emphasis effect="bold">21</emphasis>, 739.</item>
+        <item>R. Silverstein, F. Webester, D. Kiemle, and D. Bryce, S<emphasis effect="italics">pectrometric Identification of Organic Compounds</emphasis>, 8<sup>th</sup> ed., John Wiley &amp; Sons, New York (2015).</item>
+        <item>D. A. Skoog, F. J. Holler, and S. R. Crouch, <emphasis effect="italics">Principles of Instrumental Analysis</emphasis>, 6<sup>th</sup> ed., Brooks Cole, Belmont (1998). </item>
+        <item>B. Stuart,<emphasis effect="italics"> Infrared Spectroscopy: Fundamentals and Applications</emphasis>, John Wiley &amp; Sons, New York (2005).</item>
+        <item>B. H. Wouters, T. H. Chen, and P. J. Grobet, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1998, <emphasis effect="bold">120</emphasis>, 1419.</item>
+      </list></section>
+  </content>
+</document>

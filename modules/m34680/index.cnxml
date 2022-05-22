@@ -1,0 +1,239 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Fluorescence Characterization and its Application in DNA Detection</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34680</md:content-id>
+  <md:title>Fluorescence Characterization and its Application in DNA Detection</md:title>
+  <md:abstract/>
+  <md:uuid>df95ff5a-7f2f-43b4-b54c-c35fe9150b25</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1168917172436">
+      <title>Introduction to fluorescence</title>
+      <para id="id1168946978970">Luminescence is a process involving the emission of light from any substance, and occurs from electronically excited states of that substance. Normally, luminescence is divided into two categories, <emphasis effect="italics">fluorescence</emphasis> and <emphasis effect="italics">phosphorescence</emphasis>, depending on the nature of the excited state.</para>
+
+      <note id="eip-450">Fluorescence is the emission of electromagnetic radiation light by a substance that has absorbed radiation of a different wavelength. Phosphorescence is a specific type of photoluminescence related to fluorescence. Unlike fluorescence, a phosphorescent material does not immediately re-emit the radiation it absorbs. </note><para id="id7229751">The process of fluorescent absorption and emission is easily illustrated by the Jablonski diagram. A classic Jablonski diagram is shown in <link target-id="id1168922728781"/>, where S<sub>n</sub> represents the n<sup>th</sup> electronic states. There are different vibrational and rotational states in every electronic state. After light absorption, a fluorophore is excited to a higher electronic and vibrational state from ground state (here rotational states are not considered for simplicity). By internal conversion of energy, these excited molecules relax to lower vibrational states in S<sub>1</sub> (<link target-id="id1168922728781"/>) and then return to ground states by emitting fluorescence. Actually, excited molecules always return to higher vibration states in S<sub>0</sub> and followed by some thermal process to ground states in S<sub>1</sub>. It is also possible for some molecules to undergo intersystem crossing process to T<sub>­2</sub> states (<link target-id="id1168922728781"/>). After internal conversion and relaxing to T<sub>1</sub>, these molecules can emit phosphorescence and return to ground states.</para>
+
+        <figure id="id1168922728781"><media id="id1168922728781_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-f9ed.jpg" id="id1168922728781__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Jablonski diagram where, A = absorbance, F = fluorescence, P = phosphorescence, S = single state, T = triplet state, IC = internal conversion, ISC = intersystem crossing.</caption></figure>
+
+      
+
+
+      
+      <para id="id1168926323854">The Stokes shift, the excited state lifetime and quantum yield are the three most important characteristics of fluorescence emission. Stokes shift is the difference between positions of the band maxima of the absorption and emission spectra of the same electronic transition. According to mechanism discussed above, an emission spectrum must have lower energy or longer wavelength than absorption light. The quantum yield is a measure of the intensity of fluorescence, as defined by the ratio of emitted photons over absorbed photons. Excited state lifetime is a measure of the decay times of the fluorescence.</para>
+    </section>
+
+
+    <section id="id1168925681167">
+      <title>Instrumentation of Fluorescence Spectroscopy</title>
+      <section id="id1168946335026">
+        <title>Spectrofluorometers</title>
+        <para id="id1168963964863">Most spectrofluorometers can record both excitation and emission spectra. An emission spectrum is the wavelength distribution of an emission measured at a single constant excitation wavelength. In comparison, an excitation spectrum is measured at a single emission wavelength by scanning the excitation wavelength.</para>
+      </section>
+
+      <section id="id1168963609767">
+
+        <title>Light sources</title>
+        <para id="id1168966442001">Specific light sources are chosen depending on the application. </para>
+        <section id="id1168917705283">
+          <title>Arc and incandescent xenon lamps</title>
+          <para id="id1168931553946">The high-pressure xenon (Xe) arc is the most versatile light source for steady-state fluorometers now. It can provides a steady light output from 250 - 700 nm (<link target-id="id1168928700187"/>), with only some sharp lines near 450 and 800 nm. The reason that xenon arc lamps emit a continuous light is the recombination of electrons with ionized Xe atoms. These ions produced by collision between Xe and electrons. Those sharp lines near 450 nm are due to the excited Xe atoms that are not ionized. </para>
+
+          <figure id="id1168928700187"><media id="id1168928700187_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics2-563b.jpg" id="id1168928700187__onlineimage" width="450" print-width="4.5in"/>
+            </media>
+
+          <caption>Spectral irradiance of arc-discharge lamps.</caption></figure>
+
+          <para id="id1168962396542">During fluorescence experiment, some distortion of the excitation spectra can be observed, especially the absorbance locating in visible and ultraviolet region. Any distortion displayed in the peaks is the result of wavelength-dependent output of Xe lamps. Therefore, we need to apply some mathematic and physical approaches for correction.</para>
+
+
+
+
+        </section>
+        <section id="id1168963645640">
+          <title>High-pressure mercury (Hg) lamps</title>
+          <para id="id1168922669758">Compared with xenon lamps, Hg lamps have higher intensities. As shown in <link target-id="id1168928700187"/>, the intensity of Hg lamps is concentrated in a series of lines, so it is a potentially better excitation light source if matched to certain fluorophores. </para>
+        </section>
+
+
+        <section id="id1168949523304">
+          <title>Xe-Hg arc lamps</title>
+          <para id="id1168946710155">High-pressure xenon-mercury lamps have been produced. They have much higher intensity in ultraviolet region than normal Xe lamps. Also, the introduction of Xe to Hg lamps broadens the sharp-line output of Hg lamps. Although the wavelength of output is still dominated by those Hg lines, these lines are broadened and fit to various fluorophores better. The Xe-Hg lamp output depends on the operating temperature. </para>
+        </section>
+
+
+
+        <section id="id1168959572897">
+          <title>Low pressure Hg and Hg-Ar lamps</title>
+          <para id="id1168945849673">Due to their very sharp line spectra, they are primarily useful for calibration purpose. The combination of Hg and Ar improve the output scale, from 200 - 1000 nm.</para>
+        </section>
+
+
+        <section id="id1168934934415">
+          <title>Other light source</title>
+          <para id="id1168955974280">There are many other light source for experimental and industrial application, such as pulsed xenon lamps, quartz-tungsten halogen (QTH) lamps, LED light sources, etc.</para>
+        </section>
+      </section>
+      <section id="id1168918752043">
+        <title>Monochromators</title>
+        <para id="id1168921228962">Most of the light sources used provide only polychromatic or white light. However, what is needed for experiments are various chromatic light with a wavelength range of 10 nm. Monocharomators help us to achieve this aim. Prisms and diffraction gratings are the two main kinds of monochromators used, although diffraction gratings are most useful, especially in spectrofluorometers. </para>
+        <para id="id1168910727912">Dispersion, efficiency, stray light level and resolution are important parameters for monochromators. Dispersion is mainly determined by slit width and expressed in nm/mm. It is prepared to have low stray light level. Stray light is defined as light transmitted by the monochromator at wavelength outside the chosen range. Also, a high efficiency is required to increase the ability to detect low light levels. Resolution depends on the slit width. There are normally two slits, entrance and exit in a fluorometers. Light intensity that passes through the slits is proportional to the square of the slit width. Larger slits have larger signal levels, but lower resolution, and vice verse. Therefore, it is important to balance the signal intensity and resolution with the slit width.</para>
+      </section>
+      <section id="id1168949296879">
+        <title>Optical filters</title>
+        <para id="id1168948005185">Optical filters are used in addition to monochromators, because the light passing through monochromator is rarely ideal, optical filters are needed for further purifying light source. If the basic excitation and emission properties of a particular system under study, then selectivity by using optical filters is better than by the use of monochromators. Two kinds of optical filter are gradually employed: colored filters and thin-film filters.</para>
+        <section id="id1168951818086">
+          <title>Colored filter</title>
+          <para id="id8646095">Colored filters are the most traditional filter used before thin-film filter were developed. They can be divided into two categories: monochromatic filter and long-pass filter. The first one only pass a small range of light (about 10 - 25 nm) centered at particular chosen wavelength. In contrast, long pass filter transmit all wavelengths above a particular wavelength. In using these bandpass filters, special attention must be paid to the possibility of emission from the filter itself, because many filters are made up of luminescent materials that are easily excited by UV light. In order to avoid this problem, it is better to set up the filter further away from the sample.</para>
+        </section>
+        <section id="id1168943434198">
+          <title>Thin-film filters</title>
+          <para id="id5556003">The transmission curves of colored class filter are not suitable for some application and as such they are gradually being substituted by thin-film filters. Almost any desired transmission curve can be obtained using a thin film filter. </para>
+        </section>
+      </section>
+      <section id="id1168928586757">
+        <title>Detectors</title>
+        <para id="id1168927619636">The standard detector used in many spectrofluorometers is the InGaAs array, which can provides rapid and robust spectral characterization in the near-IR. And the liquid-nitrogen cooling is applied to decrease the background noise. Normally, detectors are connected to a controller that can transfer a digital signal to and from the computer.</para>
+      </section>
+    </section>
+    <section id="id1168932669348">
+      <title>Fluorophores</title>
+      <para id="id5588492">At present a wide range of fluorophores have been developed as fluorescence probes in bio-system. They are widely used for clinical diagnosis, bio-tracking and labeling. The advance of fluorometers has been accompanied with developments in fluorophore chemistry. Thousands of fluorophores have been synthesized, but herein four categories of fluorophores will be discussed with regard their spectral properties and application.</para>
+      <section id="id4903585">
+        <title>Intrinsic or natural fluorophores</title>
+        <para id="id1168940406290">Tryptophan (trp), tyrosine (tyr), and phenylalanine (phe) are three natural amino acid with strong fluorescence (<link target-id="id1168956280046"/>). In tryptophan, the indole groups absorbs excitation light as UV region and emit fluorescence. </para>
+
+
+        <figure id="id1168956280046">
+          <media id="id1168956280046_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-9920.jpg" id="id1168956280046__onlineimage" width="600" print-width="6in"/>
+          </media>
+<caption>The structure of (a) tryptophan, (b) tyrosine and (c) phenylalanine.</caption>
+        </figure>
+
+
+
+
+
+
+
+        <para id="id1168914129190">Green fluorescent proteins (GFP) is another natural fluorophores. GFP is composed of 238 amino acids (<link target-id="id6666655"/>), and it exhibits a characteristic bright green fluorescence when excited. They are mainly extracted from bioluminescent jellyfish <emphasis effect="italics">Aequorea vicroria</emphasis>, and are employed as signal reporters in molecular biology. </para>
+
+        <figure id="id6666655"><media id="id6666655_media" alt="">
+            <image mime-type="image/jpg" src="../../media/green.jpg" id="id6666655__onlineimage" width="300" print-width="3in"/>
+          </media>
+
+        <caption>Green fluorescent proteins (GFP) ribbon diagram. </caption></figure>
+
+
+      </section>
+
+
+
+      <section id="id1168918613788">
+        <title>Extrinsic fluorophores</title>
+        <para id="id1168951233270">Most bio-molecules are nonfluorescent, therefore it is necessary to connect different fluorophores to enable labeling or tracking of the biomolecules. For example, DNA is an example of a biomolecule without fluorescence. The Rhodamine (<link target-id="id1168946850131"/>) and BODIPY (<link target-id="id1168948738647"/>) families are two kinds of well-developed organic fluorophores. They have been extensively employed in design of molecular probes due to their excellent photophysical properties.</para>
+
+        
+
+
+        <figure id="id1168946850131"><media id="id1168946850131_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-bb5e.jpg" id="id1168946850131__onlineimage" width="300" print-width="3in"/>
+          </media>
+
+        <caption>The structure of Rhodamine 123.</caption></figure>
+
+
+
+        <figure id="id1168948738647"><media id="id1168948738647_media" alt="">
+            <image mime-type="image/jpg" src="../../media/dyes.jpg" id="id1168948738647__onlineimage" width="500" print-width="5in"/>
+          </media>
+
+        <caption>The structure of selected boron-dipyrromethane (BODIPY) derivatives with their characteristic emission colors.</caption></figure>
+
+      </section>
+
+
+
+      <section id="id1168908064030">
+        <title>Red and near-infrared (NIR) dyes</title>
+        <para id="id1168950366544">With the development of fluorophores, red and near-infrared (NIR) dyes attract increasing attention since they can improve the sensitivity of fluorescence detection. In biological system, autofluorescence always increase the ratio of signal-to-noise (S/N) and limit the sensitivity. As the excitation wavelength turns to longer, autopfluorescence decreases accordingly, and therefore signal-to-noise ratio increases. Cyanines are one such group of long-wavelength dyes, e.g., Cy-3, Cy-5 and Cy-7 (<link target-id="id1168971803871"/>), which have emission at 555, 655 and 755 nm respectively.</para>
+
+
+        <figure id="id1168971803871">
+          <media id="id1168971803871_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics7-5268.jpg" id="id1168971803871__onlineimage" width="500" print-width="5in"/>
+          </media>
+<caption>The structure of (a) Cy-3-iodo acetamide, (b) Cy-5-N-hydroxysuccinimide and (c) Cy-7-isothiocyanate. </caption>
+        </figure>
+
+      </section>
+
+
+
+      <section id="id1168913408866">
+        <title>Long-lifetime fluorophores</title>
+        <para id="id1168966557075">Almost all of the fluorophores mentioned above are organic fluorophores that have relative short lifetime from 1-10 ns. However, there are also a few long-lifetime organic fluorophore, such as pyrene and coronene with lifetime near 400 ns and 200 ns respectively (<link target-id="id1168939787198"/>). Long-lifetime is one of the important properties to fluorophores. With its help, the autofluorescence in biological system can be removed adequately, and hence improve the detectability over background. </para>
+
+
+          <figure id="id1168939787198">
+            <media id="id1168939787198_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics8-64c3.jpg" id="id1168939787198__onlineimage" width="400" print-width="4in"/>
+            </media>
+<caption>Structures of (a) pyrene and (b) coronene.</caption>
+          </figure>
+
+
+
+
+        
+        <para id="id1168911664291">Although their emission belongs to phosphorescence, transition metal complexes are a significant class of long-lifetime fluorophores. Ruthenium (II), iridium (III), rhenium (I), and osmium (II) are the most popular transition metals that can combine with one to three diimine ligands to form fluorescent metal complexes. For example, iridium forms a cationic complex with two phenyl pyridine and one diimine ligand (<link target-id="id1168948082668"/>). This complex has excellent quantum yield and relatively long lifetime. </para>
+        
+
+
+          <figure id="id1168948082668"><media id="id1168948082668_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics9-63f4.jpg" id="id1168948082668__onlineimage" width="200" print-width="2in"/>
+            </media>
+
+          <caption>The structure of the cationic iridium complex, (ppy)<sub>2</sub>Ir(phen).</caption></figure>
+
+
+
+
+
+      </section>
+    </section>
+    <section id="id1168932145486">
+      <title>Applications</title>
+      <para id="id1168921591220">With advances in fluorometers and fluorophores, fluorescence has been a dominant techonology in the medical field, such clinic diagnosis and flow cytometry. Herein, the application of fluorescence in DNA and RNA detecition is discussed.</para>
+      <para id="id1168970427689">The low concentration of DNA and RNA sequences in cells determine that high sensitivity of the probe is required, while the existence of various DNA and RNA with similar structures requires a high selectivity. Hence, fluorophores were introduced as the signal group into probes, because fluorescence spectroscopy is most sensitive technology until now. </para>
+      <para id="id1406095">The general design of a DNA or RNA probe involves using an antisense hybridization oligonucleotide to monitor target DNA sequence. When the oligonucleotide is connected with the target DNA, the signal groups-the fluorophores-emit designed fluorescence. Based on fluorescence spectroscopy, signal fluorescence can be detected which help us to locate the target DNA sequence. The selectively inherent in the hybridization between two complementary DNA/RNA sequences make this kind of DNA probes extremely high selectivity. A molecular Beacon is one kind of DNA probes. This simple but novel design is reported by Tyagi and Kramer in 1996 (<link target-id="id1168916301274"/>) and gradually developed to be one of the most common DNA/RNA probes. </para>
+      
+
+
+
+
+      <figure id="id1168916301274"><media id="id1168916301274_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics10-7fb3.jpg" id="id1168916301274__onlineimage" width="500" print-width="5in"/>
+        </media>
+
+      <caption>The structure of molecular beacon and its detecting mechanism.</caption></figure>
+
+      <para id="id1168922150418">Generally speaking, a molecular beacon it is composed of three parts: one oligonucleotide, a fluorophore and a quencher at different ends. In the absence of the target DNA, the molecular beacon is folded like a hairpin due to the interaction between the two series nucleotides at opposite ends of the oligonucleotide. At this time, the fluorescence is quenched by the close quencher. However, in the presence of the target, the probe region of the MB will hybridize to the target DNA, open the folded MB and separate the fluorophore and quencher. Therefore, the fluorescent signal can be detected which indicate the existence of a particular DNA.</para>
+
+    </section>
+
+
+
+    <section id="id1168969403132">
+      <title>Bibliography</title>
+      <list id="id1168939902483" list-type="bulleted"><item id="id1168939489326">J. R. Lakowicz, <emphasis effect="italics">Principles of Fluorescence Spectroscopy</emphasis>, 3<sup>rd</sup> ed, Springer (2006).</item>
+        <item>A. A. Martí, S. Jockusch, N. Stevens, J. Ju, and N. J. Turro, <emphasis effect="italics">Acc. Chem. Res.</emphasis>, 2007, <emphasis effect="bold">40</emphasis>, 402.</item>
+      <item>S. Tyagi and F. R. Kramer, <emphasis effect="italics">Nat. Biotechnol.</emphasis>, 1996, <emphasis effect="bold">14</emphasis>, 303. </item></list>
+    </section>
+  </content>
+</document>

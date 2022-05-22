@@ -1,0 +1,131 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Matrix Assisted Laser Desorption Ionization (MALDI)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55534</md:content-id>
+  <md:title>Matrix Assisted Laser Desorption Ionization (MALDI)</md:title>
+  <md:abstract/>
+  <md:uuid>beab56f8-e182-44a7-8ba3-c4e20fac5e91</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165412732710"><title>Development of MALDI</title><para id="import-auto-id1165392980331">As alluded to in <link url="http://cnx.org/contents/925e204d-d85f-4db8-be50-3e4d60057b37@1" window="new"> Principles of Mass Spectrometry and Modern Application </link> laser desorption (LD) was originally developed to produce ions in the gas phase. This is accomplished by pulsing a laser on the sample surface to ablate material causing ionization and vaporization of sample particles. However, the probability of attaining a valuable mass spectrum is highly dependent on the properties of the analyte. Furthermore, masses observed in the spectrum were products of the molecular fragmentation if the molecular weight was above 500 Da. Clearly, this was not optimal instrumentation for analyzing large biomolecules and bioinorganic compounds that do not ionize well and samples were degraded during the process. Matrix-assisted laser desorption ionization (MALDI) was developed and alleviated many issues associated with LD techniques. The MALDI technique allows proteins with masses up to 300,000 Da to be detected. This is important to bioinorganic chemistry when visualizing products resulting from catalytic reactions, metalloenzyme modifications, and other applications.</para><para id="import-auto-id1165411017682">MALDI as a process decreases the amount of damage to the sample by protected the individual analytes within a matrix (more information of matrices later). The matrix itself absorbs much of the energy introduced by the laser during the pulsing action. Plus, energy absorbed by the matrix in subsequently transferred to the analyte (<link target-id="eip-id1172357129533"/>). Once, energized, the analyte ionized and is released into a plume of ions containing common cations (Na<sup>+</sup>, K<sup>+</sup>, etc.), matrix ions, and analyte ions. These ions then enter the flight tube where they are sent to the detector. Different instrumental modes adjust for differences in ion flight time (<link target-id="eip-id1172357129533"/>). The MALDI technique is also more sensitive and universal since readjustments to match absorption frequency is not necessary due to the matrix absorption. Many of the commonly used matrices have similar wavelength absorptions (<link target-id="eip-499"/>).</para><figure id="eip-id1172357129533"><media id="Figure1xx" alt=""> <image mime-type="image/png" src="../../media/MALDI Schmatic.jpg" width="400" print-width="3in"/> </media><caption>Schematic representation of the MALDI process. The laser strikes the surface of the matrix-analyte sample causing a “plume” of matrix and analyte ions that are received by the analyzer. Yellow circles represent the matrix, red ovals represent the sample/analyte, and the small black circles represent cations. </caption></figure><table id="eip-499" summary="Table of different small molecules used as MALDI matrices">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Matrix</emphasis></entry>
+    <entry><emphasis effect="bold">Wavelength</emphasis></entry>
+    <entry><emphasis effect="bold">Application</emphasis></entry>
+    <entry><emphasis effect="bold">Structure</emphasis></entry>
+  </row>
+  <row>
+    <entry>Cyano-4-hydroxycinnamic acid</entry>
+    <entry>UV, 337 nm, 353 nm</entry>
+    <entry>Peptides</entry>
+    <entry><media id="Matrix1" alt="Matrix1.">
+  <image mime-type="image/jpeg" src="../../media/Matrix1.jpg" print-width="1in"/>
+</media></entry>
+  </row>
+  <row>
+    <entry>6-Aza-2-thiothymine</entry>
+    <entry>UV, 337 nm, 353 nm</entry>
+    <entry>Proteins, peptides, non-covalent complexes</entry>
+    <entry><media id="Matrix2" alt="Matrix2.">
+  <image mime-type="image/jpeg" src="../../media/Matrix2.jpg" print-width="1in"/>
+</media></entry>
+  </row>
+  <row>
+    <entry>k,m,n,-Di(tri)hydroxy-acetophenone</entry>
+    <entry>UV, 337 nm, 353 nm</entry>
+    <entry>Proteins, peptides, non-covalent complexes</entry>
+    <entry><media id="Matrix3" alt="Matrix3.">
+  <image mime-type="image/jpeg" src="../../media/Matrix3.jpg" print-width="1.5in"/>
+</media></entry>
+  </row>
+  <row>
+    <entry>2,5-Dihydroxybenzoic acid (requires 10% 2-hydroxy-5-methoxybenzoic acid)</entry>
+    <entry>UV, 337 nm, 353 nm</entry>
+    <entry>Proteins, peptides, carbohydrates, synthetic polymers</entry>
+    <entry><media id="Matrix4" alt="Matrix4.">
+  <image mime-type="image/jpeg" src="../../media/Matrix4.jpg" print-width="1in"/>
+</media></entry>
+  </row>
+  <row>
+    <entry>Sinapinic acid</entry>
+    <entry>UV, 337 nm, 353 nm</entry>
+    <entry>Proteins, peptides</entry>
+    <entry><media id="Matrix5" alt="Matrix5.">
+  <image mime-type="image/jpeg" src="../../media/Matrix5.jpg" print-width="1.5in"/>
+</media></entry>
+  </row>
+  <row>
+    <entry>Nicotinic acid</entry>
+    <entry>UV, 266 nm</entry>
+    <entry>Proteins, peptides, adduct formation</entry>
+    <entry><media id="Matrix6" alt="Matrix6.">
+  <image mime-type="image/jpeg" src="../../media/Matrix6.jpg" print-width="1in"/>
+</media></entry>
+  </row>
+  <row>
+    <entry>Succinic acid</entry>
+    <entry>IR, 2.94 µm, 2.79 µm </entry>
+    <entry>Protiens, peptides</entry>
+    <entry><media id="Matrix7" alt="Matrix7.">
+  <image mime-type="image/jpeg" src="../../media/Matrix7.jpg" print-width="1in"/>
+</media></entry>
+  </row>
+  <row>
+    <entry>Glycerol</entry>
+    <entry>IR, 2.94 µm, 2.79 µm </entry>
+    <entry>Protiens, peptides</entry>
+    <entry><media id="Matrix8" alt="Matrix8.">
+  <image mime-type="image/jpeg" src="../../media/Matrix8.jpg" print-width="1in"/>
+</media></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Table of different small molecules used as MALDI matrices. </caption>
+</table></section><section id="import-auto-id1165411027936">
+      <title>Collection of MALDI spectra </title>
+      <para id="import-auto-id1165402006573">The process of MALDI takes place in 2 steps:</para>
+      <list id="eip-822" list-type="enumerated" number-style="arabic" class="stepwise"><item>Sample preparation. </item>
+<item>Sample ablation.</item>
+</list><section id="import-auto-id1165411474326"><title>Sample preparation</title><para id="import-auto-id1165410893686">The sample for analysis is combined with a matrix (a solvent containing small organic molecules that have a strong absorbance at the laser wavelength) and added to the MALDI plate (<link target-id="eip-id1170056729391 "/>).  The sample is then dried to the surface of the plate before it is analyzed, resulting in the matrix doped with the analyte of interest as a "solid solution". <link target-id="eip-id1170056729391"/> shows the loading of a peptide in water in cyano-4-hydroxycinnamic acid matrix. </para><figure id="eip-id1170056729391"><media id="SamplePrep" alt="Sample prep.">
+  <image mime-type="image/jpeg" src="../../media/Sample prep.jpg" width="400" print-width="3in"/>
+</media>
+<caption>The addition of the sample and matrix on to a MALDI plate, the samples are left until completely dry. </caption></figure><para id="import-auto-id1165410927172">Prior to insertion of the plate into the MALDI instrument, the samples <emphasis effect="italics">must be fully dried</emphasis>.  The MALDI plate with the dry samples is placed on a carrier and is inserted into the vacuum chamber (<link target-id="eip-id1172359784046 "/>a-b). After the chamber is evacuated, it is ready to start the step of sample ablation. </para><figure id="eip-id1172359784046"><media id="InstrumentLoad" alt="Instrument loading.">
+  <image mime-type="image/jpeg" src="../../media/Instrument loading.jpg" width="500" print-width="4in"/>
+</media><caption>(a) Image of the MALDI carrier released for sample loading. (b-c) Image of the sample plate loaded into the MALDI carrier and insertion onto the instrument.<emphasis effect="bold"/></caption></figure><para id="import-auto-id1165406589932">After the sample is loaded into the instrument, the instrument camera will show activate to show a live feed from inside of the chamber. The live feed allows the controller to view the location where the spectrum is being acquired. This becomes especially important when the operator manually fires the laser pulses.</para>
+      </section><section id="import-auto-id1165404235081">
+        <title>Collection of a spectrum</title>
+        <para id="import-auto-id8900322">When the sample is loaded into the vacuum chamber of the instrument, there are several options for taking a mass spectrum.  First, there are several modes for the instrument, two of which are described here:  axial and reflectron modes.</para>
+        <section id="import-auto-id1165411004534"><title>Axial mode</title><para id="import-auto-id1165404954074">In the axial (or linear) mode, only a very short ion pulse is required before the ions go down the flight tube and hit the detector.  This mode is often used when exact accuracy is not required since the mass accuracy has an error of about +/- 2-5%.  Sources of these errors are found in the arrival time of different ions through the flight tube to the detector.  Errors in the arrival time are caused by the difference in initial velocity with which the ions travel based on their size. The larger ions have a lower initial velocity, thus they reach the detector after a longer period of time. This decreases the mass detection resolution.</para><figure id="eip-id1169051130902"><media id="MALDILinear" alt="MALDI instrument diagram linear.">
+  <image mime-type="image/jpeg" src="../../media/MALDI instrument diagram linear.jpg" width="300" print-width="2in"/>
+</media><caption>MALDI instrument diagram depicting the axial mode. The laser strikes the surface of the matrix-analyte sample and a plume of ions is released into the detector. The ions with higher energy travel faster compared to those with lower energy but the same mass.  These ions will hit the detector at different times causing some loss in resolution. </caption></figure></section><section id="import-auto-id1165403368779"><title>Reflectron mode</title><para id="import-auto-id1165423050476">In the reflectron (“ion mirror”) mode, ions are refocused before they hit the detector.  The reflectron itself is actually a set of ring electrodes that create an electric field that is constant near the end of the flight tube.  This causes the ions to slow and reverse direction towards a separate detector.  Smaller ions are then brought closer to large ions before the group of ions hit the detector. This assists with improving detection resolution and decreases accuracy error to +/- 0.5%.</para>
+          <figure id="eip-id1172351324395"><media id="MALDIReflectron" alt="MALDI instrument diagram reflectron.">
+  <image mime-type="image/jpeg" src="../../media/MALDI instrument diagram reflectron.jpg" width="300" print-width="3in"/>
+</media><caption>MALDI instrument diagram depicting the reflectron mode. The laser strikes the surface of the matrix-analyte sample and a plume of ions is released into the analyzer. Higher energy ions of the same mass travel down the flight tube faster than lower energy ion of a similar mass, however in the reflectron mode this difference in corrected. Ring electrodes are activated and create a uniform electric field. This slows the ions and redirects them into the reflectron detector. This increases resolution by refocusing the ions to reach the detector at a similar time.</caption></figure></section></section>
+    </section>
+    <section id="import-auto-id1165401677305"><title>Example of MALDI application</title><para id="import-auto-id1165401347290">While MALDI is used extensively in analyzing proteins and peptides, it is also used to analyze nanomaterials. The following example describes the analysis of fullerene analogues synthesized for a high performance conversion system for solar power. The fullerene C<sub>60</sub> is a spherical carbon molecule consisting of 60 sp<sup>2</sup> carbon atoms, the properties of which may be altered through functionalization. A series of <emphasis effect="italics">tert</emphasis>-butyl-4-C61-benzoate (t-BCB) functionalized fullerenes were synthesized and isolated. MALDI was not used extensively as a method for observing activity, but instead was used as a conformative technique to determine the presence of desired product. Three fullerene derivatives were synthesized (<link target-id="eip-id1167011202886"/>). The identity and number of functional groups were  determined using MALDI (<link target-id="eip-id1167014769821"/>). </para><figure id="eip-id1167011202886"><media id="Fullerenes" alt="Fullerene mod.">
+  <image mime-type="image/jpeg" src="../../media/Fullerene mod.jpg" width="500" print-width="4in"/>
+</media><caption>A series of <emphasis effect="italics">tert</emphasis>-butyl-4-C61-benzoate (<emphasis effect="italics">t</emphasis>-BCB) functionalized fullerenes were synthesized and isolated. These compounds were characterized by using MALDI to confirm desired product and isolation.</caption></figure><figure id="eip-id1167014769821"><media id="FullereneMALDI" alt="Fullerene MALDI_arb.">
+  <image mime-type="image/jpeg" src="../../media/Fullerene MALDI_arb.jpg" width="500" print-width="4in"/>
+</media><caption>Mass for t-BCB-B (M<sub>W</sub> = 1100) was determined by using MALDI.</caption></figure></section><section id="import-auto-id1165401596801"><title>Bibliography</title><list id="eip-964">
+<item>M. Karas, D. Bachmann and F. Hillenkamp, <emphasis effect="italics">Anal. Chem.</emphasis>, 1985, <emphasis effect="bold">57</emphasis>, 2935.</item>
+<item>C. Liu, L. Xu, D. Chi, Y. Li, H. Liu and J. Wang, <emphasis effect="italics">ACS Appl. Mater. Interfaces,</emphasis> 2013,<emphasis effect="bold"> 5</emphasis>, 1061.</item>
+<item>E. de Hoffmann and V. Stroobant, <emphasis effect="italics">Mass Spectrometry: Principles and Applications</emphasis>, 2<sup>nd</sup> Edition, John Wiley &amp; Sons Ltd., Chichester (2001).</item>
+<item>F. Hillenkamp and J. Peter-Katalinić, <emphasis effect="italics">MALDI MS: a practical guide to instrumentation, methods and applications</emphasis>, Wiley-VCH Verlag GmHb &amp; Co. KGaA, Weinheim (2007).</item>
+<item>Z. Cai and S. Liu, <emphasis effect="italics">Topics in current chemistry: Applications of MALDI-TOF spectroscopy</emphasis>, Springer-Veralg, Berlin Heidelberg (2013).</item>
+</list>
+
+
+
+
+    </section></content>
+</document>

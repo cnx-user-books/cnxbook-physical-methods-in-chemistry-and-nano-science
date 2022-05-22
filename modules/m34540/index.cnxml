@@ -1,0 +1,186 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Microparticle Characterization via Confocal Microscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34540</md:content-id>
+  <md:title>Microparticle Characterization via Confocal Microscopy</md:title>
+  <md:abstract/>
+  <md:uuid>59efb8e9-1497-4206-a71e-20ce175a3160</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="id1164234007116">
+      <title>A brief history of confocal microscopy</title>
+      <para id="id1164235368686">Confocal microscopy was invented by Marvin Minsky (FIGURE) in 1957, and subsequently patented in 1961. Minsky was trying to study neural networks to understand how brains learn, and needed a way to image these connections in their natural state (in three dimensions). He invented the confocal microscope in 1955, but its utility was not fully realized until technology could catch up. In 1973 Egger published the first recognizable cells, and the first commercial microscopes were produced in 1987. </para>
+
+
+<figure id="id5556"><media id="id5556_media" alt="">
+            <image mime-type="image/jpg" src="../../media/minsky.jpg" id="id5556__onlineimage" width="300" print-width="2in"/>
+          </media><caption>American cognitive scientist in the field of artificial intelligence Marvin Lee Minsky (1927 - ). </caption></figure>
+  
+      
+      <para id="id1164244460282">In the 1990's confocal microscopy became near routine due to advances in laser technology, fiber optics, photodetectors, thin film dielectric coatings, computer processors, data storage, displays, and fluorophores. Today, confocal microscopy is widely used in life sciences to study cells and tissues.</para>
+    </section>
+    <section id="id1164236203628">
+      <title>The basics of fluorescence</title>
+      <para id="id1164231495272">Fluorescence is the emission of a secondary photon upon absorption of a photon of higher wavelength. Most molecules at normal temperatures are at the lowest energy state, the so-called 'ground state'. Occasionally, a molecule may absorb a photon and increase its energy to the <emphasis effect="italics">excited state</emphasis>. From here it can very quickly transfer some of that energy to other molecules through collisions; however, if it cannot transfer enough energy it spontaneously emits a photon with a lower wavelength <link target-id="id1164233719890"/>. This is fluorescence. </para>
+
+
+        <figure id="id1164233719890"><media id="id1164233719890_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 1-643a.png" id="id1164233719890__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+        <caption>An energy diagram shows the principle of fluorescence. A molecule absorbs a high energy photon (blue) which excites the molecule to a higher energy state. The molecule then dissipates some of the extra energy via molecular collisions (red), and emits the remaining energy by emitting a photon (green) to return to the ground state.</caption></figure>
+
+      
+      
+      <para id="id1164234322510">In fluorescence microscopy, fluorescent molecules are designed to attach to specific parts of a sample, thus identifying them when imaged. Multiple fluorophores can be used to simultaneously identify different parts of a sample. There are two options when using multiple fluorophores:</para>
+      <list id="id1164227506920" list-type="bulleted"><item>Fluorophores can be chosen that respond to different wavelengths of a multi-line laser. </item>
+        <item>Fluorophores can be chosen that respond to the same excitation wavelength but emit at different wavelengths.</item>
+      </list>
+      
+      
+      <para id="id1164241731697"> In order to increase the signal, more fluorophores can be attached to a sample. However, there is a limit, as high fluorophore concentrations result in them quenching each other, and too many fluorophores near the surface of the sample may absorb enough light to limit the light available to the rest of the sample. While the intensity of incident radiation can be increased, fluorophores may become saturated if the intensity is too high.</para>
+      <para id="id1164234357183">Photobleaching is another consideration in fluorescent microscopy. Fluorophores irreversibly fade when exposed to excitation light. This may be due to reaction of the molecules’ excited state with oxygen or oxygen radicals. There has been some success in limiting photobleaching by reducing the oxygen available or by using free-radical scavengers. Some fluorophores are more robust than others, so choice of fluorophore is very important. Fluorophores today are available that emit photons with wavelengths ranging 400 - 750 nm.</para>
+    </section>
+    <section id="id1164241295438">
+      <title>How confocal microscopy is different from optical microscopy</title>
+      <para id="id1164234652122">A microscope’s lenses project the sample plane onto an image plane. An image can be formed at many image planes; however, we only consider one of these planes to be the ‘focal plane’ (when the sample image is in focus). When a pinhole screen in placed at the image focal point, it allows in-focus light to pass while effectively blocking light from out-of-focus locations <link target-id="id1164239451919"/>. This pinhole is placed at the conjugate image plane to the focal plane, thus the name "confocal". The size of this pinhole determines the depth-of-focus; a bigger pinhole collects light from a larger volume. The pinhole can only practically be made as small as approximately the radius of the Airy disk, which is the best possible light spot from a circular aperture <link target-id="id1164235936709"/>, because beyond that more signal is blocked resulting in a decreased signal-to-noise ratio.</para>
+
+
+      <note id="eip-499">In optics, the Airy disk and Airy pattern are descriptions of the best focused spot of light that a perfect lens with a circular aperture can make, limited by the diffraction of light.</note><figure id="id1164239451919"><media id="id1164239451919_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-a0ce.png" id="id1164239451919__onlineimage" width="300" print-width="3in"/>
+        </media>
+      <caption>A schematic of a simplified microscope objective. Red and blue lines represent light rays refracted through the objective, indicating the focal points and corresponding image points.</caption></figure>
+
+
+      
+      
+
+
+
+        <figure id="id1164235936709"><media id="id1164235936709_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 6-9cac.png" id="id1164235936709__onlineimage" width="200" print-width="2in"/>
+          </media>
+        <caption>A representation of an Airy disk. An intense peak of light forms at the middle, surrounded by rings of lower intensity formed due to the diffraction of light.  Adapted with permission from <emphasis effect="italics">Confocal Microscopy</emphasis>, Eric Weeks</caption></figure>
+        
+
+      
+      <para id="id1164247215006">To further reduce the effect of scattering due to light from other parts of the sample, the sample is only illuminated at a tiny point through the use of a pinhole in front of the light source. This greatly reduces the interference of scattered light from other parts of the sample. The combination of a pinhole in front of both the light source and detector is what makes confocal unique.</para>
+      
+    </section>
+    <section id="id1164236309956">
+      <title>Parts of a confocal microscope</title><para id="id1164240223567">A simple confocal microscope generally consists of a laser, pinhole aperture, dichromatic mirror, scanning mirrors, microscope objectives, a photomultiplier tube, and computing software used to reconstruct the image <link target-id="id1164224881352"/>. Because a relatively small volume of the sample is being illuminated at any given time, a very bright light source must be used to produce a detectable signal. Early confocal microscopes used zirconium arc lamps, but recent advances in laser technology have made lasers in the UV-visible and infrared more stable and affordable. A laser allows for a monochromatic (narrow wavelength range) light source that can be used to selectively excite fluorophores to emit photons of a different wavelength. Sometimes filters are used to further screen for single wavelengths.</para>
+
+
+      <figure id="id1164224881352"><media id="id1164224881352_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-3a8a.png" id="id1164224881352__onlineimage" width="350" print-width="3.5in"/>
+        </media>
+      <caption>A schematic of a confocal microscope. Rays represent the path of light from source to detector.</caption></figure>
+      
+      
+      <para id="id1164230235129">The light passes through a dichromatic (or "dichroic") mirror <link target-id="id1164224881352"/> which allows light with a higher wavelength (from the laser) to pass but reflects light of a lower wavelength (from the sample) to the detector. This allows the light to travel the same path through the majority of the instrument, and eliminates signal due to reflection of the incident light.</para>
+      <para id="id1164235973163">The light is then reflects across a pair of mirrors or crystals, one each for the <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> directions, which enable the beam to scan across the sample (<link target-id="id1164224881352"/> ). The speed of the scan is usually the limiting factor in the speed of image acquisition. Most confocal microscopes can create an image in 0.1 - 1 second. Usually the sample is raster scanned quickly in the <emphasis effect="italics">x</emphasis>-direction and slowly in the <emphasis effect="italics">y</emphasis> direction (like reading a paragraph left to right, <link target-id="id1164226723592"/>).</para>
+
+
+
+        <figure id="id1164226723592"><media id="id1164226723592_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 9-3d6b.png" id="id1164226723592__onlineimage" width="200" print-width="2in"/>
+          </media>
+        <caption>Raster scanning is usually performed quickly in the <emphasis effect="italics">x</emphasis> direction, line-by-line. Other scanning patterns are also used, but this is most common.</caption></figure>
+
+      
+      <para id="id1164234338518">The rastering is controlled by galvanometers that move the mirrors back and forth in a sawtooth motion. The disadvantage to scanning with the light beam is that the angle of light hitting the sample changes. Fortunately, this change is small. Interestingly, Minsky's original design moved the stage instead of the beam, as it was difficult to maintain alignment of the sensitive optics. Despite the obvious disadvantages of moving a bulky specimen, there are some advantages of moving the stage and keeping the optics stationary: </para>
+      <list id="id1164234464955" list-type="bulleted">
+        <item>The light illuminates the specimen axially everywhere circumventing optical aberrations, and</item>
+        <item>The field of view can be made much larger by controlling the amplitude of the stage movements.</item>
+      </list>
+      <para id="id1164229245456"> An alternative to light-reflecting mirrors is the acousto-optic deflector (AOD). The AOD allows for fast <emphasis effect="italics">x</emphasis>-direction scans by creating a diffraction grating from high-frequency standing sound (pressure) waves which locally change the refractive index of a crystal. The disadvantage to AODs is that the amount of deflection depends on the wavelength, so the emission light cannot be descanned (travel back through the same path as the excitation light). The solution to this is to descan only in the <emphasis effect="italics">y</emphasis> direction controlled by the slow galvanometer and collect the light in a slit instead of a pinhole. This results in reduced optical sectioning and slight distortion due to the loss of radial symmetry, but good images can still be formed. Keep in mind this is not a problem for reflected light microscopy which has the same wavelength for incident and reflected light!</para>
+      <para id="id1164231615064"> Another alternative is the Nipkow disk, which has a spiral array of pinholes that create the simultaneous sampling of many points in the sample. A single rotation covers the entire specimen several times over (at 40 revolutions per second, that's over 600 frames per second). This allows descanning, but only about 1% of the excitation light passes through. This is okay for reflected light microscopy, but the signal is relatively weak and signal-to-noise ratio is low. The pinholes could be made bigger to increase light transmission but then the optical sectioning is less effective (remember depth of field is dependent on the diameter of the pinhole) and <emphasis effect="italics">xy</emphasis> resolution is poorer. Highly responsive, efficient fluorophores are needed with this method.</para>
+      <para id="id1164232029608">Returning to the confocal microscope (<link target-id="id1164224881352"/>), light then passes through the objective which acts as a well-corrected condenser and objective combination. The illuminated fluorophores fluoresce and emitted light travels up the objective back to the dichromatic mirror. This is known as epifluorescence when the incident light has the same path as detected light. Since the emitted light now has a lower wavelength than the incident, it cannot pass through the dichromatic mirror and is reflected to the detector. When using reflected light, a beamsplitter is used instead of a dichromatic mirror. Fluorescence microscopy when used properly can be more sensitive than reflected light microscopy.</para><para id="id1691499"> Though the signal’s position is well-defined according to the position of the <emphasis effect="italics">xy</emphasis> mirrors, the signal from fluorescence is relatively weak after passing through the pinhole, so a photomultiplier tube is used to detect emitted photons. Detecting all photons without regard to spatial position increases the signal, and the photomultiplier tube further increases the detection signal by propagating an electron cascade resulting from the photoelectric effect (incident photons kicking off electrons). The resulting signal is an analog electrical signal with continuously varying voltage that corresponds to the emission intensity. This is periodically sampled by an analog-to-digital converter.</para>
+      <para id="id1164229882739"> It is important to understand that the image is a reconstruction of many points sampled across the specimen. At any given time the microscope is only looking at a tiny point, and no complete image exists that can be viewed at an instantaneous point in time. Software is used to recombine these points to form an image plane, and combine image planes to form a 3-D representation of the sample volume.</para>
+    </section>
+    <section id="id2540938">
+      <title>Two-photon microscopy</title>
+      <para id="id1164235970495">Two-photon microscopy is a technique whereby two beams of lower intensity are directed to intersect at the focal point. Two photons can excite a fluorophore if they hit it at the same time, but alone they do not have enough energy to excite any molecules. The probability of two photons hitting a fluorophore at nearly the exact same time (less than 10<sup>-16</sup>) is very low, but more likely at the focal point. This creates a bright point of light in the sample without the usual cone of light above and below the focal plane, since there are almost no excitations away from the focal point.</para>
+
+
+
+
+      
+<figure id="id55536"><media id="id55536_media" alt="">
+            <image mime-type="image/jpg" src="../../media/2photon.jpg" id="id55536__onlineimage" width="300" print-width="3in"/>
+          </media><caption>Schematic representation of the difference between single photon and two photon microscopy. Copyright: J. Mertz, Boston University. 
+</caption></figure>
+
+
+
+<para id="id1164226789116">To increase the chance of absorption, an ultra-fast pulsed laser is used to create quick, intense light pulses. Since the hourglass shape is replaced by a point source, the pinhole near the detector (used to reduce the signal from light originating from outside the focal plane) can be eliminated. This also increases the signal-to-noise ratio (here is very little noise now that the light source is so focused, but the signal is also small). These lasers have lower average incident power than normal lasers, which helps reduce damage to the surrounding specimen. This technique can image deeper into the specimen (~400 μm), but these lasers are still very expensive, difficult to set up, require a stronger power supply, intensive cooling, and must be aligned in the same optical table because pulses can be distorted in optical fibers.</para>
+    </section>
+    <section id="id1164235121390">
+      <title>Microparticle characterization</title>
+      <para id="id1164231288612">Confocal microscopy is very useful for determining the relative positions of particles in three dimensions <link target-id="id1164231076889"/>. Software allows measurement of distances in the 3D reconstructions so that information about spacing can be ascertained (such as packing density, porosity, long range order or alignment, etc.).</para>
+
+
+        <figure id="id1164231076889"><media id="id1164231076889_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 12-3111.jpg" id="id1164231076889__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>A reconstruction of a colloidal suspension of poly(methyl methacrylate) (PMMA) microparticles approximately 2 microns in diameter. Adapted from <emphasis effect="italics">Confocal Microscopy of Colloids</emphasis>, Eric Weeks.</caption></figure>
+
+      
+      <para id="id1718640">If imaging in fluorescence mode, remember that the signal will only represent the locations of the individual fluorophores. There is no guarantee fluorophores will completely attach to the structures of interest or that there will not be stray fluorophores away from those structures. For microparticles it is often possible to attach the fluorophores to the shell of the particle, creating hollow spheres of fluorophores. It is possible to tell if a sample sphere is hollow or solid but it would depend on the transparency of the material.</para>
+      <para id="id1164235027085">Dispersions of microparticles have been used to study nucleation and crystal growth, since colloids are much larger than atoms and can be imaged in real-time. Crystalline regions are determined from the order of spheres arranged in a lattice, and regions can be distinguished from one another by noting lattice defects.</para>
+      <para id="id1164232246265">Self-assembly is another application where time-dependent, 3-D studies can help elucidate the assembly process and determine the position of various structures or materials. Because confocal is popular for biological specimens, the position of nanoparticles such as quantum dots in a cell or tissue can be observed. This can be useful for determining toxicity, drug-delivery effectiveness, diffusion limitations, etc.</para>
+    </section>
+    <section id="id1164235383213">
+      <title>A summary of confocal microscopy’s strengths and weaknesses</title>
+      <list id="eip-958"><title>Strengths</title><item>Less haze, better contrast than ordinary microscopes.</item>
+          <item>3-D capability.</item>
+          <item>Illuminates a small volume.</item>
+          <item>Excludes most of the light from the sample not in the focal plane.</item>
+          <item>Depth of field may be adjusted with pinhole size.</item>
+          <item>Has both reflected light and fluorescence modes.</item>
+          <item>Can image living cells and tissues.</item>
+          <item>Fluorescence microscopy can identify several different structures simultaneously.</item>
+          <item>Accommodates samples with thickness up to 100 μm.</item>
+          <item>Can use with two-photon microscopy.</item>
+          <item>Allows for optical sectioning (no artifacts from physical sectioning) 0.5 - 1.5 μm.</item>
+        </list>
+      <list id="eip-550"><title>Weakness</title><item>Images are scanned slowly (one complete image every 0.1-1 second).</item>
+          <item>Must raster scan sample, no complete image exists at any given time.</item>
+          <item>There is an inherent resolution limit because of diffraction (based on numerical aperture, ~200 nm).</item>
+          <item>Sample should be relatively transparent for good signal.</item>
+          <item>High fluorescence concentrations can quench the fluorescent signal.</item>
+          <item>Fluorophores irreversibly photobleach.</item>
+          <item>Lasers are expensive.</item>
+          <item>Angle of incident light changes slightly, introducing slight distortion.</item>
+        </list>
+    </section>
+    <section id="id1164229118666">
+      <title>Bibliography</title>
+      <list id="eip-206">
+
+
+
+<item>P. Davidovits and M. D. Egger, <emphasis effect="italics">Nature</emphasis>, 1973, <emphasis effect="bold">244</emphasis>, 366. </item>
+
+
+
+<item>A. Hibbs, <emphasis effect="italics">Confocal Microscopy for Biologists</emphasis>, Twayne Publishers, Boston (2004).</item>
+
+<item>M. Minsky, <emphasis effect="italics">Scanning</emphasis>, 1988, <emphasis effect="bold">10</emphasis>, 128.</item>
+
+<item>J. Pawley, <emphasis effect="italics">Handbook of Biological Confocal Microscopy</emphasis>, Twayne Publishers, Boston (2006).</item>
+
+<item>V. Prasad, D. Semwogerere, and E.R. Weeks, <emphasis effect="italics">J. Phys.: Condens. Matter</emphasis>, 2007, <emphasis effect="bold">19</emphasis>, 113102.</item>
+
+<item>D. Semwogerere and E. R. Weeks, <emphasis effect="italics">Encyclopedia of Biomaterials and Biomedical Engineering Confocal Microscopy</emphasis>, Taylor Francis (2005).</item>
+
+<item>C. Sheppard, <emphasis effect="italics">Confocal Laser Scanning Microscopy</emphasis>, Twayne Publishers, Boston (1997).</item>
+
+</list>
+      
+      
+      
+    </section>
+  </content>
+</document>

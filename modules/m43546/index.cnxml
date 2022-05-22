@@ -1,0 +1,338 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Auger Electron Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43546</md:content-id>
+  <md:title>Auger Electron Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>4371ab8d-0bf0-447a-9f2a-f2ffc8ff4fd0</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164791623323">
+      <title>Basic principles</title>
+      <para id="import-auto-id1164788655003">Auger electron spectroscopy (AES) is one of the most commonly employed surface analysis techniques. It uses the energy of emitted electrons to identify the elements present in a sample, similar to X-ray photoelectron spectroscopy (XPS). The main difference is that XPS uses an X-ray beam to eject an electron while AES uses an electron beam to eject an electron. In AES, the sample depth is dependent on the escape energy of the electrons. It is not a function of the excitation source as in XPS. In AES, the collection depth is limited to 1-5 nm due to the small escape depth of electrons, which permits analysis of the first 2 - 10 atomic layers. In addition, a typical analysis spot size is roughly 10 nm. A representative AES spectrum illustrating the number of emitted electrons, N, as a function of kinetic energy, E, in direct form (red) and in differentiated form (black) is shown in <link target-id="import-auto-id1164792432344"/>.</para><figure id="import-auto-id1164792432344"><media id="import-auto-id1164795481243" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 3-e565.jpg" height="208" width="332" print-width="3.5in"/>
+        </media>
+      <caption>AES survey spectrum (red) and differentiated spectrum (black) of an oxidized Fe-Cr-Nb alloy. Adapted from H. J. Mathieu in <emphasis effect="italics">Surface Analysis: The Principal Techniques</emphasis>, 2<sup>nd</sup> Edition, Ed. J. C. Vickerman, Wiley-VCH, Weinheim (2011).</caption></figure><para id="import-auto-id1164792428781">Like XPS, AES measures the kinetic energy (E<sub>k</sub>) of an electron to determine its binding energy (E<sub>b</sub>). The binding energy is inversely proportional to the kinetic energy and can be found from <link target-id="eip-680"/>, where hν is the energy of the incident photon and ΔΦ is the difference in work function between the sample and the detector material. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-680"><m:math display="display">
+  <m:apply>
+    <m:eq/>
+    <m:ci>
+      <m:msub>
+        <m:mi>E</m:mi>
+        <m:mi>b</m:mi>
+      </m:msub>
+    </m:ci>
+    <m:apply>
+      <m:plus/>
+      <m:apply>
+        <m:minus/>
+        <m:ci>hν</m:ci>
+        <m:ci>
+          <m:msub>
+            <m:mi>E</m:mi>
+            <m:mi>k</m:mi>
+          </m:msub>
+        </m:ci>
+      </m:apply>
+      <m:ci>ΔΦ</m:ci>
+    </m:apply>
+  </m:apply>
+</m:math></equation><para id="import-auto-id1164789200746">Since the E<sub>b</sub> is dependent on the element and the electronic environment of the nucleus, AES can be used to distinguish elements and their oxidation states. For instance, the energy required to remove an electron from Fe<sup>3+</sup> is more than in Fe<sup>0</sup>. Therefore, the Fe<sup>3+</sup> peak will have a lower E<sub>k</sub> than the Fe<sup>0</sup> peak, effectively distinguishing the oxidation states.</para></section>
+    <section id="import-auto-id1164786847571"><title>Auger process</title><para id="import-auto-id1164792430999">An Auger electron comes from a cascade of events. First, an electron beam comes in with sufficient energy to eject a core electron creating a vacancy (see <link target-id=" import-auto-id1164792534904"/>A). Typical energies of the primary electrons range from 3 - 30 keV. A secondary electron (imaging electron) of higher energy drops down to fill the vacancy (see <link target-id=" import-auto-id1164792534904"/>B) and emits sufficient energy to eject a tertiary electron (Auger electron) from a higher shell (see <link target-id=" import-auto-id1164792534904"/>C).</para><figure id="import-auto-id1164792534904"><media id="import-auto-id1164787027836" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 7-dc3d.jpg" height="194" width="370" print-width="3.5in"/>
+        </media>
+      <caption>Schematic diagram of the Auger process.</caption></figure><para id="import-auto-id1164792323804">The shells from which the electrons move from lowest to highest energy are described as the K shell, L shell, and M shell. This nomenclature is related to quantum numbers.  Explicitly, the K shell represents the 1s orbital, the L shell represents the 2s and 2p orbitals, and the M shell represents the 3s, 3p, and 3d orbitals. The cascade of events typically begins with the ionization of a K shell electron, followed by the movement of an L shell electron into the K shell vacancy. Then, either an L shell electron or M shell electron is ejected. It depends on the element, which peak is prevalent but often both peaks will be present. The peak seen in the spectrum is labeled according to the shells involved in the movement of the electrons. For example, an electron ejected from a gold atom could be labeled as Au KLL or Au KLM. </para><para id="eip-771">The intensity of the peak depends on the amount of material present, while the peak position is element dependent. Auger transitions characteristic of each elements can be found in the literature. Auger transitions of the first forty detectable elements are listed in <link target-id=" import-auto-id1164792424294"/>.</para>
+
+<table id="import-auto-id1164792424294" pgwide="1" summary="Selected AES transitions and their corresponding kinetic energy. Column one is atomic number, column two is the corresponding element, column three is the Auger transition, and column four is the kinetic energy in electronvolts of the Auger transition.">
+<tgroup cols="4"><colspec colwidth="1.25in" colnum="1" colname="c1"/>
+          <colspec colwidth="1in" colnum="2" colname="c2"/>
+          <colspec colwidth="1.5in" colnum="3" colname="c3"/>
+          <colspec colwidth="2in" colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>
+                  <emphasis effect="bold">Atomic number</emphasis>
+              </entry>
+              <entry>
+                  <emphasis effect="bold">Element</emphasis>
+              </entry>
+              <entry>
+                  <emphasis effect="bold">AES transition</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Kinetic energy of transition (eV)</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>3</entry>
+              <entry>Li</entry>
+              <entry>KLL</entry>
+              <entry>43</entry>
+            </row>
+            <row>
+              <entry>4</entry>
+              <entry>Be</entry>
+              <entry>KLL</entry>
+              <entry>104</entry>
+            </row>
+            <row>
+              <entry>5</entry>
+              <entry>B</entry>
+              <entry>KLL</entry>
+              <entry>179</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>C</entry>
+              <entry>KLL</entry>
+              <entry>272</entry>
+            </row>
+            <row>
+              <entry>7</entry>
+              <entry>N</entry>
+              <entry>KLL</entry>
+              <entry>379</entry>
+            </row>
+            <row>
+              <entry>8</entry>
+              <entry>O</entry>
+              <entry>KLL</entry>
+              <entry>508</entry>
+            </row>
+            <row>
+              <entry>9</entry>
+              <entry>F</entry>
+              <entry>KLL</entry>
+              <entry>647</entry>
+            </row>
+
+            <row>
+              <entry>11</entry>
+              <entry>Na</entry>
+              <entry>KLL</entry>
+              <entry>990</entry>
+            </row>
+            <row>
+              <entry>12</entry>
+              <entry>Mg</entry>
+              <entry>KLL</entry>
+              <entry>1186</entry>
+            </row>
+            <row>
+              <entry>13</entry>
+              <entry>Al</entry>
+              <entry>LMM</entry>
+              <entry>68</entry>
+            </row>
+            <row>
+              <entry>14</entry>
+              <entry>Si</entry>
+              <entry>LMM</entry>
+              <entry>92</entry>
+            </row>
+            <row>
+              <entry>15</entry>
+              <entry>P</entry>
+              <entry>LMM</entry>
+              <entry>120</entry>
+            </row>
+            <row>
+              <entry>16</entry>
+              <entry>S</entry>
+              <entry>LMM</entry>
+              <entry>152</entry>
+            </row>
+            <row>
+              <entry>17</entry>
+              <entry>Cl</entry>
+              <entry>LMM</entry>
+              <entry>181</entry>
+            </row>
+
+            <row>
+              <entry>19</entry>
+              <entry>K</entry>
+              <entry>KLL</entry>
+              <entry>252</entry>
+            </row>
+            <row>
+              <entry>20</entry>
+              <entry>Ca</entry>
+              <entry>LMM</entry>
+              <entry>291</entry>
+            </row>
+            <row>
+              <entry>21</entry>
+              <entry>Sc</entry>
+              <entry>LMM</entry>
+              <entry>340</entry>
+            </row>
+            <row>
+              <entry>22</entry>
+              <entry>Ti</entry>
+              <entry>LMM</entry>
+              <entry>418</entry>
+            </row>
+            <row>
+              <entry>23</entry>
+              <entry>V</entry>
+              <entry>LMM</entry>
+              <entry>473</entry>
+            </row>
+            <row>
+              <entry>24</entry>
+              <entry>Cr</entry>
+              <entry>LMM</entry>
+              <entry>529</entry>
+            </row>
+            <row>
+              <entry>25</entry>
+              <entry>Mn</entry>
+              <entry>LMM</entry>
+              <entry>589</entry>
+            </row>
+            <row>
+              <entry>26</entry>
+              <entry>Fe</entry>
+              <entry>LMM</entry>
+              <entry>703</entry>
+            </row>
+            <row>
+              <entry>27</entry>
+              <entry>Co</entry>
+              <entry>LMM</entry>
+              <entry>775</entry>
+            </row>
+            <row>
+              <entry>28</entry>
+              <entry>Ni</entry>
+              <entry>LMM</entry>
+              <entry>848</entry>
+            </row>
+            <row>
+              <entry>29</entry>
+              <entry>Cu</entry>
+              <entry>LMM</entry>
+              <entry>920</entry>
+            </row>
+            <row>
+              <entry>30</entry>
+              <entry>Zn</entry>
+              <entry>LMM</entry>
+              <entry>994</entry>
+            </row>
+            <row>
+              <entry>31</entry>
+              <entry>Ga</entry>
+              <entry>LMM</entry>
+              <entry>1070</entry>
+            </row>
+            <row>
+              <entry>32</entry>
+              <entry>Ge</entry>
+              <entry>LMM</entry>
+              <entry>1147</entry>
+            </row>
+            <row>
+              <entry>33</entry>
+              <entry>As</entry>
+              <entry>LMM</entry>
+              <entry>1228</entry>
+            </row>
+            <row>
+              <entry>34</entry>
+              <entry>Se</entry>
+              <entry>LMM</entry>
+              <entry>1315</entry>
+            </row>
+            <row>
+              <entry>35</entry>
+              <entry>Br</entry>
+              <entry>LMM</entry>
+              <entry>1376</entry>
+            </row>
+
+
+
+            <row>
+              <entry>39</entry>
+              <entry>Y</entry>
+              <entry>MNN</entry>
+              <entry>127</entry>
+            </row>
+            <row>
+              <entry>40</entry>
+              <entry>Zr</entry>
+              <entry>MNN</entry>
+              <entry>147</entry>
+            </row>
+            <row>
+              <entry>41</entry>
+              <entry>Nb</entry>
+              <entry>MNN</entry>
+              <entry>167</entry>
+            </row>
+            <row>
+              <entry>42</entry>
+              <entry>Mo</entry>
+              <entry>MNN</entry>
+              <entry>186</entry>
+            </row>
+</tbody>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Selected AES transitions and their corresponding kinetic energy. Adapted from H. J. Mathieu in <emphasis effect="italics">Surface Analysis: The Principal Techniques</emphasis>, Second Edition, Ed. J. C. Vickerman, Wiley-VCH, Weinheim (2011).</caption>
+</table></section><section id="import-auto-id1164786814308">
+      <title>Instrumentation</title>
+      <para id="import-auto-id1164799203771">Important elements of an Auger spectrometer include a vacuum system, an electron source, and a detector. AES must be performed at pressures less than 10<sup>-3</sup> pascal (Pa) to keep residual gases from adsorbing to the sample surface. This can be achieved using an ultra-high-vacuum system with pressures from 10<sup>-8</sup> to 10<sup>-9</sup> Pa. Typical electron sources include tungsten filaments with an electron beam diameter of 3 - 5 μm, LaB<sub>6</sub> electron sources with a beam diameter of less than 40 nm, and Schottky barrier filaments with a 20 nm beam diameter and high beam current density. Two common detectors are the cylindrical mirror analyzer and the concentric hemispherical analyzer discussed below. Notably, concentric hemispherical analyzers typically have better energy resolution. </para><section id="import-auto-id1164792429597"><title>Cylindrical mirror analyzer (CMA)</title><para id="import-auto-id1164792325189">A CMA is composed of an electron gun, two cylinders, and an electron detector (<link target-id="import-auto-id1164792976207"/>). The operation of a CMA involves an electron gun being directed at the sample. An ejected electron then enters the space between the inner and outer cylinders (IC and OC). The inner cylinder is at ground potential, while the outer cylinder’s potential is proportional to the kinetic energy of the electron. Due to its negative potential, the outer cylinder deflects the electron towards the electron detector. Only electrons within the solid angle cone are detected. The resulting signal is proportional to the number of electrons detected as a function of kinetic energy.</para><figure id="import-auto-id1164792976207"><media id="import-auto-id1164787027031" alt="">
+              <image mime-type="image/png" src="../../media/Picture 6-4321.png" height="209" width="431" print-width="4in"/>
+            </media>
+          <caption>Schematic of a cylindrical mirror analyzer.</caption></figure></section><section id="import-auto-id1164791123210"><title>Concentric hemispherical analyzer (CHA)</title><para id="import-auto-id1164792432271">A CHA contains three parts (<link target-id="import-auto-id1164792422876"/>): </para><list id="eip-795" list-type="enumerated" number-style="arabic"><item>A retarding and focusing input lens assembly. </item>
+<item>An inner and outer hemisphere (IH and OH). </item>
+<item>An electron detector. </item>
+</list><figure id="import-auto-id1164792422876"><media id="import-auto-id1164792429703" alt="">
+              <image mime-type="image/png" src="../../media/Picture 1-6696.png" height="265" width="408" print-width="4.25in"/>
+            </media>
+          <caption>Schematic of a concentric hemispherical analyzer.</caption></figure><para id="eip-414">Electrons ejected from the surface enter the input lens, which focuses the electrons and retards their energy for better resolution. Electrons then enter the hemispheres through an entrance slit. A potential difference is applied on the hemispheres so that only electrons with a small range of energy differences reach the exit. Finally, an electron detector analyzes the electrons.</para></section></section>
+    <section id="import-auto-id1164787555914">
+      <title>Applications</title>
+      <para id="import-auto-id1164786846720">AES has widespread use owing to its ability to analyze small spot sizes with diameters from 5 μm down to 10 nm depending on the electron gun. For instance, AES is commonly employed to study film growth and surface-chemical composition, as well as grain boundaries in metals and ceramics. It is also used for quality control surface analyses in integrated circuit production lines due to short acquisition times. Moreover, AES is used for areas that require high spatial resolution, which XPS cannot achieve. AES can also be used in conjunction with transmission electron microscopy (TEM) and scanning electron microscopy (SEM) to obtain a comprehensive understanding of microscale materials, both chemically and structurally. As an example of combining techniques to investigate microscale materials, <link target-id="import-auto-id1164787022259"/> shows the characterization of a single wire from a Sn-Nb multi-wire alloy. <link target-id="import-auto-id1164787022259"/>a is a SEM image of the singular wire and <link target-id="import-auto-id1164787022259"/>b is a schematic depicting the distribution of Nb and Sn within the wire. Point analysis was performed along the length of the wire to determine the percent concentrations of Nb and Sn. </para><figure id="import-auto-id1164787022259"><media id="import-auto-id1164798110150" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 5-ce66.jpg" height="234" width="576" print-width="5.25in"/>
+        </media>
+      <caption>Analysis of a Sn-Nb wire. (a) SEM image of the wire, (b) schematic of the elemental distribution, and (c) graphical representation of point analysis giving the percent concentration of Nb and Sn. Adapted from H. J. Mathieu in <emphasis effect="italics">Surface Analysis: The Principal Techniques</emphasis>, Second Edition, Ed. J. C. Vickerman, Wiley-VCH, Weinheim (2011).</caption></figure><para id="import-auto-id1164789227304">AES is widely used for depth profiling. Depth profiling allows the elemental distributions of layered samples 0.2 – 1 μm thick to be characterized beyond the escape depth limit of an electron. Varying the incident and collection angles, and the primary beam energy controls the analysis depth. In general, the depth resolution decreases with the square root of the sample thickness. Notably, in AES, it is possible to simultaneously sputter and collect Auger data for depth profiling. The sputtering time indicates the depth and the intensity indicates elemental concentrations. Since, the sputtering process does not affect the ejection of the Auger electron, helium or argon ions can be used to sputter the surface and create the trench, while collecting Auger data at the same time. The depth profile does not have the problem of diffusion of hydrocarbons into the trenches. Thus, AES is better for depth profiles of reactive metals (e.g., gold or any metal or semiconductor). Yet, care should be taken because sputtering can mix up different elements, changing the sample composition.  </para></section>
+    <section id="import-auto-id1164792423225">
+      <title>Limitations</title>
+      <para id="import-auto-id1164784640353">While AES is a very valuable surface analysis technique, there are limitations. Because AES is a three-electron process, elements with less than three electrons cannot be analyzed. Therefore, hydrogen and helium cannot be detected. Nonetheless, detection is better for lighter elements with fewer transitions. The numerous transition peaks in heavier elements can cause peak overlap, as can the increased peak width of higher energy transitions. Detection limits of AES include 0.1 – 1% of a monolayer, 10<sup>-16</sup> – 10<sup>-15</sup> g of material, and 10<sup>12</sup> – 10<sup>13</sup> atoms/cm<sup>2</sup>.</para>
+      <para id="import-auto-id1164792422597">Another limitation is sample destruction. Although focusing of the electron beam can improve resolution; the high-energy electrons can destroy the sample. To limit destruction, beam current densities of greater than 1 mA/cm<sup>2</sup> should be used.  Furthermore, charging of the electron beam on insulating samples can deteriorate the sample and result in high-energy peak shifts or the appearance of large peaks.</para>
+    </section>
+    <section id="import-auto-id1164793996544">
+      <title>Bibliography</title>
+      <list id="import-auto-id1164801482684" list-type="bulleted">
+        <item>H. Bubert, J. Rivière, and W. Werner, <emphasis effect="italics">Surface and Thin Film Analysis: A Compendium of Principles, Instrumentation, and Applications</emphasis>, Second Edition, Ed. G. Friedbacher and H. Bubert, Wiley-VCH, Weinheim (2011). </item>
+        <item>H. Lüth in <emphasis effect="italics">Solid Surfaces, Interfaces and Thin Films</emphasis>, Fifth Edition, Springer, New York (2010).</item>
+        <item>H. J. Mathieu in <emphasis effect="italics">Surface Analysis: The Principal Techniques</emphasis>, Second Edition, Ed. J. C. Vickerman, Wiley-VCH, Weinheim (2011).</item>
+        <item>S. N. Raman, D. F. Paul, J. S. Hammond, and K. D. Bomben, <emphasis effect="italics">Microscopy Today</emphasis>, 2011, <emphasis effect="bold">19</emphasis>, 12.</item>
+        <item>N. Turner in <emphasis effect="italics">Analytical Instrumentation Handbook, </emphasis>Second Edition, Ed. G. Ewing, Marcel Dekker, Inc, New York (1997).</item>
+        <item>J. F. Watts in <emphasis effect="italics">Handbook of Adhesion Technology</emphasis>, Ed. Lucas F.M. da Silva, A. Öchsner, and R. Adams, Springer, New York (2011).</item>
+        <item>V. Young and G. Hoflund in <emphasis effect="italics">Handbook of Surface and Interface Analysis Methods for Problem-Solving</emphasis>, Second Edition, Ed. J. Rivière and S. Myhra, CRC Press, Boca Raton (2009).</item>
+      </list>
+    </section>
+  </content>
+</document>

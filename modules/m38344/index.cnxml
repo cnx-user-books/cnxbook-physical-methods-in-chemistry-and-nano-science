@@ -1,0 +1,393 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>SEM and its Applications for Polymer Science</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38344</md:content-id>
+  <md:title>SEM and its Applications for Polymer Science</md:title>
+  <md:abstract/>
+  <md:uuid>d730d4b5-2737-44fa-b5ad-0f8a826be8df</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1168965351313">
+      <title>Introduction </title>
+      <para id="id1168957746322">The scanning electron microscope (SEM) is a very useful imaging technique that utilized a beam of electrons to acquire high magnification images of specimens. Very similar to the transmission electron microscope (TEM), the SEM maps the reflected electrons and allows imaging of thick (~mm) samples, whereas the TEM requires extremely thin specimens for imaging; however, the SEM has lower magnifications. Although both SEM and TEM use an electron beam, the image is formed very differently and users should be aware of when each microscope is advantageous.</para>
+    </section>
+    <section id="id1168964075854">
+      <title>Microscopy physics</title>
+      <section id="id1168949234222"><title>Image formation</title><para id="id1168982607248">All microscopes serve to enlarge the size of an object and allow people to view smaller regions within the sample. Microscopes form optical images and although instruments like the SEM have extremely high magnifications, the physics of the image formation are very basic. The simplest magnification lens can be seen in <link target-id="id1168965617057"/>. The formula for magnification is shown in <link target-id="eip-926"/>, where M is magnification, <emphasis effect="italics">f</emphasis> is focal length, <emphasis effect="italics">u</emphasis> is the distance between object and lens, and<emphasis effect="italics"> v</emphasis> is distance from lens to the image. </para>
+        <equation id="eip-926"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>M</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mi>f</m:mi>
+                          <m:mrow>
+                            <m:mi>u</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>f</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>v</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>f</m:mi>
+                        </m:mrow>
+                        <m:mi>f</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{M= {  {f}  over  {u - f} } = {  {v - f}  over  {f} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <figure id="id1168965617057"><media id="id1168965617057_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1(2)arb.jpg" id="id1168965617057__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>Basic microscope diagram illustrating inverted image and distances <emphasis effect="italics">u</emphasis>, <emphasis effect="italics">f</emphasis>, and <emphasis effect="italics">v</emphasis>. </caption></figure>
+        
+        <para id="id1168980256879">Multistage microscopes can amplify the magnification of the original object even more as shown in <link target-id="id1168966479748"/>. Where magnification is now calculated from <link target-id="eip-299"/>, where <emphasis effect="italics">f</emphasis><emphasis effect="italics">1</emphasis><emphasis effect="italics">, f</emphasis><emphasis effect="italics">2 </emphasis>are focal distances with respect to the first and second lens and <emphasis effect="italics">v</emphasis><emphasis effect="italics">1</emphasis><emphasis effect="italics">, v</emphasis><emphasis effect="italics">2</emphasis><emphasis effect="italics"/>are the distances from the lens to the magnified image of first and second lens, respectively. </para>
+        <equation id="eip-299"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>M</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>v</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mi>f</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>v</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mi>f</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>f</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>f</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{M= {  { \( v rSub { size 8{1} }  - f rSub { size 8{1} }  \)  \( v rSub { size 8{2} }  - f rSub { size 8{2} }  \) }  over  {f rSub { size 8{1} } f rSub { size 8{2} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <figure id="id1168966479748"><media id="id1168966479748_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2(2)arb.jpg" id="id1168966479748__onlineimage" width="500" print-width="5in"/>
+          </media>
+        <caption>A schematic diagram of the optics used in a multistage microscope. </caption></figure>
+        
+        <para id="id1168967156303">In reality, the objects we wish to magnify need to be illuminated. Whether or not the sample is thin enough to transmit light divides the microscope into two arenas. SEM is used for samples that do not transmit light, whereas the TEM (transmission electron microscope) requires transparent samples. Due to the many frequencies of light from the introduced source, a condenser system is added to control the brightness and narrow the range of viewing to reduce aberrations, which distort the magnified image. </para>
+      </section>
+    </section>
+    <section id="id1168960552357">
+      <title>Electron microscopes </title>
+      <para id="id1168948757776">Microscope images can be formed instantaneous (as in the optical microscope or TEM) or by rastering (scanning) a beam across the sample and forming the image point-by-point. The latter is how SEM images are formed. It is important to understand the basic principles behind SEM that define properties and limitations of the image. </para>
+      <section id="id1168974960925">
+        <title>Resolution</title>
+        <para id="id1168966858262">The resolution of a microscope is defined as the smallest distance between two features that can be uniquely identified (also called resolving power). There are many limits to the maximum resolution of the SEM and other microscopes, such as imperfect lenses and diffraction effects. Each single beam of light, once passed through a lens, forms a series of cones called an <emphasis effect="italics">airy ring</emphasis> (see <link target-id="id1168967499944"/>). For a given wavelength of light, the central spot size is inversely proportional to the aperture size (i.e., large aperture yields small spot size) and high resolution demands a small spot size. </para>
+        <figure id="id1168967499944"><media id="id1168967499944_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-0253.jpg" id="id1168967499944__onlineimage" width="500" print-width="5in"/>
+          </media>
+        <caption>Airy ring illustrating center intensity (left) and intensity as a function of distance (right).</caption></figure>
+        
+        <para id="id1168947072053">Aberrations distort the image and we try to minimize the effect as much as possible. Chromatic aberrations are caused by the multiple wavelengths present in <emphasis effect="italics">white</emphasis> light. Spherical aberrations are formed by focusing inside and outside the ideal focal length and caused by the imperfections within the objective lenses. Astigmatism is because of further distortions in the lens. All aberrations decrease the overall resolution of the microscope.</para>
+      </section>
+      <section id="id1168962116162">
+        <title>Electrons</title>
+        <para id="id1168962241643">Electrons are charged particles and can interact with air molecules therefore the SEM and TEM instruments require extremely high vacuum to obtain images (10<sup>-7</sup> atm). High vacuum ensures that very few air molecules are in the electron beam column. If the electron beam interacts with an air molecule, the air will become ionized and damage the beam filament, which is very costly to repair. The charge of the electron allows scanning and also inherently has a very small deflection angle off the source of the beam. </para>
+        <para id="id1168966899462">The electrons are generated with a thermionic filament. A tungsten (W) or LaB<sub>6</sub> filament is chosen based on the needs of the user. LaB<sub>6</sub> is much more expensive and tungsten filaments meet the needs of the average user. The microscope can be operated as field emission (tungsten filament). </para>
+      </section>
+      <section id="id1168972393397">
+        <title>Electron scattering</title>
+        <para id="id1168950653640">To accurately interpret electron microscopy images, the user must be familiar with how high energy electrons can interact with the sample and how these interactions affect the image. The probability that a particular electron will be scattered in a certain way is either described by the cross section, σ, or mean free path, λ, which is the average distance which an electron travels before being scattered. </para>
+        <section id="id1168962768283">
+          <title>Elastic scatter</title>
+          <para id="id1168947698216">Elastic scatter, or Rutherford scattering, is defined as a process which deflects an electron but does not decrease its energy. The wavelength of the scattered electron can be detected and is proportional to the atomic number. Elastically scattered electrons have significantly more energy that other types and provide mass contrast imaging. The mean free path, λ, is larger for smaller atoms meaning that the electron travels farther. </para>
+          
+        </section>
+        <section id="id1168968182349">
+          <title>Inelastic scatter</title>
+          <para id="id1168961844149">Any process that causes the incoming electron to lose a detectable amount of energy is considered inelastic scattering. The two most common types of inelastic scatter are phonon scattering and plasmon scattering. Phonon scattering occurs when a primary electron looses energy by exciting a phonon, atomic vibrations in a solid, and heats the sample a small amount. A Plasmon is an oscillation within the bulk electrons in the conduction band for metals. Plasmon scattering occurs when an electron interacts with the sample and produces plasmons, which typically have 5 - 30 eV energy loss and small λ. </para>
+        </section>
+        <section id="id6271615">
+          <title>Secondary effects</title>
+          <para id="id1168963905466">A secondary effect is a term describing any event which may be detected <emphasis effect="italics">outside</emphasis> the specimen and is essentially how images are formed. To form an image, the electron must interact with the sample in one of the aforementioned ways and <emphasis effect="italics">escape</emphasis> from the sample and be detected. <emphasis effect="italics">Secondary electrons</emphasis> (SE) are the most common electrons used for imaging due to high abundance and are defined, rather arbitrarily, as electrons with less than 50 eV energy after exiting the sample. <emphasis effect="italics">Backscattered electrons</emphasis> (BSE) leave the sample quickly and retain a high amount of energy; however there is a much lower yield of BSE. Backscattered electrons are used in many different imaging modes. Refer to <link target-id="id1168963797965"/> for a diagram of interaction depths corresponding to various electron interactions. </para>
+          <figure id="id1168963797965"><media id="id1168963797965_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics4-2879.jpg" id="id1168963797965__onlineimage" width="500" print-width="5in"/>
+            </media>
+          <caption>Diagram illustrating the depths at which various sample interactions occur. </caption></figure>
+          
+          
+        </section>
+      </section>
+    </section>
+    <section id="id1168963998039"><title>SEM Construction</title><para id="id1168973173470">The SEM is made of several main components: electron gun, condenser lens, scan coils, detectors, specimen, and lenses (see <link target-id="id1168972472600"/>). Today, portable SEMs are available but the typical size is about 6 feet tall and contains the microscope column and the control console. </para>
+
+        <figure id="id1168972472600"><media id="id1168972472600_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-e78e.jpg" id="id1168972472600__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+
+        <caption>Schematic drawing of the SEM illustrating placement of electron generation, collimation process, sample interaction and electron detection. </caption></figure>
+
+
+      <para id="id1168948751322">A special feature of the SEM and TEM is known as <emphasis effect="italics">depth of focus</emphasis>, <emphasis effect="italics">dv/du</emphasis> the range of positions (depths) at which the image can be viewed with good focus, see <link target-id="eip-189"/>. This allows the user to see more than a singular plane of a specified height in focus and essentially allows a range of three dimensional imaging. </para>
+      <equation id="eip-189"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dv</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>du</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mfrac>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mi>v</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mi>u</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msup>
+                        <m:mi>M</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "dv"}  over  { ital "du"} } = {  { - v rSup { size 8{2} } }  over  {u rSup { size 8{2} } } } = - M rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <section id="id1168947554410">
+        <title>Electron detectors (image formation) </title>
+        <para id="id1168967144768">The secondary electron detector (SED) is the main source of SEM images since a large majority of the electrons emitted from the sample are less than 50 eV. These electrons form textural images but cannot determine composition. The SEM may also be equipped with a backscatter electron detector (BSED) which collects the higher energy BSE’s. Backscattered electrons are very sensitive to atomic number and can determine qualitative information about nuclei present (i.e., how much Fe is in the sample). Topographic images are taken by tilting the specimen 20 - 40° toward the detector. With the sample tilted, electrons are more likely to scatter off the top of the sample rather than interact within it, thus yielding information about the surface. </para>
+        
+      </section>
+    </section>
+    <section id="id1168983002598">
+      <title>Sample preparation</title>
+      <para id="id1168947239892">The most effective SEM sample will be at least as thick as the interaction volume; depending on the image technique you are using (typically at least 2 µm). For the best contrast, the sample must be conductive or the sample can be sputter-coated with a metal (such as Au, Pt, W, and Ti). Metals and other materials that are naturally conductive do not need to be coated and need very little sample preparation. </para>
+    </section>
+    <section id="id1168946854597">
+      <title>SEM of polymers</title>
+      <para id="id1168964086141">As previously discussed, to view features that are smaller than the wavelength of light, an electron microscope must be used. The electron beam requires extremely high vacuum to protect the filament and electrons must be able to adequately interact with the sample. Polymers are typically long chains of repeating units composed primarily of “lighter” (low atomic number) elements such as carbon, hydrogen, nitrogen, and oxygen. These lighter elements have fewer interactions with the electron beam which yields poor contrast, so often times a stain or coating is required to view polymer samples. SEM imaging requires a conductive surface, so a large majority of polymer samples are sputter coated with metals, such as gold. </para>
+      <para id="id4493752">The decision to view a polymer sample with an SEM (versus a TEM for example) should be evaluated based on the feature size you expect the sample to have. Generally, if you expect the polymer sample to have features, or even individual molecules, over 100 nm in size you can safely choose SEM to view your sample. For much smaller features, the TEM may yield better results, but requires much different sample preparation than will be described here. </para>
+      <section id="id1168947360731">
+        <title>Polymer sample preparation techniques</title>
+        <section id="id1168973144590">
+          <title>Sputter coating</title>
+          <para id="id1168951632829">A sputter coater may be purchased that deposits single layers of gold, gold-palladium, tungsten, chromium, platinum, titanium, or other metals in a very controlled thickness pattern. It is possible, and desirable, to coat only a few nm’s of metal onto the sample surface.</para>
+        </section>
+        <section id="id1168967469702">
+          <title>Spin coating</title>
+          <para id="id1168962304976">Many polymer films are depositing via a spin coater which spins a substrate (often ITO glass) and drops of polymer liquid are dispersed an even thickness on top of the substrate.</para>
+        </section>
+        <section id="id1168955923105">
+          <title>Staining</title>
+          <para id="id1168974905002">Another option for polymer sample preparation is staining the sample. Stains act in different ways, but typical stains for polymers are osmium tetroxide (OsO<sub>4</sub>), ruthenium tetroxide (RuO<sub>4</sub>) phosphotungstic acid (H<sub>3</sub>PW<sub>12</sub>O<sub>40</sub>), hydrazine (N<sub>2</sub>H<sub>4</sub>), and silver sulfide (Ag<sub>2</sub>S).</para>
+          
+        </section>
+      </section>
+    </section>
+    <section id="id1168965772771"><title>Examples</title><section id="id1168953848037">
+        <title>Comb-block copolymer (microstructure of cast film)</title>
+        <list id="id1168947223656" list-type="bulleted"><item>Cast polymer film (see <link target-id="id1168967800963"/>). </item>
+          <item>To view interior structure, the film was cut with a microtome or razor blade after the film was frozen in liquid N<sub>2</sub> and fractured.</item>
+          <item>Stained with RuO<sub>4</sub> vapor (after cutting). </item>
+          <item>Structure measurements were averaged over a minimum of 25 measurements.</item>
+        </list>
+        
+        
+        <figure id="id1168967800963"><media id="id1168967800963_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6arb.jpg" id="id1168967800963__onlineimage" width="550" print-width="5.5in"/>
+          </media>
+        <caption>SEM micrograph of comb block copolymer showing spherical morphology and long range order. Adapted from M. B. Runge and N. B. Bowden, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2007, <emphasis effect="bold">129</emphasis>, 10551. Copyright: American Chemical Society (2007). </caption></figure>
+        
+        <section id="id1168961237396"><title>Polystyrene-polylactide bottlebrush copolymers (lamellar spacing)</title><list id="id1168966965899" list-type="bulleted"><item>Pressed polymer samples into disks and annealed for 16 h at 170 °C.</item>
+            <item>To determine ordered morphologies, the disk was fractured (see <link target-id="id1168969486342"/>).</item>
+            <item>Used SEM to verify lamellar spacing from USAXS. </item>
+          </list>
+          <figure id="id1168969486342"><media id="id1168969486342_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics7arb.jpg" id="id1168969486342__onlineimage" width="350" print-width="3.5in"/>
+            </media>
+
+          <caption>SEM image of a fractured piece of polymer SL-1. Adapted from J. Rzayev, <emphasis effect="italics">Macromolecules</emphasis>, 2009, <emphasis effect="bold">42</emphasis>, 2135. Copyright: American Chemical Society (2009). </caption></figure>
+
+        </section>
+        <section id="id1168961605213"><title>SWNTs in ultrahigh molecular weight polyethylene </title><list id="id1168983262910" list-type="bulleted"><item>Dispersed SWNTs in interactive polymer. </item>
+            <item>Samples were sputter-coated in gold to enhance contrast. </item>
+            <item>The films were solution-crystallized and the cross-section was imaged. </item>
+            <item>Environmental SEM (ESEM) was used to show morphologies of composite materials. </item>
+            <item>WD = 7 mm. </item>
+            <item>Study was conducted to image sample before and after drawing of film.</item>
+            <item>Images confirmed the uniform distribution of SWNT in PE (<link target-id="id1168957848807"/>). </item>
+            <item>M<sub>W</sub> = 10,000 Dalton. </item>
+            <item>Study performed to compare transparency before and after UV irradiation. </item>
+          </list>
+
+          <figure id="id1168957848807"><media id="id1168957848807_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics8arb.jpg" id="id1168957848807__onlineimage" width="500" print-width="5in"/>
+            </media>
+
+          <caption>SEM images of crystallized SWNT-UHMWPE films before (left) and after (right) drawing at 120 °C. Adapted from Q. Zhang, D. R. Lippits, and S. Rastogi, <emphasis effect="italics">Macromolecules</emphasis>, 2006, <emphasis effect="bold">39</emphasis>, 658.  Copyright: American Chemical Society (2006). </caption></figure>
+
+
+
+        </section>
+        <section id="id1168973708756">
+          <title>Nanostructures in conjugated polymers (nanoporous films)</title>
+          <list id="id1168960411651" list-type="bulleted"><item>Polymer and NP were processed into thin films and heated to crosslink. </item>
+            <item>SEM was used to characterize morphology and crystalline structure (<link target-id="id1168962784861"/>). </item>
+            <item>SEM was used to determine porosity and pore size. </item>
+            <item>Magnified orders of 200 nm - 1 μm. </item>
+            <item>WD = 8 mm. </item>
+            <item>M<sub>W</sub> = 23,000 Daltons</item>
+            <item>Sample prep: spin coating a solution of poly-(thiophene ester) with copper NPs suspended on to ITO coated glass slides. Ziess, Supra 35</item>
+          </list>
+
+
+            <figure id="id1168962784861"><media id="id1168962784861_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics9arb.jpg" id="id1168962784861__onlineimage" width="600" print-width="5.5in"/>
+              </media>
+
+            <caption>SEM images of thermocleaved film loaded with nanoparticles with scale bar 1 μm. Adapted from J. W. Andreasen, M. Jorgensen, and F. C. Krebs, <emphasis effect="italics">Macromolecules</emphasis>, 2007, <emphasis effect="bold">40</emphasis>, 7758. Copyright: American Chemical Society (2007). </caption></figure>
+
+
+        </section>
+        <section id="id1168969473972"><title>Cryo-SEM colloid polystyrene latex particles (fracture patterns)</title><list id="id1168975100159" list-type="bulleted">
+            <item>Used cryogenic SEM (cryo-SEM) to visualize the microstructure of particles (<link target-id="id1168966272716"/>). </item>
+            <item>Particles were immobilized by fast-freezing in liquid N<sub>2</sub> at –196 °C. </item>
+            <item>Sample is fractured (-196 °C) to expose cross section. </item>
+            <item>3 nm sputter coated with platinum. </item>
+            <item>Shapes of the nanoparticles after fracture were evaluated as a function of crosslink density. </item>
+          </list>
+
+
+            <figure id="id1168966272716"><media id="id1168966272716_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics10(2)arb.jpg" id="id1168966272716__onlineimage" width="600" print-width="5.5in"/>
+              </media>
+
+            <caption>Cryo-SEM images of plastically drawn polystyrene and latex particles. Adapted from H. Ge, C. L. Zhao, S. Porzio, L. Zhuo, H. T. Davis, and L. E. Scriven, <emphasis effect="italics">Macromolecules</emphasis>, 2006, <emphasis effect="bold">39</emphasis>, 5531. Copyright: American Chemical Society (2006). </caption></figure>
+
+
+
+        </section>
+      </section>
+    </section>
+    <section id="id2361237">
+      <title>Bibliography</title>
+      <list id="id1168969092706" list-type="bulleted">
+        <item>H. Ge, C. L. Zhao, S. Porzio, L. Zhuo, H. T. Davis, and L. E. Scriven, <emphasis effect="italics">Macromolecules</emphasis>, 2006, <emphasis effect="bold">39</emphasis>, 5531. </item>
+        <item>J. Rzayev, <emphasis effect="italics">Macromolecules</emphasis>, 2009, <emphasis effect="bold">42</emphasis>, 2135.</item>
+        <item>J. W. Andreasen, M. Jorgensen, and F. C. Krebs, <emphasis effect="italics">Macromolecules</emphasis>, 2007, <emphasis effect="bold">40</emphasis>, 7758.</item>
+        <item>M. B. Runge and N. B. Bowden, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2007, <emphasis effect="bold">129</emphasis>, 10551.</item>
+        <item>P. J. Goodhew, J. Humphreys, and R. Beanland, <emphasis effect="italics">Electron Microscopy and Analysis</emphasis>, Taylor &amp; Francis Inc., New York (2001). </item>
+        <item>Q. Zhang, D. R. Lippits, and S. Rastogi, <emphasis effect="italics">Macromolecules</emphasis>, 2006, <emphasis effect="bold">39</emphasis>, 658. </item>
+      </list>
+      
+    </section>
+  </content>
+</document>

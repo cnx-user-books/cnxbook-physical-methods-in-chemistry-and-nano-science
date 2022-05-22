@@ -1,0 +1,183 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title> Transmission Electron Microscopy: An Overview</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34523</md:content-id>
+  <md:title> Transmission Electron Microscopy: An Overview</md:title>
+  <md:abstract/>
+  <md:uuid>7beccb58-2358-45e8-b274-c9cf40d36819</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1166950954775">Transmission electron microscopy (TEM) is a form of microscopy which in which a beam of electrons transmits through an extremely thin specimen, and then interacts with the specimen when passing through it. The formation of images in a TEM can be explained by an optical electron beam diagram in <link target-id="id1166950635648"/>. TEMs provide images with significantly higher resolution than visible-light microscopes (VLMs) do because of the smaller de Broglie wavelength of electrons. These electrons allow for the examination of finer details, which are several thousand times higher than the highest resolution in a VLM. Nevertheless, the magnification provide in a TEM image is in contrast to the absorption of the electrons in the material, which is primarily due to the thickness or composition of the material. </para>
+
+
+    <figure id="id1166950635648"><media id="id1166950635648_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics1-1eb0.jpg" id="id1166950635648__onlineimage" width="500" print-width="5in"/>
+	</media>
+<caption>The optical electron beam diagram of TEM.</caption></figure>
+    
+    <para id="id1166963860563">When a crystal lattice spacing (<emphasis effect="italics">d</emphasis>) is investigated with electrons with wavelength<emphasis effect="italics"> λ</emphasis>, diffracted waves will be formed at specific angles <emphasis effect="italics">2θ</emphasis>, satisfying the Bragg condition, <link target-id="id1166958268933"/>. </para>
+
+
+    <equation id="id1166958268933"><media id="id1166958268933_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics2-ef79.jpg" id="id1166958268933__onlineimage" width="73" print-width="0.75in"/>
+	</media>
+</equation>
+
+
+    <para id="id1166974163398">The regular arrangement of the diffraction spots, the so-called diffraction pattern (DP), can be observed. While the transmitted and the diffracted beams interfere on the image plane, a magnified image (electron microscope image) appears. The plane where the DP forms is called the <emphasis effect="italics">reciprocal space</emphasis>, which the image plane is called the <emphasis effect="italics">real space</emphasis>. A Fourier transform can mathematically transform the real space to reciprocal space.</para>
+    <para id="id1166971951359">By adjusting the lenses (changing their focal lengths), both electron microscope images and DP can be observed. Thus, both observation modes can be successfully combined in the analysis of the microstructures of materials. For instance, during investigation of DPs, an electron microscope image is observed. Then, by inserting an aperture (selected area aperture), adjusting the lenses, and focusing on a specific area that we are interested in, we will get a DP of the area. This kind of observation mode is called a <emphasis effect="italics">selected area diffraction</emphasis>. In order to investigate an electron microscope image, we first observe the DP. Then by passing the transmitted beam or one of the diffracted beams through a selected aperture and changing to the imaging mode, we can get the image with enhanced contrast, and precipitates and lattice defects can easily be identified.</para>
+    <para id="id1166952112990">Describing the resolution of a TEM in terms of the classic Rayleigh criterion for VLMs, which states that the smallest distance that can be investigated, <emphasis effect="italics">δ</emphasis>, is given approximately by <link target-id="id1166950292740"/>, where <emphasis effect="italics">λ</emphasis> is the wavelength of the electrons, <emphasis effect="italics">µ</emphasis> is the refractive index of the viewing medium, and <emphasis effect="italics">β</emphasis> is the semi-angle of collection of the magnifying lens. </para>
+
+    <equation id="id1166950292740"><media id="id1166950292740_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics3-d2b2.jpg" id="id1166950292740__onlineimage" width="64" print-width="0.65in"/>
+	</media>
+</equation>
+
+    <para id="id1166956838116">According to de Broglie’s ideas of the wave-particle duality, the particle momentum <emphasis effect="italics">p</emphasis> is related to its wavelength <emphasis effect="italics">λ</emphasis> through Planck’s constant <emphasis effect="italics">h</emphasis>, <link target-id="id1166956579720"/>. </para>
+
+    <equation id="id1166956579720"><media id="id1166956579720_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics4-8630.jpg" id="id1166956579720__onlineimage" width="34" print-width="0.35in"/>
+	</media>
+</equation>
+
+    <para id="id1166950750804">Momentum is given to the electron by accelerating it through a potential drop, V, giving it a kinetic energy, <emphasis effect="italics">eV</emphasis>. This potential energy is equal to the kinetic energy of the electron, <link target-id="id1166939768485"/>. </para>
+
+
+    <equation id="id1166939768485"><media id="id1166939768485_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics5-b1cd.jpg" id="id1166939768485__onlineimage" width="73" print-width="0.75in"/>
+	</media>
+</equation>
+
+    <para id="id1166956310229">Based upon the foregoing, we can equate the momentum (<emphasis effect="italics">p</emphasis>) to the electron mass (<emphasis effect="italics">m</emphasis><sub>o</sub>), multiplied by the velocity (<emphasis effect="italics">v</emphasis>) and substituting for <emphasis effect="italics">v</emphasis> from <link target-id="id1166939768485"/>, i.e., <link target-id="id1166962323028"/>. </para>
+ 
+   <equation id="id1166962323028"><media id="id1166962323028_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics6-d74f.jpg" id="id1166962323028__onlineimage" width="150" print-width="1.5in"/>
+	</media>
+</equation>
+
+
+    <para id="id1166941429210">These equations define the relationship between the electron wavelength, <emphasis effect="italics">λ</emphasis>, and the accelerating voltage of the electron microscope (<emphasis effect="italics">V</emphasis>), Eq. However, we have to consider about the relative effects when the energy of electron more than 100 keV. So in order to be exact we must modify <link target-id="id1166960908254"/> to give <link target-id="id1276860"/>.</para>
+
+
+      <equation id="id1166960908254"><media id="id1166960908254_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics7-d04b.jpg" id="id1166960908254__onlineimage" width="90" print-width="0.9in"/>
+	</media>
+</equation>
+
+
+
+    <equation id="id1276860"><media id="id1276860_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics8-a377.jpg" id="id1276860__onlineimage" width="180" print-width="1.8in"/>
+	</media>
+</equation>
+
+
+
+    <para id="id1166959236589">From <link target-id="id1166950292740"/> and <link target-id=" id1276860"/>, if a higher resolution is desired a decrease in the electron wavelength is accomplished by increasing the accelerating voltage of the electron microscope. In other words, the higher accelerating rating used, the better resolution obtained. </para>
+    <section id="id1166982525708">
+      <title>Why the specimen should be thin</title>
+      <para id="id1166979192553">The scattering of the electron beam through the material under study can form different angular distribution (<link target-id="id1166957285138"/>) and it can be either forward scattering or back scattering. If an electron is scattered &lt; 90<sup>o</sup>, then it is forward scattered, otherwise, it is backscattered. If the specimen is thicker, fewer electrons are forward scattered and more are backscattered. Incoherent, backscattered electrons are the only remnants of the incident beam for bulk, non-transparent specimens. The reason that electrons can be scattered through different angles is related to the fact that an electron can be scattered more than once. Generally, the more times of scattering happen, the greater the angle of scattering. </para>
+
+      <figure id="id1166957285138"><media id="id1166957285138_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics9-0e76.jpg" id="id1166957285138__onlineimage" width="600" print-width="6in"/>
+	</media>
+<caption>Two different kinds of electron scattering form (a) a thin specimen and (b) a bulk specimen. </caption></figure>
+      
+      
+      <para id="id1742903">All scattering in the TEM specimen is often approximated as a single scattering event since it is the simplest process. If the specimen is very thin, this assumption will be reasonable enough. If the electron is scattered more than once, it is called ‘plural scattering.’ It is generally safe to assume single scattering occurs, unless the specimen is particularly thick. When the times of scattering increase, it is difficult to predict what will happen to the electron and to interpret the images and DPs. So, the principle is ‘thinner is better’, i.e., if we make thin enough specimens so that the single-scattering assumption is plausible, and the TEM research will be much easier. </para>
+      <para id="id1166983798742"> In fact, forward scattering includes the direct beam, most elastic scattering, refraction, diffraction, particularly Bragg diffraction, and inelastic scattering. Because of forward scattering through the thin specimen, a DP or an image would be showed on the viewing screen, and an X-ray spectrum or an electron energy-loss spectrum can be detected outside the TEM column. However, backscattering still cannot be ignored, it is an important imagine mode in the SEM.</para>
+    </section>
+    <section id="id1166958966320">
+      <title>Limitations of TEM</title>
+      <section id="id1166959176189">
+        <title>Interpreting transmission images</title>
+        <para id="id1166956267599">One significant problem that might encounter when TEM images are analyzed is that the TEM present us with 2D images of a 3D specimen, viewed in transmission. This problem can be illustrated by showing a picture of two rhinos side by side such that the head of one appears attached to the rear of the other (<link target-id="id1166956809895"/>). </para>
+
+
+        <figure id="id1166956809895"><media id="id1166956809895_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics10-32c7.jpg" id="id1166956809895__onlineimage" width="300" print-width="3in"/>
+	</media>
+	<caption>In projection, this photograph of two rhinos appears as one two-headed beast, because sometimes people have difficulty to translate a 2D image to a 3D image. Adapted from D. B. Williams and C. B. Carter, <emphasis effect="italics">Transmission Electron Microscopy: A Textbook for Material Science</emphasis>, 2<sup>nd</sup> Ed., Springer, New York (2009). </caption></figure>
+
+
+        
+        <para id="id1166941477009">One aspect of this particular drawback is that a single TEM images has no depth sensitivity. There often is information about the top and bottom surfaces of the specimen, but this is not immediately apparent. There has been progress in overcoming this limitation, by the development of electron tomography, which uses a sequence of images taken at different angles. In addition, there has been improvement in specimen-holder design to permit full 360<sup>o</sup> rotation and, in combination with easy data storage and manipulation; nanotechnologists have begun to use this technique to look at complex 3D inorganic structures such as porous materials containing catalyst particles.</para>
+      </section>
+      <section id="id1166959028317">
+        <title>Electron beam damage</title>
+        <para id="id1166956687427">A detrimental effect of ionizing radiation is that it can damage the specimen, particularly polymers (and most organics) or certain minerals and ceramics. Some aspects of beam damage made worse at higher voltages. <link target-id="id1166955609575"/> shows an area of a specimen damaged by high-energy electrons. However, the combination of more intense electron sources with more sensitive electron detectors, and the use computer enhancement of noisy images, can be used to minimize the total energy received by the sample. </para>
+
+          <figure id="id1166955609575"><media id="id1166955609575_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics11-30e6.jpg" id="id1166955609575__onlineimage" width="600" print-width="6in"/>
+	</media>
+<caption>High-resolution TEM images at the slit edge of the GaAs samples prepared by slit focused ion beam. GaAs samples prepared at (a) 3 kV, (b) 5 kV, (c) 10 kV, (d) 20 kV, and (e) 30 kV. The thickness of the amorphous layer produced by focused ion beam is shown in each image. Adapted from Y. Yabuuchi, S. Tametou, T. Okano, S. Inazato, S. Sadayamn, and Y. Tamamoto, <emphasis effect="italics">J. Electron Micros.</emphasis>, 2004, <emphasis effect="bold">53</emphasis>, 5.</caption></figure>
+        
+      </section>
+    </section>
+    <section id="id1166957280904">
+      <title>Sample preparation</title>
+      <para id="id1166941130498">The specimens under study have to be thin if any information is to be obtained using transmitted electrons in the TEM. For a sample to be transparent to electrons, the sample must be thin enough to transmit sufficient electrons such that enough intensity falls on the screen to give an image. This is a function of the electron energy and the average atomic number of the elements in the sample. Typically for 100 keV electrons, a specimen of aluminum alloy up to ~ 1 µm would be thin, while steel would be thin up to about several hundred nanometers. However, thinner is better and specimens &lt; 100 nm should be used wherever possible. </para>
+      <para id="id1166949316909">The method to prepare the specimens for TEM depends on what information is required. In order to observe TEM images with high resolution, it is necessary to prepare thin films without introducing contamination or defects. For this purpose, it is important to select an appropriate specimen preparation method for each material, and to find an optimum condition for each method. </para>
+      <section id="id1166980657429">
+        <title>Crushing</title>
+        <para id="id1166964301850"> A specimen can be crushed with an agate mortar and pestle. The flakes obtained are suspended in an organic solvent (e.g., acetone), and dispersed with a sonic bath or simply by stirring with a glass stick. Finally, the solvent containing the specimen flakes is dropped onto a grid. This method is limited to materials which tend to cleave (e.g., mica).</para>
+      </section>
+      <section id="id1166964253359">
+        <title>Electropolishing</title>
+        <para id="id1166959073795">Slicing a bulk specimen into wafer plates of about 0.3 mm thickness by a fine cutter or a multi-wire saw. The wafer is further thinned mechanically down to about 0.1 mm in thickness. Electropolishing is performed in a specific electrolyte by supplying a direct current with the positive pole at the thin plate and the negative pole at a stainless steel plate. In order to avoid preferential polishing at the edge of the specimen, all the edges are cover with insulating paint. This is called the window method. The electropolishing is finished when there is a small hole in the plate with very thin regions around it (<link target-id="id1166957088075"/>). This method is mainly used to prepare thin films of metals and alloys.</para>
+
+        <figure id="id1166957088075"><media id="id1166957088075_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics12-4a58.jpg" id="id1166957088075__onlineimage" width="250" print-width="2.5in"/>
+	</media>
+<caption>Principle of jet electropolishing method. The specimen and the stainless steel plate is electronic positive and negative, respectively.</caption></figure>
+        
+      </section>
+      <section id="id1166979365467">
+        <title>Chemical polishing</title>
+        <para id="id1166975513917"> Thinning is performed chemically, i.e., by dipping the specimen in a specific solution. As for electropolishing, a thin plate of 0.1~0.2 mm in thickness should be prepared in advance. If a small dimple is made in the center of the plate with a dimple grinder, a hole can be made by etching around the center while keeping the edge of the specimen relatively thick. This method is frequently used for thinning semiconductors such as silicon. As with electro-polishing, if the specimen is not washed properly after chemical etching, contamination such as an oxide layer forms on the surface. </para>
+      </section>
+      <section id="id1166940112436">
+        <title>Ultramicrotomy</title>
+        <para id="id1166943290448"> Specimens of thin films or powders are usually fixed in an acrylic or epoxy resin and trimmed with a glass knife before being sliced with a diamond knife. This process is necessary so that the specimens in the resin can be sliced easily by a diamond knife. Acrylic resins are easily sliced and can be removed with chloroform after slicing. When using an acrylic resin, a gelatin capsule is used as a vessel. Epoxy resin takes less time to solidify than acrylic resins, and they remain strong under electron irradiation. This method has been used for preparing thin sections of biological specimens and sometimes for thin films of inorganic materials which are not too hard to cut.</para>
+      </section>
+      <section id="id1166957059269">
+        <title>Ion milling</title>
+        <para id="id1166938328604"> A thin plate (less than 0.1 mm) is prepared from a bulk specimen by using a diamond cutter and by mechanical thinning. Then, a disk 3 mm in diameter is made from the plate using a diamond knife or a ultrasonic cutter, and a dimple is formed in the center of the surface with a dimple grinder. If it is possible to thin the disk directly to 0.03 mm in thickness by mechanical thinning without using a dimple grinder, the disk should be strengthened by covering the edge with a metal ring. Ar ions are usually used for the sputtering, and the incidence angle against the disk specimen and the accelerating voltage are set as 10 - 20<sup>o</sup> and a few kilovolts, respectively. This method is widely used to obtain thin regions of ceramics and semiconductors in particular, and also for cross section of various multilayer films.</para>
+      </section>
+      <section id="id1166978908930">
+        <title>Focused ion beam (FIB)</title>
+        <para id="id1166943994253"> This method was originally developed for the purpose of fixing semiconductor devices. In principle, ion beams are sharply focused on a small area, and the specimen in thinned very rapidly by sputtering. Usually Ga ions are used, with an accelerating voltage of about 30 kV and a current of about 10 A/cm<sup>2</sup>. The probe size is several tens of nanometers. This method is useful for specimens containing a boundary between different materials, where it may be difficult to homogeneously thin the boundary region by other methods such as ion milling.</para>
+        
+      </section>
+      <section id="id1166961102373">
+        <title>Vacuum evaporation</title>
+        <para id="id1166939518177"> The specimen to be studied is set in a tungsten-coil or basket. Resistance heating is applied by an electric current passing through the coil or basket, and the specimen is melted, then evaporated (or sublimed), and finally deposited onto a substrate. The deposition process is usually carried under a pressure of 10<sup>-3</sup>-10<sup>-4</sup> Pa, but in order to avoid surface contamination, a very high vacuum is necessary. A collodion film or cleaved rock salt is used as a substrate. Rock salt is especially useful in forming single crystals with a special orientation relationship between each crystal and the substrate. Salt is easily dissolved in water, and then the deposited films can be fixed on a grid. Recently, as an alternative to resistance heating, electron beam heating or an ion beam sputtering method has been used to prepare thin films of various alloys. This method is used for preparing homogeneous thin films of metals and alloys, and is also used for coating a specimen with the metal of alloy.</para>
+      </section>
+      <section id="id1166940657590">
+        <title>The characteristics of the grid</title>
+        <para id="id1166940748890">The types of TEM specimens that are prepared depend on what information is needed. For example, a self-supporting specimen is one where the whole specimen consists of one material (which may be a composite). Other specimens are supported on a grid or on a Cu washer with a single slot. Some grids are shown in <link target-id="id1166955690014"/>. Usually the specimen or grid will be 3 mm in diameter.</para>
+
+
+        <figure id="id1166955690014"><media id="id1166955690014_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics13-bf87.jpg" id="id1166955690014__onlineimage" width="280" print-width="2.8in"/>
+	</media>
+	<caption>TEM sample support mesh grids. A diameter of a grid is usually 3.05 mm, however, some grids with diameters of 2.30 mm are also be used for earlier microscopes. Adapted from D. B. Williams and C. B. Carter, <emphasis effect="italics">Transmission Electron Microscopy: A Textbook for Material Science</emphasis>, 2<sup>nd</sup> Ed., Springer, New York (2009).</caption></figure>
+        
+        <para id="id1166945493154">TEM specimen stage designs include airlocks to allow for insertion of the specimen holder into the vacuum with minimal increase in pressure in other areas of the microscope. The specimen holders are adapted to hold a standard size of grid upon which the sample is placed or a standard size of self-supporting specimen. Standard TEM grid sizes is a 3.05 mm diameter ring, with a thickness and mesh size ranging from a few to 100 µm. The sample is placed onto the inner meshed area having diameter of approximately 2.5 mm. The grid materials usually are copper, molybdenum, gold or platinum. This grid is placed into the sample holder which is paired with the specimen stage. A wide variety of designs of stages and holders exist, depending upon the type of experiment being performed. In addition to 3.05 mm grids, 2.3 mm grids are sometimes, if rarely, used. These grids were particularly used in the mineral sciences where a large degree of tilt can be required and where specimen material may be extremely rare. Electron transparent specimens have a thickness around 100 nm, but this value depends on the accelerating voltage.</para>
+        <para id="id1166975928183">Once inserted into a TEM, the sample is manipulated to allow study of the region of interest. To accommodate this, the TEM stage includes mechanisms for the translation of the sample in the XY plane of the sample, for Z height adjustment of the sample holder, and usually at least one rotation degree of freedom. Most TEMs provide the ability for two orthogonal rotation angles of movement with specialized holder designs called double-tilt sample holders. </para>
+        <para id="id1166946664545">A TEM stage is required to have the ability to hold a specimen and be manipulated to bring the region of interest into the path of the electron beam. As the TEM can operate over a wide range of magnifications, the stage must simultaneously be highly resistant to mechanical drift as low as a few nm/minute while being able to move several µm/minute, with repositioning accuracy on the order of nanometers. </para>
+      </section>
+    </section>
+    <section id="id1166960878990">
+
+      <title>Bibliography</title>
+      <list id="id1166939957157" list-type="bulleted"><item>D. B. Williams and C. B. Carter, <emphasis effect="italics">Transmission Electron Microscopy: A Textbook for Material Science</emphasis>, 2<sup>nd</sup> Ed., Springer, New York (2009).</item>
+        <item>D. Shindo and K. Hiraga, <emphasis effect="italics">High-Resolution Electron Microscopy for Material Science</emphasis>, Springer, New York (1998).</item>
+        <item>L. Reimer and H. Kohl, <emphasis effect="italics">Transmission Electron Microscopy Physics of Image Formation</emphasis>, 5<sup>th</sup> Ed., Springer, New York (2008).</item>
+        <item>D. L. Spector and R. D. Goldman, <emphasis effect="italics">Basic Methods in Microscopy Protocols and Concepts from Cells: A Laboratory Manual</emphasis>, Cold Spring Harbor, New York (2006).</item>
+        <item>Y. Yabuuchi, S. Tametou, T. Okano, S. Inazato, S. Sadayamn, and Y. Tamamoto, <emphasis effect="italics">J. Electron Micros.</emphasis>, 2004, <emphasis effect="bold">53</emphasis>, 5.</item>
+      </list>
+    </section>
+  </content>
+</document>

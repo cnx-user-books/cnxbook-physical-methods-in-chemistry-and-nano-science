@@ -1,0 +1,154 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Analysis of Liquid Crystal Phases using Polarized Optical Microscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38343</md:content-id>
+  <md:title>The Analysis of Liquid Crystal Phases using Polarized Optical Microscopy</md:title>
+  <md:abstract>Liquid crystals (LCs) have tremendous applications in industry fields such as LCs display, LCs thermometer and polymers. In this paper, different types of LCs with its unique property will be introduced. The theory of birefringence and working mechanism of polarized optical microscope (POM) are demonstrated. We also illustrate the methods for analyzing LCs by using polarized optical microscope.</md:abstract>
+  <md:uuid>c2639e6c-f9c8-4067-afe5-34c80271eb9f</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1171442455353"><title>Introduction</title><section id="id1171463899579"><title>Liquid crystal phases</title><para id="id1171443674117">Liquid crystals are a state of matter that has the properties between solid crystal and common liquid. There are basically three different types of liquid crystal phases:  </para>
+
+<list id="eip-243">
+
+<item>Thermotropic liquid crystal phases are dependent on temperature.</item>
+
+<item>Lyotropic liquid crystal phases are dependent on temperature and the concentration of LCs in the solvent. </item>
+
+<item>Metallotropic LCs are composed of organic and inorganic molecules, and the phase transition not only depend on temperature and concentration, but also depend on the ratio between organic and inorganic molecules. </item>
+</list>
+
+
+
+<para id="eip-53">Thermotropic LCs are the most widely used one, which can be divided into five categories: </para>
+
+<list id="eip-227"><item>Nematic phase in which rod-shaped molecules have no positional order, but they self-align to have long-range directional order with their long axes roughly parallel (<link target-id="idLC11"/>a). </item>
+
+<item>Smactic phase where the molecules are positionally ordered along one direction in well-defined layers oriented either along the layer normal (smectic A) or tilted away from the layer normal (smectic C), see <link target-id="idLC11"/>b).</item>
+
+<item>Chiral phase which exhibits a twisting of the molecules perpendicular to the director, with the molecular axis parallel to the director (<link target-id="idLC11"/>c).</item>
+
+<item>Blue phase having a regular three-dimensional cubic structure of defects with lattice periods of several hundred nanometers, and thus they exhibit selective Bragg reflections in the wavelength range of light (<link target-id="idLC31"/>). </item>
+
+<item>Discotic phase in which disk-shaped LC molecules can orient themselves in a layer-like fashion (<link target-id="idLC21"/>). </item>
+
+</list>
+
+
+<figure id="idLC11"><media id="id554545LC1_media" alt="">
+            <image mime-type="image/jpg" src="../../media/FigLC1.jpg" id=" id554545LC1__onlineimage" width="600" print-width="6in"/>
+          </media>
+<caption>Schematic representations of (a) a nematic LC phase, (b) smactic LC phases oriented along (left) and away (right) from the normal of the layer, and (c) a chiral LC phase. </caption></figure>
+
+
+
+
+<figure id="idLC31"><media id="id554545LC3_media" alt="">
+            <image mime-type="image/jpg" src="../../media/FigLC3.jpg" id=" id554545LC3__onlineimage" width="175" print-width="1.75in"/>
+          </media>
+<caption>A schematic representation of the ordered structure of a blue LC phase. </caption></figure>
+
+
+<figure id="idLC21"><media id="id554545LC2_media" alt="">
+            <image mime-type="image/jpg" src="../../media/FigLC2.jpg" id=" id554545LC2__onlineimage" width="325" print-width="3.25in"/>
+          </media>
+<caption>Schematic representations of (a) a discotic nematic LC phase and (b) a discotic columnar LC phase. </caption></figure>
+
+
+<para id="eip-698">Thermotropic LCs are very sensitive to temperature. If the temperature is too high, thermal motion will destroy the ordering of LCs, and push it into a liquid phase. If the temperature is too low, thermal motion is hard to perform, so the material will become crystal phase.</para>
+
+<para id="eip-867">The existence of liquid crystal phase can be detected by using polarized optical microscopy, since liquid crystal phase exhibits its unique texture under microscopy. The contrasting areas in the texture correspond to domains where LCs are oriented towards different directions.</para>
+      </section>
+      <section id="id1171467675980"><title>Polarized optical microscopy</title><para id="id1171461408219">Polarized optical microscopy is typically used to detect the existence of liquid crystal phases in a solution.<sup/>The principle of this is corresponding to the polarization of light. A polarizer is a filter that only permits the light oriented in a specific direction with its polarizing direction to pass through. There are two polarizers in a polarizing optical microscope (POM) (<link target-id="id1171461334485"/>) and they are designed to be oriented at right angle to each other, which is termed as cross polar. The fundamental of cross polar is illustrated in <link target-id="id1171465889094"/>, the polarizing direction of the first polarizer is oriented vertically to the incident beam, so only the waves with vertical direction can pass through it. The passed wave is subsequently blocked by the second polarizer, since this polarizer is oriented horizontally to the incident wave. </para>
+        
+        <figure id="id1171461334485"><media id="id1171461334485_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 1-0a37.jpg" id="id1171461334485__onlineimage" width="450" print-width="4.5in"/>
+          </media>
+        <caption>The basic configuration of polarized optical microscope. Copyright: Nikon Corporation.</caption></figure>
+        
+
+
+          <figure id="id1171465889094"><media id="id1171465889094_media" alt="">
+              <image mime-type="image/png" src="../../media/Picture 2-aab8.png" id="id1171465889094__onlineimage" width="350" print-width="3.5in"/>
+            </media>
+          <caption>A schematic representation of the polarization of light waves. Copyright: Nikon Corporation.</caption></figure>
+
+
+        
+      </section>
+      <section id="id1171443627474"><title>Theory of birefringence</title><para id="id1171442630563">Birefringent or doubly-refracting sample has a unique property that it can produce two individual wave components while one wave passes through it, those two components are termed as ordinary and extraordinary waves. <link target-id="id1171448918540"/> is an illustration of a typical construction of Nicol polarizing prism, as we can see, the non-plarized white light are splitted into two ray as it passes through the prism. The one travels out of the prism is called ordinary ray, and the other one is called extraordinary ray. So if we have a birefringent specimen located between the polarizer and analyzer, the initial light will be separated into two waves when it passes though the specimen. After exiting the specimen, the light components become out of phase, but are recombined with constructive and destructive interference when they pass through the analyzer. Now the combined wave will have elliptically or circularly polarized light wave, see <link target-id="id1171448918540"/>, image contrast arises from the interaction of plane-polarized light with a birefringent specimen so some amount of wave will pass through the analyzer and give a bright domain on the specimen. </para>
+
+        <figure id="id1171448918540X"><media id="id1171448918540X_media" alt="">
+            <image mime-type="image/jpg" src="../../media/FigLC4.jpg" id="id1171448918540X__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>A schematic representation of a Nicol polarzing prism. Copyright: Nikon Corporation.</caption></figure>
+ 
+
+        <figure id="id1171448918540"><media id="id1171448918540_media" alt="">
+            <image mime-type="image/jpg" src="../../media/FigLC5.jpg" id="id1171448918540__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>A schematic representation of elliptically and circularly polarized light waves. Copyright: Nikon Corporation.</caption></figure>
+        
+      </section>
+      <section id="id1171444460174"><title>Liquid crystal display</title><para id="id1171448662913">The most common application of LCs are in liquid crystals displays (LCD). <link target-id="id1171442535530"/> is a simple  demonstration of how LCD works in digit calculators. There are two crossed polarizers in this system, and liquid crystal (cholesteric spiral pattern) sandwich with positive and negative charging is located between these two polarizers. When the liquid crystal is charged, waves can pass through without changing orientations. When the liquid crystal is out of charge, waves will be rotated 90° as it passes through LCs so it can pass through the second polarizer. There are seven separately charged electrodes in the LCD, so the LCD can exhibit different numbers from 0 to 9 by adjusting the electrodes. For example, when the upper right and lower left electrodes are charged, we can get 2 on the display.</para>
+
+
+          <figure id="id1171442535530"><media id="id1171442535530_media" alt="">
+              <image mime-type="image/png" src="../../media/Picture 4-16b4.png" id="id1171442535530__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Demonstration of a seven-segment liquid crystal display. Copyright: Nikon Corporation.</caption></figure>
+
+
+        
+      </section>
+    </section>
+    <section id="id1171448267648">
+      <title>Microscope images of liquid crystal phase</title>
+      <section id="id1171444974789"><title>The first order retardation plate </title><para id="id1171467700802">The first order retardation plate is frequently utilized to determine the optical sign of a birefringent specimen in polarized light microscopy. The optical sign includes positive and negative. If the ordinary wavefront is faster than the extraordinary wavefront (see <link target-id=" id1171448918540 "/>), the specimen displays positive birefringence. Conversly, a negative birefringence will be detected if the ordinary wavefront is slower than the extraordinary wavefront. In addition, the retardation plate is also useful for enhancing contrast in weakly birefringent specimens. <link target-id="id1171463627558"/> shows the effect of first order retardation plate on the contrast of birefringence. The birefringence is so weak that the morphology on the edge of the tissue is hard to image, <link target-id="id1171463627558"/>a. When a first order retardation plate is added, the structure of the cell become all apparent compared with the one without retardation plate, <link target-id="id1171463627558"/>b.</para>
+ 
+
+          <figure id="id1171463627558"><media id="id1171463627558_media" alt="">
+              <image mime-type="image/png" src="../../media/Picture 5-95d7.png" id="id1171463627558__onlineimage" width="400" print-width="4in"/>
+            </media>
+          <caption>Microscope images of thin section of human tongue, (a) without first order retardation plate and (b) with first order retardation plate. Copyright: Olympus.</caption></figure>
+      
+
+
+        
+      </section>
+      <section id="id5868579"><title>Images of liquid crystal phases</title><para id="id1171463420267"><link target-id="id1171455479159"/> shows the images of liquid crystal phases from different specimens. First order retardation plates are utilized in all of these images. Apparent contrasts are detected here in the image which corresponds to the existence of liquid crystal phase within the specimen.</para>
+
+
+        <figure id="id1171455479159"><media id="id1171455479159_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 6-2b03.png" id="id1171455479159__onlineimage" width="550" print-width="5.5in"/>
+          </media>
+        <caption>Microscope images in polarized light with a first-order retardation plate inserted between the specimen and analyzer: (a) polyethylene glycol, (b) polycarbonate, and (c) liquid crystalline DNA. Copyright from Nikon.</caption></figure>
+        
+      </section>
+      <section id="id1171443933553"><title>The effect of rotation of the polarizer</title><para id="id1171459803785">The effect of the angle between horizontal direction and polarizer transmission axis on the appearance of liquid crystal phase may be analyzed. In <link target-id="id1171463543554"/> is shown images of an ascorbic acid (<link target-id="id1171463543554X"/>) sample under cross polar mode. When the polarizer rotates from 0° to 90°, big variations on the shape of bright domains and domain colors appear due to the change of wave vibrating directions. By rotating the polarizer, we can have a comprehensive understanding of the overall texture.</para>
+
+        <figure id="id1171463543554"><media id="id1171463543554_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 7-96f5.png" id="id1171463543554__onlineimage" width="550" print-width="5.5in"/>
+          </media>
+        <caption>Cross polarized Microscope images of ascorbic acid specimen with polarizer rotation of (a) 0°, (b) 45°, and (c) 90°. Copyright: Nikon Corporation.</caption></figure>
+        
+      
+
+
+        <figure id="id1171463543554X"><media id="id1171463543554X_media" alt="">
+            <image mime-type="image/jpg" src="../../media/FigLC6.jpg" id="id1171463543554X__onlineimage" width="175" print-width="1.75in"/>
+          </media>
+        <caption>The structure of ascorbic acid. </caption></figure>
+    
+</section>
+    </section>
+    <section id="id1171443410849">
+      <title>Bibliography</title>
+      <list id="id1171450242290" list-type="bulleted"><item>R. Weaver, <emphasis effect="italics">Am. Lab.</emphasis>, 2003, <emphasis effect="bold">35</emphasis>, 55.</item>
+        <item>F. Massoumian, R. Juskaitis, M. A. Neil, and T. Wilson, <emphasis effect="italics">J. Microsc.</emphasis>, 2003, <emphasis effect="bold">209</emphasis>, 13.</item>
+        <item>R. Oldenbourg, <emphasis effect="italics">Nature</emphasis>, 1996, <emphasis effect="bold">381</emphasis>, 811.</item>
+      </list>
+    </section>
+  </content>
+</document>

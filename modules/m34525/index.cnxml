@@ -1,0 +1,169 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Basics of UV-Visible Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34525</md:content-id>
+  <md:title>Basics of UV-Visible Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>02e7b3d6-cf47-4c92-a380-d011ce5658b1</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1170339569076">
+      <title>Introduction</title>
+      <para id="id1170332537517">Ultraviolet-visible (UV-vis) spectroscopy is used to obtain the absorbance spectra of a compound in solution or as a solid. What is actually being observed spectroscopically is the absorbance of light energy or electromagnetic radiation, which excites electrons from the ground state to the first singlet excited state of the compound or material. The UV-vis region of energy for the electromagnetic spectrum covers 1.5 - 6.2 eV which relates to a wavelength range of 800 - 200 nm. The Beer-Lambert Law, <link target-id="eip-49"/>, is the principle behind absorbance spectroscopy. For a single wavelength, A is absorbance (unitless, usually seen as arb. units or arbitrary units), ε is the molar absorptivity of the compound or molecule in solution (M<sup>-1</sup>cm<sup>-1</sup>), <emphasis effect="italics">b</emphasis> is the path length of the cuvette or sample holder (usually 1 cm), and <emphasis effect="italics">c</emphasis> is the concentration of the solution (M). </para>
+      <equation id="eip-49"><media id="id1170949607711_media" alt="">
+            <image mime-type="image/jpg" src="../../media/EqB1.jpg" id="id1170949607711__onlineimage" width="500" print-width="4.5in"/>
+          </media></equation>
+      <para id="id1737034">There are three types of absorbance instruments used to collect UV-vis spectra: </para>
+      <list id="id1170303178885" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Single beam spectrometer.</item>
+        <item>Double beam spectrometer.</item>
+        <item>Simultaneous spectrometer. </item>
+      </list>
+      <para id="id1170338528738">All of these instruments have a light source (usually a deuterium or tungsten lamp), a sample holder and a detector, but some have a filter for selecting one wavelength at a time. The single beam instrument (<link target-id="id4179934"/>) has a filter or a monochromator between the source and the sample to analyze one wavelength at a time. The double beam instrument (<link target-id="id1170300198782"/>) has a single source and a monochromator and then there is a splitter and a series of mirrors to get the beam to a reference sample and the sample to be analyzed, this allows for more accurate readings. In contrast, the simultaneous instrument (<link target-id="id1170303193095"/>) does not have a monochromator between the sample and the source; instead, it has a diode array detector that allows the instrument to simultaneously detect the absorbance at all wavelengths. The simultaneous instrument is usually much faster and more efficient, but all of these types of spectrometers work well.</para>
+      <figure id="id4179934"><media id="id4179934_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-ebc1.jpg" id="id4179934__onlineimage" width="500" print-width="5in"/>
+        </media>
+
+
+      <caption>Illustration of a single beam UV-vis instrument.</caption></figure>
+      
+      <figure id="id1170300198782"><media id="id1170300198782_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics2-fcfb.jpg" id="id1170300198782__onlineimage" width="500" print-width="5in"/>
+	</media>
+<caption>Illustration of a double beam UV-vis instrument.</caption></figure>
+      
+      <figure id="id1170303193095"><media id="id1170303193095_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics3-7492.jpg" id="id1170303193095__onlineimage" width="500" print-width="5in"/>
+	</media>
+<caption>Illustration of a simultaneous UV-vis instrument.</caption></figure>
+      
+    </section>
+    <section id="id7627932">
+      <title>What information can be obtained from UV-vis spectra?</title>
+      <para id="id6550282">UV-vis spectroscopic data can give qualitative and quantitative information of a given compound or molecule. Irrespective of whether quantitative or qualitative information is required it is important to use a reference cell to zero the instrument for the solvent the compound is in. For quantitative information on the compound, calibrating the instrument using known concentrations of the compound in question in a solution with the same solvent as the unknown sample would be required. If the information needed is just proof that a compound is in the sample being analyzed, a calibration curve will not be necessary; however, if a degradation study or reaction is being performed, and concentration of the compound in solution is required, thus a calibration curve is needed. </para>
+      <para id="id1170300070439">To make a calibration curve, at least three concentrations of the compound will be needed, but five concentrations would be most ideal for a more accurate curve. The concentrations should start at just above the estimated concentration of the unknown sample and should go down to about an order of magnitude lower than the highest concentration. The calibration solutions should be spaced relatively equally apart, and they should be made as accurately as possible using digital pipettes and volumetric flasks instead of graduated cylinders and beakers. An example of absorbance spectra of calibration solutions of Rose Bengal (4,5,6,7-tetrachloro-2',4',5',7'-tetraiodofluorescein, <link target-id="id66666"/>) can be seen in <link target-id="id1170318674284"/>. To make a calibration curve, the value for the absorbances of each of the spectral curves at the highest absorbing wavelength, is plotted in a graph similar to that in <link target-id="id1170316948019"/> of absorbance versus concentration. The correlation coefficient of an acceptable calibration is 0.9 or better. If the correlation coefficient is lower than that, try making the solutions again as the problem may be human error. However, if after making the solutions a few times the calibration is still poor, something may be wrong with the instrument; for example, the lamps may be going bad.</para>
+
+
+
+<figure id="id66666"><media id="id66666_media" alt="">
+		<image mime-type="image/jpg" src="../../media/FigB4.jpg" id="id66666__onlineimage" width="200" print-width="2in"/>
+	</media>
+	<caption>The molecular structure of Rose Bengal (4,5,6,7-tetrachloro-2',4',5',7'-tetraiodofluorescein).</caption></figure>
+
+
+
+<figure id="id1170318674284"><media id="id1170318674284_media" alt="">
+		<image mime-type="image/jpg" src="../../media/FigB11.jpg" id="id1170318674284__onlineimage" width="450" print-width="4.5in"/>
+	</media>
+	<caption>UV-vis spectra of different concentrations of Rose Bengal.</caption></figure>
+      
+
+
+
+
+
+
+        <figure id="id1170316948019"><media id="id1170316948019_media" alt="">
+		<image mime-type="image/jpg" src="../../media/FigB21.jpg" id="id1170316948019__onlineimage" width="450" print-width="4.5in"/>
+	</media>
+<caption>Calibration curve of Rose Bengal. Equation of line: y = 0.0977x – 0.1492 (R<sup>2</sup> = 0.996)</caption></figure>
+  
+
+
+
+      
+    </section>
+    <section id="id1170331861942">
+      <title>Limitations of UV-visible spectroscopy</title>
+      <section id="id1170300065997">
+        <title>Sample</title>
+        <para id="id1170302991270">UV-vis spectroscopy works well on liquids and solutions, but if the sample is more of a suspension of solid particles in liquid, the sample will scatter the light more than absorb the light and the data will be very skewed. Most UV-vis instruments can analyze solid samples or suspensions with a diffraction apparatus (<link target-id="id5566"/>), but this is not common. UV-vis instruments generally analyze liquids and solutions most efficiently. </para>
+
+<figure id="id5566"><media id="id5566_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Spec-d5cf.jpg" id="id5566__onlineimage" width="250" print-width="2.5in"/>
+          </media><caption>Schematic representation of the apparatus for collecting UV-vis spectra from solid materials.</caption></figure>
+
+
+
+
+
+      </section>
+      <section id="id1170303353121">
+        <title>Calibration and reference</title>
+        <para id="id1170316965763">A blank reference will be needed at the very beginning of the analysis of the solvent to be used (water, hexanes, etc), and if concentration analysis needs to be performed, calibration solutions need to be made accurately (e.g., <link target-id=" id1170316948019"/>). If the solutions are not made accurately enough, the actual concentration of the sample in question will not be accurately determined.</para>
+      </section>
+      <section id="id1170302868404">
+        <title>Choice of solvent or container</title>
+        <para id="id1170303045629">Every solvent has a UV-vis absorbance cutoff wavelength. The solvent cutoff is the wavelengthbelow which the solvent itself absorbs all of the light. So when choosing a solvent be aware of its absorbance cutoff and where the compound under investigation is thought to absorb. If they are close, chose a different solvent. <link target-id="id1942686"/> provides an example of solvent cutoffs. </para>
+        <table id="id1942686" summary="UV absorbance cutoffs of various common solvents.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<tbody>
+		<row>
+			<entry><emphasis effect="bold">Solvent</emphasis></entry>
+			<entry><emphasis effect="bold">UV absorbance cutoff (nm)</emphasis></entry>
+		</row>
+		<row>
+			<entry>Acetone</entry>
+			<entry>329</entry>
+		</row>
+		<row>
+			<entry>Benzene</entry>
+			<entry>278</entry>
+		</row>
+		<row>
+			<entry>Dimethylformamide (DMF)</entry>
+			<entry>267</entry>
+		</row>
+		<row>
+			<entry>Ethanol</entry>
+			<entry>205</entry>
+		</row>
+		<row>
+			<entry>Toluene</entry>
+			<entry>285</entry>
+		</row>
+		<row>
+			<entry>Water</entry>
+			<entry>180</entry>
+		</row>
+	</tbody>
+
+</tgroup><caption>UV absorbance cutoffs of various common solvents.</caption>
+</table><para id="eip-877">The material the cuvette (the sample holder) is made from will also have a UV-vis absorbance cutoff. Glass will absorb all of the light higher in energy starting at about 300 nm, so if the sample absorbs in the UV, a quartz cuvette will be more practical as the absorbance cutoff is around 160 nm for quartz (<link target-id="eip-639"/>).</para><table id="eip-639" summary="Three different types of cuvettes commonly used, with different usable wavelengths.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Material</emphasis></entry>
+    <entry><emphasis effect="bold">Wavelength range (nm)</emphasis> </entry>
+  </row>
+  <row>
+    <entry>Glass</entry>
+    <entry>380 - 780</entry>
+  </row>
+  <row>
+    <entry>Plastic</entry>
+    <entry>380 - 780</entry>
+  </row>
+  <row>
+    <entry>Fused quartz</entry>
+    <entry>below 380</entry>
+  </row>
+</tbody>
+</tgroup><caption>Three different types of cuvettes commonly used, with different usable wavelengths. </caption>
+</table>
+        
+      </section>
+      <section id="id1170329980258">
+        <title>Concentration of solution</title>
+        <para id="id3667423">To obtain reliable data, the peak of absorbance of a given compound needs to be at least three times higher in intensity than the background noise of the instrument. Obviously using higher concentrations of the compound in solution can combat this. Also, if the sample is very small and diluting it would not give an acceptable signal, there are cuvettes that hold smaller sample sizes than the 2.5 mL of a standard cuvettes. Some cuvettes are made to hold only 100 μL, which would allow for a small sample to be analyzed without having to dilute it to a larger volume, lowering the signal to noise ratio. </para>
+      </section>
+    </section>
+    <section id="id1170303087985">
+      <title>Bibliography</title>
+      <list id="id1170302101838" list-type="bulleted"><item>D. A. Skoog, F. J. Holler, S. R. Crouch, <emphasis effect="italics">Principles of Instrumental Analysis</emphasis>, 6<sup>th</sup> Ed., Thomson Brooks/Cole (2007).</item>
+        <item>J. P. Sibilia, <emphasis effect="italics">Materials Characterization and Chemical Analysis</emphasis>, 2<sup>nd</sup> Ed., Wiley-VCH, New York (1996).</item>
+        <item>D. C. Harris, <emphasis effect="italics">Quantitative Chemical Analysis</emphasis>, 7<sup>th</sup> Ed., Freeman, New York(2007).</item>
+      </list>
+    </section>
+  </content>
+</document>

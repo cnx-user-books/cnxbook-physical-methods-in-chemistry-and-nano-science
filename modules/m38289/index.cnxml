@@ -1,0 +1,119 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>An Introduction to X-ray Diffraction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38289</md:content-id>
+  <md:title>An Introduction to X-ray Diffraction</md:title>
+  <md:abstract/>
+  <md:uuid>55aec6eb-5aa6-486c-9902-bf202c90dbf5</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1168063151223"><title>History of X-ray crystallography</title><para id="id1168069321711">The birth of X-ray crystallography is considered by many to be marked by the formulation of the <emphasis effect="italics">law of constant angles</emphasis> by Nicolaus Steno in 1669 (<link target-id="id1168061327656"/>). Although Steno is well known for his numerous principles regarding all areas of life, this particular law dealing with geometric shapes and crystal lattices is familiar ground to all chemists. It simply states that <emphasis effect="italics">the angles between corresponding faces on crystals are the same for all specimens of the same mineral. </emphasis>The significance of this for chemistry is that given this fact, crystalline solids will be easily identifiable once a database has been established. Much like solving a puzzle, crystal structures of heterogeneous compounds could be solved very methodically by comparison of chemical composition and their interactions. </para>
+      <figure id="id1168061327656"><media id="id1168061327656_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-a274.jpg" id="id1168061327656__onlineimage" width="300" print-width="2in"/>
+        </media>
+      <caption>Danish pioneer in both anatomy and geology Nicolas Steno (1638 – 1686).</caption></figure>
+      
+      <para id="id1168071930309">Although Steno was given credit for the notion of crystallography, the man that provided the tools necessary to bring crystallography into the scientific arena was Wilhelm Roentgen (<link target-id="id1168068453409"/>), who in 1895 successfully pioneered a new form of photography, one that could allegedly penetrate through paper, wood, and human flesh; due to a lack of knowledge of the specific workings of this new discovery, the scientific community conveniently labeled the new particles <emphasis effect="italics">X-rays</emphasis>. This event set off a chain reaction of experiments and studies, not all performed by physicists. Within one single month, medical doctors were using X-rays to pinpoint foreign objects such in the human body such as bullets and kidney stones (<link target-id="id4849617"/>). </para>
+
+
+        <figure id="id1168068453409"><media id="id1168068453409_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-70af.jpg" id="id1168068453409__onlineimage" width="300" print-width="2in"/>
+          </media>
+        <caption>German physicist Wilhelm Conrad Röentgen (1845 – 1923). </caption></figure>
+
+
+      
+      <figure id="id4849617"><media id="id4849617_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-dba3.jpg" id="id4849617__onlineimage" width="300" print-width="2in"/>
+        </media>
+      <caption>First public X-ray image ever produced. Pictured is the left hand of Anna Berthe Röentgen. The uncharacteristic bulge is her ring. </caption></figure>
+      
+      <para id="id1168073670855">The credit for the actual discovery of X-ray diffraction goes to Max von Laue (<link target-id="id1168069474748"/>), to whom the Nobel Prize in physics in 1914 was awarded for the discovery of the diffraction of X-rays. Legend has it that the notion that eventually led to a Nobel prize was born in a garden in Munich, while von Laue was pondering the problem of passing waves of electromagnetic radiation through a specific crystalline arrangement of atoms. Because of the relatively large wavelength of visible light, von Laue was forced to turn his attention to another part of the electromagnetic spectrum, to where shorter wavelengths resided. Only a few decades earlier, Röentgen had publicly announced the discovery of X-rays, which supposedly had a wavelength shorter than that of visible light. Having this information, von Laue entrusted the task of performing the experimental work to two technicians, Walter Friedrich and Paul Knipping. The setup consisted of an X-ray source, which beamed radiation directly into a copper sulfate crystal housed in a lead box. Film was lined against the sides and back of the box, so as to capture the X-ray beam and its diffraction pattern. Development of the film showed a dark circle in the center of the film, surrounded by several extremely well defined circles, which had formed as a result of the diffraction of the X-ray beam by the ordered geometric arrangement of copper sulfate. Max von Laue then proceeded to work out the mathematical formulas involved in the observed diffraction pattern, for which he was awarded the Nobel Prize in physics in 1914. </para>
+      <figure id="id1168069474748"><media id="id1168069474748_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4-41f8.jpg" id="id1168069474748__onlineimage" width="300" print-width="2in"/>
+        </media>
+      <caption>German physicist Max Theodor Felix von Laue (1879 – 1960) won the Nobel Prize for discovery of the diffraction of X-rays by crystals. </caption></figure>
+      
+    </section>
+    <section id="id1168061031305"><title>Principles of X-ray diffraction (XRD)</title><para id="id1168063214043">The simplest definition of diffraction is <emphasis effect="italics">the irregularities caused when waves encounter an object</emphasis>. Diffraction is a phenomenon that exists commonly in everyday activities, but is often disregarded and taken for granted. For example, when looking at the information side of a compact disc, a rainbow pattern will often appear when it catches light at a certain angle. This is caused by visible light striking the grooves of the disc, thus producing a rainbow effect (<link target-id="id112011CD"/>), as interpreted by the observers' eyes. Another example is the formation of seemingly concentric rings around an astronomical object of significant luminosity when observed through clouds. The particles that make up the clouds diffract light from the astronomical object around its edges, causing the illusion of rings of light around the source. It is easy to forget that diffraction is a phenomenon that applies to all forms of waves, not just electromagnetic radiation.  Due to the large variety of possible types of diffractions, many terms have been coined to differentiate between specific types. The most prevalent type of diffraction to X-ray crystallography is known as Bragg diffraction, which is defined as the scattering of waves from a crystalline structure.  </para>
+
+
+      <figure id="id112011CD"><media id="id112011CD_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Compact-Disc.jpg" id="id112011CD__onlineimage" width="200" print-width="2in"/>
+        </media>
+      <caption>The rainbow effects caused by visible light striking the grooves of a compact disc (CD).</caption></figure>
+ 
+
+
+      <para id="eip-720">Formulated by William Lawrence Bragg (<link target-id="id1168064875803"/>), the equation of Bragg's law relates wavelength to angle of incidence and lattice spacing, <link target-id="eip-614"/>, where <emphasis effect="italics">n </emphasis>is a numeric constant known as the order of the diffracted beam, <emphasis effect="italics">λ</emphasis> is the wavelength of the beam, <emphasis effect="italics">d</emphasis> denotes the distance between lattice planes, and <emphasis effect="italics">θ </emphasis>represents the angle of the diffracted wave. The conditions given by this equation must be fulfilled if diffraction is to occur. </para><equation id="eip-614"><media id="id4X_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq3-6b31.jpg" id="id37__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+      <figure id="id1168064875803"><media id="id1168064875803_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics5-b5ba.jpg" id="id1168064875803__onlineimage" width="300" print-width="2in"/>
+        </media>
+      <caption>Australian-born British physicist Sir William Lawrence Bragg (1890 – 1971).</caption></figure>
+      
+      
+      <para id="id1168067231027">Because of the nature of diffraction, waves will experience either constructive (<link target-id="id112011construct"/>) or destructive (<link target-id="id112011destruct"/>) interference with other waves. In the same way, when an X-ray beam is diffracted off a crystal, the different parts of the diffracted beam will have seemingly stronger energy, while other parts will have seemed to lost energy. This is dependent mostly on the wavelength of the incident beam, and the spacing between crystal lattices of the sample. Information about the lattice structure is obtained by varying beam wavelengths, incident angles, and crystal orientation. Much like solving a puzzle, a three dimensional structure of the crystalline solid can be constructed by observing changes in data with variation of the aforementioned variables</para>
+
+
+      <figure id="id112011construct"><media id="id112011construct_media" alt="">
+          <image mime-type="image/jpg" src="../../media/construct.jpg" id="id112011construct__onlineimage" width="350" print-width="3.5in"/>
+        </media>
+      <caption>Schematic representation of constructive interference.</caption></figure>
+ 
+
+      <figure id="id112011destruct"><media id="id112011destruct_media" alt="">
+          <image mime-type="image/jpg" src="../../media/destruct.jpg" id="id112011destruct__onlineimage" width="350" print-width="3.5in"/>
+        </media>
+      <caption>Schematic representation of destructive interference.</caption></figure>
+ 
+
+
+    </section>
+    <section id="id1168077084779"><title>The X-ray diffractometer</title><para id="id1168069172482">At the heart of any XRD machine is the X-ray source. Modern day machines generally rely on copper metal as the element of choice for producing X-rays, although there are variations among different manufacturers. Because diffraction patterns are recorded over an extended period of time during sample analysis, it is very important that beam intensity remain constant throughout the entire analysis, or else faulty data will be procured. In light of this, even before an X-ray beam is generated, current must pass through a voltage regular, which will guarantee a steady stream of voltage to the X-ray source. </para>
+
+      <para id="eip-635">Another crucial component to the analysis of crystalline via X-rays is the detector. When XRD was first developed, film was the most commonly used method for recognizing diffraction patterns. The most obvious disadvantage to using film is the fact that it has to replaced every time a new specimen is introduced, making data collection a time consuming process. Furthermore, film can only be used once, leading to an increase in cost of operating diffraction analysis. </para><para id="id4540533">Since the origins of XRD, detection methods have progressed to the point where modern XRD machines are equipped with semiconductor detectors, which produce pulses proportional to the energy absorbed. With these modern detectors, there are two general ways in which a diffraction pattern may be obtained. The first is called continuous scan, and it is exactly what the name implies. The detector is set in a circular motion around the sample, while a beam of X-ray is constantly shot into the sample. Pulses of energy are plotted with respect to diffraction angle, which ensure all diffracted X-rays are recorded. The second and more widely used method is known as step scan. Step scanning bears similarity to continuous scan, except it is highly computerized and much more efficient. Instead of moving the detector in a circle around the entire sample, step scanning involves collecting data at one fixed angle at a time, thus the name. Within these detection parameters, the types of detectors can themselves be varied. A more common type of detector, known as the charge-coupled device (CCD) detector (<link target-id="id1168063780069"/>), can be found in many XRD machines, due to its fast data collection capability. A CCD detector is comprised of numerous radiation sensitive grids, each linked to sensors that measure changes in electromagnetic radiation. Another commonly seen type of detector is a simple scintillation counter (<link target-id="id1168068811809"/>), which counts the intensity of X-rays that it encounters as it moves along a rotation axis. A comparable analogy to the differences between the two detectors mentioned would be that the CCD detector is able to see in two dimensions, while scintillation counters are only able to see in one dimension. </para>
+
+      <figure id="id1168063780069"><media id="id1168063780069_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics6-5247.jpg" id="id1168063780069__onlineimage" width="600" print-width="5in"/>
+        </media>
+        <caption>Single crystal X-ray diffractometer with a CCD detector. The incident beam is generated and delivered through the silver apparatus on the right side of the sample, and the detector is the large black camera to the left of the sample. </caption></figure>
+
+      <figure id="id1168068811809"><media id="id1168068811809_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics7-b554.jpg" id="id1168068811809__onlineimage" width="600" print-width="5in"/>
+        </media>
+      <caption>Image of a powder X-ray diffractometer. The incident beam enters from the tube on the left, and the detector is housed in the black box on the right side of the machine. This particular XRD machine is capable of handling six samples at once, and is fully automated from sample to sample. </caption></figure>
+
+
+      <para id="id1168067020797">Aside from the above two components, there are many other variables involved in sample analysis by an XRD machine.  As mentioned earlier, a steady incident beam is extremely important for good data collection. To further ensure this, there will often be what is known as a Söller slit or collimator found in many XRD machines. A Söller slit collimates the direction of the X-ray beam. In the collimated X-ray beam the rays are parallel, and therefore will spread minimally as they propagates (<link target-id="id116806378006X"/>). Without a collimator X-rays from all directions will be recorded; for example, a ray that has passed through the top of the specimen (see the red arrow in <link target-id="id116806378006X"/>a) but happens to be traveling in a downwards direction may be recorded at the bottom of the plate. The resultant image will be so blurred and indistinct as to be useless. Some machines have a Söller slit between the sample and the detector, which drastically reduces the amount of background noise, especially when analyzing iron samples with a copper X-ray source. </para><figure id="id116806378006X"><media id="id116806378006X_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Soller.jpg" id="id116806378006X__onlineimage" width="250" print-width="2.5in"/>
+        </media>
+        <caption>How a Söller collimator filters a stream of rays. (a) without a collimator and (b) with a collimator. </caption></figure><para id="id1168073778767">This single crystal XRD machine (<link target-id="id1168063780069"/>) features a cooling gas line, which allows the user to bring down the temperature of a sample considerably below room temperature. Doing so allows for the opportunities for studies performed where the sample is kept in a state of extremely low energy, negating a lot of vibrational motion that might interfere with consistent data collection of diffraction patterns. Furthermore, information can be collected on the effects of temperature on a crystal structure. Also seen in <link target-id="id1168063780069"/> is the hook-shaped object located between the beam emitter and detector. It serves the purpose of blocking X-rays that were not diffracted from being seen by the detector, drastically reducing the amount of unnecessary noise that would otherwise obscure data analysis. </para>
+      
+    </section><section id="id1168072985204"><title>Evolution of powder XRD</title><para id="id1168069232199">Over time, XRD analysis has evolved from a very narrow and specific field to something that encompasses a much wider branch of the scientific arena. In its early stages, XRD was (with the exception of the simplest structures) confined to single crystal analysis, as detection methods had not advanced to a point where more complicated procedures was able to be performed. After many years of discovery and refining, however, technology has progressed to where crystalline properties (structure) of solids can be gleaned directly from a powder sample, thus offering information for samples that cannot be obtained as a single crystal. One area in which this is particularly useful is pharmaceuticals, since many of the compounds studied are not available in single crystal form, only in a powder. </para>
+      <para id="id1168064089040">Even though single crystal diffraction and powder diffraction essentially generate the same data, due to the powdered nature of the latter sample, diffraction lines will often overlap and interfere with data collection. This is apparently especially when the diffraction angle 2<emphasis effect="italics">θ </emphasis>is high; patterns that emerge will be almost to the point of unidentifiable, because of disruption of individual diffraction patterns. For this particular reason, a new approach to interpreting powder diffraction data has been created. </para>
+      <para id="id1168066637200">There are two main methods for interpreting diffraction data: </para>
+
+
+
+<list id="id1168069103671" list-type="bulleted"><item>The first is known as the traditional method, which is very straightforward, and bears resemblance to single crystal data analysis. This method involves a two step process: 1) the intensities and diffraction patterns from the sample is collected, and 2) the data is analyzed to produce a crystalline structure. As mentioned before, however, data from a powdered sample is often obscured by multiple diffraction patterns, which decreases the chance that the generated structure is correct. </item>
+        <item>The second method is called the direct-space approach. This method takes advantage of the fact that with current technology, diffraction data can be calculated for any molecule, whether or not it is the molecule in question. Even before the actual diffraction data is collected, a large number of theoretical patterns of suspect molecules are generated by computer, and compared to experimental data. Based on correlation and how well the theoretical pattern fits the experimental data best, a guess is formulated to which compound is under question. This method has been taken a step further to mimic social interactions in a community. For example, first generation theoretical trial molecules, after comparison with the experimental data, are allowed to evolve within parameters set by researchers. Furthermore, if appropriate, molecules are produce offspring with other molecules, giving rise to a second generation of molecules, which fit the experimental data even better. Just like a natural environment, genetic mutations and natural selection are all introduced into the picture, ultimately giving rise a molecular structure that represents data collected from XRD analysis. </item>
+      </list>
+      <para id="id1168065050772">Another important aspect of being able to study compounds in powder form for the pharmaceutical researcher is the ability to identify structures in their natural state. A vast majority of drugs in this day and age are delivered through powdered form, either in the form of a pill or a capsule. Crystallization processes may often alter the chemical composition of the molecule (e.g., by the inclusion of solvent molecules), and thus marring the data if confined to single crystal analysis. Furthermore, when the sample is in powdered form, there are other variables that can be adjusted to see real-time effects on the molecule. Temperature, pressure, and humidity are all factors that can be changed in-situ to glean data on how a drug might respond to changes in those particular variables. </para>
+      
+      
+      
+      
+      
+      
+    </section><section id="eip-197"><title>Bibliography</title><list id="eip-753"><item>H. D. Jakubke and H. Jeschkeit, <emphasis effect="italics">Concise Encyclopedia Chemistry</emphasis>, Walter de Gruyter, Berlin (1993).</item>
+      <item>M. von Laue, <emphasis effect="italics">Concerning the detection of X-ray interferences</emphasis>, Nobel Prize. Nobel Foundation (1915). </item>
+      <item>K. Harris, <emphasis effect="italics">Am. Pharmaceut. Rev</emphasis>., 2004, <emphasis effect="bold">7.2</emphasis>, 86.</item>
+        <item>B. D. Cullity and S. R. Stock. <emphasis effect="italics">Elements of X-ray Diffraction</emphasis>, 3<sup>rd</sup> Edition, Prentice Hall, New Jersey (2001). </item>
+      </list></section>
+  </content>
+</document>

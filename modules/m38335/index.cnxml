@@ -1,0 +1,153 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Scanning Tunneling Microscopy of Nanomaterials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38335</md:content-id>
+  <md:title>Scanning Tunneling Microscopy of Nanomaterials</md:title>
+  <md:abstract/>
+  <md:uuid>9891be71-2d10-46ca-ac19-c38385c54c8d</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1165520936268"><title>Introduction</title><para id="id1165519822221">Scanning tunneling microscopy (STM) is a powerful instrument that allows one to image the sample surface at the atomic level. As the first generation of scanning probe microscopy (SPM), STM paves the way for the study of nano-science and nano-materials. For the first time, researchers could obtain atom-resolution images of electrically conductive surfaces as well as their local electric structures. Because of this milestone invention, Gerd Binnig (<link target-id="id1165520632637"/>) and Heinrich Rohrer (<link target-id="id1165525561752"/>) won the Nobel Prize in Physics in 1986. </para>
+      <figure id="id1165520632637"><media id="id1165520632637_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-4dab.jpg" id="id1165520632637__onlineimage" width="300" print-width="2in"/>
+        </media>
+      <caption>German physicist Gerd Binnig (1947 - ).</caption></figure>
+      
+
+        <figure id="id1165525561752"><media id="id1165525561752_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-f5dc.jpg" id="id1165525561752__onlineimage" width="300" print-width="2in"/>
+          </media>
+        <caption>Swiss physicist Heinrich Rohrer (1933 - )</caption></figure>
+
+      
+    </section>
+    <section id="id1165524236962"><title>Principles of scanning tunneling microscopy</title><para id="id1165530609545">The key physical principle behind STM is the <emphasis effect="italics">tunneling effect</emphasis>. In terms of their wave nature, the electrons in the surface atoms actually are not as tightly bonded to the nucleons as the electrons in the atoms of the bulk. More specifically, the electron density is not zero in the space outside the surface, though it will decrease exponentially as the distance between the electron and the surface increases  (<link target-id="id1165533962032"/>a). So, when a metal tip approaches to a conductive surface within a very short distance, normally just a few Å, their perspective electron clouds will starting to overlap, and generate tunneling current if a small voltage is applied between them, as shown in <link target-id="id1165533962032"/>b. </para>
+
+      <figure id="id1165533962032"><media id="id1165533962032_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-41c1.jpg" id="id1165533962032__onlineimage" width="600" print-width="5in"/>
+        </media>
+      <caption>Schematic diagram of the principles of AFM showing (a) the interactions between tip and surface and (b) the tunneling current generated from tip and surface is measured and used as feedback to control the movement of the tip.</caption></figure>
+      
+    
+
+      <para id="eip-146">When we consider the separation between the tip and the surface as an ideal one-dimensional tunneling barrier, the tunneling probability, or the tunneling current <emphasis effect="italics">I</emphasis>, will depend largely on <emphasis effect="italics">s</emphasis>, the distance between the tip and surface, <link target-id="eip-145"/>, where <emphasis effect="italics">m</emphasis> is the electron mass, <emphasis effect="italics">e</emphasis> the electron charge, <emphasis effect="italics">h</emphasis> the Plank constant, <emphasis effect="italics">ϕ</emphasis> the averaged work function of the tip and the sample, and <emphasis effect="italics">V</emphasis> the bias voltage.</para>
+
+
+<equation id="eip-145">
+<media id="id201117_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq17-a17e.jpg" id="id201117__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+      <para id="id1165525526724">A simple calculation will show us how strongly the tunneling current is affected by the distance (<emphasis effect="italics">s</emphasis>). If <emphasis effect="italics">s</emphasis> is increased by <emphasis effect="italics">∆s</emphasis> = 1 Å, <link target-id="eip-18"/> and <link target-id="eip-19"/>. </para>
+
+
+<equation id="eip-18">
+<media id="id201118_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq18-fc19.jpg" id="id201118__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-19">
+<media id="id201119_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq19-a95a.jpg" id="id201119__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+      
+      
+
+
+      <para id="id1165503904042">Usually (&lt;ϕ&gt; －e|V|/2) is about 5 eV, which <emphasis effect="italics">k</emphasis><sub>0</sub> about 1 Å<sup>-1</sup>, then ∆I/I = <sup>1</sup>/<sub>8</sub>. That means, if <emphasis effect="italics">s</emphasis> changes by 1 Å, the current will change by one order of the magnitude. That’s the reason why we can get atom-level image by measuring the tunneling current between the tip and the sample.</para>
+
+
+      <para id="id1165521674590">In a typical STM operation process, the tip is scanning across the surface of sample in <emphasis effect="italics">x-y</emphasis> plain, the instrument records the <emphasis effect="italics">x-y</emphasis> position of the tip, measures the tunneling current, and control the height of the tip via a feedback circuit. The movements of the tip in <emphasis effect="italics">x, y</emphasis> and <emphasis effect="italics">z</emphasis> directions are all controlled by piezo ceramics, which can be elongated or shortened according to the voltage applied on them. </para>
+
+
+      <para id="id1165524221520">Normally, there are two modes of operation for STM, <emphasis effect="italics">constant height mode</emphasis> and <emphasis effect="italics">constant current mode</emphasis>. In constant height mode, the tip stays at a constant height when it scans through the sample, and the tunneling current is measured at different (<emphasis effect="italics">x, y</emphasis>) position (<link target-id="id1165533962032"/>b). This mode can be applied when the surface of sample is very smooth. But, if the sample is rough, or has some large particles on the surface, the tip may contact with the sample and damage the surface. In this case, the constant current mode is applied. During this scanning process, the tunneling current, namely the distance between the tip and the sample, is settled to an unchanged target value. If the tunneling current is higher than that target value, that means the height of the sample surface is increasing, the distance between the tip and sample is decreasing. In this situation, the feedback control system will respond quickly and retract the tip. Conversely, if the tunneling current drops below the target value, the feedback control will have the tip closer to the surface. According to the output signal from feedback control, the surface of the sample can be imaged. </para>
+</section>
+    <section id="id1165516522285"><title>Comparison of atomic force microscopy (AFM) and scanning tunneling microscopy (STM)</title><para id="id1165534027591">Both AFM and STM are widely used in nano-science. According to the different working principles though, they have their own advantages and disadvantages when measuring specific properties of sample (<link target-id="id1165507438198"/>). STM requires an electric circuit including the tip and sample to let the tunneling current go through. That means, the sample for STM must be conducting. In case of AFM however, it just measures the deflection of the cantilever caused by the van der Waals forces between the tip and sample. Thus, in general any kind of sample can be used for AFM. But, because of the exponential relation of the tunneling current and distance, STM has a better resolution than AFM. In STM image one can actually “see” an individual atom, while in AFM it’s almost impossible, and the quality of AFM image is largely depended on the shape and contact force of the tip. In some cases, the measured signal would be rather complicated to interpret into morphology or other properties of sample. On the other side, STM can give straight forward electric property of the sample surface. </para>
+      
+      <table id="id1165507438198" summary="Comparison of AFM and STM.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry/>
+              <entry><emphasis effect="bold">AFM</emphasis></entry>
+              <entry><emphasis effect="bold">STM</emphasis></entry>
+            </row>
+            <row>
+              <entry>Sample requirement</entry>
+              <entry>-</entry>
+              <entry>Conducting</entry>
+            </row>
+            <row>
+              <entry>Work environment</entry>
+              <entry>Air, liquid</entry>
+              <entry>Vacuum</entry>
+            </row>
+            <row>
+              <entry>Lateral resolution</entry>
+              <entry>~1 nm</entry>
+              <entry>~0.1 nm</entry>
+            </row>
+            <row>
+              <entry>Vertical resolution</entry>
+              <entry>~0.05 nm</entry>
+              <entry>~0.05 nm</entry>
+            </row>
+            <row>
+              <entry>Working mode</entry>
+              <entry>Tapping, contact</entry>
+              <entry>Constant current, constant height</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup><caption>Comparison of AFM and STM. </caption>
+</table>
+    </section>
+    <section id="id1165525807859"><title>Applications of scanning tunneling microscopy in nanoscience.</title><para id="id1165514198242">STM provides a powerful method to detect the surface of conducting and semi-conducting materials. Recently STM can also be applied in the imaging of insulators, superlattice assemblies and even the manipulation of molecules on surface. More importantly, STM can provide the surface structure and electric property of surface at atomic resolution, a true breakthrough in the development of nano-science. In this sense, the data collected from STM could reflect the local properties even of single molecule and atom. With these valuable measurement data, one could give a deeper understanding of structure-property relations in nanomaterials. </para>
+
+      <para id="id1165503918593">An excellent example is the STM imaging of graphene on Ru(0001), as shown in <link target-id="id1165527414969"/>. Clearly seen is the superstructure with a periodicity of ~30 Å , coming from the lattice mismatch of 12 unit cells of the graphene and 11 unit cells of the underneath Ru(0001) substrate. This so-called moiré structure can also be seen in other systems when the adsorbed layers have strong chemical bonds within the layer and weak interaction with the underlying surface. In this case, the periodic superstructure seen in graphene tells us that the formed graphene is well crystallized and expected to have high quality.</para>
+
+        <figure id="id1165527414969"><media id="id1165527414969_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-8516.jpg" id="id1165527414969__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>Atomically resolved image of the graphene overlayer. The scanning area is 40 x 40 Å, the operation mode is constant current mode, <emphasis effect="italics">I</emphasis><sub>t</sub> is l nA, <emphasis effect="italics">V</emphasis><sub>Bias</sub> is -0.05 V. Adapted with permission from S. Marchini, S. Gunther, and J. Wintterlin, <emphasis effect="italics">Phys. Rev. B</emphasis>, 2007, <emphasis effect="bold">76</emphasis>, 075429. Copyrighted by the American Physical Society.</caption></figure>
+
+      
+      <para id="id1165504340788">Another good example is shown to see that the measurement from STM could tell us the bonding information in single-molecular level. In thiol- and thiophene-functionalization of single-wall carbon nanotubes (SWNTs) (<link target-id=" id2011FigAFM"/>), the use of Au nanoparticles as chemical markers for AFM gives misleading results, while STM imaging could give correct information of substituent location. From AFM image, Au-thiol-SWNT (<link target-id="id1165535589017"/>a) shows that most of the sidewalls are unfunctionalized, while Au-thiophene-SWNT (<link target-id="id1165535589017"/>c) shows long bands of continuous functionalized regions on SWNT. This could lead to the estimation that thiophene is better functionalized to SWNT than thiol. Yet, if we look up to the STM image (<link target-id="id1165535589017"/>b and d), in thiol-SWNTs the multiple functional groups are tightly bonded in about 5 - 25 nm, while in thiophene-SWNTs the functionalization is spread out uniformly along the whole length of SWNT. This information indicates that actually the functionalization levels of thiol- and thiophene-SWNTs are comparable. The difference is that, in thiol-SWNTs, functional groups are grouped together and each group is bonded to a single gold nanoparticle, while in thiophene-SWNTs, every individual functional group is bonded to a nanoparticle.</para>
+
+      <figure id="id2011FigAFM"><media id="id2011FigAFM_media" alt="">
+          <image mime-type="image/jpg" src="../../media/FigAFM.jpg" id="id2011FigAFM__onlineimage" width="300" print-width="3in"/>
+        </media>
+      <caption>Structure of (a) thiol-functionalized SWNTs and thiophene-functionalized SWNTs.  </caption></figure>
+
+
+
+      <figure id="id1165535589017"><media id="id1165535589017_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics5-dabb.jpg" id="id1165535589017__onlineimage" width="400" print-width="4in"/>
+        </media>
+      <caption>Difference between AFM and STM images of functionalized SWNTs. (a) and (c) are tapping mode AFM images and height profiles of thiol- and thiophene-SWNTs. (b) and (d) are STM images of thiol-SWNTs (scanning area is 4560 x 4000 Å, the operation mode is constant current mode, <emphasis effect="italics">I</emphasis><sub>t</sub> is 3.25 pA, <emphasis effect="italics">V</emphasis><sub>Bias</sub> is -0.5 V) and thiophene-SWNTs (scanning area is 4560 x 4000 Å, the operation mode is constant current mode, <emphasis effect="italics">I</emphasis><sub>t</sub> is 5.66 pA, <emphasis effect="italics">V</emphasis><sub>Bias</sub> is -0.8 V). Inset in (d) is a higher resolution image of the local defects on thiophene-SWNT (500 x 140 Å, the operation mode is constant current mode, <emphasis effect="italics">I</emphasis><sub>t</sub> is 25.5 pA, <emphasis effect="italics">V</emphasis><sub>Bias</sub> is -0.8 V). Adapted from L. Zhang, J. Zhang, N. Schmandt, J. Cratty, V. N. Khabashesku, K. F. Kelly, and A. R. Barron, <emphasis effect="italics">Chem. Commun.</emphasis>, 2005, 5429 (<link url="http://dx.doi.org/10.1039/b509257d">http://dx.doi.org/10.1039/b509257d</link>). Reproduced by permission of The Royal Society of Chemistry. </caption></figure>
+      
+    </section>
+    <section id="id1165533956197">
+      <title>Bibliography</title>
+      <list id="id1165516481270" list-type="bulleted"><item>G. Binnig and H. Rohrer. <emphasis effect="italics">Surf. Sci</emphasis>., 1983, <emphasis effect="bold">126</emphasis>, 236.</item>
+        <item>G. Binnig and H. Rohrer, <emphasis effect="italics">Surf. Sci.</emphasis>, 1985, <emphasis effect="bold">152/153</emphasis>, 17.</item>
+        <item>J. Griffith, <emphasis effect="italics">Annu. Rev. Mater. Sci.</emphasis>, 1990, <emphasis effect="bold">20</emphasis>, 219.</item>
+        <item>M. Poggi, L. Bottomley, and P. Lillehei, <emphasis effect="italics">Anal. Chem.</emphasis>, 2002, <emphasis effect="bold">74</emphasis>, 2851.</item>
+        <item>P. Samori. <emphasis effect="italics">J. Mater. Chem.</emphasis>, 2005, <emphasis effect="bold">14</emphasis>, 1353.</item>
+        <item>S. Marchini, S. Gunther, and J. Wintterlin, <emphasis effect="italics">Phys. Rev. B</emphasis>, 2007, <emphasis effect="bold">76</emphasis>, 075429.</item>
+        <item>L. Zhang, J. Zhang, N. Schmandt, J. Cratty, V. N. Khabashesku, K. F. Kelly, and A. R. Barron, <emphasis effect="italics">Chem. Commun.,</emphasis> 2005, 5429.</item>
+      </list>
+    </section>
+  </content>
+</document>

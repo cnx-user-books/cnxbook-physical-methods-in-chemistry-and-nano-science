@@ -1,0 +1,177 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>F-19 NMR spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71304</md:content-id>
+  <md:title>F-19 NMR spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>78b00ebd-3498-482f-b440-a25995c34b45</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm1288398672">
+      <title>Introduction</title>
+      <para id="import-auto-idm1236172992"><sup>19</sup>F has a nuclear spin of ½, a high magnetogyric ratio, is 100% naturally abundant in fluorine and hence it is very similar to <sup>1</sup>H NMR and very compatible for NMR analysis. It also has a very large chemical shift range. <sup>19</sup>F NMR is interesting for two main reasons, one is the significance of fluorine containing compounds and another is the compatibility of the <sup>19</sup>F nucleus for NMR. Fluorine is a constituent in many organic compounds and can give organic compounds special properties. Hence  scientists who need to analyze organic compounds containing fluorine would find <sup>19</sup>F NMR useful. </para><para id="import-auto-idm1325460336">For <sup>19</sup>F NMR, the frequency of the radiation is adjusted to the small range in which <sup>19</sup>F nuclei absorb the energy and undergo nuclear spin transitions.</para></section>
+
+<section id="eip-686"><title>Differences between <sup>1</sup>H and  <sup>19</sup>F NMR</title><para id="eip-723">Unlike <sup>1</sup>H spectra which is referenced to tetramethylsilane [Si(CH<sub>3</sub>)<sub>4</sub>],  the prevalent and established internal reference for fluorine NMR is fluorotrichloromethane (CFCl<sub>3</sub>), which is given a chemical shift of zero.  Like <sup>1</sup>H-NMR, negative chemical shifts correlate to upfield shifts of the reference.</para><para id="eip-302">Some other references used, notably in older literature, include CF<sub>3</sub>CO<sub>2</sub>H (δ -76.2ppm), hexafluorobenzene (δ -162.2ppm), trifluoromethylbenzene (δ -63.2ppm) and ethyl trifluoroacetate (δ -75.8 ppm). Nonetheless, fluorotrichloromethane is superior as it will not influence the sample’s chemical shifts. Also, it’s detected signal is usually far downfield from that of most fluorine atoms in organofluorine compunds, hence most of the chemical shifts in <sup>19</sup>F spectra are negative.<emphasis effect="italics"/></para><para id="eip-73"><sup>19</sup>F has a very large chemical shift range of around δ 500 ppm as compared to that of <sup>1</sup>H of around 1-10 ppm, causing interferences and overlapping of signals to be less likely in <sup>19</sup>F NMR. </para><para id="eip-148">For <sup>1</sup>H NMR, most solvents contain hydrogen, hence special solvents are required for <sup>1</sup>H NMR. Unlike <sup>1</sup>H NMR, deuterated solvents are not required for <sup>19</sup>F NMR, since most solvents do not contain fluorine and hence does not affect the <sup>19</sup>F NMR signal. Hence <sup>19</sup>F  is very compatible for NMR analysis of compounds containing fluorine.</para><para id="eip-225">For anticipating the chemical shifts due to shielding effects for fluorine substituents, the usual logic that applies to <sup>1</sup>H NMR spectra does not work for <sup>19</sup>F NMR spectra. This is explained below.</para><para id="eip-716">The resonance frequency of nuclei detected by NMR depends on the magnetic environment of the nuclei. The effective magnetic field strength (B<sub>eff</sub>) on a nucleus is affected by the applied magnetic field (B<sub>0</sub>) and shielding constant (𝜎) as seen in <link target-id="eip-574"/>. </para><equation id="eip-574"><media id="EQF11" alt="">
+    <image mime-type="image/jpg" src=" EQF1.jpg " width="100" print-width="1in"/>
+  </media>
+</equation><para id="eip-890">The shielding constant is affected by <link target-id="eip-363"/>, where the  𝜎<sub>dia</sub> term is the diamagnetic term, which represents the opposing magnetic field that comes from the effect of the applied magnetic field on the electrons directly surrounding the nucleus (s-orbitals). The shielding effect provided by the s-orbital electrons. While the paramagnetic term, 𝜎<sub>para</sub>, comes from p-orbital electrons when they are affected by the applied magnetic field. The shielding effect provided by the p-orbital electrons. The paramagnetic term, 𝜎<sub>para</sub>, affects the shielding effect in the fluorine nucleus more significantly, while, only the 𝜎<sub>dia</sub> term is required for <sup>1</sup>H NMR as hydrogen does not have p-orbital electrons.<emphasis effect="italics"/></para><equation id="eip-363"><media id="EQF21" alt="">
+    <image mime-type="image/jpg" src=" EQF2.jpg " width="110" print-width="1.1in"/>
+  </media>
+</equation><section id="eip-524"><title>Solvent effects</title><para id="eip-10">The three most frequently used solvents in F-19 NMR are CDCl<sub>3</sub>, DMSO-d<sub>6</sub> and acetone-d<sub>6</sub>. The deviation in chemical shift between these solvents when they are used is generally 1 ppm or less.</para></section></section>
+
+<section id="eip-477"><title>Overview of <sup>19</sup>F NMR spectra chemical shift ranges</title><para id="eip-550">Similar to <sup>1</sup>H NMR, fluorine chemical shifts are dependent on their local chemical environments. The table below shows the chemical shifts ranges for the fluorine atoms of some F, CF<sub>2</sub> and CF<sub>3</sub> branches and some representative chemical shifts for F-19 NMR referenced to CFCl<sub>3</sub>.</para>
+
+<figure id="eip-A38"><media id="import-auto-idm1424436960" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-1a60.png" width="500" print-width="5in"/>
+        </media>
+<caption>Brief summary of Fluorine Chemical Shifts. Adaptation from W. R. Dolbier, <emphasis effect="italics">Guide to Fluorine NMR for Organic Chemists</emphasis>, Wiley, Hoboken, New Jersey, 2008, p. 1-34</caption></figure><table id="eip-658" summary="Chemical Shift Table for F-19 NMR. Adapted from the 2010 Bruker Almanac.">
+<tgroup cols="6"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Compound</emphasis></entry>
+    <entry><emphasis effect="bold"> δ (ppm)</emphasis></entry>
+    <entry><emphasis effect="bold">Compound</emphasis></entry>
+    <entry><emphasis effect="bold"> δ (ppm)</emphasis></entry>
+    <entry><emphasis effect="bold">Compound</emphasis></entry>
+    <entry><emphasis effect="bold"> δ (ppm)</emphasis></entry>
+  </row>
+  <row>
+    <entry>MeF</entry>
+    <entry>-271.9</entry>
+    <entry>FCH=CH<sub>2</sub></entry>
+    <entry>-114</entry>
+    <entry>CFBr<sub>3</sub></entry>
+    <entry>7.4</entry>
+  </row>
+  <row>
+    <entry>EtF</entry>
+    <entry>-213</entry>
+    <entry>F<sub>2</sub>C=CH<sub>2</sub></entry>
+    <entry>-81.3</entry>
+    <entry>CF<sub>2</sub>Br<sub>2</sub></entry>
+    <entry>7</entry>
+  </row>
+  <row>
+    <entry>CF<sub>2</sub>H<sub>2</sub></entry>
+    <entry>-1436</entry>
+    <entry>F<sub>2</sub>C=CF<sub>2</sub></entry>
+    <entry>-135</entry>
+    <entry>CFH<sub>2</sub>Ph</entry>
+    <entry>-207</entry>
+  </row>
+
+ <row>
+    <entry>CF<sub>3</sub>R</entry>
+    <entry>-60 to -70</entry>
+    <entry>C<sub>6</sub>F<sub>6</sub></entry>
+    <entry>-163</entry>
+    <entry>CF<sub>2</sub>Cl<sub>2</sub></entry>
+    <entry>-8</entry>
+  </row>
+  <row>
+    <entry>AsF<sub>5</sub></entry>
+    <entry>-66</entry>
+    <entry>[BeF<sub>4</sub>]<sup>-</sup></entry>
+    <entry>-163</entry>
+    <entry>[AsF<sub>6</sub>]<sup>-</sup></entry>
+    <entry>-69.5</entry>
+  </row>
+  <row>
+    <entry>BF<sub>3</sub></entry>
+    <entry>-131</entry>
+    <entry>ClF<sub>5</sub></entry>
+    <entry>247, 412</entry>
+    <entry>ClF<sub>3</sub></entry>
+    <entry>116, -4</entry>
+  </row>
+  <row>
+    <entry>IF<sub>7</sub></entry>
+    <entry>170</entry>
+    <entry>ReF<sub>7</sub></entry>
+    <entry>345</entry>
+    <entry>MoF<sub>6</sub></entry>
+    <entry>-278</entry>
+  </row>
+  <row>
+    <entry>SeF<sub>6</sub></entry>
+    <entry>55</entry>
+    <entry>Sb<sub>5</sub></entry>
+    <entry>-108</entry>
+    <entry>[SbF<sub>6</sub>]<sup>-</sup></entry>
+    <entry>-109</entry>
+  </row>
+  <row>
+    <entry>[SiF<sub>6</sub>]<sup>2-</sup></entry>
+    <entry>-127</entry>
+    <entry>WF<sub>6</sub></entry>
+    <entry>166</entry>
+    <entry>TeF<sub>6</sub></entry>
+    <entry>-57</entry>
+  </row>
+  <row>
+    <entry>XeF<sub>2</sub></entry>
+    <entry>258</entry>
+    <entry>XeF<sub>6</sub></entry>
+    <entry>550</entry>
+    <entry>XeF<sub>4</sub></entry>
+    <entry>438</entry>
+  </row>
+ 
+</tbody>
+
+
+
+
+
+
+
+</tgroup><caption>Chemical Shift Table for <sup>19</sup>F NMR. Adapted from the 2010 Bruker Almanac. </caption>
+</table></section><section id="eip-954"><title>Obtaining <sup>19</sup>F NMR spectra</title><section id="eip-556"><title>Sample preparation</title><list id="eip-252"><item>The three most frequently used solvents in F-19 NMR are CDCl<sub>3</sub>, DMSO-d<sub>6</sub> and acetone-d<sub>6</sub>. The deviation in chemical shift between these solvents when they are used is generally 1 ppm or less.<emphasis effect="italics"/>If the sample is in solid form place some of it onto a spatula, if it is in liquid form, pipette it.</item>
+        <item>Pipette solvent of 0.5ml – 1 ml in volume and transfer it to a vial</item>
+        <item>Mix the sample enough such that there are no solid suspensions.  The operation of a vortexer is an approach that you can take to achieve this.</item>
+      </list><para id="eip-849">Examples of samples that are not prepared well include:</para><list id="eip-615"><item>Insufficient solvent added</item>
+        <item>Solid suspension or specks in the sample</item>
+        <item>Dirty NMR tube with fingerprints and other dirt on it</item>
+        <item>Placing the NMR tube way too below</item>
+        <item>Overly high concentration of samples</item>
+      </list></section><section id="eip-529"><title>Instrument operation</title><para id="eip-639">Typical steps are as follows:
+</para><list id="eip-720"><item>Transfer 3 - 4cm height of the sample into the tube by using a pipette.</item>
+        <item>Place the tube within the spinner and place the set up within a depth gauge, which can alter the height correctly.</item>
+        <item>Ensure the sample is within the depth gauge, alternatively place it in the middle, right on the line in the middle.</item>
+        <item>In the computer program, insert the required information for the sample. The NMR probe is tuned to the appropriate frequency to observe <sup>19</sup>F nuclei.</item>
+        <item>The sample housed within the spinner is allotted within the NMR instrument from the top and descends on a buffer of compressed air.</item>
+        <item>The process of acquiring the spectra can begin after the sample is placed into the spectrometer.</item>
+        <item>After the information is acquired, it can be downloaded onto a computer for more in-depth analysis.</item>
+        <item>The compressed air is utilized to discharge the sample.</item>
+      </list></section><section id="eip-78"><title>Spectra acquisition when using a <sup>1</sup>H probe</title><para id="eip-268">For <sup>19</sup>F NMR most probes use the same preamp and RF as that for <sup>1</sup>H NMR, since proton NMR is much more common and <sup>1</sup>H and <sup>19</sup>F NMR are very similar. However, the range of chemical shifts for <sup>19</sup>F NMR is much wider than that of <sup>1</sup>H NMR and because the probe is tuned for <sup>1</sup>H NMR, it displays over a small and precise region. Hence some extra steps need to be taken when obtaining and analyzing <sup>19</sup>F NMR using a <sup>1</sup>H probe. </para><list id="eip-972"><item>For a known chemical shift range, limit and adjust/ zoom into the appropriate chemical shift range for the spectrum accordingly.</item>
+        <item>If the chemical shift range is not known, scan through the whole chemical shift range once first. See where there are significant peaks in the spectra, set the window and zoom in on those, in order to analyze and integrate the appropriate peaks accurately.</item>
+      </list></section></section><section id="eip-692"><title>Applications of <sup>19</sup>F NMR</title><section id="eip-120"><title>Drug analysis</title><para id="eip-750">The local chemical environment of the atom’s spin determines the position in which an observed signal appears.  The intensity of the observed NMR signal corresponds to the number of spins in the sample. NMR is also a non-destructive characterization technique, hence samples can be retrieved unaffected after characterization. Hence, NMR can be a very effective tool.</para><para id="eip-189">There is an increasing demand for techniques to analyze and conduct quality control for pharmaceuticals containing fluorine. Drugs that contain fluorine in their structure make up around one-third of top-selling drugs in the market. </para><para id="eip-147">Compared to other chemical characterization methods, NMR is relatively insensitive. However, <sup>19</sup>F NMR is very sensitive to it’s local chemical environment and hence the structure of the molecule; it also gives an exceptional amount of analytical information as it has large chemical shift ranges. Hence, drugs can be analyzed quantitatively by <sup>19</sup>F NMR if fluorinated compounds are in sufficient concentrations and by using an appropriate time scale.</para></section><section id="eip-367"><title>Monitoring reactions</title><para id="eip-647"><sup>19</sup>F NMR can be used as a diagnostic tool for the monitoring of reactions when fluorine substituents are involved. This is because the <sup>19</sup>F NMR spectra of most reactants and products are different. For example, the polymerization of PFCP aryl amine polymers from perfluorocyclopentene monomers with biphenols can be monitored, as the monomers have a different <sup>19</sup>F NMR spectra from the polymer.
+</para></section></section><section id="import-auto-idm1290928768">
+      <title>Bibliography</title>
+      <list id="import-auto-idm1321973552" list-type="bulleted"><item>M. S. Anderson, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 2000, <emphasis effect="bold">76</emphasis>, 3130.</item>
+        <item>T. Deckert-Gaudig, A. Taguchi, S. Kawata, and V. Deckert, <emphasis effect="italics">Chem. Soc. Rev.</emphasis>, 2017, <emphasis effect="bold">46</emphasis>, 4077.</item>
+        <item>S. Ding, J. Yi, J. Li, B. Ren, D. Wu, R. Panneerselvam, and Z. Tian, <emphasis effect="italics">Nat. Rev. Mater.</emphasis>, 2016, <emphasis effect="bold">1</emphasis>, 16021.</item>
+        <item>N. Hayazawa, Y. Inouye, Z. Sekkat, and S. Kawata, <emphasis effect="italics">Opt. Commun.</emphasis>, 2000, <emphasis effect="bold">183</emphasis>, 333.</item>
+        <item>M. Rahaman, R. D. Rodriguez, G. Plechinger, S. Moras, C. Schüller, T. Korn, and D. R. T. Zahn, <emphasis effect="italics">Nano. Lett.</emphasis>, 2017, <emphasis effect="bold">17</emphasis>, 6027.</item>
+        <item>S. Sheng, J. Wu, X. Cong, W. Li, J. Gou, Q. Zhong, P. Cheng, P. Tan, L. Chen, and K. Wu, <emphasis effect="italics">Phys. Rev. Lett.</emphasis>, 2017, <emphasis effect="bold">119</emphasis>, 196803.</item>
+        <item>R. M. Stockle, Y. D. Suh, V. Deckert, and R. Zenobi, <emphasis effect="italics">Chem. Phys. Lett.</emphasis>, 2000, <emphasis effect="bold">318</emphasis>, 131.</item>
+        <item>P. Verma, <emphasis effect="italics">Chem. Rev.</emphasis>, 2017, <emphasis effect="bold">117</emphasis>, 6447.</item>
+        <item>R. Zhang, X. Zhang, H. Wang, Y. Zhang, S. Jiang, C. Hu, Y. Zhang, Y. Luo, and Z. Dong, <emphasis effect="italics">Angew. Chem. Int. Ed.</emphasis>, 2017, <emphasis effect="bold">56</emphasis>, 5561.</item>
+        <item>J. H. Zhong, X. Jin, L. Meng, X. Wang, H. Su, Z. Yang, C. T. Willianms, and B. Ren, <emphasis effect="italics">Nat. Nanotech.</emphasis>, 2017, <emphasis effect="bold">12</emphasis>, 132.</item>
+        <item>B. Zrimsek, N. Chiang, M. Mattei, S. Zeleski, M. O. McAnally, C. T. Chapman, A. Henry, G. C. Schatz, and R. P. Van Duyne, <emphasis effect="italics">Chem. Rev.</emphasis>,<emphasis effect="italics"/>2017,<emphasis effect="bold"> 117</emphasis>, 7583. </item>
+        <item>Bruker Corporation. Almanac 2010 P. 21. Retrieved from <link url="http://www.pascal-man.com/pulseprogram/Almanac2010.pdf">http://www.pascal-man.com/pulseprogram/Almanac2010.pdf</link> (accessed April 2018) </item>
+        <item>Gerig, J. T. (1997) Fluorine NMR, in On-Line Biophysics Textbook (Bloomfield, V., Ed.) Biophysical Society, Bethesda MD (http:// <link url="http://www.biophysics.org/btol">www.biophysics.org/btol</link>). </item>
+        <item>N. P. Godman, D. B. Barbee, F. B. Carty, C. D. McMillen, C. A. Corley, E. Shurdha and S. T. Iacono, <emphasis effect="italics">Polym. Chem.</emphasis>, 2016, <emphasis effect="bold">7</emphasis>, 5799.  </item>
+
+        <item>A. O. Okaru, T. S. Brunner,  S. M. Ackermann,  T.  Kuballa, S. G.  Walch,  M. Kohl-Himmelseher, and D. W.  Lachenmeier,  <emphasis effect="italics">J. Anal.  Methods  Chem.</emphasis>, 2017, <emphasis effect="bold">2017</emphasis>, 9206297. </item>
+
+<item>J. Wang, M. Sánchez-Roselló, J. L. Aceña, C. del Pozo, A. E. Sorochinsky, S. Fustero, V. A. Soloshonok, and H. Liu, <emphasis effect="italics">Chem. Rev.</emphasis>, 2014, <emphasis effect="bold">114</emphasis>, 2432. </item>
+
+  
+        <item>W. R. Dolbier, <emphasis effect="italics">Guide to Fluorine NMR for Organic Chemists</emphasis>, Wiley, Hoboken, New Jersey, 2008, p. 1-34. </item>
+        <item>L.G. Wade, Jr.,  <emphasis effect="italics">Organic Chemistry</emphasis>, 5th ed. Pearson Education Inc., 2003. </item>
+        
+     
+      </list></section>
+  </content>
+</document>

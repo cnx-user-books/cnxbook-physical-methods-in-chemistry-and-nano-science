@@ -1,0 +1,31 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Introduction to Elemental Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48627</md:content-id>
+  <md:title>Introduction to Elemental Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>2c749d58-d772-4bf5-b13e-1a7d33414876</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1163778810234">The purpose of elemental analysis is to determine the quantity of a particular element within a molecule or material. Elemental analysis can be subdivided in two ways: </para>
+    <list id="import-auto-id1163750026360" list-type="bulleted">
+      <item>Qualitative: determining what elements are present or the presence of a particular element. </item>
+      <item>Quantitative: determining how much of a particular or each element is present. </item>
+    </list>
+    <para id="import-auto-id1163753407618">In either case elemental analysis is independent of structure unit or functional group, i.e., the determination of carbon content in toluene (C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub>) does not differentiate between the aromoatic sp<sup>2</sup> carbon atoms and the methyl sp<sup>3</sup> carbon. </para>
+    <para id="import-auto-id1163752423883">Elemental analysis can be performed on a solid, liquid, or gas. However, depending on the technique employed the sample may have to be pre-reacted, e.g., by combustion or acid digestion. The amounts required for elemental analysis range from a few gram (g) to a few milligram (mg) or less. </para>
+    <para id="import-auto-id1163752824815">Elemental analysis can also be subdivided into general categories related to the approach involved in determining quantities. </para>
+    <list id="import-auto-id1163750577754" list-type="bulleted">
+      <item>Classical analysis relies on stoichiometry through a chemical reaction or by comparison with known reference sample. </item>
+      <item>Modern methods rely on nuclear structure or size (mass) of a particular element and are generally limited to solid samples. </item>
+    </list>
+    <para id="import-auto-id1163769648282">Many classical methods they can be further classified into the following categories: </para>
+    <list id="import-auto-id5442688" list-type="bulleted">
+      <item>Gravimetric in which a sample is separated from solution as a solid as a precipitate and weighed. This is generally used for alloys, ceramics, and minerals. </item>
+      <item>Volumetric is the most frequently employed involves determination of the volume of a substance that combines with another substance in known proportions. This is also called titrimetric analysis and is frequently employed using a visual end point or potentiometric measurement. </item>
+      <item>Colorimetric (spectroscopic) analysis requires the addition of an organic complex agent. This is commonly used in medical laboratories as well as in the analysis of industrial wastewater treatment. </item>
+    </list>
+    <para id="import-auto-id1163757188334">The biggest limitation in classical methods is most often due to sample manipulation rather than equipment error, i.e., operator error in weighing a sample or observing an end point. In contrast, the errors in modern analytical methods are almost entirely computer sourced and inherent in the software that analyzes and fits the data. </para>
+  </content>
+</document>

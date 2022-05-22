@@ -1,0 +1,289 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Industry Overview</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71631</md:content-id>
+  <md:title>Industry Overview</md:title>
+  <md:abstract/>
+  <md:uuid>343b75ae-8a0c-4db2-8760-2a29b613856d</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-idm421691504">This module was written with the assistance of Andy Yuwen and Zeke Ramirez. </para><section id="import-auto-idm413551056">
+      <title>Introduction</title>
+      <para id="import-auto-idm254250304">Analytical chemistry is the study of the separation, identification, and quantification of the chemical composition of materials. Analytical techniques play crucial roles in industry to confirm purity of products, conclusively identify and analyze properties of chemical compounds. Modern analytical systems allow accurate and automated qualitative or quantitative chemical analysis for rapid and reproducible data. Examples of techniques include: </para>
+      <list id="import-auto-idm516023152" list-type="bulleted">
+        <item>chromatography used to separate compounds for identification or purification, </item>
+        <item>spectroscopy analyzes the interaction between compounds and electromagnetic radiation to determine properties such as chemical structure. </item>
+      </list>
+      <para id="import-auto-idm604639536">Analytical chemistry finds application in practically every industry as chemicals are ubiquitous and require detailed, precise analysis to ensure safety and quality. The most common and mass produced chemicals are summarized in <link target-id="import-auto-idm438091936"/>. </para><table id="import-auto-idm438091936" summary="A list of globally mass produced chemicals and materials.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Chemical or Material</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Global production in 2016 (million metric tons/year)</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Applications</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Steel</entry>
+              <entry>1621</entry>
+              <entry>Construction, automobiles, metal goods</entry>
+            </row>
+            <row>
+              <entry>Sulfuric acid</entry>
+              <entry>264</entry>
+              <entry>Fertilizers, paper, car batteries</entry>
+            </row>
+            <row>
+              <entry>Ethylene</entry>
+              <entry>146</entry>
+              <entry>Polymers, chemical building block</entry>
+            </row>
+            <row>
+              <entry>Propylene</entry>
+              <entry>99</entry>
+              <entry>Polymers, chemical building block</entry>
+            </row>
+            <row>
+              <entry>Sodium hydroxide</entry>
+              <entry>72</entry>
+              <entry>Chemical production, paper, surfactants</entry>
+            </row>
+            <row>
+              <entry>Hydrogen</entry>
+              <entry>50</entry>
+              <entry>Fertilizers (ammonia), oil refining</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>A list of globally mass produced chemicals and materials.</caption>
+</table></section>
+    <section id="import-auto-idm558676896">
+      <title>Summary of analytical techniques</title>
+      <para id="import-auto-idm377632640">Before a chemist decides what technique to use, they will need to critically question what kind of information they need. The flowchart in <link target-id="import-auto-idm564069088"/> summarizes some basic questions to ask about the material to be analyzed, and what technique to apply will depend on the answers. Some techniques will only work on solids or only on gases; others will require solubility in a certain solvent or a specific kind of chemical composition. The toxicity of the material must also be determined to ensure the proper safety and disposal precautions. Finally, for industry, practical considerations such as cost and time are essential, as sometimes there is such a thing as “too accurate” if the cost and time of analysis is not feasible for a company, while other times purity is so important (for example, in the semiconductor industry) that a company will invest significant resources to ensure quality.</para><figure id="import-auto-idm564069088"><media id="import-auto-idm717822560" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 5-639b.jpg" width="500" print-width="5in"/>
+        </media>
+      <caption>A flowchart detailing questions to ask in analyzing a particular material sample.</caption></figure><para id="import-auto-idm627457616">There is a wide range of analytical techniques commonly used in industry and academia (e.g., <link target-id="import-auto-idm534383568"/>). The leftmost column lists broad categories of techniques, and the middle column gives a few examples within each category. For example, spectroscopy is an extremely useful set of techniques, including NMR and IR to investigate chemical composition, and spectrophotometry to determine unknown concentrations of samples. Other techniques have important applications as well, filling up the chemist’s toolkit to conduct all kinds of analysis.</para><table id="import-auto-idm534383568" summary="Specific analytical techniques commonly used in industry.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Category</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Specific Techniques</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Application</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Spectroscopy</entry>
+              <entry>NMR, IR, spectrophotometry</entry>
+              <entry>Composition, concentration</entry>
+            </row>
+            <row>
+              <entry>Gravimetry</entry>
+              <entry>Thermogravimetric</entry>
+              <entry>Mass</entry>
+            </row>
+            <row>
+              <entry>Calorimetry</entry>
+              <entry>Differential scanning, bomb </entry>
+              <entry>Exothermicity</entry>
+            </row>
+            <row>
+              <entry>Titration</entry>
+              <entry>Direct titration, back-titration</entry>
+              <entry>Concentration</entry>
+            </row>
+            <row>
+              <entry>Electrochemistry</entry>
+              <entry>Electrolysis, electrogravimetry</entry>
+              <entry>Purification, mass</entry>
+            </row>
+            <row>
+              <entry>Chromatography</entry>
+              <entry>Column, thin layer, HPLC</entry>
+              <entry>Purification, concentration</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>Specific analytical techniques commonly used in industry.</caption>
+</table></section>
+    <section id="import-auto-idm620221632">
+      <title>Specific industrial sectors</title>
+      <section id="import-auto-idm640758816">
+        <title> Energy</title>
+        <para id="import-auto-idm740217648">The oil and gas industry is generally partitioned into four distinct sectors: </para>
+        <list id="import-auto-idm570341392" list-type="bulleted">
+          <item>upstream,</item>
+          <item>oilfield services (OFS), </item>
+          <item>midstream, </item>
+          <item>downstream. </item>
+        </list>
+        <para id="import-auto-idm172511072">Analytical chemists play unique roles and face idiosyncratic challenges in each of these sectors.</para>
+        <section id="eip-441"><title>Upstream</title><para id="eip-529">
+Upstream oil and gas encompasses the exploration and production (E&amp;P) of crude oil and natural gas. Leaders in the upstream sector include ExxonMobil, Shell, Koch Industries, Saudi Aramco, BP, and many other large, integrated corporations.
+</para></section><section id="eip-432"><title>Oilfield services</title><para id="eip-709">
+Oilfield service (OFS) companies, such as Schlumberger, Halliburton, and Baker Hughes, are contractors in the E&amp;P sector who provide services at the point of extraction. As a result, many analytical chemists work in diverse roles in the OFS sector. For instance they can analyze the composition of the extracted oil, or analyze wastewater quality to prevent negative environmental externalities. The extraction process can also vary widely geographically. For instance, Canadian petroleum deposits, which are predominantly centered in Alberta, are often oil sands. These consist of water, sand, clay, and bitumen, which is an extremely viscous and dense form of petroleum. As a result, oil extraction in Canada involves very costly and extensive steam processing. Analytical chemists work alongside process engineers to ensure that the system is properly controlled, minimizing the risk of costly inaccuracies.
+</para></section><section id="eip-227"><title>Midstream</title><para id="eip-119">
+The midstream sector oversees the transport of resources from the point of production to the downstream refinery. This transport generally occurs by pipeline, rail, truck, or oil tanker. Prominent midstream companies include Kinder Morgan, Enterprise Products Partners, and Enbridge. Because the midstream oil and gas sector is concerned with infrastructure, analytical chemists in the sector are primarily concerned with maintenance and risk prevention. For instance, analytical chemists are involved in the design of oil pipelines to prevent rusting.
+</para></section><section id="eip-508"><title>Downstream</title><para id="eip-838">
+The downstream oil and gas sector encompasses the refining of crude oil and natural gas to produce industrially useful materials such as liquefied natural gas (LNG), gasoline, lubricants, pharmaceuticals, plastics, asphalt, fertilizers, and many others. Analytical chemists in the downstream sector must first determine the composition of the input crude oil and natural gas, while also performing quality assurance (QA) to ensure the output products meet customer specifications and comply with government regulations.
+</para></section></section>
+      <section id="import-auto-idm717597504">
+        <title>Chemicals</title>
+        <para id="import-auto-idm395770384">The chemicals industry is broad and includes various other sub-industries, such as paper/pulp, downstream oil and gas, catalyst production, lab reagents, adhesives, etc. As a result, the role of analytical chemists and the techniques they utilize vary immensely across the industry. However, certain roles are staples of any production process, including the determination of input feed composition, quality assurance of customer product specifications and waste categorization for regulatory compliance.</para>
+      </section>
+      <section id="import-auto-idm639180912">
+        <title>Automotive and aerospace</title>
+        <para id="import-auto-idm771926384">In the automotive and aerospace industries, chemical analysis is implemented to ensure quality/compliance and safety of the products and to address environmental concerns (<link target-id="import-auto-idm619142560"/>). In the automotive industry, for example, end-of-life vehicle directive was implemented to reduce hazardous substances in vehicles to minimize their release to the environment, facilitate proper dismantling of the vehicle to allow components and materials to be reused, recycled and/or recovered. Also, the Clean Air Act, led by the Environmental Protection Agency (EPA), regulates fuels and fuel additives used in automotives to ensure that they are not harmful to the environment. Regarding industrial coatings in automotives or aerospace, chemical analysis ensures sustainable and non-polluting manufacturing processes as well as the manufacturing of products that do not release harmful compounds into the air or water. </para><figure id="import-auto-idm619142560"><media id="import-auto-idm733161952" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 6-5085.jpg" width="450" print-width="4.5in"/>
+          </media>
+        <caption>Chemical analysis in the automotive and aerospace industry. </caption></figure><para id="import-auto-idm279120688">For quality assurance, ASTM International's industrial chemical standards allow the testing and evaluation of the physical and chemical properties of substances used or produced in industrial applications. These industrial chemical standards allow producers and users of such chemicals in their proper fabrication and treatment processes to ensure quality towards safe production and utilization. Some methods of chemical analysis employed in the automotive industry include mass spectrometry and electrochemical analysis. In the aerospace industry, chemical analysis of persistent contrails is done to regulate aircraft emissions that may potentially harm the environment and humans. Also, various methods of chemical analysis are used in aerospace laboratories, including the use of scanning electron microscopy, Fourier transform infrared spectroscopy, and non-destructive testing (NDT).</para>
+      </section>
+      <section id="import-auto-idm400573936">
+        <title>Food, pharmaceuticals, and healthcare</title>
+        <para id="import-auto-idm508464752">Analytical chemistry is employed extensively in the pharmaceuticals, food, and healthcare industries (<link target-id="import-auto-idm903031056"/>). In pharmaceuticals, the analytical investigation of drugs, including bulk drug materials, intermediates, drug products, and drug formulations, is imperative to the industry as quality assurance of the drugs are important. Chemical analysis allows the understanding of the physical and chemical stability of drugs, and quantitation and identification of impurities, which is essential to evaluating the toxicity profiles of these impurities. Some common analytical techniques implemented in pharmaceuticals include titrimetric, chromatographic, spectroscopic, electrophoretic, electrochemical, and colorimetric methods.</para><table id="import-auto-idm903031056" summary="Common analytical methods employed in the pharmaceutical, food, and healthcare industry.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Type of industry</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Analytical methods</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Pharmaceuticals</entry>
+                <entry>Titrimetry, chromatography, spectroscopy, electrochemistry, colorimetry</entry>
+              </row>
+              <row>
+                <entry>Food</entry>
+                <entry>Gas chromatography, high performance liquid chromatography, mass spectroscopy </entry>
+              </row>
+              <row>
+                <entry>Healthcare</entry>
+                <entry>Colorimetry, immunoassay</entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Common analytical methods employed in the pharmaceutical, food, and healthcare industry. </caption>
+</table><para id="eip-229">Food products need to meet government regulations and recommendations set by the US Food and Drug Administration (FDA) and the quality and safety of the products need to be concerned. Chemical analysis of food products can also help provide information about the molecular relationships between food ingredients, nutrient composition, cellular function, and organism metabolism. Gas chromatography, high performance liquid chromatography, and mass spectroscopy are commonly used for food analysis. In healthcare, chemical analytical methods are widely used, such as blood glucose tests for diabetes that utilize colorimetry, urine and pregnancy tests that use immunoassays. Chemical analysis in the healthcare industry is also important in order to ensure the safety and quality of the materials used. For example, medical air/oxygen is used to aid in long-term life support as in intensive care units, critical care units, and neonatal intensive care units, therefore, quality assurance is important. </para></section>
+    </section>
+    <section id="import-auto-idm194122800"><title>Environment, safety, and toxicology</title><para id="import-auto-idm495832304">As public awareness for environmental protection has increased, the need for analytical chemists in the environmental and safety field has risen. The goal of analytical chemistry in these fields is to assure compliance with environmental and other regulations, as determined by specific agencies. The Environmental Protection Agency (EPA) is the regulatory unit in the United States, and they are authorized to “write regulations that explain the technical, operational, and legal details necessary to implement laws”. A few of the sectors that the EPA writes regulations for include agriculture, the automotive industry, and oil and gas. In all areas of environmental protection, the analytical chemist is intimately involved because almost every control or regulation relates to permissible concentration levels of substances, which may be present in discharges, effluents, etc. Their analysis is therefore a prerequisite to the effective implementation of those controls and regulations (<link target-id="import-auto-idm599941536"/>).</para>
+      
+
+ <figure id="import-auto-idm599941536"><media id="import-auto-idm536872928" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 7-e76d.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>A flowchart detailing the analytical processes related to each aspect of environmental safety.</caption></figure>
+        
+
+<para id="import-auto-idm595336544">The regulations of the environment and safety field can be applied to two different categories: </para>
+      <list id="import-auto-idm775281504" list-type="bulleted">
+        <item>the external environment, </item>
+        <item>the workplace. </item>
+      </list>
+      <para id="import-auto-idm276335680">The external environment concerns both air and water quality (<link target-id="import-auto-idm599941536"/>), and both have different analytical procedures. Analytical techniques used to monitor air quality vary greatly and range from simple absorbers to sophisticated and spectroscopic techniques, and automated procedures for measuring many pollutants have been developed. For water, routine analysis is relatively uncomplicated, only needing simple equipment and minimal expertise (<link target-id="import-auto-idm599941536"/>). However, more complex procedures such as gas chromatography are required to deal with certain pollutants.</para>
+      <para id="import-auto-idm581718000">In the workplace, there are three main areas of risk to workers from the use of chemicals: </para>
+      <list id="import-auto-idm622077520" list-type="bulleted">
+        <item>contact with toxins, </item>
+        <item>risk of explosion, </item>
+        <item>inhalation of airborne chemicals and dusts. </item>
+      </list>
+      <para id="import-auto-idm716390336">Direct contact with toxic, carcinogenic or corrosive materials can be negated by understanding the hazards associated with a chemical, which an analytical chemist will do with techniques like chromatography or spectroscopy. Explosimeters can be easily operated by non-analytical chemists to monitor explosive vapors. Analytical techniques used to compare airborne vapors to their Threshold Limit Value (TLV) range from hand operated pumps to portable infra-red analysers.</para>
+      </section><section id="eip-140"><title>Semiconductors, electronics, and nanotechnology</title>
+
+
+
+      <para id="import-auto-idm322500112">As nanotechnology becomes more common and impactful, its connection to analytical chemistry becomes more important. Nanomaterials can be characterized and/or determined in a variety of samples, such as cosmetics, agrifoods, and clinical and environmental matrices. The valuable biochemical information of analytical chemistry provides a significant support to the integral development of nanoscience and nanotechnology. On the other hand, nanotechnology is also used to analyze other compounds. Nanomaterials can play different roles (sorbents, stationary and pseudo-stationary phases, inert and active supports, fluorophore probes, and electric conductors) to improve the existing and develop new analytical processes, aiming to exploit the unique physicochemical properties of the nanomatter, thereby enhancing the analytical properties, which are indicators of the quality of the information provided. </para>
+      <para id="import-auto-idm350030640">Analytical chemistry was traditionally used to determine atom concentrations through techniques like spectroscopy, but now it is also used to analyze electronic solid-state materials, which includes semiconductors (FIGURE). Because semiconductors are electronic by nature, analytical techniques such as secondary ion mass spectrometry lead to discovering chemical information with the electrical properties desired. By providing this chemical information, analytical chemistry plays a vital role in the development of semiconductor materials and processing schemes.</para>
+      <figure id="import-auto-idm1201130096"><media id="import-auto-idm1239906336" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 8-4d96.jpg" width="300" print-width="3in"/>
+        </media>
+      <caption>A flowchart detailing how nanomaterials are characterized through analytical processes, but are often used to characterize other materials.</caption></figure></section><section id="import-auto-idm635051392">
+      <title>Conclusions and future directions</title>
+      <para id="import-auto-idm607463552">Analytical chemistry has played a critical role especially as environmental and safety concerns have increased in recent years, so it can be expected that faster and more accurate methods will be developed that can be applied not only with specialized equipment but also in the field with handheld equipment. This dramatic improvement is made possible with the computers found in everyday life, and the techniques currently used in the industries addressed in this chapter and others will only improve in reliability over time.</para>
+    </section>
+    <section id="import-auto-idm229830112">
+      <title>Exercises </title>
+      <section id="import-auto-idm523218960">
+        <title>Numerical questions </title>
+        <exercise id="eip-872"><problem id="eip-557">
+  <para id="eip-33">If the uncertainty in the initial and final readings on a <emphasis effect="italics">burette</emphasis> is ±0.07 mL each, what is the uncertainty is the volume delivered? Suppose the initial reading is 0.12 mL and the final reading is 0.15 mL. </para></problem>
+
+<solution id="eip-500">
+  <para id="eip-236">0.10 mL</para></solution>
+</exercise><exercise id="eip-187"><problem id="eip-342">
+  <para id="eip-380">
+ What is the concentration of a solution created by dissolving 153 grams of calcium chloride in 2.25 L of water? 
+  </para>
+</problem>
+
+<solution id="eip-721">
+  <para id="eip-205">
+    0.613 mol/L
+  </para>
+</solution>
+</exercise><exercise id="eip-464"><problem id="eip-886">
+  <para id="eip-531">
+ Calculate the pH of 0.20 M of HCl, using activity coefficients. 
+  </para>
+</problem>
+
+<solution id="eip-765">
+  <para id="eip-413">
+    pH = 0.68
+  </para>
+</solution>
+</exercise><exercise id="eip-698"><problem id="eip-770">
+  <para id="eip-639">
+   How much work is done if 6.80 mmol of electrons fall through a potential difference of 0.33 V? 
+  </para>
+</problem>
+
+<solution id="eip-740">
+  <para id="eip-847">
+216 J
+  </para>
+</solution>
+</exercise></section>
+      <section id="import-auto-idm585389504">
+        <title>Thought provoking questions</title><list id="import-auto-idm247385776" list-type="enumerated" number-style="arabic"><item>Research the Arkema peroxide plant disaster. Discuss what went wrong and what safety precautions should have been in place to prevent this from occurring.</item>
+          <item>Safety regulations handed down by the US federal government are often met with resistance from private corporations. Describe how much regulation is optimal to balance the economy and environment and why.</item>
+          <item>Examine the nanotechnology industry mentioned in this chapter and explain why the purities of the materials involved are necessarily significantly higher than most of the other industries.</item>
+          <item>Explore the history of an analytical technique mentioned in this chapter and discuss how the technique has evolved to the present time.</item>
+        </list></section>
+    </section>
+    <section id="import-auto-idm773761792">
+      <title>Bibliography</title>
+      <list id="import-auto-idm452248384" list-type="bulleted"><item>ASTM International, <link url="https://www.astm.org/Standards/industrial-chemical-standards.html"><emphasis effect="underline">https://www.astm.org/Standards/industrial-chemical-standards.html</emphasis></link>, (accessted November 2017).</item>
+        <item>P. W. Bohn and T. D. Harris, <emphasis effect="italics">Anal. Chem.</emphasis>, 1990, <emphasis effect="bold">62</emphasis>, 767A.  </item>
+        <item>Federal Gasoline Regulations, https://www.epa.gov/gasoline-standards/federal-gasoline-regulations (accessed Nov 30, 2017). </item>
+        <item>Natural Resources Canada, <link url=" http://www.nrcan.gc.ca/energy/oil-sands/5853" window="new"> http://www.nrcan.gc.ca/energy/oil-sands/5853</link> (accessed 1 December 2017).</item>
+        <item>Á. I. López-Lorente and M. Valcárcel, <emphasis effect="italics">Trends Anal. Chem.</emphasis>, 2016, <emphasis effect="bold">75</emphasis>, 1. </item>
+        <item>M. R. Siddiquia, Z. A. AlOthman, and N. Rahman, <emphasis effect="italics">Arab. J. Chem.</emphasis>, 2017, <emphasis effect="bold">10</emphasis>, 1409.</item>
+        <item>Steel Statistical Yearbook 2016, <link url="https://www.worldsteel.org/en/dam/jcr:37ad1117-fefc-4df3-b84f-6295478ae460/Steel+Statistical+Yearbook+2016.pdf"><emphasis effect="underline">https://www.worldsteel.org/en/dam/jcr:37ad1117-fefc-4df3-b84f-6295478ae460/Steel+Statistical+Yearbook+2016.pdf</emphasis></link> (accessed 1 December 2017).</item>
+        <item>US Environmental Protection Agency Regulations, <link url="https://www.epa.gov/laws-regulations/regulations"><emphasis effect="underline">https://www.epa.gov/laws-regulations/regulations</emphasis></link>, (accessed November 2017)</item>
+      </list></section>
+  </content>
+</document>

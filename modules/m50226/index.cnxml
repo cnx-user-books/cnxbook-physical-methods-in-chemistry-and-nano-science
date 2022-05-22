@@ -1,0 +1,198 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Supercritical Fluid Chromatography</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50226</md:content-id>
+  <md:title>Supercritical Fluid Chromatography</md:title>
+  <md:abstract/>
+  <md:uuid>381efcae-8151-4e57-b642-30a42292b8e3</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165898519985">
+      <title>Introduction</title>
+      <para id="import-auto-id1165899896506">A popular and powerful tool in the chemical world, chromatography separates mixtures based on chemical properties – even some than were previously thought inseparable. It combines a multitude of pieces, concepts, and chemicals to form an instrument suited to specific separation. One form of chromatography that is often overlooked is that of supercritical fluid chromatography.</para>
+      <section id="import-auto-id1165898568319">
+        <title>History</title>
+        <para id="import-auto-id1165899892729">Supercritical fluid chromatography (SFC) begins its history in 1962 under the name “high pressure gas chromatography”. It started off slow and was quickly overshadowed by the development of high performance liquid chromatography (HPLC) and the already developed gas chromatography. SFC was not a popular method of chromatography until the late 1980s, when more publications began exemplifying its uses and techniques.</para>
+        <para id="eip-231">SFC was first reported by Klesper et al. They succeeded in separating thermally labile porphyrin mixtures on polyethylene glycol stationary phase with two mobile phase units: dichlorodifluoromethane (CCl<sub>2</sub>F<sub>2</sub>) and monochlorodifluoromethane (CHCl<sub>2</sub>F), as shown in <link target-id="import-auto-id1165904054913"/>. Their results proved that supercritical fluids’ low viscosity but high diffusivity functions well as a mobile phase. </para><figure id="import-auto-id1165904054913"><media id="import-auto-id1165905212005" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-fb24.png" width="500" print-width="5in"/>
+          </media>
+        <caption>Thermally labile porphyrins (a) nickel etioporphyrin II and (b) nickel mesoporphyrin IX. </caption></figure><para id="import-auto-id1165903761045">After Klesper’s paper detailing his separation procedure, subsequent scientists aimed to find the perfect mobile phase and the possible uses for SFC. Using gases such as He, N<sub>2</sub>, CO<sub>2</sub>, and NH<sub>3</sub>, they examined purines, nucleotides, steroids, sugars, terpenes, amino acids, proteins, and many more substances for their retention behavior. They discovered that CO<sub>2</sub> was an ideal supercritical fluid due to its low critical temperature of 31 °C and relatively low critical pressure of 72.8 atm. Extra advantages of CO<sub>2</sub> included it being cheap, non-flammable, and non-toxic. CO<sub>2</sub> is now the standard mobile phase for SFC.</para><para id="import-auto-id1165903886917">In the development of SFC over the years, the technique underwent multiple trial-and-error phases. Open tubular capillary column SFC had the advantage of independently and cooperatively changing all three parameters (pressure, temperature, and modifier content) to a certain extent. Like any chromatography method, however, it had its drawbacks. Changing the pressure, the most important parameter, often required changing the flow velocity due to the constant diameter of the capillaries. Additionally, CO<sub>2</sub>, the ideal mobile phase, is non-polar, and its polarity could not be altered easily or with a gradient. </para><para id="import-auto-id1165896818494">Over the years, many uses were discovered for SFC. It was identified as a useful tool in the separation of chiral compounds, drugs, natural products, and organometallics (see below for more detail). Most SFCs currently are involved a silica (or silica + modifier) packed column with a CO<sub>2</sub> (or CO<sub>2</sub> + modifier) mobile phase. Mass spectrometry is the most common tool used to analyze the separated samples.</para>
+      </section>
+    </section>
+    <section id="import-auto-id1165893789316">
+      <title>Supercritical fluids</title>
+      <section id="import-auto-id1165905265274">
+        <title>What is a supercritical fluid?</title>
+        <para id="import-auto-id1165903837234">As mentioned previously, the advantage to supercritical fluids is the combination of the useful properties from two phases: liquids and gases. Supercritical fluids are gas-like in the ways of expanding to fill a given volume, and the motions of the particles are close to that of a gas. On the side of liquid properties, supercritical fluids have densities near that of liquids and thus dissolve and interact with other particles, as you would expect of a liquid. To visualize phase changes in relation to pressure and temperature, phase diagrams are used as shown in <link target-id="import-auto-id1165902496796"/>.</para><figure id="import-auto-id1165902496796"><media id="import-auto-id1165903835658" alt="">
+            <image mime-type="image/png" src="../../media/Picture 2-519c.png" width="400" print-width="4in"/>
+          </media>
+        <caption>A generic phase diagram (with relevant points labeled).</caption></figure><para id="import-auto-id1165892683941"><link target-id="import-auto-id1165902496796"/> shows the stark differences between two phases in relation to the surrounding conditions. There exist two ambiguous regions. One of these is the point at which all three lines intersect: the triple point. This is the temperature and pressure at which all three states can exist in a dynamic equilibrium. The second ambiguous point comes at the end of the liquid/gas line, where it just ends. At this temperature and pressure, the pure substance has reached a point where it will no longer exist as just one phase or the other: it exists as a hybrid phase – a liquid and gas dynamic equilibrium.  </para></section>
+      <section id="import-auto-id1165899890290">
+        <title>Unique properties of supercritical fluids</title>
+        <para id="import-auto-id1165903528258">As a result of the dynamic liquid-gas equilibrium, supercritical fluids possess three unique qualities: increased density (on the scale of a liquid), increased diffusivity (similar to that of a gas), and lowered viscosity (on the scale of a gas). <link target-id="import-auto-id1165895530695"/> shows the similarities in each of these properties. Remember, each of these explains a part of why SFC is an advantageous method of chemical separation.</para><table id="import-auto-id1165895530695" summary="Typical properties of gas, liquid, and supercritical fluid of typical organic compounds (order of magnitude).">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <thead>
+              <row>
+                <entry/>
+                <entry>Density (g/mL)</entry>
+                <entry>Diffusivity (cm<sup>2</sup>/s)</entry>
+                <entry>Dynamic viscosity (g/cm s)</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Gas</entry>
+                <entry>1 x 10<sup>-3</sup></entry>
+                <entry>1 x 10<sup>-1</sup></entry>
+                <entry>1 x 10<sup>-2</sup></entry>
+              </row>
+              <row>
+                <entry>Liquid</entry>
+                <entry>1.0</entry>
+                <entry>5 x 10<sup>-6</sup></entry>
+                <entry>1 x 10<sup>-4</sup></entry>
+              </row>
+              <row>
+                <entry>Supercritical fluid</entry>
+                <entry>3 x 10<sup>-1 </sup></entry>
+                <entry>1 x 10<sup>-3</sup></entry>
+                <entry>1 x 10<sup>-2</sup></entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Typical properties of gas, liquid, and supercritical fluid of typical organic compounds (order of magnitude).</caption>
+</table></section>
+      <section id="import-auto-id1165904054560">
+        <title>Applying the properties of supercritical fluids to chromatography</title>
+        <para id="import-auto-id1165901330750">How are these properties useful? An ideal mobile phase and solvent will do three things well: interact with other particles, carry the sample through the column, and quickly (but accurately) elute it. </para>
+        <para id="import-auto-id1165898903153">Density, as a concept, is simple: the denser something is, the more likely that it will interact with particles it moves through. Affected by an increase in pressure (given constant temperature), density is largely affected by a substance entering the supercritical fluid zone. Supercritical fluids are characterized with densities comparable to those of liquids, meaning they have a better dissolving effect and act as a better carrier gas. High densities among supercritical fluids are imperative for both their effect as solvents and their effect as carrier gases. </para>
+        <para id="import-auto-id1165903761521">Diffusivity refers to how fast the substance can spread among a volume. With increased pressure comes decreased diffusivity (an inverse relationship) but with increased temperature comes increased diffusivity (a direct relationship related to their kinetic energy). Because supercritical fluids have diffusivity values between a gas and liquid, they carry the advantage of a liquid’s density, but the diffusivity closer to that of a gas. Because of this, they can quickly carry and elute a sample, making for an efficient mobile phase.</para>
+        <para id="import-auto-id1165899874210">Finally, dynamic viscosity can be viewed as the resistance to other components flowing through, or intercalating themselves, in the supercritical fluid. Dynamic viscosity is hardly affected by temperature or pressure for liquids, whereas it can be greatly affected for supercritical fluids. With the ability to alter dynamic viscosity through temperature and pressure, the operator can determine how resistant their supercritical fluid should be.</para>
+      </section>
+      <section id="import-auto-id1165900402215">
+        <title>Supercritical Properties of CO<sub>2</sub></title>
+        <para id="import-auto-id1165905207684">Because of its widespread use in SFC, it’s important to discuss what makes CO<sub>2</sub> an ideal supercritical fluid. One of the biggest limitations to most mobile phases in SFC is getting them to reach the critical point. This means <emphasis effect="italics">extremely</emphasis> high temperatures and pressures, which is not easily attainable. The best gases for this are ones that can achieve a critical point at relatively low temperatures and pressures.</para>
+        <para id="eip-948">As seen from <link target-id="import-auto-id1165896400139"/>, CO<sub>2</sub> has a critical temperature of approximately 31 °C and a critical pressure of around 73 atm. These are both relatively low numbers and are thus ideal for SFC. Of course, with every upside there exists a downside. In this case, CO<sub>2</sub> lacks polarity, which makes it difficult to use its mobile phase properties to elute polar samples. This is readily fixed with a modifier, which will be discussed later. </para><figure id="import-auto-id1165896400139"><media id="import-auto-id1165903551487" alt="">
+            <image mime-type="image/png" src="../../media/Picture 3-01e5.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Phase diagram of CO<sub>2</sub>.</caption></figure></section>
+    </section>
+    <section id="import-auto-id1165899871309">
+      <title>The instrument</title>
+      <para id="import-auto-id1165904051943">SFC has a similar instrument setup to most other chromatography machines, notably HPLC. The functions of the parts are very similar, but it is important to understand them for the purposes of understanding the technique. <link target-id="import-auto-id1165899905214"/> shows a schematic representation of a typical apparatus. </para><figure id="import-auto-id1165899905214"><media id="import-auto-id1165899900222" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-8d05.png" width="500" print-width="5in"/>
+        </media>
+      <caption>Box diagram of a SFC machine.</caption></figure><section id="import-auto-id1165898751644">
+        <title>Columns</title>
+        <para id="import-auto-id1165905237883">There are two main types of columns used with SFC: open tubular and packed, as seen below. The columns themselves are near identical to HPLC columns in terms of material and coatings. Open tubular columns are most used and are coated with a cross-linked silica material (powdered quartz, SiO<sub>2</sub>) for a stationary phase. Column lengths range, but usually fall between 10 and 20 meters and are coated with less than 1 µm of silica stationary phase. <link target-id="import-auto-id1165899964832"/> demonstrates the differences in the packing of the two columns.</para><figure id="import-auto-id1165899964832"><media id="import-auto-id1165896913940" alt="">
+            <image mime-type="image/png" src="../../media/Picture 4-b99e.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic visualization of the difference between (a) open tubular and (b) packed column. </caption></figure></section>
+      <section id="import-auto-id1165905220229">
+        <title>Injector</title>
+        <para id="import-auto-id1165901025238">Injectors act as the main site for the insertion of samples. There are many different kinds of injectors that depend on a multitude of factors. For packed columns, the sample must be small and the exact amount depends on the column diameter. For open tubular columns, larger volumes can be used. In both cases, there are specific injectors that are used depending on how the sample needs to be placed in the instrument. A loop injector is used mainly for preliminary testing. The sample is fed into a chamber that is then flushed with the supercritical fluid and pushed down the column. It uses a low-pressure pump before proceeding with the full elution at higher pressures. An inline injector allows for easy control of sample volume. A high-pressure pump forces the (specifically measured) sample into a stream of eluent, which proceeds to carry the sample through the column. This method allows for specific dilutions and greater flexibility. For samples requiring no dilution or immediate interaction with the eluent, an in-column injector is useful. This allows the sample to be transferred directly into the packed column and the mobile phase to then pass through the column.</para></section>
+      <section id="import-auto-id1165900599927">
+        <title>Pump</title>
+        <para id="import-auto-id1165896776010">The existence of a supercritical fluid, as discussed previously, depends on high temperatures and high pressures. The pump is responsible for delivering the high pressures. By pressurizing the gas (or liquid), it can cause the substance to become dense enough to exhibit signs of the desired supercritical fluid. Because pressure couples with heat to create the supercritical fluid, the two are usually very close together on the instrument.</para>
+      </section>
+      <section id="import-auto-id1165904037032">
+        <title>Oven</title>
+        <para id="import-auto-id1165904032445">The oven, as referenced before, exists to heat the mobile phase to its desired temperature. In the case of SFC, the desired temperature is always the critical temperature of the supercritical fluid. These ovens are precisely controlled and standard across SFC, HPLC, and GC.</para>
+      </section>
+      <section id="import-auto-id1165899979929">
+        <title>Restrictor</title>
+        <para id="import-auto-id1165901278607">As suggested by its name, the restrictor aims to restrict the flow through the columns. In altering the flow, the speed at which the sample elutes, the resolution at which it elutes, and the properties of the supercritical fluid can be altered, thus allowing for each SFC column to be tailored to the sample in question. </para>
+      </section>
+      <section id="import-auto-id1165905254730">
+        <title>Detector</title>
+        <para id="import-auto-id1165905268485">So far, there has been one largely overlooked component of the SFC machine: the detector. Technically not a part of the chromatographic separation process, the detector still plays an important role: identifying the components of the solution. While the SFC aims to separate components with good resolution (high purity, no other components mixed in), the detector aims to define what each of these components is made of.</para>
+        <para id="eip-660">The two detectors most often found on SFC instruments are either flame ionization detectors (FID) or mass spectrometers (MS): </para><list id="eip-123"><item>FIDs operate through ionizing the sample in a hydrogen-powered flame. By doing so, they produce charged particles, which hit electrodes, and the particles are subsequently quantified and identified.</item>
+<item>
+MS operates through creating an ionized spray of the sample, and then separating the ions based on a mass/charge ratio. The mass/charge ratio is plotted against ion abundance and creates a “fingerprint” for the chemical identified. This chemical fingerprint is then matched against a database to isolate which compound it was. This can be done for each unique elution, rendering the SFC even more useful than if it were standing alone.</item>
+
+
+</list></section>
+      <section id="import-auto-id1165899909607">
+        <title>Sample</title>
+        <para id="import-auto-id1165903833529">Generally speaking, samples need little preparation. The only major requirement is that it dissolves in a solvent less polar than methanol: it must have a dielectric constant lower than 33, since CO<sub>2</sub> has a low polarity and cannot easily elute polar samples. To combat this, modifiers are added to the mobile phase.</para></section>
+      <section id="import-auto-id1165903517495">
+        <title>Stationary phase</title>
+        <para id="import-auto-id1165899879458">The stationary phase is a neutral compound that acts as a source of “friction” for certain molecules in the sample as they slide through the column. Silica attracts polar molecules and thus the molecules attach strongly, holding until enough of the mobile phase has passed through to attract them away. The combination of the properties in the stationary phase and the mobile phase help determine the resolution and speed of the experiment.</para>
+      </section>
+      <section id="import-auto-id1165905218645">
+        <title>Mobile phase</title><para id="import-auto-id1165900913225">The mobile phase (the supercritical fluid) pushes the sample through the column and elutes separate, pure, samples. This is where the supercritical fluid’s properties of high density, high diffusivity, and low viscosity come into play. With these three properties, the mobile phase is able to adequately interact with the sample, quickly push through it, and strongly plow through the sample to separate it out. The mobile phase also partly determines how it separates out: it will first carry out similar molecules, ones with similar polarities, and follow gradually with molecules with larger polarities.</para>
+      </section>
+      <section id="import-auto-id1165903426044">
+        <title>Modifiers</title>
+        <para id="import-auto-id1165898587425">Modifiers are added to the mobile phase to play with its properties. As mentioned a few times previously, CO<sub>2</sub> supercritical fluid lacks polarity. In order to add polarity to the fluid (without causing reactivity), a polar modifier will often be added. Modifiers usually raise the critical pressure and temperature of the mobile phase a little, but in return add polarity to the phase and result in a fully resolved sample. Unfortunately, with too much modifier, higher temperatures and pressures are needed and reactivity increases (which is dangerous and bad for the operator). Modifiers, such as ethanol or methanol, are used in small amounts as needed for the mobile phase in order to create a more polar fluid.</para>
+      </section>
+    </section>
+    <section id="import-auto-id1165905264806">
+      <title>Advantages of supercritical fluid chromatography</title>
+      <para id="import-auto-id1165897480629">Clearly, SFC possesses some extraordinary potential as far as chromatography techniques go. It has some incredible capabilities that allow efficient and accurate resolution of mixtures. Below is a summary of its advantages and disadvantages stacked against other conventional (competing) chromatography methods.</para>
+      <section id="import-auto-id1165895371115">
+        <title>Advantages over HPLC</title>
+        <list id="eip-444"><item>Because supercritical fluids have low viscosities the analysis is faster, there is a much lower pressure drop across the column, and open tubular columns can be used. 
+</item>
+<item>Shorter column lengths are needed (10-20 m for SFC versus 15-60 m for HPLC) due to the high diffusivity of the supercritical fluid. More interactions can occur in a shorter span of time/distance. </item>
+<item>Resolving power is much greater (5x) than HPLC due to the high diffusivity of the supercritical fluid. More interactions result in better separation of the components in a shorter amount of time.</item>
+
+
+
+
+
+</list></section>
+      <section id="import-auto-id1165905254828">
+        <title>Advantages over GC</title>
+        <list id="eip-623"><item>Able to analyze many solutes with no derivatization since there is no need to convert most polar groups into nonpolar ones.</item>
+<item>Can analyze thermally labile compounds more easily with high resolution since it can provide faster analysis at lower temperatures.</item>
+<item>Can analyze solutes with high molecular weight due to their greater solubizing power.</item>
+
+
+
+
+
+</list></section>
+      <section id="import-auto-id1165902230510">
+        <title>General disadvantages</title>
+        <list id="eip-942"><item>Cannot analyze extremely polar solutes due to relatively nonpolar mobile phase, CO<sub>2</sub>. </item>
+</list></section>
+    </section>
+    <section id="import-auto-id1165899895474">
+      <title>Applications</title>
+      <para id="import-auto-id1165896650636">While the use of SFC has been mainly organic-oriented, there are still a few ways that inorganic compound mixtures are separated using the method. The two main ones, separation of chiral compounds (mainly metal-ligand complexes) and organometallics are discussed here.</para>
+      <section id="import-auto-id1165905230145">
+        <title>Chiral compounds</title>
+        <para id="import-auto-id1165892825648">For chiral molecules, the procedures and choice of column in SFC are very similar to those used in HPLC. Packed with cellulose type chiral stationary phase (or some other chiral stationary phase), the sample flows through the chiral compound and only molecules with a matching chirality will stick to the column. By running a pure CO<sub>2</sub> supercritical fluid mobile phase, the non-sticking enantiomer will elute first, followed eventually (but slowly) with the other one.</para>
+        <para id="eip-612">In the field of inorganic chemistry, a racemic mixture of Co(acac)<sub>3</sub>, both isomers shown in <link target-id="import-auto-id1165898950159"/>, has been resolved using a cellulose-based chiral stationary phase. The SFC method was one of the best and most efficient instruments in analyzing the chiral compound. While SFC easily separates coordinate covalent compounds, it is not necessary to use such an extensive instrument to separate mixtures of it since there are many simpler techniques.</para><figure id="import-auto-id1165898950159"><media id="import-auto-id1165897414513" alt="">
+            <image mime-type="image/png" src="../../media/Picture 5-3cbe.png" width="500" print-width="5in"/>
+          </media>
+        <caption>The two isomers of Co(acac)<sub>3</sub> in a racemic mixture which were resolved by SFC.</caption></figure></section>
+      <section id="import-auto-id1165905211448">
+        <title>Organometallics</title>
+        <para id="import-auto-id1165903484509">Many d-block organometallics are highly reactive and easily decompose in air. SFC offers a way to chromatograph mixtures of large, unusual organometallic compounds. Large cobalt and rhodium based organometallic compound mixtures have been separated using SFC (<link target-id="import-auto-id1165894311793"/>) without exposing the compounds to air.</para><figure id="import-auto-id1165894311793"><media id="import-auto-id1165905255962" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-1b2b.png" width="500" print-width="5in"/>
+          </media>
+        <caption>Examples of cobalt and rhodium based organometallic compound mixtures separated by SFC. Adapted from Compounds by I Bruheim, E Fooladi, E. Lundanes, T. Greibrokk, <emphasis effect="italics">J. Microcolumn Sep.</emphasis>, 2001, <emphasis effect="bold">13</emphasis>, 156.</caption></figure><para id="import-auto-id1165904054970">By using a stationary phase of siloxanes, oxygen-linked silicon particles with different substituents attached, the organometallics were resolved based on size and charge. Thanks to the non-polar, highly diffusive, and high viscosity properties of a 100% CO<sub>2</sub> supercritical fluid, the mixture was resolved and analyzed with a flame ionization detector. It was determined that the method was sensitive enough to detect impurities of 1%. Because the efficiency of SFC is so impressive, the potential for it in the organometallic field is huge. Identifying impurities down to 1% shows promise for not only preliminary data in experiments, but quality control as well. </para></section>
+    </section>
+    <section id="import-auto-id1165898932388">
+      <title>Conclusion</title>
+      <para id="import-auto-id1165896183040">While it may have its drawbacks, SFC remains an untapped resource in the ways of chromatography. The advantages to using supercritical fluids as mobile phases demonstrate how resolution can be increased without sacrificing time or increasing column length. Nonetheless, it is still a well-utilized resource in the organic, biomedical, and pharmaceutical industries. SFC shows promise as a reliable way of separating and analyzing mixtures.</para>
+    </section>
+    <section id="import-auto-id1165904037703"><title>Bibliography</title><list id="eip-338"><item>D. R. Gere, R. Board, and D. McManigill, <emphasis effect="italics">Anal. Chem.</emphasis>, 1982, <emphasis effect="bold">54</emphasis>, 736. </item>
+<item>E. Klesper, A. H. Corwin, and D. A. Turner, <emphasis effect="italics">Org. Chem.</emphasis>, 1962, <emphasis effect="bold">27</emphasis>, 700.</item>
+<item>M.N. Meyers, J. Giddings, <emphasis effect="italics">Anal. Chem.</emphasis>, 1965, <emphasis effect="bold">37</emphasis>, 1453. </item>
+<item>K. Miyazawa, T. Ishiguro, and H. Oda, <emphasis effect="italics">FPC production</emphasis>. Daicel Chemical Industries, LTD. Myoko, Japan (2007).</item>
+<item>L. Toribio, C. Alonso, M. J. del Nozal, J. L. Bernal, and J. J. Jimnez, <emphasis effect="italics">J. Sep. Sci.</emphasis>, 2006, <emphasis effect="bold">29</emphasis>, 1363. </item>
+<item>M. Caude and D. Thiebaut, <emphasis effect="italics">Practical Supercritical Fluid Chromatography and Extraction</emphasis>, Harwood Academic Publishers, Amsterdam (1999). </item>
+<item>M. D. Palmieri, <emphasis effect="italics">J. Chem. Educ.</emphasis>, 1989, <emphasis effect="bold">66</emphasis>, A141. </item>
+<item>M. Saito, <emphasis effect="italics">J. Biosci. Bioeng.</emphasis>, 2013, <emphasis effect="bold">115</emphasis>, 590. </item>
+<item>M. Yoshioka, S. Parvez, T. Miazaki, and H. Parvez, <emphasis effect="italics">Supercritical Fluid Chromatography and Micro-HPLC</emphasis>, VNU Science Press, The Netherlands (1989). </item>
+<item>R. M. Smith, <emphasis effect="italics">Supercritical Fluid Chromatography</emphasis>, Royal Society of Chemistry (1988).</item>
+<item>T. L. Chester and J. D. Pinkston, <emphasis effect="italics">Anal. Chem.</emphasis>, 1990, <emphasis effect="bold">62</emphasis><emphasis effect="bold"/>, 394R.</item>
+</list></section></content>
+</document>

@@ -1,0 +1,171 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chronocoulometry: A Technique for Electroplating</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55559</md:content-id>
+  <md:title>Chronocoulometry: A Technique for Electroplating</md:title>
+  <md:abstract/>
+  <md:uuid>40d20dea-0efd-41e0-be6f-63984bd5f5d5</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1171577110239"><title>Fundamentals of electrochemistry</title><para id="import-auto-id1171591789502">A chemical reaction that involves a change in the charge of a chemical species is called an electrochemical reaction. As the name suggests, these reactions involve electron transfer between chemicals. Many of these reactions occur spontaneously when the various chemicals come in contact with one another. In order to force a nonspontaneous electrochemical reaction to occur, a driving force needs to be provided. This is because every chemical species has a relative reduction potential. These values provide information on the ability of the chemical to take extra electrons. Conversely, we can think if relative oxidation potentials, which indicate the ability of a chemical to give away electrons. It is important to note that these values are relative and need to be defined against a reference reaction. A list of standard reduction potentials (standard indicating measurement against the normal hydrogen electrode as seen in <link target-id="cute-dog"/>) for common electrochemical half-reactions is given in <link target-id="import-auto-id1171569797091"/>. Nonspontaneous electrochemical systems, often called electrolytic cells, as mentioned previously, require a driving force to occur. This driving force is an applied voltage, which forces reduction of the chemical that is less likely to gain an electron.</para><figure id="cute-dog"><media id="NHE" alt="NHE">
+    <image mime-type="image/jpeg" src="../../media/Slide01.jpg" width="300" print-width="2.5in"/>
+  </media>
+  
+<caption>A schematic diagram of a normal hydrogen electrode. </caption></figure><table id="import-auto-id1171569797091" summary="List of standard reduction potentials of various half reactions.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Oxidant</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Reductant</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">E° (V vs NHE)</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>2H<sub>2</sub>O +2e<sup>-</sup></entry>
+              <entry>H<sub>2</sub> (g) +2OH<sup>-</sup></entry>
+              <entry>-0.8227</entry>
+            </row>
+            <row>
+              <entry>Cu<sub>2</sub>O (s) H<sub>2</sub>O + 2e<sup>-</sup></entry>
+              <entry>2Cu (s) + 2OH<sup>-</sup></entry>
+              <entry>-0.360</entry>
+            </row>
+            <row>
+              <entry>Sn<sup>4+</sup> + 2e<sup>-</sup></entry>
+              <entry>Sn<sup>2+</sup></entry>
+              <entry>+0.15</entry>
+            </row>
+            <row>
+              <entry>Cu<sup>2+</sup> + 2e<sup>-</sup></entry>
+              <entry>Cu (s)</entry>
+              <entry>+0.337</entry>
+            </row>
+            <row>
+              <entry>O<sub>2</sub> (g) + 2H<sup>+</sup> + 2e<sup>-</sup></entry>
+              <entry>H<sub>2</sub>O<sub>2</sub> (aq)</entry>
+              <entry>+0.70</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>List of standard reduction potentials of various half reactions.</caption>
+</table></section><section id="import-auto-id1171584798031"><title>Design of an electrochemical cell</title><para id="import-auto-id1171586418060">A schematic of an electrochemical cell is seen in <link target-id="ECell"/>. Any electrochemical cell must have two electrodes – a cathode, where the reduction half-reaction takes place, and an anode, where the oxidation half-reaction occurs. Examples of half reactions can be seen in <link target-id="import-auto-id1171569797091"/>. The two electrodes are electrically connected in two ways – the electrolyte solution and the external wire. The electrolyte solution typically includes a small amount of the electroactive analyte (the chemical species that will actually participate in electron transfer) and a large amount of supporting electrolyte (the chemical species that assist in the movement of charge, but are not actually involved in electron transfer. The external wire provides a path for the electrons to travel from the oxidation half-reaction to the reduction half-reaction. As mentioned previously, when an electrolytic reaction (nonspontaneous) is being forced to occur a voltage needs to be applied. This requires the wires to be connected to a potentiostat. As its name suggests, a potentiostat controls voltage (i.e., “potentio” = potential measured in volts). The components of an electrochemical cell and their functions are also given in <link target-id="import-auto-id1171591702216"/>.</para><figure id="ECell"><media id="dogpic" alt="A dog sitting on a bed">
+    <image mime-type="image/jpeg" src="../../media/Slide02.jpg" width="300" print-width="2.5in"/>
+  </media>
+  
+<caption>Schematic of an electrochemical cell. 
+  </caption></figure><table id="import-auto-id1171591702216" summary="Various components of an electrochemical cell and their respective functions.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Component</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Function</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Electrode</entry>
+              <entry>Interface between ions and electrons</entry>
+            </row>
+            <row>
+              <entry>Anode</entry>
+              <entry>Electrode at which the oxidation half reaction takes place</entry>
+            </row>
+            <row>
+              <entry>Cathode</entry>
+              <entry>Electrode at which the reduction half reaction takes place</entry>
+            </row>
+            <row>
+              <entry>Electrolyte solution</entry>
+              <entry>Solution that contains supporting electrolyte and electroactive analyte</entry>
+            </row>
+            <row>
+              <entry>Supporting electrolyte</entry>
+              <entry>Not a part of the faradaic process; only a part of the capacitive process </entry>
+            </row>
+            <row>
+              <entry>Electroactive analyte</entry>
+              <entry>The chemical species responsible for all faradaic current</entry>
+            </row>
+            <row>
+              <entry>Potentiostat</entry>
+              <entry>DC voltage source; sets the potential difference between the cathode and the anode</entry>
+            </row>
+            <row>
+              <entry>Wire</entry>
+              <entry>Connects the electrodes to the potentiostat</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>Various components of an electrochemical cell and their respective functions.</caption>
+</table></section><section id="import-auto-id1171571717722">
+      <title>Chronocoulometry: an electroanalytical technique</title>
+      <section id="import-auto-id1171576559937"><title>Theory</title><para id="import-auto-id1171591799021">Chronocoulometry, as indicated by the name, is a technique in which the charge is measured (i.e. “coulometry”) as a function of time (i.e., “chrono”). There are various types of coulometry. The one discussed here is potentiostatic coulometry in which the potential (or voltage) is set and, as a result, charge flows through the cell. The input and output example graphs can be seen in <link target-id="InputOutput"/>. The input is a potential step that spans the reduction potential of the electroactive species. If this potential step is performed in an electrochemical cell that does not contain and electroactive species, only capacitive current will flow (<link target-id="CapFar"/>), in which the ions migrate in such a way that charges are aligned (positive next to negative), but no charge is transferred. Once an electroactive species is introduced into the system however, the faradaic current begins to flow. This current is a result of the electron transfer between the electrode and the electroactive species.</para><figure id="InputOutput"><media id="Input-Output" alt="I-O">
+    <image mime-type="image/jpeg" src="../../media/Slide03.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>Input potential step (a) and output charge transfer (b) as used in chronocoulometry.
+  </caption></figure><figure id="CapFar"><media id="Cap-Far" alt="Cap_Far">
+    <image mime-type="image/jpeg" src="../../media/Slide04.jpg" width="300" print-width="2in"/>
+  </media>
+  
+<caption>Capacitive alignment (a) and faradaic charge transfer (b) – the two sources of current in an electrochemical cell.
+  </caption></figure></section><section id="import-auto-id1171591745779"><title>Electroplating: an application of chronocoulometry</title><para id="import-auto-id1171567067682">Electroplating is an electrochemical process that utilizes techniques such as chronocoulometry to electrodeposit a charged chemical from a solution as a neutral chemical on the surface of another chemical. These chemicals are typically metals. The science of electroplating dates back to the early 1800s when Luigi Valentino Brugnatelli (<link target-id="Luigi"/>) electroplated gold from solution onto silver metals. By the mid 1800s, the process of electroplating was patented by cousins George and Henry Elkington (<link target-id="Elkington"/>). The Elkingtons brought electroplated goods to the masses by producing consumer products such as artificial jewelry and other commemorative items (<link target-id="GoldPlating"/>).</para><figure id="Luigi"><media id="Brugnatelli" alt="LB">
+    <image mime-type="image/jpeg" src="../../media/Slide05hmm.jpg" width="300" print-width="2.5in"/>
+  </media>
+  
+<caption>Portrait of Luigi Valentino Brugnatelli (1761-1818). 
+  </caption></figure><figure id="Elkington"><media id="GE" alt="GeorgeElkington">
+    <image mime-type="image/jpeg" src="../../media/Slide05copy.jpg" width="300" print-width="2.5in"/>
+  </media>
+  
+<caption>Portrait of George Elkington (1801-1865). 
+  </caption></figure><figure id="GoldPlating"><media id="GP" alt="Gold_plating">
+    <image mime-type="image/jpeg" src="../../media/Slide06.jpg" width="300" print-width="2.5in"/>
+  </media>
+  
+<caption>A commemorative inkstand gilded using the process of electroplating.
+  </caption></figure><para id="import-auto-id1171578710498">Recent scientific studies have taken interest in studying electroplating. Trejo and coworkers have demonstrated that a quartz microbalance can be used to measure the change in mass over time during electrodeposition via chronocoulometry. <link target-id="Data"/>a shows the charge transferred at various potential steps.  <link target-id="Data"/>b shows the change in mass as a function of potential step. It is clear that the magnitude of the potential step is directly related to the amount of charge transferred and consequently the mass of the electroactive species deposited.</para><figure id="Data"><media id="SampleData" alt="Sample_data">
+    <image mime-type="image/jpeg" src="../../media/Slide07.jpg" width="600" print-width="6in"/>
+  </media>
+  
+<caption>Charge transferred over time at varied potentials (a) and mass transferred at varied potentials. Reproduced from A. Mendez, L. E. Moron, L Ortiz-Frade, Y. Meas, R Ortega-Borges, G. Trejo, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 2011, <emphasis effect="bold">158,</emphasis> F45. Copyright: The Electrochemical Society, 2011. </caption></figure><para id="import-auto-id1171585950792">The effect of electroplating via chronocoulometry on the localized surface plasmon resonance (LSPR) has been studied on metallic nanoparticles. An LSPR is the collective oscillation of electrons as induced by an electric field (<link target-id="LSPR"/>). In various studies by Mulvaney and coworkers, a clear effect on the LSPR frequency was seen as potentials were applied (<link target-id="Absorbance"/>). In initial studies, no evidence of electroplating was reported. In more recent studies by the same group, it was shown that nanoparticles could be electroplated using chronocoulometry (<link target-id="PlamonData"/>). Such developments can lead to an expansion of the applications of both electroplating and plasmonics.</para><figure id="LSPR"><media id="Plasmon" alt="PlasmonSchematic">
+    <image mime-type="image/jpeg" src="../../media/Slide08.jpg" width="400" print-width="4in"/>
+  </media>
+  
+<caption>The localized surface plasmon resonance as induced by application of an electric field. 
+  </caption></figure><figure id="Absorbance"><media id="A" alt="Abs">
+    <image mime-type="image/jpeg" src="../../media/Slide09.jpg" width="300" print-width="3in"/>
+  </media>
+  
+<caption>Shift in the localized surface plasmon resonance frequency as a result of applied potential step. Reproduced from T. Ung, M. Giersig, D. Dunstan, and P. Mulvaney, <emphasis effect="italics">Langmuir,</emphasis> 1997, <emphasis effect="bold">13,</emphasis> 1773.  Copyright: American Chemical Society, 1997. </caption></figure><figure id="PlamonData"><media id="DataPlasmon" alt="Plasmon_data">
+    <image mime-type="image/jpeg" src="../../media/Slide10.jpg" width="300" print-width="3in"/>
+  </media>
+  
+<caption>Use of chronocoulometry to electroplate nanoparticles. Reproduced from M. Chirea, S. Collins, X. Wei, and P. Mulvaney, <emphasis effect="italics">J. Phys. Chem. Lett.</emphasis>, 2014, <emphasis effect="bold">5</emphasis>, 4331. Copyright: American Chemical Society, 2014. </caption></figure></section></section>
+    <section id="import-auto-id1171591701402"><title>Bibliography</title><list id="eip-457"><item>A. J. Bard and L. R. Faulkner, <emphasis effect="italics">Electrochemical Methods: Fundamentals and Applications</emphasis>, Wiley (2000).</item>
+
+<item>M. Chirea, S. Collins, X. Wei, and P. Mulvaney, <emphasis effect="italics">J. Phys. Chem. Lett.</emphasis>, 2014, <emphasis effect="bold">5</emphasis>, 4331. </item>
+
+<item>A. Mendez, L. E. Moron, L Ortiz-Frade, Y. Meas, R Ortega-Borges, and G. Trejo, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 2011, <emphasis effect="bold">158,</emphasis> F45. </item>
+
+<item>C. Novo, A. M. Funston, A. K. Gooding, and P. Mulvaney, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2009, <emphasis effect="bold">131,</emphasis> 14664. </item>
+
+<item>
+T. Ung, M. Giersig, D. Dunstan, and P. Mulvaney, <emphasis effect="italics">Langmuir</emphasis>, 1997 <emphasis effect="bold">13,</emphasis> 1773. </item>
+</list></section></content>
+</document>

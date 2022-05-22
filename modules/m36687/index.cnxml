@@ -1,0 +1,203 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Refinement of Crystallographic Disorder in the Tetrafluoroborate Anion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36687</md:content-id>
+  <md:title>Refinement of Crystallographic Disorder in the Tetrafluoroborate Anion</md:title>
+  <md:abstract/>
+  <md:uuid>6499f6de-92bb-4b4e-97f9-eac6fb9581cb</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="id2683835">
+      <title>Introduction</title>
+      <para id="id2066765">Through the course of our structural characterization of various tetrafluoroborate salts, the complex cation has nominally been the primary subject of interest; however, we observed that the tetrafluoroborate anion (BF<sub>4</sub><sup>-</sup>) anions were commonly disordered (13 out of 23 structures investigated). Furthermore, a consideration of the Cambridge Structural Database as of 14<sup>th</sup> December 2010 yielded 8,370 structures in which the tetrafluoroborate anion is present; of these, 1044 (12.5%) were refined as having some kind of disorder associated with the BF<sub>4</sub><sup>-</sup> anion. Several different methods have been reported for the treatment of these disorders, but the majority was refined as a non-crystallographic rotation along the axis of one of the B-F bonds. </para>
+      <para id="id2258553">Unfortunately, the very property that makes fluoro-anions such good candidates for non-coordinating counter-ions (i.e., weak intermolecular forces) also facilitates the presence of disorder in crystal structures. In other words, the appearance of disorder is intensified with the presence of a weakly coordinating spherical anion (e.g., BF<sub>4</sub><sup>-</sup> or PF<sub>6</sub><sup>-</sup>) which lack the strong intermolecular interactions needed to keep a regular, repeating anion orientation throughout the crystal lattice. Essentially, these weakly coordinating anions are loosely defined electron-rich spheres. All considered it seems that fluoro-anions, in general, have a propensity to exhibit apparently large atomic displacement parameters (ADP's), and thus, are appropriately refined as having fractional site-occupancies.</para>
+    </section>
+    <section id="id1170453772061">
+      <title>Refining disorder</title>
+      <para id="id1170453772068">In crystallography the observed atomic displacement parameters are an average of millions of unit cells throughout entire volume of the crystal, and thermally induced motion over the time used for data collection. A disorder of atoms/molecules in a given structure can manifest as flat or non-spherical atomic displacement parameters in the crystal structure. Such cases of disorder are usually the result of either thermally induced motion during data collection (i.e., <emphasis effect="italics">dynamic disorder</emphasis>), or the <emphasis effect="italics">static disorder</emphasis> of the atoms/molecules throughout the lattice. The latter is defined as the situation in which certain atoms, or groups of atoms, occupy slightly different orientations from molecule to molecule over the large volume (relatively speaking) covered by the crystal lattice. This static displacement of atoms can simulate the effect of thermal vibration on the scattering power of the "average" atom. Consequently, differentiation between thermal motion and static disorder can be ambiguous, unless data collection is performed at low temperature (which would negate much of the thermal motion observed at room temperature). </para>
+      <para id="id2093465">In most cases, this disorder is easily resolved as some non-crystallographic symmetry elements acting locally on the weakly coordinating anion. The atomic site occupancies can be refined using the FVAR instruction on the different parts (see PART 1 and PART 2 in <link target-id="id2483193"/>) of the disorder, having a site occupancy factor (s.o.f.) of <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">1-x</emphasis>, respectively. This is accomplished by replacing 11.000 (on the F-atom lines in the “NAME.INS” file) with 21.000 or -21.000 for each of the different parts of the disorder. For instance, the "NAME.INS" file would look something like that shown in <link target-id="id2483193"/>. Note that for more heavily disordered structures, i.e., those with more than two disordered parts, the SUMP command can be used to determine the s.o.f. of parts 2, 3, 4, etc. the combined sum of which is set at s.o.f. = 1.0. These are designated in FVAR as the second, third, and fourth terms. </para>
+
+
+        <figure id="id2483193"><media id="id2483193_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Fig22-ce5a.jpg" id="id2483193__onlineimage" width="500" print-width="5in"/>
+          </media>
+        <caption>General layout of the SHELXTL "NAME.INS" file for treatment of disordered tetrafluoroborate. <sup>a</sup> For more than two site occupancies “SUMP = 1.0 0.01 1.0 2 1.0 3 1.0 4” is added in addition to the FVAR instruction.</caption></figure>
+
+
+      
+      <para id="id2447723">In small molecule refinement, the case will inevitably arise in which some kind of restraints or constraints must be used to achieve convergence of the data. A restraint is any additional information concerning a given structural feature, i.e., limits on the possible values of parameters, may be added into the refinement, thereby increasing the number of refined parameters. For example, aromatic systems are essentially flat, so for refinement purposes, a troublesome ring system could be restrained to lie in one plane. Restraints are not exact, i.e., they are tied to a probability distribution, whereas constraints are exact mathematical conditions. Restraints can be regarded as falling into one of several general types: </para>
+      <list id="id1893217" list-type="bulleted"><item>Geometric restraints, which relates distances that should be similar. </item>
+        <item>Rigid group restraints. </item>
+        <item>Anti-bumping restraints. </item>
+        <item>Linked parameter restraints. </item>
+        <item>Similarity restraints. </item>
+        <item>ADP restraints (<link target-id="id1170452707268"/>). </item>
+        <item>Sum and average restraints. </item>
+        <item>Origin fixing and shift limiting restraints. </item>
+        <item>Those imposed upon atomic displacement parameters. </item>
+      </list>
+      <figure id="id1170452707268"><media id="id1170452707268_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-96f6.jpg" id="id1170452707268__onlineimage" width="400" print-width="3in"/>
+        </media>
+      <caption>Consequence of the anisotropic displacement parameter (ADP) restraints DELU, SIMU, and ISOR on the shape and directionality of atomic displacement parameters. Adapted from P. Müller, <emphasis effect="italics">Crystal Structure Refinement, A Crystallographer's Guide to SHELXL</emphasis>, Oxford University Press, UK (2006).</caption></figure>
+      
+      <section id="id1935289">
+        <title>Geometric restraints</title>
+        <list id="id2672623" list-type="bulleted">
+          <item>SADI - similar distance restraints for named pairs of atoms.</item>
+          <item>DFIX - defined distance restraint between covalently bonded atoms.</item>
+          <item>DANG - defined non-bonding distance restraints, e.g., between F atoms belonging to the same PART of a disordered BF<sub>4</sub><sup>-</sup>.</item>
+          <item>FLAT - restrains group of atoms to lie in a plane.</item>
+        </list>
+      </section>
+      <section id="id1170453768364">
+        <title>Anisotropic displacement parameter restraints</title>
+        <list id="id1170453768370" list-type="bulleted"><item>DELU - rigid bond restraints (<link target-id="id1170452707268"/>).</item>
+          <item>SIMU - similar ADP restraints on corresponding U<sub>ij</sub> components to be approximately equal for atoms in close proximity (<link target-id="id1170452707268"/>).</item>
+          <item>ISOR - treat named anisotropic atoms to have approximately isotropic behavior (<link target-id="id1170452707268"/>).</item>
+        </list>
+      </section>
+      <section id="id2425025">
+        <title>Constraints (different than "restraints")</title>
+        <list id="id2177114" list-type="bulleted">
+          <item>EADP - equivalent atomic displacement parameters.</item>
+          <item>AFIX - fitted group; e.g., AFIX 66 would fit the next six atoms into a regular hexagon. </item>
+          <item>HFIX - places H atoms in geometrically ideal positions, e.g., HFIX 123 would place two sets of methyl H atoms disordered over two sites, 180° from each other.</item>
+        </list>
+      </section>
+    </section>
+    <section id="id2052824">
+      <title>Classes of disorder for the tetrafluoroborate anion</title>
+      <section id="id1895858">
+        <title>Rotation about a non-crystallographic axis along a B-F bond</title>
+        <para id="id1895864">The most common case of disorder is a rotation about an axis, the simplest of which involves a non-crystallographic symmetry related rotation axis about the vector made by one of the B-F bonds; this operation leads to three of the four F-atoms having two site occupancies (<link target-id="id2587886"/>). This disorder is also seen for <sup>t</sup>Bu and CF<sub>3</sub> groups, and due to the C<sub>3</sub> symmetry of the C(CH<sub>3</sub>)<sub>3</sub>, CF<sub>3</sub> and BF<sub>3</sub> moieties actually results in a near C<sub>2</sub> rotation. </para>
+        <figure id="id2587886"><media id="id2587886_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-7887.jpg" id="id2587886__onlineimage" width="400" print-width="3.5in"/>
+          </media>
+        <caption>Schematic representation of the rotational relationship between two disordered orientations of the BF<sub>4</sub><sup>-</sup> anion. </caption></figure>
+        
+        <para id="id2458078">In a typical example, the BF<sub>4</sub><sup>-</sup> anion present in the crystal structure of [H(Mes-dpa)]BF<sub>4</sub> (<link target-id="id2620009"/>) was found to have a 75:25 site occupancy disorder for three of the four fluorine atoms (<link target-id="id2336589"/>). The disorder is a rotation about the axis of the B(1)-F(1) bond. For initial refinement cycles, similar distance restraints (SADI) were placed on all B-F and F-F distances, in addition to similar ADP restraints (SIMU) and rigid bond restraints (DELU) for all F atoms. Restraints were lifted for final refinement cycles. A similar disorder refinement was required for [H(2-<sup>i</sup>PrPh-dpa)]BF<sub>4</sub> (45:55), while refinement of the disorder in [Cu(2-<sup>i</sup>PrPh-dpa)(styrene)]BF<sub>4</sub> (65:35) was performed with only SADI and DELU restraints were lifted in final refinement cycles. </para>
+        <figure id="id2620009"><media id="id2620009_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-437b.jpg" id="id2620009__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+        <caption>Structures of (a) substituted <emphasis effect="italics">bis</emphasis>(2-pyridyl)amines (R-dpa) and (b) substituted <emphasis effect="italics">bis</emphasis>(2-quinolyl)amines [R-N(quin)<sub>2</sub>] ligands. </caption></figure>
+        
+        <figure id="id2336589"><media id="id2336589_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-419d.jpg" id="id2336589__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>Structure for the BF<sub>4</sub><sup>-</sup> anion in compound [H(Mes-dpa)]BF<sub>4</sub> with both parts of the disorder present. Thermal ellipsoids are shown at the 20% level. Adapted from J. J. Allen, C. E. Hamilton, and A. R. Barron, <emphasis effect="italics">Dalton Trans</emphasis>., 2010,11451. </caption></figure>
+        
+        <para id="id1170458718702">In the complex [Ag(H-dpa)(styrene)]BF<sub>4</sub> use of the free variable (FVAR) led to refinement of disordered fluorine atoms F(2A)-F(4A) and F(2B)-F(4B) as having a 75:25 site-occupancy disorder (<link target-id="id1170451316667"/>). For initial refinement cycles, all B-F bond lengths were given similar distance restraints (SADI). Similar distance restraints (SADI) were also placed on F<sup>…</sup>F distances for each part, i.e., F(2A)<sup>…</sup>F(3A) = F(2B)<sup>…</sup>F(3B), etc. Additionally, similar ADP restraints (SIMU) and rigid bond restraints (DELU) were placed on all F atoms. All restraints, with the exception of SIMU, were lifted for final refinement cycles. </para>
+        <figure id="id1170451316667"><media id="id1170451316667_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6-caf8.jpg" id="id1170451316667__onlineimage" width="350" print-width="3in"/>
+          </media>
+        <caption>Structure of the disordered BF<sub>4</sub><sup>-</sup> anion in [Ag(H-dpa)(styrene)]BF<sub>4</sub> viewed down the axis of disorder. Thermal ellipsoids are shown at the 30% probability level. Adapted from J. J. Allen and A. R. Barron, <emphasis effect="italics">J. Chem. Crys</emphasis><emphasis effect="italics">t</emphasis>., 2009, <emphasis effect="bold">39</emphasis>, 935.</caption></figure>
+        
+      </section>
+      <section id="id1170459872664">
+        <title>Rotation about a non-crystallographic axis not along a B-F bond</title>
+        <para id="id1170452656299">The second type of disorder is closely related to the first, with the only difference being that the rotational axis is tilted slightly off the B-F bond vector, resulting in all four F-atoms having two site occupancies (<link target-id="id5218634"/>). Tilt angles range from 6.5° to 42°. </para>
+
+
+          <figure id="id5218634"><media id="id5218634_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics7-65cc.jpg" id="id5218634__onlineimage" width="325" print-width="3in"/>
+            </media>
+          <caption>Molecular structure for the anion in [Cu(H-dpa)(<emphasis effect="italics">cis</emphasis>-3-octene)]BF<sub>4</sub> with both parts of the disordered BF<sub>4</sub><sup>-</sup> present. Thermal ellipsoids are shown at the 20% level. Adapted from J. J. Allen and A. R. Barron, <emphasis effect="italics">Dalton Trans.</emphasis>, 2009, 878.</caption></figure>
+
+        
+        <para id="id2022963">The disordered BF<sub>4</sub><sup>-</sup> anion present in the crystal structure of [Cu(Ph-dpa)(styrene)]BF<sub>4</sub> was refined having fractional site occupancies for all four fluorine atoms about a rotation slightly tilted off the B(1)-F(2A) bond. However, it should be noted that while the U<sub>(eq)</sub> values determined for the data collected at low temperature data is roughly half that of that found at room temperature, as is evident by the sizes and shapes of fluorine atoms in <link target-id="id1170454073040"/>, the site occupancies were refined to 50:50 in each case, and there was no resolution in the disorder. </para>
+        <figure id="id1170454073040"><media id="id1170454073040_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics8-ad8b.jpg" id="id1170454073040__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+        <caption>Comparison of the atomic displacement parameters observed in the disordered BF<sub>4</sub><sup>-</sup> anion from [Cu(Ph-dpa)(styrene)]BF<sub>4</sub> at data collection temperature (a) T = 213 K and (b) T = 298 K. Thermal ellipsoids are set at the 25% level. </caption></figure>
+        
+        <para id="id2059494">An extreme example of rotation off-axis is observed where refinement of more that two site occupancies (<link target-id="id1170455658765"/>) with as many as thirteen different fluorine atom locations on only one boron atom. </para>
+        <figure id="id1170455658765"><media id="id1170455658765_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics9-e496.jpg" id="id1170455658765__onlineimage" width="325" print-width="2.75in"/>
+          </media>
+        <caption>Structure for the tetrafluoroborate anion with twelve fluorine atom locations. Adapted from S. Martinez-Vargas, R. Toscano, and J. Valdez-Martinez, <emphasis effect="italics">Acta Cryst.</emphasis>, 2007, <emphasis effect="bold">E63</emphasis>, m1975. </caption></figure>
+        
+      </section>
+      <section id="id2786161">
+        <title>Constrained rotation about a non-crystallographic axis not along a B-F bond</title>
+        <para id="id2462421">Although a wide range of tilt angles are possible, in some systems the angle is constrained by the presence of hydrogen bonding. For example, the BF<sub>4</sub><sup>-</sup> anion present in [Cu(Mes-dpa)(μ-OH)(H<sub>2</sub>O)]<sub>2</sub>[BF<sub>4</sub>]<sub>2</sub> was found to have a 60:40 site occupancy disorder of the four fluorine atoms, and while the disorder is a C<sub>2</sub>-rotation slightly tilted off the axis of the B(1)-F(1A) bond, the angle is restricted by the presence of two B-F<sup>…</sup>O interactions for one of the isomers (<link target-id="id1170460197883"/>). </para>
+
+
+          <figure id="id1170460197883"><media id="id1170460197883_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics10-f6ec.jpg" id="id1170460197883__onlineimage" width="400" print-width="3.5in"/>
+            </media>
+          <caption>Structure of the disordered BF<sub>4</sub><sup>-</sup> in [Cu(Mes-dpa)(μ-OH)(H<sub>2</sub>O)]<sub>2</sub>[BF<sub>4</sub>]<sub>2</sub> showing interaction with bridging hydroxide and terminal water ligands. Thermal ellipsoids are shown at the 20% level. Adapted from J. J. Allen, C. E. Hamilton, and A. R. Barron, <emphasis effect="italics">Dalton Trans.</emphasis>, 2010, 11451. </caption></figure>
+
+        
+        <para id="id2058156">An example that does adhere to global symmetry elements is seen in the BF<sub>4</sub><sup>-</sup> anion of [Cu{2,6-<sup>i</sup>Pr<sub>2</sub>C<sub>6</sub>H<sub>3</sub>N(quin)<sub>2</sub>}<sub>2</sub>]BF<sub>4</sub>.MeOH (<link target-id="id2949316"/>), which exhibits a hydrogen-bonding interaction with a disordered methanol solvent molecule. The structure of R-N(quin)<sub>2</sub> is shown in <link target-id="id2620009"/>b. By crystallographic symmetry, the carbon atom from methanol and the boron atom from the BF<sub>4</sub><sup>-</sup> anion lie on a C<sub>2</sub>-axis. Fluorine atoms [F(1)-F(4)], the methanol oxygen atom, and the hydrogen atoms attached to methanol O(1S) and C(1S) atoms were refined as having 50:50 site occupancy disorder (<link target-id="id2949316"/>).</para>
+        <figure id="id2949316"><media id="id2949316_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics11-f32a.jpg" id="id2949316__onlineimage" width="400" print-width="3.25in"/>
+          </media>
+        <caption>H-bonding interaction in [Cu{2,6-<sup>i</sup>Pr<sub>2</sub>C<sub>6</sub>H<sub>3</sub>N(quin)<sub>2</sub>}<sub>2</sub>]BF<sub>4</sub>.MeOH between anion and solvent of crystallization, both disordered about a crystallographic C<sub>2</sub>-rotation axis running through the B(1)<sup>…</sup>C(1S) vector. Adapted from J. J. Allen, C. E. Hamilton, and A. R. Barron, <emphasis effect="italics">Dalton Trans.</emphasis>, 2010, 11451.</caption></figure>
+        
+      </section>
+      <section id="id1966390">
+        <title>Non crystallographic inversion center at the boron atom</title>
+        <para id="id1966396">Multiple disorders can be observed with a single crystal unit cell. For example, the two BF<sub>4</sub><sup>-</sup> anions in [Cu(Mes-dpa)(styrene)]BF<sub>4</sub> both exhibited 50:50 site occupancy disorders, the first is a C<sub>2</sub>-rotation tilted off one of the B-F bonds, while the second is disordered about an inversion centered on the boron atom. Refinement of the latter was carried out similarly to the aforementioned cases, with the exception that fixed distance restraints for non-bonded atoms (DANG) were left in place for the disordered fluorine atoms attached to B(2) (<link target-id="id2804464"/>). </para>
+        <figure id="id2804464"><media id="id2804464_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics12-16e8.jpg" id="id2804464__onlineimage" width="300" print-width="2.5in"/>
+          </media>
+        <caption>Structure for the disordered BF<sub>4</sub><sup>-</sup> anion due to a NCS-inversion center, in compound [Cu(Mes-dpa)(styrene)]BF<sub>4</sub> with both parts of the disorders present. Thermal ellipsoids are shown at the 20% level. Adapted from J. J. Allen, C. E. Hamilton, and A. R. Barron, <emphasis effect="italics">Dalton Trans.</emphasis>, 2010, 11451.</caption></figure>
+        
+      </section>
+      <section id="id2970138">
+        <title>Disorder on a crystallographic mirror plane</title>
+        <para id="id2970144">Another instance in which the BF<sub>4</sub><sup>-</sup> anion is disordered about a crystallographic symmetry element is that of [Cu(H-dpa)(1,5-cyclooctadiene)]BF<sub>4</sub>. In this instance fluorine atoms F(1) through F(4) are present in the asymmetric unit of the complex. Disordered atoms F(1A)-F(4A) were refined with 50% site occupancies, as B(1) lies on a mirror plane (<link target-id="id2957770"/>). For initial refinement cycles, similar distance restraints (SADI) were placed on all B-F and F-F distances, in addition to similar ADP restraints (SIMU) and rigid bond restraints (DELU) for all F atoms. Restraints were lifted for final refinement cycles, in which the boron atom lies on a crystallographic mirror plane, and all four fluorine atoms are reflected across. </para>
+        <figure id="id2957770"><media id="id2957770_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics13-5328.jpg" id="id2957770__onlineimage" width="300" print-width="2.5in"/>
+          </media>
+        <caption>Molecular structure for the anion in [Cu(H-dpa)(1,5-cyclooctadiene)]BF<sub>4</sub> with both parts of the disordered BF<sub>4</sub><sup>-</sup> present. For clarity, thermal ellipsoids are shown at the 20% level. Adapted from J. J. Allen and A. R. Barron, <emphasis effect="italics">Dalton Trans</emphasis>., 2009, 878.</caption></figure>
+        
+      </section>
+      <section id="id1170459522704">
+        <title>Disorder on a non-crystallographic mirror plane</title>
+        <para id="id1170453404448">It has been observed that the BF<sub>4</sub><sup>-</sup> anion can exhibit site occupancy disorder of the boron atom and one of the fluorine atoms across an NCS mirror plane defined by the plane of the other three fluorine atoms (<link target-id="id3371183"/>) modeling the entire anion as disordered (including the boron atom). </para>
+
+
+          <figure id="id3371183"><media id="id3371183_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics14-27d8.jpg" id="id3371183__onlineimage" width="400" print-width="3.75in"/>
+            </media>
+          <caption>Disordered anion across the plane of three fluorine atoms. Adapted from J. T. Mague and S. W. Hawbaker, <emphasis effect="italics">J. Chem. Cryst.</emphasis>, 1997, <emphasis effect="bold">27</emphasis>, 603. </caption></figure>
+
+
+        
+      </section>
+      <section id="id2175478">
+        <title>Disorder of the boron atom core</title>
+        <para id="id6630904">The extreme case of a disorder involves refinement of the entire anion, with all boron and all fluorine atoms occupying more than two sites (<link target-id="id2342585"/>). In fact, some disorders of the latter types must be refined isotropically, or as a last-resort, not at all, to prevent one or more atoms from turning non-positive definite. </para>
+
+
+          <figure id="id2342585"><media id="id2342585_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics15-4439.jpg" id="id2342585__onlineimage" width="400" print-width="3.25in"/>
+            </media>
+          <caption>An example of a structure of a highly disordered BF<sub>4</sub><sup>-</sup> anion refined with four site occupancies for all boron and fluorine atoms. Adapted from P. Szklarz, M. Owczarek, G. Bator, T. Lis, K. Gatner, and R. Jakubas, <emphasis effect="italics">J. Mol. Struct</emphasis>., 2009, <emphasis effect="bold">929</emphasis>, 48. </caption></figure>
+
+
+        
+      </section>
+    </section>
+    <section id="id2825032">
+      <title>Bibliography</title>
+      <list id="id2796384" list-type="bulleted"><item>J. J. Allen and A. R. Barron, <emphasis effect="italics">J. Chem. Cryst.</emphasis>, 2009, <emphasis effect="bold">39</emphasis>, 935.</item>
+        <item>J. J. Allen and A. R. Barron, <emphasis effect="italics">Dalton Trans.</emphasis>, 2009, 878.</item>
+        <item>J. J. Allen, C. E. Hamilton, and A. R. Barron, <emphasis effect="italics">Dalton Trans.</emphasis>, 2010, 11451.</item>
+        <item>W. Clegg, <emphasis effect="italics">Crystal Structure Determination</emphasis>, Oxford University Press, NY (1998).</item>
+        <item><emphasis effect="italics">IUCr Monographs on Crystallography</emphasis>, Ed. E. Domenicano and I. Hargittai, Oxford University Press, NY, (1992).</item>
+        <item><emphasis effect="italics">Crystallographic Computing 6: A Window on Modern Crystallography</emphasis>, Ed. H. D. Flack, L. Parkanyi, and K. Simon, Oxford University Press, NY (1993).</item>
+        <item>F. L. Hirshfield, <emphasis effect="italics">Acta Cryst.</emphasis>, 1976, <emphasis effect="bold">A32</emphasis>, 239. </item>
+        <item>J. T. Mague and S. W. Hawbaker, <emphasis effect="italics">J. Chem. Cryst.</emphasis>, 1997, <emphasis effect="bold">27</emphasis>, 603.</item>
+        <item>S. Martinez-Vargas, R. Toscano, and J. Valdez-Martinez, <emphasis effect="italics">Acta Cryst.</emphasis>, 2007, <emphasis effect="bold">E63</emphasis>, m1975.</item>
+        <item>P. Müller, <emphasis effect="italics">Crystal Structure Refinement, A Crystallographer's Guide to SHELXL</emphasis>, Oxford University Press, UK (2006).</item>
+        <item>D. F. Mullica, S. L. Gibson, E. L. Sappenfield, C. C. Lin, and D. H. Leschnitzer, <emphasis effect="italics">Inorg. Chim. Acta</emphasis>, 1990, <emphasis effect="bold">177</emphasis>, 89.</item>
+        <item>P. Szklarz, M. Owczarek, G. Bator, T. Lis, K. Gatner, and R. Jakubas, <emphasis effect="italics">J. Mol. Struct.</emphasis>, 2009, <emphasis effect="bold">929</emphasis>, 48. </item>
+      </list>
+    </section>
+  </content>
+</document>

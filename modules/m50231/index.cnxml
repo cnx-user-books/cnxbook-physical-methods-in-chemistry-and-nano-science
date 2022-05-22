@@ -1,0 +1,116 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Ion Chromatography</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50231</md:content-id>
+  <md:title>Ion Chromatography</md:title>
+  <md:abstract/>
+  <md:uuid>3651d6b6-9c66-4801-a177-0ec434823878</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id6762816">
+      <title>Introduction</title>
+      <para id="import-auto-id3414900">Ion Chromatography is a method of separating ions based on their distinct retention rates in a given solid phase packing material.  Given different retention rates for two anions or two cations, the elution time of each ion will differ, allowing for detection and separation of one ion before the other.  Detection methods are separated between electrochemical methods and spectroscopic methods.  This guide will cover the principles of retention rates for anions and cations, as well as describing the various types of solid-state packing materials and eluents that can be used.  </para>
+    </section>
+    <section id="import-auto-id6928524"><title>Principles of ion chromatography </title><section id="import-auto-id6756437"><title>Retention models in anion chromatography</title><para id="import-auto-id6384172">The retention model for anionic chromatography can be split into two distinct models, one for describing eluents with a single anion, and the other for describing eluents with complexing agents present. Given an eluent anion or an analyte anion, two phases are observed, the stationary phase (denoted by S) and the mobile phase (denoted by M).  As such, there is equilibrium between the two phases for both the eluent anions and the analyte anions that can be described by  <link target-id="import-auto-id1141274"/>. </para><equation id="import-auto-id1141274"><media id="import-auto-id6771638" alt="">
+            <image mime-type="image/wmf" src="../../media/Eq1-857c.jpg" width="400" print-width="4in"/>
+          </media>
+        </equation><para id="import-auto-id6710047">This yields an equilibrium constant as given in <link target-id="eip-869"/>. </para><equation id="eip-869"><media id="import-auto-id6511686" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq2-2dbb.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id6719302">Given the activity of the two ions cannot be found in the stationary or mobile phases, the activity coefficients are set to 1.  Two new quantities are then introduced.  The first is the distribution coefficient, D<sub>A</sub>, which is the ratio of analyte concentrations in the stationary phase to the mobile phase, <link target-id="eip-106"/>.  The second is the retention factor, k<sup>1</sup><sub>A</sub>, which is the distribution coefficient times the ratio of volume between the two phases, <link target-id="eip-701"/>.  </para><equation id="eip-106"><media id="import-auto-id6732786" alt=""><image mime-type="image/wmf" src="../../media/Eq3-6dcf.jpg" width="400" print-width="4in"/></media></equation><equation id="eip-701"><media id="import-auto-id6353780" alt=""><image mime-type="image/wmf" src="../../media/Eq4-8f5d.jpg" width="400" print-width="4in"/></media></equation><para id="import-auto-id6678751">Substituting the two quantities from <link target-id="eip-106"/> and <link target-id="eip-701"/> into <link target-id="eip-869"/>, the equilibrium constant can be written as <link target-id="eip-326"/>. </para><equation id="eip-326"><media id="import-auto-id5268808" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq5-82dd.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id3614900">Given there is usually a large difference in concentrations between the eluent and the analyte (with magnitudes of 10 greater eluent), equation 4 can be re-written under the assumption that all the solid phase packing material’s functional groups are taken up by E<sup>y-</sup>.  As such, the stationary E<sup>y-</sup> can be substituted with the exchange capacity divided by the charge of E<sup>y-</sup>.  This yields  <link target-id="eip-888"/>. </para><equation id="eip-888"><media id="import-auto-id6709647" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq6-7e87.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id6305625">Solving for the retention factor, <link target-id="eip-287"/> is developed. </para><equation id="eip-287"><media id="import-auto-id3457125" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq7-62d7.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id6297871"><link target-id="eip-287"/> shows the relationship between retention factor and parameters like eluent concentration and the exchange capacity, which allows parameters of the ion chromatography to be manipulated and the retention factors to be determined.  <link target-id="eip-287"/> only works for a single analyte present, but a relationship for the selectivity between two analytes [A] and [B] can easily be determined.  </para><para id="import-auto-id3356694">First the equilibrium between the two analytes is determined as  <link target-id="eip-344"/>.</para><equation id="eip-344"><media id="import-auto-id6900206" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq8-7906.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id3469596">The equilibrium constant can be written as <link target-id="eip-955"/> (ignoring activity):</para><equation id="eip-955"><media id="import-auto-id6856311" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq9-dd10.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id2101901">The selectivity can then be determined to be <link target-id="eip-97"/>.  </para><equation id="eip-97"><media id="import-auto-id2631941" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq10-dd10.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id6591843"><link target-id="import-auto-id6720773"/> can then be simplified into a logarithmic form as the following two equations:</para><equation id="eip-879"><media id="import-auto-id3329115" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq11-c8c6.jpg" width="400" print-width="4in"/>
+            </media></equation><equation id="eip-194"><media id="import-auto-id6595493" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq12-f44e.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id6004583">When the two charges are the same, it can be seen that the selectivity is only a factor of the selectivity coefficients and the charges.  When the two charges are different, it can be seen that the two retention factors are dependent upon each other.  </para>
+        <para id="import-auto-id5843092">In situations with a polyatomic eluent, three models are used to account for the multiple anions in the eluent.  The first is the dominant equilibrium model, in which one anion is so dominant in concentration; the other eluent anions are ignored.  The dominant equilibrium model works best for multivalence analytes.  The second is the effective charge model, where an effective charge of the eluent anions is found, and a relationship similar to EQ is found with the effective charge.  The effective charge models works best with monovalent analytes.  The third is the multiple eluent species model, where <link target-id="eip-992"/> describes the retention factor:</para><equation id="eip-992"><media id="import-auto-id3453341" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq13-987c.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id6578942">C<sub>3</sub> is a constant that includes the phase volume ratio between stationary, the equilibrium constant, and mobile and the exchange capacity.  C<sub>p</sub> is the total concentration of the eluent species.  X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub>, correspond to the shares of a particular eluent anion in the retention of the analyte.  </para>
+      </section><section id="import-auto-id6937986">
+        <title>Retention models of cation chromatography</title>
+        <para id="import-auto-id6959013">For eluents with a single cation and analytes that are alkaline earth metals, heavy metals or transition metals, a complexing agent is used to bind with the metal during chromatography.  This introduces the quantity A(m) to the retention rate calculations, where A(m) is the ratio of free metal ion to the total concentration of metal.  Following a similar derivation to the single anion case, <link target-id="eip-767"/> is found. </para><equation id="eip-767"><media id="import-auto-id6674410" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq14-ff90.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id1149081">Solving for the retention coefficient, <link target-id="eip-725"/> is found. </para><equation id="eip-725"><media id="import-auto-id6957671" alt="">
+              <image mime-type="image/wmf" src="../../media/Eq15-0375.jpg" width="400" print-width="4in"/>
+            </media></equation><para id="import-auto-id6067129">From this expression, the retention rate of the cation can be determined from eluent concentration and the ratio of free metal ions to the total concentration of the metal, which itself is depended on the equilibrium of the metal ion with the complexing agent.  </para>
+      </section>
+    </section><section id="import-auto-id6788742">
+      <title>Solid phase packing materials</title>
+      <para id="import-auto-id3335616">The solid phase packing material used in the chromatography column is important to the exchange capacity of the anion or cation.  There are many types of packing material, but all share a functional group that can bind either the anion or the cation complex.  The functional group is mounted on a polymer surface or sphere, allowing large surface area for interaction.  </para>
+      <section id="import-auto-id6951365">
+        <title>Packing material for anion chromatography</title>
+        <para id="import-auto-id2917338">The primary functional group used for anion chromatography is the ammonium group.  Amine groups are mounted on the polymer surface, and the pH is lowered to produce ammonium groups. As such, the exchange capacity is depended on the pH of the eluent.  To reduce the pH dependency, the protons on the ammonium are successively replaced with alkyl groups until the all the protons are replaced and the functional group is still positively charged, but pH independent.  The two packing materials used in almost all anion chromatography are trimethylamine (NMe<sub>3</sub>, <link target-id="import-auto-id6359180"/>) and dimethylanolamine (<link target-id="import-auto-id5926006"/>).  </para><figure id="import-auto-id6359180"><media id="import-auto-id6760357" alt="">
+            <image mime-type="image/wmf" src="../../media/Fig1-7b12.jpg" width="80" print-width="0.8in"/>
+          </media>
+        <caption>A trimethylamine mounted on a polymer used as a solid phase packing material.  </caption></figure><figure id="import-auto-id5926006"><media id="import-auto-id3437517" alt="">
+            <image mime-type="image/wmf" src="../../media/Fig2-000c.jpg" width="165" print-width="1.65in"/>
+          </media>
+        <caption>A dimethylethanolamine mounted on a polymer used as solid phase packing material.</caption></figure></section>
+      <section id="import-auto-id6609560">
+        <title>Packing material for cation chromatography</title>
+        <para id="import-auto-id3483671">Cation chromatography allows for the use of both organic polymer based and silica gel based packing material.  In the silica gel based packing material, the most common packing material is a polymer-coated silica gel.  The silicate is coated in polymer, which is held together by cross-linking of the polymer.  Polybutadiene maleic acid (<link target-id="import-auto-id6789061"/>) is then used to create a weakly acidic material, allowing the analyte to diffuse through the polymer and exchange.  Silica gel based packing material is limited by the pH dependent solubility of the silica gel and the pH dependent linking of the silica gel and the functionalized polymer.  However, silica gel based packing material is suitable for separation of alkali metals and alkali earth metals. </para><figure id="import-auto-id6789061"><media id="import-auto-id6679833" alt="">
+            <image mime-type="image/png" src="../../media/fg3.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>A polybutadiene maleic acid polymer used as a cation solid phase packing material.  </caption></figure><para id="import-auto-id6761837">Organic polymer based packing material is not limited by pH like the silica gel materials are, but are not suitable for separation of alkali metals and alkali earth metals.  The most common functional group is the sulfonic acid group (<link target-id="import-auto-id6773813"/>), attached with a spacer between the polymer and the sulfonic acid group. </para><figure id="import-auto-id6773813"><media id="import-auto-id6413048" alt="">
+            <image mime-type="image/wmf" src="../../media/Fig4-ae3a.jpg" width="100" print-width="1in"/>
+          </media>
+        <caption>A sulfonic acid group used as a cation solid phase packing material functional group. </caption></figure></section>
+    </section>
+    <section id="import-auto-id6903736">
+      <title>Detection methods</title>
+      <section id="import-auto-id3322682">
+        <title>Spectroscopic detection methods</title>
+        <para id="import-auto-id6285640">Photometric detection in the UV region of the spectrum is a common method of detection in ion chromatography.  Photometric methods limit the eluent possibilities, as the analyte must have a unique absorbance wavelength to be detectable.  Cations that do not have a unique absorbance wavelength, i.e. the eluent and other contaminants have similar UV visible spectra can be complexed to for UV visible compounds. This allows detection of the cation without interference from eluents.  </para>
+        <para id="import-auto-id6901039">Coupling the chromatography with various types of spectroscopy such as Mass spectroscopy or IR spectroscopy can be a useful method of detection.  Inductively coupled plasma atomic emission spectroscopy is a commonly used method.  </para>
+      </section>
+      <section id="import-auto-id6517353"><title>Direct conductivity methods</title><para id="import-auto-id3479467">Direct conductivity methods take advantage of the change in conductivity that an analyte produces in the eluent, which can be modeled by  <link target-id="eip-977"/>, where equivalent conductivity is defined as  <link target-id="import-auto-id3319450"/>.  </para><equation id="eip-977"><media id="import-auto-id4007736" alt=""><image mime-type="image/wmf" src="../../media/Eq17-6940.jpg" width="400" print-width="4in"/></media></equation><equation id="import-auto-id6603995"><media id="import-auto-id6779361" alt="">
+            <image mime-type="image/wmf" src="../../media/Eq16-b1a5.jpg" width="400" print-width="4in"/>
+          </media>
+       </equation><para id="import-auto-id5947559">With L being the distance between two electrodes of area A and R being the resistance the ion creates.  C is the concentration of the ion.  The conductivity can be plotted over time, and the peaks that appear represent different ions coming through the column as described by     <link target-id="import-auto-id2054757"/>. </para><equation id="import-auto-id2054757"><media id="import-auto-id5348228" alt="">
+            <image mime-type="image/wmf" src="../../media/Eq18-bcfc.jpg" width="400" print-width="4in"/>
+          </media>
+        </equation><para id="import-auto-id6491995">The values of Equivalent conductivity of the analyte and of the eluent common ions can be found in  <link target-id="import-auto-id6936750"/>. </para><figure id="import-auto-id6936750"><media id="import-auto-id5530444" alt="">
+            <image mime-type="image/png" src="../../media/Picture 5-4878.png" width="500" print-width="5in"/>
+          </media>
+           <caption>Equivalent conductivities of ions. C. Eith, M. Kolb, A. Seubert. K.H. Viehweger.  <emphasis effect="italics">Practical Ion Chromatography: An Introduction</emphasis>, Metrohm Ltd., CH-9101 Herisau, Switzerland. 2001. </caption></figure></section></section>
+    <section id="import-auto-id3457209">
+      <title>Eluents </title>
+      <para id="import-auto-id6737277">The choice of eluent depends on many factors, namely, pH, buffer capacity, the concentration of the eluent, and the nature of the eluent’s reaction with the column and the packing material.  </para>
+      <section id="import-auto-id5408518">
+        <title>Eluents in anion chromatography</title>
+        <para id="import-auto-id5341958">In non-suppressed anion chromatography, where the eluent and analyte are not altered between the column and the detector, there is a wide range of eluents to be used.  In the non-suppressed case, the only issue that could arise is if the eluent impaired the detection ability (absorbing in a similar place in a UV-spectra as the analyte for instance).  As such, there are a number of commonly used eluents. Aromatic carboxylic acids are used in conductivity detection because of their low self-conductivity. Aliphatic carboxylic acids are used for UV/visible detection because they are UV transparent.  Inorganic acids can only be used in photometric detection. </para>
+        <para id="import-auto-id5996188">In suppressed anion chromatography, where the eluent and analyte are treated between the column and detection, fewer eluents can be used.  The suppressor modifies the eluent and the analyte, reducing the self-conductivity of the eluent and possibly increasing the self-conductivity of the analyte.  Only alkali hydroxides and carbonates, borates, hydrogen carbonates, and amino acids can be used as eluents.  </para>
+      </section>
+      <section id="import-auto-id6751278">
+        <title>Eluents in cation chromatography</title>
+        <para id="import-auto-id3438122">The primary eluents used in cation chromatography of alkali metals and ammoniums are mineral acids such as HNO<sub>3</sub>.  When the cation is multivalent, organic bases such as ethylenediamine (<link target-id="import-auto-id6250269"/>) serve as the main eluents. If both alkali metals and alkali earth metals are present, hydrochloric acid or 2,3-diaminopropionic acid (<link target-id="import-auto-id6251542"/>) is used in combination with a pH variation. If the chromatography is unsuppressed, the direct conductivity measurement of the analyte will show up as a negative peak due to the high conductivity of the H<sup>+</sup> in the eluent, but simple inversion of the data can be used to rectify this discrepancy.  </para><figure id="import-auto-id6250269"><media id="import-auto-id6285683" alt="">
+            <image mime-type="image/wmf" src="../../media/fg6.jpg" width="172" print-width="1.7in"/>
+          </media>
+        <caption>Ethylenediamine, a commonly used eluent in cation chromatography.</caption></figure><figure id="import-auto-id6251542"><media id="import-auto-id3469255" alt="">
+            <image mime-type="image/wmf" src="../../media/fg7.jpg" width="181" print-width="1.8in"/>
+          </media>
+        <caption>2,3-diaminopropionic acid, a primary eluent for cation chromatography of alkali and alkali earth metal combinations.  </caption></figure><para id="import-auto-id2960972">If transition metals or H<sup>+</sup> are the analytes in question, complexing carboxylic acids are used to suppress the charge of the analyte and to create photometrically detectable complexes, forgoing the need for direct conductivity as the detection method.  </para>
+      </section>
+    </section>
+    <section id="import-auto-id3423128">
+      <title>Bibliography</title>
+      <list id="import-auto-id6592227" list-type="bulleted">
+        <item>A Practical Guide to Ion Chromatography, http://www.nestgrp.com/pdf /Zp1/Sp1/ION_Manual.pdf, (March 31, 2014)</item>
+        <item>I. Demkowska, Z. Polkowska, and J. Namiesnik, <emphasis effect="italics">J. Chromatogr. B</emphasis>, 2008,<emphasis effect="bold"> 875</emphasis>, 419.  </item>
+        <item>C. Eith, M. Kolb, A. Seubert. K.H. Viehweger.  <emphasis effect="italics">Practical Ion Chromatography: An Introduction</emphasis>. Metrohm Ltd., CH-9101 Herisau, Switzerland. 2001. </item>
+        <item>T. P. Moyer, <emphasis effect="italics">J. Chromatogr. A</emphasis>, 1978, <emphasis effect="bold">153</emphasis>, 365. </item>
+      </list>
+    </section>
+  </content>
+</document>

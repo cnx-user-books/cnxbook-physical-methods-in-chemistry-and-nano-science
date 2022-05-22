@@ -1,0 +1,201 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Application of Cyclic Voltammetry in Proton Exchange Membrane Fuel Cells</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43494</md:content-id>
+  <md:title>The Application of Cyclic Voltammetry in Proton Exchange Membrane Fuel Cells</md:title>
+  <md:abstract/>
+  <md:uuid>2982def7-c802-46ac-97e2-8ddaeeed59e8</md:uuid>
+</metadata>
+
+<content>
+    <section id="eip-65"><title>Introduction</title><para id="eip-147">Proton exchange membrane fuel cells (PEMFCs) are one promising alternative to traditional combustion engines. This method takes advantage of the exothermic hydrogen oxidation reaction in order to generate energy and water (<link target-id="import-auto-idm456313664"/>).</para><table id="import-auto-idm456313664" summary="Summary of oxidation-reduction reactions in a PEMFC in acidic and basic electrolytes.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry/>
+            <entry>
+
+                <emphasis effect="bold">Acidic electrolyte</emphasis>
+
+            </entry>
+            <entry>
+
+                <emphasis effect="bold">Acidic redox potential at STP (V)</emphasis>
+
+            </entry>
+            <entry>
+
+                <emphasis effect="bold">Basic electrolyte</emphasis>
+
+            </entry>
+            <entry>
+
+                <emphasis effect="bold">Basic redox potential at STP (V)</emphasis>
+
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Anode half-reaction</entry>
+            <entry>2H<sub>2 </sub>—&gt;  4H<sup>+</sup> + 4e<sup>-</sup></entry>
+            <entry/>
+            <entry>2H<sub>2</sub> + 4OH<sup>-</sup> —&gt; 4H<sub>2</sub>O + 4e<sup>-</sup></entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Cathode half-reaction</entry>
+            <entry>O<sub>2</sub> + 4e<sup>-</sup>+ 4H<sup>+</sup> —&gt; 2 H<sub>2</sub>O</entry>
+            <entry>1.23</entry>
+            <entry>O<sub>2</sub> + 4e<sup>-</sup> + 2H<sub>2</sub>O —&gt; 4 OH<sup>-</sup></entry>
+            <entry>0.401</entry>
+          </row>
+        </tbody>
+      
+
+
+</tgroup><caption>Summary of oxidation-reduction reactions in a PEMFC in acidic and basic electrolytes.</caption>
+</table><para id="eip-170">The basic PEMFC consists of an anode and a cathode separated by a proton exchange membrane (<link target-id="import-auto-idm1374643008"/>). This membrane is a key component of the fuel cell because for the redox couple reactions to successfully occur, protons must be able to pass from the anode to the cathode. The membrane in a PEMFC is usually composed of Nafion, which is a polyfluorinated sulfonic acid, and exclusively allows protons to pass through. As a result, electrons and protons travel from the anode to the cathode through an external circuit and through the proton exchange membrane, respectively, to complete the circuit and form water.</para><figure id="import-auto-idm1374643008"><media id="import-auto-idm1171609232" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-4ad9.png" width="350" print-width="3in"/>
+      </media>
+    <caption>Schematic of a proton exchange membrane fuel cell (PEMFCs).</caption></figure><para id="eip-224">PEMFCs present many advantages compared to traditional combustion engines. They are more efficient and have a greater energy density than traditional fossil fuels. Additionally, the fuel cell itself is very simple with few or no moving parts, which makes it long-lasting, reliable, and very quiet. Most importantly, however, the operation of a PEMFC results in zero emissions as the only byproduct is water (<link target-id="import-auto-idm660857696"/>). However, the use of PEMFCs has been limited because of the slow reaction rate for the oxygen reduction half-reaction (ORR). Reaction rates, k°, for reduction-oxidation reactions such as these tend to be on the order of 10<sup>-10</sup> – 10<sup>-9</sup> where 10<sup>-10 </sup>is the fastest reaction rate and 10<sup>-9</sup> is the slowest reaction rate. Compared to the hydrogen oxidation half-reaction (HOR), which has a reaction rate of k° = 1x10<sup>-10</sup> cm/s, the reaction rate for the ORR is k° ~ 1x10<sup>-9</sup> cm/s. Thus, the ORR is the kinetic rate-limiting half-reaction and its reaction rate must be increased for PEMFCs to be a viable alternative to combustion engines. Because cyclic voltammetry can be used to examine the kinetics of the ORR reaction, it is a critical technique in evaluating potential solutions to this problem. </para><table id="import-auto-idm660857696" summary="Summary of advantages and disadvantages of PEMFCs as an alternative to combustion engines.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>
+
+                <emphasis effect="bold">Advantages</emphasis>
+
+            </entry>
+            <entry>
+
+                <emphasis effect="bold">Disadvantages</emphasis>
+
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>More efficient than combustion engines</entry>
+            <entry>ORR half-reaction too slow for commercial use</entry>
+          </row>
+          <row>
+            <entry>Greater energy density than fossil fuels</entry>
+            <entry>Hydrogen fuel is not readily available</entry>
+          </row>
+          <row>
+            <entry>Long-lasting</entry>
+            <entry>Water circulation must be managed to keep the proton exchange membrane hydrated</entry>
+          </row>
+          <row>
+            <entry>Reliable</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Quiet</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>No harmful emissions</entry>
+            <entry/>
+          </row>
+        </tbody>
+      
+
+
+</tgroup><caption>Summary of advantages and disadvantages of PEMFCs as an alternative to combustion engines.</caption>
+</table></section>
+
+
+<section id="eip-675"><title>Cyclic voltammetry</title><section id="eip-88"><title>Overview</title><para id="import-auto-idm559897408">Cyclic voltammetry is a key electrochemical technique that, among its other uses, can be employed to examine the kinetics of oxidation-reduction reactions in electrochemical systems. Specifically, data collected with cyclic voltammetry can be used to determine the rate of reaction. In its simplest form, this technique requires a simple three electrode cell and a potentiostat <link target-id="import-auto-idm366391168"/>. </para><figure id="import-auto-idm366391168"><media id="import-auto-idm267246192" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-d643.png" width="300" print-width="2in"/>
+      </media>
+    <caption>A simple three electrode cell.</caption></figure><para id="eip-292">A potential applied to the working electrode is varied linearly with time and the response in the current is measured <link target-id="import-auto-idm366391168"/>. Typically, the potential is cycled between two values once in the forward direction and once in the reverse direction. For example, in <link target-id="import-auto-idm522340383"/>, the potential is cycled between 0.8 V and -0.2 V with the forward scan moving from positive to negative potential and the reverse scan moving from negative to positive potential. Various parameters can be adjusted including the scan rate, the number of scan cycles, and the direction of the potential scan i.e. whether the forward scan moves from positive to negative voltages or vice versa. For publication, data is typically collected at a scan rate of 20 mV/s with at least 3 scan cycles. </para><figure id="import-auto-idm522340383"><media id="import-auto-idm522340384" alt="">
+            <image mime-type="image/png" src="../../media/Picture 11-361f.png" width="300" print-width="3in"/>
+          </media>
+<caption>Triangular waveform demonstrating the cycling of potential with time. </caption></figure></section>
+
+
+
+<section id="eip-873"><title>Reading a voltammogram</title><para id="import-auto-idm512220384">From a cyclic voltammetry experiment, a graph called a voltammogram will be obtained. Because both the oxidation and reduction half-reactions occur at the working electrode surface, steep changes in the current will be observed when either of these half-reactions occur.<sup/>A typical voltammogram will feature two peaks where one peak corresponds to the oxidation half-reaction and the other to the reduction half-reaction. In an oxidation half-reaction in an electrochemical cell, electrons flow from the species in solution to the electrode resulting in an anodic current, i<sub>a</sub>. Frequently, this oxidation peak appears when scanning from negative to positive potentials (<link target-id="import-auto-idm504809376"/>).  In a reduction half-reaction in an electrochemical cell, electrons flow from the electrode to the species in solution, resulting in a cathodic current, i<sub>c</sub>. This type of current is most often observed when scanning from positive to negative potentials (<link target-id="import-auto-idm504809376"/>). <sup/>When the starting reactant is completely oxidized or completely reduced, peak anodic current, i<sub>pa</sub>, and peak cathodic current, i<sub>pc</sub>, respectively, are reached. Then, the current decays as the oxidized or reduced species leaves the electrode surface. The shape of these anodic and cathodic peaks can be modeled with the Nernst equation, <link target-id="eip-748"/>,  where n is the number of electrons transferred and E˚<sup>’</sup> (formal reduction potential) = (E<sub>pa</sub> + E<sub>pc</sub>)/2</para><equation id="eip-748"><media id="import-auto-3333" alt=""> <image mime-type="image/jpg" src="../../media/EQ3.jpg" width="500" print-width="5in"/>  </media></equation><figure id="import-auto-idm504809376"><media id="import-auto-idm468589792" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-c1a6.png" width="300" print-width="3in"/>
+      </media>
+    <caption>Example of an idealized cyclic voltammogram. Reprinted with permission from P. T. Kissinger and W. R. Heineman, <emphasis effect="italics">J. Chem. Educ.</emphasis>, 1981, <emphasis effect="bold">60</emphasis>, 702. Copyright 1983 American Chemical Society</caption></figure></section>
+
+</section>
+
+<section id="eip-894"><title>Important values from the voltammogram</title><para id="import-auto-idm365206480">Several key pieces of information can be obtained through examination of the voltammogram including i<sub>pa</sub>, i<sub>pc</sub>, and the anodic and cathodic peak potentials. i<sub>pa</sub> and i<sub>pc</sub> both serve as important measures of catalytic activity: the larger the peak currents, the greater the activity of the catalyst. Values for i<sub>pa</sub> and i<sub>pc</sub> can be obtained through one of two methods: physical examination of the graph or the Randles-Sevick equation. To determine the peak potentials directly from the graph, a vertical tangent line from the peak current is intersected with an extrapolated baseline. In contrast, the Randles-Sevick equation uses information about the electrode and the experimental parameters to calculate the peak current, <link target-id="eip-952"/>,  where A = electrode area; D = diffusion coefficient; C = concentration; <emphasis effect="italics">v</emphasis> = scan rate.</para><equation id="eip-952"><media id="import-auto-3334" alt=""> <image mime-type="image/jpg" src="../../media/EQ4.jpg" width="500" print-width="5in"/>  </media></equation><para id="import-auto-idm2129209120">Anodic peak potential, E<sub>pa</sub>, and cathodic peak potential, E<sub>pc</sub>, can also be obtained from the voltammogram by determining the potential at which i<sub>pa</sub> and i<sub>pc</sub> respectively occur. These values are an indicator of the relative magnitude of the reaction rate. If the exchange of electrons between the oxidizing and reducing agents is fast, they form an electrochemically reversible couple. These redox couples fulfill the relationship: ΔE<sub>p</sub> = E<sub>pa</sub> – E<sub>pc</sub> ≡ 0.059/n. In contrast, a nonreversible couple will have a slow exchange of electrons and ΔE<sub>p</sub> &gt; 0.059/n.<sup/> However, it is important to note that ΔE<sub>p</sub> is dependent on scan rate. </para></section>
+
+
+<section id="eip-359"><title>Analysis of reaction kinetics</title><para id="import-auto-idm1067787072">The Tafel and Butler-Volmer equations allow for the calculation of the reaction rate from the current-potential data generated by the voltammogram. In these analyses, the rate of the reaction can be expressed as two values: k° and i<sub>o</sub>. k˚, the standard rate constant, is a measure of how fast the system reaches equilibrium: the larger the value of k°, the faster the reaction. The exchange current density, (i<sub>o</sub>) is the current flow at the surface of the electrode at equilibrium: the larger the value of i<sub>o</sub>, the faster the reaction. While both i<sub>o</sub> and k° can be used, i<sub>o</sub> is more frequently used because it is directly related to the overpotential through the current-overpotential and Butler-Volmer equations. When the reaction is at equilibrium, k<sup>o</sup> and i<sub>o</sub> are related by <link target-id="eip-333"/>, where C<sub>o,eq</sub> and C<sub>R,eq</sub>= equilibrium concentrations of the oxidized and reduced species respectively and a = symmetry factor.</para><equation id="eip-333"><media id="import-auto-3335" alt=""> <image mime-type="image/jpg" src="../../media/EQ5.jpg" width="500" print-width="5in"/>  </media></equation><section id="eip-857"><title>Tafel equation</title><para id="import-auto-idm1204117760">In its simplest form, the Tafel equation is expressed as <link target-id="eip-434"/>,  where a and b can be a variety of constants. Any equation which has the form of <link target-id="eip-434"/> is considered a Tafel equation.</para><equation id="eip-434"><media id="import-auto-3336" alt=""> <image mime-type="image/jpg" src="../../media/EQ6.jpg" width="500" print-width="5in"/>  </media></equation><para id="import-auto-idm261979792">For example, the relationship between current, potential, the concentration of reactants and products, and k˚ can be expressed as <link target-id="eip-693"/>, where C<sub>O</sub>(0,t) and C<sub>R</sub>(0,t) = concentrations of the oxidized and reduced species respectively at a specific reaction time, F = Faraday constant, R = gas constant, and T = temperature. </para><equation id="eip-693"><media id="import-auto-3337" alt=""> <image mime-type="image/jpg" src="../../media/EQ7.jpg" width="500" print-width="5in"/>  </media></equation><para id="import-auto-idm293349696">At very large overpotentials, this equation reduces to a Tafel equation, <link target-id="eip-899"/>, where a = -[RT/(1-a)nF]ln(i<sub>o</sub>) and b = [RT/(1-a)nF].</para><equation id="eip-899"><media id="import-auto-3338" alt=""> <image mime-type="image/jpg" src="../../media/EQ8.jpg" width="500" print-width="5in"/>  </media></equation><para id="import-auto-idm346043952">The linear relationship between E-E˚ and log(i) can be exploited to determine i<sub>o </sub>through the formation of a Tafel plot (<link target-id="import-auto-idm491975808"/>), E-E˚ versus log(i).<sup/>The resulting anodic and cathodic branches of the graph have slopes of [(1-a)nF/2.3RT]  and[-anF/2.3RT], respectively. An extrapolation of these two branches results in a y-intercept = log(i<sub>o</sub>). Thus, this plot directly relates potential and current data collected by cyclic voltammetry to i<sub>o</sub>. </para><figure id="import-auto-idm491975808"><media id="import-auto-idm363530304" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-a5de.png" width="300" print-width="3in"/>
+      </media>
+    <caption>Example of an idealized Tafel plot. Reprinted with the permission of Dr. Rob C.M. Jakobs under the GNU Free Documentation License, Copyright 2010. </caption></figure></section>
+
+
+<section id="eip-169">
+
+<title>Butler-Volmer equation</title><para id="import-auto-idm532245936">While the Butler-Volmer equation resembles the Tafel equation, and in some cases can even be reduced to the Tafel formulation, it uniquely provides a direct relationship between i<sub>o</sub> and Η. Without simplification, the Butler-Volmer equation is known as the current-overpotential <link target-id="eip-438"/>. </para><equation id="eip-438"><media id="import-auto-3339" alt=""> <image mime-type="image/jpg" src="../../media/EQ9.jpg" width="500" print-width="5in"/>  </media></equation><para id="import-auto-idm542481856">If the solution is well-stirred, the bulk and surface concentrations can be assumed to be equal and <link target-id="eip-438"/> can be reduced to the Butler-Volmer equation, <link target-id="eip-70"/>. </para><equation id="eip-70"><media id="import-auto-33310" alt=""> <image mime-type="image/jpg" src="../../media/EQ10.jpg" width="500" print-width="5in"/>  </media></equation></section>
+</section>
+
+
+
+<section id="eip-992"><title>Cyclic voltammetry in ORR catalysis research</title><section id="eip-877"><title>Platinum catalysis</title><para id="import-auto-idm524621680">While the issue of a slow ORR reaction rate has been addressed in many ways, it is most often overcome with the use of catalysts. Traditionally, platinum catalysts have demonstrated the best performance at 30 °C, the ORR i<sub>o</sub> on a Pt catalyst is 2.8 x 10<sup>-7</sup> A/cm<sup>2 </sup>compared to the limiting case of ORR where i<sub>o</sub> = 1 x 10<sup>-10 </sup>A/cm<sup>2</sup>. Pt is particularly effective as a catalyst for the ORR in PEMFCs because its binding energy for both O and OH is the closest to ideal of all the bulk metals, its activity is the highest of all the bulk metals, its selectivity for O<sub>2</sub> adsorption is close to 100%, and its extreme stability under a variety of acidic and basic conditions as well as high operating voltages <link target-id="import-auto-idm1215355424"/>. </para><figure id="import-auto-idm1215355424"><media id="import-auto-idm530656832" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-c6d0.png" width="400" print-width="4in"/>
+      </media>
+    <caption>Anodic sweeps of cyclic voltammograms of Pt, Pt<sub>3</sub>Sc, and Pt<sub>3</sub>Y in 0.1 M HClO<sub>4</sub> at 20 mV/s. Reprinted by permission from Macmillan Publishers Ltd: [Nature] J. Greeley, I. E. L. Stephens, A. S. Bondarenko, T. P. Johansson, H. A. Hansen, T. F. Jaramillo, J. Rossmeisl, I. Chorkendorff, and J. K. Nørskov, <emphasis effect="italics">Nat. Chem.</emphasis>, 2009, <emphasis effect="bold">1</emphasis>, 552.  Copyright 2009.</caption></figure></section>
+
+<section id="eip-856"><title>Metal-nitrogen-carbon composite catalysts</title><para id="import-auto-idm502893440">Nonprecious metal catalysts (NPMCs) show great potential to reduce the cost of the catalyst without sacrificing catalytic activity. The best NPMCs currently in development have comparable or even better ORR activity and stability than platinum-based catalysts in alkaline electrolytes; in acidic electrolytes, however, NPMCs perform significantly worse than platinum-based catalysts.</para>
+    <para id="import-auto-idm369126416">In particular, transition metal-nitrogen-carbon composite catalysts (M-N-C) are the most promising type of NPMC. The highest-performing members of this group catalyze the ORR at potentials within 60 mV of the highest-performing platinum catalysts (<link target-id="import-auto-idm464649104"/>). Additionally, these catalysts have excellent stability: after 700 hours at 0.4 V, they do not show any performance degradation. In a comparison of high-performing PANI-Co-C and PANI-Fe-C (PANI = polyaniline), Zelenay and coworkers used cyclic voltammetry to compare the activity and performance of these two catalysts in H<sub>2</sub>SO<sub>4</sub>. The Co-PANI-C catalyst was found to have no reduction-oxidation features on its voltammogram whereas Fe-PANI-C was found to have two redox peaks at ~0.64 (<link target-id="import-auto-idm775831168"/>).  These Fe-PANI-C peaks have a full width at half maximum of ~100 mV, which is indicative of the reversible one-electron Fe<sup>3+</sup>/Fe<sup>2+</sup> reduction-oxidation (theoretical FWHM = 96 mV). Zelenay and coworkers also determined the exchange current density using the Tafel analysis and found that Fe-PANI-C has a significantly greater i<sub>o</sub> (i<sub>o</sub> = 4 x 10<sup>-8</sup> A/cm<sup>2</sup>) compared to Co-PANI-C (i<sub>o</sub> = 5 x 10<sup>-10</sup> A/cm<sup>2</sup>). These differences not only demonstrate the higher ORR activity of Fe-PANI-C when compared to Co-PANI-C, but also suggest that the ORR-active sites and reaction mechanisms are different for these two catalysts. While the structure of Fe-PANI-C has been examined (<link target-id="import-auto-idm1168011504"/>) the structure of Co-PANI-C is still being investigated. </para><figure id="import-auto-idm464649104"><media id="import-auto-idm238401440" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-cf89.png" width="400" print-width="4in"/>
+      </media>
+    <caption>Comparison of Fe-PANI-C and Pt/C catalysts in basic electrolyte. Reprinted by permission from Macmillan Publishers Ltd: [Nature] H. T. Chung, J. H. Won, and P. Zelenay, <emphasis effect="italics">Nat. Commun.</emphasis>, 2013, <emphasis effect="bold">4</emphasis>, 1922, Copyright 2013. </caption></figure><figure id="import-auto-idm775831168"><media id="import-auto-idm531695440" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-e388.png" width="400" print-width="4in"/>
+      </media>
+    <caption>Comparison of Co-PANI-C and Fe-PANI-C catalysts by cyclic voltammetry for PANI-Fe-C catalysts. Reproduced from G. Wu, C.M. Johnston, N.H. Mack, K. Artyushkova, M. Ferrandon, M. Nelson, J.S. Lezama-Pacheco, S.D. Conradson, K.L More, D.J. Myers, and P. Zelenay, <emphasis effect="italics">J. Mater. Chem.</emphasis>, 2011, <emphasis effect="bold">21</emphasis>, 11392-11405 with the permission of The Royal Society of Chemistry.</caption></figure><figure id="import-auto-idm1168011504"><media id="import-auto-idm305093824" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-09a7.png" width="500" print-width="5in"/>
+      </media>
+    <caption>Synthetic scheme for Fe-PANI-C catalyst. Reprinted with the permission of the Royal Society of Chemistry under the CC BY-NC 3.0 License: N. Daems, X. Sheng, Y. Alvarez-Gallego, I. F. J. Vankelecom, and P. P. Pescarmona, <emphasis effect="italics">Green Chem.</emphasis>, 2016, <emphasis effect="bold">18</emphasis>, 1547. Copyright 2015. </caption></figure><para id="eip-842">While the majority of the M-N-C catalysts show some ORR activity, the magnitude of this activity is highly dependent upon a variety of factors; cyclic voltammetry is critical in the examination of the relationships between each factor and catalytic activity. For example, the activity of M-N-Cs is highly dependent upon the synthetic procedure. In their in-depth examination of Fe-PANI-C catalysts, Zelenay and coworkers optimized the synthetic procedure for this catalyst by examining three synthetic steps: the first heating treatment, the acid-leaching step, and the second heating treatment. Their synthetic procedure involved the formation of a PANI-Fe-carbon black suspension that was vacuum-dried onto a carbon support. Then, the intact catalyst underwent a one-hour heating treatment followed by acid leaching and a three-hour heating treatment. The heating treatments were performed at 900˚C, which was previously determined to be the optimal temperature to achieve maximum ORR activity (<link target-id="import-auto-idm1168011504"/>). </para><para id="eip-927">To determine the effects of the synthetic steps on the intact catalyst, the Fe-PANI-C catalysts were analyzed by cyclic voltammetry after the first heat treatment (HT1), after the acid-leaching (AL), and after the second heat treatment (HT2). Compared to HT1, both the AL and HT2 steps showed increases in the catalytic activity. Additionally, HT2 was found to increase the catalytic activity even more than AL (<link target-id="import-auto-idm2407095392"/>). Based on this data, Zelenay and coworkers concluded HT1 likely either creates active sites in the catalytic surface while both the AL step removes impurities, which block the surface pores, to expose more active sites. However, this step is also known to oxidize some of the catalytic area. Thus, the additional increase in activity after HT2 is likely a result of “repairing” the catalytic surface oxidation. </para><figure id="import-auto-idm2407095392"><media id="import-auto-idm1181592976" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-f4a0.png" width="400" print-width="4in"/>
+      </media>
+    <caption>Comparison of synthetic techniques by cyclic voltammetry for PANI-Fe-C catalysts. Reproduced from G. Wu, C. M. Johnston, N. H. Mack, K. Artyushkova, M. Ferrandon, M. Nelson, J. S. Lezama-Pacheco, S. D. Conradson, K. L More, D. J. Myers, and P. Zelenay, <emphasis effect="italics">J. Mater. Chem.</emphasis>, 2011, <emphasis effect="bold">21</emphasis>, 11392, with the permission of The Royal Society of Chemistry. </caption></figure></section>
+
+</section>
+
+
+<section id="eip-568"><title>Conclusion</title><para id="eip-860">With further advancements in catalytic research, PEMFCs will become a viable and advantageous technology for the replacement of combustion engines. The analysis of catalytic activity and reaction rate that cyclic voltammetry provides is critical in comparing novel catalysts to the current highest-performing catalyst: Pt. </para></section><section id="eip-62"><title>Bibliography</title><list id="eip-236"><item>H. T. Chung, J. H. Won, and P. Zelenay, <emphasis effect="italics">Nat. Commun.</emphasis>, 2013, <emphasis effect="bold">4</emphasis>, 1922. </item>
+
+ <item>N. Daems, X. Sheng, Y. Alvarez-Gallego, I. F. J. Vankelecom, and P. P. Pescarmona, <emphasis effect="italics">Green Chem.</emphasis>, 2016, <emphasis effect="bold">18</emphasis>, 1547.</item>
+
+<item>Q. Dong, S. Santhanagopalan, and R.E. White, <emphasis effect="italics">J. Electrochem. Soc.</emphasis>, 2007, <emphasis effect="bold">154</emphasis>, A888. </item>
+
+
+ <item>J. Greeley, I. E. L. Stephens, A. S. Bondarenko, T. P. Johansson, H. A. Hansen, T. F. Jaramillo, J. Rossmeisl, I. Chorkendorff, and J. K. Nørskov, <emphasis effect="italics">Nat. Chem.</emphasis>, 2009, <emphasis effect="bold">1</emphasis>, 552.</item>
+
+      <item>O. T. Holton and J. W. Stevenson, <emphasis effect="italics">Platinum Metals Rev.,</emphasis> 2013, <emphasis effect="bold">57</emphasis>, 259. </item>
+    
+
+
+      <item>P. T. Kissinger and W. R. Heineman, <emphasis effect="italics">J. Chem. Educ.</emphasis>, 1981, <emphasis effect="bold">60</emphasis>, 702. </item>
+
+  <item>J. Larminie and A. Dicks, <emphasis effect="italics">Fuel Cell Systems Explained</emphasis>, 2<sup>nd</sup> ed., John Wiley &amp; Sons, Inc., Hoboken (2003). </item>
+
+
+
+      <item>R. S. Nicholson and I. Shain, <emphasis effect="italics">Anal. Chem., </emphasis>1965, <emphasis effect="bold">37</emphasis>, 1351. </item>
+      <item>V. Ramani,<sup/>“Electrochemical Kinetics,” The University of Connecticut, January 15, 2002. Accessed November 14, 2016. </item>
+
+      <item>C. Song and J. Zhang, “Electrocatalytic Oxygen Reduction Reaction” in <emphasis effect="italics">PEM Fuel Cell Electrocatalysts and Catalyst Layers</emphasis>, Springer, London, (2008), 89.</item>
+
+
+      <item>G. Wu, K. More, C. Johnston, and P. Zelenay, <emphasis effect="italics">Science</emphasis>, 2011, <emphasis effect="bold">332</emphasis>, 443.</item>
+
+ <item>G. Wu, C. M. Johnston, N. H. Mack, K. Artyushkova, M. Ferrandon, M. Nelson, J. S. Lezama-Pacheco, S. D. Conradson, K. L More, D. J. Myers, and P. Zelenay, <emphasis effect="italics">J. Mater. Chem.</emphasis>, 2011, <emphasis effect="bold">21</emphasis>, 11392. </item>
+
+    </list></section></content>
+</document>

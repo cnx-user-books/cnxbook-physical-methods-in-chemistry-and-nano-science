@@ -1,0 +1,332 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Characterization of Group 12-16 (II-VI) Semiconductor Nanoparticles by UV-visible Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34601</md:content-id>
+  <md:title>Characterization of Group 12-16 (II-VI) Semiconductor Nanoparticles by UV-visible Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>37d0488d-2a89-45db-b705-164961e44c50</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168948920076">Quantum dots (QDs) as a general term refer to nanocrystals of semiconductor materials, in which the size of the particles are comparable to the natural characteristic separation of an electron-hole pair, otherwise known as the exciton Bohr radius of the material. When the size of the semiconductor nanocrystal becomes this small, the electronic structure of the crystal is governed by the laws of quantum physics. Very small Group 12-16 (II-VI) semiconductor nanoparticle quantum dots, in the order of 2 - 10 nm, exhibit significantly different optical and electronic properties from their bulk counterparts. The characterization of size dependent optical properties of Group 12-16 semiconductor particles provide a lot of qualitative and quantitative information about them – size, quantum yield, monodispersity, shape and presence of surface defects. A combination of information from both the UV-visible absorption and fluorescence, complete the analysis of the optical properties. </para>
+    <section id="id1168936528326">
+      <title>UV-visible absorbance spectroscopy</title>
+      <para id="id1168967241643">Absorption spectroscopy, in general, refers to characterization techniques that measure the absorption of radiation by a material, as a function of the wavelength. Depending on the source of light used, absorption spectroscopy can be broadly divided into infrared and UV-visible spectroscopy. The band gap of Group 12-16 semiconductors is in the UV-visible region. This means the minimum energy required to excite an electron from the valence states of the Group 12-16 semiconductor QDs to its conduction states, lies in the UV-visible region. This is also a reason why most of the Group 12-16 semiconductor quantum dot solutions are colored. </para>
+      <para id="id1168936584733">This technique is complementary to fluorescence spectroscopy, in that UV-visible spectroscopy measures electronic transitions from the ground state to the excited state, whereas fluorescence deals with the transitions from the excited state to the ground state. In order to characterize the optical properties of a quantum dot, it is important to characterize the sample with both these techniques </para>
+      <para id="id1168931263802">In quantum dots, due to the very small number of atoms, the addition or removal of one atom to the molecule changes the electronic structure of the quantum dot dramatically. Taking advantage of this property in Group 12-16 semiconductor quantum dots, it is possible to change the band gap of the material by just changing the size of the quantum dot. A quantum dot can absorb energy in the form of light over a range of wavelengths, to excite an electron from the ground state to its excited state. The minimum energy that is required to excite an electron, is dependent on the band gap of the quantum dot. Thus, by making accurate measurements of light absorption at different wavelengths in the ultraviolet and visible spectrum, a correlation can be made between the band gap and size of the quantum dot. Group 12-16 semiconductor quantum dots are of particular interest, since their band gap lies in the visible region of the solar spectrum. </para>
+      <para id="id4656863">The UV-visible absorbance spectroscopy is a characterization technique in which the absorbance of the material is studied as a function of wavelength. The visible region of the spectrum is in the wavelength range of 380 nm (violet) to 740 nm (red) and the near ultraviolet region extends to wavelengths of about 200 nm. The UV-visible spectrophotometer analyzes over the wavelength range 200 – 900 nm.</para>
+      <para id="id1168927352145">When the Group 12-16 semiconductor nanocrystals are exposed to light having an energy that matches a possible electronic transition as dictated by laws of quantum physics, the light is absorbed and an exciton pair is formed. The UV-visible spectrophotometer records the wavelength at which the absorption occurs along with the intensity of the absorption at each wavelength. This is recorded in a graph of absorbance of the nanocrystal versus wavelength.</para>
+ 
+    </section>
+
+<section id="id1168925104797">
+        <title>Instrumentation</title>
+        <para id="id1168927310737">A working schematic of the UV-visible spectrophotometer is shown in <link target-id="id1168943853677"/>.</para>
+
+
+        <figure id="id1168943853677"><media id="id1168943853677_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 1-80bd.png" id="id1168943853677__onlineimage" width="500" print-width="5in"/>
+          </media>
+        <caption>Schematic of UV-visible spectrophotometer. </caption></figure>
+        
+        <section id="id1168916981287">
+          <title>The light source</title>
+          <para id="id1168945471011">Since it is a UV-vis spectrophotometer, the light source (<link target-id="id1168943853677"/>) needs to cover the entire visible and the near ultra-violet region (200 - 900 nm). Since it is not possible to get this range of wavelengths from a single lamp, a combination of a deuterium lamp for the UV region of the spectrum and tungsten or halogen lamp for the visible region is used. This output is then sent through a diffraction grating as shown in the schematic.</para>
+        </section>
+        <section id="id1168952486379">
+          <title>The diffraction grating and the slit</title>
+          <para id="id8148881">The beam of light from the visible and/or UV light source is then separated into its component wavelengths (like a very efficient prism) by a diffraction grating (<link target-id="id1168943853677"/>). Following the slit is a slit that sends a monochromatic beam into the next section of the spectrophotometer. </para>
+        </section>
+        <section id="id2903657">
+          <title>Rotating discs</title>
+          <para id="id1168916827038">Light from the slit then falls onto a rotating disc (<link target-id="id1168943853677"/>). Each disc consists of different segments – an opaque black section, a transparent section and a mirrored section. If the light hits the transparent section, it will go straight through the sample cell, get reflected by a mirror, hits the mirrored section of a second rotating disc, and then collected by the detector. Else if the light hits the mirrored section, gets reflected by a mirror, passes through the reference cell, hits the transparent section of a second rotating disc and then collected by the detector. Finally if the light hits the black opaque section, it is blocked and no light passes through the instrument, thus enabling the system to make corrections for any current generated by the detector in the absence of light.</para>
+        </section>
+        <section id="id1168944389404">
+          <title>Sample cell, reference cell and sample preparation</title>
+          
+          <para id="eip-87">For liquid samples, a square cross section tube sealed at one end is used. The choice of cuvette depends on the following factors: </para><list id="id1168933313167" list-type="bulleted" bullet-style="bullet"><item> <emphasis effect="bold">Type of solvent - </emphasis>For aqueous samples, specially designed rectangular quartz, glass or plastic cuvettes are used. For organic samples glass and quartz cuvettes are used.</item>
+            <item><emphasis effect="bold">Excitation wavelength</emphasis> – Depending on the size and thus, bandgap of the 12-16 semiconductor nanoparticles, different excitation wavelengths of light are used. Depending on the excitation wavelength, different materials are used<table id="eip-148" summary="Cuvette materials and their wavelengths.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Cuvette</emphasis></entry>
+    <entry><emphasis effect="bold">Wavelength (nm)</emphasis></entry>
+  </row>
+  <row>
+    <entry>Visible only glass</entry>
+    <entry>380 - 780</entry>
+  </row>
+  <row>
+    <entry>Visible only plastic</entry>
+    <entry>380 - 780</entry>
+  </row>
+  <row>
+    <entry>UV plastic</entry>
+    <entry>220 - 780</entry>
+  </row>
+  <row>
+    <entry>Quartz</entry>
+    <entry>200 - 900</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup><caption>Cuvette materials and their wavelengths. </caption>
+</table></item>
+            <item><emphasis effect="bold">Cost</emphasis> – Plastic cuvettes are the least expensive and can be discarded after use. Though quartz cuvettes have the maximum utility, they are the most expensive, and need to reused. Generally, disposable plastic cuvettes are used when speed is more important than high accuracy.</item>
+          </list>
+          <para id="id1168944612804">The best cuvettes need to be very clear and have no impurities that might affect the spectroscopic reading. Defects on the cuvette such as scratches, can scatter light and hence should be avoided. Some cuvettes are clear only on two sides, and can be used in the UV-Visible spectrophotometer, but cannot be used for fluorescence spectroscopy measurements. For Group 12-16 semiconductor nanoparticles prepared in organic solvents, the quartz cuvette is chosen.</para>
+
+          <para id="id1168944911123">In the sample cell the quantum dots are dispersed in a solvent, whereas in the reference cell the pure solvent is taken. It is important that the sample be very dilute (maximum first exciton absorbance should not exceed 1 au) and the solvent is not UV-visible active. For these measurements, it is required that the solvent does not have characteristic absorption or emission in the region of interest. Solution phase experiments are preferred, though it is possible to measure the spectra in the solid state also using thin films, powders, etc. The instrumentation for solid state UV-visible absorption spectroscopy is slightly different from the solution phase experiments and is beyond the scope of discussion.</para>
+        </section>
+        <section id="id1168925503481">
+          <title>Detector</title>
+          <para id="id1168916973056">Detector converts the light into a current signal that is read by a computer. Higher the current signal, greater is the intensity of the light. The computer then calculates the absorbance using the in <link target-id="eip-904"/>, where A denotes absorbance, I is sample cell intensity and I<sub>o</sub> is the reference cell intensity.</para>
+
+          <equation id="eip-904"><media id="id1887_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Eq9-c3a7.jpg" id="id1887__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+</equation>
+
+
+
+
+          <para id="id1168917953134">The following cases are possible:</para>
+          <list id="id1168944382131" list-type="bulleted" bullet-style="bullet"><item>Where I &lt; I<sub>0</sub> and A &lt; 0. This usually occurs when the solvent absorbs in the wavelength range. Preferably the solvent should be changed, to get an accurate reading for actual reference cell intensity.</item>
+            <item>Where I = I<sub>0­</sub> and A= 0. This occurs when pure solvent is put in both reference and sample cells. This test should always be done before testing the sample, to check for the cleanliness of the cuvettes. </item>
+            <item>When A = 1. This occurs when 90% or the light at a particular wavelength has been absorbed, which means that only 10% is seen at the detector. So I<sub>0</sub>/I becomes 100/10 = 10. Log<sub>10</sub> of 10 is 1.</item>
+            <item>When A &gt; 1. This occurs in extreme case where more than 90% of the light is absorbed.</item>
+          </list>
+        </section>
+        <section id="id1168933757905">
+          <title>Output</title>
+          <para id="id1168921855264">The output is the form of a plot of absorbance against wavelength, e.g., <link target-id=" id1168939883578"/>.</para>
+
+
+          <figure id="id1168939883578"><media id="id1168939883578_media" alt="">
+              <image mime-type="image/png" src="../../media/Picture 3-82a7.png" id="id1168939883578__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Representative UV-visble absorption spectrum for CdSe tetrapods.</caption></figure>
+          
+        </section>
+      </section>
+      <section id="id1168931575844">
+        <title>Beer-Lambert law</title>
+        <para id="id1168918021345">In order to make comparisons between different samples, it is important that all the factors affecting absorbance should be constant except the sample itself.</para>
+        <section id="id1168931372890">
+          <title>Effect of concentration on absorbance</title>
+          <para id="id1168922948051">The extent of absorption depends on the number of absorbing nanoparticles or in other words the concentration of the sample. If it is a reasonably concentrated solution, it will have a high absorbance since there are lots of nanoparticles to interact with the light. Similarly in an extremely dilute solution, the absorbance is very low. In order to compare two solutions, it is important that we should make some allowance for the concentration.</para>
+        </section>
+        <section id="id1168949936507">
+          <title>Effect of container shape</title>
+          <para id="id1168945217464">Even if we had the same concentration of solutions, if we compare two solutions – one in a rectagular shaped container (e.g., <link target-id=" id1168935883429"/>) so that light travelled 1 cm through it and the other in which the light travelled 100 cm through it, the absorbance would be different. This is because if the length the light travelled is greater, it means that the light interacted with more number of nanocrystals, and thus has a higher absorbance. Again, in order to compare two solutions, it is important that we should make some allowance for the concentration.</para>
+
+          <figure id="id1168935883429"><media id="id1168935883429_media" alt="">
+              <image mime-type="image/png" src="../../media/Object 6.png" id="id1168935883429__onlineimage" width="75" print-width="0.75 in"/>
+            </media>
+          <caption>A typical rectangular cuvette for UV-visible spectroscopy. </caption></figure>
+
+          
+        </section>
+        <section id="id1168923654933">
+          <title>The law</title>
+          <para id="id1168940481644">The Beer-Lambert law addresses the effect of concentration and container shape as shown in <link target-id="eip-904"/>, <link target-id="eip-683"/> and <link target-id="eip-464"/>, where <emphasis effect="italics">A</emphasis> denotes absorbance; ε is the molar absorptivity or molar absorption coefficient; <emphasis effect="italics">l</emphasis> is the path length of light (in cm); and <emphasis effect="italics">c</emphasis> is the concentration of the solution (mol/dm<sup>3</sup>).</para>
+
+
+          
+          
+
+
+          <equation id="eip-683"><media id="id18887_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Eq10-57de.jpg" id="id18887__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+</equation><equation id="eip-464"><media id="id118887_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Eq11-4926.jpg" id="id118887__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+</equation>
+          
+        </section>
+
+        <section id="id1168964513400">
+          <title>Molar absorptivity</title>
+          <para id="id1168940773955">From the Beer-Lambert law, the molar absorptivity 'ε' can be expressed as shown in <link target-id="id1168935730850"/>.</para>
+
+          <equation id="id1168935730850"><media id="id5538_media" alt=""><image mime-type="image/jpg" src="../../media/Eq18-2f9f.jpg" id="id5538__onlineimage" width="450" print-width="4in"/></media></equation>
+
+
+          <para id="id1168945112120">Molar absorptivity corrects for the variation in concentration and length of the solution that the light passes through. It is the value of absorbance when light passes through 1 cm of a 1 mol/dm<sup>3</sup><sub> ­­</sub>solution. </para>
+        </section>
+        <section id="id1168937998097">
+          <title>Limitations of Beer-Lambert law</title>
+          <para id="id1168917146781">The linearity of the Beer-Lambert law is limited by chemical and instrumental factors. </para>
+          <list id="id1168921647644" list-type="bulleted" bullet-style="bullet"><item>At high concentrations (&gt; 0.01 M), the relation between absorptivity coefficient and absorbance is no longer linear. This is due to the electrostatic interactions between the quantum dots in close proximity.</item>
+            <item>If the concentration of the solution is high, another effect that is seen is the scattering of light from the large number of quantum dots.</item>
+            <item>The spectrophotometer performs calculations assuming that the refractive index of the solvent does not change significantly with the presence of the quantum dots. This assumption only works at low concentrations of the analyte (quantum dots). </item>
+            <item>Presence of stray light.</item>
+          </list>
+        </section>
+      </section>
+      <section id="id1168921724594">
+        <title>Analysis of data</title>
+        <para id="id1168961117509">The data obtained from the spectrophotometer is a plot of absorbance as a function of wavelength. Quantitative and qualitative data can be obtained by analysing this information</para>
+        <section id="id1168956641409">
+          <title>Quantitative Information</title>
+          <para id="id1168927237848">The band gap of the semiconductor quantum dots can be tuned with the size of the particles. The minimum energy for an electron to get excited from the ground state is the energy to cross the band gap. In an absorption spectra, this is given by the first exciton peak at the maximum wavelength (λ<sub>max</sub>). </para>
+          
+          
+          <section id="eip-797"><title> Size of the quantum dots</title><para id="eip-735">The size of quantum dots can be approximated corresponding to the first exciton peak wavelength. Emperical relationships have been determined relating the diameter of the quantum dot to the wavelength of the first exciton peak. The Group 12-16 semiconductor quantum dots that they studied were cadmium selenide (CdSe), cadmium telluride (CdTe) and cadmium sulfide (CdS). The empirical relationships are determined by fitting experimental data of absorbance versus wavelength of known sizes of particles. The empirical equations determined are given for CdTe, CdSe, and CdS in <link target-id="eip-986"/>, <link target-id="eip-138"/> and <link target-id="eip-336"/> respectively, where <emphasis effect="italics">D</emphasis> is the diameter and <emphasis effect="italics">λ</emphasis> is the wavelength corresponding to the first exciton peak. For example, if the first exciton peak of a CdSe quantum dot is 500 nm, the corresponding diameter of the quantum dot is 2.345 nm and for a wavelength of 609 nm, the corresponding diameter is 5.008 nm. 
+          
+</para><equation id="eip-986"><media id="id5531_media" alt=""><image mime-type="image/jpg" src="../../media/Eq12-0116.jpg" id="id5531__onlineimage" width="450" print-width="4in"/></media></equation><equation id="eip-138"><media id="id5532_media" alt=""><image mime-type="image/jpg" src="../../media/Eq13-7dcc.jpg" id="id5532__onlineimage" width="450" print-width="4in"/></media>
+</equation><equation id="eip-336"><media id="id5533_media" alt=""><image mime-type="image/jpg" src="../../media/Eq14-472a.jpg" id="id5533__onlineimage" width="450" print-width="4in"/></media></equation></section>
+          
+          
+          
+          
+          
+          
+          <section id="eip-326"><title>Concentration of sample </title><para id="eip-66">Using the Beer-Lambert law, it is possible to calculate the concentration of the sample if the molar absorptivity for the sample is known. The molar absorptivity can be calculated by recording the absorbance of a standard solution of 1 mol/dm<sup>3</sup> concentration in a standard cuvette where the light travels a constant distance of 1 cm. Once the molar absorptivity and the absorbance of the sample are known, with the length the light travels being fixed, it is possible to determine the concentration of the sample solution.
+</para><para id="eip-929">Empirical equations can be determined by fitting experimental data of extinction coefficient per mole of Group 12-16 semiconductor quantum dots, at 250 °C, to the diameter of the quantum dot, <link target-id="eip-958"/>, <link target-id="eip-649"/>, and <link target-id="eip-135"/>. </para><equation id="eip-958"><media id="id5535_media" alt=""><image mime-type="image/jpg" src="../../media/Eq15-5332.jpg" id="id5535__onlineimage" width="450" print-width="4in"/></media></equation><equation id="eip-649"><media id="id5536_media" alt=""><image mime-type="image/jpg" src="../../media/Eq16-5ec0.jpg" id="id5536__onlineimage" width="450" print-width="4in"/></media></equation><equation id="eip-135"><media id="id5537_media" alt=""><image mime-type="image/jpg" src="../../media/Eq17-63c0.jpg" id="id5537__onlineimage" width="450" print-width="4in"/></media></equation><para id="eip-664">The concentration of the quantum dots can then be then be determined by using the Beer Lambert law as given by <link target-id="id1168935730850"/>.
+</para></section>
+          
+          
+          
+          
+          
+          
+          
+          
+        </section>
+        <section id="id1168947500176"><title>Qualitative Information</title><para id="id1168954457495">Apart from quantitative data such as the size of the quantum dots and concentration of the quantum dots, a lot of qualitative information can be derived from the absorption spectra.</para>
+          <section id="eip-370"><title>Size distribution</title><para id="eip-343">If there is a very narrow size distribution, the first exciton peak will be very sharp (<link target-id="id1168946472586"/>). This is because due to the narrow size distribution, the differences in band gap between different sized particles will be very small and hence most of the electrons will get excited over a smaller range of wavelengths. In addition, if there is a narrow size distribution, the higher exciton peaks are also seen clearly.</para>
+
+<figure id="id1168946472586"><media id="id1168946472586_media" alt="">
+                <image mime-type="image/png" src="../../media/graphics1-03c8.png" id="id1168946472586__onlineimage" width="400" print-width="4in"/>
+              </media>
+            <caption>Narrow emission spectra (a) and broad emission spectra (b) of CdSe QDs. </caption></figure>
+</section>
+          
+          
+          <section id="eip-711"><title>Shaped particles</title><para id="eip-562">In the case of a spherical quantum dot, in all dimensions, the particle is quantum confined (<link target-id="id1168943930548"/>). In the case of a nanorod, whose length is not in the quantum regime, the quantum effects are determined by the width of the nanorod. Similar is the case in tetrapods or four legged structures. The quantum effects are determined by the thickness of the arms. During the synthesis of the shaped particles, the thickness of the rod or the arm of the tetrapod does not vary among the different particles, as much as the length of the rods or arms changes. Since the thickness of the rod or tetrapod is responsible for the quantum effects, the absorption spectrum of rods and tetrapods has sharper features as compared to a quantum dot. Hence, qualitatively it is possible to differentiate between quantum dots and other shaped particles.</para>
+          <figure id="id1168943930548"><media id="id1168943930548_media" alt="">
+              <image mime-type="image/png" src="../../media/Object 8-dec4.png" id="id1168943930548__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Different shaped nanoparticles with the arrows indicating the dimension where quantum confinement effects are observed.</caption></figure>
+          
+</section>
+          
+          
+          
+            <section id="eip-492"><title>Crystal lattice information</title><para id="eip-422">In the case of CdSe semiconductor quantum dots it has been shown that it is possible to estimate the crystal lattice of the quantum dot from the adsorption spectrum (<link target-id="id1168927625486"/>), and hence determine if the structure is zinc blend or wurtzite.
+</para>
+
+<figure id="id1168927625486"><media id="id1168927625486_media" alt="">
+                <image mime-type="image/png" src="../../media/Object 3.png" id="id1168927625486__onlineimage" width="300" print-width="3in"/>
+              </media>
+            <caption>Zinc blende and wurtzite CdSe absorption spectra. Adapted from J. Jasieniak, C. Bullen, J. van Embden, and P. Mulvaney, <emphasis effect="italics">J. Phys. Chem. B</emphasis>, 2005, <emphasis effect="bold">109</emphasis>, 20665.</caption></figure>
+          
+          
+        </section></section>
+      </section>
+      <section id="id1168958526227">
+        <title>UV-vis absorption spectra of Group 12-16 semiconductor nanoparticles</title>
+        <section id="id1168944033846"><title>Cadmium selenide</title><para id="id1168940961655">Cadmium selenide (CdSe) is one of the most popular Group 12-16 semiconductors. This is mainly because the band gap (712 nm or 1.74 eV) energy of CdSe. Thus, the nanoparticles of CdSe can be engineered to have a range of band gaps throughout the visible range, corresponding to the major part of the energy that comes from the solar spectrum. This property of CdSe along with its fluorescing properties is used in a variety of applications such as solar cells and light emitting diodes. Though cadmium and selenium are known carcinogens, the harmful biological effects of CdSe can be overcome by coating the CdSe with a layer of zinc sulfide. Thus CdSe, can also be used as bio-markers, drug-delivery agents, paints and other applications. </para>
+          <para id="id1168922883762">A typical absorption spectrum of narrow size distribution wurtzite CdSe quantum dot is shown in <link target-id="id1168941617495"/>. A size evolving absorption spectra is shown in <link target-id="id1168944844883"/>. However, a complete analysis of the sample is possible only by also studying the fluorescence properties of CdSe.</para>
+          <figure id="id1168941617495"><media id="id1168941617495_media" alt="">
+              <image mime-type="image/png" src="../../media/Object 2-406f.png" id="id1168941617495__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Wurtzite CdSe quantum dot. Adapted from X. Zhong, Y. Feng, and Y. Zhang, <emphasis effect="italics">J. Phys. Chem. C</emphasis>, 2007, <emphasis effect="bold">111</emphasis>, 526.</caption></figure>
+          
+      
+            <figure id="id1168944844883"><media id="id1168944844883_media" alt="">
+                <image mime-type="image/png" src="../../media/Object 1.png" id="id1168944844883__onlineimage" width="300" print-width="3in"/>
+              </media>
+            <caption>Size evolving absorption spectra of CdSe quantum dots. </caption></figure>
+     
+          
+        </section>
+        <section id="id1168916942648">
+          <title>Cadmium telluride (CdTe)</title>
+          <para id="id1168945284794">Cadmium telluride has a band gap of 1.44 eV (860 nm) and as such it absorbs in the infrared region. Like CdSe, the sizes of CdTe can be engineered to have different band edges and thus, different absorption spectra as a function of wavelength. A typical CdTe spectra is shown in <link target-id="id1168942281660"/>. Due to the small bandgap energy of CdTe, it can be used in tandem with CdSe to absorb in a greater part of the solar spectrum.</para>
+          <figure id="id1168942281660"><media id="id1168942281660_media" alt="">
+              <image mime-type="image/png" src="../../media/Picture 24.png" id="id1168942281660__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Size evolving absorption spectra of CdTe quantum dots from 3 nm to 7 nm. Adapted from C. Qi-Fan, W. Wen-Xing, G. Ying-Xin, L. Meng-Ying, X. Shu-Kun and Z. Xiu-Juan, <emphasis effect="italics">Chin. J. Anal. Chem.</emphasis>, 2007, <emphasis effect="bold">35</emphasis>, 135.</caption></figure>
+          
+        </section>
+        <section id="id1168963321959">
+          <title>Other Group 12-16 semiconductor systems</title>
+          <para id="id1168925035700"><link target-id="id1168932454050"/> shows the bulk band gap of other Group 12-16 semiconductor systems. The band gap of ZnS falls in the UV region, while those of ZnSe, CdS, and ZnTe fall in the visible region.</para>
+          <table id="id1168932454050" summary="Bulk band gaps of different Group 12-16 semiconductors.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry><emphasis effect="bold">Material</emphasis></entry>
+                  <entry><emphasis effect="bold">Band gap (eV)</emphasis></entry>
+                  <entry><emphasis effect="bold">Wavelength (nm)</emphasis></entry>
+                </row>
+                <row>
+                  <entry>ZnS</entry>
+                  <entry>3.61</entry>
+                  <entry>343.2</entry>
+                </row>
+                <row>
+                  <entry>ZnSe</entry>
+                  <entry>2.69</entry>
+                  <entry>460.5</entry>
+                </row>
+                <row>
+                  <entry>ZnTe</entry>
+                  <entry>2.39</entry>
+                  <entry>518.4</entry>
+                </row>
+                <row>
+                  <entry>CdS</entry>
+                  <entry>2.49</entry>
+                  <entry>497.5</entry>
+                </row>
+                <row>
+                  <entry>CdSe</entry>
+                  <entry>1.74</entry>
+                  <entry>712.1</entry>
+                </row>
+                <row>
+                  <entry>CdTe</entry>
+                  <entry>1.44</entry>
+                  <entry>860.3</entry>
+                </row>
+              </tbody>
+            
+
+
+</tgroup><caption>Bulk band gaps of different Group 12-16 semiconductors. </caption>
+</table>
+          
+        </section>
+        <section id="id1168945779353">
+          <title>Heterostructures of Group 12-16 semiconductor systems</title>
+          <para id="id1168931067720">It is often desirable to have a combination of two Group 12-16 semiconductor system quantum heterostructures of different shapes like dots and tetrapods, for applications in solar cells, bio-markers, etc. Some of the most interesting systems are ZnS shell-CdSe core systems, such as the CdSe/CdS rods and tetrapods. </para>
+          <para id="eip-0"><link target-id="id1168927564123"/> shows a typical absorption spectra of CdSe-ZnS core-shell system. This system is important because of the drastically improved fluorescence properties because of the addition of a wide band gap ZnS shell than the core CdSe. In addition with a ZnS shell, CdSe becomes bio-compatible. </para><figure id="id1168927564123"><media id="id1168927564123_media" alt="">
+              <image mime-type="image/png" src="../../media/Object 4-0273.png" id="id1168927564123__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Absorption spectra of CdSe core, ZnS shell. Adapted from C. Qing-Zhu, P. Wang, X. Wang and Y. Li, <emphasis effect="italics"/><emphasis effect="italics">Nanoscale Res. Lett</emphasis>., 2008, <emphasis effect="bold">3</emphasis>, 213.</caption></figure>
+          
+          
+          <para id="id1168970824951">A CdSe seed, CdS arm nanorods system is also interesting. Combining CdSe and CdS in a single nanostructure creates a material with a mixed dimensionality where holes are confined to CdSe while electrons can move freely between CdSe and CdS phases. </para>
+        </section>
+      </section>
+      <section id="id1168922426857">
+        <title>Bibliography</title>
+        <list id="id1168925314385" list-type="bulleted" bullet-style="bullet"><item>S. V. Gapoenko, <emphasis effect="italics">Optical Properties of Semiconductor Nanocrystals</emphasis>, Cambridge University Press, Cambridge (2003).</item>
+          <item>W. W. Yu, L. Qu, W. Guo, and X. Peng, <emphasis effect="italics">Chem. Mater.</emphasis>, 2003, <emphasis effect="bold">15</emphasis>, 2854.</item>
+          <item>J. Jasieniak, C. Bullen, J. van Embden, and P. Mulvaney,<emphasis effect="italics"> J. Phys. Chem. B</emphasis>, 2005,<emphasis effect="bold"> 109</emphasis>, 20665.</item>
+          <item>X. Zhong, Y. Feng, and Y. Zhang, <emphasis effect="italics">J. Phys. Chem. C</emphasis>, 2007, <emphasis effect="bold">111</emphasis>, 526.</item>
+          <item>D. V. Talapin, J. H. Nelson, E. V. Shevchenko, S. Aloni, B. Sadtler, and A. P. Alivisatos,<emphasis effect="italics"> Nano Lett.</emphasis>, 2007,<emphasis effect="bold"> 7</emphasis>, 2951.</item>
+          <item>C. Qing-Zhu, P. Wang, X. Wang, and Y. Li, <emphasis effect="italics"/><emphasis effect="italics">Nanoscale Res. Lett.</emphasis>, 2008, <emphasis effect="bold">3</emphasis>, 213.</item>
+          <item>C. Qi-Fan, W. Wen-Xing, G. Ying-Xin, L. Meng-Ying, X. Shu-Kun, and Z. Xiu-Juan, <emphasis effect="italics">Chin. J. Anal. Chem.</emphasis>, 2007, <emphasis effect="bold">35</emphasis>, 135.</item>
+        </list>
+      </section>
+
+  </content>
+</document>

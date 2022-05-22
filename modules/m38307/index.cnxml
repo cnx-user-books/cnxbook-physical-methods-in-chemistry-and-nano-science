@@ -1,0 +1,73 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Detecting Mercury using Gold Amalgamation and Cold Vapor Atomic Fluorescence Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38307</md:content-id>
+  <md:title>Detecting Mercury using Gold Amalgamation and Cold Vapor Atomic Fluorescence Spectroscopy</md:title>
+  <md:abstract>This module summarizes the technique involved in determining mercury concentration by using gold amalgamation and cold vapor atomic fluorescence spectroscopy.</md:abstract>
+  <md:uuid>9f6ec2e3-0b78-4fdd-82df-6fe61b200d7c</md:uuid>
+</metadata>
+
+<content>
+
+      <section id="id1169183631125">
+        <title>Introduction </title>
+        <para id="id1169200182942">Mercury poisoning can damage the nervous system, kidneys, and also fetal development in pregnant women, so it is important to evaluate the levels of mercury present in our environment. Some of the more common sources of mercury are in the air (from industrial manufacturing, mining, and burning coal), the soil (deposits, waste), water (byproduct of bacteria, waste), and in food (especially seafood). Although regulation for food, water and air mercury content differs, EPA regulation for mercury content in water is the lowest, and it cannot exceed 2 ppb (27 µg/L).</para>
+        <para id="id1169189628216">In 1972, J. F. Kopp et al. first published a method to detect minute concentrations of mercury in soil, water, and air using gold amalgamation and cold vapor atomic fluorescence spectroscopy. While atomic absorption can also measure mercury concentrations, it is not as sensitive or selective as cold vapour atomic fluorescence spectroscopy (CVAFS). </para>
+      </section>
+      <section id="id1169174556714">
+        <title>Sample preparation</title>
+        <para id="id1169178192125">As is common with all forms of atomic fluorescence spectroscopy (AFS) and atomic absorption spectrometry (AES), the sample must be digested, usually with an acid, to break down the compounds so that all the mercury present can be measured. The sample is put in the bubbler with a reducing agent such as stannous chloride (SnCl<sub>2</sub>) so that Hg<sup>0</sup> is the only state present in the sample. </para>
+      </section>
+      <section id="id1169196399480"><title>Gold amalgam and CVAFS</title><para id="id1169180711570">Once the mercury is in its elemental form, the argon enters the bubbler through a gold trap, and carries the mercury vapors out of the bubbler to the first gold trap, after first passing through a soda lime (mixture of Ch(OH)<sub>2</sub>, NaOH, and KOH) trap where any remaining acid or water vapors are caught. After all the mercury from the sample is absorbed by the first gold trap, it is heated to 450 °C, which causes the mercury absorbed onto the gold trap to be carried by the argon gas to the second gold trap. Once the mercury from the sample has been absorbed by the second trap, it is heated to 450 °C, releasing the mercury to be carried by the argon gas into the fluorescence cell, where light at a wavelength of 253.7 nm will be used for mercury samples. The detection limit for mercury using gold amalgamation and CVAFS is around 0.05 ng/L, but the detection limit will vary due to the equipment being used, as well as human error.</para>
+      </section>
+      <section id="id1169177616755"><title>Calculating CVAFS concentrations</title><para id="id1169192686481">A standard solution of mercury should be made, and from this dilutions will be used to make at least five different standard solutions. Depending on the detection limit and what is being analyzed, the concentrations in the standard solutions will vary. Note that what other chemicals the standard solutions contain will depend upon how the sample is digested. </para>
+ 
+<example id="eip-646">
+       
+        <para id="id1169183629830">A 1.00 g/mL Hg (1 ppm) working solution is made, and by dilution, five standards are made from the working solution, at 5.0, 10.0, 25.0, 50.0, and 100.0 ng/L (ppt). If these five standards give peak heights of 10 units, 23 units, 52 units, 110 units, and 207 units, respectively, then <link target-id="eip-739"/> is used to calculate the calibration factor, where CF<sub>x</sub> is the calibration factor, A<sub>x </sub>is the area of the peak or peak height, and C<sub>x</sub> is the concentration in ng/L of the standard, <link target-id="eip-153"/>. </para>
+        <equation id="eip-739"><media id="id20118_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq9-35c2.jpg" id="id20118__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-153"><media id="id201110_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq10a.jpg" id="id201110__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+        <para id="id1169176121500">The calibration factors for the other four standards are calculated in the same fashion: 2.30, 2.08, 2.20, and 2.07, respectively. The average of the five calibration factors is then taken, <link target-id="eip-836"/>.</para>
+        
+        <equation id="eip-836"><media id="id201111_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq11-dda3.jpg" id="id201111__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+        <para id="id1169194414324">Now to calculate the concentration of mercury in the sample, <link target-id="eip-30"/> is used, where A<sub>s</sub> is the area of the peak of the sample, CF<sub>m</sub> is the mean calibration factor, V<sub>std</sub> is the volume of the standard solution minus the reagents added, and V<sub>smp</sub> is the volume of the initial sample (total volume minus volume of reagents added). If A<sub>s</sub> is measured at 49 units, V<sub>std</sub> = 0.47 L, and V<sub>smp</sub> = 0.26 L, then the concentration can be calculated, <link target-id="eip-778"/>.</para>
+        <equation id="eip-30"><media id="id201112_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq12-f36e.jpg" id="id201112__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-778"><media id="id201113_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq13-6fac.jpg" id="id201113__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+</example>
+
+      </section>
+      <section id="id1169183263814"><title>Sources of error</title><para id="id1169175792378">Contamination from the sample collection is one of the biggest sources of error: if the sample is not properly collected or hands/gloves are not clean, this can tamper with the concentration. Also, making sure the glassware and equipment is clean from any sources of contamination.</para>
+        <para id="id1169175387550">Furthermore, sample vials that are used to store mercury-containing samples should be made out of borosilicate glass or fluoropolymer, because mercury can leach or absorb other materials, which could cause an inaccurate concentration reading.</para>
+      </section>
+      <section id="id1169177450084">
+        <title>Bibliography</title>
+        <list id="eip-409"><item>D. L. Pfeil and M. L. Bruce, <emphasis effect="italics">Am. Lab.</emphasis>, 2001, 28.</item>
+<item><emphasis effect="italics">Method 245.7: Mercury in Water by Cold Vapor Atomic Fluorescence Spectrometry</emphasis>, Revision 2.0. EPA. 2005.</item>
+<item>J. D. Winefordner and T. J. Vickers, <emphasis effect="italics">Anal. Chem.</emphasis>, 1964, <emphasis effect="bold">36</emphasis>, 161. </item>
+<item><emphasis effect="italics">Toxicological profile for mercury</emphasis>, Agency for Toxic Substances and Disease Registry (ATSDR).</item>
+<item>J. F. Kopp, M. C. Longbottom, and L. B. Lobring, <emphasis effect="italics">AWWA</emphasis>, 1972, <emphasis effect="bold">64</emphasis>, 20.</item></list>
+
+
+
+
+
+
+
+
+      </section>
+
+  </content>
+</document>

@@ -1,0 +1,580 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Zeta Potential Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63966</md:content-id>
+  <md:title>Zeta Potential Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>16efd188-d340-4cd6-b410-29840368cf07</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm1079211168"><title>Introduction </title><para id="import-auto-idm964329696">The physical properties of colloids (nanoparticles) and suspensions are strongly dependent on the nature and extent of the particle-liquid interface. The behavior of aqueous dispersions between particles and liquid is especially sensitive to the ionic and electrical structure of the interface. 
+      </para>
+
+<para id="import-auto-idm324850704">Zeta potential is a parameter that measures the electrochemical equilibrium at the particle-liquid interface. It measures the magnitude of electrostatic repulsion/attraction between particles and thus, it has become one of the fundamental parameters known to affect stability of colloidal particles. It should be noted that that term stability, when applied to colloidal dispersions, generally means the resistance to change of the dispersion with time. <link target-id="import-auto-idm1176SSS"/> illustrates the basic concept of zeta potential. 
+      </para><figure id="import-auto-idm1176SSS"><media id="import-auto-333FIG" alt=""> <image mime-type="image/jpg" src="../../media/FIG1.jpg" width="500" print-width="5in"/>  </media><caption>Schematic representation of the ionic concentration and potential difference as a function of distance from the charged surface of a particle suspended in a dispersion medium.</caption></figure>
+
+<para id="import-auto-idm924318192">From the fundamental theory’s perspective, zeta potential is the electrical potential in the interfacial double layer (DL) at the location of the slipping plane (shown in <link target-id="import-auto-idm1176SSS"/>). We can regard zeta potential as the potential difference between the dispersion medium and the stationary layer of the fluid attached to the particle layer.
+    
+     Therefore, in experimental concerns, zeta potential is key factor in processes such as the preparation of colloidal dispersions, utilization of colloidal phenomena and the destruction of unwanted colloidal dispersions. 
+   Moreover, zeta potential analysis and measurements nowadays have a lot of real-world applications. In the field of biomedical research, zeta potential measurement, in contrast to chemical methods of analysis which can disrupt the organism, has the particular merit of providing information referring to the outermost regions of an organism. It is also largely utilized in water purification and treatment. Zeta potential analysis has established optimum coagulation conditions for removal of particulate matter and organic dyestuffs from aqueous waste products.
+      </para></section><section id="import-auto-idm316020816"><title>Brief history and development of zeta potential </title><para id="import-auto-idm931118768">Zeta potential is a scientific term for electrokinetic potential in colloidal dispersions. In prior literature, it is usually denoted using the Greek letter zeta, Ζ, hence it has obtained the name zeta potential as Ζ-potential. 
+ 
+ The earliest theory for calculating Zeta potential from experimental data was developed by Marian Smoluchowski in 1903 (<link target-id="import-auto-idm1176855168"/>). Even till today, this theory is still the most well-known and widely used method for calculating zeta potential. 
+      </para><figure id="import-auto-idm1176855168"><media id="import-auto-idm360620528" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 1-bf24.jpg" width="300" print-width="2in"/>
+        </media>
+      <caption>Portrait of Polish physicist Marian Smoluchowski (1872-1917) pioneer of statistical physics. </caption></figure><para id="import-auto-idm1205863152">Interestingly, this theory was originally developed for electrophoresis. Later on, people started to apply his theory in calculation of zeta potential. The main reason that this theory is powerful is because of its universality and validity for dispersed particles of any shape and any concentration.  However, there still some limitations to this early theory as it was mainly determined experimentally. The main limitations are that Smoluchowski’s theory neglects the contribution of surface conductivity and only works for particles which have sizes much larger than the interface layer, denoted as κ<sub>a</sub>
+     (1/κ is called Debye length and a is the particle radius). 
+      </para><para id="import-auto-idm1043504192">Overbeek and Booth as early pioneers in this direction started to develop more theoretical and rigorous electrokinetic theories that were able to incorporate surface conductivity for electrokinetic applications. Modern rigorous electrokinetic theories that are valid almost any κa mostly are generated from Ukrainian (Dukhin) and Australian (O’Brien) scientists. 
+      </para></section><section id="import-auto-idm1032406992">
+      <title>Principle of zeta potential analysis</title>
+      <section id="import-auto-idm1473363664">
+        <title>Electrokinetic phenomena </title>
+        <para id="import-auto-idm1085116624">Because an electric double-layer (EDL) exists between a surface and solution, then any relative motion between the rigid and mobile parts of the EDL will result in the generation of an electrokinetic potential. As described above, zeta potential is essentially a electrokinetic potential which rises from electrokinetic phenomena. So it is important to understand different situations where electrokinetic potential can be produced. There are generally four fundamental ways which zeta potential can be produced, via electrophoresis, electro-osmosis, streaming potential, and sedimentation potential as shown from <link target-id="import-auto-idm305754656"/>. 
+        </para><figure id="import-auto-idm305754656"><media id="import-auto-idm1486429008" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 3-a312.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Relationship between the four types of electrokinetic phenomena (http://www.americanpharmaceuticalreview.com/Featured-Articles/134634-An-Overview-of-the-Zeta-Potential-Part-2-Measurement/)</caption></figure></section>
+      <section id="import-auto-idm1011483472">
+        <title>Calculations of Zeta Potential </title>
+        <para id="import-auto-idm1186201920">There are many different ways of calculating zeta potential . In this section, the methods of calculating zeta potential in electrophoresis and electroosmosis will be introduced. 
+        </para><section xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-913"><title>Zeta potential in electrophoresis</title><para id="import-auto-idm358096672">Electrophoresis is the movement of charged colloidal particles or polyelectrolytes, immersed in a liquid, under the influence of an external electric field. In such case, the electrophoretic velocity, v<sub>e</sub> (ms<sup>-1</sup>) is the velocity during electrophoresis and the electrophoretic mobility, u­­<sub>e</sub> (m
+          <sup>2</sup>
+       V
+          <sup>-1</sup>
+          s
+          <sup>-1</sup>
+    ) is the magnitude of the velocity divided by the magnitude of the electric field strength. The mobility is counted positive if the particles move toward lower potential and negative in the opposite case. And therefore, we have the relationship v<sub>e­</sub>= u<sub>e</sub><emphasis effect="italics">E</emphasis>, where E is the externally applied field.
+        </para><para id="import-auto-idm932839360">Thus, the formula accounted for zeta potential in electrophoresis case is given in EQ, where ε<sub>rs</sub> is the relative permittivity of the electrolyte solution, ε<sub>0</sub> is the electric permittivity of vacuum and η is the viscosity. 
+        </para><equation id="eip-589"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>u</m:mi>
+                  <m:mi>e</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>ε</m:mi>
+                      <m:mi mathvariant="italic">rs</m:mi>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>ε</m:mi>
+                      <m:mn>0</m:mn>
+                    </m:msub>
+                    <m:mi>ζ</m:mi>
+                  </m:mrow>
+                  <m:mi>η</m:mi>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{u} rsub {e} = {{ε} rsub {rs} {ε} rsub {0} ζ} over {η}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-182"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>ν</m:mi>
+                    <m:mi>e</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>ε</m:mi>
+                        <m:mi mathvariant="italic">rs</m:mi>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>ε</m:mi>
+                        <m:mn>0</m:mn>
+                      </m:msub>
+                      <m:mi>ζ</m:mi>
+                    </m:mrow>
+                    <m:mi>η</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mi>E</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{ν} rsub {e} = {{ε} rsub {rs} {ε} rsub {0} ζ} over {η} E</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm914285168">There are two cases regarding the size of κa: 
+        </para><list id="eip-822" list-type="enumerated" number-style="arabic"><item>κa &lt; 1: the formula is similar, <link target-id="eip-305"/>. </item>
+<item>κa &gt;1: the formula is rather complicated and we need to solve equation for zeta potential, <link target-id="eip-561"/>, where y<sup>eζ</sup> = eζ/kT, m is about 0.15 for aqueous solution.</item>
+</list><equation id="eip-305"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>u</m:mi>
+                    <m:mi>e</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>2</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>ε</m:mi>
+                      <m:mi mathvariant="italic">rs</m:mi>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>ε</m:mi>
+                      <m:mn>0</m:mn>
+                    </m:msub>
+                    <m:mi>ζ</m:mi>
+                  </m:mrow>
+                  <m:mi>η</m:mi>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{u} rsub {e} = {2} over {3} {{ε} rsub {rs} {ε} rsub {0} ζ} over {η}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-561"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mfrac>
+                  <m:mi mathvariant="italic">ηe</m:mi>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>ε</m:mi>
+                      <m:mi mathvariant="italic">rs</m:mi>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>ε</m:mi>
+                      <m:mn>0</m:mn>
+                    </m:msub>
+                    <m:mi mathvariant="italic">kT</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>u</m:mi>
+                    <m:mi>e</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>3</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>y</m:mi>
+                    <m:mi mathvariant="italic">ek</m:mi>
+                  </m:msup>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="false">[</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:msup>
+                                  <m:mi>y</m:mi>
+                                  <m:mi mathvariant="italic">ek</m:mi>
+                                </m:msup>
+                                <m:mn>2</m:mn>
+                              </m:mfrac>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi>ln</m:mi>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mi>ζ</m:mi>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">{</m:mo>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>exp</m:mi>
+                            </m:mrow>
+                            <m:mi>⁡</m:mi>
+                            <m:mrow>
+                              <m:mo fence="true" stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mi>ζ</m:mi>
+                                  </m:mrow>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mi mathvariant="italic">ek</m:mi>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mo fence="true" stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mo stretchy="false">}</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="false">]</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>k</m:mi>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>m</m:mi>
+                              <m:mo stretchy="false">/</m:mo>
+                              <m:msup>
+                                <m:mi>ζ</m:mi>
+                                <m:mn>2</m:mn>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mi>exp</m:mi>
+                      <m:mi>⁡</m:mi>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mrow>
+                                <m:mi>ζ</m:mi>
+                                <m:msup>
+                                  <m:mi>y</m:mi>
+                                  <m:mi mathvariant="italic">ek</m:mi>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{3} over {2} {ηe} over {{ε} rsub {rs} {ε} rsub {0} kT} {u} rsub {e} = {3} over {2} {y} ^ {ek} - {6[ {{y} ^ {ek}} over {2} - {ln2} over {ζ} \{1- exp⁡ (- ζ {y} ^ {ek} )\}]} over {2+ {k a} over {1+3m/ {ζ} ^ {2}} exp⁡ (- {ζ {y} ^ {ek}} over {2} )}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation></section><section xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-810"><title>Zeta potential in electroosmosis</title><para id="import-auto-idm1086363440">Electroosmosis is the motion of a liquid through an immobilized set of particles, a porous plug, a capillary, or a membrane, in response to an applied electric field. Similar to electrophoresis, it has the electroosmotic velocity, v<sub>eo</sub> (ms
+          <sup>-1</sup>
+          ) as the uniform velocity of the liquid far from the charged interface. Usually, the measured quantity is the volume flow rate of liquid divided by electric field strength, Q<sub>eo</sub>,E (m
+          <sup>4</sup>
+          V
+          <sup>-1</sup>
+         s
+          <sup>-1</sup>
+          ) or diveided by the electric current, Q<sub>eo</sub>,I (m
+          <sup>3</sup>
+          C
+          <sup>-1</sup>
+         ). Therefore, the relationship is given by <link target-id="eip-917"/>. 
+        </para><equation id="eip-917"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>Q</m:mi>
+                  <m:mi mathvariant="italic">eo</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mo stretchy="false">∫</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mi mathvariant="italic">eo</m:mi>
+                      </m:msub>
+                      <m:mi mathvariant="italic">dS</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{Q} rsub {eo} = int {int {{v} rsub {eo} dS}}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm1182945280">Thus the formula accounted for Zeta potential in electroosmosis is given in EQ. 
+        </para><para id="eip-447">As with electrophoresis there are two cases regarding the size of κa: 
+        </para><list id="eip-431"><item>κa &gt;&gt;1 and there is no surface conduction, where Ac is the cross-section area and KL is the bulk conductivity of particle.</item>
+<item>κa &lt; 1, <link target-id="eip-906"/>, where 
+Δu = K<sup>σ</sup>/K<sub>L</sub> is the Dukhin number account for surface conductivity, K<sup>σ</sup> is the surface conductivity of the particle.
+        
+        </item>
+</list><equation id="eip-882"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>Q</m:mi>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">eo</m:mi>
+                      <m:mi>,</m:mi>
+                      <m:mi>E</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>ε</m:mi>
+                          <m:mi mathvariant="italic">rs</m:mi>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>ε</m:mi>
+                          <m:mn>0</m:mn>
+                        </m:msub>
+                        <m:mi>ζ</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mi>η</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mi mathvariant="italic">Ac</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{Q} rsub {eo,E} =- {{ε} rsub {rs} {ε} rsub {0} ζ} over {η} Ac</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-389"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>Q</m:mi>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">eo</m:mi>
+                      <m:mi>,</m:mi>
+                      <m:mi>I</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>ε</m:mi>
+                          <m:mi mathvariant="italic">rs</m:mi>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>ε</m:mi>
+                          <m:mn>0</m:mn>
+                        </m:msub>
+                        <m:mi>ζ</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mi>η</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:msub>
+                    <m:mi>K</m:mi>
+                    <m:mi>L</m:mi>
+                  </m:msub>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{Q} rsub {eo, I} =- {{ε} rsub {rs} {ε} rsub {0} ζ} over {η} {1} over {{K} rsub {L}}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-906"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>Q</m:mi>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">eo</m:mi>
+                      <m:mi>,</m:mi>
+                      <m:mi>I</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>ε</m:mi>
+                          <m:mi mathvariant="italic">rs</m:mi>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>ε</m:mi>
+                          <m:mn>0</m:mn>
+                        </m:msub>
+                        <m:mi>ζ</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mi>η</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>K</m:mi>
+                      <m:mi>L</m:mi>
+                    </m:msub>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                          <m:mi mathvariant="italic">Δu</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{Q} rsub {eo, I} =- {{ε} rsub {rs} {ε} rsub {0} ζ} over {η} {1} over {{K} rsub {L} (1+2Du)}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation></section>      </section>
+
+      <section id="import-auto-idm1245284432">
+        <title>Relationship between zeta potential and particle stability in electrophoresis</title>
+        <para id="import-auto-idm905144640">Using the above theoretical methods, we can calculate zeta potential for particles in electrophoresis. The following table summarizes the stability behavior of the colloid particles with respect to zeta potential. Thus, we can use zeta potential to predict the stability of colloidal particles in the electrokinetic phenomena of electrophoresis. 
+        </para><table id="import-auto-idm1053673344" summary="Stability behavior of the colloid particles with respect to zeta potential.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Zeta potential (mV)</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Stability behavior of the particles</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>0 to ±5</entry>
+                <entry>Rapid coagulation or flocculation</entry>
+              </row>
+              <row>
+                <entry>±10 to ±30</entry>
+                <entry>Incipient instability </entry>
+              </row>
+              <row>
+                <entry>±30 to ±40</entry>
+                <entry>Moderate stability</entry>
+              </row>
+              <row>
+                <entry>±40 to ±60</entry>
+                <entry>Good stability </entry>
+              </row>
+              <row>
+                <entry>More than ±61</entry>
+                <entry>Excellent stability</entry>
+              </row>
+            </tbody>
+          
+
+</tgroup><caption>Stability behavior of the colloid particles with respect to zeta potential. </caption>
+</table></section>
+    </section>
+    <section id="import-auto-idm299957488">
+      <title>Instrumentation</title>
+      <para id="import-auto-idm331093248">In this section, a market-available zeta potential analyzer will be used as an example of how experimentally zeta potential is analyzed. <link target-id="import-auto-idm302411296"/> shows an example of a typical zeta potential analyzer for electrophoresis. 
+      </para><figure id="import-auto-idm302411296"><media id="import-auto-idm1232691936" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-52fa.png" width="400" print-width="3in"/>
+        </media>
+      <caption>Typical zeta potential analyzer for electrophoresis. </caption></figure><para id="import-auto-idm300821328">The inside measuring principle is described in the following diagram, which shows the detailed mechanism of zeta potential analyzer (<link target-id="import-auto-idm1234755696"/>). 
+      </para><figure id="import-auto-idm1234755696"><media id="import-auto-idm1234755568" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 7-8d26.jpg" width="500" print-width="5in"/>
+        </media>
+      <caption>Mechanism of zeta potential analyzer for electrophoresis (zeta potential measurement, Microtec Co., Ltd.,
+        <link url="http://nition.com/en/products/zeecom_s.htm">
+         http://nition.com/en/products/zeecom_s.htm
+        </link>
+  )
+      </caption></figure><para id="import-auto-idm303171472">When a voltage is applied to the solution in which particles are dispersed, particles are attracted to the electrode of the opposite polarity, accompanied by the fixed layer and part of the diffuse double layer, or internal side of the "sliding surface". Using the following formula below of this specific Analyzer and the computer program, we can obtain the zeta potential for electrophoresis using this typical zeta potential analyzer (<link target-id="import-auto-idm1198205680"/>). 
+      
+      </para><figure id="import-auto-idm1198205680"><media id="import-auto-idm1250810096" alt="">
+          <image mime-type="image/png" src="../../media/Picture 8-1716.png" width="400" print-width="4in"/>
+        </media>
+      <caption>Experimental formula of calculation of Zeta potential for electrophoresis (Zeta potential Measurement, Microtec Co., Ltd.,
+        <link url="http://nition.com/en/products/zeecom_s.htm">
+          http://nition.com/en/products/zeecom_s.htm
+        </link>
+     )</caption></figure></section>
+    <section id="import-auto-idm1096369568">
+      <title>Bibliography</title>
+      <list id="import-auto-idm360486480" list-type="bulleted"><item>
+          B. V. Derjaguin and  L. Landau, 
+          <emphasis effect="italics">Acta Phys. Chim.</emphasis>,
+ 1994, <emphasis effect="bold">14</emphasis>, 733. 
+        </item>
+        <item>
+         E. J. W. Verwey and J. Th. G. Overbeek, 
+          <emphasis effect="italics">Elsevier</emphasis>, 1948. 
+        </item>
+        <item>
+         A. V. Delgado, F. Gonzalez-Caballero, R. J. Hunter, L. K. Koopal and J. Lyklema, 
+          <emphasis effect="italics">J. Colloid Interface Sci.</emphasis>, 2007, <emphasis effect="bold">309</emphasis>, 194-224.
+        </item>
+        <item>
+         M. Smoluchowski, 
+          <emphasis effect="italics">Bull. Int. Acad. Sci.</emphasis>, 1903, <emphasis effect="bold">3</emphasis>, 184.
+        </item>
+        <item>
+        R. J. Hunter, Zeta Potential in Colloid Science: Principles and Applications, School of Chemistry, University of Sydney, Sydney, Australia. 
+        </item>
+        <item>
+     F. Booth, 
+          <emphasis effect="italics">Nature</emphasis>, 1948, <emphasis effect="bold">161</emphasis>, 83. 
+        </item>
+        <item>
+          A. Morfesis, M. A. Jacobson, R. Frollini, M. Helgeson, J. Billica and R. K. Gertig, 
+          <emphasis effect="italics">Ind. Eng. Chem. Res.</emphasis>
+, 2009, <emphasis effect="bold">48</emphasis>, 2305. 
+        </item>
+        <item>
+         M. Predota, L. M. Machesky and J. D. Wesolowski, 
+          <emphasis effect="italics">Langmuir</emphasis>, 2016, <emphasis effect="bold">32</emphasis>, 10189. 
+        </item>
+        <item>
+         Zeta Potential Applications, http://www.brookhaveninstruments.com/literature/library/zeta-potential-applications, (accessed on Jan 21st).
+        </item>
+        <item>
+         D. Fairhurst and V. Ribitsch, 
+          <emphasis effect="italics">ACS Symposium Series</emphasis>, 1991, <emphasis effect="bold">472</emphasis>, 337.
+        </item>
+      </list></section>
+  </content>
+</document>

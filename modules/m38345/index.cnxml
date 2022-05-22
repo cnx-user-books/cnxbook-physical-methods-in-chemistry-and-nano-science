@@ -1,0 +1,201 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Principles of Gamma-ray Spectroscopy and Applications in Nuclear Forensics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38345</md:content-id>
+  <md:title>Principles of Gamma-ray Spectroscopy and Applications in Nuclear Forensics</md:title>
+  <md:abstract/>
+  <md:uuid>686b9c8b-1656-49ec-a969-84da62a60eca</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1169576793635">
+      <title>Introduction</title>
+      <para id="id1169570068575">Gamma-ray (γ-ray) spectroscopy is a quick and nondestructive analytical technique that can be used to identify various radioactive isotopes in a sample. In gamma-ray spectroscopy, the energy of incident gamma-rays is measured by a detector. By comparing the measured energy to the known energy of gamma-rays produced by radioisotopes, the identity of the emitter can be determined. This technique has many applications, particularly in situations where rapid nondestructive analysis is required. </para>
+    </section>
+    <section id="id1169570375026">
+      <title>Background principles</title>
+      <section id="id1169571802670">
+        <title>Radioactive decay</title>
+        <para id="id1169567072270">The field of chemistry typically concerns itself with the behavior and interactions of stable isotopes of the elements. However, elements can exist in numerous states which are not stable. For example, a nucleus can have too many neutrons for the number of protons it has or contrarily, it can have too few neutrons for the number of protons it has. Alternatively, the nuclei can exist in an excited state, wherein a nucleon is present in an energy state that is higher than the ground state. In all of these cases, the unstable state is at a higher energy state and the nucleus must undergo some kind of decay process to reduce that energy.</para>
+        <para id="id1169566579734">There are many types of radioactive decay, but type most relevant to gamma-ray spectroscopy is gamma decay. When a nucleus undergoes radioactive decay by α or β decay, the resultant nucleus produced by this process, often called the daughter nucleus, is frequently in an excited state. Similar to how electrons are found in discrete energy levels around a nucleus, nucleons are found in discrete energy levels within the nucleus. In γ decay, the excited nucleon decays to a lower energy state and the energy difference is emitted as a quantized photon. Because nuclear energy levels are discrete, the transitions between energy levels are fixed for a given transition. The photon emitted from a nuclear transition is known as a γ-ray. </para>
+      </section>
+      <section id="id1169569948155"><title>Radioactive decay kinetics and equilibria</title><para id="id1169565558125">Radioactive decay, with few exceptions, is independent of the physical conditions surrounding the radioisotope. As a result, the probability of decay at any given instant is constant for any given nucleus of that particular radioisotope. We can use calculus to see how the number of parent nuclei present varies with time. The time constant, λ, is a representation of the rate of decay for a given nuclei, <link target-id="eip-661"/>.</para>
+        <equation id="eip-661"><media id="id1169570153689_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-484f.png" id="id1169570153689__onlineimage" width="80" print-width="0.8in"/>
+          </media>
+        </equation>
+
+
+        <para id="id1169566671208">If the symbol N<sub>0</sub> is used to represent the number of radioactive nuclei present at t = 0, then the following equation describes the number of nuclei present at some given time.</para>
+        <equation id="eip-588"><media id="id1169570162055_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics2-85db.png" id="id1169570162055__onlineimage" width="83" print-width="0.83in"/>
+            </media>
+          </equation>
+
+
+        <para id="id1169570039202">The same equation can be applied to the measurement of radiation with some sort of detector. The count rate will decrease from some initial count rate in the same manner that the number of nuclei will decrease from some initial number of nuclei.</para>
+        <para id="id1169570229865">The decay rate can also be represented in a way that is more easily understood. The equation describing half-life (t<sub>1/2</sub>) is shown in <link target-id="eip-859"/>.</para>
+        <equation id="eip-859"><media id="id1169571594705_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-83a4.png" id="id1169571594705__onlineimage" width="76" print-width="0.76in"/>
+          </media>
+        </equation>
+
+        <para id="id1169569975563">The half-life has units of time and is a measure of how long it takes for the number of radioactive nuclei in a given sample to decrease to half of the initial quantity. It provides a conceptually easy way to compare the decay rates of two radioisotopes. If one has a the same number of starting nuclei for two radioisotopes, one with a short half-life and one with a long half-life, then the count rate will be higher for the radioisotope with the short half-life, as many more decay events must happen per unit time in order for the half-life to be shorter. </para>
+        <para id="id1169576172111">When a radioisotope decays, the daughter product can also be radioactive. Depending upon the relative half-lives of the parent and daughter, several situations can arise: no equilibrium, a transient equilibrium, or a secular equilibrium. This module will not discuss the former two possibilities, as they are off less relevance to this particular discussion. </para>
+        <para id="id1169577307124">Secular equilibrium takes place when the half-life of the parent is much longer than the half-life of the daughter. In any arbitrary equilibrium, the ratio of atoms of each can be described as in <link target-id="eip-147"/>.</para>
+        <equation id="eip-147"><media id="id1169567200009_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-ebcd.png" id="id1169567200009__onlineimage" width="97" print-width="0.97in"/>
+          </media>
+        </equation>
+        <para id="id1169570710407">Because the half-life of the parent is much, much greater than the daughter, as the parent decays, the observed amount of activity changes very little. </para>
+        <equation id="eip-902"><media id="id1169579257747_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics5-f0b0.png" id="id1169579257747__onlineimage" width="60" print-width="0.6in"/>
+          </media>
+        </equation>
+        <para id="id1169574080977">This can be rearranged to show that the activity of the daughter should equal the activity of the parent.</para>
+        <equation id="eip-100"><media id="id1169567382113_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics6-cdee.png" id="id1169567382113__onlineimage" width="60" print-width="0.6in"/>
+          </media>
+        </equation>
+        <para id="id1169577557450">Once this point is reached, the parent and the daughter are now in secular equilibrium with one another and the ratio of their activities should be fixed. One particularly useful application of this concept, to be discussed in more detail later, is in the analysis of the refinement level of long-lived radioisotopes that are relevant to trafficking. </para>
+      </section>
+    </section>
+    <section id="id1169571828574">
+      <title>Detectors</title>
+      <section id="id1169571756374">
+        <title>Scintillation detector</title>
+        <para id="id1169575218894">A scintillation detector is one of several possible methods for detecting ionizing radiation. Scintillation is the process by which some material, be it a solid, liquid, or gas, emits light in response to incident ionizing radiation. In practice, this is used in the form of a single crystal of sodium iodide that is doped with a small amount of thallium, referred to as NaI(Tl). This crystal is coupled to a photomultiplier tube which converts the small flash of light into an electrical signal through the photoelectric effect. This electrical signal can then be detected by a computer. </para>
+        
+      </section>
+      <section id="id1169570366002">
+        <title>Semiconductor detector</title>
+        <para id="id1169566744156">A semiconductor accomplishes the same effect as a scintillation detector, conversion of gamma radiation into electrical pulses, except through a different route. In a semiconductor, there is a small energy gap between the valence band of electrons and the conduction band. When a semiconductor is hit with gamma-rays, the energy imparted by the gamma-ray is enough to promote electrons to the conduction band. This change in conductivity can be detected and a signal can be generated correspondingly. Germanium crystals doped with lithium, Ge(Li), and high-purity germanium (HPGe) detectors are among the most common types. </para>
+      </section>
+      <section id="id1169579132160">
+        <title>Advantages and disadvantages </title>
+        <para id="id1169570079741">Each detector type has its own advantages and disadvantages. The NaI(Tl) detectors are generally inferior to Ge(Li) or HPGe detectors in many respects, but are superior to Ge(Li) or HPGe detectors in cost, ease of use, and durability. Germanium-based detectors generally have much higher resolution than NaI(Tl) detectors. Many small photopeaks are completely undetectable on NaI(Tl) detectors that are plainly visible on germanium detectors. However, Ge(Li) detectors must be kept at cryogenic temperatures for the entirety of their lifetime or else they rapidly because incapable of functioning as a gamma-ray detector. Sodium iodide detectors are much more portable and can even potentially be used in the field because they do not require cryogenic temperatures so long as the photopeak that is being investigated can be resolved from the surrounding peaks. </para>
+      </section>
+      <section id="id1169571486328">
+        <title>Gamma spectrum features</title>
+        <para id="id1169571596312">There are several dominant features that can be observed in a gamma spectrum. The dominant feature that will be seen is the photopeak. The photopeak is the peak that is generated when a gamma-ray is totally absorbed by the detector. Higher density detectors and larger detector sizes increase the probability of the gamma-ray being absorbed.</para>
+        <para id="id1169577064444">The second major feature that will be observed is that of the Compton edge and distribution. The Compton edge arises due to Compton Effect, wherein a portion of the energy of the gamma-ray is transferred to the semiconductor detector or the scintillator. This occurs when the relatively high energy gamma ray strikes a relatively low energy electron. There is a relatively sharp edge to the Compton edge that corresponds to the maximum amount of energy that can be transferred to the electron via this type of scattering. The broad peak lower in energy than the Compton edge is the Compton distribution and corresponds to the energies that result from a variety of scattering angles. A feature in Compton distribution is the backscatter peak. This peak is a result of the same effect but corresponds to the minimum energy amount of energy transferred. The sum of the energies of the Compton edge and the backscatter peak should yield the energy of the photopeak.</para>
+        <para id="id1169565918970">Another group of features in a gamma spectrum are the peaks that are associated with pair production. Pair production is the process by which a gamma ray of sufficiently high energy (&gt;1.022 MeV) can produce an electron-positron pair. The electron and positron can annihilate and produce two 0.511 MeV gamma photons. If all three gamma rays, the original with its energy reduced by 1.022 MeV and the two annihilation gamma rays, are detected simultaneously, then a full energy peak is observed. If one of the annihilation gamma rays is not absorbed by the detector, then a peak that is equal to the full energy less 0.511 MeV is observed. This is known as an escape peak. If both annihilation gamma rays escape, then a full energy peak less 1.022 MeV is observed. This is known as a double escape peak. </para>
+        
+      </section>
+    </section>
+    <section id="id1169574814870">
+      <title>Example of experiments</title>
+      <section id="id1169568930773"><title>Determination of depleted uranium</title><para id="id1169576717500">Natural uranium is composed mostly of <sup>238</sup>U with low levels of <sup>235</sup>U and <sup>234</sup>U. In the process of making enriched uranium, uranium with a higher level of <sup>235</sup>U, depleted uranium is produced. Depleted uranium is used in many applications particularly for its high density. Unfortunately, uranium is toxic and is a potential health hazard and is sometimes found in trafficked radioactive materials, so it is important to have a methodology for detection and analysis of it. </para>
+        
+        <para id="id1169580841544">One easy method for this determination is achieved by examining the spectrum of the sample and comparing it qualitatively to the spectrum of a sample that is known to be natural uranium. This type of qualitative approach is not suitable for issues that are of concern to national security. Fortunately, the same approach can be used in a quantitative fashion by examining the ratios of various gamma-ray photopeaks. </para>
+        <para id="id1169570005450">The concept of a radioactive decay chain is important in this determination. In the case of <sup>238</sup>U, it decays over many steps to <sup>206</sup>Pb. In the process, it goes through <sup>234m</sup>Pa, <sup>234</sup>Pa, and <sup>234</sup>Th. These three isotopes have detectable gamma emissions that are capable of being used quantitatively. As can be seen in <link target-id="id1169570313600"/>, the half-life of these three emitters is much less than the half-life of <sup>238</sup>U. As a result, these should exist in secular equilibrium with <sup>238</sup>U. Given this, the ratio of activity of <sup>238</sup>U to each daughter products should be 1:1. They can thus be used as a surrogate for measuring <sup>238</sup>U decay directly via gamma spectroscopy. The total activity of the <sup>238</sup>U can be determined by <link target-id="eip-668"/>, where A is the total activity of <sup>238</sup>U, R is the count rate of the given daughter isotope, and B is the probability of decay via that mode. The count rate may need to be corrected for self-absorption of the sample is particularly thick. It may also need to be corrected for detector efficiency if the instrument does not have some sort of internal calibration. 
+
+
+</para>
+
+        <equation id="eip-668"><media id="id1169574795280_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics7-b256.png" id="id1169574795280__onlineimage" width="65" print-width="0.65in"/>
+          </media>
+        </equation>
+
+
+
+        <table id="id1169570313600" summary="Table of half-lives of U-238, Th-234, and Pa-234m.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Isotope</emphasis></entry>
+                <entry><emphasis effect="bold">Half-life</emphasis></entry>
+              </row>
+              <row>
+                <entry><sup>238</sup>U</entry>
+                <entry>4.5 x 10<sup>9</sup> years</entry>
+              </row>
+              <row>
+                <entry><sup>234</sup>Th</entry>
+                <entry>24.1 days</entry>
+              </row>
+              <row>
+                <entry><sup>234m</sup>Pa</entry>
+                <entry>1.17 minutes</entry>
+              </row>
+            </tbody>
+         </tgroup><caption>Half-lives of pertinent radioisotopes in the <sup>238</sup>U decay chain</caption>
+</table>
+        
+        
+
+
+        <exercise id="eip-453"><problem id="eip-251">
+  <para id="eip-917">A gamma spectrum of a sample is obtained. The 63.29 keV photopeak associated with <sup>234</sup>Th was found to have a count rate of 5.980 kBq. What is the total activity of <sup>238</sup>U present in the sample?</para>
+</problem>
+
+<solution id="eip-246">
+  <para id="eip-49"><sup> 234</sup>Th<sup/> exists in secular equilibrium with <sup>238</sup>U. The total activity of <sup>234</sup>Th must be equal to the activity of the <sup>238</sup>U. First, the observed activity must be converted to the total activity using Equation A=R/B. It is known that the emission probability for the 63.29 kEv gamma-ray for <sup>234</sup>Th<sup/> is 4.84%. 
+
+Therefore, the total activity of <sup>238</sup>U in the sample is 123.6 kBq.
+</para>
+</solution>
+</exercise>
+        
+        
+        
+        
+        <para id="id1169575148010">The count rate of <sup>235</sup>U can be observed directly with gamma spectroscopy. This can be converted, as was done in the case of <sup>238</sup>U above, to the total activity of <sup>235</sup>U present in the sample. Given that the natural abundances of <sup>238</sup>U and <sup>235</sup>U are known, the ratio of the expected activity of <sup>238</sup>U to <sup>235</sup>U can be calculated to be 21.72 : 1. If the calculated ratio of disintegration rates varies significantly from this expected value, then the sample can be determined to be depleted or enriched. </para>
+        <exercise id="eip-149"><problem id="eip-988">
+  <para id="eip-955">As shown above, the activity of <sup>238</sup>U in a sample was calculated to be 123.6 kBq. If the gamma spectrum of this sample shows a count rate 23.73 kBq at the 185.72 keV photopeak for <sup>235</sup>U, can this sample be considered enriched uranium? The emission probability for this photopeak is 57.2%.</para>
+</problem>
+
+<solution id="eip-764">
+  <para id="eip-211">As shown in the example above, the count rate can be converted to a total activity for <sup>235</sup>U. This yields a total activity of 41.49 kBq for <sup>235</sup>U. The ratio of activities of <sup>238</sup>U and <sup>235</sup>U can be calculated to be 2.979. This is lower than the expected ratio of 21.72, indicating that the <sup>235</sup>U content of the sample greater than the natural abundance of <sup>235</sup>U. </para>
+</solution>
+</exercise>
+        
+        <para id="id1169569936535">This type of calculation is not unique to <sup>238</sup>U. It can be used in any circumstance where the ratio of two isotopes needs to be compared so long as the isotope itself or a daughter product it is in secular equilibrium with has a usable gamma-ray photopeak. </para>
+      </section>
+      <section id="id1169575268180"><title>Determination of the age of highly-enriched uranium</title><para id="id1169568992857">Particularly in the investigation of trafficked radioactive materials, particularly fissile materials, it is of interest to determine how long it has been since the sample was enriched. This can help provide an idea of the source of the fissile material—if it was enriched for the purpose of trade or if it was from cold war era enrichment, etc. </para>
+        <para id="id1169566593182">When uranium is enriched, <sup>235</sup>U is concentrated in the enriched sample by removing it from natural uranium. This process will separate the uranium from its daughter products that it was in secular equilibrium with. In addition, when <sup>235</sup>U is concentrated in the sample, <sup>234</sup>U is also concentrated due to the particulars of the enrichment process. The <sup>234</sup>U that ends up in the enriched sample will decay through several intermediates to <sup>214</sup>Bi. By comparing the activities of <sup>234</sup>U and <sup>214</sup>Bi or <sup>226</sup>Ra, the age of the sample can be determined.</para>
+
+        <equation id="eip-541"><media id="id1169566722903_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics9-b99f.png" id="id1169566722903__onlineimage" width="180" print-width="1.8in"/>
+          </media>
+        </equation>
+
+
+        <para id="id1169570390106">In <link target-id="eip-541"/>, A<sub>Bi</sub> is the activity of <sup>214</sup>Bi, A<sub>Ra</sub><sup/>is the activity of <sup>226</sup>Ra, A<sub>U</sub> is the activity of <sup>234</sup>U, λ<sub>Th</sub> is the decay constant for <sup>230</sup>Th, λ<sub>Ra</sub> is the decay constant for <sup>226</sup>Ra, and T is the age of the sample. This is a simplified form of a more complicated equation that holds true over all practical sample ages (on the order of years) due to the very long half-lives of the isotopes in question. The results of this can be graphically plotted as they are in <link target-id="id1170654477049"/>.</para>
+        
+<figure id="eip-id1170654477049"><media id="id1166589378167_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Chart 1.png" id="id1166589378167__onlineimage" width="500" print-width="4in"/>
+          </media>
+<caption>Ratio of <sup>226</sup>Ra/<sup>234</sup>U (= <sup>214</sup>Bi/<sup>234</sup>U) plotted versus age based on <link target-id="eip-541"/>. This can be used to determine how long ago a sample was enriched based on the activities of <sup>234</sup>U and <sup>226</sup>Ra or <sup>214</sup>Bi in the sample. </caption></figure>
+
+
+        <exercise id="eip-202"><problem id="eip-969">
+  <para id="eip-106"><emphasis effect="italics">Exercise</emphasis>: The gamma spectrum for a sample is obtained. The count rate of the 121 keV <sup>234</sup>U photopeak is 4500 counts per second and the associated emission probability is 0.0342%. The count rate of the 609.3 keV <sup>214</sup>Bi photopeak is 5.83 counts per second and the emission probability is 46.1%. How old is the sample?</para>
+</problem>
+
+<solution id="eip-313">
+  <para id="eip-82"><emphasis effect="italics">Solution</emphasis>: The observed count rates can be converted to the total activities for each radionuclide. Doing so yields a total activity for <sup>234</sup>U of 4386 kBq and a total activity for <sup>214</sup>Bi of 12.65 Bq. This gives a ratio of 9.614 x 10<sup>-7</sup>. Using <link target-id="eip-581"/>, as graphed this indicates that the sample must have been enriched 22.0 years prior to analysis. 
+</para>
+</solution>
+</exercise>
+        
+      </section>
+    </section>
+    <section id="id1169571627459">
+      <title>References</title>
+      <list id="id1169570135888" list-type="bulleted"><item>G. Choppin, J.-O. Liljenzin, and J. Rydberg. <emphasis effect="italics">Radiochemistry and Nuclear Chemistry, </emphasis>Elsevier Press, Oxford (2006). </item>
+        <item>W. Loveland, D. J. Morrissey, and G. T. Seaborg. <emphasis effect="italics">Modern Nuclear Chemistry, </emphasis>Wiley, New Jersey (2006). </item>
+        <item>K. Mayer, M. Wallenius, and I. Ray. <emphasis effect="italics">Analyst</emphasis>, 2005, <emphasis effect="bold">130</emphasis>, 433. </item>
+        <item>J. T. Mihalczo, J. A. Mullens, J. K. Mattingly, and T. E. Valentine. <emphasis effect="italics">Nucl. Instrum. Meth. A</emphasis>, 2000, <emphasis effect="bold">450</emphasis>, 531.</item>
+        <item>J. T. Mihalczo, J. K. Mattingly, J. S. Neal, and J. A. Mullens, <emphasis effect="italics">Nucl. Instrum. Meth. B</emphasis>, 2004, <emphasis effect="bold">213</emphasis>, 378. </item>
+        <item>K. J. Moody, I. A. Hutcheon, and P. M. Grant. <emphasis effect="italics">Nuclear Forensic Analysis</emphasis>, CRC Press, Boca Raton (2005). </item>
+        <item>C. T. Nguyen. <emphasis effect="italics">Nucl. Instrum. Meth. B, </emphasis>2005,<emphasis effect="bold"> 229</emphasis>, 103.  </item>
+        <item>C. T. Nguyen, and J. Zsigrai. <emphasis effect="italics">Nucl. Instrum. Meth. B,</emphasis><emphasis effect="bold"/>2006, <emphasis effect="bold">246</emphasis>, 417. </item>
+        <item>D. Reilly, N. Ensslin, and H. Smith, Jr. <emphasis effect="italics">Passive Nondestructive Assay of Nuclear Materials</emphasis>, National Technical Information Service, Springfield, VA (1991). </item>
+        <item>M. Wallenius, A. Morgenstern, C. Apostolidis, and K. Mayer. <emphasis effect="italics">Anal. Bioanal. Chem., </emphasis>2002<emphasis effect="italics">, </emphasis><emphasis effect="bold">374</emphasis>, 379. <emphasis effect="italics"/></item>
+      </list>
+    </section>
+  </content>
+</document>

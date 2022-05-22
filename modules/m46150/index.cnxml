@@ -1,0 +1,164 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Basic Principles of Supercritical Fluid Chromatography and Supercrtical Fluid Extraction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46150</md:content-id>
+  <md:title>Basic Principles of Supercritical Fluid Chromatography and Supercrtical Fluid Extraction</md:title>
+  <md:abstract>This module is to explain the basic working principles and setups of supercritical fluid chromatography and supercritical fluid extraction methods.</md:abstract>
+  <md:uuid>c26aa662-68dc-4870-bb0e-2dcff1c05505</md:uuid>
+</metadata>
+
+<content>
+    <section id="eip-622"><title>Introduction </title><para id="eip-716">The discovery of supercritical fluids led to novel analytical applications in the fields of chromatography and extraction known as supercritical fluid chromatography (SFC) and supercritical fluid extraction (SFE). Supercritical fluid chromatography is accepted as a column chromatography methods along with gas chromatography (GC) and high-performance liquid chromatography (HPLC). Due to to the  properties of supercritical fluids, SFC combines each of the advantages of both GC and HPLC in one method. In addition, supercritical fluid extraction is an advanced analytical technique. </para></section><section id="eip-111"><title>Definition and formation of supercritical fluids</title><para id="eip-119">A supercritical fluid is the phase of a material at critical temperature and critical pressure of the material. Critical temperature is the temperature at which a gas cannot become liquid as long as there is no extra pressure; and, critical pressure is the minimum amount of pressure to liquefy a gas at its critical temperature. Supercritical fluids combine useful properties of gas and liquid phases, as it can behave like both a gas and a liquid in terms of different aspects.  A supercritical fluid provides a gas-like characteristic when it fills a container and it takes the shape of the container. The motion of the molecules are quite similar to gas molecules. On the other hand, a supercritical fluid behaves like a liquid because its density property is near liquid and, thus, a supercritical fluid shows a similarity to the dissolving effect of a liquid.
+      
+</para><para id="eip-592">The characteristic properties of a supercritical fluid are density, diffusivity and viscosity. Supercritical values for these features take place between liquids and gases. <link target-id="eip-858"/> demonstrates numerical values of properties for gas, supercritical fluid and liquid.
+      </para>
+
+<table id="eip-858" summary="3 rows 4 column showing some values about some properties of liquid, gas and supercritical fluids.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry/>
+              <entry>Gas</entry>
+              <entry>Supercritical fluid</entry>
+              <entry>Liquid</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Density (g/cm<sup>3</sup>)<emphasis effect="bold"><emphasis effect="italics"/></emphasis></entry>
+              <entry>0.6 x 10<sup>-3</sup> – 2.0 x 10<sup>-3</sup></entry>
+              <entry>0.2 - 0.5</entry>
+              <entry>0.6 - 2.0</entry>
+            </row>
+            <row>
+              <entry>Diffusivity (cm<sup>2</sup>/s)<emphasis effect="bold"/></entry>
+              <entry>0.1 - 0.4</entry>
+              <entry>10<sup>-3</sup> - 10<sup>-4</sup></entry>
+              <entry>0.2 x 10<sup>-5</sup> - 2.0 x 10<sup>-5</sup></entry>
+            </row>
+            <row>
+              <entry>Viscosity (cm/s)<emphasis effect="bold"/></entry>
+              <entry>1 x 10<sup>-4</sup> - 3 x 10<sup>-4</sup></entry>
+              <entry>1 x 10<sup>-4</sup> - 3 x 10<sup>-4</sup></entry>
+              <entry>0.2 x 10<sup>-2</sup> - 3.0 x 10<sup>-2</sup></entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup><caption><emphasis effect="bold"> </emphasis>Supercritical fluid properties compared to liquids and gases</caption>
+</table><para id="eip-596">The formation of a supercritical fluid is the result of a dynamic equilibrium. When a material is heated to its specific critical temperature in a closed system,  at constant pressure, a dynamic equilibrium is generated. This equilibrium includes the same number of molecules coming out of liquid phase to gas phase by gaining energy and going in to liquid phase from gas phase by losing energy. At this particular point, the phase curve between liquid and gas phases disappears and supercritical material appears.</para><para id="eip-559">In order to understand the definition of SF better, a simple phase diagram can be used. <link target-id="graphic1"/> displays an ideal phase diagram. For a pure material, a phase diagram shows the fields where the material is in the form of solid, liquid, and gas in terms of different temperature and pressure values. Curves, where two phases (solid-gas, solid-liquid and liquid-gas) exist together, defines the boundaries of the phase regions. These curves, for example, include sublimation for solid-gas boundary, melting for solid-liquid boundary, and vaporization for liquid-gas boundary. Other than these binary existence curves, there is a point where all three phases are present together in equilibrium; the triple point (TP).</para><figure id="graphic1"><media id="import-auto-id1167046281025" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-f29a.png" width="400" print-width="4in"/> 
+        </media>
+
+<caption>Schematic representation of an idealized phase diagram.
+
+</caption></figure>
+
+
+<para id="eip-625">There is another characteristic point in the phase diagram, the critical point (CP). This point is obtained at critical temperature (<emphasis effect="italics">T</emphasis><sub>c</sub>) and critical pressure (<emphasis effect="italics">P</emphasis><sub>c</sub>). After the CP, no matter how much pressure or temperature is increased, the material cannot transform from gas to liquid or from liquid to gas phase. This form is the supercritical fluid form. Increasing temperature cannot result in turning to gas, and increasing pressure cannot result in turning to liquid at this point. In the phase diagram, the field above <emphasis effect="italics">T</emphasis><sub>c</sub> and <emphasis effect="italics">P</emphasis><sub>c</sub> values is defined as the supercritical region.</para><para id="eip-315">In theory, the supercritical region can be reached in two ways: 
+</para><list id="eip-707"><item>Increasing the pressure above the <emphasis effect="italics">P</emphasis><sub>c</sub> value of the material while keeping the temperature stable and then increasing the temperature above <emphasis effect="italics">T</emphasis><sub>c</sub> value at a stable pressure value. </item>
+
+
+<item>Increasing the temperature first above <emphasis effect="italics">T</emphasis><sub>c</sub> value and then increasing the pressure above <emphasis effect="italics">P</emphasis><sub>c</sub> value.</item>
+
+</list><para id="eip-300">The critical point is characteristic for each material, resulting from the characteristic <emphasis effect="italics">T</emphasis><sub>c</sub> and <emphasis effect="italics">P</emphasis><sub>c</sub> values for each substance. </para></section><section id="eip-437"><title>Physical properties of supercritical fluids</title><para id="eip-728">As mentioned above, SF shares some common features with both gases and liquids. This enables us to take advantage of a correct combination of the properties.</para><section id="eip-395"><title>Density</title><para id="eip-891">Density characteristic of a supercritical fluid is between that of a gas and a liquid, but closer to that of a liquid. In the supercritical region, density of a supercritical fluid increases with increased pressure (at constant temperature). When pressure is constant, density of the material decreases with increasing temperature. The dissolving effect of a supercritical fluid is dependent on its density value. Supercritical fluids are also better carriers than gases thanks to their higher density. Therefore, density is an essential parameter for analytical techniques using supercritical fluids as solvents.
+</para></section><section id="eip-813"><title>Diffusivity</title><para id="eip-895">Diffusivity of a supercritical fluid can be 100 x that of a liquid and <sup>1</sup>/<sub>1,000</sub> to <sup>1</sup>/<sub>10,000</sub> x less than a gas. Because supercritical fluids have more diffusivity than a liquid, it stands to reason a solute can show better diffusivity in a supercritical fluid than in a liquid. Diffusivity is parallel with temperature and contrary with pressure. Increasing pressure affects supercritical fluid molecules to become closer to each other and decreases diffusivity in the material. The greater diffusivity gives supercritical fluids the chance to be faster carriers for analytical applications. Hence, supercritical fluids play an important role for chromatography and extraction methods.</para></section><section id="eip-841"><title>Viscosity</title><para id="eip-155">Viscosity for a supercritical fluid is almost the same as a gas, being approximately <sup>1</sup>/<sub>10</sub> of that of a liquid. Thus, supercritical fluids are less resistant than liquids towards  components flowing through. The viscosity of supercritical fluids is also distinguished from that of liquids in that temperature has a little effect on liquid viscosity, where it can dramatically influence supercritical fluid viscosity. </para></section><para id="eip-930">These properties of viscosity, diffusivity, and density are related to each other. The change in temperature and pressure can affect all of them in different combinations. For instance, increasing pressure causes a rise for viscosity and rising viscosity results in declining diffusivity. 
+</para></section><section id="eip-953"><title>Supercritical fluid chromatography (SFC)</title><para id="eip-726">Just like supercritical fluids  combine the benefits  of liquids and gases, SFC  bring the advantages and strong aspects of HPLC and GC together. SFC can be more advantageous than HPLC and GC when compounds which decompose at high temperatures with GC and do not have functional groups to be detected by HPLC detection systems are analyzed.
+      </para><para id="eip-826">There are three major qualities for column chromatographies:</para><list id="eip-720"><item>Selectivity.</item>
+<item>Efficiency. </item>
+<item>Sensitivity.</item></list><para id="eip-280">Generally, HPLC has better selectivity that SFC owing to changeable mobile phases (especially during a particular experimental run) and a wide range of stationary phases. Although SFC does not have the selectivity of HPLC, it has  good quality in terms of sensitivity and efficiency. SFC enables change of some properties during the chromatographic process. This tuning ability allows the optimization of the analysis. Also, SFC has a broader range of detectors than HPLC.  SFC surpasses GC for the analysis of easily decomposable substances; these materials can be used with SFC due to its ability to work with lower temperatures than GC. </para><section id="eip-276"><title>Instrumentation for SFC</title><para id="eip-528">As it can be seen in <link target-id="graphics2"/>, SFC has a  similar setup to an HPLC instrument. They use similar stationary phases with similar column types. However, there are some differences. Temperature is critical for supercritical fluids, so there should be a heat control tool in the system similar to that of GC. Also, there should be a pressure control mechanism, a restrictor, because pressure is another essential parameter in order for supercritical fluid materials to be kept at the required level. A microprocessor mechanism is placed in the instrument for SFC. This unit collects data for pressure, oven temperature, and detector performance to control the related pieces of the instrument.</para><figure id="graphics2"><media id="graphics2_media" alt=""> 
+<image mime-type="image/png" src="../../media/graphics2-25f3.png" width="600" print-width="4.5in"/>
+</media>
+
+<caption>Scheme of a supercritical fluid chromatography instrument. Adapted from D. A. Skoog and J. J. Leary, <emphasis effect="italics">Principles of Instrumental Analysis</emphasis>, Saunders College Publishing, Philadelphia (1992).</caption></figure></section><section id="eip-682"><title>Stationary phases</title><para id="eip-303">SFC columns are similar to HPLC columns in terms of coating materials. Open-tubular columns and packed columns are the two most common types used in SFC. Open-tubular ones are preferred and they have similarities to HPLC fused-silica columns. This type of column contains an internal coating of a cross-linked siloxane material as a stationary phase. The thickness of the coating can be 0.05-1.0 μm. The length of the column can  range from of 10 to 20 m.</para></section><section id="eip-213"><title>Mobile phases</title><para id="eip-924">There is a wide variety of materials used as mobile phase in SFC. The mobile phase can be selected from the solvent groups of inorganic solvents, hydrocarbons, alcohols, ethers, halides; or can be acetone, acetonitrile, pyridine, etc. The most common supercritical fluid which is used in SFC is carbon dioxide because its critical temperature and pressure are easy to reach. Additionally, carbon dioxide is low-cost, easy to obtain, inert towards UV, non-poisonous and a good solvent for non-polar molecules. Other than carbon dioxide, ethane, n-butane, N<sub>2</sub>O, dichlorodifluoromethane, diethyl ether, ammonia, tetrahydrofuran can be used. <link target-id="eip-245"/> shows select solvents and their T<sub>c</sub> and P<sub>c</sub> values.</para><table id="eip-245" summary="Properties of selected solvents as mobile phase at the critical point.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>Solvent</entry>
+              <entry>Critical Temperature (°C)</entry>
+              <entry>Critical Pressure (bar)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Carbon dioxide (CO<sub>2</sub>)</entry>
+              <entry>31.1</entry>
+              <entry>72</entry>
+            </row>
+            <row>
+              <entry>Nitrous oxide (N<sub>2</sub>O)</entry>
+              <entry>36.5</entry>
+              <entry>70.6</entry>
+            </row>
+            <row>
+              <entry>Ammonia (NH<sub>3</sub>)</entry>
+              <entry>132.5</entry>
+              <entry>109.8</entry>
+            </row>
+            <row>
+              <entry>Ethane (C<sub>2</sub>H<sub>6</sub>)</entry>
+              <entry>32.3</entry>
+              <entry>47.6</entry>
+            </row>
+            <row>
+              <entry>n-Butane (C<sub>4</sub>H<sub>10</sub>)</entry>
+              <entry>152</entry>
+              <entry>70.6</entry>
+            </row>
+            <row>
+              <entry>Diethyl ether (Et<sub>2</sub>O)</entry>
+              <entry>193.6</entry>
+              <entry>63.8</entry>
+            </row>
+            <row>
+              <entry>Tetrahydrofuran (THF, C<sub>4</sub>H<sub>8</sub>O)</entry>
+              <entry>267</entry>
+              <entry>50.5</entry>
+            </row>
+            <row>
+              <entry>Dichlorodifluoromethane (CCl<sub>2</sub>F<sub>2</sub>)</entry>
+              <entry>111.7</entry>
+              <entry>109.8</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+</tgroup><caption>Properties of some solvents as mobile phase at the critical point. </caption>
+</table></section><section id="eip-467"><title>Detectors</title><para id="eip-1000">One of the biggest advantage of SFC over HPLC is the range of detectors. Flame ionization detector (FID), which is normally present in GC setup, can also be applied to SFC. Such a  detector can contribute to the quality of analyses of SFC since FID is a highly sensitive detector. SFC can also be coupled with a mass spectrometer, an UV-visible spectrometer, or an IR spectrometer more easily than can be done with an HPLC. Some other detectors which are used with HPLC can be attached to SFC such as fluorescence emission spectrometer or thermionic detectors.</para></section><section id="eip-301"><title>Advantages of working with SFC</title><para id="eip-703">The physical properties of supercritical fluids between liquids and gases enables the SFC technique to combine with the best aspects of HPLC and GC, as lower viscosity of supercritical fluids makes SFC a faster method than HPLC. Lower viscosity leads to high flow speed for the mobile phase.</para><para id="eip-100">Thanks to the critical pressure of supercritical fluids, some fragile materials that are sensitive to high temperature can be analyzed through SFC. These materials can be  compounds which decompose at high temperatures or  materials which have low vapor pressure/volatility such as polymers and large biological molecules. High pressure conditions provide a chance to work with lower temperature than normally needed. Hence, the temperature-sensitive components can be analyzed via SFC. In addition, the diffusion of the components flowing through a supercritical fluid is higher than observed in HPLC due to the higher diffusivity of supercritical fluids over traditional liquids mobile phases. This results in better distribution into the mobile phase and better separation.</para></section><section id="eip-120"><title>Applications of SFC</title><para id="eip-504">The applications of SFC range from  food to environmental to pharmaceutical industries. In this manner, pesticides, herbicides, polymers, explosives and fossil fuels are all classes of compounds that can be analyzed. SFC can be used to analyze a wide variety of drug compounds such as antibiotics, prostaglandins, steroids, taxol, vitamins, barbiturates, non-steroidal anti-inflammatory agents, etc. Chiral separations can be performed for many pharmaceutical compounds. SFC is dominantly used for non-polar compounds because of the low efficiency of carbon dioxide, which is the most common supercritical fluid mobile phase, for dissolving polar solutes. SFC is used in the petroleum industry for the determination of total aromatic content analysis as well as other hydrocarbon separations.</para></section></section><section id="eip-189"><title>Supercritical fluid extraction (SFE)</title><para id="eip-619">The unique physical properties of supercritical fluids, having values for density, diffusivity and viscosity values between liquids and gases, enables supercritical fluid extraction to be used for the extraction processes which cannot be done by liquids due to  their high density and low diffusivity and by gases due to their inadequate density in order to extract and carry the components out.</para><para id="eip-589">Complicated mixtures containing many components should be subject to an extraction process before they are separated via chromatography. An ideal extraction procedure should be fast, simple, and inexpensive. In addition, sample loss or decomposition should not be experienced at the end of the extraction. Following extraction, there should be a quantitative collection of each component. Ideally, the amount of unwanted materials coming from the extraction  should be kept to a minimum and be easily disposable; the waste should not be harmful for environment. Unfortunately, traditional extraction methods often do not meet these requirements. In this regard, SFE has several advantages in comparison with traditional techniques.</para><para id="eip-640">The extraction speed is dependent on the viscosity and diffusivity of the mobile phase. With a low viscosity and high diffusivity, the component which is to be extracted can pass through the mobile phase easily. The higher diffusivity and lower viscosity of supercritical fluids, as compared to regular extraction liquids, help the components to be extracted faster than other techniques. Thus, an extraction process can take just  10-60 minutes with SFE, while it would take hours or even days with classical methods.</para><para id="eip-653">The dissolving efficiency of a supercritical fluid can be altered by temperature and pressure. In contrast, liquids are not affected by temperature and pressure changes as much. Therefore, SFE has the potential to be optimized to provide a better dissolving capacity.</para><para id="eip-307">In classical methods, heating is required to get rid of the extraction liquid. However, this step causes the temperature-sensitive materials to decompose. For SFE, when the critical pressure is removed, a supercritical fluid transforms to gas phase. Because supercritical fluid solvents are chemically inert, harmless and inexpensive; they can be released to atmosphere without leaving any waste. Through this, extracted components can be obtained much more easily and sample loss is minimized.</para><section id="eip-121"><title>Instrumentation for SFE</title><para id="eip-102">The necessary apparatus for a SFE setup is simple. <link target-id="import-auto-id1167039607349"/> depicts the basic elements of a SFE instrument, which  is  composed of a reservoir of supercritical fluid, a pressure tuning injection unit, two pumps (to take the components in the mobile phase in and to send them out of the extraction cell), and a collection chamber.</para><figure id="import-auto-id1167039607349"><media id="import-auto-id1167034693633" alt="">
+              <image mime-type="image/png" src="../../media/graphics3-24bb.png" width="400" print-width="4in"/>
+            </media>
+
+<caption>Scheme of an idealized supercritical fluid extraction instrument.</caption></figure>
+
+
+<para id="eip-264">There are two principle modes to run the instrument:  </para><list id="eip-151"><item>Static extraction.</item>
+<item>Dynamic extraction. </item>
+</list><para id="eip-9">In dynamic extraction, the second pump sending the materials out to the collection chamber is always open during the extraction process. Thus, the mobile phase reaches the extraction cell and extracts components in order to take them out consistently. </para><para id="eip-661">In the static extraction experiment, there are two distinct steps in the process: </para><list id="eip-540" list-type="enumerated" number-style="arabic" class="stepwise"><item>The mobile phase fills the extraction cell and interacts with the sample.</item>
+<item>The second pump is opened and the extracted substances are taken out at once.</item>
+
+
+
+</list><para id="eip-609">In order to choose the mobile phase  for SFE,  parameters  taken into consideration include the polarity and solubility of the samples in the mobile phase. Carbon dioxide is the most common mobile phase for SFE. It has a capability to dissolve non-polar materials like alkanes. For semi-polar compounds (such as polycyclic aromatic hydrocarbons, aldehydes, esters, alcohols, etc.) carbon dioxide can be  used as a single component mobile phase. However, for  compounds which have polar characteristic, supercritical carbon dioxide must be modified by addition of polar solvents like methanol (CH<sup>3</sup>OH). These extra solvents can be introduced into the system through a separate injection pump.</para></section><section id="eip-502"><title>Extraction modes</title><para id="eip-369">There are two modes in terms of collecting and detecting the components:</para><list id="eip-317"><item>Off-line extraction. </item>
+<item>On-line extraction. </item>
+</list><para id="eip-525">Off-line extraction is done by taking the mobile phase out with the extracted components and directing them towards the collection chamber. At this point, supercritical fluid phase is evaporated and released to atmosphere and the components are captured in a solution or a convenient adsorption surface. Then the extracted fragments are processed and prepared for a separation method. This extra manipulation step between extractor and chromatography instrument can cause errors. The on-line method is more sensitive because it directly transfers all extracted materials to a separation unit, mostly a chromatography instrument, without taking them out of the mobile phase. In this extraction/detection type, there is no extra sample preparation after extraction for separation process. This minimizes the errors coming from manipulation steps. Additionally, sample loss does not occur and sensitivity increases.
+
+</para></section><section id="eip-208"><title>Applications of SFE</title><para id="eip-818">SFE can be applied to a broad range of materials such as polymers, oils and lipids, carbonhydrates, pesticides, organic pollutants, volatile toxins, polyaromatic hydrocarbons, biomolecules, foods, flavors, pharmaceutical metabolites, explosives, and organometallics, etc. Common industrial applications include  the pharmaceutical and biochemical industry, the polymer industry, industrial synthesis and extraction, natural product chemistry, and the food industry. </para><para id="eip-864">Examples of materials analyzed in environmental applications: oils and fats, pesticides, alkanes, organic pollutants, volatile toxins, herbicides, nicotin, phenanthrene, fatty acids, aromatic surfactants in samples from clay to petroleum waste, from soil to river sediments. In food analyses: caffeine, peroxides, oils, acids, cholesterol, etc.  are extracted  from samples such as coffee, olive oil, lemon, cereals, wheat, potatoes and dog feed. Through industrial applications, the extracted materials vary from additives to different oligomers, and from petroleum fractions to stabilizers. Samples analyzed are plastics, PVC, paper, wood etc. Drug metabolites, enzymes, steroids are extracted from plasma, urine, serum or animal tissues in biochemical applications.</para></section></section><section id="eip-363"><title>Summary</title><para id="eip-156">Supercritical fluid chromatography and supercritical fluid extraction are techniques that take advantage of the unique properties of supercritical fluids. As such, they provide advantages over  other related methods in both chromatography and extraction. Sometimes they are used as  alternative analytical techniques, while other times they  are used as  complementary partners for binary systems. Both SFC and SFE demonstrate their versatility through the wide array of applications in many distinct domains in an advantageous way.</para></section><section id="eip-173"><title>Bibliography</title><list id="eip-94"><item>M. Caude and D. Thiebaut, <emphasis effect="italics">Practical Supercritical Fluid Chromatography and Extraction</emphasis>, Harwood Academic Publishers,  Switzerland (1999). </item>
+
+
+
+          <item>M. D. Luque de Castro, M. Valcarcel, and M. T. Tena, <emphasis effect="italics">Analytical Supercritical Fluid Extraction</emphasis>, Springer-Verlag, Berlin (1994).</item>
+
+
+<item>D. A. Skoog and J. J. Leary, <emphasis effect="italics">Principles of Instrumental Analysis</emphasis>, Saunders College Publishing, Philadelphia (1992).</item>
+
+          <item>L. T. Taylor, <emphasis effect="italics">Supercritical Fluid Extraction</emphasis>, Wiley-Interscience Publication, New York, (1996). </item></list></section></content>
+</document>

@@ -1,0 +1,99 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>A Simple Test Apparatus to Verify the Photoresponse of Experimental Photovoltaic Materials and Prototype Solar Cells</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42271</md:content-id>
+  <md:title>A Simple Test Apparatus to Verify the Photoresponse of Experimental Photovoltaic Materials and Prototype Solar Cells</md:title>
+  <md:abstract/>
+  <md:uuid>de0f55e2-5674-4ece-8920-b6657a2d1b2a</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1164877739548">
+      <title>Introduction</title>
+      <para id="id1164882729238">One of the problems associated with testing a new unproven photovoltaic material or cell design is that significant processing required in order to create a fully functioning solar cell. If it is desired to screen a wide range of materials or synthetic conditions it can be time consuming (and costly of research funds) to prepare fully functioning devices. In addition, the success of each individual cell may be more dependent on fabrication steps not associated with the variations under study. For example, lithography and metallization could cause more variability than the parameters of the materials synthesis. Thus, the result could be to give no useful information as to the viability of each material under study, or even worse a false indication of research direction. </para>
+      <para id="id1164883752189">So-called <emphasis effect="italics">quick and dirty</emphasis> qualitative measurements can be employed to assess not only the relative photoresponse of new absorber layer materials, but also the relative power output of photovoltaic devices. The measurement procedure can provide a simple, inexpensive and rapid evaluation of cell materials and structures that can help guide the development of new materials for solar cell applications. </para>
+    </section>
+    <section id="id1164887257639">
+      <title>Equipment needs</title>
+      <para id="id1164913669839">Everything needed for the measurements can be purchased at a local electronics store and a hardware or big box store. Needed items are: </para>
+      <list id="id1164890067242" list-type="bulleted"><item>Two handheld digital voltmeter with at least  ±0.01 mV sensitivity (0.001 mV is better, of course). </item>
+        <item>A simple breadboard and associated wiring kit. </item>
+        <item>A selection of standard size and wattage resistors (<sup>1</sup>/<sub>8</sub> - 1 Watt, 1 - 1000 ohms). </item>
+        <item>A selection of wire wound potentiometers (0 - 10 ohms; 0 - 100 ohms; 0 - 1000 ohms) if I-V tracing is desired. </item>
+        <item>A light source. This can be anything from a simple flood light to an old slide projector. </item>
+        <item>A small fan or other cooling device for “steady state” (i.e., for measurements that last more than a few seconds such as tracing an I-V curve). </item>
+        <item>9 volt battery and holder or simple ac/dc low voltage power supply. </item>
+      </list>
+    </section>
+    <section id="id1164879201708"><title>Measurement of the photo-response of an experimental solar cell</title><para id="id1164887600718">A qualitative measurement of a solar cell’s current-voltage (I-V) characteristics can be obtained using the simple circuit diagram illustrated in <link target-id=" id1164883483516"/>. <link target-id=" id1164889226505"/> shows an I-V test setup using a household flood lamp for the light source. A small fan sits to the right just out of the picture. </para>
+
+        <figure id="id1164883483516"><media id="id1164883483516_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-bc35.jpg" id="id1164883483516__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Simple circuit diagram for I-V measurement of a prototype solar cell. </caption></figure>
+
+      
+      <figure id="id1164889226505"><media id="id1164889226505_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 7-9ef9.jpg" id="id1164889226505__onlineimage" width="500" print-width="5in"/>
+        </media>
+      <caption>Simple test apparatus for qualitative measurement of the current-voltage output from an experimental thin film solar cell. </caption></figure>
+      
+      <para id="id1164891026074">Driving the potentiometer to its maximum value will place the cell close to open circuit operation, depending on the potentiometer range, so that the open circuit voltage can be simply extrapolated from the I versus V curve. If desired, the circuit can simply be opened to make the actual measurement once the rest of the data have been recorded. Data in this case were simply recorded by hand and later entered into a spreadsheet so an I-V plot could be generated. A sample plot is shown in <link target-id="idDennis1"/>. Keep in mind that cell efficiency cannot be determined with this technique unless the light source has been calibrated and color corrected to match terrestrial sunlight. The fact that the experimental device actually generated net power was the result sought. The shape of the curve and the very low voltage are the result of very large resistive losses in the device along with a very “leaky” junction. </para>
+
+
+        <figure id="idDennis1"><media id="idDennis1_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Dennis 1.jpg" id="idDennis1__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+        <caption>A sample plot of I-V data taken with test setup shown in <link target-id=" id1164883483516"/> and <link target-id=" id1164889226505"/>.</caption></figure>
+
+
+
+
+      <para id="id1164889457495">One improvement that can be made to the above system is to replace the floodlight with a simple slide projector. The floodlight will typically have a spectrum very heavily weighted in the red and infrared and will be deficient in the shorter wavelengths. Though still not a perfect match to the solar spectrum, the slide projector does at least have more output at the shorter wavelengths; at the same time it will have less IR output compared to the floodlight and the combination should give a somewhat more representative response. A typical set up is shown in <link target-id=" id1164909597908"/>. </para>
+
+        <figure id="id1164909597908"><media id="id1164909597908_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 9-5321.jpg" id="id1164909597908__onlineimage" width="500" print-width="5in"/>
+          </media>
+        <caption>Test setup using a slide projector. </caption></figure>
+      
+
+
+      <para id="id1164920188145">The mirror in <link target-id=" id1164909597908"/> serves two purposes. First, it turns the beam so the test object can be laid flat a measurement bed and second it serves to collimate and concentrate the beam by focusing it on a smaller area, giving a better approximation of terrestrial solar intensity over a range of intensities such as AM2 (air mass 2) through AM0 (<link target-id=" id1164884567324"/>). An estimate of the intensity can be made using a calibrated silicon solar cell of the sort that can be purchased online from any of several scientific hobby shops such as Edmunds Scientific. While still far from enabling a quantitative measurement of device output, the technique will at least provide indications within a ballpark range of actual cell efficiency. </para>
+      <figure id="id1164884567324"><media id="id1164884567324_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-9ff5.jpg" id="id1164884567324__onlineimage" width="400" print-width="4in"/>
+        </media>
+      <caption>Solar irradiance spectrum at AM 0 (yellow) and AM2 (red). Adapted from M. Pagliaro, G. Palmisano, and R. Ciriminna, <emphasis effect="italics">Flexible Solar Cells, </emphasis>John Wiley, New York (2008).</caption></figure>
+      
+      <para id="id1164910731684"><link target-id=" id1900994"/> shows a measurement made with the test device placed at a distance from the mirror for which the intensity was previously determined to be equivalent to AM1 solar intensity, or 1000 watts per square meter. Since the beam passes through the projector lens and reflects from the second surface of the slightly concave mirror, there is essentially no UV light left in the beam that could be harmful to the naked eye. Still, if this technique is used, it is recommended that observations be made through a piece of ordinary glass such as eyeglasses or even a small glass shield inserted for that purpose. The blue area in the figure represents the largest rectangle that can be drawn under the curve and gives the maximum output power of the cell, which is simply the product of the current and voltage at maximum power. </para>
+      
+      <note id="eip-482"><link target-id="idDennis1"/> is a plot of current density, obtained by dividing the current from the device by its area. It is common to normalize the output is this manner.</note><para id="id1164902566463">If the power density of the incident light (P<sub>0</sub>) is known in W/cm<sup>2</sup>, the device efficiency can be obtained by dividing the maximum power (as determined from I<sub>m</sub> and V<sub>m</sub>) by the incident power density times the area of the cell (A<sub>cell</sub>), <link target-id="eip-414"/>. </para>
+      
+      <equation id="eip-414"><media id="id111test_media" alt="">        <image mime-type="image/jpg" src="../../media/graphics3-08aa.jpg" id=" id111test__onlineimage" width="450" print-width="4in"/></media></equation><figure id="id1900994"><media id="id1900994_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 8-fe6f.jpg" id="id1900994__onlineimage" width="500" print-width="5in"/>
+        </media>
+      <caption>The picture shows the relative brightness of the light beam at an approximate intensity of 1000 W/m<sup>2</sup>. A small concave mirror serves to both turn the beam and to concentrate it a small amount to reach that level. </caption></figure>
+      
+    </section>
+    <section id="id1164879715673">
+      <title>Measurement of the photoconductivity of experimental photovoltaic materials </title>
+      <para id="id1164913618650">In many cases it is beneficial to determine the photoconductivity of a new material prior to cell fabrication. This allows for the rapid screening of materials or synthesis variable of a single material even before issues of cell design and construction are considered. </para>
+      <para id="id1164881603362"><link target-id=" id1164883533268"/> shows the circuit diagram of a simple photoconductivity test made with a slightly different set up compared to that shown above. In this case a voltage is placed across the sample after it has been connected to a resistor placed in series with the sample. A simple 9 V battery secured with a battery holder or a small ac to dc power converter can be used to supply the voltage. The sample and resistor sit inside a small box with an open top. </para>
+      <figure id="id1164883533268"><media id="id1164883533268_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4-7f72.jpg" id="id1164883533268__onlineimage" width="300" print-width="3in"/>
+        </media>
+      <caption>Circuit diagram for simple photoconductance test. </caption></figure>
+      
+      <para id="id1164896663103">The voltage across (in this case) the 10 ohm resister was measured with a shutter held over the sample (a simple piece of cardboard sitting on the top of the box) and with the shutter removed. The difference in voltage is a direct indication of the change in the photoconductance of the sample and again is a very quick and simple test to see if the material being developed does indeed have a photoresponse of some sort without having to make a full device structure. Adjusting the position of the light source so that the incident light power density at the sample surface is 200 or 500 or 1000 W/m<sup>2</sup> enables an approximate numerical estimate of the photocurrent that was generated and again can help guide the development of new materials for solar cell applications. The results from such a measurement are shown in <link target-id=" idDennis2"/> for a sample of carbon nanotubes (CNT) coated with CdSe by liquid phase deposition (LPD). </para>
+   
+        <figure id="idDennis2"><media id="idDennis2_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Dennis 2.jpg" id="idDennis2__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Photoresponse of a carbon nanotube (CNT) carpet coated with CdSe by liquid phase deposited. </caption></figure>
+
+
+
+
+
+    </section>
+  </content>
+</document>

@@ -1,0 +1,238 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>NMR Spin Coupling</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43551</md:content-id>
+  <md:title>NMR Spin Coupling</md:title>
+  <md:abstract/>
+  <md:uuid>93b215dd-a6a3-4b55-a062-439eb828a07f</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164902994098">
+      <title>The basis of spin coupling</title>
+      <para id="import-auto-id1164903082505">Nuclear magnetic resonance (NMR) signals arise when nuclei absorb a certain radio frequency and are excited from one spin state to another. The exact frequency of electromagnetic radiation that the nucleus absorbs depends on the magnetic environment around the nucleus. This magnetic environment is controlled mostly by the applied field, but is also affected by the magnetic moments of nearby nuclei. Nuclei can be in one of many spin states (<link target-id="import-auto-id1164901866007"/>), giving rise to several possible magnetic environments for the observed nucleus to resonate in. This causes the NMR signal for a nucleus to show up as a multiplet rather than a single peak. </para><figure id="import-auto-id1164901866007"><media id="import-auto-id1164905201596" alt="">
+          <image mime-type="image/png" src="../../media/Energy States.png" width="350" print-width="3.5in"/>
+        </media>
+      <caption>The different spin states of a nucleus (I = <sup>1</sup>/<sub>2</sub>) in a magnetic field. These different states increase or decrease the effective magnetic field experienced by a nearby nucleus, allowing for two distinct signals.</caption></figure><para id="import-auto-id1164908473471">When nuclei have a spin of I = <sup>1</sup>/<sub>2</sub> (as with protons), they can have two possible magnetic moments and thus split a single expected NMR signal into two signals. When more than one nucleus affects the magnetic environment of the nucleus being examined, complex multiplets form as each nucleus splits the signal into two additional peaks. If those nuclei are magnetically equivalent to each other, then some of the signals overlap to form peaks with different relative intensities. The multiplet pattern can be predicted by Pascal’s triangle (<link target-id="import-auto-id1164904393495"/>), looking at the <emphasis effect="italics">n</emphasis><sup>th</sup> row, where <emphasis effect="italics">n</emphasis> = number of nuclei equivalent to each other but <emphasis effect="italics">not</emphasis> equivalent to the one being examined. In this case, the number of peaks in the multiplet is equal to <emphasis effect="italics">n</emphasis> + 1</para><figure id="import-auto-id1164904393495"><media id="import-auto-id1164902486535" alt="">
+          <image mime-type="image/png" src="../../media/Pascals Triangle.png" width="500" print-width="5in"/>
+        </media>
+      <caption>Pascal’s triangle predicts the number of peaks in a multiplet and their relative intensities.</caption></figure><para id="import-auto-id1164902872706">When there is more than one type of nucleus splitting an NMR signal, then the signal changes from a multiplet to a group of multiplets (<link target-id="import-auto-id1164902872020"/>). This is caused by the different <emphasis effect="italics">coupling constants</emphasis> associated with different types of nuclei. Each nucleus splits the NMR signal by a different width, so the peaks no longer overlap to form peaks with different relative intensities. </para><figure id="import-auto-id1164902872020"><media id="import-auto-id1164905260756" alt="">
+          <image mime-type="image/png" src="../../media/Splitting Tree.png" width="400" print-width="4in"/>
+        </media>
+      <caption>The splitting tree of different types of multiplets. </caption></figure><para id="import-auto-id1164902834282">When nuclei have I &gt; <sup>1</sup>/<sub>2</sub>, they have more than two possible magnetic moments and thus split NMR signals into more than two peaks. The number of peaks expected is 2I + 1, corresponding to the number of possible orientations of the magnetic moment. In reality however, some of these peaks may be obscured due to quadrupolar relaxation. As a result, most NMR focuses on I = <sup>1</sup>/<sub>2</sub> nuclei such as <sup>1</sup>H, <sup>13</sup>C, and <sup>31</sup>P.</para><para id="import-auto-id1164901824399">Multiplets are centered around the chemical shift expected for a nucleus had its signal not been split. The total area of a multiplet corresponds to the number of nuclei resonating at the given frequency.</para>
+    </section>
+    <section id="import-auto-id1164902967297">
+      <title>Spin coupling in molecules</title>
+      <para id="import-auto-id1164902455990">Looking at actual molecules raises questions about which nuclei can cause splitting to occur. First of all, it is important to realize that only nuclei with I ≠ 0 will show up in an NMR spectrum. When I = 0, there is only one possible spin state and obviously the nucleus cannot flip between states. Since the NMR signal is based on the absorption of radio frequency as a nucleus transitions from one spin state to another, I = 0 nuclei do not show up on NMR. In addition, they do not cause splitting of other NMR signals because they only have one possible magnetic moment. This simplifies NMR spectra, in particular of organic and organometallic compounds, greatly, since the majority of carbon atoms are <sup>12</sup>C, which have I = 0.</para><para id="import-auto-id1164902112289">For a nucleus to cause splitting, it must be close enough to the nucleus being observed to affect its magnetic environment. The splitting technically occurs through bonds, not through space, so as a general rule, only nuclei separated by three or fewer bonds can split each other. However, even if a nucleus is close enough to another, it may not cause splitting. For splitting to occur, the nuclei must also be non-equivalent. To see how these factors affect real NMR spectra, consider the spectrum for chloroethane (<link target-id="import-auto-id1164913448463"/>)</para><figure id="import-auto-id1164913448463"><media id="import-auto-id1164904964076" alt="">
+          <image mime-type="image/png" src="../../media/Fig9-39e5.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>The NMR spectrum for chloroethane. Adapted from A. M. Castillo, L. Patiny, and J. Wist. <emphasis effect="italics">J. Magn. Reson.</emphasis>, 2010, <emphasis effect="bold">209</emphasis>, 123.</caption></figure><para id="import-auto-id1164902872118">Notice that in <link target-id="import-auto-id1164913448463"/> there are two groups of peaks in the spectrum for chloroethane, a triplet and a quartet. These arise from the two different types of I ≠ 0 nuclei in the molecule, the protons on the methyl and methylene groups. The multiplet corresponding to the CH<sub>3</sub> protons has a relative integration (peak area) of three (one for each proton) and is split by the two methylene protons (<emphasis effect="italics">n</emphasis> = 2), which results in <emphasis effect="italics">n</emphasis> + 1 peaks, i.e., 3 which is a triplet. The multiplet corresponding to the CH<sub>2</sub> protons has an integration of two (one for each proton) and is split by the three methyl protons ((<emphasis effect="italics">n</emphasis> = 3) which results in <emphasis effect="italics">n</emphasis> + 1 peaks, i.e., 4 which is a quartet.  Each group of nuclei splits the other, so in this way, they are <emphasis effect="italics">coupled</emphasis>.  </para></section>
+    <section id="import-auto-id1164903298735">
+      <title>Coupling constants</title>
+      <para id="import-auto-id1164903464979">The difference (in Hz) between the peaks of a mulitplet is called the <emphasis effect="italics">coupling constant</emphasis>. It is particular to the types of nuclei that give rise to the multiplet, and is independent of the field strength of the NMR instrument used. For this reason, the coupling constant is given in Hz, not ppm. The coupling constant for many common pairs of nuclei are known (<link target-id="eip-933"/>), and this can help when interpreting spectra.</para><table id="eip-933" summary="Typical coupling constants for various organic structural types.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Structural type</emphasis></entry>
+    <entry><emphasis effect="bold">Coupling constant (Hz)</emphasis></entry>
+  </row>
+  <row>
+    <entry><media id="idNMR2_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig10-65f0.jpg" id=" idNMR2__onlineimage" width="100" print-width="1in"/>
+        </media>
+</entry>
+    <entry>6 - 8</entry>
+  </row>
+  <row>
+    <entry><media id="idNMR3_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig11-0912.jpg" id=" idNMR3__onlineimage" width="75" print-width="0.75in"/>
+        </media>
+</entry>
+    <entry>5 - 7</entry>
+  </row>
+  <row>
+    <entry>
+<media id="idNMR4_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig12.jpg" id=" idNMR4__onlineimage" width="100" print-width="1in"/>
+        </media>
+</entry>
+    <entry>2 - 12</entry>
+  </row>
+  <row>
+    <entry>
+<media id="idNMR5_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig13.jpg" id=" idNMR5__onlineimage" width="65" print-width="0.65in"/>
+        </media>
+</entry>
+    <entry>0.5 - 3</entry>
+  </row>
+  <row>
+    <entry>
+
+<media id="idNMR6_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig14.jpg" id=" idNMR6__onlineimage" width="75" print-width="0.75in"/>
+        </media>
+</entry>
+    <entry>12 - 15</entry>
+  </row>
+  <row>
+    <entry>
+<media id="idNMR7_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig15.jpg" id=" idNMR7__onlineimage" width="70" print-width="0.7in"/>
+        </media>
+
+</entry>
+    <entry>12 - 18</entry>
+  </row>
+  <row>
+    <entry>
+
+<media id="idNMR8_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig16.jpg" id=" idNMR8__onlineimage" width="70" print-width="0.7in"/>
+        </media>
+</entry>
+    <entry>7 - 12</entry>
+  </row>
+  <row>
+    <entry>
+<media id="idNMR9_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig17.jpg" id=" idNMR9__onlineimage" width="67" print-width="0.67in"/>
+        </media>
+
+</entry>
+    <entry>0.5 - 3</entry>
+  </row>
+  <row>
+    <entry>
+
+<media id="idNMR10_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig18.jpg" id=" idNMR10__onlineimage" width="70" print-width="0.7in"/>
+        </media>
+</entry>
+    <entry>3 - 11</entry>
+  </row>
+  <row>
+    <entry>
+
+<media id="idNMR11_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig19.jpg" id=" idNMR11__onlineimage" width="110" print-width="1.1in"/>
+        </media>
+</entry>
+    <entry>2 - 3</entry>
+  </row>
+  <row>
+    <entry>
+
+<media id="idNMR12_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig20.jpg" id=" idNMR12__onlineimage" width="35" print-width="0.35in"/>
+        </media>
+
+</entry>
+    <entry><emphasis effect="italics">ortho</emphasis> = 6 - 9; <emphasis effect="italics">meta</emphasis> = 1 - 3; <emphasis effect="italics">para</emphasis> = 0 - 1</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Typical coupling constants for various organic structural types. </caption>
+</table><para id="import-auto-id1164908967300">Coupling constants are sometimes written <sup>n</sup>J to denote the number of bonds (n) between the coupled nuclei. Alternatively, they are written as <emphasis effect="italics">J</emphasis>(H-H) or <emphasis effect="italics">J</emphasis><sub>HH</sub> to indicate the coupling is between two hydrogen atoms. Thus, a coupling constant between a phosphorous atom and a hydrogen would be written as <emphasis effect="italics">J</emphasis>(P-H) or <emphasis effect="italics">J</emphasis><sub>PH</sub>. Coupling constants are calculated empirically by measuring the distance between the peaks of a multiplet, and are expressed in Hz.</para><example id="eip-746"><para id="eip-686">Coupling constants may be calculated from spectra using frequency or chemical shift data.  Consider the spectrum of chloroethane shown in <link target-id="idClMe"/> and the frequency of the peaks (collected on a 60 MHz spectrometer) given in <link target-id="eip-290"/>. </para><figure id="idClMe"><media id="ChloroethaneWithTable" alt="">
+          <image mime-type="image/png" src="../../media/Fig21.jpg" width="400" print-width="4in"/>
+        </media>
+<caption><sup>1</sup>H NMR spectrum of chloroethane. Peak positions for labeled peaks are given in <link target-id="eip-290"/>.  </caption></figure><table id="eip-290" summary="Chemical shift in ppm and Hz for all peaks in the 1H NMR spectrum of chloroethane collected on a 60 MHz spectrometer.">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Peak label</emphasis></entry>
+    <entry><emphasis effect="bold">δ (ppm)</emphasis></entry>
+    <entry><emphasis effect="bold">ν (Hz)</emphasis></entry>
+  </row>
+  <row>
+    <entry>a</entry>
+    <entry>3.7805</entry>
+    <entry>226.83</entry>
+  </row>
+  <row>
+    <entry>b</entry>
+    <entry>3.6628</entry>
+    <entry>219.77</entry>
+  </row>
+  <row>
+    <entry>c</entry>
+    <entry>3.5452</entry>
+    <entry>212.71</entry>
+  </row>
+  <row>
+    <entry>d</entry>
+    <entry>3.4275</entry>
+    <entry>205.65</entry>
+  </row>
+  <row>
+    <entry>e</entry>
+    <entry>1.3646</entry>
+    <entry>81.88</entry>
+  </row>
+  <row>
+    <entry>f</entry>
+    <entry>1.2470</entry>
+    <entry>74.82</entry>
+  </row>
+  <row>
+    <entry>g</entry>
+    <entry>1.1293</entry>
+    <entry>67.76</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup><caption>Chemical shift in ppm and Hz for all peaks in the <sup>1</sup>H NMR spectrum of chloroethane. Peak labels are given in <link target-id="idClMe"/>. </caption>
+</table><para id="eip-542">To determine the coupling constant for a multiplet (in this case, the quartet in  <link target-id="idClMe"/>),  the difference in frequency (ν) between each peak is calculated and the average of this value provides the coupling constant in Hz. For example using the data from <link target-id="eip-290"/>:
+</para><para id="eip-375">Frequency of peak c - frequency of peak d = 212.71 Hz – 205.65 Hz = 7.06 Hz</para><para id="eip-449">Frequency of peak b - frequency of peak c = 219.77 Hz – 212.71 Hz = 7.06 Hz</para><para id="eip-13">Frequency of peak a - frequency of peak b = 226.83 Hz – 219.77 Hz = 7.06 Hz</para><para id="eip-441">Average: 7.06 Hz
+</para><para id="eip-243">∴ <emphasis effect="italics">J</emphasis>(H-H) = 7.06 Hz</para><note id="eip-653">In this case the difference in frequency between each set of peaks is the same and therefore an average determination is not strictly necessary. In fact for 1<sup>st</sup> order spectra they should be the same. However, in some cases the peak picking programs used will result in small variations, and thus it is necessary to take the trouble to calculate a true average. </note><para id="eip-95">To determine the coupling constant of the same multiplet using chemical shift data (δ), calculate the difference in ppm between each peak and average the values. Then multiply the chemical shift by the spectrometer field strength (in this case 60 MHz), in order to convert the value from ppm to Hz:</para><para id="eip-5">Chemical shift of peak c - chemical shift of peak d = 3.5452 ppm – 3.4275 ppm = 0.1177 ppm</para><para id="eip-751">Chemical shift of peak b - chemical shift of peak c = 3.6628 ppm – 3.5452 ppm = 0.1176 ppm</para><para id="eip-812">Chemical shift of peak a - chemical shift of peak b = 3.7805 ppm – 3.6628 ppm = 0.1177 ppm</para><para id="eip-888">Average: 0.1176 ppm</para><para id="eip-88">Average difference in ppm x frequency of the NMR spectrometer = 0.1176 ppm x 60 MHz = 7.056 Hz</para><para id="eip-271">∴ <emphasis effect="italics">J</emphasis>(H-H) = 7.06 Hz</para></example><exercise id="eip-580"><problem id="eip-432">
+  <para id="eip-856">Calculate the coupling constant for triplet in the spectrum for chloroethane (<link target-id="idClMe"/>) using the data from <link target-id="eip-290"/>.</para></problem>
+
+<solution id="eip-500">
+  <para id="eip-556">Using frequency data:
+<newline/>Frequency of peak f - frequency of peak g = 74.82 Hz – 67.76 Hz = 7.06 Hz
+<newline/>Frequency of peak e - frequency of peak f = 81.88 Hz – 74.82 Hz = 7.06 Hz
+<newline/>Average = 7.06 Hz
+<newline/>∴ <emphasis effect="italics">J</emphasis>(H-H) = 7.06 Hz
+<newline/>
+<newline/>Alternatively, using chemical shift data:
+<newline/>Chemical shift of peak f - chemical shift of peak g = 1.2470 ppm – 1.1293 ppm = 0.1177 ppm
+<newline/>Chemical shift of peak e - chemical shift of peak f = 1.3646 ppm – 1.2470 ppm = 0.1176 ppm
+<newline/>Average = 0.11765 ppm
+<newline/>0.11765 ppm x 60 MHz = 7.059 Hz
+<newline/>∴ <emphasis effect="italics">J</emphasis>(H-H) = 7.06 Hz
+<newline/>
+<newline/>Notice the coupling constant for this multiplet is the same as that in the example. This is to be expected since the two multiplets are coupled with each other.</para></solution>
+</exercise></section>
+    <section id="import-auto-id1164902166907">
+      <title>Second-order coupling</title>
+      <para id="import-auto-id1164903308741">When coupled nuclei have similar chemical shifts (more specifically, when Δν is similar in magnitude to <emphasis effect="italics">J</emphasis>), <emphasis effect="italics">second-order coupling</emphasis> or <emphasis effect="italics">strong coupling</emphasis> can occur. In its most basic form, second-order coupling results in “roofing” (<link target-id="import-auto-id1164903277310"/>). The coupled multiplets point to or lean toward each other, and the effect becomes more noticeable as Δν decreases. The multiplets also become off-centered with second-order coupling. The midpoint between the peaks no longer corresponds exactly to the chemical shift.</para><figure id="import-auto-id1164903277310"><media id="import-auto-id1164902167596" alt="">
+          <image mime-type="image/png" src="../../media/Fig22-1ae2.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>Roofing can be seen in the NMR spectrum of chloroethane. Adapted from A. M. Castillo, L. Patiny, and J. Wist, <emphasis effect="italics">J. Magn. Reson.</emphasis>, 2010, <emphasis effect="bold">209</emphasis>, 123.</caption></figure><para id="import-auto-id1164906464569">In more drastic cases of strong coupling (when Δν ≈ <emphasis effect="italics">J</emphasis>), multiplets can merge to create deceptively simple patterns. Or, if more than two spins are involved, entirely new peaks can appear, making it difficult to interpret the spectrum manually. Second-order coupling can often be converted into first-order coupling by using a spectrometer with a higher field strength. This works by altering the Δν (which is dependent on the field strength), while <emphasis effect="italics">J</emphasis> (which is independent of the field strength) stays the same. </para></section>
+    <section id="import-auto-id1164903968751">
+      <title>Bibliography</title>
+      <list id="import-auto-id1164908105994" list-type="bulleted"><item>E. D. Becker, <emphasis effect="italics">High Resolution NMR: Theory and Chemical Applications</emphasis>, 3<sup>rd</sup> ed., Academic Press, San Diego (2000).</item>
+      <item>A. M. Castillo, L. Patiny, and J. Wist, <emphasis effect="italics">J. Magn. Reson.</emphasis>, 2010, <emphasis effect="bold">209</emphasis>, 123.</item>
+        <item>H. Günther, <emphasis effect="italics">NMR Spectroscopy</emphasis>, 2<sup>nd</sup> ed., John Wiley &amp; Sons Inc., New York (1994).</item>
+        <item>P. J. Hore, <emphasis effect="italics">Nuclear Magnetic Resonance</emphasis>, Oxford University Press Inc., New York (1995).</item>
+        <item>N. E. Jacobsen, <emphasis effect="italics">NMR Spectroscopy Explained: Simplifiedd Theory, Applications and Examples for Organic Chemistry and Structural Biology</emphasis>, John Wiley &amp; Sons Inc., Hoboken, New Jersey (2007).</item>
+        <item>J. Keeler, <emphasis effect="italics">Understanding NMR Spectroscopy</emphasis>, John Wiley &amp; Sons Inc., Hoboken, New Jersey (2005).</item>
+</list></section>
+  </content>
+</document>

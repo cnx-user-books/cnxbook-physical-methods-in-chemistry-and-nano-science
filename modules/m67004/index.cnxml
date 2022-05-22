@@ -1,0 +1,365 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>EIS for Battery Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m67004</md:content-id>
+  <md:title>EIS for Battery Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>511fda4d-375e-494a-8a1f-f3494e3443ef</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm1034132944">
+      <title>Introduction</title>
+      <para id="import-auto-idm401569824">Electrochemical impedance spectroscopy (EIS) is an analytical technique developed in the late 19<sup>th</sup> century. Through the years, this technique has gained a lot of attention since it can be used in many areas of materials research and analysis, for example energy storage devices, corrosion studies and prevention, conductivity in polymers, electrochemical kinetics of a reaction, semiconductors and others electrochemical systems and processes. EIS is a powerful technique to study processes such as adsorption, mass and charge transfer and kinetics of both sequential or parallel reactions. There are chemical systems such as batteries and other energy storage devices in which different reactions takes places at the same time, this technique can distinguish single reactions by deconvoluting of the results. </para><section id="import-auto-idm1033704320"><title>A brief history of EIS</title><para id="import-auto-idm1031731808">EIS was developed from the early studies by Heaviside (<link target-id="OH11"/>) and Warburg (<link target-id="EW11"/>) in the late 19<sup>th</sup> century, but over the years it has been evolving with the development of modern mathematical methods and electrical engineering techniques. A general idea of the EIS evolution with the main scientists who contributed to the technique is shown in <link target-id="import-auto-idm371847168"/>.</para><figure id="OH11"><media id="OH1" alt="">
+    <image mime-type="image/jpg" src="../../media/Oheaviside.jpg" width="300" print-width="2in"/>
+  </media>
+<caption>Self taught English electrical engineer Oliver Heaviside, FRS (1850-1925).</caption></figure><figure id="EW11">
+<media id="EW1" alt="">
+    <image mime-type="image/jpg" src="../../media/Emil_Gabriel_Warburg_(1846-1931).jpg" width="300" print-width="2in"/>
+  </media>
+<caption> German physicist Emil Gabriel Warburg (1846-1931). </caption></figure>
+
+
+
+<figure id="import-auto-idm371847168"><media id="import-auto-idm1205234032" alt="">
+            <image mime-type="image/png" src="../../media/Picture 3-1a70.png" width="500" print-width="5in"/>
+          </media>
+        <caption>Timeline of electrochemical impedance spectroscopy (EIS) evolution.</caption></figure></section><section id="import-auto-idm387352736">
+        <title>What is EIS? </title>
+        <para id="import-auto-idm346632400">The electrochemical impedance spectroscopy is a non-destructive electroanalytical technique that allow the identification of single reactions that are taking places at the same time. The term impedance refers to the resistance of a material to allow electric current to flow, it is used as an analogy to resistance but for more complex systems.  </para>
+        <para id="import-auto-idm1287427664">As impedance is used in complex systems, it is said to be composed of a real part and an imaginary part. The real part or the real impedance demonstrate the ability of the system or circuit to resist the flow of electrical current (resistance) while the imaginary part reflects the ability of the system to store electrical energy (capacitance). In general, in this electrochemical technique, a small sinusoidal potential excitation is applied to an electrochemical system that is in equilibrium and the phase and amplitude of the current response are measured, see <link target-id="import-auto-idm1042189760"/>. </para><figure id="import-auto-idm1042189760"><media id="import-auto-idm1164383600" alt="">
+            <image mime-type="image/png" src="../../media/Picture 5-e4a2.png" width="200" print-width="2in"/>
+          </media>
+        <caption>Schematic representation of the basic principle of electrochemical impedance spectroscopy.</caption></figure><para id="import-auto-idm1205836496">If a small sinusoidal potential excitation is applied to a system, the response (current) will also be a linear (or pseudo-linear) synodal wave but shifted in phase (<link target-id="import-auto-idm1196855344"/>). </para><figure id="import-auto-idm1196855344"><media id="import-auto-idm1051335776" alt="">
+            <image mime-type="image/png" src="../../media/Picture 7-b788.png" width="250" print-width="2.5in"/>
+          </media>
+        <caption>Representation of a sinusoidal excitation and response.</caption></figure><para id="import-auto-idm1311851440">As both the excitation and the response follow a sinusoidal behavior, the mathematical expression for the potential excitation and the current response could be as defined as <link target-id="eip-233"/> and <link target-id="eip-405"/>, respectively, where E is the potential at time t, E<sub>o</sub> is the initial potential (t = 0), w is the radial frequency, I is the current at time t, I<sub>o</sub> is the initial potential (t = 0), and  <emphasis effect="italics">ϕ</emphasis> is the phase. As it can be seen in <link target-id="eip-233"/> and <link target-id="eip-405"/>, the excitation and the response are both frequency dependent terms. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-233"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>E</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>E</m:mi>
+                    <m:mi>o</m:mi>
+                  </m:msub>
+                </m:mrow>
+                <m:mi>sin</m:mi>
+                <m:mi>⁡</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi mathvariant="italic">wt</m:mi>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">E= {E} rsub {o} sin⁡ (wt)</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-405"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>I</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>I</m:mi>
+                    <m:mi>o</m:mi>
+                  </m:msub>
+                </m:mrow>
+                <m:mi>sin</m:mi>
+                <m:mi>⁡</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">wt</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>ϕ</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">I= {I} rsub {o} sin⁡ (wt + ϕ )</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm1015401344">The indicial impedance (or the time-varying resistance) of a system can be calculated in an analogous form to the resistance, that is, using Ohm’s law (<link target-id="eip-350"/>). </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-350"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mi>R</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mi>E</m:mi>
+                  <m:mi>I</m:mi>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">R=  {E} over {I}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm1036991472">In impedance (Z), the ratio of the applied potential and the measured current is also calculated based on <link target-id="eip-233"/> – <link target-id="eip-350"/> as <link target-id="eip-830"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-830"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mi>Z</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mi>E</m:mi>
+                  <m:mi>I</m:mi>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>E</m:mi>
+                      <m:mi>o</m:mi>
+                    </m:msub>
+                    <m:mi>sin</m:mi>
+                    <m:mi>⁡</m:mi>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi mathvariant="italic">wt</m:mi>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+                      <m:mi>o</m:mi>
+                    </m:msub>
+                    <m:mi>sin</m:mi>
+                    <m:mi>⁡</m:mi>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi mathvariant="italic">wt</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>ϕ</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">Z=  {E} over {I} =  {{E} rsub {o} sin⁡ (wt)} over {{I} rsub {o} sin⁡ (wt + ϕ )}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm1297967920">The impedance that is usually reported in EIS experiments is the Fourier or Laplace-transformed value in frequency domain resulting in a frequency-dependent impedance. The way in which the measurements are collected for this type of electrochemical characterization are as follows: </para><list id="import-auto-idm335831872" list-type="enumerated" number-style="arabic"><item>A small sinusoidal potential of a fixed frequency is applied to the system. </item>
+          <item>Current is measured as a function of the potential. </item>
+          <item>Calculation of the impedance is done using <link target-id="eip-830"/>. </item>
+          <item>Steps 1 to 3 are repeated for a range of frequencies</item>
+          <item>Fourier or Laplace transform is generally applied to the results to obtain the frequency-dependent impedance. </item>
+        </list><para id="import-auto-idm1304985248">EIS data can be expressed in two ways: a vector or a complex quantity, see <link target-id="import-auto-idm1060066288"/>. The vector can be defined by the impedance magnitude and the phase angle while the complex quantity can be defined as the sum of the imaginary part and the real part of the impedance. Both ways are mathematically equivalent. </para><figure id="import-auto-idm1060066288"><media id="import-auto-idm1060066160" alt="">
+            <image mime-type="image/png" src="../../media/Picture 10-6380.png" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Representation of impedance as a vector (left) and as a complex quantity (right).</caption></figure><para id="import-auto-idm336121824">In this technique, one single impedance value is obtained by applying a single-frequency potential to the system and the current is obtained as the response. In order to obtain a full characterization of the material, a broad range of frequencies must be used. Once several measurements of impedance at different frequencies are determined, the results can be plot in many ways, two of the most used plots are the Nyquist and the Bode plot (<link target-id="import-auto-idm1036968944"/>).</para><figure id="import-auto-idm1036968944"><media id="import-auto-idm360197456" alt="">
+            <image mime-type="image/png" src="../../media/Picture 39-70f8.png" width="500" print-width="5in"/>
+          </media>
+        <caption>Nyquist plot (left) and Bode plot (center and right).</caption></figure><para id="import-auto-idm359701536">As it can be seen in <link target-id="import-auto-idm1036968944"/>, the Nyquist plot shows the imaginary part of the impedance as a function of the real part of the impedance where the results at high frequency are shown in the left part of the plot while the results at low frequency are shown in the right part of the plot but the frequency of each point is not explicitly shown in the plot. In this type of plot, the results are shown as semicircles and/or a linear part at low frequency, depending on the material that is being analyzed.</para><para id="import-auto-idm338375168">On the other hand, the Bode plot (<link target-id="import-auto-idm1036968944"/>) is composed of two graphs, one showing the magnitude of the impedance of the material as a function of frequency and the second plot shows the phase angle of the response as a function of the frequency. </para><para id="import-auto-idm367203424">Any of these two types of impedance plots can be used as they can offer the same information but there are some advantages and disadvantages by plotting the results as a Nyquist plot or a Bode plot, some of them are summarized on <link target-id="import-auto-idm1107130032"/>. </para><table id="import-auto-idm1107130032" summary="Comparison between the Nyquist and Bode plot.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>Nyquist plot</entry>
+                <entry>Bode plot</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Individual charge transfer processes can be resolved</entry>
+                <entry>Individual charge transfer processes can be resolved</entry>
+              </row>
+              <row>
+                <entry>Small impedances and large impedances can be swamped</entry>
+                <entry>Small impedances in presence of large impedances can easily be identified</entry>
+              </row>
+              <row>
+                <entry>Frequency is not explicit</entry>
+                <entry>Frequency is explicit</entry>
+              </row>
+              <row>
+                <entry>Just one figure is needed </entry>
+                <entry>Two figures are needed, one for the frequency and the other for phase</entry>
+              </row>
+              <row>
+                <entry>The plot goes from high frequency (left) to low frequency region (right)</entry>
+                <entry>Plot as normal frequency or logarithm of the frequency. </entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Comparison between the Nyquist and Bode plot.</caption>
+</table><para id="import-auto-idm356966368">Once the results are plotted, analysis of the plot must be performed to deconvolute the plot into individual reactions and processes. For this analysis, a fit of the results must be done using a circuit model. Any electrochemical cell can be represented in terms of an equivalent circuit model. These circuit models are composed of a combination of the three basics components in a circuit; these are: resistors, capacitor and inductor. One example of an equivalent circuit model is shown in <link target-id="import-auto-idm388179840"/>. </para><figure id="import-auto-idm388179840"><media id="import-auto-idm388179712" alt="">
+            <image mime-type="image/png" src="../../media/Picture 87.png" width="200" print-width="2in"/>
+          </media>
+        <caption>Example of a basic electric circuit for an electrochemical system.</caption></figure><para id="import-auto-idm1024718912">Electrochemical systems, such as the reaction between an electrolyte and the surface of an electrode in a battery, can be modeled as a traditional circuit. One example that can be used for modeling of electrochemical systems is shown in <link target-id="import-auto-idm388179840"/>, where C<sub>DL</sub> stands for capacitance of the double layer in the electrochemical system, R<sub>P</sub> and R<sub>U</sub> stands for electro-transfer resistance and uncompensated electrolyte resistance, respectively. Each symbol and its impedance value are presented in <link target-id="import-auto-idm392307392"/>, where j = √-1, ω = 2πf (rad/s), f = frequency (Hz or cycles/s). </para><table id="import-auto-idm392307392" summary="Basic elements used in circuits.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+
+              <row>
+                                <entry>Element</entry>
+<entry>Symbol</entry>
+                <entry>Impedance (units)</entry>
+
+              </row>
+
+
+            </thead>
+            <tbody>
+              <row>
+                <entry>Resistor</entry>
+                <entry>
+                 <media id="import-auto-idm397049280" alt="">
+                      <image mime-type="image/png" src="../../media/Picture 50.png" width="75" print-width="0.75in"/>
+                    </media>
+                  
+                </entry>
+
+                <entry>Z = R (Ohms)</entry>
+  </row>
+              <row>
+                <entry>Capacitor
+                
+                
+                </entry>
+                <entry>  <media id="import-auto-idm1308179488" alt="">
+                      <image mime-type="image/png" src="../../media/Picture 51.png" width="75" print-width="0.75in"/>
+                    </media></entry>
+                <entry>Z = -j/ωC (Farads)</entry>
+  </row>
+              <row>
+                <entry>
+
+Inductor
+                
+
+               
+                </entry>
+                <entry><media id="import-auto-idm401219392" alt="">
+                      <image mime-type="image/png" src="../../media/Picture 52.png" width="75" print-width="0.75in"/>
+                    </media></entry>
+                <entry>Z = jωL (Henrys)</entry>
+  </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Basic elements used in circuits.</caption>
+</table><para id="import-auto-idm1008368320">After the fit of the results, information about resistance and conductivity of individual reactions and processes would be obtained. The parameters that can be obtained from a EIS experiment are divided in two main categories depending on what is begin studied, these are presented in <link target-id="import-auto-idm1196462000"/>. </para><table id="import-auto-idm1196462000" summary="Parameters that can be obtained from an EIS experiment categorized depending on the studied region of the system.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>Material</entry>
+                <entry>Electrode-material interface</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Conductivity</entry>
+                <entry>Adsorption rate constant</entry>
+              </row>
+              <row>
+                <entry>Dielectric constant</entry>
+                <entry>Reaction rate constant</entry>
+              </row>
+              <row>
+                <entry>Charge mobility</entry>
+                <entry>Capacitance of the interface region</entry>
+              </row>
+              <row>
+                <entry>Equilibrium concentration of the charged particles</entry>
+                <entry>Diffusion coefficient of species</entry>
+              </row>
+            </tbody>
+          
+
+</tgroup><caption>Parameters that can be obtained from an EIS experiment categorized depending on the studied region of the system.</caption>
+</table><para id="import-auto-idm401412832">This technique is one of the most important electrochemical characterization techniques in energy storage field. Scientist working in this field use this technique to characterize the electrochemical properties of the materials used in their batteries systems. Herein, three examples of the EIS analysis performed on batteries are briefly explained.</para>
+      </section>
+      </section>
+
+<section id="import-auto-idm1010884896">
+        <title>EIS for battery analysis</title>
+        <para id="import-auto-idm1029586736">There are many battery analysis techniques but EIS is of the most used techniques since information about electron and mass transfer as well of resistance of the material can be obtained in one single experiment. For example, <link target-id="import-auto-idm353429696"/> shows a typical Nyquist plot for a battery.  </para><figure id="import-auto-idm353429696"><media id="import-auto-idm1205975840" alt="">
+            <image mime-type="image/png" src="../../media/Picture 11-0505.png" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Schematic representation of a typical Nyquist plot of a battery.</caption></figure><para id="import-auto-idm369724640">Herein, three types of batteries were taken as case studies. The commercial Li-ion battery, the Li-S battery that is one of the most promising battery technologies and the commercial Pb-acid battery used in non-electric vehicles. </para>
+      </section>
+      <section id="import-auto-idm401412960"><title>Analysis of Li-ion batteries </title><para id="import-auto-idm1043480416">The lithium-ion battery was first proposed by Dr. John Goodenough (<link target-id="JG11"/>) by using a graphite anode and a cobalt oxide material as the cathode.  This technology was the first one to be commercialized and nowadays is the most used technology in electronic devices such as cellphones and in battery electric vehicles. In this type of technology, Li ions move from the anode (the lithiated graphite) to the cathode (the cobalt oxide material) during the discharge process, that is when the energy of the battery is begin consumed, as shown in <link target-id="import-auto-idm1065645248"/>. And during the charge process, the Li ions move back from the anode to the cathode. </para><figure id="JG11">
+<media id="JG1" alt="">
+    <image mime-type="image/jpg" src="../../media/goodenough_john.jpg" width="300" print-width="2in"/>
+  </media>
+<caption> German-born American solid-state physicist credited for the identification and development of the Li-ion rechargeable battery (1922-). </caption></figure>
+
+
+<figure id="import-auto-idm1065645248"><media id="import-auto-idm384234448" alt="">
+            <image mime-type="image/png" src="../../media/Picture 4-0203.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic representation of a lithium-ion battery using a lithiated graphite anode and a cobalt oxide cathode. This technology was originally proposed by Dr. John B. Goodenough (<link target-id="JG11"/>).</caption></figure><para id="import-auto-idm1011965648">A typical result of a Nyquist plot for a Li-ion battery is presented in <link target-id="import-auto-idm1198060192"/>. By analyzing <link target-id="import-auto-idm1198060192"/> it was concluded that the charge-transfer resistance, which can be seen by looking at the diameter of the semicircle at the high frequency region, is lower for the lithiated state of the battery compared to the delithiated state. </para><figure id="import-auto-idm1198060192"><media id="import-auto-idm334612704" alt="">
+            <image mime-type="image/png" src="../../media/Picture 1-1dc1.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Nyquist plot showing a comparison between a lithium-ion battery with and without the nano-Li<sup>+</sup>-channel polyvinylidene difluoride (PVDF, [-CH<sub>2</sub>-CF<sub>2</sub>-]<sub>n</sub>) interlayer. Reproduced from M. Miroshnikov, K. Kato, G. Babu, K. P. Divya, L. M. Reddy Arava, P. M. Ajayan, G. John, <emphasis effect="italics">RSC Adv</emphasis>., 2018, <emphasis effect="bold">8</emphasis>, 1576. Copyright: Royal Society of Chemistry (2018).</caption></figure></section><section id="import-auto-idm384545152">
+        <title>Analysis of Li-S batteries</title>
+        <para id="import-auto-idm1205883200">A lithium-sulfur battery is the type of energy storage/conversion that uses a lithium foil as the anode and a sulfur containing material as the cathode (<link target-id="import-auto-idm1275164816"/>). This type of technology is being under a lot of investigation due to the high theoretical capacity that is the amount of energy that can be obtained and stored in this battery. As sulfur is not a good electrical conductor material, carbon species are mixed with sulfur to obtain a sulfur-carbon composite. </para><figure id="import-auto-idm1275164816"><media id="import-auto-idm1205655072" alt="">
+            <image mime-type="image/png" src="../../media/Picture 12-5317.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic representation of a lithium-sulfur battery using a Li metal anode and S-C composite as cathode.</caption></figure><para id="import-auto-idm387861296">As stated before, in this type of technology, sulfur is mixed with carbon-based materials to increase the conductivity of sulfur producing a sulfur-conductive carbon cathode that can be used in energy storage applications. It has been shown that changing the carbon-based material for the sulfur cathode change the properties such as conductivity of the material, the results are presented in <link target-id="import-auto-idm1169338144"/>.</para><figure id="import-auto-idm1169338144"><media id="import-auto-idm1169338016" alt="">
+            <image mime-type="image/png" src="../../media/Image1-2e09.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Nyquist plot showing a comparison between lithium-sulfur batteries using different types of carbon materials. Adapted with permission from M. Li, W. Wahyudi, P. Kumar, F. Wu, X. Yang, H. Li, L. J. Li, and J. Ming. <emphasis effect="italics">ACS Appl. Mater. Interfaces</emphasis>., 2017, 9, 8047. Copyright: American Chemical Society (2017).</caption></figure><para id="import-auto-idm341647440">By analyzing <link target-id="import-auto-idm1169338144"/>, it can be concluded that all the four batteries were uniform since the electrolyte resistance that corresponds to the intercept of the Z’-axis at the high frequency region. Also, it was concluded that the charge-transfer resistance of CNT-based battery has a much lower value (by comparing the semicircles) compared to the other batteries making the CNT the best conductive material in this study. </para></section>
+      <section id="import-auto-idm1288647648">
+        <title>Analysis of Pb-acid batteries </title>
+        <para id="import-auto-idm396762224">A lead-acid battery is the type battery that all non-electric car used so far. It is composed of a lead and lead oxide anode and cathode, respectively, and sulfuric acid as electrolyte. A study of how coating the metallic grid of the anode with CNT changes the electrochemical properties of the battery is shown in <link target-id="import-auto-idm340415232"/>. By analyzing the results it was concluded that these EIS data shown an interface between the bare and the coated grid. The decrease in the diameter of the semicircle might be due to a decrease in the resistance due to a decrease in the formation of a passivation layer. </para><figure id="import-auto-idm340415232"><media id="import-auto-idm340415104" alt="">
+            <image mime-type="image/png" src="../../media/Picture 2-9b4c.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Nyquist plot showing the comparison between a lead-acid battery anode with and without carbon nanotube coating on the grid. Adapted from A. Banerjee, B. Ziv, Y. Shilina, E. Levi, S. Luski, and D. Aurbach. <emphasis effect="italics">RSC Adv.</emphasis>, 2015, <emphasis effect="bold">5</emphasis>, 26081. Copyright: American Chemical Society (2015).</caption></figure></section>
+
+<section id="import-auto-idm1085028816">
+      <title>Advantages and limitations of EIS</title><table id="eip-846" summary="Summary of advantages and limitations of EIS for battery characterization.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Advantage</emphasis>, </entry>
+    <entry><emphasis effect="bold">Limitation</emphasis>, </entry>
+  </row>
+  <row>
+    <entry>This is a non-destructive technique</entry>
+    <entry>EIS only works if the system is stable during the duration of the experiment</entry>
+  </row>
+  <row>
+    <entry>The is more information using EIS over a single-frequency measurement</entry>
+    <entry>Different circuits can give the same impedance results, ambiguity is present at the type of proposing a circuit for the fitting of the data</entry>
+  </row>
+  <row>
+    <entry>EIS can distinguish between two or more reactions that are taking place simultaneously</entry>
+    <entry>A homogeneous system (homogeneous charge distribution on the electrolyte of the system) must be assumed, which isn’t usually the case</entry>
+  </row>
+</tbody>
+
+
+</tgroup><caption>Summary of advantages and limitations of EIS for battery characterization. </caption>
+</table></section>
+    <section id="import-auto-idm1125972016"><title>Bibliography</title><list id="eip-543"><item>E. Warburg, <emphasis effect="italics">Ann. Phys. Chem.</emphasis>, 1899, <emphasis effect="bold">67</emphasis>, 493.</item>
+
+<item>A. Banerjee, B. Ziv, Y. Shilina, E. Levi, S. Luski, and D. Aurbach. <emphasis effect="italics">RSC Adv</emphasis>., 2015, <emphasis effect="bold">5</emphasis>, 26081.</item>
+<item>A. Lasia, <emphasis effect="italics">Electrochemical Impedance Spectroscopy and Its Applications</emphasis>; Springer New York: New York, NY, 2014.</item>
+<item> V. F. Lvovich, <emphasis effect="italics">Impedance Spectroscopy : Applications to Electrochemical and Dielectric Phenomena</emphasis>; Wiley, 2012.</item>
+<item>M. Li, W. Wahyudi, P. Kumar, F. Wu, X. Yang, H. Li, L.J. Li, and J. Ming. <emphasis effect="italics">ACS Appl. Mater. Interfaces</emphasis>, 2017, <emphasis effect="bold">9</emphasis>, 8047.</item>
+<item>M. Miroshnikov, K. Kato, G. Babu, K. P. Divya, L. M. Reddy Arava, P. M. Ajayan, and G. John. <emphasis effect="italics">RSC Adv.</emphasis>, 2018, <emphasis effect="bold">8</emphasis>, 1576.</item>
+
+</list></section></content>
+</document>

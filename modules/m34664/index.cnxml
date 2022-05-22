@@ -1,0 +1,107 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Atomic Force Microscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34664</md:content-id>
+  <md:title>Atomic Force Microscopy</md:title>
+  <md:abstract/>
+  <md:uuid>0b9311a0-9ebe-4702-8dd0-7e61f883dd7b</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1168945070447">
+      <title>Introduction</title>
+      <para id="id1168927430912">Atomic force microscopy (AFM) is a high-resolution form of scanning probe microscopy, also known as scanning force microscopy (SFM). The instrument uses a cantilever with a sharp tip at the end to scan over the sample surface (<link target-id="id1168918578284"/>). As the probe scans over the sample surface, attractive or repulsive forces between the tip and sample, usually in the form of van der Waal forces but also can be a number of others such as electrostatic and hydrophobic/hydrophilic, cause a deflection of the cantilever. The deflection is measured by a laser (<link target-id="id1168918578284"/>) which is reflected off the cantilever into photodiodes. As one of the photodiodes collects more light, it creates an output signal that is processed and provides information about the vertical bending of the cantilever. This data is then sent to a scanner that controls the height of the probe as it moves across the surface. The variance in height applied by the scanner can then be used to produce a three-dimensional topographical representation of the sample.</para>
+
+      <figure id="id1168918578284"><media id="id1168918578284_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-ad27.jpg" id="id1168918578284__onlineimage" width="250" print-width="2.5in"/>
+        </media>
+      <caption>Simple schematic of atomic force microscope (AFM) apparatus. 
+Adapted from H. G. Hansma, Department of Physics, University of California, Santa Barbara. 
+</caption></figure>
+
+    </section>
+    <section id="id1168917153335">
+      <title>Modes of operation</title>
+      <section id="id1168963432327">
+        <title>Contact mode</title>
+        <para id="id1168931330318">The contact mode method utilizes a constant force for tip-sample interactions by maintaining a constant tip deflection (<link target-id="id1168940772573"/>.). The tip communicates the nature of the interactions that the probe is having at the surface via feedback loops and the scanner moves the entire probe in order to maintain the original deflection of the cantilever. The constant force is calculated and maintained by using Hooke's Law, <link target-id="eip-384"/>. This equation relates the force (F), spring constant (k), and cantilever deflection (x). Force constants typically range from 0.01 to 1.0 N/m. Contact mode usually has the fastest scanning times but can deform the sample surface. It is also only the only mode that can attain "atomic resolution."</para>
+
+        <equation id="eip-384"><media id="id123456_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Eq1-7fc9.jpg" id=" id123456__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+
+</equation>
+
+
+<figure id="id1168940772573"><media id="id1168940772573_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-9944.jpg" id="id1168940772573__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+        <caption>Schematic diagram of probe and surface interaction in contact mode. </caption></figure>
+
+      </section>
+
+      <section id="id1168916970562">
+        <title>Tapping mode</title>
+        <para id="id1168927060634">In the tapping mode the cantilever is externally oscillated at its fundamental resonance frequency (<link target-id="id1168931503270"/>).  A piezoelectric on top of the cantilever is used to adjust the amplitude of oscillation as the probe scans across the surface. The deviations in the oscillation frequency or amplitude due to interactions between the probe and surface are measured, and provide information about the surface or types of material present in the sample. This method is gentler than contact AFM since the tip is not dragged across the surface, but it does require longer scanning times. It also tends to provide higher lateral resolution than contact AFM.</para>
+        <figure id="id1168931503270"><media id="id1168931503270_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-af85.jpg" id="id1168931503270__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+        <caption>Diagram of probe and surface interaction in tapping mode. </caption></figure>
+      </section>
+      <section id="id1168943011898">
+        <title>Noncontact mode</title>
+        <para id="id1168935424266">For noncontact mode the cantilever is oscillated just above its resonance frequency and this frequency is decreased as the tip approaches the surface and experiences the forces associated with the material (<link target-id="id1168938672094"/>). The average tip-to-sample distance is measured as the oscillation frequency or amplitude is kept constant, which then can be used to image the surface. This method exerts very little force on the sample, which extends the lifetime of the tip. However, it usually does not provide very good resolution unless placed under a strong vacuum. </para>
+        <figure id="id1168938672094"><media id="id1168938672094_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-61bd.jpg" id="id1168938672094__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+        <caption>Diagram of probe and surface interaction in noncontact mode. </caption></figure>
+      </section>
+    </section>
+    <section id="id1168955850840">
+      <title>Experimental limitations</title>
+      <para id="id1168930917198">A common problem seen in AFM images is the presence of artifacts which are distortions of the actual topography, usually either due to issues with the probe, scanner, or image processing. The AFM scans slowly which makes it more susceptible to external temperature fluctuations leading to thermal drift. This leads to artifacts and inaccurate distances between topographical features. </para>
+      <para id="id1168968521488">It is also important to consider that the tip is not perfectly sharp and therefore may not provide the best aspect ratio, which leads to a convolution of the true topography. This leads to features appearing too large or too small since the width of the probe cannot precisely move around the particles and holes on the surface. It is for this reason that tips with smaller radii of curvature provide better resolution in imaging. The tip can also produce false images and poorly contrasted images if it is blunt or broken. </para>
+      <para id="id1168917086269">The movement of particles on the surface due to the movement of the cantilever can cause noise, which forms streaks or bands in the image. Artifacts can also be made by the tip being of inadequate proportions compared to the surface being scanned. It is for this reason that it is important to use the ideal probe for the particular application. </para>
+    </section>
+    <section id="id3038245">
+      <title>Sample size and preparation</title>
+      <para id="id1168945004561">The sample size varies with the instrument but a typical size is 8 mm by 8 mm with a typical height of 1 mm. Solid samples present a problem for AFM since the tip can shift the material as it scans the surface. Solutions or dispersions are best for applying as uniform of a layer of material as possible in order to get the most accurate value of particles’ heights. This is usually done by spin-coating the solution onto freshly cleaved mica which allows the particles to stick to the surface once it has dried.</para>
+    </section>
+
+
+    <section id="id1168929310691">
+      <title>Applications of AFM</title>
+      <para id="id2677621">AFM is particularly versatile in its applications since it can be used in ambient temperatures and many different environments. It can be used in many different areas to analyze different kinds of samples such as semiconductors, polymers, nanoparticles, biotechnology, and cells amongst others. The most common application of AFM is for morphological studies in order to attain an understanding of the topography of the sample. Since it is common for the material to be in solution, AFM can also give the user an idea of the ability of the material to be dispersed as well as the homogeneity of the particles within that dispersion. It also can provide a lot of information about the particles being studied such as particle size, surface area, electrical properties, and chemical composition. Certain tips are capable of determining the principal mechanical, magnetic, and electrical properties of the material. For example, in magnetic force microscopy (MFM) the probe has a magnetic coating that senses magnetic, electrostatic, and atomic interactions with the surface. This type of scanning can be performed in static or dynamic mode and depicts the magnetic structure of the surface. </para>
+
+    <section id="id1168946400552"><title>AFM of carbon nanotubes</title><para id="id1168948542070">Atomic force microscopy is usually used to study the topographical morphology of these materials. By measuring the thickness of the material it is possible to determine if bundling occurred and to what degree. Other dimensions of the sample can also be measured such as the length and width of the tubes or bundles. It is also possible to detect impurities, functional groups (<link target-id="id88888"/>), or remaining catalyst by studying the images. Various methods of producing nanotubes have been found and each demonstrates a slightly different profile of homogeneity and purity. These impurities can be carbon coated metal, amorphous carbon, or other allotropes of carbon such as fullerenes and graphite. These facts can be utilized to compare the purity and homogeneity of the samples made from different processes, as well as monitor these characteristics as different steps or reactions are performed on the material. The distance between the tip and the surface has proven itself to be an important parameter in noncontact mode AFM and has shown that if the tip is moved past the threshold distance, approximately 30 μm, it can move or damage the nanotubes. If this occurs, a useful characterization cannot be performed due to these distortions of the image. </para>
+
+<figure id="id88888"><media id=" id88888_media" alt="">
+            <image mime-type="image/jpg" src="../../media/AFMSWNT.jpg" id=" id88888__onlineimage" width="300" print-width="3in"/>
+          </media>
+
+<caption>AFM image of a polyethyleneimine-functionalized single walled carbon nanotube (PEI-SWNT) showing the presence of PEI “globules” on the SWNT. Adapted from E. P. Dillon, C. A. Crouse, and A. R. Barron, <emphasis effect="italics">ACS Nano</emphasis>, 2008, <emphasis effect="bold">2</emphasis>, 156. </caption></figure>
+
+
+
+    </section>
+    <section id="id1669784">
+      <title>AFM of fullerenes</title>
+      <para id="id1168948963509">Atomic force microscopy is best applied to aggregates of fullerenes rather than individual ones. While the AFM can accurately perform height analysis of individual fullerene molecules, it has poor lateral resolution and it is difficult to accurately depict the width of an individual molecule. Another common issue that arises with contact AFM and fullerene deposited films is that the tip shifts clusters of fullerenes which can lead to discontinuities in sample images. </para>
+      
+    </section>
+    </section>
+
+<section id="eip-149"><title>Bibliography</title>
+
+<list id="bibliographylist"><item>R. Anderson and A. R. Barron, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2005, <emphasis effect="bold">127</emphasis>, 10458. </item> 
+<item>M. Bellucci, G. Gaggiotti, M. Marchetti, F. Micciulla, R. Mucciato, and M. Regi, <emphasis effect="italics">J. Physics: Conference Series</emphasis>, 2007, <emphasis effect="bold">61</emphasis>, 99.</item> 
+<item>I. I. Bobrinetskii, V. N. Kukin, V. K. Nevolin, and M. M. Simunin. <emphasis effect="italics">Semiconductor</emphasis>, 2008, <emphasis effect="bold">42</emphasis>, 1496. </item> 
+<item>S. H. Cohen  and M. L. Lightbody. <emphasis effect="italics">Atomic Force Microscopy/Scanning Tunneling Microscopy 2</emphasis>. Plenum, New York (1997). </item> 
+<item>E. P. Dillon, C. A. Crouse, and A. R. Barron, <emphasis effect="italics">ACS Nano</emphasis>, 2008, <emphasis effect="bold">2</emphasis>, 156. </item>
+<item>C. Gu, C. Ray, S. Guo, and B. B. Akhremitchev, <emphasis effect="italics">J. Phys. Chem.</emphasis>, 2007, <emphasis effect="bold">111</emphasis>, 12898. </item> 
+<item>G. Kaupp, <emphasis effect="italics">Atomic Force Microscopy, Scanning Nearfield Optical Microscopy and Nanoscratching: Application to Rough and Natural Surfaces</emphasis>. Springer-Verlag, Berlin (2006). </item> 
+<item>S. Morita, R. Wiesendanger, E. Meyer, and F. J. Giessibl. <emphasis effect="italics">Noncontact Atomic Force Microscopy</emphasis>. Springer, Berlin (2002).</item> 
+</list>
+</section>
+  </content>
+</document>

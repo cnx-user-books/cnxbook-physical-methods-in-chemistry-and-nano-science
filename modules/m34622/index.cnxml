@@ -1,0 +1,322 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Dynamic Headspace Gas Chromatography Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34622</md:content-id>
+  <md:title>Dynamic Headspace Gas Chromatography Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>1f082563-3aba-49cc-9841-5761af01187c</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="id1168483156109">
+      <title>Introduction</title>
+      <para id="id1168477933555">Gas chromatography (GC) is a very commonly used chromatography in analytic chemistry for separating and analyzing compounds that are gaseous or can be vaporized without decomposition. Because of its simplicity, sensitivity, and effectiveness in separating components of mixtures, gas chromatography is an important tools in chemistry. It is widely used for quantitative and qualitative analysis of mixtures, for the purification of compounds, and for the determination of such thermochemical constants as heats of solution and vaporization, vapor pressure, and activity coefficients. Compounds are separated due to differences in their partitioning coefficient between the stationary phase and the mobile gas phase in the column.</para>
+      
+    </section>
+    <section id="id1168449341740">
+      <title>Physical components of a GC system</title>
+      <para id="id1168455331935">A gas chromatograph (<link target-id="id1168472824490"/>) consists of a carrier gas system, a sampling system, a separation system, a detection system, and a data recording system. </para>
+        <figure id="id1168472824490"><media id="id1168472824490_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 4-3952.png" id="id1168472824490__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>Physical components of a typical GC system. Adapted from http://en.wikipedia.org/wiki/Gas_chromatography
+</caption></figure><section id="id1168478887514"><title>Carrier gas system</title><para id="para-id1168478887514"><!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that was added as a byproduct of the word importer.-->
+The carrier gas system consists of carrier gas sources, purification, and gas flow control. The carrier gas must be chemically inert. Commonly used gases include nitrogen, helium, argon, and carbon dioxide. The choice of carrier gas often depends upon the type of detector used. A molecular sieve is often contained in the carrier gas system to remove water and other impurities.         </para>
+      </section>
+      
+      
+      <section id="id1168452513795">
+        <title>Auto sampling system</title>
+        <para id="para-id1168481737194"><!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that was added as a byproduct of the word importer.-->
+An auto sampling system consists of auto sampler, and vaporization chamber. The sample to be analyzed is loaded at the injection port via a hypodermic syringe and it will be volatilized as the injection port is heated up. Typically samples of one micro liter or less are injected on the column. These volumes can be further reduced by using what is called a split injection system in which a controlled fraction of the injected sample is carried away by a gas stream before entering the column. </para>
+      </section>
+      
+      <section id="id1168483264163"><title>Separation system</title><para id="para-id1168477999640">The separation system consists of columns and temperature controlling oven. The column is where the components of the sample are separated, and is the crucial part of a GC system. The column is essentially a tube that contains different stationary phases have different partition coefficients with analytes,and determine the quality of separation. There are two general types of column: packed (<link target-id="id1168478652474"/>) and capillary also known as open tubular (<link target-id="id1168450348323"/>). </para><list id="eip-324"><item>Packed columns contain a finely divided, inert, solid support material coated with liquid stationary phase. Most packed columns are 1.5 – 10 m in length and have an internal diameter of 2 – 4 mm. </item>
+<item>Capillary columns have an internal diameter of a few tenths of a millimeter. They can be one of two types; wall-coated open tubular (WCOT) or support-coated open tubular (SCOT). Wall-coated columns consist of a capillary tube whose walls are coated with liquid stationary phase. In support-coated columns, the inner wall of the capillary is lined with a thin layer of support material such as diatomaceous earth, onto which the stationary phase has been adsorbed. SCOT columns are generally less efficient than WCOT columns. Both types of capillary column are more efficient than packed columns.</item>
+</list>
+
+          <figure id="id1168478652474"><media id="id1168478652474_media" alt="">
+              <image mime-type="image/png" src="../../media/IMG_1922.JPG" id="id1168478652474__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>An example of a packed GC column. </caption></figure>
+          <figure id="id1168450348323"><media id="id1168450348323_media" alt="">
+              <image mime-type="image/png" src="../../media/IMG_1919.JPG" id="id1168450348323__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>An example of a capillary column. </caption></figure>
+
+        
+        
+      </section>
+      
+      <section id="id1168466213853">
+        <title>Detectors </title>
+        <para id="para-id1168461511790"><!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that was added as a byproduct of the word importer.-->
+The purpose of a detector is to monitor the carrier gas as it emerges from the column and to generate a signal in response to variation in its composition due to eluted components. As it transmits physical signal into recordable electrical signal, it is another crucial part of GC. The requirements of a detector for GC are listed below. </para><para id="eip-917">Detectors for GC must respond rapidly to minute concentration of solutes as they exit the column, i.e., they are required to have a fast response and a high sensitivity. Other desirable properties of a detector are: linear response, good stability, ease of operation, and uniform response to a wide variety of chemical species or, alternatively predictable and selective response to one or more classes of solutes. </para>
+      </section>
+      
+      <section id="id3070186">
+        <title>Recording devices</title>
+        <para id="para-id1168463895776"><!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that was added as a byproduct of the word importer.-->
+GC system originally used paper chart readers, but modern system typically uses an online computer, which can track and record the electrical signals of the separated peaks. The data can be later analyzed by software to provide the information of the gas mixture. </para>
+      </section>
+    </section>
+    <section id="id1168470613106">
+      <title>How does GC work?</title>
+      <section id="id1168459277359"><title>Separation terminology</title><para id="id1168481537876">An ideal separation is judged by resolution, efficiency, and symmetry of the desired peaks, as illustrated by <link target-id="id2507005"/>.</para>
+
+
+          <figure id="id2507005"><media id="id2507005_media" alt="">
+              <image mime-type="image/jpg" src="../../media/2-589e.jpg" id="id2507005__onlineimage" width="450" print-width="4.5in"/>       </media>
+          <caption>Separation terminology. Adapted from http://www.gchelp.tk</caption></figure><section id="id1168475660596">
+          <title>Resolution (R)</title>
+          <para id="para-id1168475660596"><!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that was added as a byproduct of the word importer.-->
+Resolution can be simply expressed as the distance on the output trace between two peaks. The highest possible resolution is the goal when developing a separation method. Resolution is defined by the R value, <link target-id="eip-658"/>, which can be expressed mathamatically, <link target-id="eip-513"/>, where <emphasis effect="italics">k</emphasis> is capacity, α is selectivity, and N is the number of theoretical plates. An R value of 1.5 is defined as being the minimum required for baseline separation, i.e., the two adjacent peaks are separated by the baseline. Separation for different R values is illustrated in <link target-id="idzz4"/>.</para><equation id="eip-658"><media id="id5542_media" alt=""><image mime-type="image/jpg" src="../../media/Eq22-e5a7.jpg" id="id5542__onlineimage" width="450" print-width="4in"/></media></equation><equation id="eip-513"><media id="id5543_media" alt=""><image mime-type="image/jpg" src="../../media/Eq23-f445.jpg" id="id5543__onlineimage" width="450" print-width="4in"/></media></equation>
+          <figure id="idzz4"><media id="idzz4_media" alt="">
+              <image mime-type="image/png" src="../../media/Picture 32.png" id="id11zz4__onlineimage" width="250" print-width="2.5in"/>
+            </media>
+          <caption>Different separation resolutions. Adapted from http://www.gchelp.tk
+</caption></figure></section>
+        <section id="id5506059"><title>Capacity (k´)</title><para id="id1168485374885">Capacity (k´) is known as the retention factor. It is a measure of retention by the stationary phase. It is calculated from <link target-id="eip-628"/>, where t<sub>r</sub> = retention time of analyte (substance to be analyzed), and t<sub>m</sub> = retention time of an unretained compound.</para><equation id="eip-628"><media id="id5544_media" alt=""><image mime-type="image/jpg" src="../../media/Eq24-2251.jpg" id="id5544__onlineimage" width="450" print-width="4in"/></media></equation>
+
+        </section>
+        <section id="eip-384"><title>Selectivity</title><para id="id1168467712046">Selectivity is related to α, the separation factor (<link target-id="id3171995"/>). The value of α should be large enough to give baseline resolution, but minimized to prevent waste.</para>
+          <figure id="id3171995"><media id="id3171995_media" alt="">
+              <image mime-type="image/png" src="../../media/3-4018.jpg" id="id3171995__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Scheme for the calculation of selectivity. Adapted from http://www.gchelp.tk</caption></figure></section><section id="id1766179">
+          <title>Efficiency</title>
+          <para id="id1168464139255">Narrow peaks have high efficiency (<link target-id="id1168451415385"/>), and are desired. Units of efficiency are "theoretical plates" (N) and are often used to describe column performance. "Plates" is the current common term for N, is defined as a function of the retention time (t<sub>r</sub>) and the full peak width at half maximum (W<sub>b1/2</sub>), EQ. </para>
+          <equation id="eip-419"><media id="id5545_media" alt=""><image mime-type="image/jpg" src="../../media/Eq25b.jpg" id="id5545__onlineimage" width="450" print-width="4in"/></media></equation><figure id="id1168451415385"><media id="id1168451415385_media" alt="">
+              <image mime-type="image/png" src="../../media/4-dd4b.jpg" id="id1168451415385__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Scheme for calculating efficiency. Adapted from http://www.gchelp.tk
+</caption></figure></section>
+        <section id="id1168463287506">
+          <title>Peak symmetry</title>
+
+
+          <para id="eip-641">The symmetry of a peak is judged by the values of two half peak widths, <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> (<link target-id="id1168462947939"/>). When <emphasis effect="italics">a</emphasis> = <emphasis effect="italics">b</emphasis>, a peak is called symmetric, which is desired. Unsymmetrical peaks are often described as "tailing" or "fronting".</para><figure id="id1168462947939"><media id="id1168462947939_media" alt="">
+              <image mime-type="image/png" src="../../media/5-9111.jpg" id="id1168462947939__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Scheme for the symmetry of a peak. Adapted from http://www.gchelp.tk
+</caption></figure></section>
+        <section id="id1168460294902">
+          <title>An ideal separation</title>
+          <para id="id1168450526198">The attributions of an ideal separation are as follows:</para>
+          <list id="eip-24" list-type="bulleted" bullet-style="bullet"><item>Should meet baseline resolution of the compounds of interest.</item>
+<item>Each desired peak is narrow and symmetrical.</item>
+<item>Has no wasted dead time between peaks.</item>
+<item>Takes a minimal amount of time to run.</item>
+<item>The result is reproducible.</item>
+</list>
+        </section>
+      </section>
+      <section id="id1168466946924"><title>How does GC work?</title><para id="id1168450699199">In its simplest form gas chromatography is a process whereby a sample is vaporized and injected onto the chromatographic column, where it is separated into its many components. The elution is brought about by the flow of carrier gas (<link target-id="idzz3"/>). The carrier gas serves as the mobile phase that elutes the components of a mixture from a column containing an immobilized stationary phase. In contrast to most other types of chromatography, the mobile phase does not interact with molecules of the analytes. Carrier gases, the mobile phase of GC, include helium, hydrogen and nitrogen which are chemically inert. The stationary phase in gas-solid chromatography is a solid that has a large surface area at which adsorption of the analyte species (solutes) take place. In gas-liquid chromatography, a stationary phase is liquid that is immobilized on the surface of a solid support by adsorption or by chemical bonding. </para>
+        
+        <para id="eip-663">Gas chromatographic separation occurs because of differences in the positions of adsorption equilibrium between the gaseous components of the sample and the stationary phases (<link target-id="idzz3"/>). In GC the distribution ratio (ratio of the concentration of analytes in stationary and mobile phase) is dependent on the component vapor pressure, the thermodynamic properties of the bulk component band and affinity for the stationary phase. The equilibrium is temperature dependent. Hence the importance of the selection the stationary phase of the column and column temperature programming in optimizing a separation.</para>
+
+          <figure id="idzz3"><media id="idzz3_media" alt="">
+              <image mime-type="image/png" src="../../media/zz3.jpg" id="id11zz3__onlineimage" width="400" print-width="4in"/>
+            </media>
+          <caption>Scheme for partition in mobile and stationary phases. </caption></figure>
+
+      </section>
+      <section id="id1168470077770">
+        <title>Choice of method</title>
+        <section id="id1168450214644">
+          <title>Carrier gas and flow rate</title>
+          <para id="id1168477691251">Helium, nitrogen, argon, hydrogen and air are typically used carrier gases. Which one is used is usually determined by the detector being used, for example, a discharge ionization detection (DID) requires helium as the carrier gas. When analyzing gas samples, however, the carrier is sometimes selected based on the sample's matrix, for example, when analyzing a mixture in argon, an argon carrier is preferred, because the argon in the sample does not show up on the chromatogram. Safety and availability are other factors, for example, hydrogen is flammable, and high-purity helium can be difficult to obtain in some areas of the world.</para>
+          <para id="id1168453143422">The carrier gas flow rate affects the analysis in the same way that temperature does. The higher the flow rate the faster the analysis, but the lower the separation between analytes. Furthermore, the shape of peak will be also effected by the flow rate. The slower the rate is, the more axial and radical diffusion are, the broader and the more asymmetric the peak is. Selecting the flow rate is therefore the same compromise between the level of separation and length of analysis as selecting the column temperature.</para>
+        </section>
+        <section id="id1168477918575">
+          <title>Column Selection</title>
+          <para id="id1168450208210"><link target-id="id1168485890323"/> shows commonly used stationary phase in various applications.</para>
+          
+          <table id="id1168485890323" summary="Some common stationary phases for gas-liquid chromatography. Adapted from http://www.cem.msu.edu/~cem333/Week15.pdf">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry><emphasis effect="bold">Stationary phase</emphasis></entry>
+                  <entry><emphasis effect="bold">Common trade name</emphasis></entry>
+                  <entry><emphasis effect="bold">Maximum temperature (°C)</emphasis></entry>
+                  <entry><emphasis effect="bold">Common applications</emphasis></entry>
+                </row>
+                <row>
+                  <entry>Polydimethyl siloxane</entry>
+                  <entry>OV-1, SE-30</entry>
+                  <entry>350</entry>
+                  <entry>General-purpose nonpolar phase, hydrocarbons, polynuclear aromatics, drugs, steroids, PCBs</entry>
+                </row>
+                <row>
+                  <entry>Poly(phenylmethyl-dimethyl) siloxane (10% phenyl)</entry>
+                  <entry>OV-3, SE-52</entry>
+                  <entry>350</entry>
+                  <entry>Fatty acid methyl esters, alkaloids, drugs, halogenated compounds</entry>
+                </row>
+                <row>
+                  <entry>Poly(phenylmethyl) siloxane (50% phenyl)</entry>
+                  <entry>OV-17</entry>
+                  <entry>250</entry>
+                  <entry>Drugs, steroids, pesticides, glycols</entry>
+                </row>
+                <row>
+                  <entry>Poly(trifluoropropyl-dimethyl) siloxane</entry>
+                  <entry>OV-210</entry>
+                  <entry>200</entry>
+                  <entry>Chlorinated aromatics, nitroaromatics, alkyl-substituted benzenes</entry>
+                </row>
+                <row>
+                  <entry>Polyethylene glycol</entry>
+                  <entry>Carbowax 20M</entry>
+                  <entry>250</entry>
+                  <entry>Free acids, alcohols, ethers, essential oils, glycols</entry>
+                </row>
+                <row>
+                  <entry>Poly(dicyanoallyldimethyl) siloxane</entry>
+                  <entry>OV-275</entry>
+                  <entry>240</entry>
+                  <entry>Polyunsaturated fatty acid, rosin acids, free acids, alcohols</entry>
+                </row>
+              </tbody>
+            
+
+
+
+
+</tgroup><caption>Some common stationary phases for gas-liquid chromatography. Adapted from http://www.cem.msu.edu/~cem333/Week15.pdf</caption>
+</table></section>
+        <section id="id1168471150382">
+          <title>Column temperature and temperature program</title>
+          <para id="id1168486658962">For precise work, the column temperature must be controlled to within tenths of a degree. The optimum column temperature is dependent upon the boiling point of the sample. As a rule of thumb, a temperature slightly above the average boiling point of the sample results in an elution time of 2 - 30 minutes. Minimal temperatures give good resolution, but increase elution times. If a sample has a wide boiling range, then temperature programming can be useful. The column temperature is increased (either continuously or in steps) as separation proceeds. Another effect that temperature may have is on the shape of peak as flow rate does. The higher the temperature is, the more intensive the diffusion is, the worse the shape is. Thus, a compromise has to be made between goodness of separation and retention time as well as peak shape.</para>
+        </section>
+        <section id="id1168452398676">
+          <title>Detector selection</title>
+          <para id="id1168478789591">A number of detectors are used in gas chromatography. The most common are the flame ionization detector (FID) and the thermal conductivity detector (TCD). Both are sensitive to a wide range of components, and both work over a wide range of concentrations. While TCDs are essentially universal and can be used to detect any component other than the carrier gas (as long as their thermal conductivities are different from that of the carrier gas, at detector temperature), FIDs are sensitive primarily to hydrocarbons, and are more sensitive to them than TCD. However, an FID cannot detect water. Both detectors are also quite robust. Since TCD is non-destructive, it can be operated in-series before an FID (destructive), thus providing complementary detection of the same analytes.For halides, nitrates, nitriles, peroxides, anhydrides and organometallics, ECD is a very sensitive detection, which can detect up to 50 fg of those analytes. Different types of detectors are listed below in <link target-id="id1168478313781"/>, along with their properties.</para>
+          
+          <table id="id1168478313781" summary="Different types of detectors and their properties. Adapted from http://teaching.shu.ac.uk/hwb/chemistry/tutorials/chrom/gaschrm.htm">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <tbody>
+                <row>
+                  <entry><emphasis effect="bold">Detector</emphasis></entry>
+                  <entry><emphasis effect="bold">Type</emphasis></entry>
+                  <entry><emphasis effect="bold">Support gases</emphasis></entry>
+                  <entry><emphasis effect="bold">Selectivity</emphasis></entry>
+                  <entry><emphasis effect="bold">Detectability</emphasis></entry>
+                  <entry><emphasis effect="bold">Dynamic range</emphasis></entry>
+                </row>
+                <row>
+                  <entry>Flame ionization (FID)</entry>
+                  <entry>Mass flow</entry>
+                  <entry>Mass flow</entry>
+                  <entry>Most organic compounds</entry>
+                  <entry>100 pg</entry>
+                  <entry>10<sup>7</sup></entry>
+                </row>
+                <row>
+                  <entry>Thermal conductivity (TCD)</entry>
+                  <entry>Concentration</entry>
+                  <entry>Reference</entry>
+                  <entry>Universal</entry>
+                  <entry>1 ng</entry>
+                  <entry>10<sup>7</sup></entry>
+                </row>
+                <row>
+                  <entry>Electron capture (ECD)</entry>
+                  <entry>Concentration</entry>
+                  <entry>Make-up</entry>
+                  <entry>Halides, nitrates, nitriles, peroxides, anhydrides, organometallics</entry>
+                  <entry>50 fg</entry>
+                  <entry>10<sup>5</sup></entry>
+                </row>
+                <row>
+                  <entry>Nitrogen-phosphorus</entry>
+                  <entry>Mass flow</entry>
+                  <entry>Hydrogen and air</entry>
+                  <entry>Nitrogen, phosphorus</entry>
+                  <entry>10 pg</entry>
+                  <entry>10<sup>6</sup></entry>
+                </row>
+                <row>
+                  <entry>Flame photometric (FPD)</entry>
+                  <entry>Mass flow</entry>
+                  <entry>Hydrogen and air possibly oxygen</entry>
+                  <entry>Sulphur, phosphorus, tin, boron, arsenic, germanium, selenium, chromium</entry>
+                  <entry>100 pg</entry>
+                  <entry>10<sup>3</sup></entry>
+                </row>
+                <row>
+                  <entry>Photo-ionization (PID)</entry>
+                  <entry>Concentration</entry>
+                  <entry>Make-up</entry>
+                  <entry>Aliphatics, aromatics, ketones, esters, aldehydes, amines, heterocyclics, organosulphurs, some organometallics</entry>
+                  <entry>2 pg</entry>
+                  <entry>10<sup>7</sup></entry>
+                </row>
+                <row>
+                  <entry>Hall electrolytic conductivity</entry>
+                  <entry>Mass flow</entry>
+                  <entry>Hydrogen, oxygen</entry>
+                  <entry>Halide, nitrogen, nitrosamine, sulphur</entry>
+                  <entry>-</entry>
+                  <entry>-</entry>
+                </row>
+              </tbody>
+            
+
+
+
+
+</tgroup><caption>Different types of detectors and their properties. Adapted from http://teaching.shu.ac.uk/hwb/chemistry/tutorials/chrom/gaschrm.htm</caption>
+</table></section>
+      </section>
+    </section>
+    
+    <section id="id1168476401783">
+      <title>Headspace analysis using GC</title>
+      <para id="id1168473447499">Most consumer products and biological samples are composed of a wide variety of compounds that differ in molecular weight, polarity, and volatility. For complex samples like these, headspace sampling is the fastest and cleanest method for analyzing volatile organic compounds. A headspace sample is normally prepared in a vial containing the sample, the dilution solvent, a matrix modifier, and the headspace (<link target-id="id1168459818456"/>). Volatile components from complex sample mixtures can be extracted from non-volatile sample components and isolated in the headspace or vapor portion of a sample vial. An aliquot of the vapor in the headspace is delivered to a GC system for separation of all of the volatile components.</para>
+      <figure id="id1168459818456"><media id="id1168459818456_media" alt="">
+          <image mime-type="image/jpg" src="../../media/zz1.jpg" id="id1168459818456__onlineimage" width="200" print-width="2in"/>
+        </media>
+      <caption>Schematic representation of the phases of the headspace in the vial. Adapted from <emphasis effect="italics">A Technical Guide for Static Headspace Analysis Using GC</emphasis>, Restek Corp. (2000). 
+</caption></figure>
+      
+      
+      <para id="id1168464134090">The gas phase (G in <link target-id="id1168459818456"/>) is commonly referred to as the headspace and lies above the condensed sample phase. The sample phase (S in <link target-id="id1168459818456"/>) contains the compound(s) of interest and is usually in the form of a liquid or solid in combination with a dilution solvent or a matrix modifier. Once the sample phase is introduced into the vial and the vial is sealed, volatile components diffuse into the gas phase until the headspace has reached a state of equilibrium as depicted by the arrows. The sample is then taken from the headspace.</para>
+      
+      <section id="id1168450149334">
+        <title>Basic principles of headspace analysis</title>
+        <section id="id7304548">
+          <title>Partition coefficient</title>
+          <para id="id1168477328677">Samples must be prepared to maximize the concentration of the volatile components in the headspace, and minimize unwanted contamination from other compounds in the sample matrix. To help determine the concentration of an analyte in the headspace, you will need to calculate the partition coefficient (K), which is defined by <link target-id="eip-831"/>, where C<sub>s</sub> is the concentration of analyte in sample phase and C<sub>g</sub> is the concentration of analyte in gas phase. Compounds that have low K values will tend to partition more readily into the gas phase, and have relatively high responses and low limits of detection. K can be lowered by changing the temperature at which the vial is equilibrated or by changing the composition of the sample matrix.</para><equation id="eip-831"><media id="id5546_media" alt=""><image mime-type="image/jpg" src="../../media/Eq26-bcae.jpg" id="id5546__onlineimage" width="450" print-width="4in"/></media></equation>
+        </section>
+        <section id="id1168458185233">
+          <title>Phase ratio</title>
+          <para id="id1168486714158">The phase ratio (β) is defined as the relative volume of the headspace compared to volume of the sample in the sample vial, <link target-id="eip-267"/>, where V<sub>s</sub>=volume of sample phase and V<sub>g</sub>=volume of gas phase. Lower values for β (i.e., larger sample size) will yield higher responses for volatile compounds. However, decreasing the β value will not always yield the increase in response needed to improve sensitivity. When β is decreased by increasing the sample size, compounds with high K values partition less into the headspace compared to compounds with low K values, and yield correspondingly smaller changes in C<sub>g</sub>. Samples that contain compounds with high K values need to be optimized to provide the lowest K value before changes are made in the phase ratio.</para><equation id="eip-267"><media id="id5547_media" alt=""><image mime-type="image/jpg" src="../../media/Eq27-9d35.jpg" id="id5547__onlineimage" width="450" print-width="4in"/></media></equation>
+        </section>
+      </section>
+    </section>
+  
+
+<section id="id1168470695743">
+      <title>Bibliography</title>
+      
+      <list id="eip-331"><item>D. L, Pavia, G. M.  Lampman, G. S.  Kritz, and R. G. Engel, <emphasis effect="italics">Introduction to Organic Laboratory Techniques</emphasis>, 4<sup>th</sup> ed. Thomson Brooks/Cole (2006).</item>
+<item>D. C. Harris, <emphasis effect="italics">Quantitative Chemical Analysis</emphasis>, 5<sup>th</sup> ed., Freeman and Company (1999).</item>
+<item>M. O. Nutt, J. B.  Hughes, and M. S.  Wong, <emphasis effect="italics">Environ. Sci. Technol.</emphasis>, 2005, <emphasis effect="bold">39</emphasis>, 1346.
+</item></list>
+      
+      
+      
+      
+    </section>
+  </content>
+</document>

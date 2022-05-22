@@ -1,0 +1,84 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Basics of Solid-State NMR</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43547</md:content-id>
+  <md:title>Basics of Solid-State NMR</md:title>
+  <md:abstract/>
+  <md:uuid>a7c82881-7a5b-4297-abc1-40fd0286b470</md:uuid>
+</metadata>
+
+<content>
+    <section id="eip-697"><title>Introduction</title><para id="eip-947">NMR  stands for nuclear magnetic resonance and functions as a powerful tool for chemical characterization. Even though NMR is used mainly for liquids and solutions, technology has progressed to where NMR of solids can be obtained with ease. Aptly named as solid state NMR, the expansion of usable phases has invariably increased our ability to identify chemical compounds. The reason behind difficulties using the solid state lie in the fact that solids are never uniform. When put through a standard NMR, line broadening interactions cannot be removed by rapid molecular motions, which results in unwieldy wide lines which provide little to no useful information. The difference is so staggering that lines broaden by hundreds to thousands of hertz as opposed to less than 0.1 Hz in solution when using an I = <sup>1</sup>/<sub>2</sub> spin nucleus. 
+</para><para id="eip-241">A process known as magic angle spinning (MAS), where the sample is tilted at a specific angle, is used in order to overcome line broadening interactions and achieve usable peak resolutions. In order to understand solid state NMR, its history, operating chemical and mathematical principles, and distinctions from gas phase/solution NMR will be explained.</para></section><section id="eip-348"><title>History</title><para id="eip-964">The first notable contribution to what we know today as NMR was Wolfgang Pauli’s (<link target-id="import-auto-id1169837750546"/>) prediction of nuclear spin in 1926. In 1932 Otto Stern (<link target-id="import-auto-id1169841669979"/>) used molecular beams and detected nuclear magnetic moments.
+</para><figure id="import-auto-id1169837750546"><media id="import-auto-id1169857231601" alt="">
+        <image mime-type="image/jpg" src="../../media/graphics1-0c6f.jpg" width="300" print-width="2in"/>
+      </media>
+    <caption>Austrian theoretical physicist Wolfgang Ernst Pauli (1900-1958). </caption></figure><figure id="import-auto-id1169841669979"><media id="import-auto-id1169837821466" alt="">
+        <image mime-type="image/jpg" src="../../media/graphics2-eb4a.jpg" width="300" print-width="2in"/>
+      </media>
+    <caption>German physicist Otto Stern (1888 - 1969). </caption></figure><para id="import-auto-id1169841752893">Four years later, Gorter performed the first NMR experiment with lithium fluoride (LiF) and hydrated potassium alum (K[Al(SO<sub>4</sub>)<sub>2</sub>]•12H<sub>2</sub>O) at low temperatures. Unfortunately, he was unable to characterize the molecules and the first successful NMR for a solution of water was taken in 1945 by Felix Bloch (<link target-id="import-auto-id1169846350684"/>). In the same year, Edward Mills Purcell (<link target-id=" import-auto-id1169837968997"/>) managed the first successful NMR for the solid paraffin. Continuing their research, Bloch obtained the <sup>1</sup>H NMR of ethanol and Purcell obtained that of paraffin in 1949. In the same year, the chemical significance of chemical shifts was discovered. Finally, high resolution solid state NMR was made possible in 1958 by the discovery of magic angle spinning.</para><figure id="import-auto-id1169846350684"><media id="import-auto-id1169861822496" alt="">
+        <image mime-type="image/jpg" src="../../media/graphics3-d21e.jpg" width="300" print-width="2in"/>
+      </media>
+    <caption>Swiss physicist Felix Bloch (1905-1983). </caption></figure><figure id="import-auto-id1169837968997"><media id="import-auto-id1169838929471" alt="">
+        <image mime-type="image/jpg" src="../../media/graphics4-f1f8.jpg" width="300" print-width="2in"/>
+      </media>
+    <caption>American physicist Edward Mills Purcell (1912-1997). </caption></figure></section>
+
+
+
+<section id="eip-176"><title>How it works: from machine to graph</title><para id="eip-86">NMR spectroscopy works by measuring the nuclear shielding, which can also be seen as the electron density, of a particular element. Nuclear shielding is affected by the chemical environment, as different neighboring atoms will have different effects on nuclear shielding, as electronegative atoms will tend to decrease shielding and vice versa. NMR requires the elements analyzed to have a spin state greater than zero. Commonly used elements are <sup>1</sup>H, <sup>13</sup>C, and <sup>29</sup>Si. Once inside the NMR machine, the presence of a magnetic field  splits the spin states (<link target-id="import-auto-id1169840580169"/>). 
+</para><figure id="import-auto-id1169840580169"><media id="import-auto-id1169840855660" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-8543.png" width="300" print-width="3in"/>
+      </media>
+    <caption>Spin state splitting as a function of applied magnetic field.</caption></figure><para id="import-auto-id1169840987955">From (<link target-id="import-auto-id1169840580169"/>) we see that a spin state of <sup>1</sup>/<sub>2</sub> is split into two spin states. As spin state value increases, so does the number of spin states. A spin of 1 will have three spin states, <sup>3</sup>/<sub>2</sub> will have four spin states, and so on. However, higher spin states increases the difficulty to accurately read NMR results due to confounding peaks and decreased resolution, so spin states of ½ are generally preferred. The E, or radiofrequency shown in (<link target-id="import-auto-id1169840580169"/>) can be described by <link target-id="eip-537"/>, where µ is the magnetic moment, a property intrinsic to each particular element. This constant can be derived from <link target-id="eip-689"/>, where ϒ is the gyromagnetic  ratio, another element dependent quantity, h is Planck’s constant, and I is the spin.</para><equation id="eip-537"><media id="id291121_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq1-5a6a.jpg" id="id291121__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-689"><media id="id299121_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq2-ba69.jpg" id="id299121__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1169840561478"><link target-id="eip-537"/> can have E substituted for hν, leading to <link target-id="eip-251"/>, which can solve for the NMR resonance frequency (v).</para><equation id="eip-251"><media id="id299921_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq3-7500.jpg" id="id299921__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1169840985696">Using the frequency (v), the δ, or expected chemical shift may be computed using <link target-id="eip-595"/>.</para><equation id="eip-595"><media id="id299991_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq4-be2d.jpg" id="id299991__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1169837968716">Delta (δ) is observed in ppm and gives the distance from a set reference. Delta is directly related to the chemical environment of the particular atom. For a low field, or high delta, an atom is in an environment which produces induces less shielding than in a high field, or low delta. </para></section>
+
+<section id="eip-165"><title>NMR instrument</title><para id="eip-633">An NMR can be divided into three main components: the workstation computer where one operates the NMR instrument, the NMR spectrometer console, and the NMR magnet. A standard sample is inserted through the bore tube and pneumatically lowered into the magnet and NMR probe (<link target-id="import-auto-id1169838817122"/>).
+</para><figure id="import-auto-id1169838817122"><media id="import-auto-id1169838841157" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-27f2.png" width="300" print-width="2in"/>
+      </media>
+    <caption>Standard NMR instrument, with main components labeled: (A) bore tube, (B) outer magnet shell, (C) NMR probe.</caption></figure><para id="import-auto-id1169838838921">The first layer inside the NMR (<link target-id="import-auto-id1169840579642"/>) is the liquid nitrogen jacket. Normally, this space is filled with liquid nitrogen at 77 K. The liquid nitrogen reservoir space is mostly above the magnet so that it can act as a less expensive refrigerant to block infrared radiation from reaching the liquid helium jacket.</para><figure id="import-auto-id1169840579642"><media id="import-auto-id1169838008922" alt="">
+        <image mime-type="image/jpg" src="../../media/graphics7-36bd.jpg" width="300" print-width="3in"/>
+      </media>
+    <caption>Diagram of the main layers inside an NMR machine. </caption></figure><para id="import-auto-id1169841753731">The layer following the liquid nitrogen jacket is a 20 K radiation shield made of aluminum wrapped with alternating layers of aluminum foil and open weave gauze. Its purpose is to block infrared radiation which the 77 K liquid nitrogen vessel was unable to eliminate, which increases the ability for liquid helium to remain in the liquid phase due to its very low boiling point. The liquid helium vessel itself, the next layer, is made of stainless steel wrapped in a single layer of aluminum foil, acting once again as an infrared radiation shield. It is about 1.6 mm thick and kept at 4.2 K. </para>
+    <para id="import-auto-id1169841744004">Inside the vessel and around the magnet is the aluminum baffle, which acts as another degree of infrared radiation protection as well as a layer of protection for the superconducting magnet from liquid helium reservoir fluctuations, especially during liquid helium refills. The significance is that superconducting magnets at low fields are not fully submerged in liquid helium, but higher field superconducting magnets must maintain the superconducting solenoid fully immersed in liquid helium The vapor above the liquid itself is actually enough to maintain superconductivity of most magnets, but if it reaches a temperature above 10 K, the magnet quenches. During a quench, the solenoid exceeds its critical temperature for superconductivity and becomes resistive, generating heat. This heat, in turn, boils off the liquid helium. Therefore, a small opening at the very base of the baffle exists as a path for the liquid helium to reach the magnet surface so that during refills the magnet is protected from accidental quenching. </para>
+    </section>
+
+
+<section id="eip-367"><title>Problems with solid state NMR</title><para id="eip-161">
+The most notable difference between solid samples and solution/gas in terms of NMR spectroscopy is that molecules in solution rotate rapidly while those in a solid are fixed in a lattice. Different peak readings will be produced depending on how the molecules are oriented in the magnetic field because chemical shielding depends upon the orientation of a molecule, causing chemical shift anisotropy. Therefore, the effect of chemical shielding also depends upon the orientation of the molecule with respect to the spectrometer. These counteracting forces are balanced out in gases and solutions because of their randomized molecular movement, but become a serious issue with fixed molecules observed in solid samples. If the chemical shielding isn’t determined accurately, neither will the chemical shifts (δ). 
+</para><para id="eip-796">Another issue with solid samples are dipolar interactions which can be very large in solid samples causing linewidths of tens  to hundreds of kilohertz to be generated. Dipolar interactions are tensor quantities, which demonstrate values dependent on the orientation and placement of a molecule in reference to its surroundings. Once again the issue goes back to the lattice structure of solids, which are in a fixed location. Even though the molecules are fixed, this does not mean that nuclei are evenly spread apart. Closer nuclei display greater dipolar interactions and vice versa, creating the noise seen in spectra of NMR not adapted for solid samples. Dipolar interactions are averaged out in solution states because of randomized movement. 
+Spin state repulsions are averaged out by molecular motion of solutions and gases. However, in solid state, these interactions are not averaged and become a third source of line broadening.
+</para><section id="eip-252"><title>Magic angle spinning</title><para id="eip-871">In order to counteract chemical shift anisotropy and dipolar interactions, magic angle spinning was developed. As discussed above, describing dipolar splitting and chemical shift aniostoropy interactions respectively, it becomes evident that both depend on the geometric factor (3cos<sup>2</sup>θ-1).
+</para><equation id="eip-401"><media id="id299999_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq5-8aed.jpg" id="id299999__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-260"><media id="id2999991_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq6-10e2.jpg" id="id2999991__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-417">If this factor is decreased to 0, then line broadening due to chemical shift anisotropy and dipolar interactions will disappear. Therefore, solid samples are rotated at an angle of 54.74˚, effectively allowing solid samples to behave similarly to solutions/gases in NMR spectroscopy. Standard spinning rates range from 12 kHz to an upper limit of 35 kHz, where higher spin rates are necessary to remove higher intermolecular interactions. </para></section></section><section id="eip-303"><title>Application of solid state NMR</title><para id="eip-677">
+The development of solid state NMR is a technique necessary to understand and classify compounds that would not work well in solutions, such as powders and complex proteins, or study crystals too small for a different characterization method. 
+</para>
+
+<para id="import-auto-id1169838095404">Solid state NMR gives information about local environment of silicon, aluminum, phosphorus, etc. in the structures, and is therefore an important tool in determining structure of molecular sieves. The main issue frequently encountered is that crystals large enough for X-Ray crystallography cannot be grown, so NMR is used since it determines the local environments of these elements. Additionally, by using <sup>13</sup>C and <sup>15</sup>N, solid state NMR helps study amyloid fibrils, filamentous insoluble protein aggregates related to neurodegenerative diseases such as Alzheimer’s disease, type II diabetes, Huntington’s disease, and prion diseases. </para></section>
+
+<section id="eip-403"><title>Bibliography</title><list id="eip-641"><item> J. W. Akitt, <emphasis effect="italics">NMR and Chemistry</emphasis>, 3<sup>rd</sup> Edn., Chapman &amp; Hall, London (1992).</item>
+      <item> A. R. Grimmer and B. Blümich, <emphasis effect="italics">Introduction to Solid-State NMR</emphasis>, Springer-Verlag, Berlin(1994).</item>
+      <item> J. A. Iggo, <emphasis effect="italics">NMR Spectroscopy in Inorganic Chemistry</emphasis>, Oxford University Press, New York (1999).</item>
+      <item> J. C. C. Chan, <emphasis effect="italics">Top. Curr. Chem.</emphasis>, 2011, <emphasis effect="bold">306</emphasis>, 47.</item>
+      <item> R. Freeman, <emphasis effect="italics">Chem Heterocyc Compd</emphasis>, 1995, <emphasis effect="bold">31</emphasis>, 1004-1005.</item>
+      <item> Jeol USA, <emphasis effect="italics">JEOL Delta-GSX 270 NMR Magnet Destruction</emphasis>, &lt;http://www.jeolusa.com&gt;</item>
+      <item> University of Pittsburgh, <emphasis effect="italics">Magnet Safety</emphasis>, &lt;http://www.ehs.pitt.edu/assets/docs/magnet-safety.pdf&gt;, 2008, (accessed 15 February 2012). </item>
+    </list></section></content>
+</document>

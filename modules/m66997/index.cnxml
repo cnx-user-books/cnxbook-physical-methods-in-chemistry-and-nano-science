@@ -1,0 +1,107 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>XRD for Mineralogy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m66997</md:content-id>
+  <md:title>XRD for Mineralogy</md:title>
+  <md:abstract/>
+  <md:uuid>8a7c3502-8754-4232-8ebe-3ae611bf55e9</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm206909680">
+      <title>Introduction </title>
+      <para id="import-auto-idm399264272">X-ray diffraction is used extensively by earth scientists for the identification and characterization of minerals. In the early stages of XRD development, single-crystal XRD was primarily used for characterization. This limited XRD use to samples with idealized crystalline structures. In geoscience, samples are rarely perfect crystals. More often, samples are found as imperfect crystals, within complex mineral mixtures. The development of powder XRD provided a way for earth scientists to identify and characterize these naturally- occurring mineral mixtures. Additionally, these mineral samples contain vast arrays of defects that can complicate the diffraction pattern and broaden peaks. </para><para id="eip-663">Diffraction occurs where an X-ray encounters different planes of a crystal lattice (<link target-id="import-auto-idm433379392"/>). Because the wavelength of the X-ray and the crystal lattice parameters are of the same order of magnitude (angstrom), X-rays can be used for crystallography. Crystal diffraction is described by Bragg diffraction, <link target-id="eip-958"/>, where, d = distance between crystal planes; θ = the angle between the beam and the plane; λ = wavelength of a monochromatic X-ray source. </para><equation id="eip-958">λ = 2d sinθ</equation><figure id="import-auto-idm433379392"><media id="import-auto-idm598394160" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-67c3.png" width="350" print-width="3.5in"/>
+        </media>
+      <caption>A schematic representation of Bragg diffraction within a crystal lattice. </caption></figure></section>
+    <section id="import-auto-idm211731136"><title>Running a powder XRD of a complex mineral mixture</title><list id="import-auto-idm472919808" list-type="enumerated" number-style="arabic"><item><emphasis effect="bold">Evaluate and collect your sample. </emphasis>The sample needs to be selected from the outcrop carefully. You need to make sure that the sample is representative and can answer the questions that you plan to ask. </item>
+        <item>
+          <emphasis effect="bold">Bring your sample back to the lab and let dry.</emphasis>
+        </item>
+        <item><emphasis effect="bold">Sample must be disaggregated.</emphasis> This involves grinding the sample with a mortar and pestle to ensure a homogenous grain size. If the sample is not homogenous, the diffraction pattern of the mixture will be dominated by those of the large grains. Depending on the X-Ray source of your instrument, an ideal grain size for analysis is less than 10 μm. 
+
+      <note id="eip-451">If a very fine grain size is desired, it is recommended to grind the sample while wet. This minimizes the opportunity for phase changes that can be induced by aggressive dry grinding.</note>
+
+
+
+</item>
+        <item><emphasis effect="bold">The sample is loaded on the sample holder. </emphasis>It is important that there is enough sample present on the slide. This is because you want to have enough of each crystallite plane so that when the X-ray hits it at a particular angle, a peak will be produced (this increases the likelihood that Bragg’s equation will be satisfied). Add your freshly ground powder to the slide and use a razor to scrape away any excess material that is not in the well. </item>
+        <item><emphasis effect="bold">Log on to the computer and age the diffractometer. </emphasis>The aging process takes around 30 minutes- you can prepare your sample while the instrument ages. </item>
+        <item><emphasis effect="bold">Sample holder is placed in the diffractometer. </emphasis>Often, a pressure plate is used to hold the sample in place<emphasis effect="bold">. </emphasis></item>
+        <item><emphasis effect="bold">Close the diffractometer door. </emphasis>Look for an alert light on the XRD itself to ensure that the XRD door has been locked. </item>
+        <item>
+          <emphasis effect="bold">When collecting your data: </emphasis>
+          <list id="import-auto-idm453544448" list-type="enumerated" number-style="arabic"><item>Data should be collected from 2-100° (if using a Cu X-ray source).</item>
+            <item>Step size should be 0.02°.</item>
+          </list></item>
+        <item>
+          <emphasis effect="bold">When processing your data: </emphasis>
+          <list id="import-auto-idm458185424" list-type="enumerated" number-style="arabic"><item>Remove background.</item>
+            <item>Smooth data.</item>
+            <item>Identify peaks.</item>
+          </list></item>
+        <item><emphasis effect="bold">Compare your peaks to computer database for known mineral diffraction patterns. </emphasis>A useful database for mineral diffraction data is the open- access American Mineralogist Crystal Structure Database. </item>
+        <item>
+          <emphasis effect="bold">Identify your minerals. </emphasis>
+        </item>
+      </list><section id="import-auto-idm450111216">
+        <title>Materials needed</title>
+        <list id="eip-212" list-type="enumerated" number-style="arabic"><item>Sample.</item>
+<item>Agate mortar and pestle, a micronizing mill, or a mechanical grinder (the latter two are for harder samples) (<link target-id="import-auto-idm232209792"/>).</item>
+<item>Sample holder (If possible, a zero-background sample holder is preferred, especially when analyzing clays and other samples with weak diffraction patterns). </item>
+<item>Razor (used to cleanly load the sample onto the slide). </item>
+<item>Computer (for data analysis). </item>
+
+</list><figure id="import-auto-idm232209792"><media id="import-auto-idm460021888" alt="">
+            <image mime-type="image/png" src="../../media/Picture 5-402d.png" width="400" print-width="3.5in"/>
+          </media>
+        <caption>Agate mortar and pestle (left) and micronizing mill (right). Micronizing mill image taken from McCrone group website (https://www.mccrone.com/mccrone-micronizing-mill).</caption></figure>
+        
+      </section>
+      <section id="import-auto-idm473827024">
+        <title>Drawbacks and limitations</title>
+        <para id="import-auto-idm602024816">XRD does have some drawbacks for the analysis of mineral samples. </para>
+        <list id="import-auto-idm405623136" list-type="bulleted">
+          <item>XRD does not provide quantitative data about the chemical composition of the mineral analyte. </item>
+          <item>It does not provide textural data about the sample. </item>
+          <item>Very minor components of a mineral mixture may not appear on the diffraction pattern. </item>
+        </list>
+      </section>
+    </section><section id="import-auto-idm420856592">
+      <title>Identification of clay minerals</title>
+      <para id="import-auto-idm199225104">Because different clay minerals are very similar in the <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> directions, the unit cell parameter along the <emphasis effect="italics">z</emphasis>-direction is diagnostic (<link target-id="import-auto-idm183797744"/>). This poses a challenge for identifying clays, as the <emphasis effect="italics">z</emphasis> unit cell parameter is the least pronounced. In addition, these weak diffraction signal are difficult to resolve from the background. Geologists must take special care when preparing clay samples for analysis. Because of this, further treatment and analysis of the clay should be done.</para><figure id="import-auto-idm183797744"><media id="import-auto-idm678734208" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-5180.png" width="300" print-width="3in"/>
+        </media>
+      <caption>Schematic representation of the structure of a clay particle. Illustrates the diagnostic <emphasis effect="italics">z</emphasis> axis used for X-ray crystallography. Image adapted from U.S. Geological Survey Open-File Report 01-041. Web.</caption></figure><para id="import-auto-idm643005120">Clay minerals belong to the class of minerals known as phyllosilicates, marked for their layered structures (<link target-id="import-auto-idm601759568"/>). Due to this, clay minerals can be altered between layers. These changes affect the crystal structure of the clay in the <emphasis effect="italics">z</emphasis>-direction. The chemical and physical treatments and the corresponding diffraction pattern changes aid in the identification of the clay mineral. A detailed flowchart for this identification process is available online (USGS Open-File Report 01-041. <link url="https://pubs.usgs.gov/of/2001/of01041/htmldocs/flow/flow.pdf">https://pubs.usgs.gov/of/2001/of01041/htmldocs/flow/flow.pdf</link>)</para><figure id="import-auto-idm601759568"><media id="import-auto-idm221629392" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-95a0.png" width="576" print-width="5in"/>
+        </media>
+      <caption>Structure of a clay mineral. Adapted from W. Zhu, C. Lu, F. Chang, and S. Kuo. <emphasis effect="italics">RSC Adv.</emphasis>, 2012, <emphasis effect="bold">2</emphasis>, 6295. Copyright: Royal Society of Chemistry (2012). </caption></figure></section>
+    <section id="import-auto-idm770959424">
+      <title>Selected works using XRD for mineralogical applications </title>
+      <section id="import-auto-idm609727248"><title>Determining the extent of aqueous alteration</title><para id="import-auto-idm756645920">CM-carbonaceous chondrites are primitive asteroids that have been incompletely serpentinized. They are of research interest because they contain information about nebular processes. They consist of Fe-Mg anhydrous silicates (olivine and pyroxene, see <link target-id="idm495396000"/>) and hydrated phyllosilicates (serpentine family). </para><figure id="import-auto-idm495396000"><media id="import-auto-idm190587872" alt="">
+            <image mime-type="image/png" src="../../media/Picture 3-ba06.png" height="191" width="388"/>
+          </media>
+        <caption>Example of olivine crystal structure.  SiO<sub>2</sub> tetrahedra shown in red Mg/Al represented in blue.  Oxygen sites and metal sites are indicated as M1, M2 (metal) and O1, O2, O3 (oxygen). </caption></figure>
+        
+        <para id="eip-775">It has been shown that the conversion of Fe-chronsteditite to Mg-serpentine is proportional to the amount of aqueous alteration. Work has been done using positon-sensitive detector XRD to determine the mineralogy of different CM chondrite samples (<link target-id="import-auto-idm231365408"/>). Knowing the extent of aqueous alteration will provide information about the source asteroid and may provide insight as to whether or not the meteorites came from the same parent body. </para><figure id="import-auto-idm231365408"><media id="import-auto-idm227713856" alt=""><image mime-type="image/png" src="../../media/Picture 8-a678.png" width="600" print-width="6in"/></media><caption>Modal mineralogy of CM chondrites determined using XRD. Chondrites with a higher percent Mg-Serpentine have experienced a greater amount of aqueous alteration.  Reproduced from K. T. Howard, G. K. Benedix, P. A. Bland, and G. Cressey. <emphasis effect="italics">Geochim. Cosmochim. Acta.</emphasis>, 2009, <emphasis effect="bold">73</emphasis>, 4576. </caption></figure></section><section id="import-auto-idm415546832"><title>Identifying solid solutions and elemental substitutions</title><para id="eip-346">XRD can be used to identify solid solutions and elemental substitutions. In a recent example, the endmember phases of apatite-type alkaline earth element-yttrium-silicate oxybritholites were examined. Calcium, strontium, and barium are substituted into the crystal structure. Because the differences in the ionic radii of the cations are dramatic, the change affects the lattice structure. These changes are observed in the X-ray diffraction pattern (<link target-id="import-auto-idm480421280"/> and <link target-id="import-auto-idm619637792"/>).</para><figure id="import-auto-idm480421280"><media id="import-auto-idm220986560" alt=""><image mime-type="image/png" src="../../media/12.jpg" width="450" print-width="4.5in"/></media><caption>HT-XRD for the Ba-rich end phases of solid solution series of apatite-type alkaline earth element-yttrium-silicate oxybritholites. Reproduced from P. Ptacek, T. Opravil, F. Soukal, J. Tkacz, J. Masilko, and E. Bartonickova. <emphasis effect="italics">Ceram. Int.</emphasis>, 2016, <emphasis effect="bold">42</emphasis>, 6154.</caption></figure><figure id="import-auto-idm619637792"><media id="import-auto-idm461014896" alt="">
+            <image mime-type="image/png" src="../../media/10.jpg" width="450" print-width="4.5in"/>
+          </media>
+        <caption>HT-XRD for the Ca-rich end phases of solid solution series of apatite-type alkaline earth element-yttrium-silicate oxybritholites. Reproduced from P. Ptacek, T. Opravil, F. Soukal, J. Tkacz, J. Masilko, and E. Bartonickova. <emphasis effect="italics">Ceram. Int.</emphasis>, 2016, <emphasis effect="bold">42</emphasis>, 6154.</caption></figure></section><section id="import-auto-idm229546800">
+        <title>Using XRD of minerals for the determination of paleo-environmental conditions </title>
+        <para id="import-auto-idm404262768">In a 2008 study, XRD is used to learn the exact clay mineralogy of layers of lake sediments in the Swiss Alps. Paleo-climatic conditions have a direct effect on weathering patterns that, in turn, transport different clay minerals. The sediment mineralogy at the catchment will provide information about the weathering event that was required to transport a particular clay. </para>
+      </section>
+    </section>
+    <section id="import-auto-idm448052992">
+      <title>Bibliography</title>
+      <list id="import-auto-idm203112720" list-type="bulleted"><item>D. M. Moore and R. C. Reynolds. <emphasis effect="italics">X-Ray Diffraction and the Identification and Analysis of Clay Minerals. Second Ed.</emphasis> Oxford University Press. 1997. </item>
+        <item>USGS Open-File Report 01-041. <link url="https://pubs.usgs.gov/of/2001/of01041/htmldocs/flow/flow.pdf">https://pubs.usgs.gov/of/2001/of01041/htmldocs/flow/flow.pdf</link></item>
+        <item><emphasis effect="italics">How to Analyze Minerals. </emphasis>International Center for diffraction data. Web. <link url="http://www.icdd.com/resources/tutorials/pdf/howtoanalyzeminerals-fundamentals.pdf">http://www.icdd.com/resources/tutorials/pdf/howtoanalyzeminerals-fundamentals.pdf</link>. </item>
+        <item>B. Lavina, P. Dera, and R. T. Downs.<emphasis effect="italics"> Rev. Mineral. Geochem. </emphasis>2014, <emphasis effect="bold">78</emphasis>, 1. </item>
+        <item>K. T. Howard, G. K. Benedix, P. A. Bland, and G. Cressey. <emphasis effect="italics">Geochim. Cosmochim. Acta.</emphasis>, 2009, <emphasis effect="bold">73</emphasis>, 4576.</item>
+        <item>P. Ptacek, T. Opravil, F. Soukal, J. Tkacz, J. Masilko, and E. Bartonickova. <emphasis effect="italics">Ceram. Int.</emphasis>, 2016, <emphasis effect="bold">42</emphasis>, 6154 </item>
+        <item>M. Trachsel, U. Eggenberger, M. Grosjean, A. Blass, and M. Sturm. <emphasis effect="italics">Geophys. Res. Lett., </emphasis>2008<emphasis effect="bold">,</emphasis><emphasis effect="bold">35</emphasis>, L13707</item>
+        <item>W. Zhu, C. Lu, F. Chang, and S. Kuo. <emphasis effect="italics">RSC Adv.</emphasis>, 2012, <emphasis effect="bold">2</emphasis>, 6295.</item>
+        <item>X-Ray Powder Diffraction. U.S. Geological Survey. Web. <link url="https://pubs.usgs.gov/info/diffraction/html/">https://pubs.usgs.gov/info/diffraction/html/</link>. </item>
+      </list></section>
+  </content>
+</document>

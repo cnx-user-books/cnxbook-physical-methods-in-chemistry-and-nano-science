@@ -1,0 +1,410 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Pump-probe Detection of Molecular Functional Group Vibrational Lifetime</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34610</md:content-id>
+  <md:title>Pump-probe Detection of Molecular Functional Group Vibrational Lifetime</md:title>
+  <md:abstract/>
+  <md:uuid>4bb71d8a-cad7-4bf5-94f6-ff22d197a568</md:uuid>
+</metadata>
+
+<content>
+    
+    
+    <section id="eip-110"><title>Introduction</title>
+
+    <para id="id1165693170663">The dynamics of molecular functional group plays an important role during a chemical process, chemical bond forming and breaking, energy transfer and other dynamics happens within picoseconds domain. It is very difficult to study such fast processes directly, for decades scientists can only learn from theoretical calculations, lacking experimental methods.</para>
+    <para id="id1165701886500">However, with the development of ultrashort pulsed laser enable experimental study of molecular functional group dynamics. With ultrafast laser technologies, people develop a series of measuring methods, among which, pump-probe technique is widely used to study the molecular functional group dynamics. Here we concentrate on how to use pump-probe experiment to measure functional group vibrational lifetime. The principle, experimental setup and data analysis will be introduced. </para>
+    
+
+</section>
+
+    <section id="eip-330"><title>Principles of the pump-prode technique</title>
+
+    <para id="id1165698637435">For every function group within a molecule, such as the C≡N triple bond in phenyl selenocyanate (C<sub>6</sub>H<sub>5</sub>SeCN) or the C-D single bond in deuterated chloroform (DCCl<sub>3</sub>), they have an individual infrared vibrational mode and associated energy levels. For a typical 3-level system (<link target-id="id1165722800495"/>), both the 0 to 1 and the 1 to 2 transition are near the probe pulse frequency (they don't necessarily need to have exactly the same frequency). </para>
+
+      <figure id="id1165722800495"><media id="id1165722800495_media" alt="">
+		<image mime-type="image/jpg" src="../../media/1-fde1.jpg" id="id1165722800495__onlineimage" width="200" print-width="2in"/>
+	</media>
+<caption>Schematic representation of a typical three level system. </caption></figure>
+
+    
+    <para id="id1165723590781">In a pump-probe experiment, we use the geometry as is shown in <link target-id="id1165708207989"/>. Two synchronized laser beams, one of which is called pump beam (E<sub>pu</sub>) while the other probe beam (E<sub>pr</sub>). There is a delay in time between each pulse. The laser pulses hit the sample, the intensity of ultrafast laser (fs or ps) is strong enough to generated 3<sup>rd</sup> order polarization and produce 3<sup>rd</sup> order optical response signal which is use to give dynamics information of molecular function groups. For the total response signals we have <link target-id="eip-772"/>, where µ<sub>10</sub> µ<sub>21</sub> are transition dipole moment and E<sub>0</sub>, E<sub>1</sub>, and E<sub>2</sub> are the energies of the three levels, and t<sub>3</sub> is the time delay between pump and probe beam. The delay t<sub>3</sub> is varied and the response signal intensity is measured. The functional group vibration life time is determined from the data.</para>
+
+    <figure id="id1165708207989"><media id="id1165708207989_media" alt="">
+		<image mime-type="image/jpg" src="../../media/2j.jpg" id="id1165708207989__onlineimage" width="300" print-width="3in"/>
+	</media>
+<caption>The geometry of the pump-probe experiment. </caption></figure>
+    
+    
+    <equation id="eip-772"><media id="id5541_media" alt=""><image mime-type="image/jpg" src="../../media/Eq21-7ef6.jpg" id="id5541__onlineimage" width="450" print-width="4in"/></media></equation>
+    
+</section>
+    <section id="eip-173"><title>Typical experimental set-up</title>
+
+    <para id="eip-565">The optical layout of a typical pump-probe setup is schematically displayed in <link target-id="id1165695742453"/>. In the setup, the output of the oscillator (500 mW at 77 MHz repetition rate, 40 nm bandwidth centered at 800 nm) is split into two beams (1:4 power ratio). Of this, 20% of the power is to seed a femtosecond (fs) amplifier whose output is 40 fs pulses centered at 800 nm with power of ~3.4 W at 1 KHz repetition rate. The rest (80%) of the seed goes through a bandpass filter centered at 797.5nm with a width of 0.40 nm to seed a picosecond (ps) amplifier. The power of the stretched seed before entering the ps amplifier cavity is only ~3 mW. The output of the ps amplifier is 1ps pulses centered at 800 nm with a bandwidth ~0.6 nm. The power of the ps amplifier output is ~3 W. The fs amplifier is then to pump an optical parametric amplifier (OPA) which produces ~100 fs IR pulses with bandwidth of ~200 cm<sup>-1</sup> that is tunable from 900 to 4000 cm<sup>-1</sup>. The power of the fs IR pulses is 7~40 mW, depending on the frequencies. The ps amplifier is to pump a ps OPA which produces ~900 fs IR pulses with bandwidth of ~21 cm<sup>-1</sup>, tunable from 900 - 4000 cm<sup>-1</sup>. The power of the fs IR pulses is 10 ~ 40 mW, depending on frequencies.</para>
+
+      <figure id="id1165695742453"><media id="id1165695742453_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-fa50.png" id="id1165695742453__onlineimage" width="600" print-width="6in"/>
+        </media>
+      <caption>Schematic representation of the optical layout for a pump-probe experiment. </caption></figure>
+    
+    
+    <para id="id1165686647834">In a typical pump-probe setup, the ps IR beam is collimated and used as the pump beam. Approximately 1% of the fs IR OPA output is used as the probe beam whose intensity is further modified by a polarizer placed before the sample. Another polarizer is placed after the sample and before the spectrograph to select different polarizations of the signal. The signal is then sent into a spectrograph to resolve frequency, and detected with a mercury cadmium telluride (MCT) dual array detector. Use of a pump pulse (femtosecond, wide band) and a probe pulse (picoseconds, narrow band), scanning the delay time and reading the data from the spectrometer, will give the lifetime of the functional group. The wide band pump and spectrometer described here is for collecting multiple group of pump-probe combination.</para>
+    <section id="eip-470"><title>Data analysis</title>
+    <para id="eip-471">For a typical pump-probe curve shown in <link target-id="id1165717302793"/> life time <emphasis effect="italics">t</emphasis> is defined as the corresponding time value to the half intensity as time zero.</para>
+
+
+<figure id="id1165717302793"><media id="id1165717302793_media" alt="">
+        <image mime-type="image/jpg" src="../../media/Picture 7-bbbc.jpg" id="id1165717302793__onlineimage" width="250" print-width="2.5in"/>
+      </media>
+    <caption>A typical pump-probe curve. </caption></figure>
+    
+    
+    <para id="id1165707714708"><link target-id="id1165692388356"/> shows the pump-probe data of the C≡N triple bond in a series of aromatic cyano compounds: <emphasis effect="italics">n</emphasis>-propyl cyanide (C<sub>3</sub>H<sub>7</sub>CN), ethyl thiocyanate (C<sub>2</sub>H<sub>5</sub>SCN), and ethyl selenocyanate (C<sub>2</sub>H<sub>5</sub>SeCN) for which the ν<sub>C≡N</sub> for each compound (measured in CCl<sub>4</sub> solution) is 2252 cm<sup>-1</sup>), 2156 cm<sup>-1</sup>, and ~2155 cm<sup>-1</sup>, respectively. </para>
+    <table id="id1165692388356" summary="Pump-probe data (part of) of C-N in three chemicals.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Delay (ps)</emphasis></entry>
+            <entry><emphasis effect="bold">C<sub>3</sub>H<sub>7</sub>CN</emphasis></entry>
+     
+            <entry><emphasis effect="bold">C<sub>2</sub>H<sub>5</sub>SCN</emphasis></entry>
+   
+            <entry><emphasis effect="bold">C<sub>2</sub>H<sub>5</sub>SeCN</emphasis></entry>
+          </row>
+          <row>
+            <entry>0</entry>
+            <entry>-0.00695</entry>
+      
+            <entry>-0.10918</entry>
+      
+            <entry>-0.06901</entry>
+          </row>
+          <row>
+            <entry>0.1</entry>
+            <entry>-0.0074</entry>
+
+            <entry>-0.10797</entry>
+
+            <entry>-0.07093</entry>
+          </row>
+          <row>
+            <entry>0.2</entry>
+            <entry>-0.00761</entry>
+
+            <entry>-0.1071</entry>
+
+            <entry>-0.07247</entry>
+          </row>
+          <row>
+            <entry>0.3</entry>
+            <entry>-0.00768</entry>
+
+            <entry>-0.10545</entry>
+
+            <entry>-0.07346</entry>
+          </row>
+          <row>
+            <entry>0.4</entry>
+            <entry>-0.0076</entry>
+
+            <entry>-0.10487</entry>
+
+            <entry>-0.07429</entry>
+          </row>
+          <row>
+            <entry>0.5</entry>
+            <entry>-0.00778</entry>
+
+            <entry>-0.10287</entry>
+
+            <entry>-0.07282</entry>
+          </row>
+          <row>
+            <entry>0.6</entry>
+            <entry>-0.00782</entry>
+
+            <entry>-0.10286</entry>
+
+            <entry>-0.07235</entry>
+          </row>
+          <row>
+            <entry>0.7</entry>
+            <entry>-0.00803</entry>
+
+            <entry>-0.10222</entry>
+
+            <entry>-0.07089</entry>
+          </row>
+          <row>
+            <entry>0.8</entry>
+            <entry>-0.00764</entry>
+
+            <entry>-0.10182</entry>
+
+            <entry>-0.07073</entry>
+          </row>
+          <row>
+            <entry>0.9</entry>
+            <entry>-0.00776</entry>
+
+            <entry>-0.10143</entry>
+
+            <entry>-0.06861</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>-0.00781</entry>
+
+            <entry>-0.10099</entry>
+
+            <entry>-0.06867</entry>
+          </row>
+          <row>
+            <entry>1.1</entry>
+            <entry>-0.00745</entry>
+
+            <entry>-0.10013</entry>
+
+            <entry>-0.06796</entry>
+          </row>
+          <row>
+            <entry>1.2</entry>
+            <entry>-0.00702</entry>
+
+            <entry>-0.10066</entry>
+
+            <entry>-0.06773</entry>
+          </row>
+          <row>
+            <entry>1.3</entry>
+            <entry>-0.00703</entry>
+
+            <entry>-0.0989</entry>
+
+            <entry>-0.06767</entry>
+          </row>
+          <row>
+            <entry>1.4</entry>
+            <entry>-0.00676</entry>
+
+            <entry>-0.0995</entry>
+
+            <entry>-0.06638</entry>
+          </row>
+          <row>
+            <entry>1.5</entry>
+            <entry>-0.00681</entry>
+
+            <entry>-0.09757</entry>
+
+            <entry>-0.06691</entry>
+          </row>
+          <row>
+            <entry>1.6</entry>
+            <entry>-0.00639</entry>
+
+            <entry>-0.09758</entry>
+
+            <entry>-0.06696</entry>
+          </row>
+          <row>
+            <entry>1.7</entry>
+            <entry>-0.00644</entry>
+
+            <entry>-0.09717</entry>
+
+            <entry>-0.06583</entry>
+          </row>
+          <row>
+            <entry>1.8</entry>
+            <entry>-0.00619</entry>
+
+            <entry>-0.09741</entry>
+
+            <entry>-0.06598</entry>
+          </row>
+          <row>
+            <entry>1.9</entry>
+            <entry>-0.00613</entry>
+
+            <entry>-0.09723</entry>
+
+            <entry>-0.06507</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>-0.0066</entry>
+
+            <entry>-0.0962</entry>
+
+            <entry>-0.06477</entry>
+          </row>
+          <row>
+            <entry>2.5</entry>
+            <entry>-0.00574</entry>
+
+            <entry>-0.09546</entry>
+
+            <entry>-0.0639</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>-0.0052</entry>
+
+            <entry>-0.09453</entry>
+
+            <entry>-0.06382</entry>
+          </row>
+          <row>
+            <entry>3.5</entry>
+            <entry>-0.00482</entry>
+
+            <entry>-0.09353</entry>
+
+            <entry>-0.06389</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>-0.0042</entry>
+
+            <entry>-0.09294</entry>
+
+            <entry>-0.06287</entry>
+          </row>
+          <row>
+            <entry>4.5</entry>
+            <entry>-0.00387</entry>
+
+            <entry>-0.09224</entry>
+
+            <entry>-0.06197</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>-0.00351</entry>
+
+            <entry>-0.09009</entry>
+
+            <entry>-0.06189</entry>
+          </row>
+          <row>
+            <entry>5.5</entry>
+            <entry>-0.00362</entry>
+
+            <entry>-0.09084</entry>
+
+            <entry>-0.06188</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>-0.00352</entry>
+
+            <entry>-0.08938</entry>
+
+            <entry>-0.06021</entry>
+          </row>
+          <row>
+            <entry>6.5</entry>
+            <entry>-0.00269</entry>
+
+            <entry>-0.08843</entry>
+
+            <entry>-0.06028</entry>
+          </row>
+          <row>
+            <entry>7</entry>
+            <entry>-0.00225</entry>
+
+            <entry>-0.08788</entry>
+
+            <entry>-0.05961</entry>
+          </row>
+          <row>
+            <entry>7.5</entry>
+            <entry>-0.00231</entry>
+
+            <entry>-0.08694</entry>
+
+            <entry>-0.06065</entry>
+          </row>
+          <row>
+            <entry>8</entry>
+            <entry>-0.00206</entry>
+
+            <entry>-0.08598</entry>
+
+            <entry>-0.05963</entry>
+          </row>
+          <row>
+            <entry>8.5</entry>
+            <entry>-0.00233</entry>
+
+            <entry>-0.08552</entry>
+
+            <entry>-0.05993</entry>
+          </row>
+          <row>
+            <entry>9</entry>
+            <entry>-0.00177</entry>
+
+            <entry>-0.08503</entry>
+
+            <entry>-0.05902</entry>
+          </row>
+          <row>
+            <entry>9.5</entry>
+            <entry>-0.00186</entry>
+
+            <entry>-0.08508</entry>
+
+            <entry>-0.05878</entry>
+          </row>
+          <row>
+            <entry>10</entry>
+            <entry>-0.00167</entry>
+
+            <entry>-0.0842</entry>
+
+            <entry>-0.0591</entry>
+          </row>
+          <row>
+            <entry>11</entry>
+            <entry>-0.00143</entry>
+
+            <entry>-0.08295</entry>
+
+            <entry>-0.05734</entry>
+          </row>
+ 
+        </tbody>
+      
+
+
+
+
+
+
+
+
+</tgroup><caption>Pump-probe intensity data for C≡N stretching frequency in <emphasis effect="italics">n</emphasis>-propyl cyanide, ethyl thiocyanate, and ethyl selenocyanate as a function of delay (ps). </caption>
+</table>
+    
+    <para id="id1165695651702">A plot of intensity versus time for the data from TABLE is shown <link target-id="id1165689532605"/>. From these curves the C≡N stretch lifetimes can be determined for C<sub>3</sub>H<sub>7</sub>CN, C<sub>2</sub>H<sub>5</sub>SCN, and C<sub>2</sub>H<sub>5</sub>SeCN as ~5.5 ps, ~84 ps, and ~282 ps, respectively. </para>
+
+
+    <figure id="id1165689532605"><media id="id1165689532605_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-0821.png" id="id1165689532605__onlineimage" width="350" print-width="3.5in"/>
+      </media>
+    <caption>The C≡N stretch lifetimes for benzyl cyanide, phenyl thiocyanate, and phenyl selenocyanate. </caption></figure>
+    
+    <para id="id1165712482134">From what is shown above, the pump-probe method is used in detecting C≡N vibrational lifetimes in different chemicals. One measurement only takes several second to get all the data and the lifetime, showing that pump-probe method is a powerful way to measure functional group vibrational lifetime.</para>
+</section>
+</section>
+  </content>
+</document>

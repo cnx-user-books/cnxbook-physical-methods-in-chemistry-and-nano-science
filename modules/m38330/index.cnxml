@@ -1,0 +1,324 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Introduction to Atomic Absorption Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38330</md:content-id>
+  <md:title>Introduction to Atomic Absorption Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>559608e8-f933-42fe-b854-888902b50f97</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1169134799288">
+      <title>Brief overview of atomic absorption spectroscopy</title>
+      <section id="id1169113386856"><title>History of atomic absorption spectroscopy</title><para id="id1169149911666">The earliest spectroscopy was first described by Marcus Marci von Kronland in 1648 by analyzing sunlight as is passed through water droplets and thus creating a rainbow. Further analysis of sunlight by William Hyde Wollaston (<link target-id="id1169133675242"/>) led to the discovery of black lines in the spectrum, which in 1820 Sir David Brewster (<link target-id="id1169112294670"/>) explained as absorption of light in the sun’s atmosphere.</para>
+
+
+          <figure id="id1169133675242"><media id="id1169133675242_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics1-551c.jpg" id="id1169133675242__onlineimage" width="300" print-width="2in"/>
+            </media>
+          <caption>English chemist and physicist William Hyde Wollaston (1659 - 1724).</caption></figure>
+
+
+          <figure id="id1169112294670"><media id="id1169112294670_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics2-c3e2.png" id="id1169112294670__onlineimage" width="300" print-width="2in"/>
+            </media>
+          <caption>Scottish physicist, mathematician, astronomer, inventor, writer and university principal Sir David Brewster (1781 - 1868).</caption></figure>
+
+
+        <para id="id1169118581705">Robert Bunsen (<link target-id="id1169109783592"/>) and Gustav Kirchhoff (<link target-id="id1169130148290"/>)  studied the sodium spectrum and came to the conclusion that every element has its own unique spectrum that can be used to identify elements in the vapor phase. Kirchoff further explained the phenomenon by stating that if a material can emit radiation of a certain wavelength, that it may also absorb radiation of that wavelength. Although Bunsen and Kirchoff took a large step in defining the technique of atomic absorption spectroscopy (AAS), it was not widely utilized as an analytical technique except in the field of astronomy due to many practical difficulties.</para>
+
+
+
+          <figure id="id1169109783592"><media id="id1169109783592_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics3-cda7.png" id="id1169109783592__onlineimage" width="300" print-width="2in"/>
+            </media>
+          <caption>German chemist Robert Bunsen (1811 - 1899). </caption></figure>
+          <figure id="id1169130148290"><media id="id1169130148290_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics4-4787.png" id="id1169130148290__onlineimage" width="300" print-width="2in"/>
+            </media>
+          <caption>German physicist Gustav Robert Kirchhoff (1824 - 1887). </caption></figure>
+
+
+        <para id="id1169115448484">In 1953, Alan Walsh (<link target-id="id1169113745826"/>) drastically improved the AAS methods. He advocated AAS to many instrument manufacturers, but to no avail. Although he had improved the methods, he hadn’t shown how it could be useful in any applications. In 1957, he discovered uses for AAS that convinced manufactures market the first commercial AAS spectrometers. Since that time, AAS's popularity has fluctuated as other analytical techniques and improvements to the methods are made.</para>
+
+        <figure id="id1169113745826"><media id="id1169113745826_media" alt="">
+            <image mime-type="image/jpeg" src="../../media/WALSH2.JPG" id="id1169113745826__onlineimage" width="300" print-width="2in"/>
+          </media>
+ <caption>British physicist Sir Alan Walsh (1916 - 1988). </caption></figure>
+      </section>
+      <section id="id1169110957208"><title>Theory of atomic absorption spectroscopy</title><para id="id1169137109989">In order to understand how atomic absorption spectroscopy works, some background information is necessary. Atomic theory began with John Dalton (<link target-id="id3773616"/>) in the 18<sup>th</sup> century when he proposed the concept of atoms, that all atoms of an element are identical, and that atoms of different elements can combine to form molecules. In 1913, Niels Bohr (<link target-id="id1169114777265"/>) revolutionized atomic theory by proposing quantum numbers, a positively charged nucleus, and electrons orbiting around the nucleus in the what became known as the <emphasis effect="italics">Bohr model of the atom</emphasis>. Soon afterward, Louis deBroglie (<link target-id="id1169122827703"/>) proposed quantized energy of electrons, which is an extremely important concept in AAS. Wolfgang Pauli (<link target-id="id1169122352188"/>) then elaborated on deBroglie’s theory by stating that no two electrons can share the same four quantum numbers. These landmark discoveries in atomic theory are necessary in understanding the mechanism of AAS. </para>
+
+
+          <figure id="id3773616"><media id="id3773616_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics6-d4fb.png" id="id3773616__onlineimage" width="300" print-width="2in"/>
+            </media>
+          <caption>English chemist, physicist, and meteorologist John Dalton FRS (1766 - 1844). </caption></figure>
+
+
+          <figure id="id1169114777265"><media id="id1169114777265_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics7-b3a4.png" id="id1169114777265__onlineimage" width="300" print-width="2in"/>
+            </media>
+          <caption>Danish physicist Niels Henrik David Bohr (1885 - 1962).</caption></figure>
+
+
+          <figure id="id1169122827703"><media id="id1169122827703_media" alt="">
+              <image mime-type="image/jpg" src="../../media/DB2.jpg" id="id1169122827703__onlineimage" width="300" print-width="2in"/>
+            </media>
+          <caption>French physicist and a Nobel laureate Louis de Broglie (1892 - 1987). Copyright: American Institute of Physics. </caption></figure>
+
+
+          <figure id="id1169122352188"><media id="id1169122352188_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics9-b1b8.png" id="id1169122352188__onlineimage" width="300" print-width="2in"/>
+            </media>
+          <caption>Austrian physicist Wolfgang Pauli (1900 - 1958). </caption></figure>
+
+        <para id="id1169110367700">Atoms have valence electrons, which are the outermost electrons of the atom. Atoms can be excited when irradiated, which creates an absorption spectrum. When an atom is excited, the valence electron moves up an energy level. The energies of the various stationary states, or restricted orbits, can then be determined by these emission lines. The resonance line is then defined as the specific radiation absorbed to reach the excited state.</para>
+
+        <para id="id1169138607646">The Maxwell-Boltzmann equation gives the number of electrons in any given orbital. It relates the distribution to the thermal temperature of the system (as opposed to electronic temperature, vibrational temperature, or rotational temperature). Plank proposed radiation emitted energy in discrete packets (quanta) <link target-id="eip-170"/>, which can be related to Einstein’s equation, <link target-id="eip-530"/>. </para>
+
+        
+
+        
+
+        <equation id="eip-170"><media id="id1169125978494_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics10-73e0.png" id="id1169125978494__onlineimage" width="50" print-width="0.5in"/>
+          </media>
+        </equation>
+        <equation id="eip-530"><media id="id1169115443158_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics11-4407.png" id="id1169115443158__onlineimage" width="65" print-width="0.66in"/>
+          </media>
+        </equation><para id="eip-540">Both atomic emission and atomic absorption spectroscopy can be used to analyze samples. Atomic emission spectroscopy measures the intensity of light emitted by the excited atoms, while atomic absorption spectroscopy measures the light absorbed by atomic absorption. This light is typically in the visible or ultraviolet region of the electromagnetic spectrum. The percentage is then compared to a calibration curve to determine the amount of material in the sample. The energy of the system can be used to find the frequency of the radiation, and thus the wavelength through the combination of equations <link target-id="eip-530"/> and <link target-id="eip-428"/>.</para><equation id="eip-428"><media id="id1169137570850_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics12-efed.png" id="id1169137570850__onlineimage" width="55" print-width="0.55in"/>
+          </media>
+</equation>
+        
+        <para id="id1169109506168">Because the energy levels are quantized, only certain wavelengths are allowed and each  atom has a unique spectrum. There are many variables that can affect the system. For example, if the sample is changed in a way that increases the population of atoms, there will be an increase in both emission and absorption and <emphasis effect="italics">vice versa</emphasis>. There are also variables that affect the ratio of excited to unexcited atoms such as an increase in temperature of the vapor.</para>
+      </section>
+    </section>
+    <section id="id1169140685542"><title>Applications of atomic absorption spectroscopy</title><para id="id1169121221349">There are many applications of atomic absorption spectroscopy (AAS) due to its specificity. These can be divided into the broad categories of biological analysis, environmental and marine analysis, and geological analysis. </para>
+      <section id="id1169114822395">
+        <title>Biological analysis</title>
+        <para id="id1169118563020">Biological samples can include both human tissue samples and food samples. In human tissue samples, AAS can be used to determine the amount of various levels of metals and other electrolytes, within tissue samples. These tissue samples can be many things including but not limited to blood, bone marrow, urine, hair, and nails. Sample preparation is dependent upon the sample. This is extremely important in that many elements are toxic in certain concentrations in the body, and AAS can analyze what concentrations they are present in. Some examples of trace elements that samples are analyzed for are arsenic, mercury, and lead. </para>
+        <para id="id1169114771671">An example of an application of AAS to human tissue is the measurement of the electrolytes sodium and potassium in plasma. This measurement is important because the values can be indicative of various diseases when outside of the normal range. The typical method used for this analysis is atomization of a 1:50 dilution in strontium chloride (SrCl<sub>2</sub>) using an air-hydrogen flame. The sodium is detected at its secondary line (330.2 nm) because detection at the first line would require further dilution of the sample due to signal intensity. The reason that strontium chloride is used is because it reduces ionization of the potassium and sodium ions, while eliminating phosphate’s and calcium’s interference.</para>
+        <para id="id1169148645457">In the food industry, AAS provides analysis of vegetables, animal products, and animal feeds. These kinds of analyses are some of the oldest application of AAS. An important consideration that needs to be taken into account in food analysis is sampling. The sample should be an accurate representation of what is being analyzed. Because of this, it must be homogenous, and many it is often needed that several samples are run. Food samples are most often run in order to determine mineral and trace element amounts so that consumers know if they are consuming an adequate amount. Samples are also analyzed to determine heavy metals which can be detrimental to consumers.</para>
+      </section>
+      <section id="id1169117968163">
+        <title>Environmental and marine analysis</title>
+        <para id="id1169123534199">Environmental and marine analysis typically refers to water analysis of various types. Water analysis includes many things ranging from drinking water to waste water to sea water. Unlike biological samples, the preparation of water samples is governed more by laws than by the sample itself. The analytes that can be measured also vary greatly and can often include lead, copper, nickel, and mercury.</para>
+        <para id="id1169111253812">An example of water analysis is an analysis of leaching of lead and zinc from tin-lead solder into water. The solder is what binds the joints of copper pipes. In this particular experiment, soft water, acidic water, and chlorinated water were all analyzed. The sample preparation consisted of exposing the various water samples to copper plates with solder for various intervals of time. The samples were then analyzed for copper and zinc with air-acetylene flame AAS. A deuterium lamp was used. For the samples that had copper levels below 100 µg/L, the method was changed to graphite furnace electrothermal AAS due to its higher sensitivity.</para>
+
+      </section>
+
+
+      <section id="id1169115777923">
+        <title>Geological analysis</title>
+        <para id="id1169129292374">Geological analysis encompasses both mineral reserves and environmental research. When prospecting mineral reserves, the method of AAS used needs to be cheap, fast, and versatile because the majority of prospects end up being of no economic use. When studying rocks, preparation can include acid digestions or leaching. If the sample needs to have silicon content analyzed, acid digestion is not a suitable preparation method.</para>
+        <para id="id1169131319377">An example is the analysis of lake and river sediment for lead and cadmium. Because this experiment involves a solid sample, more preparation is needed than for the other examples. The sediment was first dried, then grounded into a powder, and then was decomposed in a bomb with nitric acid (HNO<sub>3</sub>) and perchloric acid (HClO<sub>4</sub>). Standards of lead and cadmium were prepared. Ammonium sulfate ([NH<sub>4</sub>][SO<sub>4</sub>]) and ammonium phosphate ([NH<sub>4</sub>][<sub>3</sub>PO<sub>4</sub>]) were added to the samples to correct for the interferences caused by sodium and potassium that are present in the sample. The standards and samples were then analyzed with electrothermal AAS.</para>
+      </section>
+    </section>
+    <section id="id1169139947423"><title>Instrumentation</title><section id="id1169145350942">
+        <title>Atomizer</title>
+        <para id="id1169115401975">In order for the sample to be analyzed, it must first be atomized. This is an extremely important step in AAS because it determines the sensitivity of the reading. The most effective atomizers create a large number of homogenous free atoms. There are many types of atomizers, but only two are commonly used: flame and electrothermal atomizers.</para>
+        <section id="id1169117094199">
+          <title>Flame atomizer</title>
+          <para id="id1169135810781">Flame atomizers <link target-id="id1169115529066"/> are widely used for a multitude of reasons including their simplicity, low cost, and long length of time that they have been utilized. Flame atomizers accept an aerosol from a nebulizer into a flame that has enough energy to both volatilize and atomize the sample (<link target-id=" id1169115529066"/>). When this happens, the sample is dried, vaporized, atomized, and ionized. Within this category of atomizers, there are many subcategories determined by the chemical composition of the flame. The composition of the flame is often determined based on the sample being analyzed. The flame itself should meet several requirements including sufficient energy, a long length, non-turbulent, and safe.</para>
+
+          <figure id="id1169115529066"><media id="id1169115529066_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics13-0d84.png" id="id1169115529066__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>A schematic diagram of a flame atomizer shoing the oxidizer inlet (1) and fuel inlet (2). </caption></figure>
+        </section>
+
+
+        <section id="id1199926">
+          <title>Electrothermal atomizer</title>
+          <para id="id1169125735870">Although electrothermal atomizers were developed before flame atomizers, they did not become popular until more recently due to improvements made to the detection level. They employ graphite tubes that increase temperature in a stepwise manner (<link target-id=" id1169115448416"/>). Electrothermal atomization first dries the sample and evaporates much of the solvent and impurities, then atomizes the sample, and then rises it to an extremely high temperature to clean the graphite tube. Some requirements for this form of atomization are the ability to maintain a constant temperature during atomization, have rapid atomization, hold a large volume of solution, and emit minimal radiation. Electrothermal atomization is much less harsh than the method of flame atomization. </para>
+
+
+
+            <figure id="id1169115448416"><media id="id1169115448416_media" alt="">
+                <image mime-type="image/png" src="../../media/graphics14-610d.png" id="id1169115448416__onlineimage" width="350" print-width="3.5in"/>
+              </media>
+            <caption>Schematic diagram of an electrothermal atomizer showing the external gas flow inlet (1), the external gas flow outlet (2), the internal gas flow outlet (3), the internal gas flow inlet (4), and the light beam (5). </caption></figure>
+
+
+        </section>
+      </section>
+      <section id="id1169136118104">
+        <title>Radiation source</title>
+        <para id="id1169113502088">The radiation source then irradiates the atomized sample. The sample absorbs some of the radiation, and the rest passes through the spectrometer to a detector. Radiation sources can be separated into two broad categories: line sources and continuum sources. Line sources excite the analyte and thus emit its own line spectrum. Hollow cathode lamps and electrodeless discharge lamps are the most commonly used examples of line sources. On the other hand, continuum sources have radiation that spreads out over a wider range of wavelengths. These sources are typically only used for background correction. Deuterium lamps and halogen lamps are often used for this purpose.</para>
+      </section>
+      <section id="id1169147673306">
+        <title>Spectrometer</title>
+        <para id="id1169115896774">Spectrometers are used to separate the different wavelengths of light before they pass to the detector. The spectrometer used in AAS can be either single-beam or double-beam. Single-beam spectrometers only require radiation that passes directly through the atomized sample, while double-beam spectrometers <link target-id="id1169125498394"/>, as implied by the name, require two beams of light; one that passes directly through the sample, and one that does not pass through the sample at all. (Insert diagrams) The single-beam spectrometers have less optical components and therefore suffer less radiation loss. Double-beam monochromators have more optical components, but they are also more stable over time because they can compensate for changes more readily.</para>
+
+<figure id="id1169125498394"><media id="id1169125498394_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics15-2cf2.png" id="id1169125498394__onlineimage" width="500" print-width="5in"/>
+            </media>
+          <caption>A schematic of a double-beam spectrometer showing the 50/50 beam splitters (1) and the mirrors (2). </caption></figure>
+
+
+      </section>
+    </section>
+    <section id="id1169110797204">
+      <title>Obtaining measurements</title>
+      <section id="id1169137792553"><title>Sample preparation</title><para id="id1169139501566">Sample preparation is extremely varied because of the range of samples that can be analyzed. Regardless of the type of sample, certain considerations should be made. These include the laboratory environment, the vessel holding the sample, storage of the sample, and pretreatment of the sample.</para>
+        <para id="id1169132454594">Sample preparation begins with having a clean environment to work in. AAS is often used to measure trace elements, in which case contamination can lead to severe error. Possible equipment includes laminar flow hoods, clean rooms, and closed, clean vessels for transportation of the sample. Not only must the sample be kept clean, it also needs to be conserved in terms of pH, constituents, and any other properties that could alter the contents. </para>
+        <para id="id1169121821566">When trace elements are stored, the material of the vessel walls can adsorb some of the analyte leading to poor results. To correct for this, perfluoroalkoxy polymers (PFA), silica, glassy carbon, and other materials with inert surfaces are often used as the storage material. Acidifying the solution with hydrochloric or nitric acid can also help prevent ions from adhering to the walls of the vessel by competing for the space. The vessels should also contain a minimal surface area in order to minimize possible adsorption sites. </para>
+        <para id="id1169133540239">Pretreatment of the sample is dependent upon the nature of the sample. See <link target-id="id1169122516147"/> for sample pretreatment methods.</para>
+        <table id="id1169122516147" summary="Sample pretreatment methods for AAS.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Sample</emphasis></entry>
+                <entry><emphasis effect="bold">Examples</emphasis></entry>
+                <entry><emphasis effect="bold">Pretreatment method</emphasis></entry>
+              </row>
+              <row>
+                <entry>Aqueous solutions</entry>
+                <entry>Water, beverages, urine, blood</entry>
+                <entry>Digestion if interference causing substituents are present</entry>
+              </row>
+              <row>
+                <entry>Suspensions</entry>
+                <entry>Water, beverages, urine, blood</entry>
+                <entry>Solid matter must either be removed by filtration, centrifugation or digestion, and then the methods for aqueous solutions can be followed</entry>
+              </row>
+              <row>
+                <entry>Organic liquids</entry>
+                <entry>Fuels, oils</entry>
+                <entry>Either direct measurement with AAS or diltion with organic material followed by measurement with AAS, standards must contain the analyte in the same form as the sample</entry>
+              </row>
+              <row>
+                <entry>Solids</entry>
+                <entry>Foodstuffs, rocks</entry>
+                <entry>Digestion followed by electrothermal AAS</entry>
+              </row>
+            </tbody>
+          
+
+</tgroup><caption>Sample pretreatment methods for AAS. </caption>
+</table>
+      </section>
+      <section id="id1169143570240"><title>Calibration curve</title><para id="id1169147862031">In order to determine the concentration of the analyte in the solution, calibration curves can be employed. Using standards, a plot of concentration versus absorbance can be created. Three common methods used to make calibration curves are the standard calibration technique, the bracketing technique, and the analyte addition technique.</para>
+
+
+        <section id="id1169135189834">
+          <title>Standard calibration technique</title>
+          <para id="id1169143063558">This technique is the both the simplest and the most commonly used. The concentration of the sample is found by comparing its absorbance or integrated absorbance to a curve of the concentration of the standards versus the absorbances or integrated absorbances of the standards. In order for this method to be applied the following conditions must be met:</para>
+          <list id="id1169124726289" list-type="bulleted">
+            <item>Both the standards and the sample must have the same behavior when atomized. If they do not, the matrix of the standards should be altered to match that of the sample.</item>
+            <item>The error in measuring the absorbance must be smaller than that of the preparation of the standards.</item>
+            <item>The samples must be homogeneous.</item>
+          </list>
+          <para id="id1169131066164">The curve is typically linear and involves at least five points from five standards that are at equidistant concentrations from each other <link target-id="id1169135153797"/>. This ensures that the fit is acceptable. A least means squares calculation is used to linearly fit the line. In most cases, the curve is linear only up to absorbance values of 0.5 to 0.8. The absorbance values of the standards should have the absorbance value of a blank subtracted.</para>
+
+            <figure id="id1169135153797"><media id="id1169135153797_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics16b.jpg" id="id1169135153797__onlineimage" width="400" print-width="4in"/>
+              </media>
+
+            <caption>An example of a calibration curve made for the standard calibration technique. </caption></figure>
+
+
+        </section>
+        <section id="id1169138131481">
+          <title>Bracketing technique</title>
+          <para id="id8715241">The bracketing technique is a variation of the standard calibration technique. In this method, only two standards are necessary with concentrations <emphasis effect="italics">c</emphasis><sub>1</sub> and <emphasis effect="italics">c</emphasis><sub>2</sub>. They bracket the approximate value of the sample concentration very closely. Applying <link target-id="eip-979"/> to determines the value for the sample, where <emphasis effect="italics">c</emphasis><sub>x</sub> and <emphasis effect="italics">A</emphasis><sub>x</sub> are the concentration and adsorbance of the unknown, and <emphasis effect="italics">A</emphasis><sub>1</sub> and <emphasis effect="italics">A</emphasis><sub>2</sub> are the adsorbance for <emphasis effect="italics">c</emphasis><sub>1</sub> and <emphasis effect="italics">c</emphasis><sub>2</sub>, respectively. 
+
+</para><equation id="eip-979"><media id="id1169135317914_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics17-435d.png" id="id1169135317914__onlineimage" width="200" print-width="2in"/>
+            </media>
+          </equation><para id="eip-171">This method is very useful when the concentration of the analyte in the sample is outside of the linear portion of the calibration curve because the bracket is so small that the portion of the curve being used can be portrayed as linear. Although this method can be used accurately for nonlinear curves, the further the curve is from linear the greater the error will be. To help reduce this error, the standards should bracket the sample very closely.</para>
+          
+        </section>
+        <section id="id1169110857005">
+          <title>Analyte addition technique</title>
+          <para id="id1169108610827">The analyte addition technique is often used when the concomitants in the sample are expected to create many interferences and the composition of the sample is unknown. The previous two techniques both require that the standards have a similar matrix to that of the sample, but that is not possible when the matrix is unknown. To compensate for this, the analyte addition technique uses an aliquot of the sample itself as the matrix. The aliquots are then spiked with various amounts of the analyte. This technique must be used only within the linear range of the absorbances.</para>
+        </section>
+      </section>
+      <section id="id1169121664568"><title>Measurement interference</title><para id="id1169122587851">Interference is caused by contaminants within the sample that absorb at the same wavelength as the analyte, and thus can cause inaccurate measurements. Corrections can be made through a variety of methods such as background correction, addition of chemical additives, or addition of analyte <link target-id="id1169131230458"/>. </para>
+        <table id="id1169131230458" summary="Interferences in AAS.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Interference type</emphasis></entry>
+                <entry><emphasis effect="bold">Cause of interference</emphasis></entry>
+                <entry><emphasis effect="bold">Result</emphasis></entry>
+                <entry><emphasis effect="bold">Example</emphasis></entry>
+                <entry><emphasis effect="bold">Correction measures </emphasis></entry>
+              </row>
+              <row>
+                <entry>Atomic line overlap</entry>
+                <entry>Spectral profile of two elements are within 0.01 nm of each other</entry>
+                <entry>Higher experimental absorption value than the real value</entry>
+                <entry>Very rare, with the only plausable problem being that of copper (324.754 nm) and europium (324.753 nm) </entry>
+                <entry>Typically doesn't occur in practical situations, so there is no established correction method</entry>
+              </row>
+              <row>
+                <entry>Molecular band and line overlap</entry>
+                <entry>Spectral profile of an element overlaps with molecular band</entry>
+                <entry>Higher experimental absorption value than the real value</entry>
+                <entry>Calcium hydroxide and barium at 553.6 nm in a air-acetylene flame</entry>
+                <entry>Background correction</entry>
+              </row>
+              <row>
+                <entry>Ionization (vapor-phase or cation enhancement)</entry>
+                <entry>atoms are ionized at the temperature of the flame/furnace, which decreases the amount of free atoms</entry>
+                <entry>Lower experimental absorption value than real value</entry>
+                <entry>Problems commonly occur with cesium, potassium, and sodium</entry>
+                <entry>Add an ionization suppressor (or buffer) to both the sample and the standards</entry>
+              </row>
+              <row>
+                <entry>Light scattering</entry>
+                <entry>Solid particles scatter the beam of light lowering the intensity of the beam entering the monochromater</entry>
+                <entry>Higher experimental absorption value than the real value</entry>
+                <entry>High in samples with many refractory elements, highest at UV wavelengths (add specific example)</entry>
+                <entry>Matrix modifaction and/or background correction</entry>
+              </row>
+              <row>
+                <entry>Chemical</entry>
+                <entry>The chemical being analyzed is contained withing a compound in the analyte that is not atomized</entry>
+                <entry>Lower experimental absorption value than real value</entry>
+                <entry>Calcium and phosphate ions form calcium phosphate which is then converted to calcium pyrophosphate which is stable in high heat</entry>
+                <entry>Increase the temperature of the flame if flame AAS is being used, use a releasing chemical, or standard addition for electrothermal AAS</entry>
+              </row>
+              <row>
+                <entry>Physical</entry>
+                <entry>If physical properties of the sample and the standards are different, atomization can be affected thus affecting the number of free atom population</entry>
+                <entry>Can vary in either direction depending upon the conditions</entry>
+                <entry>Viscosity differences, surface tension differences, etc</entry>
+                <entry>Alter the standards to have similar physical properties to the samples</entry>
+              </row>
+              <row>
+                <entry>Volitalization</entry>
+                <entry>In electrothermal atomization, interference will occur if the rate of volatilization is not the same for the sample as for the standard, which is often caused by a heavy matrix</entry>
+                <entry>Can vary in either direction depending upon the conditions</entry>
+                <entry>Chlorides are very volatile, so they need to be converted to a less volatile form. Often this is done by the addition of nitrate or slufate. Zinc and lead are also highly problamatic</entry>
+                <entry>Change the matrix by standard addition, or selectively volatileze components of the matrix</entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup><caption>Examples of interference in AAS. </caption>
+</table>
+      </section>
+    </section>
+    <section id="id1169137118392">
+      <title>Bibliography</title>
+      <list id="id1169124175848" list-type="bulleted"><item>L. Ebon, A. Fisher and S. J. Hill, <emphasis effect="italics">An Introduction to Analytical Atomic Spectrometry</emphasis>, Ed. E. H. Evans, Wiley, New York (1998).</item>
+        <item>B. Welz and M. Sperling, <emphasis effect="italics">Atomic Absorption Spectrometry</emphasis>, 3<sup>rd</sup> Ed, Wiley-VCH, New York (1999).</item>
+        <item>J. W. Robinson, <emphasis effect="italics">Atomic Spectroscopy</emphasis>, 2<sup>nd</sup> Ed. Marcel Dekker, Inc., New York (1996).</item>
+        <item>K. S. Subramanian, <emphasis effect="italics">Water Res.</emphasis>, 1995, <emphasis effect="bold">29</emphasis>, 1827.</item>
+        <item>M. Sakata and O. Shimoda, <emphasis effect="italics">Water Res.</emphasis>, 1982, <emphasis effect="bold">16</emphasis>, 231.</item>
+        <item>J. C. Van Loon, <emphasis effect="italics">Analytical Atomic Absorption Spectroscopy Selected Methods</emphasis>, Academic Press, New York (1980).</item>
+      </list>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,78 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Characterization of Graphene by Raman Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34667</md:content-id>
+  <md:title>Characterization of Graphene by Raman Spectroscopy</md:title>
+  <md:abstract>Raman spectroscopy is a powerful and easy tool, and can be used to identify the number of layers and structure of graphene.</md:abstract>
+  <md:uuid>f06226c5-c2a4-4798-9c75-b016acea73cd</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-733"><title>Introduction</title><para id="eip-242">Graphene is a quasi-two-dimensional material, which comprises layers of carbon atoms arranged in six-member rings (<link target-id="id5graph"/>). Since being discovered by Andre Geim and co-wokers at the University of Manchester, graphene has become one of the most exciting topics of research because of its distinctive band structure and physical properties, such as the observation of a quantum hall effect at room temperature, a tunable band gap, and a high carrier mobility. 
+</para>
+<figure id="id5graph"><media id=" id5graph_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphene.jpg" id=" id5graph__onlineimage" width="400" print-width="3in"/>
+          </media>
+<caption>Idealized structure of a single graphene sheet. Copyright: Chris Ewels (<link url="http://www.ewels.info">http://www.www.ewels.info</link>). </caption></figure><para id="eip-811">Graphene can be characterized by many techniques including atomic force microscopy (AFM), transmission electron microscopy (TEM) and Raman spectroscopy. AFM can be used to determine the number of the layers of the graphene, and TEM images can show the structure and morphology of the graphene sheets. In many ways, however, Raman spectroscopy is a much more important tool for the characterization of graphene. First of all, Raman spectroscopy is a simple tool and requires little sample preparation. What’s more, Raman spectroscopy can not only be used to determine the number of layers, but also can identify if the structure of graphene is perfect, and if nitrogen, hydrogen or other fuctionalization is successful. </para></section>
+
+<section id="eip-552"><title>Raman spectrum of graphene</title>
+
+<para id="eip-445">While Raman spectroscopy is a useful technique for characterizing sp<sup>2</sup> and sp<sup>3</sup> hybridized carbon atoms, including those in graphite, fullerenes, carbon nanotubes, and graphene. Single, double, and multi-layer graphenes have also been differentiated by their Raman fingerprints.
+</para>
+
+<para id="eip-628"><link target-id=" cute-dog"/> shows a typical Raman spectrum of N-doped single-layer graphene. The D-mode, appears at approximately 1350 cm-1, and the G-mode appears at approximately 1583 cm<sup>-1</sup>. The other Raman modes are at 1620 cm<sup>-1</sup> (D’- mode), 2680 cm<sup>-1</sup> (2D-mode), and 2947 cm<sup>-1</sup> (D+G-mode).</para>
+
+
+<figure id="id1raman"><media id=" id1raman_media" alt="">
+            <image mime-type="image/jpg" src="../../media/1-a99f.jpg" id="id1raman__onlineimage" width="400" print-width="4in"/>
+          </media><caption>Raman spectrum with a 514.5 nm excitation laser wavelength of N-doped single-layer graphene. </caption></figure>
+
+
+
+<section id="eip-444"><title>The G-band</title>
+
+<para id="eip-255">
+
+The G-mode is at about 1583 cm<sup>-1</sup>, and is due to E2g mode at the Γ-point. G-band arises from the stretching of the C-C bond in graphitic materials,
+and is common to all sp<sup>2</sup> carbon systems. The G-band is highly sensitive to strain effects in sp<sup>2</sup> system, and thus can be used to probe modification on the flat surface of graphene.
+</para>
+</section>
+
+<section id="eip-449"><title>Disorder-induced D- band and D’- band</title>
+
+
+<para id="eip-285">The D-mode is caused by disordered structure of graphene. The presence of disorder in sp<sup>2</sup>-hybridized carbon systems results in resonance Raman spectra, and thus makes Raman spectroscopy one of the most sensitive techniques to characterize disorder in sp<sup>2</sup> carbon materials. As is shown by a comparison of <link target-id="cute-dog"/> and <link target-id="cut2e-dog"/>, there is no D peak in the Raman spectra of graphene with a perfect structure.</para>
+
+
+<figure id="id2raman"><media id=" id2raman_media" alt="">
+            <image mime-type="image/jpg" src="../../media/2-1e9b.jpg" id="id2raman__onlineimage" width="400" print-width="4in"/>
+          </media><caption>Raman spectrum with a 514.5 nm excitation laser wavelengthof pristine single-layer graphene. </caption></figure>
+
+
+
+<para id="eip-269">If there are some randomly distributed impurities or surface charges in the graphene, the G-peak can split into two peaks, G-peak (1583 cm<sup>-1</sup>) and D’-peak (1620 cm<sup>-1</sup>). The main reason is that the localized vibrational modes of the impurities can interact with the extended phonon modes of graphene resulting in the observed splitting. </para>
+</section>
+
+<section id="eip-446"><title>The 2D-band</title>
+<para id="eip-99">All kinds of sp<sup>2</sup> carbon materials exhibit a strong peak in the range 2500 - 2800 cm<sup>-1</sup> in the Raman spectra. Combined with the G-band, this spectrum is a Raman signature of graphitic sp<sup>2</sup> materials and is called 2D-band. 2D-band is a second-order two-phonon process and exhibits a strong frequency dependence on the excitation laser energy.</para><para id="eip-980">What’s more, the 2D band can be used to determine the number of layer of graphene. This is mainly because in the multi-layer graphene, the shape of 2D band is pretty much different from that in the single-layer graphene. As shown in <link target-id="cutewe-dog"/>, the 2D band in the single-layer graphene is much more intense and sharper as compared to the 2D band in multi-layer graphene.</para>
+
+<figure id="id3raman"><media id=" id3raman_media" alt="">
+            <image mime-type="image/jpg" src="../../media/3-d49b.jpg" id="id3raman__onlineimage" width="330" print-width="3.3in"/>
+          </media><caption>Raman spectrum with a 514.5 nm excitation laser wavelength of pristine single-layer and multi-layer graphene. </caption></figure>
+
+
+
+</section></section>
+
+<section id="eip-447"><title>Bibliography</title>
+
+<list id="eip-32" list-type="bulleted" bullet-style="bullet"><item>G. G. Chen, P. Joshi, S. Tadigadapa, and P. C. Eklund, <emphasis effect="italics">Nano Lett.</emphasis>, 2006, <emphasis effect="bold">6</emphasis> , 2667.</item>
+	<item>C. Ferrari, J. C. Meyer, V. Scardaci, C. Casiraghi, M. Lazzeri, F. Mauri, S. Piscanec, D. Jiang, K. S. Novoselov, and S. Roth, A. K.
+Geim, <emphasis effect="italics">Phys. Rev. Lett.</emphasis>, 2006, <emphasis effect="bold">97</emphasis>, 187401.
+</item>
+	<item>M. A. Pimenta, G. Dresselhaus, M. S. Dresselhaus, L. A.Cancado, A. Jorio, and R. Sato, <emphasis effect="italics">Phys. Chem. Chem. Phys.</emphasis>, 2007, <emphasis effect="bold">9</emphasis>, 1276.</item></list>
+</section>
+</content>
+
+</document>

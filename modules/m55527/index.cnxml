@@ -1,0 +1,299 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Electrical Permittivity Characterization of Aqueous Solutions Across the Frequency Range 200 MHz – 3 GHz</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55527</md:content-id>
+  <md:title>Electrical Permittivity Characterization of Aqueous Solutions Across the Frequency Range 200 MHz – 3 GHz</md:title>
+  <md:abstract>The instrumentation and methods used to obtain electrical permittivity measurements of aqueous solutions across the frequency range 200 MHz – 3 GHz are given. Deionized water and saline aqueous solutions are used as examples.</md:abstract>
+  <md:uuid>aee33c17-5ca1-4bf4-8e40-1e6641cc4448</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1167473515785">
+      <title>Introduction</title>
+      <para id="import-auto-id1167475708380">Permittivity (in the framework of electromagnetics) is a fundamental material property that describes how a material will affect, and be affected by, a time-varying electromagnetic field. The parameters of permittivity are often treated as a complex function of the applied electromagnetic field as complex numbers allow for the expression of magnitude and phase. The fundamental equation for the complex permittivity of a substance (ε<sub>s</sub>) is given by <link target-id="eip-20"/>, where ε’ and ε’’ are the real and imaginary components, respectively, ω is the radial frequency (rad/s) and can be easily converted to frequency (Hertz, Hz) using <link target-id="eip-664"/>.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-20"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>ε</m:mi>
+                      <m:mrow>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>ε</m:mi>
+                  </m:mrow>
+                  <m:mi>'</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>ω</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mi fontstyle="italic">iε</m:mi>
+                  </m:mrow>
+                  <m:mtext>''</m:mtext>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>ω</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ε rSub { size 8{s} } =ε' \( ω \)  - iε"''" \( ω \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-664"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>ω</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>2πf</m:mn>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ω=2πf} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><para id="import-auto-id1167465858151">Specifically, the real and imaginary parameters defined within the complex permittivity equation describe how a material will store electromagnetic energy and dissipate that energy as heat. The processes that influence the response of a material to a time-varying electromagnetic field are frequency dependent and are generally classified as either ionic, dipolar, vibrational, or electronic in nature. These processes are highlighted as a function of frequency in <link target-id="import-auto-id1167467646683"/>. Ionic processes refer to the general case of a charged ion moving back and forth in response a time-varying electric field, whilst dipolar processes correspond to the ‘flipping’ and ‘twisting’ of molecules, which have a permanent electric dipole moment such as that seen with a water molecule in a microwave oven. Examples of vibrational processes include molecular vibrations (e.g. symmetric and asymmetric) and associated vibrational-rotation states that are Infrared (IR) active. Electronic processes include optical and ultra-violet (UV) absorption and scattering phenomenon seen across the UV-visible range.</para><figure id="import-auto-id1167467646683"><media id="import-auto-id1167478007160" alt="">
+          <image mime-type="image/jpg" src="../../media/Figure 1-ddda.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>A dielectric permittivity spectrum over a wide range of frequencies. ε′ and ε″ denote the real and the imaginary part of the permittivity, respectively. Various processes are labeled on the image: ionic and dipolar relaxation, and atomic and electronic resonances at higher energies.</caption></figure><para id="import-auto-id1167464081802">The most common relationship scientists that have with permittivity is through the concept of relative permittivity: the permittivity of a material relative to vacuum permittivity. Also known as the dielectric constant, the relative permittivity (ε<sub>r</sub>) is given by <link target-id="eip-851"/>, where ε<sub>s</sub> is the permittivity of the substance and ε<sub>0</sub> is the permittivity of a vacuum (ε<sub>0</sub> = 8.85 x 10<sup>-12 </sup>Farads/m). Although relative permittivity is in fact dynamic and a function of frequency, the dielectric constants are most often expressed for low frequency electric fields where the electric field is essential static in nature. <link target-id="eip-992"/> depicts the dielectric constants for a range of materials.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-851"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>ε</m:mi>
+                    <m:mrow>
+                      <m:mi>r</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>ε</m:mi>
+                      <m:mrow>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">/</m:mo>
+                    <m:msub>
+                      <m:mi>ε</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ε rSub { size 8{r} } =ε rSub { size 8{s} } /ε rSub { size 8{0} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+<table id="eip-992" summary="Relative permittivities of various materials under static (i.e. non time-varying) electric fields.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Material</emphasis></entry>
+    <entry><emphasis effect="bold">Relative Permittivity</emphasis></entry>
+  </row>
+  <row>
+    <entry>Vacuum</entry>
+    <entry>1 (by definition)</entry>
+  </row>
+  <row>
+    <entry>Air</entry>
+    <entry>1.00058986</entry>
+  </row>
+  <row>
+    <entry>Polytetrafluoroethylene (PTFE, Teflon)</entry>
+    <entry>2.1</entry>
+  </row>
+  <row>
+    <entry>Paper</entry>
+    <entry>3.85</entry>
+  </row>
+  <row>
+    <entry>Diamond</entry>
+    <entry>5.5-10</entry>
+  </row>
+  <row>
+    <entry>Methanol</entry>
+    <entry>30</entry>
+  </row>
+  <row>
+    <entry>Water</entry>
+    <entry>80.1</entry>
+  </row>
+  <row>
+    <entry>Titanium dioxide (TiO<sub>2</sub>)</entry>
+    <entry>86-173</entry>
+  </row>
+  <row>
+    <entry>Strontium titanate (SrTiO<sub>3</sub>)</entry>
+    <entry>310</entry>
+  </row>
+  <row>
+    <entry>Barium titanate (BaTiO<sub>3</sub>)</entry>
+    <entry>1,200-10,000</entry>
+  </row>
+  <row>
+    <entry>Calcium copper titanate (CaCu<sub>3</sub>Ti<sub>4</sub>O<sub>12</sub>)</entry>
+    <entry>&gt; 250,000</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup><caption>Relative permittivities of various materials under static (i.e. non time-varying) electric fields.</caption>
+</table><para id="import-auto-id1167473943373">Dielectric constants may be useful for generic applications whereby the high-frequency response can be neglected, although applications such as radio communications, microwave design, and optical system design call for a more rigorous and comprehensive analysis. This is especially true for electrical devices such as capacitors, which are circuit elements that store and discharge electrical charge in both a static and time-varying manner. Capacitors can be thought of as two parallel plate electrodes that are separated by a finite distance and ‘sandwich’ together a piece of material with characteristic permittivity values. As can be seen in <link target-id="import-auto-id1167466806298"/>, the capacitance is a function of the permittivity of the material between the plates, which in turn is dependent on frequency. Hence, for capacitors incorporated into the circuit design for radio communication applications, across the spectrum 8.3 kHz – 300 GHz, the frequency response would be important as this will determine the capacitors ability to charge and discharge as well as the thermal response from electric fields dissipating their power as heat through the material.</para><figure id="import-auto-id1167466806298"><media id="import-auto-id1167466868247" alt="">
+          <image mime-type="image/png" src="../../media/Capacitor Figure.jpg" width="300" print-width="3in"/>
+        </media>
+      <caption>Parallel plate capacitor of area, A, separated by a distance, d. The capacitance of the capacitor is directly related to the permittivity (ε) of the material between the plates, as shown in the equation.</caption></figure><para id="import-auto-id1167467343379">Evaluating the electrical characteristics of materials is become increasingly popular – especially in the field of electronics whereby miniaturization technologies often require the use of materials with high dielectric constants. The composition and chemical variations of materials such as solids and liquids can adopt characteristic responses, which are directly proportional to the amounts and types of chemical species added to the material. The examples given herein are related to aqueous suspensions whereby the electrical permittivity can be easily modulated via the addition of sodium chloride (NaCl).</para>
+    </section>
+    <section id="import-auto-id1167465964415">
+      <title>Instrumentation</title><para id="import-auto-id1167465776250">A common and reliable method for measuring the dielectric properties of liquid samples is to use an impedance analyzer in conjunction with a dielectric probe. The impedance analyzer directly measures the complex impedance of the sample under test and is then converted to permittivity using the system software. There are many methods used for measuring impedance, each of which has their own inherent advantages and disadvantages and factors associated with that particular method. Such factors include frequency range, measurement accuracy, and ease of operation. Common impedance measurements include bridge method, resonant method, current-voltage (I-V) method, network analysis method, auto-balancing bridge method, and radiofrequency (RF) I-V method. The RF I-V method used herein has several advantages over previously mentioned methods such as extended frequency coverage, better accuracy, and a wider measured impedance range. The principle of the RF I-V method is based on the linear relationship of the voltage-current ratio to impedance, as given by Ohm’s law (V=IZ where V is voltage, I is current, and Z is impedance). This results in the impedance measurement sensitivity being constant regardless of measured impedance. Although a full description of this method involves circuit theory and is outside the scope of this module (see “<emphasis effect="italics">Impedance Measurement Handbook</emphasis>” for full details) a brief schematic overview of the measurement principles is shown in <link target-id="import-auto-id1167476472726"/>.</para><figure id="import-auto-id1167476472726"><media id="import-auto-id1167478235976" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 4-2ba3.jpg" width="600" print-width="6in"/>
+        </media>
+      <caption>(a) Dielectric probe (liquids are placed on this probe). Circuit schematic of impedance measurements for (b) low and (c) high impedance materials. Circuit symbols Osc, Zx, V, I, and R represent oscillator (i.e. frequency source), sample impedance, voltage, current, and resistance, respectively.</caption></figure><para id="import-auto-id1167465347007">As can be seen in Figure 3, the RF I-V method, which incorporates the use of a dielectric probe, essentially measures variations in voltage and current when a sample is placed on the dielectric probe. For the low-impedance case, the impedance of the sample (Zx) is given by <link target-id="eip-908"/>, for a high-impedance sample, the impedance of the sample (Zx) is given by <link target-id="eip-105"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-908"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>Zx</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mi>V</m:mi>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mi>I</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>2R</m:mn>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfrac>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ ital "Zx"=V/I= {  {2R}  over  { {  {V rSub { size 8{2} } }  over  {V rSub { size 8{1} } } }  - 1} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-105"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>Zx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mi>V</m:mi>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi>I</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mi>R</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mfenced open="[" close="]">
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfrac>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ ital "Zx"=V/I= {  {R}  over  {2} }  left [ {  {V rSub { size 8{1} } }  over  {V rSub { size 8{2} } } }  - 1 right ]} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><para id="import-auto-id1167466002439">The instrumentation and methods described herein consist of an Agilent E4991A impedance analyzer connected to an Agilent 85070E dielectric probe kit. The impedance analyzer directly measures the complex impedance of the sample under test by measuring either the frequency-dependent voltage or current across the sample. These values are then converted to permittivity values using the system software.</para></section>
+    <section id="import-auto-id1167473477867">
+      <title>Applications</title>
+      <section id="import-auto-id1167473532704">
+        <title>Electrical permittivity of deionized water and saline (0.9 % w/v NaCl)</title>
+        <para id="import-auto-id1167465361431">In order to acquire the electrical permittivity of aqueous solutions the impedance analyzer and dielectric probe must first be calibrated. In the first instance, the impedance analyzer unit is calibrated under open-circuit, short-circuit, 50 ohm load, and low loss capacitance conditions by attaching the relevant probes shown in <link target-id="import-auto-id1167479437344"/>. The dielectric probe is then attached to the system and re-calibrated in open-air, with an attached short circuit probe, and finally with 500 μl of highly purified deionized water (with a resistivity of 18.2 MΩ/cm at 25 °C) (<link target-id="import-auto-id1167467713570"/>). The water is then removed and the system is ready for acquiring data. </para><figure id="import-auto-id1167479437344"><media id="import-auto-id1167472967634" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 5-f306.jpg" width="700" print-width="5.5in"/>
+          </media>
+        <caption>Impedance analyzer calibration (A) Agilent E4991A impedance analyzer connected to 85070E dielectric probe. (B) Calibrations standards (left-to-right: open circuit, short circuit, 50 ohm load, low-loss capacitor), (C) Attachment of the open circuit, short circuit, 50 ohm load, and low-loss capacitor (left-to-right, respectively).</caption></figure><figure id="import-auto-id1167467713570"><media id="import-auto-id1167479313762" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 7-9713.jpg" width="400" print-width="4in"/>
+          </media>
+
+        <caption>Dielectric probe calibration. (A) Impedance analyzer screen shot showing data line for dielectric probe in open-air. (B) short circuit probe (C) dielectric probe (D) dielectric probe connected to impedance analyzer under open air conditions (E) short-circuit probe attached to dielectric probe (F) 500 μl of deionized water on dielectric probe.</caption></figure><para id="eip-506">In order to maintain accurate calibration only the purest deionized water with a resistivity of 18.2 MΩ/cm at 25 °C should be used. To perform an analysis simply load the dielectric probe with 500 μl of the sample and click on the ‘acquire data’ tab in the software. The system will perform a scan across the frequency range 200 MHz – 3 GHz and acquire the real and imaginary parts of the complex permittivity. The period with which a data point is taken as well as the scale (i.e. log or linear) can also be altered in the software if necessary. To analyze another sample, remove the liquid and gently dry the dielectric probe with a paper towel. An open air refresh calibration should then be performed (by pressing the relevant button in the software) as this prevents errors and instrument drift from sample to sample. To analyze a normal saline (0.9 % NaCl w/v) solution, dissolve 8.99 g of NaCl in 1 litre of DI water (18.2 MΩ/cm at 25 °C) to create a 154 mM NaCl solution (equivalent to a 0.9 % NaCl w/v solution). Load 500 μl of the sample on the dielectric probe and acquire a new data set as mentioned previously. </para><note id="eip-528">Users should consult the “<emphasis effect="italics">Agilent Installation and Quick Start Guide</emphasis>” manual for full specifics in regards to impedance analyzer and dielectric probe calibration settings.</note></section>
+    </section>
+    <section id="import-auto-id1167473999845">
+      <title>Data analysis</title><para id="import-auto-id1167474097235">The data files extracted from the impedance analyzer and dielectric probe setup previously described can be opened using any standard data processing software such as Microsoft Excel. The data will appear in three columns, which will be labeled frequency (Hz), ε', and ε" (representing the real and imaginary components of the permittivity, respectively). Any graphing software can be used to create simple graphs of the complex permittivity versus frequency. In the example below (<link target-id="import-auto-id1167477646945"/>) we have used Prism to graph the real and complex permittivity’s versus frequency (200 MHz – 3 GHz) for the water and saline samples. For this frequency range no error correction is needed. For the analysis of frequencies below 200 MHz down to 10 MHz, which can be achieved using the impedance analyzer and dielectric probe configuration, error correction algorithms are needed to take into account electrode polarization effects that skew and distort the data. Gach <emphasis effect="italics">et al</emphasis>. cover these necessary algorithms that can be used if needed.</para><figure id="import-auto-id1167477646945"><media id="import-auto-id1167473087377" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 9-1747.jpg" width="600" print-width="5.5in"/>
+        </media>
+      <caption>Real and Imaginary components of permittivity for water (left) and saline (right) samples across the frequency range 200 MHz – 3 GHz. </caption></figure></section>
+    <section id="import-auto-id1167467529055">
+      <title>Bibliography</title><list id="import-auto-id7660150" list-type="bulleted"><item>Application Manual: <link url="http://cp.literature.agilent.com/litweb/pdf/5980-2862EN.pdf"><emphasis effect="underline">"Agilent Solutions for Measuring Permittivity and Permeability with LCR Meters and Impedance Analyzers"</emphasis></link> Last accessed 02-05-2015. </item>
+<item>A. C. Metaxas <emphasis effect="italics">Foundations of Electroheat: A Unified Approach</emphasis>, (1996), Wiley Publishing.</item>
+<item>National Institute for Standards and Technology Tech. Note 1536, (February 2005) <link url="http://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1536.pdf"><emphasis effect="underline">Measuring the Permittivity and Permeability of Lossy Materials: Solids, Liquids, Metals, Building Materials, and Negative-Index Materials</emphasis></link> Last accessed 02-05-2015. </item>
+
+<item><link url="http://cp.literature.agilent.com/litweb/pdf/5950-3000.pdf"><emphasis effect="underline">Keysight Technologies Impedance Measurement Handbook – a guide to measurement technology and techniques</emphasis></link>. 4<sup>th</sup> Edition. Last accessed 03-29-2015. </item>
+
+<item><link url="http://literature.cdn.keysight.com/litweb/pdf/E4991-90201.pdf"><emphasis effect="underline">Agilent E4991A RF Impedance/Material Analyzer Installation and Quick Start Guide</emphasis></link>. 9<sup>th</sup> Edition. Last accessed 03-29-2015. </item>
+<item>M. A. Laughton, D. F. Warne, <emphasis effect="italics">Electrical Engineers Reference Book</emphasis>, (2002), Newnes publishing. </item>
+<item>H. Michael Gach and T. Nair, <emphasis effect="italics">Bioelectromagnetics</emphasis>, <emphasis effect="bold">31</emphasis>, 582-588, 2010.</item>
+      </list></section>
+  </content>
+</document>

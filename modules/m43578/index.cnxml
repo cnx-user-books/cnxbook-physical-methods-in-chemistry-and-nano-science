@@ -1,0 +1,382 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Introduction to Combustion Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43578</md:content-id>
+  <md:title>Introduction to Combustion Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>09bb192b-eeee-4363-9c97-ee6653400cd6</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1168260951857">
+      <title>Applications of combustion analysis</title>
+      <para id="import-auto-id1168260951465">Combustion, or burning as it is more commonly known, is simply the mixing and exothermic reaction of a fuel and an oxidizer. It has been used since prehistoric times in a variety of ways, such as a source of direct heat, as in furnaces, boilers, stoves, and metal forming, or in piston engines, gas turbines, jet engines, rocket engines, guns, and explosives. Automobile engines use internal combustion in order to convert chemical into mechanical energy. Combustion is currently utilized in the production of large quantities of H<sub>2</sub>. Coal or coke is combusted at 1000 °C in the presence of water in a two-step reaction. The first step shown in <link target-id="eip-300"/> involved the partial oxidation of carbon to carbon monoxide. The second step, <link target-id="eip-502"/>, involves a mixture of produced carbon monoxide with water to produce hydrogen and is commonly known as the water gas shift reaction. 
+</para><equation id="eip-300"><media id="idA72_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq72.jpg" id="idA72__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-502"><media id="idA73_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq73.jpg" id="idA73__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1168258210673">Although combustion provides a multitude of uses, it was not employed as a scientific analytical tool until the late 18th century.</para>
+    </section>
+    <section id="import-auto-id1168258307954"><title>History of combustion</title><para id="import-auto-id1168260946853">In the 1780's, Antoine Lavoisier (<link target-id="import-auto-id1168260949643"/>) was the first to analyze organic compounds with combustion using an extremely large and expensive apparatus (<link target-id="import-auto-id1168269772836"/>) that required over 50 g of the organic sample and a team of operators. </para>
+      <figure id="import-auto-id1168260949643"><media id="import-auto-id1168261456757" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-dae5.jpg" width="300" print-width="2in"/>
+        </media>
+        
+      <caption>French chemist and renowned "father of modern Chemistry" Antoine Lavoisier (1743-1794).</caption></figure><figure id="import-auto-id1168269772836"><media id="import-auto-id1168261528830" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-a410.jpg" width="400" print-width="4in"/>
+        </media>
+        
+      <caption>Lavoisier's combustion apparatus. A. Lavoisier, <emphasis effect="italics">Traité Élémentaire de Chimie</emphasis>, 1789, <emphasis effect="bold">2</emphasis>, 493-501.</caption></figure><para id="import-auto-id1168259768061">The method was simplified and optimized throughout the 19<sup>th</sup> and 20<sup>th</sup> centuries, first by Joseph Gay-Lussac (<link target-id="import-auto-id1168260948610"/>), who began to use copper oxide in 1815, which is still used as the standard catalyst. </para>
+      <figure id="import-auto-id1168260948610"><media id="import-auto-id1168259474378" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-0b9a.jpg" width="300" print-width="2in"/>
+        </media>
+        
+      <caption>French chemist Joseph Gay-Lussac (1778-1850).</caption></figure><para id="import-auto-id1168265218749">William Prout (<link target-id="import-auto-id1168260952609"/>) invented a new method of combustion analysis in 1827 by heating a mixture of the sample and CuO using a multiple-flame alcohol lamp (<link target-id="import-auto-id1168266073213"/>) and measuring the change in gaseous volume. </para>
+      <figure id="import-auto-id1168260952609"><media id="import-auto-id1168262567529" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4-c3a5.jpg" width="300" print-width="2in"/>
+        </media>
+        
+      <caption>English chemist, physician, and natural theologian William Prout (1785-1850).</caption></figure><figure id="import-auto-id1168266073213"><media id="import-auto-id1168266326588" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics5-abe4.jpg" height="173" print-width="3in"/>
+        </media>
+        
+
+<caption>Prout's combustion apparatus. W. Prout, <emphasis effect="italics">Philos. T. R. Soc. Lond.</emphasis>, 1827, <emphasis effect="bold">117</emphasis>, 355.</caption></figure><para id="import-auto-id1168264782060">In 1831, Justus von Liebig (<link target-id="import-auto-id1168260494084"/>) simplified the method of combustion analysis into a "combustion train" system (<link target-id="import-auto-id1168270611050"/> and <link target-id="import-auto-id1168267316090"/>) that linearly heated the sample using coal, absorbed water using calcium chloride, and absorbed carbon dioxide using potash (KOH). This new method only required 0.5 g of sample and a single operator, and Liebig moved the sample through the apparatus by sucking on an opening at the far right end of the apparatus.</para><figure id="import-auto-id1168260494084"><media id="import-auto-id1168270373877" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6-ba67.jpg" width="300" print-width="2in"/>
+          </media>
+          
+        <caption>German chemist Justus von Liebig (1803-1873). </caption></figure><figure id="import-auto-id1168270611050"><media id="import-auto-id1168269863902" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics7-edf1.jpg" width="450" print-width="4.5in"/>
+        </media>
+        
+      <caption>Print of von Liebig's "combustion train" apparatus for determining carbon and hydrogen composition. J. Von Liebig, <emphasis effect="italics">Annalen der Physik und Chemie</emphasis>, 1831, <emphasis effect="bold">21</emphasis>.</caption></figure><figure id="import-auto-id1168267316090"><media id="import-auto-id1168274672000" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics8-f8d0.jpg" width="500" print-width="5in"/>
+        </media>
+        
+      <caption>Photo of von Liebig's "combustion train apparatus" for determining carbon and hydrogen composition. The Oesper Collections in the History of Chemistry, Apparatus Museum, University of Cincinnati, Case 10, Combustion Analysis. For a 360<sup>o</sup> view of this apparatus, visit <link url="http://digitalprojects.libraries.uc.edu/oesper/museum/case10/shelf_02/CA0010/index.php" window="new">http://digitalprojects.libraries.uc.edu/oesper/museum/case10/shelf_02/CA0010/index.php</link>.</caption></figure><para id="import-auto-id1168260339338">Jean-Baptiste André Dumas (<link target-id="import-auto-id1168273093587"/>) used a similar combustion train to Liebig. However, he added a U-shaped aspirator that prevented atmospheric moisture from entering the apparatus (<link target-id="import-auto-id1168265988515"/>). </para><figure id="import-auto-id1168273093587"><media id="import-auto-id1168267807448" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics9-f9a9.jpg" width="300" print-width="2in"/>
+        </media>
+        
+      <caption>French chemist Jean-Baptiste André Dumas (1800-1844).</caption></figure><figure id="import-auto-id1168265988515"><media id="import-auto-id7793292" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics10-71fe.jpg" width="450" print-width="4.5in"/>
+        </media>
+        
+      <caption>Dumas' apparatus; note the aspirator at 8. Sourced from J. A. Dumas, <emphasis effect="italics">Ann. der Chem. and Pharm.</emphasis>, 1841, <emphasis effect="bold">38</emphasis>, 141.</caption></figure><para id="import-auto-id1168267736876">In 1923, Fritz Pregl (<link target-id="import-auto-id1168267289701"/>) received the Nobel Prize for inventing a micro-analysis method of combustion. This method required only 5 mg or less, which is 0.01% of the amount required in Lavoisier's apparatus. </para><figure id="import-auto-id1168267289701"><media id="import-auto-id1168273119035" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics11-0dbb.jpg" width="300" print-width="2in"/>
+        </media>
+        
+      <caption>Austrian chemist and physician Fritz Pregl (1869-1930). </caption></figure><para id="import-auto-id4926771">Today, combustion analysis of an organic or organometallic compound only requires about 2 mg of sample. Although this method of analysis destroys the sample and is not as sensitive as other techniques, it is still considered a necessity for characterizing an organic compound.</para>
+    </section><section id="import-auto-id6951178">
+      <title>Categories of combustion </title>
+      <section id="import-auto-id1168275499318">
+        <title>Basic flame types</title>
+        <para id="import-auto-id1168276851870">There are several categories of combustion, which can be identified by their flame types (<link target-id="import-auto-id1168264236388"/>). At some point in the combustion process, the fuel and oxidant must be mixed together. If these are mixed before being burned, the flame type is referred to as a premixed flame, and if they are mixed simultaneously with combustion, it is referred to as a nonpremixed flame. In addition, the flow of the flame can be categorized as either laminar (streamlined) or turbulent (<link target-id="import-auto-id1168258722502"/>). </para><table id="import-auto-id1168264236388" summary="Types of combustion systems with examples.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>Fuel/oxidizer mixing</entry>
+                <entry>Fluid motion</entry>
+                <entry>Examples</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Premixed</entry>
+                <entry>Turbulent</entry>
+                <entry>Spark-ignited gasoline engine, low NO<sub>x</sub> stationary gas turbine</entry>
+              </row>
+              <row>
+                <entry>Premixed</entry>
+                <entry>Laminar</entry>
+                <entry>Flat flame, Bunsen flame (followed by a nonpremixed candle for Φ&gt;1)</entry>
+              </row>
+              <row>
+                <entry>Nonpremixed</entry>
+                <entry>Turbulent</entry>
+                <entry>Pulverized coal combustion, aircraft turbine, diesel engine, H<sub>2</sub>/O<sub>2</sub> rocket motor</entry>
+              </row>
+              <row>
+                <entry>Nonpremixed</entry>
+                <entry>Laminar</entry>
+                <entry>Wood fire, radiant burners for heating, candle </entry>
+              </row>
+            </tbody>
+          
+
+
+
+</tgroup><caption>Types of combustion systems with examples. Adapted from J. Warnatz, U. Maas, and R. W. Dibble, <emphasis effect="italics">Combustion: Physical and Chemical Fundamentals, Modeling and Simulation, Experiments, Pollutant Formation</emphasis>, 3<sup>rd</sup> Ed., Springer, Berlin (2001). </caption>
+</table><figure id="import-auto-id1168258722502"><media id="import-auto-id1168272877907" alt="">
+            <image mime-type="image/png" src="../../media/graphics12-dc55.png" width="300" print-width="3in"/>
+          </media>
+          
+        <caption>Schematic representation of (a) laminar flow and (b) turbulent flow. </caption></figure><para id="import-auto-id6893747">The amount of oxygen in the combustion system can alter the flow of the flame and the appearance. As illustrated in <link target-id="import-auto-id1168260952589"/>, a flame with no oxygen tends to have a very turbulent flow, while a flame with an excess of oxygen tends to have a laminar flow. </para><figure id="import-auto-id1168260952589"><media id="import-auto-id1168259173341" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics13-961f.jpg" width="300" print-width="3in"/>
+          </media>
+          
+        <caption>Bunsen burner flames with varying amounts of oxygen and constant amount of fuel. (1) air valve completely closed, (2) air valve slightly open, (3) air valve half open, (4) air valve completely open.</caption></figure></section>
+      <section id="import-auto-id1168260948532">
+        <title>Stoichiometric combustion and calculations</title>
+        <para id="import-auto-id1168265334079">A combustion system is referred to as stoichiometric when all of the fuel and oxidizer are consumed and only carbon dioxide and water are formed. On the other hand, a fuel-rich system has an excess of fuel, and a fuel-lean system has an excess of oxygen (<link target-id="import-auto-id1168270900124"/>). </para><table id="import-auto-id1168270900124" summary="Examples of stoichiometric, fuel-rich, and fuel-lean systems.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>Combustion type</entry>
+                <entry>Reaction example</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Stoichiometric</entry>
+                <entry>2H<sub>2</sub> + O<sub>2 </sub> --&gt; 2H<sub>2</sub>O</entry>
+              </row>
+              <row>
+                <entry>Fuel-rich (H<sub>2</sub> left over)</entry>
+                <entry>3H<sub>2</sub> + O<sub>2</sub> --&gt; 2H<sub>2</sub>O + H<sub>2</sub></entry>
+              </row>
+              <row>
+                <entry>Fuel-lean (O<sub>2</sub> left over)</entry>
+                <entry>CH<sub>4</sub> + 3O<sub>2</sub> --&gt; 2H<sub>2</sub>O + CO<sub>2</sub> + O<sub>2</sub></entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup><caption>Examples of stoichiometric, fuel-rich, and fuel-lean systems.</caption>
+</table><para id="import-auto-id1168264633261">If the reaction of a stoichiometric mixture is written to describe the reaction of exactly 1 mol of fuel (H<sub>2</sub> in this case), then the mole fraction of the fuel content can be easily calculated as follows, where ν denotes the mole number of O<sub>2</sub> in the combustion reaction equation for a complete reaction to H<sub>2</sub>O and CO<sub>2</sub>, <link target-id="eip-776"/>.</para><equation id="eip-776"><media id="idA74_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq74.jpg" id="idA74__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id4638356">For example, in the reaction <link target-id="eip-426"/>, the stoichiometry is determined as shown in <link target-id="eip-179"/> and <link target-id="eip-940"/>. </para><equation id="eip-426"><media id="idA75_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq75.jpg" id="idA75__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-179"><media id="idA76_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq76.jpg" id="idA76__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-940"><media id="idA77_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq77.jpg" id="idA77__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1168262896692">However, as calculated this reaction would be for the reaction in an environment of pure oxygen. On the other hand, air has only 21% oxygen (78% nitrogen, 1% noble gases). Therefore, if air is used as the oxidizer, this must be taken into account in the calculations, i.e., <link target-id="eip-278"/>.</para><equation id="eip-278"><media id="idA78_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq78.jpg" id="idA78__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1168259715828">The mole fractions for a stoichiometric mixture in air are therefore calculated in following way: <link target-id="eip-670"/> - <link target-id="eip-318"/>). </para><equation id="eip-670"><media id="idA79_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq79.jpg" id="idA79__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-431"><media id="idA80_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq80.jpg" id="idA80__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-318"><media id="idA81_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq81.jpg" id="idA81__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><example id="eip-459"><para id="eip-950">Calculate the fuel mole fraction (xfuel) for the stoichiometric reaction: 
+</para><equation id="eip-365"><media id="idA82_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq82.jpg" id="idA82__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-144">In this reaction ν = 2, as 2 moles of oxygen are needed to fully oxidize methane into H<sub>2</sub>O and CO<sub>2</sub>.</para><equation id="eip-924"><media id="idA83_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq83.jpg" id="idA83__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation></example><exercise id="eip-389"><problem id="eip-668">
+  <para id="eip-455">Calculate the fuel mole fraction for the stoichiometric reaction</para>
+
+
+<equation id="eip-A924"><media id="idA84_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq84.jpg" id="idA84__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+</problem>
+
+<solution id="eip-654">
+  <para id="eip-905">The fuel mole fraction is 4.03%.</para></solution>
+</exercise><para id="import-auto-id8730227">Premixed combustion reactions can also be characterized by the air equivalence ratio, λ, as shown in <link target-id="eip-283"/>.</para><equation id="eip-283"><media id="idA85_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq85.jpg" id="idA85__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1168276664982">The fuel equivalence ratio, Φ, is the reciprocal of this value <link target-id="eip-452"/>. </para><equation id="eip-452"><media id="idA86_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq86.jpg" id="idA86__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id5417715">Rewriting <link target-id="eip-670"/> in terms of the fuel equivalence ratio gives: <link target-id="eip-163"/> -  <link target-id="eip-778"/>.
+
+</para><equation id="eip-163"><media id="idA87_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq87.jpg" id="idA87__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-867"><media id="idA88_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq88.jpg" id="idA88__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-801"><media id="idA89_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq89.jpg" id="idA89__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-778"><media id="idA90_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq90.jpg" id="idA90__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1168266379375">The premixed combustion processes can also be identified by their air and fuel equivalence ratios (<link target-id="import-auto-id1168267940166"/>).</para><table id="import-auto-id1168267940166" summary="Identification of combustion type by Φ and λ values.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>Type of combustion</entry>
+                <entry>Φ</entry>
+                <entry>λ</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Rich </entry>
+                <entry>&gt;1</entry>
+                <entry>&lt;1</entry>
+              </row>
+              <row>
+                <entry>Stoichiometric</entry>
+                <entry>=1</entry>
+                <entry>=1</entry>
+              </row>
+              <row>
+                <entry>Lean</entry>
+                <entry>&lt;1</entry>
+                <entry>&gt;1</entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Identification of combustion type by Φ and λ values.</caption>
+</table><para id="import-auto-id8419748">With a premixed type of combustion, there is much greater control over the reaction. If performed at lean conditions, then high temperatures, the pollutant nitric oxide, and the production of soot can be minimized or even avoided, allowing the system to combust efficiently. However, a premixed system requires large volumes of premixed reactants, which pose a fire hazard. As a result, nonpremixed combusted, while not being efficient, is more commonly used.  </para>
+      </section>
+    </section>
+    <section id="import-auto-id1168272556963">
+      <title>Instrumentation</title>
+      <para id="import-auto-id1168276625312">Though the instrumentation of combustion analysis has greatly improved, the basic components of the apparatus (<link target-id="import-auto-id1168271067671"/>) have not changed much since the late 18th century. </para><figure id="import-auto-id1168271067671"><media id="import-auto-id1168260287745" alt="">
+          <image mime-type="image/png" src="../../media/graphics14-f570.png" width="300" print-width="3in"/>
+        </media>
+        
+      <caption>Combustion apparatus from the 19<sup>th</sup> century. The Oesper Collections in the History of Chemistry, Apparatus Museum, University of Cincinnati, Case 10, Combustion Analysis. For a 360<sup>o</sup> view of this apparatus, visit <link url="http://digitalprojects.libraries.uc.edu/oesper/museum/case10/shelf_03/CA0012/index.php" window="new">http://digitalprojects.libraries.uc.edu/oesper/museum/case10/shelf_03/CA0012/index.php</link>.</caption></figure><para id="import-auto-id1168264469666">The sample of an organic compound, such as a hydrocarbon, is contained within a furnace or exposed to a flame and burned in the presence of oxygen, creating water vapor and carbon dioxide gas (<link target-id="import-auto-id1168268251382"/>). The sample moves first through the apparatus to a chamber in which H<sub>2</sub>O is absorbed by a hydrophilic substance and second through a chamber in which CO<sub>2</sub> is absorbed. The change in weight of each chamber is determined to calculate the weight of H<sub>2</sub>O and CO<sub>2</sub>. After the masses of H<sub>2</sub>O and CO<sub>2</sub> have been determined, they can be used to characterize and calculate the composition of the original sample.</para><figure id="import-auto-id1168268251382"><media id="import-auto-id1168266679968" alt="">
+          <image mime-type="image/png" src="../../media/combustion apparatus.png" width="500" print-width="5in"/>
+        </media>
+        
+      <caption>Typical modern combustion apparatus with a furnace.</caption></figure></section>
+    <section id="import-auto-id1168267027908">
+      <title>Calculations and determining chemical formulas</title>
+      <section id="import-auto-id1168273957173">
+        <title>Hydrocarbons</title>
+        <para id="import-auto-id1168261410389">Combustion analysis is a standard method of determining a chemical formula of a substance that contains hydrogen and carbon. First, a sample is weighed and then burned in a furnace in the presence of excess oxygen. All of the carbon is converted to carbon dioxide, and the hydrogen is converted to water in this way. Each of these are absorbed in separate compartments, which are weighed before and after the reaction. From these measurements, the chemical formula can be determined. </para>
+        <para id="import-auto-id1168262941061">Generally, the following reaction takes place in combustion analysis: </para><equation id="eip-615"><media id="idA91_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq91.jpg" id="idA91__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><example id="eip-606"><para id="eip-467">After burning 1.333 g of a hydrocarbon in a combustion analysis apparatus, 1.410 g of H<sub>2</sub>O and 4.305 g of CO<sub>2</sub> were produced. Separately, the molar mass of this hydrocarbon was found to be 204.35 g/mol. Calculate the empirical and molecular formulas of this hydrocarbon. </para><para id="eip-994"><emphasis effect="bold">Step 1</emphasis>: Using the molar masses of water and carbon dioxide, determine the moles of hydrogen and carbon that were produced. </para><equation id="eip-576"><media id="idA92_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq92.jpg" id="idA92__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-432"><media id="idA93_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq93.jpg" id="idA93__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-674"><emphasis effect="bold">Step 2</emphasis>: Divide the larger molar amount by the smaller molar amount. In some cases, the ratio is not made up of two integers. Convert the numerator of the ratio to an improper fraction and rewrite the ratio in whole numbers as shown.</para><equation id="eip-296"><media id="idA94_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq94.jpg" id="idA94__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-755">Therefore, the empirical formula is C<sub>5</sub>H<sub>8</sub>.</para><para id="eip-216"><emphasis effect="bold">Step 3</emphasis>:  To get the molecular formula, divide the experimental molar mass of the unknown hydrocarbon by the empirical formula weight.</para><equation id="eip-338"><media id="idA945_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq95.jpg" id="idA95__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-751">Therefore, the molecular formula is (C<sub>5</sub>H<sub>8</sub>)<sub>3</sub> or C<sub>15</sub>H<sub>24</sub>. </para></example><exercise id="eip-984"><problem id="eip-31">
+  <para id="eip-835">
+    After burning 1.082 g of a hydrocarbon in a combustion analysis apparatus, 1.583 g of H<sub>2</sub>O and 3.315 g of CO<sub>2</sub> were produced. Separately, the molar mass of this hydrocarbon was found to be 258.52 g/mol. Calculate the empirical and molecular formulas of this hydrocarbon. 
+  </para>
+</problem>
+
+<solution id="eip-358">
+  <para id="eip-375">
+    The empirical formula is C<sub>3</sub>H<sub>7</sub>, and the molecular formula is (C<sub>3</sub>H<sub>7</sub>)<sub>6</sub> or C<sub>18</sub>H<sub>42</sub>.
+  </para>
+</solution>
+</exercise></section>
+      <section id="import-auto-id1168258511017">
+        <title>Compounds containing carbon, hydrogen, and oxygen</title>
+        <para id="import-auto-id1168270858469">Combustion analysis can also be utilized to determine the empiric and molecular formulas of compounds containing carbon, hydrogen, and oxygen. However, as the reaction is performed in an environment of excess oxygen, the amount of oxygen in the sample can be determined from the sample mass, rather than the combustion data (<link target-id="eip-978"/>, <link target-id="eip-677"/>). </para><example id="eip-978"><para id="eip-525">A 2.0714 g sample containing carbon, hydrogen, and oxygen was burned in a combustion analysis apparatus; 1.928 g of H<sub>2</sub>O and 4.709 g of CO<sub>2</sub> were produced. Separately, the molar mass of the sample was found to be 116.16 g/mol. Determine the empirical formula, molecular formula, and identity of the sample.</para><para id="eip-171"><emphasis effect="bold">Step 1</emphasis>:  Using the molar masses of water and carbon dioxide, determine the moles of hydrogen and carbon that were produced.</para><equation id="eip-715"><media id="idA946_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq96.jpg" id="idA96__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-390"><media id="idA947_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq97.jpg" id="idA97__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-76"><emphasis effect="bold">Step 2</emphasis>: Using the molar amounts of carbon and hydrogen, calculate the masses of each in the original sample. </para><equation id="eip-45"><media id="idA948_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq98.jpg" id="idA98__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-734"><media id="idA949_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq99.jpg" id="idA99__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-253"><emphasis effect="bold">Step 3</emphasis>: Subtract the masses of carbon and hydrogen from the sample mass. Now that the mass of oxygen is known, use this to calculate the molar amount of oxygen in the sample. </para><equation id="eip-626"><media id="idA100_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq100.jpg" id="idA100__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-501"><media id="idA101_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq101.jpg" id="idA101__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-199"><emphasis effect="bold">Step 4</emphasis>: Divide each molar amount by the smallest molar amount in order to determine the ratio between the three elements. </para><equation id="eip-217"><media id="idA102_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq102.jpg" id="idA102__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-981"><media id="idA103_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq103.jpg" id="idA103__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-478"><media id="idA104_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq104.jpg" id="idA104__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-249">Therefore, the empirical formula is C<sub>3</sub>H<sub>6</sub>O.</para><para id="eip-885"><emphasis effect="bold">Step 5</emphasis>: To get the molecular formula, divide the experimental molar mass of the unknown hydrocarbon by the empirical formula weight.</para><equation id="eip-67"><media id="idA105_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq105.jpg" id="idA105__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-873">Therefore, the molecular formula is (C<sub>3</sub>H<sub>6</sub>O)<sub>2</sub> or C<sub>6</sub>H<sub>12</sub>O<sub>2</sub>. Possible compound with this molecular formula are shown in (<link target-id="import-auto-id1168269575110"/>).
+
+
+
+</para><figure id="import-auto-id1168269575110"><media id="import-auto-id8005784" alt="">
+            <image mime-type="image/jpg" src="../../media/C6structures.jpg" width="500" print-width="5in"/>
+          </media>
+        <caption>Structure of possible compounds with the molecular formula C<sub>6</sub>H<sub>12</sub>O<sub>2</sub>: (a) butylacetate, (b) <emphasis effect="italics">sec</emphasis>-butyl acetate, (c) <emphasis effect="italics">tert</emphasis>-butyl acetate, (d) ethyl butyrate, (e) haxanoic acid, (f) isobutyl acetate, (g) methyl pentanoate, and (h) propyl proponoate. </caption></figure></example><exercise id="eip-677"><problem id="eip-573">
+  <para id="eip-23">
+    A 4.846 g sample containing carbon, hydrogen, and oxygen was burned in a combustion analysis apparatus; 4.843 g of H<sub>2</sub>O and 11.83 g of CO<sub>2</sub> were produced. Separately, the molar mass of the sample was found to be 144.22 g/mol. Determine the empirical formula, molecular formula, and identity of the sample.
+  </para>
+</problem>
+
+<solution id="eip-951">
+  <para id="eip-986">The empirical formula is C<sub>4</sub>H<sub>8</sub>O, and the molecular formula is (C<sub>4</sub>H<sub>8</sub>O)<sub>2</sub> or C<sub>8</sub>H<sub>16</sub>O<sub>2</sub>. Possible compounds with this molecular formula are shown in (<link target-id="import-auto-id1168269575111"/>).
+
+</para><figure id="import-auto-id1168269575111"><media id="import-auto-id8005785" alt="">
+            <image mime-type="image/jpg" src="../../media/C8structures.jpg" width="500" print-width="5in"/>
+          </media>
+        <caption>Structure of possible compounds with the molecular formula C<sub>8</sub>H<sub>16</sub>O<sub>2</sub>: (a) octanoic acid (caprylic acid), (b) hexyl acetate, (c) pentyl proponate, (d) 2-ethyl hexanoic acid, (e) valproic acid (VPA), (f) cyclohexanedimethanol (CHDM), and (g) 2,2,4,4-tetramethyl-1,3-cyclobutandiol (CBDO). </caption></figure></solution>
+</exercise></section>
+      <section id="import-auto-id1168266041659">
+        <title>Binary compounds</title>
+        <para id="import-auto-id4482833">By using combustion analysis, the chemical formula of a binary compound containing oxygen can also be determined. This is particularly helpful in the case of combustion of a metal which can result in potential oxides of multiple oxidation states. </para><example id="eip-955"><para id="eip-264">A sample of iron weighing 1.7480 g is combusted in the presence of excess oxygen. A metal oxide (Fe<sub>x</sub>O<sub>y</sub>) is formed with a mass of 2.4982 g. Determine the chemical formula of the oxide product and the oxidation state of Fe. </para><para id="eip-592"><emphasis effect="bold">Step 1</emphasis>: Subtract the mass of Fe from the mass of the oxide to determine the mass of oxygen in the product. </para><equation id="eip-182"><media id="idA106_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq106.jpg" id="idA106__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-937"><emphasis effect="bold">Step 2</emphasis>: Using the molar masses of Fe and O, calculate the molar amounts of each element.</para><equation id="eip-545"><media id="idA107_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq107.jpg" id="idA107__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-167"><media id="idA108_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq108.jpg" id="idA108__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-811"><emphasis effect="bold">Step 3</emphasis>: Divide the larger molar amount by the smaller molar amount. In some cases, the ratio is not made up of two integers. Convert the numerator of the ratio to an improper fraction and rewrite the ratio in whole numbers as shown.</para><equation id="eip-174"><media id="idA109_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq109.jpg" id="idA109__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-655">Therefore, the chemical formula of the oxide is Fe<sub>2</sub>O<sub>3</sub>, and Fe has a 3+ oxidation state.</para></example><exercise id="eip-610"><problem id="eip-450">
+  <para id="eip-306">
+    A sample of copper weighing 7.295 g is combusted in the presence of excess oxygen. A metal oxide (Cu<sub>x</sub>O<sub>y</sub>) is formed with a mass of 8.2131 g. Determine the chemical formula of the oxide product and the oxidation state of Cu. 
+  </para>
+</problem>
+
+<solution id="eip-758">
+  <para id="eip-454">
+    The chemical formula is Cu<sub>2</sub>O, and Cu has a 1+ oxidation state. 
+  </para>
+</solution>
+</exercise></section>
+    </section><section id="eip-288"><title>Bibliography</title><list id="eip-103"><item>J. A. Dumas, <emphasis effect="italics">Ann. Chem. Pharm.</emphasis>, 1841, <emphasis effect="bold">38</emphasis>, 141.</item>
+          <item>H. Goldwhite, <emphasis effect="italics">J. Chem. Edu.</emphasis>, 1978, <emphasis effect="bold">55</emphasis>, 366.</item>
+          <item>A. Lavoisier, <emphasis effect="italics">Traité Élémentaire de Chimie</emphasis>, 1789, <emphasis effect="bold">2</emphasis>, 493.</item>
+          <item>J. Von Liebig, <emphasis effect="italics">Annalen der Physik und Chemie</emphasis>, 1831, <emphasis effect="bold">21</emphasis>, 1.</item>
+          <item>A. Linan and F. A. Williams, <emphasis effect="italics">Fundamental Aspects of Combustion</emphasis>, Oxford University Press, New York (1993). </item>
+          <item>J. M. McBride, "Combustion Analysis," <emphasis effect="italics">Chemistry 125</emphasis>, Yale University, &lt;http://www.chem.yale.edu/~chem125/125/history99/4RadicalsTypes/Analysis/Liebiganal.html&gt;.</item>
+          <item>W. Prout, <emphasis effect="italics">Philos. T. R. Soc. Lond.</emphasis>, 1827, <emphasis effect="bold">117</emphasis>, 355.</item>
+          <item>D. Shriver and P. Atkins, <emphasis effect="italics">Inorganic Chemistry</emphasis>, 5<sup>th</sup> Ed., W. H. Freeman and Co., New York (2009). </item>
+          <item>W. Vining et. al., <emphasis effect="italics">General Chemistry</emphasis>, 1<sup>st</sup> Ed., Cengage, <emphasis effect="italics">Brooks/Cole Cengage Learning</emphasis>, University of Massachusetts Amherst (2014).</item>
+          <item>J. Warnatz, U. Maas, and R. W. Dibble, <emphasis effect="italics">Combustion: Physical and Chemical Fundamentals, Modeling and Simulation, Experiments, Pollutant Formation</emphasis>, 3<sup>rd</sup> Ed., Springer, Berlin (2001). </item>
+        </list></section>
+  </content>
+</document>

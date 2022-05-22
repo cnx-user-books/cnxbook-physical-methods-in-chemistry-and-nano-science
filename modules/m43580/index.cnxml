@@ -1,0 +1,94 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Lanthanide Shift Reagents</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43580</md:content-id>
+  <md:title>Lanthanide Shift Reagents</md:title>
+  <md:abstract/>
+  <md:uuid>75070c96-415e-4bc0-a0bc-857bbe29bfbe</md:uuid>
+</metadata>
+
+<content>
+
+
+      <section id="import-auto-id1172002848048">
+        <title>Introduction </title>
+        <para id="import-auto-id1172002128698">Nuclear magnetic resonance spectroscopy (NMR) is the most powerful tool for organic and organometallic compound determination. Even structures can be determined just using this technique. In general NMR gives information about the number of magnetically distinct atoms of the specific nuclei under study, as well as information regarding the nature of the immediate environment surrounding each nuclei. Because hydrogen and carbon are the major components of organic and organometallic compounds, proton (<sup>1</sup>H) NMR and carbon-13 (<sup>13</sup>C) NMR are the most useful nuclei to observe. 
+        </para><para id="import-auto-id1172002096617">Not all the protons experience resonance at the same frequency in a <sup>1</sup>H NMR, and thus it is possible to differentiate between them. The diversity is due to the existence of a different electronic environment around chemically different nuclei. Under an external magnetic field (B<sub>0</sub>), the electrons in the valence shell are affected; they start to circulate generating a magnetic field, which is apposite to the applied magnetic field. This effect is called diamagnetic shielding or diamagnetic anisotropy (<link target-id=" import-auto-id1172001525334"/>).
+        </para><figure id="import-auto-id1172001525334"><media id="import-auto-id1172001735064" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-524e.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic representation of diamagnetic anisotropy. 
+Adapted from D. L. Pavia, G. M. Lampman, and G. S. Kriz, <emphasis effect="italics">Introduction to Spectroscopy</emphasis>, 3<sup>th</sup> Ed., Thomson Learning, Tampa, FL, (2011). </caption></figure><para id="import-auto-id1172002844967">The greater the electron density around one specific nucleus, the greater will be the induced field that opposes the applied field, and this will result in a different resonance frequency. The identification of protons sounds simple, however, the NMR technique has a relatively low sensitivity of proton chemical shifts to changes in the chemical and stereochemical environment; as a consequence the resonance of chemically similar proton overlap. There are several methods that have been used to resolve this problem, such as: the use of higher frequency spectrometers or by the use of shift reagents as aromatic solvents or lanthanide complexes. The main issue with high frequency spectrometers is that they are very expensive, which reduces the number of institutions that can have access to them. In contrast, shift reagents work by reducing the equivalence of nuclei by altering their magnetic environment, and can be used on any NMR instrument. The simplest shift reagent is the one of different solvents, however problems with some solvents is that they can react with the compound under study, and also that these solvents usually just alter the magnetic environment of a small part of the molecule. Consequently, although there are several methods, most of the work has been done with lanthanide complexes.
+        </para></section>
+      <section id="import-auto-id1172002881767"><title>The history of lanthanide shift reagents</title><para id="import-auto-id1172002136763">The first significant induced chemical shift using paramagnetic ions was reported in 1969 by Conrad Hinckley (<link target-id="conrad"/>), where he used bispyridine adduct of tris(2,2,6,6-tetramethylhepta-3,5-dionato)europium(III) (Eu(tmhd)<sub>3</sub>), better known as Eu(dpm)<sub>3</sub>, where dpm is the abbreviation of dipivaloyl- methanato, the chemical structure is shown in <link target-id="import-auto-id1172001666727"/>. Hinckley used Eu(tmhd)<sub>3</sub> on the <sup>1</sup>H NMR spectrum of cholesterol from 347 – 2 Hz. The development of this new chemical method to improve the resolution of the NMR spectrum was the stepping-stone for the work of Jeremy Sanders and Dudley Williams, <link target-id=" sanders"/> and <link target-id="williams"/> respectively. They observed a significant increase in the magnitude of the induced shift after using just the lanthanide chelate without the pyridine complex. Sugesting that the pyridine donor ligands are in competition for the active sides of the lanthanide complex. The efficiency of Eu(tmhd)<sub>3</sub> as a shift reagent was published by Sanders and Williams in 1970, where they showed a significant difference in the <sup>1</sup>H NMR spectrum of n-pentanol using the shift reagent, see <link target-id=" import-auto-id1172002837829"/>.
+
+
+        </para><figure id="conrad"><media id="conrad_media" alt=""><image mime-type="image/jpg" src="../../media/conrad.jpg" id="conrad__onlineimage" width="300" print-width="2in"/></media><caption>Chemist Conrad Hinclley, Emeritus professor in Southern Illinois University..</caption></figure>
+
+<figure id="import-auto-id1172001666727"><media id="graphics2_media" alt=""><image mime-type="image/jpg" src="../../media/graphics2-6a26.jpg" id="graphics2__onlineimage" width="150" print-width="1.5in"/></media><caption>Chemical structure of Eu(tmhd)<sub>3</sub>. </caption></figure><figure id="sanders"><media id="sanders_media" alt=""><image mime-type="image/jpg" src="../../media/sanders.jpg" id="sanders__onlineimage" width="300" print-width="2in"/></media><caption>British chemist Jeremy Keith Morris Sanders.</caption></figure>
+
+<figure id="williams"><media id="williams_media" alt=""><image mime-type="image/jpg" src="../../media/williams.jpg" id="williams__onlineimage" width="300" print-width="2in"/></media><caption>British chemist Dudley Williams (1937-2010). </caption></figure>
+
+
+<figure id="import-auto-id1172002837829"><media id="import-auto-id1172002846014" alt="">
+            <image mime-type="image/png" src="../../media/Picture 9-599b.png" width="600" print-width="6in"/>
+          </media>
+        <caption><sup>1</sup>H NMR spectra of n-pentanol, (a) without the present of lanthanide reagents and (b) in the present of the lanthanide reagent Eu(tmhd)<sub>3</sub>.  Adapted from <emphasis effect="italics">Chem Reviews, </emphasis>1973,<emphasis effect="bold"> 73</emphasis>, 553. Copyright: American Chemical Society 1973. </caption></figure><para id="import-auto-id1172002160920">Analyzing the spectra in <link target-id=" import-auto-id1172002837829"/> it is easy to see that with the use of Eu(tmhd)<sub>3</sub> there is any overlap between peaks. Instead, the multiplets of each proton are perfectly clear.  After these two publications the potential of lanthanide as shift reagents for NMR studies became a popular topic. Other example is the fluorinate version of Eu(dpm)<sub>3</sub>; (<emphasis effect="italics">tris</emphasis>(7,7,-dimethyl-1,1,2,2,2,3,3-heptafluoroocta-7,7-dimethyl-4,6-dionato)europium(III), best known as Eu(fod)<sub>3</sub>, which was synthesized in 1971 by Rondeau and Sievers. This LSR presents better solubility and greater Lewis acid character, the chemical structure is show in <link target-id="import-auto-id1172003248451"/>.</para><figure id="import-auto-id1172003248451"><media id="import-auto-id1172003247918" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 3-c499.jpg" width="150" print-width="1.5in"/>
+          </media>
+        <caption>Chemical structure of (<emphasis effect="italics">tris</emphasis>(7,7,-dimethyl-1,1,2,2,2,3,3-heptafluoroocta-7,7-dimethyl-4,6-dionato)europium(III).</caption></figure></section><section id="import-auto-id1172002843229"><title>Mechanism of inducement of chemical shift</title><para id="import-auto-id1172002843294">Lanthanide atoms are Lewis acids, and because of that, they have the ability to cause chemical shift by the interaction with the basic sites in the molecules. Lanthanide metals are especially effective over other metals because there is a significant delocalization of the unpaired <emphasis effect="italics">f</emphasis> electrons onto the substrate as a consequence of unpaired electrons in the <emphasis effect="italics">f </emphasis>shell of the lanthanide. The lanthanide metal in the complexes interacts with the relatively basic lone pair of electrons of aldehydes, alcohols, ketones, amines and other functional groups within the molecule that have a relative basic lone pair of electrons, resulting in a NMR spectral simplification. </para>
+        <para id="eip-579">There are two possible mechanisms by which a shift can occur: shifts by contact and shifts by pseudocontact. The first one is a result of the transfer of electron spin density via covalent bond formation from the lanthanide metal ion to the associated nuclei. While the magnetic effects of the unpaired electron magnetic moment causes the pseudocontact shift. Lanthanide complexes give shifts primarily by the pseudocontact mechanism.  Under this mechanism, there are several factors that influence the shift of a specific NMR peak. The principal factor is the distance between the metal ion and the proton; the shorter the distance, the greater the shift obtained. On the other hand, the direction of the shift depends on the lanthanide complex used. The complexes that produce a shift to a lower field (downfield) are the ones containing erbium, europium, thulium and ytterbium, while complexes with cerium, neodymium, holmium, praseodymium, samarium and terbium, shift resonances to higher field. Figure 6 shows the difference betwen an NMR spectrum without the use of shift reagent versus the same spectrum in the present of a europium complex (downfield shift) and a praseodymium complex (high-field shift).
+</para>
+
+<figure id="may"><media id="may_media" alt=""><image mime-type="image/jpg" src="../../media/may.jpg" id="may__onlineimage" width="500" print-width="5in"/></media><caption>(a) <sup>1</sup>H NMR spectrum of n-hexanol without the present of shift reagents. (b) <sup>1</sup>H NMR spectrum of n-hexanol in present of 14% Pr(fod)<sub>3</sub> and the thirt spectrum (c) is the <sup>1</sup>H NMR spectrum of n-hexanol in the present of 6.5% Eu(fod)<sub>3</sub>. Adapted from <link url="http://www.chem.wisc.edu/areas/reich/nmr/08-tech-07-lis.htm"><emphasis effect="underline">http://www.chem.wisc.edu/areas/reich/nmr/08-tech-07-lis.htm</emphasis></link></caption></figure><para id="eip-94">Linewidth broadening is not desired because of loss of resolution, and lanthanide complexes unfortunately contribute extremely to this effect when they are used in high concentrations due to their mechanism that shortens the relaxation times (T<sub>2</sub>), which in turn increases the bandwidth. However europium and praseodymium are an extraordinary exception giving a very low shift broadening, 0.003 and 0.005 Hz/Hz respectively. Europium specially is the most used lanthanide as shift reagent because of its inefficient nuclear spin-lattice ratio properties. It has low angular momentum quantum numbers and a diamagnetic 7F0 ground state. These two properties contribute to a very small separation of the highest and lowest occupied metal orbitals leading to an inefficient relaxation and a very little broadening in the NMR spectra. The excited 7F1 state will then contribute to the pseudocontact shift.</para><para id="import-auto-id1172002086811">We have mentioned above that lanthanide complexes have a mechanism that influences relaxation times, and this is certainly because paramagnetic ions have an influence in both: chemical shifts and relaxation rates. The relaxation times are of great significant because they depend on the width of a specific resonance (peak). Changes in relaxation time could also be related with the geometry of the complex.
+        </para></section><section id="import-auto-id1172002128179">
+        <title>Measuring the shift </title>
+        <para id="import-auto-id1172002137770">The easiest and more practical way to measure the lanthanide-induced shift (LIS) is to add aliquots of the lanthanide shift reagent (LSR or Δvi) to the sample that has the compound of interest (substrate), and take an NMR spectra after each addition. Because the shift of each proton will change after each addition of the LSR to lower or upper field, the LIS can me measured. With the data collected, a plot of the LIS against the ratio of LSR: substrate will generate a straight line where the slope is representative of the compound that is being studied. The identification of the compound by the use of chiral lanthanide shift reagents can be so precise that it is possible to estimate the composition of enantiomers in the solution under study, see <link target-id="import-auto-id1172001781310"/>.
+        </para><figure id="import-auto-id1172001781310"><media id="import-auto-id1172002847063" alt="">
+            <image mime-type="image/png" src="../../media/Picture 6-fda0.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Lanthanide induced shift of methoxyl proton resonance versus molar ratio of Eu(fod)<sub>3</sub>, for the diastereomeric MTPA esters. δ is the normal chemical shift and δ<sub>E</sub> is the chemical shift in ppm for the OMe signal in the presence of a specified molar ratio of Eu(fod)<sub>3</sub>, in CCl<sub>4</sub> as solvent.  Adapted from  S. Yamaguchi, F. Yasuhara and K. Kabuto, <emphasis effect="italics">Tetrahedron</emphasis>, 1976, <emphasis effect="bold">32</emphasis>, 1363.</caption></figure><para id="import-auto-id1172002881034">Now, what is the mechanism that is actually happening between the LSR and the compound under study? The LSR is a metal complex of six coordinate sides. The LSR, in presence of substrate that contains heteroatoms with Lewis basicity character, expands its coordination sides in solution in order to accept additional ligands. An equilibrium mixture is formed between the substrate and the LSR. <link target-id="eip-569"/> and <link target-id="eip-105"/> show the equilibrium, where L is LSR, S is the substrate, and LS is the concentration of the complex formed is solution.
+        </para><equation id="eip-569"><media id="idE110_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq110.jpg" id="idX110__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-105"><media id="idE111_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq111.jpg" id="idX111__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="eip-408">The abundance of these species depends on K<sub>1</sub> and K<sub>2</sub>, which are the binding constant. The binding constant is a special case of equilibrium constant, but it refers with the binding and unbinding mechanism of two species. In most of the cases like, K<sub>2</sub> is assumed to be negligible and therefore just the first complex [LS] is assumed to be formed. The equilibrium between L + S and LS in solution is faster than the NMR timescale, consequently a single average signal will be recorded for each nucleus.
+        </para></section>
+      <section id="import-auto-id1172001780735">
+        <title>Determination of enantiomeric purity</title>
+        <para id="import-auto-id1172003248676">Besides the great potential of lanthanide shift reagents to improve the resolution of NMR spectrums, these complexes also have been used to identify enantiomeric mixtures in solution. To make this possible the substrate must meet certain properties. The fist one is that the organic compounds in the enantiomeric composition must to have a hard organic base as functional group. The shift reagents are not effective with most of the soft bases. Though hundreds of chelates have been synthesized after Eu(dcm)<sub>3</sub>, this one is the LSR that resulted in the most effective reagent for the resolution of enantiotopic resonances. Basically if you take an NMR of an enantiomeric mixture sample, a big variety of peaks will appear and the hard part is to identify which of those peaks correspond to which specific enantiomer. The differences in chemical shifts observed for enantiomeric mixtures in solution containing LSR might arise from at least two sources: the equilibrium constants of the formation of the possible diastereometic complexes between the substrate and the LSR, and the geometries of these complexes, which might be distinct. The enantiomeric shift differences sometimes are defined as ΔΔδ.
+        </para><para id="import-auto-id1172002136868">In solution the exchange between substrate coordinated to the europium ion and the free substrate in solution is very fast. To be sure that the europium complexes are binding with one or two substrate molecules, an excess of substrate is usually added.
+        </para></section>
+      <section id="import-auto-id1172002850634">
+        <title>Biography</title>
+        <list id="import-auto-id1172002847588" list-type="bulleted"><item>
+          L. G. Wade, Jr., <emphasis effect="italics">Organic Chemistry</emphasis>, 4<sup>th</sup> edn., Upper Saddle River, New Jersey (2006).
+          </item>
+          <item>
+         D. L. Pavia, G. M. Lampman, and G. S. Kriz, <emphasis effect="italics">Introduction to Spectroscopy</emphasis>, 3<sup>th</sup> edn., Bellinghan, WA (2001).
+          </item>
+          <item>
+            J. B. Lambert and E. P. Mazzola, <emphasis effect="italics">Nuclear Magnetic Resonance Spectroscopy</emphasis>, Upper Saddle River, New Jersey (2004).
+          </item>
+          <item>
+            C. C. Hinckley, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1969, <emphasis effect="bold">91</emphasis>, 5160. 
+          </item>
+          <item>
+          J. K. M. Sanders and D. H. Williams, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 971, <emphasis effect="bold">93</emphasis>, 1641. 
+          </item>
+          <item>
+         A. F. Cockerill, G. L. O. Davies, R. C. Harden, and D. M. Rackham, <emphasis effect="italics">Chem. Rev.</emphasis>, 1973, <emphasis effect="bold">73</emphasis>, 553.
+          </item>
+         
+          <item>
+           B. C. Mayor, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1969, <emphasis effect="bold">91</emphasis>, 49. 
+          </item>
+          <item>
+           S. Yamaguchi, F. Yasuhara, and K. Kabuto, <emphasis effect="italics">Tetrahedron</emphasis>, 1976, <emphasis effect="bold">32</emphasis>, 1363. 
+          </item>
+        </list></section>
+
+  </content>
+</document>

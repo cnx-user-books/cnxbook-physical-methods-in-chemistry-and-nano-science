@@ -1,0 +1,83 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Electron Paramagnetic Resonance Spectroscopy of Copper(II) Compounds</title>
+  <metadata>
+  <md:content-id>m22507</md:content-id><md:title>Electron Paramagnetic Resonance Spectroscopy of Copper(II) Compounds</md:title>
+  <md:abstract/>
+  <md:uuid>341e5788-7727-4ed8-a5f7-fb4039c67426</md:uuid>
+</metadata>
+
+<content>
+    <section id="id7784600">
+      <title>Copper(II) Compounds</title>
+      <para id="eip-262">Copper compounds play a valuable role in both synthetic and biological chemistry.  Copper catalyzes a vast array of reactions, primarily oxidation-reduction reactions which make use of the Cu(I)/Cu(II) redox cycle. Copper is found in the active site of many enzymes and proteins, including the oxygen carrying proteins called hemocyanins. </para><para id="id1170504409571">Common oxidation states of copper include the less stable copper(I) state, Cu<sup>+</sup>; and the more stable copper(II) state, Cu<sup>2+</sup>. Copper (I) has a d<sup>10</sup> electronic configuration with no unpaired electrons, making it undetectable by EPR.  The d<sup>9</sup> configuration of Cu<sup>2+</sup> means that its compounds are paramagnetic making EPR of Cu(II) containing species a useful tool for both structural and mechanistic studies. Two literature examples of how EPR can provide insight into the mechanisms of reactivity of Cu(II) are discussed herein.</para>
+      <para id="eip-458">Copper (II) centers typically have tetrahedral, or axially elongated octahedral geometry.  Their spectra are <link target-id="m22370">anisotropic</link> and generally give signals of the axial or orthorhombic type.  From EPR spectra of copper (II) compounds, the coordination geometry can be determined.  An example of a typical powder Cu(II) spectrum is shown in <link target-id="cuspect"/>.  </para>
+
+
+<figure id="cuspect"><media id="cuspectrum" alt="">
+    <image mime-type="image/png" src="../../media/Cuspectrum.png" print-width="3in"/>
+  </media>
+<caption>Typical axial EPR spectrum for a Cu(II) compound.</caption></figure>
+
+
+<para id="eip-970">The spectrum above shows four absorption-like peaks corresponding to <emphasis effect="italics">g</emphasis><sub>‖</sub> indicating coordination to four identical atoms, most likely nitrogen.  There is also an asymmetric derivative peak corresponding to <emphasis effect="italics">g</emphasis><sub>⊥</sub> at higher field indicating elongation along the z axis.</para><section id="id1170505255782">
+        <title>Determination of an intermediate</title>
+        <para id="id1170505294567">The reactivity and mechanism of Cu(II)-peroxy systems was investigated by studying the decomposition of the Cu(II) complex <emphasis effect="bold">1</emphasis> with EPR as well as UV-Vis and Raman spectroscopy. The structure (<link target-id="id1170505174963"/>) and EPR spectrum <link target-id="id1170499897287"/> of <emphasis effect="bold">1</emphasis> are given. It was postulated that decomposition of <emphasis effect="bold">1</emphasis> may go through intermediates LCu(II)OOH, LCu(II)OO•, or LCu(II)O• where L = ligand. </para>
+        
+<figure id="id1170505174963"><media id="id1170505174963_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics1-baca.png" id="id1170505174963__onlineimage" height="197" width="141"/>
+            </media>
+          
+<caption>Structure of <emphasis effect="bold">1</emphasis>, Cu(II) compound under investigation S = CH<sub>3</sub>CN</caption></figure>
+
+
+          
+          <figure id="id1170499897287"><media id="id1170499897287_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics2-2980.png" id="id1170499897287__onlineimage" height="330" width="316"/>
+            </media>
+          <caption>EPR spectrum of <emphasis effect="bold">1 </emphasis>in CH<sub>3</sub>CN at -150 °C showing <emphasis effect="italics">g</emphasis> values of <emphasis effect="italics">g</emphasis><emphasis effect="italics"><sub>1</sub></emphasis><emphasis effect="italics"/>= 2.250, <emphasis effect="italics">g</emphasis><emphasis effect="italics"><sub>2</sub></emphasis> = 2.065, <emphasis effect="italics">g</emphasis><emphasis effect="italics"><sub>3</sub></emphasis> = 2.030, and hyperfine coupling constant A<sub>1</sub> = 160 G, A<sub>2</sub> = 7 G, and A<sub>3</sub> = 5 G. A. Kunishita, H. Ishimaru, S. Nakashima, T. Ogura, and S. Itoh, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2008, <emphasis effect="bold"> 130</emphasis>, 4244. Copyright American Chemical Society (2008).
+ </caption></figure>
+  
+        
+        <para id="eip-872">To determine the intermediate, a common radical trap 5,5-dimethyl-1-pyrroline-N-oxide (DMPO) was added. A 1:1 complex of intermediate and DMPO was isolated, and given the possible structure <emphasis effect="bold">2</emphasis> (<link target-id="id1170499884526"/>), which is shown along with its EPR spectrum (<link target-id="id1170507241265"/>).</para>
+
+
+          <figure id="id1170499884526"><media id="id1170499884526_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics3-efec.png" id="id1170499884526__onlineimage" height="158" width="110"/>
+            </media>
+          <caption>Proposed structure <emphasis effect="bold">2</emphasis>, S = CH<sub>3</sub>CN. </caption></figure>
+          <figure id="id1170507241265"><media id="id1170507241265_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics4-306c.png" id="id1170507241265__onlineimage" height="352" width="341"/>
+            </media>
+          <caption>EPR spectrum of <emphasis effect="bold">1 </emphasis>in CH<sub>3</sub>CN at -150 °C showing <emphasis effect="italics">g</emphasis> values of <emphasis effect="italics">g</emphasis><emphasis effect="italics"><sub>1</sub></emphasis><emphasis effect="italics"/>= 2.250, <emphasis effect="italics">g</emphasis><emphasis effect="italics"><sub>2</sub></emphasis> = 2.065, <emphasis effect="italics">g</emphasis><emphasis effect="italics"><sub>3</sub></emphasis> = 2.045, and hyperfine coupling constant A<sub>1</sub> = 170 G, A<sub>2 </sub>= 25 G, and A<sub>3</sub> = 30 G. A. Kunishita, H. Ishimaru, S. Nakashima, T. Ogura, and S. Itoh, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2008, <emphasis effect="bold"> 130</emphasis>, 4244. Copyright American Chemical Society (2008).</caption></figure>
+
+        
+        <para id="id7121834">The EPR data show similar though different spectra for Cu(II) in each compound, indicating a similar coordination environment – elongated axial, and most likely a LCu(II)O• intermediate.</para>
+      </section>
+      <section id="id7128199">
+        <title>Determination of a catalytic cycle</title>
+        <para id="id1170503990041">The mechanism of oxidizing alcohols to aldehydes using a Cu(II) catalyst, TEMPO, and O<sub>2</sub> was investigated using EPR. A proposed mechanism is given in <link target-id="id1170505026290"/>.</para>
+
+        <figure id="id1170505026290"><media id="id1170505026290_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics5-b9e4.png" id="id1170505026290__onlineimage" height="321" width="445"/>
+          </media>
+        <caption>Proposed mechanism for the Cu(II) mediated oxidation of alcohols to aldehydes with TEMPO and O<sub>2</sub>. M. Contel, P. R. Villuendas, J. Fernández-Gallardo, P. Alonso, J. M. Vincent, and R. Fish, <emphasis effect="italics">Inorg. Chem.</emphasis>, 2005, <emphasis effect="bold">44</emphasis>, 9771.  Copyright American Chemical Society (2005).</caption></figure>
+        
+        <para id="id8592333">EPR studies were conducted during the reaction by taking aliquots at various time points and immediately freezing the samples for EPR analysis. The resulting spectra are shown in <link target-id="id8655793"/>. </para>
+
+
+  
+          <figure id="id8655793"><media id="id8655793_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics6-b541.png" id="id8655793__onlineimage" height="311" width="251"/>
+            </media>
+          <caption>EPR spectra of reaction at (a) 1.2 h (b) 4 h (c) 8 h,  M. Contel, P. R. Villuendas, J. Fernández-Gallardo, P. Alonso, J. M. Vincent, and R. Fish, <emphasis effect="italics">Inorg. Chem.</emphasis>, 2005, <emphasis effect="bold">44</emphasis>, 9771.  Copyright American Chemical Society (2005).</caption></figure>
+   
+        
+        <para id="id7338437">The EPR spectrum (a) in Figure 6, after 1.2 hours shows a signal for TEMPO at g = 2.006 as well as a signal for Cu(II) with <emphasis effect="italics">g</emphasis><sub>‖</sub>= 2.26, <emphasis effect="italics">g</emphasis><sub>⊥</sub> = 2.06, A<sub>‖</sub> = 520 MHz, and A<sub>⊥</sub> &lt; 50 MHz. After 4 hours, the signal for Cu(II) is no longer in the reaction mixture, and the TEMPO signal has decreased significantly. Suggesting that all the Cu(II) has been reduced to Cu(I) and the majority of TEMPO has been oxidized.  After 8 hours, the signals for both Cu(II) and TEMPO have returned indicating regeneration of both species. In this way, EPR evidence supports the proposed mechanism. </para>
+      </section><section id="eip-21"><title>Bibliography</title><list id="eip-87"><item>M. Contel, P. R. Villuendas, J. Fernández-Gallardo, P. Alonso, J. M. Vincent, and R. Fish, <emphasis effect="italics">Inorg. Chem.</emphasis>, 2005, <emphasis effect="bold">44</emphasis>, 9771. </item>
+<item>A. Kunishita, H. Ishimaru, S. Nakashima, T. Ogura, S. Itoh, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2008, <emphasis>130</emphasis>, 4244. </item>
+<item>G. Palmer, In <emphasis effect="italics">Physical Methods in Bioinorganic Chemistry Spectroscopy and Magnetism</emphasis>. Ed. L. Que, University Science Books: Sausalito, CA (2000).</item>
+<item>J. Pilbrow, <emphasis effect="italics">Transition Ion Electron Paramagnetic Resonance</emphasis>, Clarenden Press, Oxford (1990). </item>
+<item>J. Weil, J. Bolton, and J. Wertz, <emphasis effect="italics">Electron Paramagnetic Resonance: Elemental Theory and Practical Applications</emphasis> John Wiley and Sons: New York (1994).</item></list></section>
+    </section>
+  </content>
+</document>

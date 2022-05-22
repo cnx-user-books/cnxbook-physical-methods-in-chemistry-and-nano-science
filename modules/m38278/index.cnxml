@@ -1,0 +1,226 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>BET Surface Area Analysis of Nanoparticles</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38278</md:content-id>
+  <md:title>BET Surface Area Analysis of Nanoparticles</md:title>
+  <md:abstract/>
+  <md:uuid>f5c058e0-41f2-4ef6-878b-2fdc07760129</md:uuid>
+</metadata>
+
+<content>
+    <section id="eip-200"><title>Introduction</title><para id="eip-71">In the past few years, nanotechnology research has expanded out of the chemistry department and into the fields of medicine, energy, aerospace and even computing and information technology. With bulk materials, the surface area to volume is insignificant in relation to the number of atoms in the bulk, however when the particles are only 1 to 100 nm across, different properties begin to arise. For example, commercial grade zinc oxide has a surface area range of 2.5 to 12 m<sup>2</sup>/g while nanoparticle zinc oxide can have surface areas as high as 54 m<sup>2</sup>/g . The nanoparticles have superior UV blocking properties when compared to the bulk material, making them useful in applications such as sunscreen. Many useful properties of nanoparticles rise from their small size, making it very important to be able to determine their surface area.
+</para>
+
+</section>
+<section id="eip-496"><title>Overview of BET theory</title><para id="eip-831">The BET theory was developed by Stephen Brunauer (<link target-id="id1170384107149_media"/>), Paul Emmett (<link target-id="id1170388491277"/>), and Edward Teller (<link target-id=" id1170384205742"/>) in 1938. The first letter of each publisher’s surname was taken to name this theory. The BET theory was an extension of the Langmuir theory, developed by Irving Langmuir (<link target-id="id1170395437108"/>) in 1916. 
+</para>
+
+
+  <figure id="id1170384107149_media"><media id="id1170384107143_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-9bfb.png" id="id1170384107143__onlineimage" width="300" print-width="2in"/>
+        </media>
+
+<caption>Hungarian chemist Stephen Brunauer (1903-1986). Adapted from K. S. Sing, Langmuir, 1987, <emphasis effect="bold">3</emphasis>, 2 (Copyright: American Chemical Society).
+
+</caption></figure>
+<figure id="id1170388491277"><media id="id1170388491277_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 2-6d85.png" id="id1170388491277__onlineimage" width="300" print-width="2in"/>
+          </media>
+        <caption>American chemical engineer Paul H. Emmett (1900 - 1985). Adapted from B.H. Davis, J. Phys. Chem., 1986, <emphasis effect="bold">90</emphasis>, 4702 (Copyright: American Chemical Society). </caption></figure>
+
+
+<figure id="id1170384205742"><media id="id1170384205742_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-25b6.png" id="id1170384205742__onlineimage" width="300" print-width="2in"/>
+        </media>
+      <caption>Hungarian born theoretical physicist Edward Teller (1908 – 2003) shown in 1958 as the director of Lawrence Livermore National Laboratory was known as "the father of the hydrogen bomb". </caption></figure>
+      
+
+        <figure id="id1170395437108"><media id="id1170395437108_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-95ea.jpg" id="id1170395437108__onlineimage" width="300" print-width="2in"/>
+          </media>
+        <caption>American chemist and physicist Irving Langmuir (1881 - 1957). Adapted from <emphasis effect="italics">J. Chem. Educ.</emphasis>, 1933, <emphasis effect="bold">10</emphasis>, 65 (Copyright: American Chemical Society).</caption></figure>
+
+<para id="eip-143">The Langmuir theory relates the monolayer adsorption of gas molecules (<link target-id="id1170391436124"/>), also called adsorbates, onto a solid surface to the gas pressure of a medium above the solid surface at a fixed temperature to <link target-id="eip-671"/>, where θ is the fractional cover of the surface, P is the gas pressure and α is a constant. 
+
+      
+      
+      
+      </para>
+
+
+
+
+
+<equation id="eip-671"><media id="id20118_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq8-e07e.jpg" id="id22__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<figure id="id1170391436124"><media id="id1170391436124_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 18arb.jpg" id="id1170391436124__onlineimage" width="500" print-width="5in"/>
+        </media>
+      <caption>Schematic of the adsorption of gas molecules onto the surface of a sample showing (a) the monolayer adsorption model assumed by the Langmuir theory and (b) s the multilayer adsorption model assumed by the BET theory. </caption></figure>
+
+<para id="eip-850">The Langmuir theory is based on the following assumptions:
+      </para><list id="eip-482"><item>All surface sites have the same adsorption energy for the adsorbate, which is usually argon, krypton or nitrogen gas. The surface site is defined as the area on the sample where one molecule can adsorb onto. </item>
+        <item>Adsorption of the solvent at one site occurs independently of adsorption at neighboring sites. </item>
+        <item>Activity of adsorbate is directly proportional to its concentration.</item>
+        <item>Adsorbates form a monolayer.</item>
+        <item>Each active site can be occupied only by one particle. </item>
+      
+     </list><para id="eip-968">The Langmuir theory has a few flaws that are addressed by the BET theory. The BET theory extends the Langmuir theory to multilayer adsorption (<link target-id="id1170391436124"/>) with three additional assumptions:
+      </para><list id="eip-806"><item>Gas molecules will physically adsorb on a solid in layers infinitely.</item>
+        <item>The different adsorption layers do not interact.</item>
+        <item>The theory can be applied to each layer.</item>
+      
+      </list>
+
+
+</section><section id="eip-55"><title>How does BET work?</title><para id="eip-163">
+Adsorption is defined as the adhesion of atoms or molecules of gas to a surface. It should be noted that adsorption is not confused with absorption, in which a fluid permeates a liquid or solid. The amount of gas adsorbed depends on the exposed surface are but also on the temperature, gas pressure and strength of interaction between the gas and solid. In BET surface area analysis, nitrogen is usually used because of its availability in high purity and its strong interaction with most solids. Because the interaction between gaseous and solid phases is usually weak, the surface is cooled using liquid N<sub>2</sub> to obtain detectable amounts of adsorption. Known amounts of nitrogen gas are then released stepwise into the sample cell. Relative pressures less than atmospheric pressure is achieved by creating conditions of partial vacuum. After the saturation pressure, no more adsorption occurs regardless of any further increase in pressure. Highly precise and accurate pressure transducers monitor the pressure changes due to the adsorption process. After the adsorption layers are formed, the sample is removed from the nitrogen atmosphere and heated to cause the adsorbed nitrogen to be released from the material and quantified. The data collected is displayed in the form of a BET isotherm, which plots the amount of gas adsorbed as a function of the relative pressure. There are five types of adsorption isotherms possible.
+</para><section id="eip-792"><title>Type I isotherm </title><para id="eip-262">Type I is a pseudo-Langmuir isotherm because it depicts monolayer adsorption (<link target-id="id1170383467049"/>). A type I isotherm is obtained when P/P<sub>o</sub> &lt; 1 and c &gt; 1 in the BET equation, where P/P<sub>o</sub> is the partial pressure value and c is the BET constant, which is related to the adsorption energy of the first monolayer and varies from solid to solid. The characterization of microporous materials, those with pore diameters less than 2 nm, gives this type of isotherm. 
+</para>
+
+<figure id="id1170383467049">
+          <media id="id1170383467049_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 19-2e1c.png" id="id1170383467049__onlineimage" width="400" print-width="4in"/>
+          </media>
+          <caption>The isotherm plots the volume of gas adsorbed onto the surface of the sample as pressure increases. Adapted from S. Brunauer L. S. Deming, W. E. Deming, and E. Teller, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1940, <emphasis effect="bold">62</emphasis>, 1723.</caption>
+
+        </figure>
+
+
+
+</section><section id="eip-431"><title>Type II isotherm</title><para id="eip-498">
+
+A type II isotherm (<link target-id="id1170384554356"/>) is very different than the Langmuir model. The flatter region in the middle represents the formation of a monolayer. A type II isotherm is obtained when c &gt; 1 in the BET equation. This is the most common isotherm obtained when using the BET technique. At very low pressures, the micropores fill with nitrogen gas. At the knee, monolayer formation is beginning and multilayer formation occurs at medium pressure. At the higher pressures, capillary condensation occurs. </para>
+
+        <figure id="id1170384554356"><media id="id1170384554356_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 20-b6f9.png" id="id1170384554356__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>The isotherm plots the volume of gas adsorbed onto the surface of the sample as pressure increases. Adapted from S. Brunauer, L. S. Deming, W. E. Deming, and E. Teller, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1940, <emphasis effect="bold">62</emphasis>, 1723.</caption></figure>
+      
+</section><section id="eip-740"><title>Type III isotherm</title><para id="eip-197">A type III isotherm (<link target-id="id1170387360240"/>) is obtained when the c &lt; 1 and shows the formation of a multilayer. Because there is no asymptote in the curve, no monolayer is formed and BET is not applicable. </para>
+<figure id="id1170387360240"><media id="id1170387360240_media" alt="">
+              <image mime-type="image/png" src="../../media/Picture 21.png" id="id1170387360240__onlineimage" width="400" print-width="4in"/>
+            </media>
+            
+          <caption>Brunauer, L. S. Deming, W. E. Deming, and E. Teller, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1940, <emphasis effect="italics">62</emphasis>, 1723. </caption></figure>
+
+</section><section id="eip-957"><title>Type IV isotherm</title><para id="eip-709">
+Type IV isotherms (<link target-id="id1885278"/>) occur when capillary condensation occurs. Gases condense in the tiny capillary pores of the solid at pressures below the saturation pressure of the gas. At the lower pressure regions, it shows the formation of a monolayer followed by a formation of multilayers. BET surface area characterization of mesoporous materials, which are materials with pore diameters between 2 - 50 nm, gives this type of isotherm. </para>
+
+
+<figure id="id1885278">
+          <media id="id1885278_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 22-2b0a.png" id="id1885278__onlineimage" width="400" print-width="4in"/>
+          </media>
+          <caption>Brunauer, L. S. Deming, W. E. Deming, and E. Teller, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1940, <emphasis effect="italics">62</emphasis>, 1723.</caption>
+        </figure>
+
+</section><section id="eip-511"><title>Type V isotherm</title><para id="eip-340">
+
+Type V isotherms (<link target-id="id1170394742083"/>) are very similar to type IV isotherms and are not applicable to BET.
+</para>
+
+<figure id="id1170394742083">
+            <media id="id1170394742083_media" alt="">
+              <image mime-type="image/png" src="../../media/Picture 23.png" id="id1170394742083__onlineimage" width="400" print-width="4in"/>
+            </media>
+            <caption>Brunauer L. S. Deming, W. E. Deming, and E. Teller, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1940, <emphasis effect="bold">62</emphasis>, 1723.</caption>
+          </figure>
+
+</section></section><section id="eip-206"><title>Calculations</title><para id="eip-504">
+
+     The BET equation, <link target-id="eip-261"/>, uses the information from the isotherm to determine the surface area of the sample, where X is the weight of nitrogen adsorbed at a given relative pressure (P/Po), X<sub>m</sub> is monolayer capacity, which is the volume of gas adsorbed at standard temperature and pressure (STP), and C is constant. STP is defined as 273 K and 1 atm. 
+</para>
+      
+      <equation id="eip-261"><media id="id1170390628334_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 34.png" id="id1170390628334__onlineimage" width="200" print-width="2in"/>
+          </media>
+</equation>
+
+<section id="eip-366"><title>Multi-point BET</title><para id="eip-265">Ideally five data points, with a minimum of three data points, in the P/P<sub>0</sub> range 0.025 to 0.30 should be used to successfully determine the surface area using the BET equation. At relative pressures higher than 0.5, there is the onset of capillary condensation, and at relative pressures that are too low, only monolayer formation is occurring. When the BET equation is plotted, the graph should be of linear with a positive slope. If such a graph is not obtained, then the BET method was insufficient in obtaining the surface area. 
+       
+</para><list id="eip-174"><item>The slope and y-intercept can be obtained using least squares regression. </item>
+          <item>The monolayer capacity X<sub>m</sub> can be calculated with <link target-id="eip-868"/>. </item>
+        
+        
+       <item>Once X<sub>m</sub> is determined, the total surface area S<sub>t</sub> can be calculated with the following equation, where L<sub>av</sub> is Avogadro’s number, A<sub>m</sub> is the cross sectional area of the adsorbate and equals 0.162 nm<sup>2</sup> for an absorbed nitrogen molecule, and M<sub>v</sub> is the molar volume and equals 22414 mL, <link target-id="eip-65"/>. </item></list><equation id="eip-868"><media id="id1170390628335_media" alt="">    
+      <image mime-type="image/png" src="../../media/Picture 25.png" id="id1170393959830__onlineimage" width="125" print-width="1.25in"/>
+</media> 
+</equation><equation id="eip-65"><media id="id1170396708200_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 26.png" id="id1170396708200__onlineimage" width="100" print-width="1in"/>
+          </media></equation><para id="eip-320">Single point BET can also be used by setting the intercept to 0 and ignoring the value of C. The data point at the relative pressure of 0.3 will match up the best with a multipoint BET. Single point BET can be used over the more accurate multipoint BET to determine the appropriate relative pressure range for multi-point BET. </para></section></section>
+    
+    
+    
+    
+<section id="id1170384841152"><title>Sample preparation and experimental setup</title><para id="id1170383544334">Prior to any measurement the sample must be degassed to remove water and other contaminants before the surface area can be accurately measured. Samples are degassed in a vacuum at high temperatures. The highest temperature possible that will not damage the sample’s structure is usually chosen in order to shorten the degassing time. IUPAC recommends that samples be degassed for at least 16 hours to ensure that unwanted vapors and gases are removed from the surface of the sample. Generally, samples that can withstand higher temperatures without structural changes have smaller degassing times. A minimum of 0.5 g of sample is required for the BET to successfully determine the surface area. 
+</para>
+      
+      <para id="eip-107">Samples are placed in glass cells to be degassed and analyzed by the BET machine. Glass rods are placed within the cell to minimize the dead space in the cell. Sample cells typically come in sizes of 6, 9 and 12 mm and come in different shapes. 6 mm cells are usually used for fine powders, 9 mm cells for larger particles and small pellets and 12 mm are used for large pieces that cannot be further reduced. The cells are placed into heating mantles and connected to the outgas port of the machine. </para><para id="id8790904">After the sample is degassed, the cell is moved to the analysis port (<link target-id="id1653696"/>). Dewars of liquid nitrogen are used to cool the sample and maintain it at a constant temperature. A low temperature must be maintained so that the interaction between the gas molecules and the surface of the sample will be strong enough for measurable amounts of adsorption to occur. The adsorbate, nitrogen gas in this case, is injected into the sample cell with a calibrated piston. The dead volume in the sample cell must be calibrated before and after each measurement. To do that, helium gas is used for a blank run, because helium does not adsorb onto the sample. </para>
+
+
+        <figure id="id1653696"><media id="id1653696_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 7-593a.png" id="id1653696__onlineimage" width="600" print-width="5in"/>
+          </media>
+        <caption>Schematic representation of the BET instrument. The degasser is not shown. </caption></figure>
+
+
+      
+    </section>
+    <section id="id1170396354846">
+      <title>Shortcomings of BET</title>
+      <para id="id1170392124767">The BET technique has some disadvantages when compared to NMR, which can also be used to measure the surface area of nanoparticles. BET measurements can only be used to determine the surface area of dry powders. This technique requires a lot of time for the adsorption of gas molecules to occur. A lot of manual preparation is required. </para>
+    </section>
+    <section id="id1170391597670"><title>The surface area determination of metal-organic frameworks </title><para id="id1170397588725">The BET technique was used to determine the surface areas of metal-organic frameworks (MOFs), which are crystalline compounds of metal ions coordinated to organic molecules. Possible applications of MOFs, which are porous, include gas purification and catalysis. An isoreticular MOF (IRMOF) with the chemical formula Zn<sub>4</sub>O(pyrene-1,2-dicarboxylate)<sub>3</sub> (<link target-id="id2011474"/>) was used as an example to see if BET could accurately determine the surface area of microporous materials. The predicted surface area was calculated directly from the geometry of the crystals and agreed with the data obtained from the BET isotherms. Data was collected at a constant temperature of 77 K and a type II isotherm (<link target-id="id1170383673688"/>) was obtained. </para>
+
+
+
+
+<figure id="id2011474"><media id=" id2011474_media" alt="">
+            <image mime-type="image/jpg" src="../../media/catenation.JPG" id="id2011474__onlineimage" width="400" print-width="3in"/>
+          </media>
+
+<caption>The structure of catenated IRMOF-13. Orange and yellow represent non-catenated pore volumes. Green represents catenated pore volume. </caption></figure>
+
+
+        <figure id="id1170383673688">
+          <media id="id1170383673688_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 4-e517.png" id="id1170383673688__onlineimage" width="400" print-width="4in"/>
+          </media>
+          <caption>The BET isotherms of the zeolites and metal-organic frameworks. IRMOF-13 is symbolized by the black triangle and red line. Adapted from Y.S. Bae, R.Q. Snurr, and O. Yazaydin, <emphasis effect="italics">Langmuir</emphasis>, 2010, <emphasis effect="bold">26</emphasis>, 5478.</caption>
+        </figure>
+
+
+      <para id="id1170387244163">The isotherm data obtained from partial pressure range of 0.05 to 0.3 is plugged into the BET equation, <link target-id="eip-261"/>, to obtain the BET plot (<link target-id="id1170384124286"/>). </para>
+      <figure id="id1170384124286"><media id="id1170384124286_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-9768.png" id="id1170384124286__onlineimage" width="400" print-width="4in"/>
+        </media>
+        
+      <caption>BET plot of IRMOF-13 using points collected at the pressure range 0.05 to 0.3. The equation of the best-fit line and R<sup>2</sup> value are shown. Adapted from Y.S. Bae, R.Q. Snurr, and O. Yazaydin, <emphasis effect="italics">Langmuir</emphasis>, 2010, <emphasis effect="bold">26</emphasis>, 5479. </caption></figure>
+      
+      
+      <para id="eip-895">Using <link target-id="eip-394"/>, the monolayer capacity is determined to be 391.2 cm<sup>3</sup>/g. </para><equation id="eip-394"><media id="id1170393412219_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-f9b5.png" id="id1170393412219__onlineimage" width="200" print-width="2in"/>
+        </media>
+      </equation><para id="id1170393696342">Now that X<sub>m</sub> is known, then <link target-id="eip-169"/> can be used to determine that the surface area is 1702.3 m<sup>2</sup>/g.</para><equation id="eip-169"><media id="id1170390550856_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-d7e4.png" id="id1170390550856__onlineimage" width="200" print-width="2in"/>
+        </media>
+      </equation>
+      
+    </section>
+    <section id="id1170394090087">
+      <title>Bibliography</title>
+      <list id="id8683659" list-type="bulleted"><item>B. H. Davis, <emphasis effect="italics">J. Phys. Chem.</emphasis>, 1986, <emphasis effect="bold">90</emphasis>, 4702. </item>
+        <item>K. S. Sing, <emphasis effect="italics">Langmuir</emphasis>, 1987, <emphasis effect="bold">3</emphasis>, 2. </item>
+        <item><emphasis effect="italics">Brunauer-Emmett-Teller (BET) Surface Area Analysis and Barrett-Joyner-Halenda (BJH) Pore Size and Volume Analysis</emphasis>, Testing and Analysis Techniques. CERAM. </item>
+
+        <item>S. Brunauer, L. S. Deming, W. E. Deming, and E. Teller, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1940, <emphasis effect="bold">62</emphasis>, 1723. </item>
+        <item>S. Brunauer, P. H. Emmett, and E. Teller, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1938, <emphasis effect="bold">60</emphasis>, 309.</item>
+        <item>Y. S. Bae, R. Q. Snurr, and O. Yazaydin, <emphasis effect="italics">Langmuir</emphasis>, 2010, <emphasis effect="bold">26</emphasis>, 5475.</item>
+      </list>
+    </section>
+  </content>
+</document>

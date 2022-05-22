@@ -1,0 +1,108 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Ion Selective Electrode Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43567</md:content-id>
+  <md:title>Ion Selective Electrode Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>fd875986-2c51-4366-8e96-ad4cf7310184</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1172032546728">
+      <title>Introduction</title>
+      <para id="import-auto-id1172043296631">Ion selective electrode (ISE) is an analytical technique used to determine the activity of ions in aqueous solution by measuring the electrical potential. ISE has many advantages compared to other techniques, including:</para><list id="import-auto-id1172033062633" list-type="enumerated" number-style="arabic">
+        <item>It is relatively inexpensive and easy to operate.</item>
+        <item>It has wide concentration measurement range.</item>
+        <item>As it measure the activity, instead of concentration, it is particularly useful in biological/medical application.</item>
+        <item>It is a real-time measurement, which means it can monitor the change of activity of ion with time.</item>
+        <item>It can determine both positively and negatively charged ions.</item>
+      </list>
+      <para id="import-auto-id1172032604662">Based on these advantages, ISE has wide variety of applications, which is reasonable considering the importance of measuring ion activity. For example, ISE finds its use in pollution monitoring in natural waters (CN<sup>-</sup>, F<sup>-</sup>, S<sup>-</sup>, Cl<sup>-</sup>, etc.), food processing (NO<sub>3</sub><sup>-</sup>, NO<sub>2</sub><sup>-</sup> in meat preservatives), Ca<sup>2+</sup> in dairy products, and K<sup>+</sup> in fruit juices, etc. </para></section>
+    <section id="import-auto-id1172032298557">
+      <title>Measurement setup</title>
+      <para id="import-auto-id2045142">Before focusing on how ISE works, it would be good to get an idea what ISE setup looks like and the component of the ISE instrument. <link target-id="import-auto-id1172032635286"/> shows the basic components of ISE setup.  It has an ion selective electrode, which allows measured ions to pass, but excludes the passage of the other ions. Within this ion selective electrode, there is an internal reference electrode (<link target-id="import-auto-id1172032635286"/>), which is made of silver wire coated with solid silver chloride, embedded in concentrated potassium chloride solution (filling solution) saturated with silver chloride. This solution also contains the same ions as that to be measured. There is also a reference electrode similar to ion selective electrode, but there is no to-be-measured ion in the internal electrolyte and the selective membrane is replaced by porous frit, which allows the slow passage of the internal filling solution and forms the liquid junction with the external text solution. The ion selective electrode and reference electrode are connected by a milli-voltmeter. Measurment is accomplished simply by immersing the two electrodes in the same test solution. </para><figure id="import-auto-id1172032635286"><media id="import-auto-id2664011" alt="">
+          <image mime-type="image/jpg" src="../../media/electrode.jpg" width="450" print-width="4.5in"/>
+        </media>
+      <caption>Measurement setup of ISE. </caption></figure></section>
+    <section id="import-auto-id1172028103140"><title>Theory of how ISE works</title><para id="import-auto-id1172022642373">There are commonly more than one types of ions in solution. So how ISE manage to measure the concentration of certain ion in solution without being affected by other ions? This is done by applying a selective membrane at the ion selective electrode, which only allows the desired ion to go in and out. At equilibrium, there is potential difference existing between two sides of the membrane, and it is governed by the concentration of the tested solution described by Nernst equation EQ, where E is potential, E<sup>0 </sup>is a constant characteristic of a particular ISE, R is the gas constant (8.314 J/K.mol), T is the temperature (in K), n is the charge of the ion and F is Faraday constant (96,500 coulombs/mol).  To make it relevant, the measured potential difference is proportional to the logarithm of ion concentration. Thus, the relationship between potential difference and ion concentration can be determined by measuring the potential of two solutions of already-known ion concentration and a plot based on the measured potential and logarithm of the ion concentration. Based on this plot, the ion concentration of an unknown solution can be known by measuring the potential and corresponding it to the plot.</para><equation id="eip-187"><media id="import-auto-id1172032300911" alt=""><image mime-type="image/jpg" src="../../media/Eq1-d77b.jpg" width="500" print-width="5.5in"/></media></equation></section><section id="import-auto-id1172021743223"><title>Example application: determination of fluoride ion</title><para id="import-auto-id1172028625423">Fluoride is added into drinking water and toothpaste to prevent dental caries and thus the determination of its concentration is of great importance to human health. Here, we will give some data and calculations to show how the concentration of fluoride ion is determined and have a glance at how relevant ISE is to our daily life. According to Nernst equation, EQ ABOVE, in this case n = 1, T = 25 °C and E<sup>0</sup>, R, F  are constants and thus this equation can be simplied as EQ. </para><equation id="eip-558"><media id="import-auto-id3977313" alt="">
+      <image mime-type="image/jpg" src="../../media/Eq2-80aa.jpg" width="500" print-width="5.5in"/></media></equation><para id="import-auto-id2609095">The first step is to obtain a calibration curve for fluoride ion and this can be done by preparing several fluoride standard solution with known concentration (<link target-id="eip-551"/>) and making a plot of E versus log C (<link target-id="import-auto-id1172022702620"/>). </para><table id="eip-551" summary="Measurement results. Data from http://zimmer.csufresno.edu/~davidz/Chem102/FluorideISE/FluorideISE.html.">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Concentration (mg/L)</emphasis></entry>
+    <entry><emphasis effect="bold">log C</emphasis></entry>
+    <entry><emphasis effect="bold">E (mV)</emphasis></entry>
+  </row>
+  <row>
+    <entry>200.0</entry>
+    <entry>2.301</entry>
+    <entry>-35.6</entry>
+  </row>
+  <row>
+    <entry>100.0</entry>
+    <entry>2.000</entry>
+    <entry>-17.8</entry>
+  </row>
+  <row>
+    <entry>50.00</entry>
+    <entry>1.699</entry>
+    <entry>0.4</entry>
+  </row>
+  <row>
+    <entry>25.00</entry>
+    <entry>1.398</entry>
+    <entry>16.8</entry>
+  </row>
+  <row>
+    <entry>12.50</entry>
+    <entry>1.097</entry>
+    <entry>34.9</entry>
+  </row>
+  <row>
+    <entry>6.250</entry>
+    <entry>0.796</entry>
+    <entry>52.8</entry>
+  </row>
+  <row>
+    <entry>3.125</entry>
+    <entry>0.495</entry>
+    <entry>70.4</entry>
+  </row>
+  <row>
+    <entry>1.563</entry>
+    <entry>0.194</entry>
+    <entry>89.3</entry>
+  </row>
+  <row>
+    <entry>0.781</entry>
+    <entry>0.107</entry>
+    <entry>107.1</entry>
+  </row>
+  <row>
+    <entry>0.391</entry>
+    <entry>0.408</entry>
+    <entry>125.5</entry>
+  </row>
+  <row>
+    <entry>0.195</entry>
+    <entry>0.709</entry>
+    <entry>142.9</entry>
+  </row>
+</tbody>
+
+
+</tgroup><caption>Measurement results. Data from http://zimmer.csufresno.edu/~davidz/Chem102/FluorideISE/FluorideISE.html.</caption>
+</table><figure id="import-auto-id1172022702620"><media id="import-auto-id1172032000065" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-f497.png" width="400" print-width="4in"/>
+        </media>
+      <caption>Plot of E versus log C. Based on data  from http://zimmer.csufresno.edu/~davidz/Chem102/FluorideISE/FluorideISE.html. </caption></figure><para id="import-auto-id1172039700102">From the plot in <link target-id="import-auto-id1172022702620"/>, we can clearly identify the linear relationship between E versus log C with slope measeured at -59.4 mV, which is very closed to the theoretical value -59.2 mV at 25 °C. This plot can give the concentration of any solution containing fluoride ion within the range of  0.195 mg/L and 200 mg/L by measuring the potential of the unknown solution.</para></section><section id="import-auto-id1172039585453">
+      <title>Limit of ISE</title>
+      <para id="import-auto-id1172037486657">Though ISE is a cost-effective and useful technique, it has some drawbacks that cannot be avoided. The selective ion membrane only allows the measured ions to pass and thus the potential is only determined by this particular ion. However, the truth is there is no such membrane that only permits the passage of one ion, and so there are cases when there are more than one ions that can pass the membrane. As a result, the measured potential are affected by the passage of the “unwanted” ions. Also, because of its dependence on ion selective membrane, one ISE is only suitable for one ion and this may be inconvenient sometimes. Another problem worth noticing is that ion selective measures the concentration of ions in equilibrium at the surface of the membrane surface. This does matter much if the solution is dilute but at higher concentrations, the inter-ionic interactions between the ions in the solution tend to decrease the mobility of ions and thus the concentration near the membrane would be lower than that in the bulk. This is one source of inaccuracy of ISE. To better analyze the results of ISE, we have to be aware of these inherent limitations of it. </para></section>
+    <section id="import-auto-id1172032022139">
+      <title>Bibliography</title>
+      <list id="import-auto-id1172028380102" list-type="bulleted"><item>D. S. Papastathopoulos and M. I. Karayannis, <emphasis effect="italics">J. Chem. Edu.</emphasis>, 1980, <emphasis effect="bold">57</emphasis>, 904.</item>
+        <item>J. E. O'Reilly, <emphasis effect="italics">J. Chem. Edu.</emphasis>, 1979, <emphasis effect="bold">56</emphasis>, 279.</item>
+        <item>F. Scholz, <emphasis effect="italics">Electroanalytical Methods: Guide to Experiments and Application</emphasis>, 2<sup>nd</sup> edition, Springer, Berlin (2010). </item>
+        <item>R. Greef, R. Peat, L. M. Peter, D. Pletcher, and J. Robinson, <emphasis effect="italics">Instrumental Methods in Electrochemistry</emphasis>, Ellis Horwood, Chichester (1985).</item>
+      </list></section>
+  </content>
+</document>

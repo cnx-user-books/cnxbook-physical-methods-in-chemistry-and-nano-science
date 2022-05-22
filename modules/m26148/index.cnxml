@@ -1,0 +1,149 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>An Accuracy Assessment of the Refinement of Crystallographic Positional Metal Disorder in Molecular Solid Solutions</title>
+  <metadata>
+  <md:content-id>m26148</md:content-id><md:title>An Accuracy Assessment of the Refinement of Crystallographic Positional Metal Disorder in Molecular Solid Solutions</md:title>
+  <md:abstract/>
+  <md:uuid>6bb86299-73c5-41b6-82ad-9e5323632502</md:uuid>
+</metadata>
+
+<content>
+    <section id="id886351">
+      <title>Introduction</title>
+      <para id="id920506"> Crystallographic positional disorder is evident when a position in the lattice is occupied by two or more atoms; the average of which constitutes the bulk composition of the crystal. If a particular atom occupies a certain position in one unit cell and another atom occupies the same position in other unit cells, the resulting electron density will be a weight average of the situation in all the unit cells throughout the crystal. Since the diffraction experiment involves the average of a very large number of unit cells (<emphasis effect="italics">ca</emphasis>. 10<sup>18</sup> in a crystal used for single crystal X-ray diffraction analysis), minor static displacements of atoms closely simulate the effects of vibrations on the scattering power of the “average” atom. Unfortunately, the determination of the “average” atom in a crystal may be complicated if positional disorder is encountered. </para>
+      <para id="id3987614"> Crystal disorder involving groups such as CO, CN and Cl have been documented to create problems in assigning the correct structure through refinement procedures. While attempts have been made to correlate crystallographic lattice parameters with bulk chemical composition of the solution from which single crystal was grown, there has been little effort to correlate crystallographic site occupancy with chemical composition of the crystal from which single crystal diffraction data was obtained. These are two very different issues that must be considered when solving a crystal structure with site occupancy disorder. </para>
+      <list id="id6143642" list-type="enumerated" number-style="arabic">
+        <item>What is the relationship of a single crystal to the bulk material? </item>
+        <item>Is the refinement of a site-occupancy-factor actually gives a realistic value for % occupancy when compared to the "actual" % composition for that particular single crystal? </item>
+      </list>
+      <para id="id5173253">The following represents a description of a series of methods for the refinement of a site occupancy disorder between two atoms (e.g., two metal atoms within a mixture of isostructural compounds). </para>
+    </section>
+    <section id="id6546033">
+      <title>Methods for X-ray diffraction determination of positional disorder in molecular solid solutions</title>
+      <para id="id4026238">An atom in a structure is defined by several parameters: the type of atom, the positional coordinates (x, y, z), the occupancy factor (how many “atoms” are at that position) and atomic displacement parameters (often called temperature or thermal parameters). The latter can be thought of as being a “picture” of the volume occupied by the atom over all the unit cells, and can be isotropic (1 parameter defining a spherical volume) or anisotropic (6 parameters defining an ellipsoidal volume). For a “normal” atom, the occupancy factor is fixed as being equal to one, and the positions and displacement parameters are “refined” using least-squares methods to values in which the best agreement with the observed data is obtained. In crystals with site-disorder, one position is occupied by different atoms in different unit cells. This refinement requires a more complicated approach. Two broad methods may be used: either a new atom type that is the appropriate combination of the different atoms is defined, or the same positional parameters are used for different atoms in the model, each of which has occupancy values less than one, and for which the sum is constrained to total one. In both approaches, the relative occupancies of the two atoms are required. For the first approach, these occupancies have to be defined. For the second, the value can be refined. However, there is a relationship between the thermal parameter and the occupancy value so care must be taken when doing this. These issues can be addressed in several ways. </para>
+      <section id="id5879262">
+        <title>Method 1</title>
+        <para id="id6425042">The simplest assumption is that the crystal from which the X-ray structure is determined represents the bulk sample was crystallized. With this value, either a new atom type can be generated that is the appropriate combination of the measured atom type 1 (M) and atom type 2 (M’) percent composition or two different atoms can be input with the occupancy factor set to reflect the percent composition of the bulk material. In either case the thermal parameters can be allowed to refine as usual. </para>
+      </section>
+      <section id="id2775750">
+        <title>Method 2</title>
+        <para id="id5573343">The occupancy values for two atoms (M and M’) are refined (such that their sum was equal to 1), while the two atoms are constrained to have the same displacement parameters. </para>
+      </section>
+      <section id="id6499546">
+        <title>Method 3</title>
+        <para id="id5290082">The occupancy values (such that their sum was equal to 1) and the displacement parameters are refined independently for the two atoms.</para>
+      </section>
+      <section id="id6301429">
+        <title>Method 4</title>
+        <para id="id6998562">Once the best values for occupancy is obtained using either Methods 2 or 3, these values were fixed and the displacement parameters are allowed to refine freely. </para>
+      </section>
+    </section>
+    <section id="id5484192">
+      <title>A model system</title>
+      <para id="id6078276">Metal <emphasis effect="italics">β</emphasis>-diketonate complexes (<link target-id="id6055015"/>) for metals in the same oxidation state are isostructural and often isomorphous. Thus, crystals obtained from co-crystallization of two or more metal <emphasis effect="italics">β</emphasis>-diketonate complexes [e.g., Al(acac)<sub>3</sub> and Cr(acac)<sub>3</sub>] may be thought of as a hybrid of the precursors; that is, the metal position in the crystal lattice may be defined as having the average metal composition.</para>
+
+
+        <figure id="id6055015"><media id="id6055015_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-9012.jpg" id="id6055015__onlineimage" width="200" print-width="2.5in"/>
+          </media>
+        <caption>Molecular structure of M(acac)<sub>3</sub>, a typical metal <emphasis effect="italics">β</emphasis>-diketonate complex. </caption></figure>
+      
+      <para id="id5953945">A series of solid solutions of Al(acac)<sub>3</sub> and Cr(acac)<sub>3</sub> can be prepared for study by X-ray diffraction, by the crystallization from acetone solutions of specific mixtures of Al(acac)<sub>3</sub> and Cr(acac)<sub>3</sub> (<link target-id="id5733396"/>, Column 1). The pure derivatives and the solid solution, Al<sub>1-x</sub>Cr<sub>x</sub>(acac)<sub>3</sub>, crystallize in the monoclinic space group P2<sub>1</sub>/c with Z = 4. </para>
+      <table id="id5733396" summary="Variance in chromium concentrations (%) for samples crystallized from solution.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Solution composition (% Cr)</emphasis> </entry>
+              <entry><emphasis effect="bold">WDS composition of single crystal (% Cr)</emphasis> </entry>
+              <entry><emphasis effect="bold">Composition as refined from X-ray diffraction (% Cr)</emphasis> </entry>
+            </row>
+            <row>
+              <entry>13</entry>
+              <entry>1.9 ± 0.2</entry>
+              <entry>0<sup>a</sup></entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>2.1 ± 0.3</entry>
+              <entry>0<sup>a</sup></entry>
+            </row>
+            <row>
+              <entry>20</entry>
+              <entry>17.8 ± 1.6</entry>
+              <entry>17.3 ± 1.8</entry>
+            </row>
+            <row>
+              <entry>26</entry>
+              <entry>26.7 ± 1.7</entry>
+              <entry>28.3 ± 1.9</entry>
+            </row>
+            <row>
+              <entry>18</entry>
+              <entry>48.5 ± 4.9</entry>
+              <entry>46.7 ± 2.1</entry>
+            </row>
+            <row>
+              <entry>60</entry>
+              <entry>75.1 ± 4.1</entry>
+              <entry>72.9 ± 2.4</entry>
+            </row>
+            <row>
+              <entry>80</entry>
+              <entry>91.3 ± 1.2</entry>
+              <entry>82.3 ± 3.1</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Variance in chromium concentrations (%) for samples of Al<sub>1-x</sub>Cr<sub>x</sub>(acac)<sub>3</sub> crystallized from solutions of Al(acac)<sub>3</sub> and Cr(acac)<sub>3</sub>. <sup>a</sup>Concentration too low to successfully refine the Cr occupancy. </caption>
+</table>
+      
+      <para id="id1730148">Substitution of Cr for Al in the M(acac)<sub>3</sub> structure could possibly occur in a random manner, i.e., a metal site has an equal probability of containing an aluminum or a chromium atom. Alternatively, if the chromium had preference for specific sites a super lattice structure of lower symmetry would be present. Such an ordering is not observed since all the samples show no additional reflections other than those that may be indexed to the monoclinic cell. Therefore, it may be concluded that the Al(acac)<sub>3</sub> and Cr(acac)<sub>3</sub> do indeed form solid solutions: Al<sub>1-x</sub>Cr<sub>x</sub>(acac)<sub>3</sub>. </para>
+      <para id="id5924257">Electron microprobe analysis, using wavelength-dispersive spectrometry (WDS), on the individual crystal from which X-ray crystallographic data was collected provides the “actual” composition of each crystal. Analysis was performed on at least 6 sites on each crystal using a 10 μm sized analysis spot providing a measure of the homogeneity within the individual crystal for which X-ray crystallographic data was collected. An example of a SEM image of one of the crystals and the point analyses is given in <link target-id="id6484648"/>. The data in <link target-id="id5733396"/> and <link target-id="id6484648"/> demonstrate that while a batch of crystals may contain individual crystals with different compositions, each individual crystal is actually reasonably homogenous. There is, for most samples, a significant variance between the molar Al:Cr ratio in the bulk material and an individual crystal chosen for X-ray diffraction. The variation in Al:Cr ratio within each individual crystal (±10%) is much less than that between crystals. </para>
+      <figure id="id6484648"><media id="id6484648_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-0ab7.jpg" id="id6484648__onlineimage" width="300" print-width="3in"/>
+        </media>
+      <caption>SEM image of a representative crystal used for WDS and X-ray diffraction analysis showing the location and results for the WDS analysis. The 10 μm sized analysis spots are represented by the white dots. Adapted from B. D. Fahlman, Ph.D. Thesis, Rice University, 2000. </caption></figure>
+      
+    </section>
+    <section id="id5939469">
+      <title>Comparison of the methods</title>
+      <section id="id876329">
+        <title>Method 1</title>
+        <para id="id6392522">Since Method 1 does not refine the %Cr and relies on an input for the Al and Cr percent composition of the "bulk" material, i.e., the %Cr in the total mass of the material (<link target-id="id5733396"/>, Column 1), as opposed to the analysis of the single crystal on which X-ray diffraction was performed, (<link target-id="id5733396"/>, Column 2), the closer these values were to the "actual" value determined by WDS for the crystal on which X-ray diffraction was performed (<link target-id="id5733396"/>, Column 1 versus 2) then the closer the overall refinement of the structure to those of Methods 2 - 4. </para>
+        <para id="id6113665"> While this assumption is obviously invalid for many of the samples, it is one often used when bulk data (for example, from NMR) is available. However, as there is no reason to assume that one crystal is completely representative of the bulk sample, it is unwise to rely only on such data. </para>
+      </section>
+      <section id="id6135317">
+        <title>Method 2</title>
+        <para id="id945000">This method always produced final, refined, occupancy values that were close to those obtained from WDS (<link target-id="id5733396"/>). This approach assumes that the motion of the central metal atoms is identical. While this is obviously not strictly true as they are of different size, the results obtained herein imply that this is a reasonable approximation where simple connectivity data is required. For samples where the amount of one of the elements (i.e., Cr) is very low so low a good refinement can not often be obtained. In theses cases, when refining the occupancy values, that for Al would exceed 1 while that of Cr would be less than 1! </para>
+      </section>
+      <section id="id4317247">
+        <title>Method 3</title>
+        <para id="id5879654">In some cases, despite the interrelationship between the occupancy and the displacement parameters, convergence was obtained successfully. In these cases the refined occupancies were both slightly closer to those observed from WDS than the occupancy values obtained using Method 2. However, for some samples with higher Cr content the refinement was unstable and would not converge. Whether this observation was due to the increased percentage of Cr or simply lower data quality is not certain. </para>
+        <para id="id4069357"> While this method does allow refinement of any differences in atomic motion between the two metals, it requires extremely high quality data for this difference to be determined reliably. </para>
+      </section>
+      <section id="id6927369">
+        <title>Method 4</title>
+        <para id="id6254312">This approach adds little to the final results. </para>
+      </section>
+    </section>
+    <section id="id6127718">
+      <title>Correlation between analyzed composition and refined composition</title>
+      <para id="id6162307"><link target-id="id6181555"/> shows the relationship between the chromium concentration (%Cr) determined from WDS and the refinement of X-ray diffraction data using Methods 2 or 3 (labeled in <link target-id="id6181555"/>). Clearly there exists a good correlation, with only a slight divergence at high Cr concentration. This is undoubtedly a consequence of trying to refine a low fraction of a light atom (Al) in the presence of a large fraction of a heavier atom (Cr). X-ray diffraction is, therefore, an accurate method of determining the M:M' ratios in crystalline solid solution. </para>
+      <figure id="id6181555"><media id="id6181555_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-6592.jpg" id="id6181555__onlineimage" width="300" print-width="3in"/>
+        </media>
+      <caption>Comparison of the chromium concentration determined from WDS (with error) and refinement of X-ray diffraction data (with error) using Methods 2 or 3. Adapted from S. G. Bott, B. D. Fahlman, M. L. Pierson, and A. R. Barron, <emphasis effect="italics">J. Chem. Soc., Dalton Trans.</emphasis>, 2001, 2148. </caption></figure>
+      
+    </section>
+    <section id="id6293353">
+      <title>Bibliography</title>
+      <list id="id5354283" list-type="bulleted"><item>S. G. Bott, B. D. Fahlman, M. L. Pierson, and A. R. Barron, <emphasis effect="italics">J. Chem. Soc., Dalton Trans.</emphasis>, 2001, 2148. </item>
+        <item>K. R. Dunbar and S. C. Haefner, <emphasis effect="italics">Inorg. Chem.,</emphasis> 1992, <emphasis effect="bold">31</emphasis>, 3676.</item>
+        <item>J. Glusker, M. Lewis, and M., Rossi, <emphasis effect="italics">Crystal Structure Analysis for Chemists and Biologists</emphasis> VCH: New York (1994). </item>
+        <item>K. Yoon and G. Parkin, <emphasis effect="italics">Inorg. Chem.</emphasis>, 1992, <emphasis effect="bold">114</emphasis>, 31.</item>
+      </list>
+    </section>
+  </content>
+</document>

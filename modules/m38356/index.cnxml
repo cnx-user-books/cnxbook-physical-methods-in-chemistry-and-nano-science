@@ -1,0 +1,134 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Introduction to Nuclear Magnetic Resonance Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38356</md:content-id>
+  <md:title>Introduction to Nuclear Magnetic Resonance Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>13b5cac9-0972-48a0-b48d-170235dad1d4</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1169781109795">
+      <title>Introduction</title>
+      <para id="id1169802754242">Nuclear magnetic resonance spectroscopy (NMR) is a widely used and powerful method that takes advantage of the magnetic properties of certain nuclei. The basic principle behind NMR is that some nuclei exist in specific nuclear spin states when exposed to an external magnetic field. NMR observes transitions between these spin states that are specific to the particular nuclei in question, as well as that nuclei's chemical environment. However, this only applies to nuclei whose spin, I, is not equal to 0, so nuclei where I = 0 are ‘invisible’ to NMR spectroscopy. These properties have led to NMR being used to identify molecular structures, monitor reactions, study metabolism in cells, and is used in medicine, biochemistry, physics, industry, and almost every imaginable branch of science. </para>
+    </section>
+    <section id="id1169784145125"><title>Theory</title><para id="id1169795837977">The chemical theory that underlies NMR spectroscopy depends on the intrinsic spin of the nucleus involved, described by the quantum number S. Nuclei with a non-zero spin are always associated with a non-zero magnetic moment, as described by <link target-id="eip-628"/>, where μ is the magnetic moment, S is the spin, and γ is always non-zero. It is this magnetic moment that allows for NMR to be used; therefore nuclei whose quantum spin is zero cannot be measured using NMR. Almost all isotopes that have both an even number of protons and neutrons have no magnetic moment, and cannot be measured using NMR. </para>
+      <equation id="eip-628"><media id="id41_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq1-66c7.jpg" id="id37__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+      
+      <para id="id1169779927207">In the presence of an external magnetic field (B) for a nuclei with a spin I = <sup>1</sup>/<sub>2</sub>, there are two spin states present of +<sup>1</sup>/<sub>2</sub> and -<sup>1</sup>/<sub>2</sub>. The difference in energy between these two states at a specific external magnetic field (B<sub>x</sub>) are given by <link target-id="eip-463"/>, and are shown in <link target-id="id1169785399158"/>, where E is energy, I is the spin of the nuclei, and μ is the magnetic moment of the specific nuclei being analyzed. The difference in energy shown is always extremely small, so for NMR strong magnetic fields are required to further separate the two energy states. At the applied magnetic fields used for NMR, most magnetic resonance frequencies tend to fall in the radio frequency range.</para>
+      <equation id="eip-463"><media id="id411_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq2-4814.jpg" id="id377777" width="500" print-width="4.5in"/>
+</media>
+</equation>
+      
+
+<figure id="id1169785399158"><media id="id1169785399158_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-2c89.png" id="id1169785399158__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>The difference in energy between two spin states over a varying  magnetic field B. </caption></figure>
+
+      
+      <para id="id1169779471327">The reason NMR can differentiate between different elements and isotopes is due to the fact that each specific nuclide will only absorb at a very specific frequency.  This specificity means that NMR can generally detect one isotope at a time, and this results in different types of NMR: such as <sup>1</sup>H NMR, <sup>13</sup>C NMR, and <sup>31</sup>P NMR, to name only a few.</para>
+      <para id="id1169777173741">The subsequent absorbed frequency of any type of nuclei is not always constant, since electrons surrounding a nucleus can result in an effect called nuclear shielding, where the magnetic field at the nucleus is changed (usually lowered) because of the surrounding electron environment. This differentiation of a particular nucleus based upon its electronic (chemical) environment allows NMR be used to identify structure. Since nuclei of the same type in different electron environments will be more or less shielded than another, the difference in their environment (as observed by a difference in the surrounding magnetic field) is defined as the chemical shift.</para>
+    </section>
+    <section id="id1169787910824">
+      <title>Instrumentation</title>
+      <para id="eip-777">An example of an NMR spectrometer is given in <link target-id="id1169777173162"/>. NMR spectroscopy works by varying the machine’s emitted frequency over a small range while the sample is inside a constant magnetic field. Most of the magnets used in NMR machines to create the magnetic field range from 6 to 24 T. The sample is placed within the magnet and surrounded by superconducting coils, and is then subjected to a frequency from the radio wave source.  A detector then interprets the results and sends it to the main console. </para><figure id="id1169777173162"><media id="id1169777173162_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-ed05.png" id="id1169777173162__onlineimage" width="600" print-width="5in"/>
+        </media>
+      <caption>Diagram of an NMR spectrometer.</caption></figure>
+      
+      
+      
+    </section>
+    <section id="id1169784145664">
+      <title>Interpreting NMR spectra</title>
+
+
+
+
+   
+    <section id="id1169777090540"><title>Chemical shift</title><para id="id1169796133227">The different local chemical environments surrounding any particular nuclei causes them to resonate at slightly different frequencies. This is a result of a nucleus being more or less shielded than another. This is called the chemical shift (δ). One factor that affects chemical shift is the changing of electron density from around a nucleus, such as a bond to an electronegative group. Hydrogen bonding also changes the electron density in <sup>1</sup>H NMR, causing a larger shift. These frequency shifts are miniscule in comparison to the fundamental NMR frequency differences, on a scale of Hz as compared to MHz. For this reason chemical shifts (δ) are described by the unit ppm on an NMR spectra, <link target-id="eip-975"/>, where H<sub>ref</sub> = the resonance frequency of the reference, H<sub>sub</sub> = resonance frequency of the substance, and H<sub>machine</sub> = operating frequency of the spectometer.  </para>
+      <equation id="eip-975"><media id="id41a_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq35-c3fd.jpg" id="id37a__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<para id="id1169800800853">Since the chemical shift (δ in ppm) is reported as a relative difference from some reference frequency, so a reference is required. In <sup>1</sup>H and <sup>13</sup>C NMR, for example, tetramethylsilane (TMS, Si(CH<sub>3</sub>)<sub>4</sub>) is used as the reference. Chemical shifts can be used to identify structural properties in a molecule based on our understanding of different chemical environments. Some examples of where different chemical environments fall on a <sup>1</sup>H NMR spectra are given in <link target-id="eip-797"/>. </para>
+      <table id="eip-797" summary="Representative chemical shifts for organic groups in the 1H NMR.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Functional group</emphasis></entry>
+    <entry><emphasis effect="bold">Chemical shift range (ppm)</emphasis></entry>
+  </row>
+  <row>
+    <entry>Alkyl (e.g., methyl -CH<sub>3</sub>)</entry>
+    <entry>~ 1</entry>
+  </row>
+  <row>
+    <entry>Alkyl adjacent to oxygen (-CH<sub>2</sub>-O)</entry>
+    <entry>3 - 4</entry>
+  </row>
+  <row>
+    <entry>Alkene (=CH<sub>2</sub>)</entry>
+    <entry>~ 6</entry>
+  </row>
+  <row>
+    <entry>Alkyne (C-H)</entry>
+    <entry>~ 3</entry>
+  </row>
+  <row>
+    <entry>Aromatic</entry>
+    <entry>7 - 8</entry>
+  </row>
+</tbody>
+
+</tgroup><caption>Representative chemical shifts for organic groups in the <sup>1</sup>H NMR. </caption>
+</table><para id="id1169802514848">In <link target-id="id1169780229093"/>, an <sup>1</sup>H NMR spectra of ethanol, we can see a clear example of chemical shift. There are three sets of peaks that represent the six hydrogens of ethanol (C<sub>2</sub>H<sub>6</sub>O). The presence of three sets of peaks means that there are three different chemical environments that the hydrogens can be found in: the terminal methyl (CH<sub>3</sub>) carbon’s three hydrogens, the two hydrogens on the methylene (CH<sub>2</sub>) carbon adjacent to the oxygen, and the single hydrogen on the oxygen of the alcohol group (OH). Once we cover spin-spin coupling, we will have the tools available to match these groups of hydrogens to their respective peaks.</para>
+
+
+        <figure id="id1169780229093"><media id="id1169780229093_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3c.jpg" id="id1169780229093__onlineimage" width="500" print-width="5in"/>
+          </media>
+        <caption>A <sup>1</sup>H NMR spectra of ethanol (CH<sub>3</sub>CH<sub>2</sub>OH).</caption></figure>
+
+
+      
+    </section>
+    <section id="id1169798928581"><title>Spin-spin coupling</title><para id="id1169790558576">Another useful property that allows NMR spectra to give structural information is called spin-spin coupling, which is caused by spin coupling between NMR active nuclei that are not chemically identical. Different spin states interact through chemical bonds in a molecule to give rise to this coupling, which occurs when a nuclei being examined is disturbed or influenced by a nearby nuclear spin. In NMR spectra, this effect is shown through peak splitting that can give direct information concerning the connectivity of atoms in a molecule. Nuclei which share the same chemical shift do not form splitting peaks in an NMR spectra. </para>
+
+
+        <para id="eip-600">In general, neighboring NMR active nuclei three or fewer bonds away lead to this splitting. The splitting is described by the relationship where n neighboring nuclei result in <emphasis effect="italics">n</emphasis>+1 peaks, and the area distribution can be seen in Pascal’s triangle in <link target-id="id1169787838664"/>. However, being adjacent to a strongly electronegative group such as oxygen can prevent spin-spin coupling. For example a doublet would have two peaks with intensity ratios of 1:1, while a quartet would have four peaks of relative intensities 1:3:3:1. The magnitude of the observed spin splitting depends on many factors and is given by the coupling constant <emphasis effect="italics">J</emphasis>, which is in units of Hz.</para>
+
+<figure id="id1169787838664"><media id="id1169787838664_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-1ef0.png" id="id1169787838664__onlineimage" width="200" print-width="2in"/>
+          </media>
+        <caption>Pascal’s triangle. </caption></figure>
+
+
+      
+      
+      <para id="id1169776978561">Referring again to <link target-id=" id1169780229093"/>, we have a good example of how spin-spin coupling manifests itself in an NMR spectra. In the spectra we have three sets of peaks: a quartet, triplet, and a singlet. If we start with the terminal carbon’s hydrogens in ethanol, using the <emphasis effect="italics">n</emphasis>+1 rule we see that they have two hydrogens within three bonds (i.e., H-C-C-H), leading us to identify the triplet as the peaks for the terminal carbon’s hydrogens. Looking next at the two central hydrogens, they have four NMR active nuclei within three bonds (i.e., H-C-C-H), but there is no quintet on the spectra as might be expected. This can be explained by the fact that the single hydrogen bonded to the oxygen is shielded from spin-spin coupling, so it must be a singlet and the two central hydrogens form the quartet. We have now interpreted the NMR spectra of ethanol by identifying which nuclei correspond to each peak.</para>
+    </section>
+    <section id="id1169776780562"><title>Peak intensity</title><para id="id1169785382814">Mainly useful for proton NMR, the size of the peaks in the NMR spectra can give information concerning the number of nuclei that gave rise to that peak. This is done by measuring the peak’s area using integration. Yet even without using integration the size of different peaks can still give relative information about the number of nuclei. For example a singlet associated with three hydrogen atoms would be about 3 times larger than a singlet associated with a single hydrogen atom. </para>
+      <para id="id1169804197334">This can also be seen in the example in <link target-id="id1169780229093"/>. If we integrated the area under each peak, we would find that the ratios of the areas of the quartet, singlet, and triplet are approximately 2:1:3, respectively.</para>
+    </section>
+
+
+
+ </section>
+<section id="id1169776931562"><title>Limitations of NMR</title><para id="id1169779985798">Despite all of its upsides, there are several limitations that can make NMR analysis difficult or impossible in certain situations. One such issue is that the desired isotope of an element that is needed for NMR analysis may have little or no natural abundance. For example the natural abundance of <sup>13</sup>C, the active isotope for carbon NMR, is about 11%, which works well for analysis. However, in the case of oxygen the active isotope for NMR is <sup>17</sup>O, which is only 0.035% naturally abundant. This means that there are certain elements that can essentially never be measured through NMR.</para>
+      <para id="id1169795682137">Another problem is that some elements have an extremely low magnetic moment, μ. The sensitivity of NMR machines is based on the magnetic moment of the specific element, but if the magnetic moment is too low it can be very difficult to obtain an NMR spectra with enough peak intensity to properly analyze.</para>
+    </section>
+    <section id="id1169790558944">
+      <title>Bibliography</title>
+      <list id="id1169797989512" list-type="bulleted"><item>D. L. Nelson and M. M. Cox, <emphasis effect="italics">Principles of Biochemistry</emphasis>, 5<sup>th</sup> Ed, W. H. Freeman and Company, New York (2008).</item>
+        <item>D. F. Shriver and P. W. Atkins, <emphasis effect="italics">Inorganic Chemistry</emphasis>, 4<sup>th</sup> Ed, Oxford University Press (2006).</item>
+        <item>I. C. P. Smith and D. E. Blandford, <emphasis effect="italics">Anal. Chem.</emphasis>, 1995, <emphasis effect="bold">67</emphasis>, 509.</item>
+      </list>
+    </section>
+  </content>
+</document>

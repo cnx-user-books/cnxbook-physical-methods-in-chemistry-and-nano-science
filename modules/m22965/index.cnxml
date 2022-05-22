@@ -1,0 +1,101 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rolling Molecules on Surfaces Under STM Imaging</title>
+  <metadata>
+  <md:content-id>m22965</md:content-id><md:title>Rolling Molecules on Surfaces Under STM Imaging</md:title>
+  <md:abstract/>
+  <md:uuid>8e04526f-e3a5-4947-a6a7-785107927199</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="eip-271"><title>Introduction to surface motions at the molecular level</title><para id="eip-776">As single molecule imaging methods such as scanning tunneling microscope (STM), atomic force microscope (AFM), and transmission electron microscope (TEM) developed in the past decades, scientists have gained powerful tools to explore molecular structures and behaviors in previously unknown areas. Among these imaging methods, STM is probably the most suitable one to observe detail at molecular level. STM can operate in a wide range of conditions, provides very high resolution, and able to manipulate molecular motions with the tip. An interesting early example came from IBM in 1990, in which the STM was used to position individual atoms for the first time, spelling out "I-B-M" in Xenon atoms. This work revealed that observation and control of single atoms and molecular motions on surfaces were possible. </para><para id="eip-802">The IBM work, and subsequent experiments, relied on the fact that STM tip always exerts a finite force toward an adsorbate atom that contains both van der Waals and electrostatic forces was utilized for manipulation purpose. By adjusting the position and the voltage of the tip, the interactions between the tip and the target molecule were changed. Therefore, applying/releasing force to a single atom and make it move was possible <link target-id="id4343961"/>. </para>
+
+<figure id="id4343961"><media id="id4343961_media" alt=""><image mime-type="image/png" src="../../media/tip manipulation.jpg" id="id4343961__onlineimage" width="400" print-width="3in"/></media><caption>Manipulation of STM tip toward a xenon atom. a) STM tip move onto a target atom then change the voltage and current of the tip to apply a stronger interaction. b) Move the atom to a desire position. c) After reaching the desire position, the tip released by switching back to the scanning voltage and current.</caption></figure>
+
+
+<para id="eip-868">The actual positioning experiment was carried out in the following process. The nickel metal substrate was prepared by cycles of argon-ion sputtering, followed by annealing in a partial pressure of oxygen to remove surface carbon and other impurities. After the cleaning process, the sample was cooled to 4 K, and imaged with the STM to ensure the quality of surface. The nickel sample was then doped with xenon.  An image of the doped sample was taken at constant-current scanning conditions. Each xenon atom appears as a located randomly 1.6 Å high bump on the surface (<link target-id="ibm"/>a). Under the imaging conditions (tip bias = 0.010 V with tunneling current 10<sup>-9</sup> A) the interaction of the xenon with the tip is too weak to cause the position of the  xenon atom to be perturbed. To move an atom, the STM tip was placed on top of the atom performing the procedure depicted in <link target-id="id4343961"/> to move it to its target. Repeating this process again and again led the researcher to build of the structure they desired <link target-id="ibm"/>b and c. </para>
+
+<figure id="ibm"><media id="idibm_media" alt=""><image mime-type="image/png" src="../../media/Untitled-d8d5.png" id="idibm__onlineimage" width="680" print-width="5in"/></media><caption>Manipulation of STM tip starting with a) randomly dosed xenon sample, b) under construction - move xenon atom to desire position, and c) accomplishment of the manipulation. Adapted from D. M. Eigler and E. K. Schweizer, <emphasis effect="italics"> Nature</emphasis>, 1990, <emphasis effect="bold"> 344</emphasis>, 524.</caption></figure>
+
+<para id="eip-780">All motions on surfaces at the single molecule level can be described as by the following (or combination of the following) modes: </para><list id="eip-108" list-type="enumerated" number-style="lower-roman"><item>Sliding.</item>
+<item>Hopping.</item>
+<item>Rolling.</item>
+<item>Pivoting.</item>
+</list><para id="eip-515">Although the power of STM imaging has been demonstrated, imaging of molecules themselves is still often a difficult task. The successful imaging of the IBM work was attributed to selection of a heavy atom. Other synthetic organic molecules without heavy atoms are much more difficult to be imaged under STM. Determinations of the mechanism of molecular motion is another. Besides imaging methods themselves, other auxiliary methods such as DFT calculations and imaging of properly designed molecules are required to determine the mechanism by which a particular molecule moves across a surface.</para><para id="eip-986">Herein, we are particularly interested in surface-rolling molecules, i.e., those that are designed to roll on a surface. It is straightforward to imagine that if we want to construct (and image) surface-rolling molecules, we must think of making highly symmetrical structures. In addition, the magnitudes of interactions between the molecules and the surfaces have to be adequate; otherwise the molecules will be more susceptible to slide/hop or stick on the surfaces, instead of rolling. As a result, only very few molecules are known can roll and be detected on surfaces.</para></section>
+    
+    
+    
+    
+    
+    <section id="eip-382"><title>Surface rolling of molecules under the manipulation of STM tips</title><para id="eip-396">As described above, rolling motions are most likely to be observed on molecules having high degree of symmetry and suitable interactions between themselves and the surface. C<sub>60</sub> is not only a highly symmetrical molecule but also readily imageable under STM due to its size. These properties together make C<sub>60</sub> and its derivatives highly suitable to study with regards to surface-rolling motion.</para><para id="eip-732">The STM imaging of C<sub>60</sub> was first carried out at At King College, London. Similar to the atom positioning experiment by IBM, STM tip manipulation was also utilized to achieve C<sub>60</sub> displacement. The tip trajectory suggested that a rolling motion took into account the displacement on the surface of C<sub>60</sub>. In order to confirm the hypothesis, the researchers also employed <emphasis effect="italics">ab initio </emphasis>density function (DFT) calculations with rolling model boundary condition (<link target-id="id2715243"/>). The calculation result has supported their experimental result. </para>
+    
+  <figure id="id2715243"><media id="id2715243_media" alt=""><image mime-type="image/png" src="../../media/C60 rolls.jpg" id="id2715243__onlineimage" width="570" print-width="4in"/></media><caption>Proposed mechanism of C<sub>60</sub> translation showing the alteration of C<sub>60</sub><sup>...</sup>surface interactions during rolling. a) 2-point interaction. The left point interaction was dissociated during the interaction. b) 1-point interaction. C<sub>60</sub> can pivot on surface. c) 2-point interaction. A new interaction formed to complete part of the rolling motion. a) - c) The black spot on the C<sub>60</sub> is moved during the manipulation. The light blue Si balls represent the first layer of molecules the silicon surface, and the yellow balls are the second layer.</caption></figure>
+
+
+
+    <para id="eip-77">The results provided insights into the dynamical response of covalently bound molecules to manipulation. The sequential breaking and reforming of highly directional covalent bonds resulted in a dynamical molecular response in which bond breaking, rotation, and translation are intimately coupled in a rolling motion (<link target-id=" id5216056"/>), but not performing sliding or hopping motion.</para><para id="eip-546">A triptycene wheeled dimeric molecule <link target-id="id5216056"/> was also synthesized for studying rolling motion under STM. This "tripod-like" triptycene wheel ulike a ball like C<sub>60</sub> molecule also demonstrated a rolling motion on the surface. The two triptycene units were connected via a dialkynyl axle, for both desired molecule orientation sitting on surface and directional preference of the rolling motion. STM controlling and imaging was demonstrated, including the mechanism <link target-id="id5216056"/>.</para><figure id="id5216056"><media id="id5216056_media" alt="">
+		<image mime-type="image/png" src="../../media/roll a nature nanotech.png" id="id5216056__onlineimage" width="425" print-width="3in"/>
+	</media>
+	<caption>Scheme of the rolling mechanism (left to right). Step 1 is the tip approach towards the molecule, step 2 is a 120 degree rotation of a wheel around its molecular axle and in step 3 the tip reaches the other side of the molecule. It shows that, in principle, only one rotation of a wheel can be induced (the direction of movement is marked by arrows).</caption></figure>
+</section>
+    
+    <section id="eip-634"><title>Single molecule nanocar under STM imaging</title><para id="eip-38">Another use of STM imaging at single molecule imaging is the single molecule nanocar by the Tour group at Rice University. The concept of a nanocar initially employed the free rotation of a C-C single bond between a spherical C<sub>60</sub> molecule and an alkyne, <link target-id="id4637457"/>. Based on this concept, an “axle” can be designed into which are mounted C<sub>60</sub> “wheels” connected with a “chassis” to construct the “nanocar”. Nanocars with this design are expected to have a directional movement perpendicular to the axle. Unfortunately, the first generation nanocar (named “nanotruck” <link target-id="nanotruck"/>) encountered some difficulties in STM imaging due to its chemical instability and insolubility. Therefore, a new of design of nanocar based on OPE has been synthesized <link target-id="id8192882"/>.</para>
+  
+
+
+<figure id="id4637457"><media id="id4637457_media" alt="">
+			<image mime-type="image/png" src="../../media/graphics5-0e90.png" id="id4637457__onlineimage" width="218" print-width="2in"/>
+		</media>
+		<caption>Structure of C<sub>60</sub> wheels connecting to an alkyne. The only possible rolling direction is perpendicular to the C-C single bond between C<sub>60</sub> and the alkyne. The arrow indicates the rotational motion of C<sub>60</sub>.</caption></figure>
+
+<figure id="nanotruck"><media id="nanotruck_media" alt="">
+		<image mime-type="image/png" src="../../media/nanotruck.jpg" id="nanotruck__onlineimage" width="500" print-width="4in"/>
+	</media>
+	<caption>Structure of the nanotruck. No rolling motion was observed under STM imaging due to its instability, insolubility and inseparable unreacted C<sub>60</sub>.The double head arrow indicates the expected direction of nanocar movement. Y. Shirai, A. J. Osgood, Y. Zhao, Y. Yao, L. Saudan, H. Yang, Y.-H. Chiu, L. B. Alemany, T. Sasaki, J.-F. Morin, J. M. Guerrero, K. F. Kelly, and J. M. Tour, <emphasis effect="italics"> J. Am. Chem. Soc.</emphasis>, 2006, <emphasis effect="bold"> 128</emphasis>, 4854. Copyright American Chemical Society (2006).
+	</caption></figure>
+
+
+<figure id="id8192882"><media id="id8192882_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics6-c4b7.png" id="id8192882__onlineimage" width="541" print-width="5in"/>
+	</media>
+	<caption>Nanocar based on OPE structure. The size of the nanocar is 3.3 nm X 2.1 nm (W x L). Alkoxy chains were attached to improve solubility and stability. OPE moiety is also separable from C<sub>60</sub>. The bold double head arrow indicates the expected direction of nanocar movement. The dimension of nanocar was 3.3 nm X 2.1 nm which enable direct observation of the orientation under STM imaging. Y. Shirai, A. J. Osgood, Y. Zhao, K. F. Kelly, and J. M. Tour, <emphasis effect="italics"> Nano Lett.</emphasis>, 2005, <emphasis effect="bold"> 5</emphasis>, 2330.  Copyright American Chemical Society (2005).</caption></figure>
+
+
+
+<para id="id1170966508055">The newly designed nanocar was studied with STM. When the nanocar was heated to ~200 °C, noticeable displacements of the nanocar were observed under selected images from a 10 min STM experiment <link target-id="id4615263"/>. The phenomenon that the nanocar moved only at high temperature was attributed their stability to a relatively strong adhesion force between the fullerene wheels and the underlying gold. The series of images showed both pivotal and translational motions on the surfaces.</para>
+
+
+
+      <figure id="id4615263"><media id="id4615263_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics7-bb14.png" id="id4615263__onlineimage" width="290" print-width="2in"/>
+	</media>
+	<caption>Pivotal and translational movement of OPE based nanocar. Acquisition time of one image is approximately 1 min with (a – e) images were selected from a series spanning 10 min. The configuration of the nanocar on surface can be determined by the distances of four wheels. a) – b) indicated the nanocar had made a 80° pivotal motion. b) – e) indicated translation interrupted by small-angle pivot perturbations. Y. Shirai, A. J. Osgood, Y. Zhao, K. F. Kelly, and J. M. Tour, <emphasis effect="italics"> Nano Lett.</emphasis>, 2005, <emphasis effect="bold"> 5</emphasis>, 2330.  Copyright American Chemical Society (2005).</caption></figure>
+
+<para id="id8972168">Although literature studies suggested that the C<sub>60</sub> molecule rolls on the surface, in the nanocar movement studies it is still not possible to conclusively conclude that the nanocar moves on surface exclusively via a rolling mechanism. Hopping, sliding and other moving modes could also be responsible for the movement of the nanocar since the experiment was carried out at high temperature conditions, making the C<sub>60</sub> molecules more energetic to overcome interactions between surfaces. </para>
+
+
+
+      <para id="eip-98">To tackle the question of the mode of translation, a trimeric “nano-tricycle” has been synthesized. If the movement of fullerene-wheeled nanocar was based on a hopping or sliding mechanism, the trimer should give observable translational motions like the four-wheeled nanocar, however, if rolling is the operable motion then the nano-tricycle should rotate on an axis, but not translate across the surface. The result of the imaging experiment of the trimer at ~200 °C (<link target-id="id1436116"/>,) yielded very small and insignificant translational displacements in comparison to 4-wheel nanocar (<link target-id="id4615263"/>). The trimeric 3-wheel nanocar showed some pivoting motions in the images. This motion type can be attributed to the directional preferences of the wheels mounted on the trimer causing the car to rotate. All the experimental results suggested that a C<sub>60</sub>-based nanocar moves via a rolling motion rather than hopping and sliding. In addition, the fact that the thermally driven nanocar only moves in high temperature also suggests that four C<sub>60</sub> have very strong interactions to the surface.</para><figure id="id1436116"><media id="id1436116_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics8-4882.png" id="id1436116__onlineimage" width="247" print-width="2in"/>
+	</media>
+	<caption>Pivot motion of the trimer. a) - d) Pivot motions of circled trimered were shown in the series of images. No significant translation were observed in comparison to the nanocar. Y. Shirai, A. J. Osgood, Y. Zhao, K. F. Kelly, and J. M. Tour, <emphasis effect="italics"> Nano Lett.</emphasis>, 2005, <emphasis effect="bold"> 5</emphasis>, 2330.  Copyright American Chemical Society (2005). </caption></figure>
+ 
+
+
+    
+
+    
+    
+
+</section>
+
+<section id="eip-585"><title>Bibliography</title><list id="eip-416"><item>D. M. Eigler and E. K. Schweizer, <emphasis effect="italics">Nature</emphasis>, 1990, <emphasis effect="bold"> 344</emphasis>, 524.</item>
+	<item>L. Grill, K. -H. Rieder, F. Moresco, G. Rapenne, S. Stojkovic, X. Bouju, and C. Joachim, <emphasis effect="italics">Nat. Nanotechnol.</emphasis>, 2007, <emphasis effect="bold"> 2</emphasis>, 95.</item>
+	<item>Y. Shirai, A. J. Osgood, Y. Zhao, K. F. Kelly, and J. M. Tour, <emphasis effect="italics">Nano Lett.</emphasis>, 2005, <emphasis effect="bold"> 5</emphasis>, 2330.</item>
+	<item>Y. Shirai, A. J. Osgood, Y. Zhao, Y. Yao, L. Saudan, H. Yang, Y.-H. Chiu, L. B. Alemany, T. Sasaki, J.-F. Morin, J. M. Guerrero, K. F. Kelly, and J. M. Tour, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2006, <emphasis effect="bold"> 128</emphasis>, 4854.</item>
+</list></section>
+    
+    
+    
+  </content>
+</document>

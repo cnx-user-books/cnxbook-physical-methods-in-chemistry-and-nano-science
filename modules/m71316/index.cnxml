@@ -1,0 +1,350 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Outer Space</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71316</md:content-id>
+  <md:title>Outer Space</md:title>
+  <md:abstract/>
+  <md:uuid>85c94b0a-1521-40ff-a55d-b62a0304a68c</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm397228368">
+      <title>Introduction</title>
+      <para id="import-auto-idm388827248">For thousands of years, humans have looked into space and attempted to analyze and characterize what lies beyond the Earth. The massive technological advancements of the last century have allowed us to undertake these goals with ever-increasing efficiency and accuracy, and today many nations around the world have space agencies dedicated to understanding and exploring the universe around us. These agencies utilize analytical chemistry to serve three main goals: to understand the geology and atmospheric processes of the Earth, to understand better the composition and environments of planets and solar bodies in the solar system and beyond, and to investigate techniques to allow for further human exploration of space. </para>
+      <para id="import-auto-idm1586376224">However, these goals present some significant challenges. Historically, the first challenge that astronomical analysis has faced has been overcoming the distances involved. By utilizing spectroscopic techniques, astronomers can study stars many thousands of light years away. A second major challenge faced when attempting to send humans into space is the risk, especially that associated with the unknown. Gas chromatographs, mass spectrometers, and various kinds of spectroscopic techniques are frequently used to both assess the environments humans could face in outer space, and monitor the activities and health of those astronauts currently living in space. The third, and most prohibitive challenge faced by the space industry is that of cost. Sending analytical instruments into space is incredibly expensive, and that expense is directly tied to the weight of the payload. By creating smaller, more efficient analytical instruments, costs of analyzing and exploring outer space can be lowered or mitigated. This article presents an overview of the various techniques associated with analytical chemistry, that are used in space research.</para>
+    </section>
+    <section id="import-auto-idm342925264">
+      <title>Key chemicals and materials</title>
+      <para id="import-auto-idm399286288">Although analysis of outer space relies on spectroscopy, many materials and chemicals are necessary. Some, such as tungsten, graphite, and germanium are critical parts of the instruments used in analysis. Tungsten has the highest melting point of any metal, making it an optimal electrode in an X-ray generator as electrons bombard it, causing heat. Other chemicals are necessary for use as reference materials for certain techniques. Overall, many chemicals and materials are crucial for the proper analysis of outer space (TABLE). </para>
+      <table id="import-auto-idm1840767248" summary="Chemicals and materials used for chemical analysis in outer space.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Material</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Applications </emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Annual global production</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Sources of production</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Tungsten</entry>
+              <entry>X-ray generator for X-ray fluorescence</entry>
+              <entry>95,000 metric tons</entry>
+              <entry>Midwest Tungsten Service; Xiamen Honglu Tungsten Molybdenum Industry Co., Ltd.;Zigong Cemented Carbide Co., Ltd.</entry>
+            </row>
+            <row>
+              <entry>Graphite</entry>
+              <entry>Electrothermal ionization in atomic absorption spectroscopy </entry>
+              <entry>1.2 million metric tons</entry>
+              <entry>CG Thermal LLC; Weaver Industries, Inc.; Industrial Graphite Sales</entry>
+            </row>
+            <row>
+              <entry>Lithium-doped germanium semiconductor</entry>
+              <entry>Radiochemical neutron activation analysis detector</entry>
+              <entry>134,000 kg</entry>
+              <entry>Teck Resources Ltd., Yunnan Lincang Xinyuan Germanium Industrial Co., Umicore and Nanjing Germanium Co.</entry>
+            </row>
+            <row>
+              <entry>Silica</entry>
+              <entry>Fast neutron-activation analysis reference sample for lunar sample analysis</entry>
+              <entry>189 million tons</entry>
+              <entry>U.S. Silica, Fairmount Santrol, Hi-Crush Partners, Emerge Energy Services</entry>
+            </row>
+            <row>
+              <entry>Aluminum oxide</entry>
+              <entry>Fast neutron-activation analysis reference sample for lunar sample analysis</entry>
+              <entry>130 million metric dry tons</entry>
+              <entry>Orbite Technologies Inc., Altech Chemicals Ltd., Baikowski SAS</entry>
+            </row>
+            <row>
+              <entry>Cobalt</entry>
+              <entry>X-ray source for X-ray diffractometer</entry>
+              <entry>100,000 metric tons</entry>
+              <entry>Glencore, China Molybdenum, Fleurette Group</entry>
+            </row>
+            <row>
+              <entry>Beryl</entry>
+              <entry>Standard for diffractometers</entry>
+              <entry>6,000 metric tons</entry>
+              <entry>Gemfields Company</entry>
+            </row>
+            <row>
+              <entry>Mylar (biaxially-oriented polyethylene terephthalate, <link target-id="import-auto-idm407410096 "/>)</entry>
+              <entry>Window in sample cell containers</entry>
+              <entry>4.7 million metric tons</entry>
+              <entry>DuPont Teijin Films, Flex Films</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Chemicals and materials used for chemical analysis in outer space.</caption>
+</table><figure id="import-auto-idm407410096"><media id="import-auto-idm396446048" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 1-d981.jpg" width="300" print-width="3in"/>
+        </media>
+      <caption>Structure of polyethylene terephthalate (PET). </caption></figure></section>
+    <section id="import-auto-idm1871944528">
+      <title>Challenges and innovation needs</title>
+      <para id="import-auto-idm1747186048">The immensity of space presents sizable difficulties, mainly cost and adaptation to a significantly different environment than that of Earth. For centuries, humans have tried gaining knowledge of space and the planets. In recent years, we continue to gain more understanding through modern technology; however, this comes at a massive cost. NASA alone allocated over $200 billion for just a 15-year time period (2005-2020). This incredible sum of money went toward exploration missions, shuttles, maintenance of the International Space Station (ISS), and other expenses. The mysteries and complexities of space have inspired private companies to invest in space discovery as well. NASA reported that there has been over $1.5 billion in public and private expenditure since 2004. Although these amounts already seem unimaginable, these budgets continue to grow with upcoming decades. Further advancements cannot occur without continued financial support.</para>
+      <para id="import-auto-idm1842418176">One of the biggest reasons why cost is so high is because of the drastically different environment that we must adapt to. Space, unlike earth, doesn’t have gravity to hold air in place to create a livable atmosphere. Instead, space is almost a perfect vacuum. Additionally, bodies in space are subject to extremely harmful radiation from galactic cosmic rays (GCR) or solar particle events (SPE) such as X-rays, gamma rays, and streams of protons and electrons from solar flares. In order to ensure safety of the people and machines that we send into space, we must account for all of the external factors that could hinder progress.</para>
+      <para id="import-auto-idm353912688">With all of the foreseeable difficulties, the space industry must constantly consider what innovational needs must be met in space and on Earth. In outer space, for example, the International Space Station (ISS) must be able to withstand not only the subfreezing temperature of space, but also the severe cosmic radiation. In order to protect the station’s metal skin from the radiation and keep the astronauts in the station from freezing, scientists have employed Multi Layer Insulation (MLI), Active Thermal Control System (ATCS), and Environmental Control and Life Support System. Most of the ISS is covered with MLI so that the cold cannot penetrate the outside. Because the MLI protects from the cold so efficiently, scientists had to design a system to cool down the internal atmosphere. The ATCS removes heat by a liquid heat-exchange system by circulating the waste heat in cold water and ammonia, and then removing it through honeycomb aluminum panels. Finally, thermal control engineers had to find a way to circulate air flow inside because hot and cold air does not rise and fall in Zero-G conditions. These engineers designed the International Space Station Environmental Control and Life Support System (ECLSS) to work in tandem with the ATCS to control air quality (<link target-id="import-auto-idm1691134480"/>).</para><figure id="import-auto-idm1691134480"><media id="import-auto-idm1725233600" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 2-a353.jpg" width="600" print-width="5in"/>
+        </media>
+      <caption>The interactions between the components of the ISS Environmental Control and Life Support System (ECLSS). </caption></figure><para id="import-auto-idm1595537584">The space industry needs to be innovative not only in space, but also on Earth. There is potential for discovery to happen anywhere, so technology must be able to handle the demands of any terrain or atmosphere. Engineers, in the pursuit of cosmic knowledge, placed the world’s largest radio telescope in Green Bank, West Virginia. This colossal telescope is so sensitive, that it could detect signals as small as a snowflake hitting the ground from 13 billion light years away. To allow for this precision, the town doesn’t permit radio, television, or cellphone towers. Interference would wipe out astronomical signals completely. The future of chemistry in space relies on adaptability and optimization of all machines and locations.</para>
+      <para id="import-auto-idm1825087664">Arguably, the most important innovation need for the space industry is the need to continuously advance space technology. In earlier years, emphasis was placed on telescopes and spacecrafts. In 1990, the world’s first space telescope, the Hubble telescope, was launched, an effort that cost over $1.5 billion. Thirty years later, scientists are about to launch the successor to the Hubble telescope. This telescope, the James Webb Space Telescope, cost over $8.7 billion in terms of development and maintenance. However, along this huge price tag, comes observation of larger distances and clearer images. Along with these increased visualization advancements, scientists are working diligently to advance analytical technology, namely through the creation of probes that can withstand extreme environments. Currently, engineers are in the process of launching the Parker solar probe, which would be the first ever visit to a star. This revolutionary machine would give humans insight that was previously unimaginable.</para>
+      <para id="import-auto-idm1842734512">The size, complexities, and mysteries of outer space make further exploration and discovery difficult for the industry. The environment, in space and on Earth, needs to be thoroughly surveyed to accommodate the inconceivably expensive technology that will be used to obtain data. Looking forward, however, the future of the chemistry in space is bright. Opportunities for discovery are exciting and infinite.</para>
+    </section>
+    <section id="import-auto-idm1599193072">
+      <title>Regulations</title>
+      <para id="import-auto-idm1560641776">Due to outer space’s enormity, it can’t truly be regulated. Instead, nations across the world unite to enact fair and equal laws pertaining to space. Tension between the US and the Soviet Union during the Cold War continued to build in every facet of life, including space exploration. In 1957, the “Space Race” began when Russia launched the first artificial satellite, Sputnik, into space. This attempt at exploiting the military potential of space drove countries to begin and further cosmic research. Eventually, foreign nations, even ones pitted against each other in decades-long war, came together to begin solving the mysteries in this frontier.</para>
+      <para id="import-auto-idm1601137104">With continuous technological advancements like the ISS, we see how countries collaborate to ensure further progress in making more sense of the unknown. These nations have created treaties, such as the Outer Space Treaty and the Mood Treaty in 1967 and 1979, respectively, to reinforce the idea of keeping space demilitarized. The Outer Space Treaty declares that no weapons of mass destruction can be in Earth’s orbit, and no nation can claim sovereignty or occupancy of any celestial space. The Moon Treaty declared that no celestial body, moon included, could be owned. It also declared that all of the states have an equal right to research these bodies in space, but the resource extraction must be shared equally among the countries. Currently, global projects like the square kilometre array (SKA) are growing due to an increasing number of countries that wish to band together with other nations to further advance astrological knowledge. With the aid and combined brainpower of all of these nations, we can continue uncovering all of space’s deep mysteries.</para>
+    </section>
+    <section id="import-auto-idm1745734464">
+      <title>Key analytical techniques</title>
+      <para id="import-auto-idm1742271840">Due to the physical barriers inherent to the study of outer space, analytical chemistry applications rely heavily on spectroscopy. However, some applications, such as the analysis of lunar samples, could use a wider variety of techniques. Silicate analysis, for example, is actually the synthesis of various methods and steps in the attempt to analyze minerals and similar samples. Unfortunately, silicate analysis requires larger sample sizes, which are difficult to obtain. Therefore, scientists have begun using X-ray fluorescence spectroscopy, atomic absorption spectroscopy, and other methods to analyze lunar samples as well. Analysis beyond the moon utilizes various spectroscopic techniques to accurately determine elements, reactions, and movement in outer space (<link target-id="import-auto-idm1608918704"/>). </para><table id="import-auto-idm1608918704" summary="Instrumental techniques.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Instrument/Technique</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Facility</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Location</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Purpose</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Silicate analysis</entry>
+              <entry>Chemical lab</entry>
+              <entry>Earth</entry>
+              <entry>Elemental analysis of lunar samples</entry>
+            </row>
+            <row>
+              <entry>X-ray fluorescence (XRF)</entry>
+              <entry>Portable instrument</entry>
+              <entry>Earth</entry>
+              <entry>Elemental analysis of lunar samples</entry>
+            </row>
+            <row>
+              <entry>Atomic absorption spectroscopy (<link url=" https://cnx.org/contents/uieDnVBC@23.1:VZYI6Pkz@1/Introduction-to-Atomic-Absorption-Spectroscopy" window="new">AAS</link>)</entry>
+              <entry>Chemical lab</entry>
+              <entry>Earth</entry>
+              <entry>Elemental analysis of lunar samples</entry>
+            </row>
+            <row>
+              <entry>Telescopes w/spectrometers</entry>
+              <entry>Observatories</entry>
+              <entry>Earth</entry>
+              <entry>Determine spectral lines of a stellar body. Determine the doppler shift of a spectrum to analyze the movement of a stellar body</entry>
+            </row>
+            <row>
+              <entry>Alpha magnetic spectrometer</entry>
+              <entry>ISS</entry>
+              <entry>Earth orbit</entry>
+              <entry>Analyze cosmic radiation. Detect evidence of antimatter and positrons. Track cosmic events</entry>
+            </row>
+            <row>
+              <entry>ANITA interferometer</entry>
+              <entry>ISS</entry>
+              <entry>Earth orbit</entry>
+              <entry>Monitor trace gases</entry>
+            </row>
+            <row>
+              <entry>CheMin X-ray diffractometer</entry>
+              <entry>MSL</entry>
+              <entry>Mars</entry>
+              <entry>Determine mineral abundance in samples </entry>
+            </row>
+            <row>
+              <entry>SAM: GS-MS with laser spectrometer</entry>
+              <entry>MSL</entry>
+              <entry>Mars</entry>
+              <entry>Detecting carbon-based compounds</entry>
+            </row>
+            <row>
+              <entry>DAN: Dynamic Albedo of neutrons</entry>
+              <entry>MSL</entry>
+              <entry>Mars</entry>
+              <entry>Neutron detector searching for evidence of water</entry>
+            </row>
+            <row>
+              <entry>UVS: UV imager and spectrometer</entry>
+              <entry>Juno </entry>
+              <entry>Jupiter</entry>
+              <entry>Image the surface of Jupiter &amp; its moons. Further investigate chemical compositions</entry>
+            </row>
+            <row>
+              <entry>JADE and JEDI: plasma and energetic particle detectors</entry>
+              <entry>Juno</entry>
+              <entry>Jupiter</entry>
+              <entry>Searching for plasma and energetic particles</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Instrumental techniques. </caption>
+</table></section>
+    <section id="import-auto-idm405666800">
+      <title>Conclusions and future directions</title>
+      <para id="import-auto-idm398381728">The uses of analytical chemistry in understanding and exploring outer space are many and varied, and analytical chemistry is performed throughout our solar system. Spectroscopic and silicate analysis are performed on Earth, to better understand the composition of planets and stars both in our solar system and outside of it. Hundreds of experiments on the International Space Station utilize analytical chemistry, as do the instruments on rovers and probes like the Mars Science Laboratory and the Juno probe. However, the efficiency of these instruments and experiments is limited by cost and, to some extent, by international cooperation, both of which can dictate the amount of data we can collect on the universe around us. </para>
+      <para id="import-auto-idm1844457840">The future of analytical chemistry in outer space will hinge on when or if we begin human exploration of the Solar System beyond the Moon. In order to do so, extensive testing will likely need to be completed in order to gauge the safety of such journeys, and spectroscopic and chromatographic analysis will help understand not just the environments astronauts explore, but the effect of those environments on the astronauts themselves. Many questions, however, remain to be answered about the possibility of such journeys occuring; not least of which is the cost of human exploration in outer space. By improving analytical instruments to be smaller and lighter, costs can be driven down. However, the nature of the space industry is yet to be fully decided yet: in the near future, we will have to decide upon both the extent of international cooperation and of the private sector in the space industry.</para>
+    </section>
+    <section id="import-auto-idm398848208">
+      <title>Exercises </title>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-idm396172128"><title>Numerical questions </title><exercise id="eip-788"><problem id="eip-665">
+  <para id="eip-315">Suppose a spectral line of hydrogen, normally at 500 nm, is observed in the spectrum of a star to be at 500.1 nm. How fast is the star moving toward or away from Earth?</para>
+</problem>
+
+<solution id="eip-183">
+  <para id="eip-510">Because the light is shifted to a longer wavelength, the star is moving away from us as defined by the formula of the doppler effect: </para>
+     <equation id="eip-796"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi mathvariant="italic">Δλ</m:mi>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi>λ</m:mi>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mi>ν</m:mi>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">Δλ/λ = ν/c</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-953"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>ν</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mi mathvariant="italic">Δλ</m:mi>
+                        <m:mi>λ</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>3.0</m:mn>
+                        <m:msup>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mn>10</m:mn>
+                          </m:mrow>
+                          <m:mn>8</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>0.1</m:mn>
+                        <m:mn>500</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>60,000</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>m</m:mi>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">ν = c ×  left ({Δλ} over {λ} right ) =  left (3.0 {x 10} ^ {8} right ) left ({0.1} over {500} right ) = 60,000 m/s</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+</solution>
+</exercise>
+        
+   
+        <exercise id="eip-911"><problem id="eip-50">
+  <para id="eip-63">What is the chemical composition of the moon? What analytical techniques could you use to analyze its chemical composition? </para></problem>
+
+<solution id="eip-56">
+  <para id="eip-933">60% oxygen, 16-17% silicon, aluminium 6-10%, 4-6% calcium, 3-6% magnesium, 2-5% iron, and 1-2% titanium. X-ray fluorescence, silicate analysis, atomic absorption, inductively coupled plasma atomic emission spectroscopy, and other elemental analysis techniques can be used to analyze the chemical composition of the moon.</para></solution>
+</exercise><exercise id="eip-646"><problem id="eip-684">
+  <para id="eip-877">If a star’s temperature were to double, by what factor would its rate of fusion increase?</para></problem>
+
+<solution id="eip-0">
+  <para id="eip-485">Since the rate of fusion (like temperature) goes up to the fourth power, it would increase 16 times, i.e., 2<sup>4</sup> = 16. </para></solution>
+</exercise><exercise id="eip-513"><problem id="eip-498">
+  <para id="eip-268">To determine the distribution of galaxies in three-dimensional space, astronomers have to measure their positions and their redshifts (is a phenomenon where electromagnetic radiation from an object undergoes an increase in wavelength). The larger the volume of space surveyed, the more likely the measurement is a fair sample of the universe as a whole. However, the work involved increases very rapidly as you increase the volume covered by the survey. Why is this is so? Suppose that you have completed a survey of all the galaxies within 30 million light-years and you now want to survey to 60 million light-years. What volume of space is covered by your second survey? How much larger is this volume than the volume of your first survey? </para></problem>
+
+<solution id="eip-4">
+  <para id="eip-940">Since the volume of a sphere depends on r<sup>3</sup> and the second survey reaches twice as far in distance, it will cover a volume that is 2<sup>3</sup> = 8 times larger. The total volume covered by the second survey will = (4/3)π × (60 million light-years)<sup>3</sup> = 9 × 10<sup>23</sup> light-years.</para></solution>
+</exercise></section><section id="import-auto-idm396348944">
+        <title>Essay answer-type questions</title>
+        <list id="import-auto-idm1849083520" list-type="enumerated" number-style="arabic">
+          <item>Go outside on a clear night, wait 15 minutes for your eyes to adjust to the dark, and look carefully at the brightest stars. Some should look slightly red and others slightly blue. The primary factor that determines the color of a star is its temperature. Which is hotter: a blue star or a red one? Explain</item>
+          <item>The largest observatory complex in the world is on Mauna Kea, the tallest mountain on Earth. What are some factors astronomers consider when selecting an observatory site? Don’t forget practical ones. Should astronomers, for example, consider building an observatory on Denali (Mount McKinley) or Mount Everest?</item>
+          <item>Star X has lines of ionized helium in its spectrum, and star Y has bands of titanium oxide. Which is hotter? Why? The spectrum of star Z shows lines of ionized helium and also molecular bands of titanium oxide. What is strange about this spectrum? Can you suggest an explanation?</item>
+          <item>One way to calculate the size and shape of the Galaxy is to estimate the distances to faint stars just from their observed apparent brightnesses and to note the distance at which stars are no longer observable. The first astronomers to try this experiment did not know that starlight is dimmed by interstellar dust. Their estimates of the size of the Galaxy were much too small. Explain why.</item>
+        </list>
+      </section>
+    </section>
+    <section id="import-auto-idm394512176">
+      <title>Bibliography</title>
+      <list id="import-auto-idm1714568176" list-type="bulleted"><item>J. G. Stears, J. P. Felmlee, and J. E. Gray, <emphasis effect="italics">Radiology</emphasis>, 1986, <emphasis effect="bold">160</emphasis>, 837. </item>
+        <item>R. L. Korotev,<emphasis effect="italics"> Chem. Erde-Geochem.</emphasis>, 2005, <emphasis effect="bold">65</emphasis>, 297. </item>
+        <item>H. W. Kroto, J. R. Heath, S. C. O'Brien, R. F. Curl, and R. E. Smalley, <emphasis effect="italics">Nature</emphasis>, 1985, <emphasis effect="bold">318</emphasis>, 162. </item>
+        <item>NASA Strategic Plan, https://www.nasa.gov/sites/default/files/atoms/files/6-nasa_2018_strategic_plan_mar2018_tagged.pdf (accessed December 2018).</item>
+        <item>A Budgetary Analysis of NASA’s New Vision For Space Exploration, <link url="https://www.hq.nasa.gov/office/hqlibrary/documents/o56716382.pdf">https://www.hq.nasa.gov/office/hqlibrary/documents/o56716382.pdf</link> (accessed December 2018).</item>
+        <item>Why Space Radiation Matters, <link url="https://www.nasa.gov/analogs/nsrl/why-space-radiation-matters">https://www.nasa.gov/analogs/nsrl/why-space-radiation-matters</link> (accessed December 2018).</item>
+        <item>Staying Cool on the ISS, <link url="https://science.nasa.gov/science-news/science-at-nasa/2001/ast21mar_1">https://science.nasa.gov/science-news/science-at-nasa/2001/ast21mar_1</link> (accessed December 2018).</item>
+        <item>International Relations in Space, <link url="https://www.jpl.nasa.gov/infographics/infographic.view.php?id=11173">https://www.jpl.nasa.gov/infographics/infographic.view.php?id=11173</link> (accessed December 2018).</item>
+        <item>Participating Countries, <link url="https://www.skatelescope.org/participating-countries/">https://www.skatelescope.org/participating-countries/</link> (accessed December 2018).</item>
+        <item>International Space Station--Alpha Magnetic Spectrometer, <link url="https://www.nasa.gov/mission_pages/station/research/experiments/742.html">https://www.nasa.gov/mission_pages/station/research/experiments/742.html</link> (accessed December 2018).</item>
+        <item>Analyzing Interferometer for Ambient Air, <link url="https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=186">https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=186</link> (accessed December 2018).</item>
+        <item>Chemistry and Mineralogy X-ray Diffraction (CheMin), <link url="https://mars.nasa.gov/msl/mission/instruments/spectrometers/chemin/">https://mars.nasa.gov/msl/mission/instruments/spectrometers/chemin/</link> (accessed December 2018). </item>
+        <item>Sample Analysis at Mars (SAM) Instrument Suite, <link url="https://mars.nasa.gov/msl/mission/instruments/spectrometers/sam/">https://mars.nasa.gov/msl/mission/instruments/spectrometers/sam/</link> (accessed December 2018).</item>
+        <item>Dynamic Albedo of Neutrons, <link url="https://mars.nasa.gov/msl/mission/instruments/radiationdetectors/dan/">https://mars.nasa.gov/msl/mission/instruments/radiationdetectors/dan/</link> (accessed December 2018). </item>
+        <item>Juno Spacecraft and Instruments, <link url="https://www.nasa.gov/mission_pages/juno/spacecraft/index.html">https://www.nasa.gov/mission_pages/juno/spacecraft/index.html</link> (accessed December 2018). </item>
+      </list></section>
+  </content>
+</document>

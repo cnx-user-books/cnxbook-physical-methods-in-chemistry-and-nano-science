@@ -1,0 +1,471 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chemical Industry</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71640</md:content-id>
+  <md:title>Chemical Industry</md:title>
+  <md:abstract/>
+  <md:uuid>f90ae973-5a4b-4e01-9100-afb1bff53f45</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-idm593093984">This module was written with the assistance of Ben Baldazo, Alexander Hawley, and Sonia Rao. </para>
+    <section id="import-auto-idm376160704">
+      <title>Introduction </title>
+      <para id="import-auto-idm591175040">The chemical industry produces the most highly used chemicals worldwide at a large scale. These chemicals are in turn used for a wide variety of purposes. Many of the top produced chemicals are key ingredients in the manufacture of smaller-scale and more complex chemicals, and others go on to play roles in industries such as agriculture, food, and plastics. The large-scale of production in the chemical industry poses unique challenges, as do constraints imposed by government regulations affecting the industry. Purity, precision, energy consumption, and waste production must all be considered, as well as the analytical techniques used to determine these measures. This paper will explore the current chemical industry environment and go further to suggest future innovation. </para>
+      <para id="import-auto-idm576444512"><link target-id="import-auto-idm609153952"/> shows that sulfuric acid is the most produced chemical in the world, followed by nitrogen, ethylene and so forth. <link target-id="import-auto-idm609153952"/> also details the annual global production values of the top ten chemicals, and the most frequent and relevant applications for the use of each of the top ten worldwide chemicals. These uses range from making fertilizers to plastics to producing other important chemicals in the industry.</para><table id="import-auto-idm609153952" summary="Key materials used in the chemical industry.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Chemical</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Annual global production value </emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Applications</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Sulfuric acid (H<sub>2</sub>SO<sub>4</sub>)</entry>
+              <entry>231 million tons (2011-2012)</entry>
+              <entry>Phosphate fertilizers, metal processing, phosphates, fibers, hydrofluoric acid, paints, pigments, pulp, paper</entry>
+            </row>
+            <row>
+              <entry>Nitrogen</entry>
+              <entry>UK: about 5 million tons</entry>
+              <entry>Make ammonia (NH<sub>3</sub>), create inert environment for food packaging, production of semiconductors, refrigeration</entry>
+            </row>
+            <row>
+              <entry>Ethylene (C<sub>2</sub>H<sub>4</sub>)</entry>
+              <entry>134 million tons (2014-2015)</entry>
+              <entry>Produce polyethylene (<link target-id="import-auto-idm622726704"/>a), PVC (<link target-id="import-auto-idm622726704"/>b), and polystyrene (<link target-id="import-auto-idm622726704"/>c), ethylene oxide (C<sub>2</sub>H<sub>4</sub>O),  and ethanol (C<sub>2</sub>H<sub>5</sub>OH)</entry>
+            </row>
+            <row>
+              <entry>Oxygen</entry>
+              <entry>UK: about 5 million tons</entry>
+              <entry>Production of steel, copper, lead, clean sewage, produce chemicals such as nitric acid (HNO<sub>3</sub>)</entry>
+            </row>
+            <row>
+              <entry>Propylene (C<sub>3</sub>H<sub>6</sub>)</entry>
+              <entry>94 million tons</entry>
+              <entry>Produce polypropylene (<link target-id="import-auto-idm622726704"/>d), propenal (<link target-id="import-auto-idm622726704"/>e), acrylonitrile  (<link target-id="import-auto-idm622726704"/>f), cumene  (C<sub>6</sub>H<sub>6</sub><sup>i</sup>Pr), propylene oxide (<link target-id="import-auto-idm622726704"/>g), butyraldehyde (<link target-id="import-auto-idm622726704"/>h)</entry>
+            </row>
+            <row>
+              <entry>Chlorine</entry>
+              <entry>65 million tons (2016)</entry>
+              <entry>Produce PVC and solvents, water purification, paper and pulp</entry>
+            </row>
+            <row>
+              <entry>1,2-dichloroethane (EDC, <link target-id="import-auto-idm622726704"/>i)</entry>
+              <entry>34.5 million tons (2013)</entry>
+              <entry>Produce PVC, produce solvents used in textile industry and metal cleaning</entry>
+            </row>
+            <row>
+              <entry>Phosphoric acid (H<sub>3</sub>PO<sub>4</sub>)</entry>
+              <entry>43 million tons (2014, 2016)</entry>
+              <entry>Produce fertilizers including monoammonium dihydrogenphosphate (MAP, [NH<sub>4</sub>][H<sub>2</sub>PO<sub>4</sub>]), triple superphosphate (TSP, [Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> .H<sub>2</sub>O]), diammonium phoshate (DAP, ‎(NH<sub>4</sub>)<sub>2</sub>HPO<sub>4</sub>), soft drinks</entry>
+            </row>
+            <row>
+              <entry>Ammonia (NH<sub>3</sub>)</entry>
+              <entry>146 million tons</entry>
+              <entry>Produce fertilizers including urea and ammonium salts, polyamides, nitric acid</entry>
+            </row>
+            <row>
+              <entry>Sodium hydroxide (NaOH)</entry>
+              <entry>70 million tons</entry>
+              <entry>Produce bleach, paper, soap, organic chemicals, use as cleaning agent</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Key materials used in the chemical industry. </caption>
+</table><figure id="import-auto-idm622726704"><media id="import-auto-idm405456992" alt="">
+          <image mime-type="image/jpg" src="../../media/ChemNew.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>Structure of selected industrial scale chemicals: (a) polyethylene, (b) PVC, (c) polystyrene, (d) polypropylene, (e) propenal, (f) acrylonitrile, (g) cumene, (h) propylene oxide, and (i) ethylene dichloride. </caption></figure></section>
+    <section id="import-auto-idm627547888">
+      <title>Key analytical techniques </title>
+      <para id="import-auto-idm209546640">There are various techniques used to analyze different chemicals, each with their own unique function. <link target-id="import-auto-idm483207664"/> briefly describes twelve common analytical techniques used in industry. </para><table id="import-auto-idm483207664" summary="List of common key techniques for analyzing chemicals and their functions.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Technique</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Function of technique</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Elemental analysis</entry>
+              <entry>Determine quantity of element of interest within a molecule/material</entry>
+            </row>
+            <row>
+              <entry>Melting point analysis (<link url=" https://cnx.org/contents/uieDnVBC@24.1:ILgY1bi_@1/Melting-Point-Analysis" window="new">mpt</link>)</entry>
+              <entry>Qualitatively identify samples with at least 90% purity</entry>
+            </row>
+            <row>
+              <entry>Cyclic voltammetry (<link url=" https://cnx.org/contents/uieDnVBC@24.1:UM0zLLQO@1/Introduction-to-Cyclic-Voltammetry-Measurements" window="new">CV</link>)</entry>
+              <entry>Any process that includes electron transfer</entry>
+            </row>
+            <row>
+              <entry>Thermogravimetric analysis (<link url=" https://cnx.org/contents/uieDnVBC@24.1:QiLqHkf7@2/Thermogravimetric-Analysis-of-Single-Walled-Carbon-Nanotubes" window="new">TGA</link>)</entry>
+              <entry>Monitor thermal stability of compound</entry>
+            </row>
+            <row>
+              <entry>Gas chromatography (<link url=" https://cnx.org/contents/uieDnVBC@24.1:xUaus2-x@2/Principles-of-Gas-Chromatography" window="new">GC</link>)</entry>
+              <entry>Separates stationary and mobile gas phases</entry>
+            </row>
+            <row>
+              <entry>High-performance liquid chromatography (<link url=" https://cnx.org/contents/uieDnVBC@24.1:hBnzUHCR@4/High-Performance-Liquid-chromatography" window="new">HPLC</link>)</entry>
+              <entry>Separate and identify components in a mixture</entry>
+            </row>
+            <row>
+              <entry>Ion chromatography</entry>
+              <entry>Separates ions based on retention rates</entry>
+            </row>
+            <row>
+              <entry>Infrared spectroscopy (<link url=" https://cnx.org/contents/uieDnVBC@24.1:6oYLai6Q@1/Fourier-Transform-Infrared-Spectroscopy-of-Metal-Ligand-Complexes" window="new">FTIR</link>)</entry>
+              <entry>Distinguish between compounds or identify specific compound by analyzing spectra</entry>
+            </row>
+            <row>
+              <entry>Raman spectroscopy (<link url=" https://cnx.org/contents/uieDnVBC@24.1:c6H4ozK6@1/Raman-and-Surface-Enhanced-Raman-Spectroscopy" window="new">Raman</link>)</entry>
+              <entry>Determines chemical species by detecting light interactions</entry>
+            </row>
+            <row>
+              <entry>UV-visible spectroscopy (<link url=" https://cnx.org/contents/uieDnVBC@24.1:Auez1s9H@1/Basics-of-UV-Visible-Spectroscopy" window="new">UV-visible</link>)</entry>
+              <entry>Obtain absorbance spectrum of compound</entry>
+            </row>
+            <row>
+              <entry>X-Ray diffraction (<link url=" https://cnx.org/contents/uieDnVBC@24.1:Va7G61qm@2/An-Introduction-to-X-ray-Diffraction" window="new">XRD</link>)</entry>
+              <entry>Determine molecular and atomic crystal structure by diffracting X-ray beams</entry>
+            </row>
+            <row>
+              <entry>Transmission electron microscopy (<link url=" https://cnx.org/contents/uieDnVBC@24.1:e-zLWCNY@1/Transmission-Electron-Microscopy-An-Overview" window="new">TEM</link>)</entry>
+              <entry>Form image through electron transmission</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>List of common key techniques for analyzing chemicals and their functions. </caption>
+</table></section>
+    <section id="import-auto-idm265606864">
+      <title>Regulations</title>
+      <para id="import-auto-idm407906064">In the wake of concerns over environmental pollution, sentiments magnified after the publication of the popular novel <emphasis effect="italics">Silent Spring</emphasis>, the EPA (Environmental Protection Agency) was founded in 1970 by the Nixon administration. These sentiments culminated in the celebration of the first earth day by millions of Americans later that year. The EPA has grown substantially in the years since then, especially due to role expansions and pollution goals stated in subsequent governmental legislations such as the Toxic Substances Control Act, Pollution Prevention Act and Chemical Facility Anti-Terrorism Standards. Other notable acts, and perhaps more so than the aforementioned, are the Clean Air and Clean Water acts. The focus of this section will align mostly with the Toxic Substances Control Act (TSCA), Chemical Facility Anti-Terrorism Standards program (CFATS), and Pollution Prevention Act (PPA) though as these regulations have broader goals and impacts not specifically geared towards chemical production regulation.</para>
+      <section id="import-auto-idm486903328">
+        <title>TSCA</title>
+        <para id="import-auto-idm616841296">The Toxic Substances Control Act (TSCA) was passed in 1976 and gave the government the authority to mandate restrictions, testing requirements, reporting and record keeping over the chemicals industry. It should be noted, however, that food, drugs, cosmetics, and pesticides are outside of this regulation and are covered by other entities like the FDA (Food and Drug Administration). The important TSCA mandates include testing of any new chemical before sale, import, or new use to ascertain any foreseeable dangers to the chemical’s introduction. Because of the TSCA, records of approximately 83,000 chemicals (and growing) are also documented in the TSCA Inventory, which includes a detailed indication measure of specific rules per chemical. </para>
+        <para id="import-auto-idm366051680">One example of this act, and its earliest major success, was the implementation of the Lead-Based Paint Program (1971), which, outside of requiring notice to anyone purchasing a property with lead-based paint, also mandated testing and reporting of lead content in paint and an acknowledgment of receipt among transaction relationships.</para>
+        <para id="import-auto-idm496155232">An important arm of the TSCA is the Good Laboratory Practices Standards Compliance Monitoring Program (GLPS). The GLPS program is the testing body that is able to audit a lab to test for compliance with the regulations set by a governmental act (GLPS is also used to enforce the FIFRA or Federal Insecticide, Fungicide, and Rodenticide Act). This body affirms that testing by a chemical producer is consistent with the quality, validity, and integrity that the TSCA requires.</para>
+        <para id="import-auto-idm565409952">As for the effectiveness of the TSCA, a 2017 study connected the 1970 act to a 10% decrease in pollution in the first three years of the act in counties that previously exceeded the pollution thresholds. The interesting part of the study, however, was that this reduced pollution caused a significant change in the lives of those in the county. The study attributes 1% yearly income gain and (in present value terms) a lifetime income gain of approximately $4,300 per individual.</para>
+        <para id="import-auto-idm395156800">The TSCA was also updated in June of 2016 with the Frank R. Lautenberg Chemical Safety for the 21st Century Act (<link target-id="import-auto-idm367884176"/>). This change lent more power to the EPA including the ability to regulate more effectively the 62,000 chemicals that were already on the market when the act first passed in 1970. In fact, under the previous rendition of the TSCA, even asbestos (Mg<sub>3</sub>Si<sub>2</sub>O<sub>5</sub>(OH)<sub>4</sub>) still passed regulation, so an updated TSCA was in order. Today, the EPA can pass regulation on specific chemicals much more rapidly, so toxic substances like asbestos can be removed from consumer chemicals and products much more quickly.</para><figure id="import-auto-idm367884176"><media id="import-auto-idm611521472" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 6-868d.jpg" width="300" print-width="2.5in"/>
+          </media>
+        <caption>Author of the Chemical Safety for the 21<sup>st</sup> Century Act Frank Raleigh Lautenberg (1924-2013) who served as a United States Senator from New Jersey.</caption></figure></section>
+      <section id="import-auto-idm380753888">
+        <title>CFATS</title>
+        <para id="import-auto-idm465888576">The Chemical Facility Anti-Terrorism Standards program caters more specifically towards Chemicals of Interest (COIs) and factories that produce them. COIs are, in general, chemicals that are particularly toxic, flammable or corrosive. For example, nitromethane (<link target-id="import-auto-idm455578992 "/>) is a COI because it can be configured into an Improvised Explosive Device (IED). The program is more difficult to describe generally because it tailors oversight to prevent release, theft, and sabotage of these chemicals. One consistent aspect of it is the Top Screen, which measures certain thresholds for a facility, providing information towards how best to implement the CFATS program. This screen ranges from testing connection to public water supply to susceptibility to foreign sabotage.</para><figure id="import-auto-idm455578992"><media id="import-auto-idm389330576" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 7-f75c.jpg" width="150" print-width="1.5in"/>
+          </media>
+        <caption>Structure of nitromethane. </caption></figure></section>
+      <section id="import-auto-idm363714528">
+        <title>PPA</title>
+        <para id="import-auto-idm390158448">The Pollution Prevention Act (1990) was intended at reducing pollution at the source rather than through treatment and disposal (like the act it iterated: the Resource Conservation and Recovery Act, that focused on waste disposal and recycling). Despite a vaguely worded law (in regards to specific chemical guidelines and requirements), and lofty pollution reduction goals, the EPA has outlined clear and measurable reductions across the 502 chemicals it monitors in every area of the United States (including territories). The law itself instead left much of the interpretation up to the regulatory bodies of the EPA that it created, and has documented success in the available 2011 through 2015 data that has been made public.</para>
+        <para id="import-auto-idm393596192">In summation of the regulations section, the EPA has managed specificity and quantifiable results after its founding in the 1970s. </para>
+        <para id="import-auto-idm362942064">Furthermore, more modern enactments like the PPA and Frank R Lautenberg Act (<link target-id="import-auto-idm367884176"/>) have lent the agency the power necessary to update standards and eliminate dangers like asbestos or volatile chemicals like nitromethane. Looking forward, however, against the current of international standards for pollution and emissions tightening, the United States has been producing policy to lift standards. The Trump administration has been vocal about disapproval of the previous administration’s environmental policies, including the selection of Scott Pruitt as the new head of the EPA. Pruitt, who has previously spoken out against the existence of the EPA, is likely to slow down funding or progress towards tighter pollution standards in favor of more industrial freedom. </para></section>
+    </section>
+    <section id="import-auto-idm217465248">
+      <title>Challenges and need for innovation</title>
+      <para id="import-auto-idm293910432">In the chemical industry, a majority of the chemicals produced, those represented as top-selling chemicals, have long since been scaled up to mass production. As a result, many of the struggles the industry faces aren’t the usual R&amp;D roadblocks. Instead, the industry works hard to address the constant challenges of delivering consistent products at precise purities.</para>
+      <para id="import-auto-idm600181664">Purity is valued in almost any industry that uses mass-produced chemicals. Certain industries like electronics and pharmaceuticals place even further emphasis on these points, but almost every industry has written purity standards. Example standards are the Food Chemicals Codex, the United States Pharmacopeia National Formulary, and the American Chemical Society Standards. The chemical industry must work to deliver as many purity levels as possible. In some cases they can; Thermo Fisher offers eighteen different solvent grades, ranging from basic laboratory use to “Optima” solvents with parts-per-trillion purity. Unfortunately, other substances aren’t purified to so many levels, and, for example, Thermo Fisher only offers seven different purities of acids. Other chemicals cannot even reach desired purities due to issues such as complexing.</para>
+      <para id="import-auto-idm614415616">Just as important as purity is the precision of that figure. This presents two large challenges, avoiding manufacturing errors and perfecting analysis. Mentioned above, complexing can hurt the purity of a substance, and unintentional complexing with moisture in the atmosphere is one instance where error can be introduced into a batch. Errors can come from many places; any extraneous particles whether from the air, lab equipment, or final packaging can cause or prevent reactions, accidentally changing the final product. Diffusion or improper storage over time can also ruin the purity of reagents. Even less expected issues like excess factory vibrations have caused whole batches of polymer to form incorrectly. Human error can come in many ways, and it is another significant issue in processes that haven’t yet been fully automated.</para>
+      <para id="import-auto-idm436200816">With abundant possible errors, analytical quality control is very important. When in a large-scale environment, this presents a specific challenge because although instruments are progressing towards using smaller amounts of sample, we need to generalize these results to one or many large batches. There are two different ways to approach these sampling issues: statistics or regulations. There is statistical theory that can be used on a general level to determine the best sampling procedures for any desired final purity. On an industry-by-industry level, there are regulations setting the sampling standards similar to those for purity standards. The happy medium probably takes both into account, and in the chemical manufacturing industry; different grades of chemical will follow different sampling techniques. The regulations will give an acceptable system for a basic, lab grade reagent, but statistics will probably be necessary to precisely create batches of increasingly higher purity.</para>
+      <para id="import-auto-idm170208960">Creating accurate and precise products is an everyday challenge for the industry, but looking forward, there is a need for a much more transformative improvement. Currently, the industry expends a lot of energy to deliver these consistent and accurate chemicals, and that is the largest way in which it could improve. Purity processes like distillation account for 10-15% of the world's energy consumption, and better purification techniques in oil and paper alone could save 100 million tons of carbon dioxide emissions and $4 billion in energy costs annually. This isn’t just an opportunity for improvement; with new legislation like the Paris accord being put in place every day to tighten emissions regulations, major process improvement will likely soon be a necessity to keep the same manufacturing standards.</para>
+    </section>
+    <section id="import-auto-idm290369872">
+      <title>Conclusions and future directions</title>
+      <para id="import-auto-idm622672224">The chemicals industry is characterized by the mass production of some of the most important chemicals in the world. Its chemicals go on to play valuable parts in many further industries. The sheer volume of production necessary in the chemical industry shows just how important their role is in not just science, but in a vast array of fields. It is difficult to find an industry that is not somehow connected to the chemical industry. The most relevant regulation to the field is the TSCA, and additional legislation also aids in ensuring that the chemical industry is not only efficient but also safe. In addition to adjusting to meet regulations, improved purity and precision continue to be strived for in the industry. Key analytical techniques are used to measure these qualities in products and continue to be improved upon and specialized to certain fields. The chemical industry continues to grow, and it will continue to have a profound impact across the globe in years to come.</para>
+      <para id="import-auto-idm609425600">In the coming years, technological improvements will certainly be focused on improving purity for use in both pharmaceuticals and high-grade electronics, but this will come at a balance between the environmental cost of purification as well as the high cost at current standards. To address this, the industry is continually searching for new, creative methods of purification that will allow for less cost, waste or both. Along these lines, despite the effectiveness of procedures like HPLC, the high cost (including time investment and monetary) of developing standards for new applications of HPLC leave the industry researching again for new methods. On the topic of purification costs to the environment, perhaps the current US government will loosen environmental standards and allow for higher purification capacities, but international trends will likely outpace this domestic trend in the long run and regulate the industry in favor of cleaner natural resources.</para>
+    </section>
+    <section id="import-auto-idm437185904">
+      <title>Exercises </title>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-idm396735328"><title>Numerical questions </title><exercise id="eip-5"><problem id="eip-910">
+  <para id="eip-87">If we assume that our batch was produced during an in control process where we expect the standard deviation to be significantly less than the worst case, an operating characteristic (OC) curve can tell us the proper sampling procedure. OC curves show us the probability of moving forward with a batch that is a certain percentage defective. This plot can be made once you have specified the size of the batch (N), size of the batch that we will actually use for testing (n), and the number of faulty units we are willing to accept (c). For example, given N = 5000, n = 50, and c = 3, the corresponding OC curve is shown below in <link target-id="import-auto-idm391305840"/>.
+  </para>
+<figure id="import-auto-idm391305840"><media id="import-auto-idm384588672" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 8-6e73.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Plot of probability of accepting the batch versus the actual fraction defective in the batch. </caption></figure>
+        
+        <para id="import-auto-idm388887296">You work at a chemical company that produces bottles of solvent at a certain purity. Each batch produces 5000 bottles of solvent (N). You propose that you should take 50 bottles of this batch for testing (n), and advance all 5000 as long as 47 of these 50 bottles meet your purity standards. Your company hopes to have an insignificant chance (&lt;1%) of having a batch get approved with 750 or more defective bottles. </para>
+        <list id="import-auto-idm566865056" list-type="enumerated" number-style="lower-alpha">
+          <item>Does your proposed sampling plan achieve that?</item>
+          <item>Logically, how would you expect the shape of the curve to change if we took a larger number of samples from the batch? What would happen to the chance of accepting a batch of 750 defective bottles we analyzed in part (a)?</item>
+        </list>
+
+</problem>
+
+<solution id="eip-494">
+ <list id="import-auto-idm217215136" list-type="enumerated" number-style="lower-alpha"><item>We can use <link target-id="import-auto-idm391305840"/> because this question represents the same sampling plan. Having 750 defective bottles in a batch would represent a 0.15 fraction of defects in the batch. Reading the graph by starting at 0.15 on the x-axis, we can see the chances of accepting this batch are closer to 5%. This is definitely greater than 1, so we will need to change our proposed plan in this case.</item>
+          <item>Testing more samples will cause the curve to become more steeply sloped. This makes sense because wider sampling will clearly lower your chances of accepting a highly defective batch. Thus, the chance of accepting 750 defective bottles would decrease. </item>
+        </list></solution>
+</exercise>
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        
+
+
+
+<exercise id="eip-404"><problem id="eip-709">
+  <para id="eip-308">The formula that gives the OC curve is shown in <link target-id="eip-177"/>. You want to create a sampling plan so you have only a 10% chance of accepting a 10,000 unit batch with 500 or more total defective units. This plan will allow up to 2 defective units in your sample size before rejecting it. How many units of the batch should you sample in this plan?
+  </para>
+   
+        <equation id="eip-177"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>P</m:mtext>
+                  <m:mtext>a</m:mtext>
+                </m:msub>
+                <m:mtext>=P</m:mtext>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mtext>d≤c</m:mtext>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mtext>=</m:mtext>
+                <m:mrow>
+                  <m:munderover>
+                    <m:mo stretchy="false">∑</m:mo>
+                    <m:mtext>d=0</m:mtext>
+                    <m:mtext>c</m:mtext>
+                  </m:munderover>
+                  <m:mfrac>
+                    <m:mtext>n!</m:mtext>
+                    <m:mrow>
+                      <m:mtext>d!</m:mtext>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="true">(</m:mo>
+                        <m:mrow>
+                          <m:mtext>n-d</m:mtext>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="true">)</m:mo>
+                      </m:mrow>
+                      <m:mtext>!</m:mtext>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:msup>
+                  <m:mtext>p</m:mtext>
+                  <m:mtext>d</m:mtext>
+                </m:msup>
+                <m:msup>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mtext>1-p</m:mtext>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mtext>n-d</m:mtext>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{"P"} rsub {"a"} "=P" left ("d≤c" right ) "=" sum from {"d=0"} to {"c"} {{"n!"} over {"d!" left ("n-d" right ) "!"}} {"p"} ^ {"d"} {left ("1-p" right )} ^ {"n-d"}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+</problem>
+
+<solution id="eip-708">
+  <para id="eip-30">Start by defining each variable in the given equation. They desire a 10% chance of accepting this batch, so P<sub>a</sub> would be 0.1. Since 500 defective units in a 10,000 unit batch is 5%, the fraction defective is 0.05, representing p. We allow 2 defective units before rejecting a batch, so c is 2. Now we can see that we are solving for n. We plug in our known values and expand the summation to solve for n. After solving we find n = 104.5315. Since these are whole units, we should sample 105 units.</para>
+</solution>
+</exercise>
+
+
+
+
+        
+     
+
+
+<exercise id="eip-992"><problem id="eip-311">
+  <para id="eip-918">Piperazine is a nitrogen-containing organic compound with many pharmacological properties. It also commonly exists as an impurity in commercial material. This piperazine (M<sub>W</sub> = 86.136 g/mol) impurity content can determined by precipitating the diacetate (M<sub>W</sub> = 206.240 g/mol) using acetic acid (M<sub>W</sub> = 60.052 g/mol) and comparing its mass to that of piperazine (<link target-id="eip-552"/>). 0.4816 g of sample was dissolved in 50 mL of acetone and 2 mL of acetic acid was then added. The precipitate was then filtered, washed, and dried. Given that the mass of the precipitate was 0.8973 g, find the mass percentage of piperazine in the original sample.
+  </para>
+    
+
+<equation id="eip-552"><media id="import-auto-idm463110240" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 10-ea00.jpg" width="400" print-width="4in"/>
+          </media>
+        </equation></problem>
+
+<solution id="eip-301">
+  <para id="eip-390">Gravimetric analysis can be used to relate the mass of a gravimetric precipitate to the mass of the original analyte. The standard approach is to convert to moles and relate the moles of product and reactant. By looking at the mole ratios, one mole of piperazine in the sample makes one mole of piperazine diacetate (product), <link target-id="eip-350"/>. </para>
+    <equation id="eip-350"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>Moles of product=</m:mtext>
+                <m:mfrac>
+                  <m:mtext>0.8973g</m:mtext>
+                  <m:mtext>206.240 g/mol</m:mtext>
+                </m:mfrac>
+                <m:mtext>=4.351×</m:mtext>
+                <m:msup>
+                  <m:mtext>10</m:mtext>
+                  <m:mtext>-3</m:mtext>
+                </m:msup>
+                <m:mtext>mol=moles of pi</m:mtext>
+                <m:mtext>perazine</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"Moles of product="   {"0.8973g"} over {"206.240 g/mol"} "=4.351×" {"10"} ^ {"-3"} "mol=moles of pi" "perazine"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm422921312">This corresponds to <link target-id="eip-563"/>, which gives <link target-id="eip-425"/>. 
+
+</para>
+        
+        <equation id="eip-563">Grams of product = (0.004351 mol) (86.136 g/mol) = 0.3748 g of piperazine</equation>
+        
+        <equation id="eip-425">Percentage of piperazine in original analyte = (0.3748 g/0.4816 g) ×100% = 77.81%</equation>
+
+</solution>
+</exercise>
+        
+    
+
+
+
+
+
+    
+
+
+
+
+<exercise id="eip-259"><problem id="eip-933">
+  <para id="eip-760">
+Calculate the elution time (<emphasis effect="italics">t</emphasis><emphasis effect="italics">m</emphasis>) <emphasis effect="italics"/>for a 0.69 × 18 cm column operating at a flow rate of 2.4 mL/min containing 7-µm particles. What is the t<sub>m</sub> if the particle size were 4.1 µm instead?
+  </para>
+</problem>
+
+<solution id="eip-248">
+  <para id="eip-434">Elution time is calculated using <link target-id="eip-70"/>, where L = column length, d<sub>c</sub> = column diameter (cm), and F  = flow rate (mL/min). 
+  </para>
+  <equation id="eip-70"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>t</m:mtext>
+                  <m:mtext>m</m:mtext>
+                </m:msub>
+                <m:mtext>≈</m:mtext>
+                <m:mfrac>
+                  <m:msubsup>
+                    <m:mtext>Ld</m:mtext>
+                    <m:mtext>c</m:mtext>
+                    <m:mtext>2</m:mtext>
+                  </m:msubsup>
+                  <m:mtext>2F</m:mtext>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{"t"} rsub {"m"} "≈" {{"Ld"} rsub {"c"} rsup {"2"}} over {"2F"}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-651"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>t</m:mtext>
+                  <m:mtext>m</m:mtext>
+                </m:msub>
+                <m:mtext>≈</m:mtext>
+                <m:mfrac>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="true">(</m:mo>
+                        <m:mrow>
+                          <m:mtext>18cm</m:mtext>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="true">)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="true">(</m:mo>
+                        <m:mrow>
+                          <m:mtext>0.69cm</m:mtext>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="true">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mtext>2</m:mtext>
+                  </m:msup>
+                  <m:mrow>
+                    <m:mtext>2</m:mtext>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="true">(</m:mo>
+                      <m:mrow>
+                        <m:mtext>2.4mL/min</m:mtext>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="true">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mtext>= 1.8min</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{"t"} rsub {"m"} "≈" {{left ("18cm" right ) left ("0.69cm" right )} ^ {"2"}} over {"2" left ("2.4mL/min" right )} "= 1.8min"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm170001488">Elution time does not depend on particle size, so <emphasis effect="italics">t</emphasis><emphasis effect="italics">m</emphasis><sub/>for a particle size of 4.1 µm is also 1.8 min.</para>
+</solution>
+</exercise>
+
+      
+
+
+
+      </section><section id="import-auto-idm217269680">
+        <title>Thought provoking questions</title>
+        <list id="import-auto-idm593800816" list-type="enumerated" number-style="arabic">
+          <item>We are never 100% sure of the exact concentration of anything.  When do we deem the small chance that we are wrong acceptable; do we need to be 99% sure, 99.9%, 99.9999%? Who should decide where the line is drawn?</item>
+          <item>To what extent and under what circumstances should the chemical industry be self-regulated, and in what situations is it necessary for a governing body to step in? </item>
+          <item>Rank the following industries in increasing order of which you would expect to care most about chemical quality, explaining your choice: Pharmaceuticals, Food, Construction, Computer Hardware, Baby Toy Manufacturing</item>
+          <item>Of all the analytical techniques, what are some things that would still be difficult to measure?</item>
+        </list>
+      </section>
+    </section>
+    <section id="import-auto-idm212892208">
+      <title>Bibliography</title>
+      <list id="import-auto-idm494797824" list-type="bulleted"><item>A S Rathore, M. Yu, S. Yeboah, and A. Shama, <emphasis effect="italics">Biotechnol. Bioeng.</emphasis>, 2008, <emphasis effect="bold">100</emphasis>, 306. </item>
+        <item>EPA: Frank R Lautenberg Act, https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/frank-r-lautenberg-chemical-safety-21st-century-act (accessed November 2017). </item>
+        <item>B. Kratochvil, D. Wallace, and J. K. Taylor, <emphasis effect="italics">Anal Chem</emphasis>, 1984, <emphasis effect="bold">56</emphasis>, 113-129.</item>
+        <item>D Harvey, <emphasis effect="italics">Modern Analytical Techniques</emphasis>, McGraw Hill, New York (2000). </item>
+        <item>D C. Harris, <emphasis effect="italics">Quantitative Chemical Analysis, </emphasis>W. H. Freeman and Company, New York, 8<sup>th</sup> edition (2010). </item>
+        <item>History of the Clean Water Act, h<link url="https://www.epa.gov/laws-regulations/history-clean-water-act" window="new">https://www.epa.gov/laws-regulations/history-clean-water-act</link> (accessed November 2017)</item>
+        <item>National Center for Biotechnology Information, <link url=" https://www.ncbi.nlm.nih.gov/mesh?term=Chemistry%20Techniques,%20Analytical " window="new">https://www.ncbi.nlm.nih.gov/mesh?term=Chemistry%20Techniques,%20Analytical</link> (accessed November 2017)</item>
+        <item>Summary of Clean Air Act, <link url=" https://www.epa.gov/laws-regulations/summary-clean-air-act" window="new">https://www.epa.gov/laws-regulations/summary-clean-air-act</link> (accessed November 2017). </item>
+        <item>Digital Opportunities for Chemical Producers, <link url=" http://www.bain.com/publications/articles/digital-opportunities-for-chemical-producers.aspx" window="new">http://www.bain.com/publications/articles/digital-opportunities-for-chemical-producers.aspx</link> (accessed November 2017).</item>
+      </list></section>
+  </content>
+</document>

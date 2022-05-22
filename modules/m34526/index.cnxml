@@ -1,0 +1,66 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Using XPS to Analyze Metal Nanoparticles</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34526</md:content-id>
+  <md:title>Using XPS to Analyze Metal Nanoparticles</md:title>
+  <md:abstract/>
+  <md:uuid>1dc53598-a60d-4db9-a708-f346f7d5ef8f</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1168451422145">
+      <title>Introduction</title>
+      <para id="id1168443793963">X-ray photoelectron spectroscopy (XPS) is a surface technique developed for use with thin films. More recently, however, it has been used to analyze the chemical and elemental composition of nanoparticles. The complication of nanoparticles is that they are neither flat nor larger than the diameter of the beam, creating issues when using the data obtained at face value. Samples of nanoparticles will often be large aggregates of particles. This creates problems with the analysis acquisition, as there can be a variety of cross-sections, as seen in <link target-id="id1168445855238"/>. This acquisition problem is also compounded by the fact that the surfactant may not be completely covering the particle, as the curvature of the particle creates defects and divots. Even if it is possible to create a monolayer of particles on a support, other issues are still present. The background support will be analyzed with the particle, due to their small size and the size of the beam and the depth at which it can penetrate. 
+
+</para>
+      <figure id="id1168445855238"><media id="id1168445855238_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-2ca2.jpg" id="id1168445855238__onlineimage" width="200" print-width="2in"/>
+        </media>
+      <caption>Different cross-sections of analysis possible on a nanoparticle.</caption></figure>
+      
+      
+      <para id="id1168471225866">Many other factors can introduce changes in nanoparticles and their properties. There can be probe, environmental, proximity, and sample preparation effects. The dynamics of particles can wildly vary depending on the reactivity of the particle itself. Sputtering can also be a problem. The beam used to sputter will be roughly the same size or larger than the particles. This means that what appears in the data is not a section of particle, but an average composition of several particles. </para>
+      
+      <para id="id1168451178510">Each of these issues needs to be taken into account and preventative measures need to be used so the data is the best representation possible.</para>
+    </section>
+    <section id="id1168445327018">
+      <title>Sample preparation</title>
+      <para id="id1168449797188">Sample preparation of nanoparticles is very important when using XPS. Certain particles, such as iron oxides without surfactants, will interact readily with oxygen in the air. This causes the particles to gain a layer of oxygen contamination. When the particles are then analyzed, oxygen appears where it should not and the oxidation state of the metal may be changed. As shown by these particles, which call for handling, mounting and analysis without exposure to air, knowing the reactivity of the nanoparticles in the sample is very important even before starting analysis. If the reactivity of the nanoparticle is known, such as the reactivity of oxygen and iron, then preventative steps can be taken in sample preparation in order to obtain the best analysis possible.</para>
+      <para id="id1168485677571">When preparing a sample for XPS, a powder form is often used. This preparation, however, will lead to aggregation of nanoparticles. If analysis is performed on such a sample, the data obtained will be an average of composition of each nanoparticle. If composition of a single particle is what is desired, then this average composition will not be sufficient. Fortunately, there are other methods of sample preparation. Samples can be supported on a substrate, which will allow for analysis of single particles.  A pictorial representation in <link target-id="id1168444072049"/> shows the different types of samples that can occur with nanoparticles.</para>
+
+<figure id="id1168444072049"><media id="id1168444072049_media" alt=""><image mime-type="image/jpg" src="../../media/graphics2-8811.jpg" id="id1168444072049__onlineimage" width="400" print-width="4in"/></media><caption>Representation of (a) a theoretical isolated nanoparticles, (b) nanoparticles suspended on a substrate, (c) an aggregate of nanoparticles, and (d) a powdered form of nanoparticles.</caption></figure>
+
+      
+      
+    </section>
+    <section id="id1168446393439">
+      <title>Analysis limitations</title>
+      <para id="id1168449788976">Nanoparticles are dynamic; their properties can change when exposed to new chemical environments, leading to a new set of applications. It is the dynamics of nanoparticles that makes them so useful and is one of the reasons why scientists strive to understand their properties. However, it is this dynamic ability that makes analysis difficult to do properly. Nanoparticles are easily damaged and can change properties over time or with exposure to air, light or any other environment, chemical or otherwise. Surface analysis is often difficult because of the high rate of contamination. Once the particles are inserted into XPS, even more limitations appear.</para>
+      <section id="id1168451292935">
+        <title>Probe effects</title>
+        <para id="id1168465974691">There are often artifacts introduced from the simple mechanism of conducting the analysis. When XPS is used to analyze the relatively large surface of thin films, there is small change in temperature as energy is transferred. The thin films, however, are large enough that this small change in energy has to significant change to its properties. A nanoparticle is much smaller. Even a small amount of energy can drastically change the shape of particles, in turn changing the properties, giving a much different set of data than expected. </para>
+        <para id="id1168451141762">The electron beam itself can affect how the particles are supported on a substrate. Theoretically, nanoparticles would be considered separate from each other and any other chemical environments, such as solvents or substrates. This, however, is not possible, as the particles must be suspended in a solution or placed on a substrate when attempting analysis. The chemical environment around the particle will have some amount of interaction with the particle. This interaction will change characteristics of the nanoparticles, such as oxidation states or partial charges, which will then shift the peaks observed. If particles can be separated and suspended on a substrate, the supporting material will also be analyzed due to the fact that the X-ray beam is larger than the size of each individual particle. If the substrate is made of porous materials, it can adsorb gases and those will be detected along with the substrate and the particle, giving erroneous data.</para>
+      </section>
+      <section id="id1168446166090">
+        <title>Environmental effects</title>
+        <para id="id1168443634114">Nanoparticles will often react, or at least interact, with their environments. If the particles are highly reactive, there will often be induced charges in the near environment of the particle. Gold nanoparticles have a well-documented ability to undergo plasmon interactions with each other. When XPS is performed on these particles, the charges will change the kinetic energy of the electrons, shifting the apparent binding energy. When working with nanoparticles that are well known for creating charges, it is often best to use an ion gun or a coating of gold. The purpose of the ion gun or gold coating is to try to move peaks back to their appropriate energies. If the peaks do not move, then the chance of there being no induced charge is high and thus the obtained data is fairly reliable.</para>
+      </section>
+      <section id="id1168461268680">
+        <title>Proximity effects</title>
+        <para id="id1168443427682">The proximity of the particles to each other will cause interactions between the particles. If there is a charge accumulation near one particle, and that particle is in close proximity with other particles, the charge will become enhanced as it spreads, affecting the signal strength and the binding energies of the electrons. While the knowledge of charge enhancement could be useful to potential applications, it is not beneficial if knowledge of the various properties of individual particles is sought.</para>
+        <para id="id1168453641951">Less isolated (i.e., less crowded) particles will have different properties as compared to more isolated particles. A good example of this is the plasmon effect in gold nanoparticles. The closer gold nanoparticles are to each other, the more likely they will induce the plasmon effect. This can change the properties of the particles, such as oxidation states and partial charges. These changes will then shift peaks seen in XPS spectra. These proximity effects are often introduced in the sample preparation. This, of course, shows why it is important to prepare samples correctly to get desired results.</para>
+      </section>
+    </section>
+    <section id="id1168470266517">
+      <title>Conclusions</title>
+      <para id="id1168445420871">Unfortunately there is no good general procedure for all nanoparticles samples. There are too many variables within each sample to create a basic procedure. A scientist wanting to use XPS to analyze nanoparticles must first understand the drawbacks and limitations of using their sample as well as how to counteract the artifacts that will be introduced in order to properly use XPS.</para>
+      <para id="id1168449783352">One must never make the assumption that nanoparticles are flat. This assumption will only lead to a misrepresentation of the particles. Once the curvature and stacking of the particles, as well as their interactions with each other are taken into account, XPS can be run.</para>
+    </section>
+    <section id="id1168449783365">
+      <title>Bibliography</title>
+      <list id="id3842414" list-type="bulleted"><item>D. R. Baer and M. H. Engelhard. <emphasis effect="italics">J. Electron Spectrosc. Rel. Phenom.</emphasis>, 2009, <emphasis effect="bold">178-179</emphasis>, 415.</item>
+        <item>D. R. Baer, J. E. Amonette, M. H. Engelhard, D. J. Gaspar, A. S. Karakoti, S. Kuchibhatla, P. Nachimuthu, J. T. Nurmi, Y. Qiang, V. Sarathy, S. Seal, A. Sharma. P. G. Tratnyek, and C. M. Wang. <emphasis effect="italics">Surf. Interface Anal.</emphasis>, 2008, <emphasis effect="bold">40</emphasis>, 529.</item>
+      </list>
+    </section>
+  </content>
+</document>

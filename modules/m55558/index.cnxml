@@ -1,0 +1,607 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Measuring Key Transport Properties of FET Devices</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55558</md:content-id>
+  <md:title>Measuring Key Transport Properties of FET Devices</md:title>
+  <md:abstract/>
+  <md:uuid>bc033053-d98b-4c32-9767-a74ac3c2af05</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165516544321">
+      <title>Field effect transistors</title><para id="import-auto-id1165515749144">Arguably the most important invention of modern times, the transistor was invented in 1947 at Bell Labs by John Bardeen, William Shockley, and Walter Brattain. The result  of efforts to replace inefficient and bulky vacuum tubes in current regulation and switching functions. Further advances in transistor technology led to the field effect transistors (FETs), the bedrock of modern electronics. FETs operate by utilizing an electric field to control the flow of charge carriers along a channel, analogous to a water valve to control the flow of water in your kitchen sink. The FET consists of 3 terminals, a source (S), drain (D), and gate (G). The region between the source and drain is called the channel. The conduction in the channel depends on the availability of charge carriers controlled by the gate voltage. <link target-id="import-auto-id1165515917448"/> depicts a typical schematic and <link target-id="import-auto-id1165516379401"/> the associated cross-section  of a FET with the source, drain, and gate terminals labeled. FETs come in a variety of flavors depending on their channel doping (leading to enhancement and depletion modes) and gate types, as seen in <link target-id="import-auto-id1165514451862"/>. The two FET types are junction field effect transistors (JFETs) and metal oxide semiconductor field effect transistors (MOSFETs).</para><figure id="import-auto-id1165515917448"><media id="import-auto-id1165516664114" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 5-aad9.jpg" width="200" print-width="2in"/>
+        </media>
+      <caption>The n-channel enhancement mode MOSFET symbol.</caption></figure><figure id="import-auto-id1165516379401"><media id="import-auto-id1165515766130" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 6-7b41.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>A typical cross-section of a n-channel enhancement mode MOSFET.</caption></figure><figure id="import-auto-id1165514451862"><media id="import-auto-id1165515518597" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 3-7907.jpg" width="500" print-width="5in"/>
+        </media>
+      <caption>Field effect transistor family tree. Adapted from P. Horowitz and W. Hill, in <emphasis effect="italics">Art of Electronics</emphasis>, Cambridge University Press, New York, 2nd Edn., 1994.</caption></figure><section id="import-auto-id1165515492169">
+        <title>JFET fundamentals</title>
+        <para id="import-auto-id1165514158315">Junction field effect transistors (JFETs) as their name implies utilize a PN-junction to control the flow of charge carriers. The PN-junction is formed when opposing doping schemes are broght together on both sides of the channel. The doping schemes can be made to be either n-type (electrons) or p-type (holes) by doping with boron/gallium or phosphorus/arsenic respectively. The n-channel JFETs consists of pnp junctions where the source and drain are n-doped and the gate is p-doped. <link target-id="import-auto-id1165516421054"/> shows the cross section of a n-channel JFET in the “ON” state obtained by applying a positive drain-source voltage in the absence of a gate-source voltage. Alternatively the p-channel JFET consists of npn junctions where the source and drain are p-doped and the gate is n-doped. For p-channel a negative drain-source voltage is applied in the absence of a gate voltage to turn “ON” the npn device, as seen in <link target-id="import-auto-id1165515635581"/>. Since JFETs are “ON” when no gate-source voltage is applied they are called depletion mode devices. Meaning that a depletion region is required to turn “OFF” the device. This is where the PN-junction comes into play. The PN-junction works by enabling a depletion region to form where electrons and holes combine leaving behind positive and negative ions which inhibit further charge transfer as well as depleting the availability of charge carriers at the interface. This depletion region is pushed further into the channel by applying a gate-source voltage. If the voltage is sufficient the depletion region on either side of the channel will “pinch off” the flow through the channel and the device will be “OFF”. This voltage is called the pinch off voltage, V<sub>P</sub>. The n-channel V<sub>P</sub> is obtained by increasing the gate-source voltage in the negative direction, while the p-channel V<sub>P</sub> is obtained by increasing the gate-source voltage in the positive direction.</para><figure id="import-auto-id1165516421054"><media id="import-auto-id1165514533695" alt="">
+            <image mime-type="image/png" src="../../media/Picture 27.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Cross-section of a n-channel JFET in the "ON" state.</caption></figure><figure id="import-auto-id1165515635581"><media id="import-auto-id1165515731684" alt="">
+            <image mime-type="image/png" src="../../media/Picture 30.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Cross-section of a p-channel JFET in the "ON" state.</caption></figure></section>
+      <section id="import-auto-id1165514528597">
+        <title>MOSFET fundamentals</title>
+        <para id="import-auto-id1165516670497">The metal oxide semiconductor field effect transistor (MOSFET) utilizes an oxide layer (typically SiO<sub>2</sub>) to isolate the gate from the source and drain. The thin layer of oxide prevents flow of current to the gate, but enables an electric field to be applied to the channel which regulates the flow of charge carriers through the channel.MOSFETs unlike JFETs can operate in depletion or enhancement mode characterized by their ON or OFF state at zero gate-source voltage, V<sub>GS. </sub></para><para id="import-auto-id1165514381958">For depletion mode MOSFETs the device is “ON” when the V<sub>GS </sub>is zero as a result of the devices structure and doping scheme. The n-channel depletion mode MOSFET consists of heavily n-doped source and drain terminals on top of a p-doped substrate. Underneath an insulating oxide layer there is a thin layer of n-type silicon which allows charge carriers to flow in the absence of a gate voltage. When a negative voltage is applied to the gate a depletion region forms inside the channel, as seen in <link target-id="import-auto-id1165516334536"/>. If the gate voltage is sufficient the depletion region pinches off the flow of electrons.</para><figure id="import-auto-id1165516334536"><media id="import-auto-id1165516674692" alt="">
+            <image mime-type="image/png" src="../../media/Picture 33.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Cross-section of a n-channel depletion mode MOSFET when a negative gate voltage is applied with the resultant depletion layer.</caption></figure><para id="import-auto-id1165514323902">For enhancement mode MOSFETs the ON state is attained by applying a gate voltage in the direction of the drain voltage; a positive voltage for n-channel enhancement MOSFETs, and a negative voltage for p-channel enhancement MOSFETs. The term “enhancement” is derived from the increase in conductivity seen by applying a gate voltage. This increase in conductivity is enabled by an inversion layer induced by the applied electric field at the gate as shown in <link target-id="import-auto-id1165514519714"/> for n-channel enhancement mode MOSFETs and <link target-id="import-auto-id1165516286208"/> for p-channel enhancement mode MOSFETs respectively. </para><figure id="import-auto-id1165514519714"><media id="import-auto-id1165514156492" alt="">
+            <image mime-type="image/png" src="../../media/Picture 39-0d8a.png" width="400" print-width="4in"/>
+          </media>
+        <caption>A depiction of the induced inversion layer with n-type charge carriers in a n-channel enhancement mode MOSFET.</caption></figure><figure id="import-auto-id1165516286208"><media id="import-auto-id1165515631938" alt="">
+            <image mime-type="image/png" src="../../media/Picture 42-22a7.png" width="400" print-width="4in"/>
+          </media>
+        <caption>A depiction of the induced inversion layer with p-type charge carriers in a p-channel enhancement mode MOSFET.</caption></figure><para id="import-auto-id1165516504319">The thickness of this inversion layer is controlled by the magnitude of the gate voltage. The minimum voltage required to form the inversion layer is called the gate-to-source threshold voltage, V<sub>T</sub>. In the case of n-channel enhancement mode MOSFETs, the “ON” state is reached when V<sub>GS</sub> &gt; V<sub>T</sub> and a positive drain-source voltage, V<sub>DS</sub>, is applied. If the V<sub>GS</sub> is too low, then increasing the V<sub>DS</sub> further results only in increasing the depletion region around the drain. The p-channel enhancement mode MOSFETs operate similarly except that the voltages are reversed. Specifically, the “ON” state occurs when V<sub>GS</sub> &lt; V<sub>T </sub>and a negative drain-source voltage is applied.</para></section>
+    </section>
+    <section id="import-auto-id1165515797056">
+      <title>Measurement of key FET parameters</title>
+      <para id="import-auto-id1165514475629">In both an academic and industrial setting characterization of FETs is beneficial for determining device performance. Identifying the quality and type of FET can easily be addressed by measuring the transport characteristics under different experimental conditions utilizing a semiconductor characterization system (SCS). By analyzing the V-I characteristics through what are called voltage sweeps, the following key device parameters can be determined:</para>
+      <section id="eip-780"><title>Pinch off voltage, V<sub>P</sub></title><para id="eip-845">
+The voltage needed to turn “OFF” a JFET. When designing circuits it is essential that the pinch-off voltage be determined to avoid current leakage which can dramatically reduce performance.
+</para></section><section id="eip-26"><title>Threshold voltage, V<sub>T</sub></title><para id="eip-180">
+The voltage needed to turn “ON” a MOSFET. This is a critical parameter in effective circuit design.  
+</para></section><section id="eip-930"><title>Channel resistance, R<sub>DS</sub></title><para id="eip-78">
+The resistance between the drain and source in the channel. This influences the amount of current being transferred between the two terminals.
+</para></section><section id="eip-567"><title>Power dissipation, P<sub>D</sub></title><para id="eip-995">The power dissipation determines the amount of heat generated by the transistor. This becomes a real problem since the transport properties deteriorate as the channel is heated. </para></section><section id="eip-350"><title>Effective charge carrier mobility, µ<sub>n</sub></title><para id="eip-228">The charge carrier mobility determines how quickly the charge carrier can move through the channel. In most cases higher mobility leads to better device performance. The mobility can also be used to gauge the impurity, defect, temperature, and charge carrier concentrations
+</para></section><section id="eip-94"><title>Transconductance gain, g<sub>m</sub> (transfer admittance)</title><para id="eip-720">The g<sub>m </sub> is a measure of gain or amplification of a current for a given change in gate voltage. This is critical for amplification type electronics.
+</para></section>
+
+</section>
+
+<section id="import-auto-id1165516979635">
+        <title>Equipment needs</title>
+        <list id="import-auto-id1165515751361" list-type="enumerated" number-style="arabic"><item>PC with Keithley Interactive Test Environment (KITE) software.</item>
+          <item>Semiconductor characterization system (Keithley 4200-SCS or equivalent).</item>
+          <item>Probe station.</item>
+          <item>Probe tips.</item>
+          <item>Protective gloves. </item>
+        </list></section>
+      <section id="import-auto-id1165514438298">
+        <title>Measurement of (V-I) characteristics</title>
+        <para id="import-auto-id1165513491607">The Semiconductor Characterization System is an automated system that provides both (V-I) and (V-C) characterization of semiconductor devices and test structures. The advanced digital sweep parameter analyzer provides sub-micron characterization with accuracy and speed. This system utilizes the Keithley Interactive Test Environment (KITE) software designed specifically for semiconductor characterization.</para>
+    
+      <section id="import-auto-id1165516393664">
+        <title>Procedure</title>
+        <list id="import-auto-id1165516448224" list-type="bulleted"><item>Step 1 - Connect the probe tips to the probe station.  Then attach the banana plugs from the probe station to the BNC connector, making sure not to connect to ground.</item>
+          <item>Step 2 – Select the appropriate connections for your test from <link target-id="import-auto-id1165515710948"/>.</item>
+        
+<item>Step 3 – Place your transistor sample on the probe station, but don’t let the probe tips touch the sample to prevent possible electric shock(during power up, the SMU may momentarily output high voltage).</item>
+          <item>Step 4 – Turn on power located on the lower right of the front panel. The power up sequence may take up to 2 minutes.</item>
+          <item>Step 5 – Start KITE software. <link target-id="import-auto-id1165515771431"/> shows the interface window.</item>
+          <item>Step 6 – Select the appropriate setup from the Project Tree drop down (top left).</item>
+          <item>Step 7 – Match the Definition tab terminal connections to the physical connections of probe tips. If connection is not yet matched you can assign/reassign the terminal connections by using the arrow key next to the instrument selection box that displays a list of possible connections. Select the connection in the instrument selection box that matches the physical connection of the device terminal.</item>
+          <item>Step 8 – Set the Force Measure settings for each terminal. Fill in the necessary function parameters such as start, stop, step size, range, and compliance. For typical voltage sweeps you’ll want to force the voltage between the drain and source while measuring the current at the drain. Make sure to conduct several voltage sweeps at various forced gate voltages to aid in the analysis. </item>
+          <item>Step 9 – Check the current box/voltage box if you desire the current/voltage to be recorded in the Sheet tab Data worksheet and be available for plotting in the Graph tab. </item>
+          <item>Step 10 – Now make contact to your sample with the probe tips</item>
+          <item>Step 11 – Run the measurement setup by clicking the green Run arrow on the tool bar located above the Definition tab. Make sure the measuring indicator light at bottom right hand corner of the front panel is lit.</item>
+          <item>Step 12 – Save data by clicking on the Sheet tab then selecting the Save As tab. Select the file format and location.</item>
+        </list><table id="import-auto-id1165515710948" summary="stuff">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>Connection</entry>
+                <entry>Description</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>SMU1</entry>
+                <entry>Medium power source with low noise preamplifier</entry>
+              </row>
+              <row>
+                <entry>SMU2</entry>
+                <entry>Medium power source without preamplifier</entry>
+              </row>
+              <row>
+                <entry>SMU3</entry>
+                <entry>High Power</entry>
+              </row>
+              <row>
+                <entry>GNRD</entry>
+                <entry>For large currents</entry>
+              </row>
+            </tbody>
+          
+
+
+
+</tgroup><caption>Connection selection. </caption>
+</table><figure id="import-auto-id1165515771431"><media id="import-auto-id1165514347626" alt="">
+            <image mime-type="image/png" src="../../media/Picture 8-bfc6.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Keithley Interactive Test Environment (KITE) interface window.</caption></figure></section>
+
+
+  </section>    
+
+<section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1165515922796"><title>Measurement analysis</title><section id="import-auto-id1165514478922"><title>Typical V-I characteristics of JFETs</title><para id="import-auto-id1165515461877">Voltage sweeps are a great way to learn about the device. <link target-id="import-auto-id1165515179921 "/> shows a typical plot of drain-source voltage sweeps at various gate-source voltages while measuring the drain current, I<sub>D</sub> for a n-channel JFET. The V-I characteristics have four distinct regions. Analysis of these regions can provides critical information about the device characteristics such as the pinch off voltage, V<sub>P</sub>, transcunductance gain, g<sub>m</sub>, drain-source channel resistance, R<sub>DS</sub>, and power dissipation, P<sub>D</sub>. </para><figure id="import-auto-id1165515179921"><media id="import-auto-id1165514533199" alt=""><image mime-type="image/png" src="../../media/Picture 45.png" width="500" print-width="4in"/></media><caption>A plot of the drain-source voltage sweeps at various gate voltages with the corresponding drain current measurements of an "ideal" n-channel JFET. The four characteristic regions, Ohmic, saturation, breakdown, and pinch-off, are labeled. Figure adapted from Electronic Tutorials (http://www.electronic-tutorials.ws).</caption></figure><section id="eip-58"><title>Ohmic region (linear region)</title><para id="eip-296">This region is bounded by V<sub>DS </sub>&lt; V<sub>P</sub>. Here the JFET begins to flow a drain current with a linear response to the voltage, behaving like a variable resistor. In this region the drain-source channel resistance, R<sub>DS</sub> is modeled by <link target-id="eip-655"/> , where ΔV<sub>DS</sub> is the change in drain-source voltage, ΔI<sub>D</sub> is the change in drain current, and g<sub>m</sub> is the transcunductance gain. Solving for g<sub>m</sub> results in <link target-id="eip-573"/>.
+</para>
+
+
+<equation id="eip-655"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>DS</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi fontstyle="italic">ΔV</m:mi>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>DS</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi fontstyle="italic">ΔI</m:mi>
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>g</m:mi>
+                        <m:mrow>
+                          <m:mi>m</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{ ital "DS"} } = {  {ΔV rSub { size 8{ ital "DS"} } }  over  {ΔI rSub { size 8{D} } } } = {  {1}  over  {g rSub { size 8{m} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-573"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>g</m:mi>
+                        <m:mrow>
+                          <m:mi>m</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi fontstyle="italic">ΔI</m:mi>
+                          <m:mrow>
+                            <m:mi>D</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi fontstyle="italic">ΔV</m:mi>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>DS</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>DS</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{m} } = {  {ΔI rSub { size 8{D} } }  over  {ΔV rSub { size 8{ ital "DS"} } } } = {  {1}  over  {R rSub { size 8{ ital "DS"} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+</section>
+
+<section id="eip-334"><title>Saturation region</title><para id="eip-599">This is the region where the JFET is completely “ON”. The maximum amount of current is flowing for the given gate-source voltage. In this region the drain current can be modeled by the <link target-id="eip-284"/> , where I<sub>D</sub> is the drain current, I<sub>DSS</sub> is the maximum current, V<sub>GS</sub> is the gate-source voltage, and V<sub>P</sub> is the pinch off voltage. Solving for the pinch off voltage results in <link target-id="eip-823"/>.
+</para>
+
+
+<equation id="eip-284"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mrow>
+                          <m:mi>D</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>DSS</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>V</m:mi>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>GS</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>V</m:mi>
+                              <m:mrow>
+                                <m:mi>P</m:mi>
+                              </m:mrow>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =I rSub { size 8{ ital "DSS"} }  left (1 -  {  {V rSub { size 8{ ital "GS"} } }  over  {V rSub { size 8{P} } } }  right ) rSup { size 8{2} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-823"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>V</m:mi>
+                      <m:mrow>
+                        <m:mi>P</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>V</m:mi>
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>GS</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:msub>
+                        <m:msqrt>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>I</m:mi>
+                              <m:mrow>
+                                <m:mi>D</m:mi>
+                              </m:mrow>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>I</m:mi>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>DSS</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:msqrt>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{P} } =1 -  {  {V rSub { size 8{ ital "GS"} } }  over  { sqrt { {  {I rSub { size 8{D} } }  over  {I rSub { size 8{ ital "DSS"} } } } } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+
+
+</section>
+
+<section id="eip-123"><title>Breakdown region</title><para id="eip-665">This region is characterized by the sudden increase in current. The drain-source voltage supplied exceeds the resistive limit of the semiconducting channel, resulting in the transistor to break down and flow an uncontrolled current.
+</para></section>
+        <section id="eip-565"><title>Pinch-off  region (cutoff region)</title><para id="eip-67">In this region the gate-source voltage is sufficient to restrict the flow through the channel, in effect cutting off the drain current. The power dissipation, P<sub>D</sub>, can be solved utilizing Ohms law (I = V/R) for any region using <link target-id="eip-158"/>.</para>
+
+
+<equation id="eip-158"><media id="EqFET" alt="LEED IV curve"> <image mime-type="image/jpeg" src="../../media/EqFET.jpg" width="600" print-width="5in"/> </media></equation><para id="import-auto-id1165516205481">The  p-channel JFET V-I characteristics behave similarly except that the voltages are reversed. Specifically, the pinch off point is reached when the gate-source voltage is increased in a positive direction, and the saturation region is met when the drain-source voltage is increased in the negative direction.</para>
+
+      
+
+</section>
+
+</section><section id="import-auto-id1165515602746"><title>Typical V-I characteristics of MOSFETs</title><para id="import-auto-id1165515848196"><link target-id="eip-id1169212436532"/> shows a typical plot of drain-source voltage sweeps at various gate-source voltages while measuring the drain current, I<sub>D</sub> for an ideal n-channel enhancement MOSFET. Like JFETs, the V-I characteristics of MOSFETS have distinct regions that provide valuable information about device transport properties.</para><figure id="eip-id1169212436532"><media id="import-auto-id1165514420220" alt="">             <image mime-type="image/png" src="../../media/Picture 48.png" width="400" print-width="4in"/>           </media>         <caption>A plot of the drain-source voltage sweeps at various gate voltages with the corresponding drain current measurements of an "ideal" n-channel enahnced MOSFET. Here +ve means that the gate-source voltage is increased in the positive direction. Figure adapted from Electronic Tutorials (http://www.electronic-tutorials.ws).</caption></figure><section id="eip-765"><title>Ohmic region (linear region)</title><para id="eip-368">
+The n-channel enhanced MOSFET behaves linearly, acting like a variable resistor, when the gate-source voltage is greater than the threshold voltage and the drain-source voltage is greater than the gate-source voltage.  In this region the drain current can be modeled by <link target-id="eip-842"/> , where I<sub>D</sub> is the drain current, V<sub>GS</sub> is the gate-source voltage, V<sub>T</sub> is the threshold voltage, V<sub>DS </sub>is the drain-source voltage, and k is the geometric factor described by <link target-id="eip-273"/> , where µ<sub>n</sub> is the charge-carrier effective mobility, C<sub>OX</sub> is the gate oxide capacitance, W is the channel width, and L is the channel length.
+</para>
+
+
+
+<equation id="eip-842"><media id="EqFET2" alt="FET2"> <image mime-type="image/jpeg" src="../../media/EqFET2.jpg" width="600" print-width="5in"/> </media></equation><equation id="eip-273"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>OX</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mfrac>
+                      <m:mi>W</m:mi>
+                      <m:mi>L</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{k=μ rSub { size 8{n} } C rSub { size 8{ ital "OX"} }  {  {W}  over  {L} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+</section>
+
+
+<section id="eip-717"><title>Saturation region</title><para id="eip-43">In this region the MOSFET is considered fully “ON”. The drain current for the saturation region is modeled by <link target-id="eip-183"/> . The drain current is mainly influenced by the gate-source voltage, while the drain-source voltage has no effect.
+</para>
+
+
+<equation id="eip-183"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mrow>
+                          <m:mi>D</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>k</m:mi>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>GS</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+                            <m:mrow>
+                              <m:mi>T</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{D} } =k left (V rSub { size 8{ ital "GS"} }  - V rSub { size 8{T} }  right ) rSup { size 8{2} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-id1165515896948">Solving for the threshold voltage V<sub>T</sub> results in <link target-id="eip-367"/> .</para><equation id="eip-367"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>V</m:mi>
+                      <m:mrow>
+                        <m:mi>T</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>GS</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msqrt>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mrow>
+                              <m:mi>D</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mi>k</m:mi>
+                        </m:mfrac>
+                      </m:msqrt>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{T} } =V rSub { size 8{ ital "GS"} }  -  sqrt { {  {I rSub { size 8{D} } }  over  {k} } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+</section>
+
+<section id="eip-981"><title>Pinch-off  region (cutoff region)</title><para id="eip-949">When the gate-source voltage, V<sub>GS</sub>,  is below the threshold voltage V<sub>T </sub> the charge carriers in the channel are not available “cutting off” the charge flow. Power dissipation for MOSFETs can also be solved using equation 6 in any region as in the JFET case. 
+</para></section></section><section id="import-auto-id1165516391848">
+        <title>FET V-I summary</title>
+        <para id="import-auto-id1165514359132">The typical I-V characteristics for the whole family of FETs seen in <link target-id="import-auto-id1165514451862"/> are plotted in <link target-id="import-auto-id1165516492944"/>.</para><figure id="import-auto-id1165516492944"><media id="import-auto-id1165515673036" alt="">
+            <image mime-type="image/png" src="../../media/Object 4-5df1.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Plot of V-I characteristics for the various FET types. Adapted from P. Horowitz and W. Hill, in <emphasis effect="italics">Art of Electronics, </emphasis>Cambridge University Press, New York, 2<sup>nd</sup> Edn., 1994.</caption></figure><para id="import-auto-id1165516984805">From <link target-id="import-auto-id1165516492944"/> we can see how the doping schemes that lead to enhancement and depletion are displaced along the V<sub>GS </sub>axis.  In addition, from the plot the ON or OFF state can be determined for a given gate-source voltage, where (+) is positive, (0) is zero, and (-) is negative, as seen in <link target-id="import-auto-id1165511121567"/>.</para><table id="import-auto-id1165511121567" summary="The ON/OFF state for the various FETs at a given gate-source voltages where (-) is a negative voltage and (+) is a positive voltage.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <thead>
+              <row>
+                <entry>
+                
+                    <emphasis effect="bold">FET Type</emphasis>
+              
+                </entry>
+                <entry>
+                  <emphasis effect="bold">V</emphasis><emphasis effect="bold"><sub>GS </sub></emphasis>
+                  <emphasis effect="bold"> = (-)</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">V</emphasis><emphasis effect="bold"><sub>GS </sub> </emphasis>
+                  <emphasis effect="bold">= 0</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">V</emphasis><emphasis effect="bold"><sub>GS </sub></emphasis>
+                  <emphasis effect="bold"> = (+)</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>n-channel JFET</entry>
+                <entry>OFF</entry>
+                <entry>ON</entry>
+                <entry>ON</entry>
+              </row>
+              <row>
+                <entry>p-channel JFET</entry>
+                <entry>ON</entry>
+                <entry>ON</entry>
+                <entry>OFF</entry>
+              </row>
+              <row>
+                <entry>n-channel depletion MOSFET</entry>
+                <entry>OFF</entry>
+                <entry>ON</entry>
+                <entry>ON</entry>
+              </row>
+              <row>
+                <entry>p-channel depletion MOSFET</entry>
+                <entry>ON</entry>
+                <entry>ON</entry>
+                <entry>OFF</entry>
+              </row>
+              <row>
+                <entry>n-channel enhancement MOSFET</entry>
+                <entry>OFF</entry>
+                <entry>OFF</entry>
+                <entry>ON</entry>
+              </row>
+              <row>
+                <entry>p-channel enhancement MOSFET</entry>
+                <entry>ON</entry>
+                <entry>ON</entry>
+                <entry>OFF</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+</tgroup><caption>The ON/OFF state for the various FETs at a given gate-source voltages where  (-) is a negative voltage and (+) is a positive voltage.</caption>
+</table></section>
+    </section><section id="import-auto-id1165511397842">
+      <title>Bibliography</title>
+      <list id="import-auto-id1165511397912" list-type="bulleted"><item>US Patent, US2524035A, 1950.</item>
+        <item>P. Horowitz and W. Hill, in <emphasis effect="italics">Art of Electronics, </emphasis>Cambridge University Press, New York, 2<sup>nd</sup> Edn., 1994.</item>
+        <item>Electronics Tutorials, <link url="http://www.electronics-tutorials.ws/"><emphasis effect="underline">http://www.electronics-tutorials.ws/</emphasis></link> (accessed February 2015). </item>
+        <item>C. Alexander and M. Sadiku, in <emphasis effect="italics">Fundamentals of Electric Circuits</emphasis>, McGraw-Hill Education, New York, 4<sup>th</sup> Edn., 2009.</item>
+        <item>Interactive Explanations for Semiconductor Devices, <link url="http://www-g.eng.cam.ac.uk/mmg/teaching/linearcircuits/index.html"><emphasis effect="underline">http://www-g.eng.cam.ac.uk/mmg/teaching/linearcircuits/index.html</emphasis></link> (accessed February 2015). </item>
+        <item>D. Neamen, in <emphasis effect="italics">An Introduction to Semiconductor Devices</emphasis>, McGraw-Hill Education, New York, 1<sup>st</sup> Edn., 2005.</item>
+      </list></section>
+  </content>
+</document>

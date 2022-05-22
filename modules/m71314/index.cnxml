@@ -1,0 +1,1132 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Pharmaceutical Industry</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71314</md:content-id>
+  <md:title>Pharmaceutical Industry</md:title>
+  <md:abstract/>
+  <md:uuid>27f11ddb-7651-4137-bc18-6d9a9adbd247</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm1099496512">
+      <title>Introduction</title>
+      <para id="import-auto-idm1177474848">The pharmaceutical industry discovers, develops, and sells a variety of drugs for use as medicine. These drugs are varied in nature and can be both self-administered or administered to a patient to alleviate countless ailments or diseases. Pharmaceutical corporations can produce both branded and generic products for the market. Pharmaceuticals have rapidly advanced in recent history, as much of the medicine available during humanity’s existence comprised of folk remedies and products from apothecaries. In the past two centuries, medicines have quickly shifted from plant-derived botanicals to synthetically produced products. </para>
+      <para id="import-auto-idm266783664">The pharmaceutical industry plays a pivotal role in society and is responsible for saving countless lives, alleviating numerous symptoms, and contributing to the increased longevity of people. In short, many put their lives in the hands of the pharmaceutical industry. Given the critical role drugs play in modern society, they are subjected to myriad laws and stringent quality standards by federal governments and and global organizations. To verify drug purity and efficacy, many analytical methods are employed. This article highlights the importance of analytical chemistry in supporting the pharmaceutical industry.</para>
+      <section id="import-auto-idm1117764400">
+        <title>Key chemicals and materials</title>
+        <para id="import-auto-idm1099496224"><link target-id="import-auto-idm253350192"/>  shows the highest selling drugs in the pharmaceutical industry as of 2015. These drugs are used to treat a wide array of conditions including diabetes, cancer, and infectious diseases such as HIV. The active ingredients are organic compounds and biopharmaceuticals such as antibodies. With patents expiring and new drugs constantly in development, this list is in flux from year to year. As of Q3 2018, the largest pharmaceutical company by revenue is Johnson &amp; Johnson followed by Roche and Pfizer.</para><table id="import-auto-idm253350192" summary="Highest-selling drugs as of 2015.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Drug name</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Active ingredient</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Main indication</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Company</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">2015 Revenue in $billions </emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Humira</entry>
+                <entry>Adalimumab</entry>
+                <entry>Immunology</entry>
+                <entry>AbbVie</entry>
+                <entry>14.0</entry>
+              </row>
+              <row>
+                <entry>Harvoni</entry>
+                <entry>Ledipasvir and sofosbuvir</entry>
+                <entry>Infectious diseases</entry>
+                <entry>Gilead Sciences</entry>
+                <entry>13.8</entry>
+              </row>
+              <row>
+                <entry>Enbrel</entry>
+                <entry>Etanercept</entry>
+                <entry>Immunology</entry>
+                <entry>Amgen / Pfizer</entry>
+                <entry>8.6</entry>
+              </row>
+              <row>
+                <entry>Remicade</entry>
+                <entry>Infliximab</entry>
+                <entry>Oncology</entry>
+                <entry>Johnson &amp; Johnson/Merck</entry>
+                <entry>8.3</entry>
+              </row>
+              <row>
+                <entry>MadThera</entry>
+                <entry>Rituximab</entry>
+                <entry>Diabetes</entry>
+                <entry>Roche</entry>
+                <entry>7.1</entry>
+              </row>
+              <row>
+                <entry>Lantus</entry>
+                <entry>Insulin glargine</entry>
+                <entry>Oncology</entry>
+                <entry>Sanofi</entry>
+                <entry>7.0</entry>
+              </row>
+              <row>
+                <entry>Avastin</entry>
+                <entry>Bevacizumab</entry>
+                <entry>Oncology</entry>
+                <entry>Roche</entry>
+                <entry>6.7</entry>
+              </row>
+              <row>
+                <entry>Herceptin</entry>
+                <entry>Trastuzumab</entry>
+                <entry>Blood disorders</entry>
+                <entry>Roche</entry>
+                <entry>6.6</entry>
+              </row>
+              <row>
+                <entry>Revlimid</entry>
+                <entry>Lenalidomide</entry>
+                <entry>Infectious Diseases</entry>
+                <entry>Celgene Corporation</entry>
+                <entry>5.8</entry>
+              </row>
+              <row>
+                <entry>Sovaldi</entry>
+                <entry>Sofosbuvir</entry>
+                <entry>Respiratory disorders</entry>
+                <entry>Gilead Sciences</entry>
+                <entry>5.2</entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Highest-selling drugs as of 2015.</caption>
+</table><para id="eip-65"><link target-id="eip-115"/> gives the typical uses of selected chemicals and materials employed in the pharmaceutical industry. </para><table id="eip-115" summary="Uses of selected chemicals and materials in the pharmaceutical industry.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Chemical/material</emphasis></entry>
+    <entry><emphasis effect="bold">Application</emphasis></entry>
+  </row>
+  <row>
+    <entry>Water</entry>
+    <entry>Medium</entry>
+  </row>
+  <row>
+    <entry>Silica</entry>
+    <entry>Applied to TLC plates, binder</entry>
+  </row>
+  <row>
+    <entry>Halogens </entry>
+    <entry>Stabilize bonding interactions</entry>
+  </row>
+  <row>
+    <entry>Vitamins</entry>
+    <entry>Biological basis for drug derivatives</entry>
+  </row>
+  <row>
+    <entry>Biological hormones</entry>
+    <entry>Biological basis for drug derivatives</entry>
+  </row>
+  <row>
+    <entry>Palladium</entry>
+    <entry>Mediates many drug syntheses</entry>
+  </row>
+  <row>
+    <entry>(8,1)</entry>
+    <entry>(8,2)</entry>
+  </row>
+  <row>
+    <entry>Wormwood</entry>
+    <entry>Natural plant containing medicinal extracts</entry>
+  </row>
+  <row>
+    <entry>Alumina</entry>
+    <entry>Common stationary phase</entry>
+  </row>
+  <row>
+    <entry>Ethyl acetate, hexane</entry>
+    <entry>Common mobile phase</entry>
+  </row>
+</tbody>
+
+</tgroup><caption>Uses of selected chemicals and materials in the pharmaceutical industry.</caption>
+</table></section>
+    </section>
+   
+
+
+
+<section id="import-auto-idm1119070720"><title>Challenges faced by the industry</title><para id="import-auto-idm261419472">The pharmaceutical industry faces several challenges in the market and in the laboratory. The biggest problem faced by the industry is reduced R&amp;D budgets in recent times. An industry shift towards biological treatments such as proteins and antibodies and away from molecules has seen the cost and time associated with producing a single drug skyrocket. In a recent study 49.1% of the industry claimed that the drug discovery stage associated with high risk and high cost is the reason why they have cut spending on R&amp;D. On average costing them over $2.5 billion per new drug, pharmaceutical companies are less incentivized to continue doing R&amp;D themselves, and would rather just buy out smaller companies that do the R&amp;D. In addition, return on R&amp;D investments have declined from 10% to 3.2% in the last 8 years.</para>
+        <para id="import-auto-idm1452649312">These factors directly impact the job of analytical chemists in the industry. With reduced budgets, cheaper analytical methods have to be used in order to separate and characterize compounds. It may be difficult for a company purchase expensive HPLC, LC-MS, and NMR instruments along with hiring the personnel to use them correctly and take care of them. Analytical chemists are still required to produce the same quality and reproducibility, but with cheaper/simpler technology. Consequently, this increases the time spent preparing samples and reduces the quality of the analysis. Analytical chemists face a large burden that is only growing as staff and equipment are reduced. A specific problem analytical chemists face with less funding is separating macromolecules that have very little heterogeneity. During a synthesis, the target molecule is produced along with several side products. The more complex a module becomes, the more complex the side products are. Additionally, side products look almost identical to the target drug (e.g., isomers) making them very difficult to separate from each other. Highly specific, expensive separating methods such as chiral columns or solvent and pressure gradient HPLC might be required to separate these compounds but with less funding it can be nearly impossible to separate such similar molecules. </para>
+        <para id="import-auto-idm1160397776">Another problem drug companies face is the use of excipients in pills and tablets. Excipients are chemicals that are not the active ingredient and are used to enhance drug stability and function. In the past, they have been thought to be inactive; however, recently there have been several cases of adverse reactions from patients to excipients. This results in huge health risks and massive costs for the industry. For example, the compound tartrazine (<link target-id="Tar2"/>) is a coloring agent that gives pills and tablets a yellow color. This excipient is inactive in the majority of the population but can cause hyperactivity in some children. Other common excipients and their side effects can be seen in <link target-id="import-auto-idm1095638720"/>.</para><figure id="Tar2"><media id="Tar" alt="">
+    <image mime-type="image/jpg" src="../../media/drug27.jpg" width="500" print-width="5in"/>
+  </media>
+<caption>Structures of common excipients: (a) tartrazine, (b) aspartame, (c) benzalkonium chloride, (d) Sodium metabisulphite, (e) propyl gallate, and (f) lactose.</caption></figure><table id="import-auto-idm1095638720" summary="Common excipients and their adverse health outcomes.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Excipient</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Function</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Caution in Practice</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+       <row>
+    <entry>Tartrazine (<link target-id="Tar2"/>a) </entry>
+    <entry>Coloring agent</entry>
+    <entry>Hyperactivity in children</entry>
+  </row>
+              <row>
+                <entry>Aspartame (<link target-id="Tar2"/>b) </entry>
+                <entry>Sweetener</entry>
+                <entry>Caution in patients with phenylketouria</entry>
+              </row>
+              <row>
+                <entry>Benzalkonium chloride (<link target-id="Tar2"/>c)</entry>
+                <entry>Preservative</entry>
+                <entry>Bronchoconstriction, toxic for the eye</entry>
+              </row>
+              <row>
+                <entry>Sodium metabisulphite (<link target-id="Tar2"/>d)</entry>
+                <entry>Antioxidant</entry>
+                <entry>Bronchospasm, anaphylaxis</entry>
+              </row>
+              <row>
+                <entry>Propyl gallate (<link target-id="Tar2"/>e)</entry>
+                <entry>Antioxidant</entry>
+                <entry>Sensitive to skin</entry>
+              </row>
+              <row>
+                <entry>Lactose (<link target-id="Tar2"/>f)</entry>
+                <entry>Tablet filler</entry>
+                <entry>Caution in patients with galactosaemia</entry>
+              </row>
+              <row>
+                <entry>Sesame oil</entry>
+                <entry>Oil consistency</entry>
+                <entry>Hypersensitivity</entry>
+              </row>
+              <row>
+                <entry>Lanolin</entry>
+                <entry>Emulsifier</entry>
+                <entry>Sensitive to skin</entry>
+              </row>
+       
+</tbody>
+          
+
+
+
+</tgroup><caption>Common excipients and their adverse health outcomes.</caption>
+</table><para id="import-auto-idm260871200">Increasing innovation in R&amp;D and drug delivery can reduce the time and cost associated with developing a drug. The industry needs to focus on using more technology and big data in order to make this move. With this focus the industry can see higher return on investments and increased budgets in R&amp;D. Finally, overcoming these problems will improve the lives of analytical and synthetic chemists.</para>
+      </section><section id="import-auto-idm1171868272">
+        <title>Regulations</title>
+        <para id="import-auto-idm1171868400">Drugs are a special type of consumer product where consumers have very little knowledge of which drugs to take, how much to take, when to take them, and the adverse side effects of some drugs. Likewise, for the producers, immense knowledge about pharmacology and microbiology are necessary in ensuring the quality of a drug. Due to these strict requirements drugs are a product that face heavy regulations. The Food and Drug Administration (FDA) is the main regulator of drug companies in the US and enacts several measures to guarantee safety and quality for the consumer. The FDA enacts Good Practice laws (GxP), which provide specifications for laboratory environments (GLP), clinical methods (GCP), manufacturing practices (GMP), and distribution of drugs (GDP). To protect the producer, the FDA enacts patents that can incentivize research and development (R&amp;D) and provide massive profits for a company. Patent regulations vary depending on the category of drug such as new innovative, generic, or pediatric. Furthermore, to incentivize R&amp;D into less common diseases, the federal government has passed the Orphan Drug Act (1983) and the Rare Disease Act (2002). The goal of these regulations is to ensure quality and safety for the consumer, but at the same time to allow for profitable R&amp;D for the producer.</para><section id="eip-470"><title>US Food and Drug Administration (FDA) </title><para id="eip-728">
+In the US the FDA regulates most food, human and animal drugs, therapeutic agents of biological origin, medical devices, radiation-emitting products for consumer, medical, occupational use, cosmetics, and animal feed. The history of the FDA can be traced to the latter part of the 19th Century when research began into the adulteration and misbranding of food and drugs in the US. The nauseating condition of the meat packing industry raised awareness to hazards in the marketplace, leading to a comprehensive food and drug law. Since 1879, nearly 100 bills have been introduced in Congress to regulate food and drugs, and in 1906, President Roosevelt signed the Food and Drugs Act. USDA Bureau of Chemistry was responsible for examining food and drugs for such "adulteration" or "misbranding". In 1927, the Bureau of Chemistry's regulatory powers were reorganized under a new USDA body: the Food, Drug, and Insecticide Organization, which was shortened to the Food and Drug Administration (FDA) three years later. One of the FDA’s greatest and influential regulations is on pharmaceuticals, which includes drug approvals, safety, emergency preparedness, and many more for the production of drugs on the market.
+</para></section><section id="eip-242"><title>Center for Drug Evaluation and Research (CDER)</title><para id="eip-291">
+The mission of FDA's Center for Drug Evaluation and Research (CDER) is to ensure that drugs marketed are safe and effective. Drug companies seeking to sell a drug in the United States must first test them in the laboratory. The company then sends CDER the evidence from these tests to prove the drug is safe and effective for its intended use. A team of CDER physicians, statisticians, chemists, pharmacologists, and other scientists review the company's data and proposed labeling. If this independent and unbiased review establishes that a drug's health benefits outweigh its known risks, the drug is approved for sale. An important drug safety issue is one that has the potential to alter the benefit/risk analysis for a drug in such a way as to affect decisions about prescribing or taking the drug. After drug approval, the FDA may learn new, or more frequent, serious adverse drug experiences from post-approval clinical studies or from clinical use. As new information related to a marketed drug becomes available, the FDA reviews the data and evaluates whether there is a potential drug safety concern. When a potential drug safety concern arises, relevant scientific experts within the FDA engage in a prompt review and analysis of available data to determine whether regulatory action is warranted.
+</para></section><section id="eip-46"><title>World Health Organization (WHO)</title><para id="eip-239">
+Another regulation agency concerned with global public health is the World Health Organization (WHO). During the 1945 United Nations Conference on International Organization, Szeming Sze, a delegate from China, proposed to create an international health organization under the auspices of the, then new, United Nations. The constitution of the World Health Organization was signed by all 51 countries of the United Nations, and by 10 other countries, on 22 July 1946. Nowadays, the work of the Expert Committee on Specifications for Pharmaceutical Preparations (ECSPP), one of the WHO Expert Committees, consist of regulations on pharmacopoeia standards, quality control, production and inspections, distribution and good pharmacy practice.
+</para></section>
+      </section>
+      <section id="eip-635"><title>From research laboratory to the patient</title><para id="import-auto-idm341595760">Once a pharmaceutical or biopharmaceutical company has isolated a compound they believe to be a novel and effective drug, it must undergo rigorous federal testing to confirm its compliance with national standards. Since its inception the FDA have altered and improved many of its testing and requirements based on technical advancements and health concerns. Of its many federal regulations, the FDA and its most current requirements enforce not only drug purity but also, through the Current Good Manufacturing Practice (CGMP), well-maintained equipment, clear labeling with detailed identification and storage, and test facilities with adequate space to prevent contamination. These practices will ensure proper monitoring and control of facilities during research and production. Initially, a compliant company itself conducts multi-stage tests in the laboratory as well as in clinical trials for its intended drug. Sufficient data is collected to prove that a new or improved drug has been created for the betterment of personal health. New drug applications are completed to formally introduce a proposal for the FDA. For government approval (<link target-id="import-auto-idm419824176"/>), all the independent company’s research and data are sent to the CDER where numerous scientists review the data and propose labeling.</para>
+
+<figure id="import-auto-idm419824176"><media id="import-auto-idm505967120" alt="">
+          <image mime-type="image/jpg" src="../../media/Drug1.jpg" width="600" print-width="6in"/>
+        </media>
+      <caption>Diagram of the approval requirements for perspective drugs.</caption></figure><para id="import-auto-idm752353856">The Center for Drug Evaluation and Research is the ultimate body that reviews applications for pharmaceuticals and determine the appropriate medications to be marketed. Multiple divisions control different processes of drug approval: the office of new drugs oversee clinical trials, the office of pharmaceutical quality test drugs and biotechnology for safety, the office of medical and regulatory policy develop and review guidelines, and the office of surveillance and epidemiology monitor post-marketing drug usage. For analytical chemistry purposes, the Office of Pharmaceutical Quality conducts rigorous chemical analysis to determine a drug’s compliance to specific standards. FDA labs will test drugs based on such standards as determined by the United States Pharmacopeia (USP), a government nonprofit organization that creates and compiles quality standards for medicine and foods. All prescription, over-the-counter, and animal drugs are required to conform to USP standards. The FDA and CDER will compare its trial drugs to the USP’s standards of identity, strength, quality, and purity. They will even require the same quality standards for new and generic drugs by looking at impurities and dissolutions. After review and the drug’s benefits are proven, the drug can be approved for the market ((<link target-id="import-auto-idm419824176"/>)).</para>
+      <para id="import-auto-idm511904624">For the development of analytical procedures to test characteristics of a drug, all methods are included in drug applications. A full description of manufacturing processes is used to confirm standards of identity, quality, and purity. If any FDA recognized procedures are applied, such a procedure is already documented in the United States Pharmacopeia/National Formulary. Analytical instrumentation and methodology are selected based upon specificity, limits of detection and quantitation, and accuracy and precision. Essential information is included pertinent to the analytical procedure: description of the basic tests and technology (i.e. separation or detection), equipment, operating parameters with optimal settings and ranges, reagents and sample preparation, and procedure. All mathematical transformations and data reporting consistent with an instrument’s capabilities as well as reference blanks and drug performance and selectivity are included. Specifically, for chromatographic methods, retention times for comparison with reference standards must also be included. Statistical analysis of data utilizes techniques such as histograms, probability plots, and correlation coefficients to assess validity of data. All such previously conducted research by the pharmaceutical company is sent to the FDA and CDER for further tests.</para>
+      <para id="import-auto-idm303346928">Of the many of tests to determine efficacy and purity, a multitude of analytical chemical techniques can be used to isolate and analyze drugs. High performance thin layer chromatography (HPTLC) proves extremely versatile to analyze a variety of drugs by separating non-volatile mixtures. In high-performance liquid chromatography (HPLC) with a UV detector to monitor an elution wavelength spectrum proves powerful because it serves as both a quantitative and qualitative technique. The results collected can determine the compound present as well as the actual amount. Similarly, the degree of bioavailability can be evaluated to compare multiple doses or multiple drugs. With an emerging technological industry, pharmaceutical nanotechnology is rising in its collection of drug-safety data. Nanotechnology, like nano-emulsions, can suspend or dissolve drugs for further analyses. One of the most powerful techniques for pharmaceutical analysis is liquid chromatography-mass spectrometry (LC-MS) because of its sensitivity in chromatographic separation coupled with a specific mass spectrometric detection. Drug metabolism studies, identification of impurities, and products from degradation are some of the major applications of LC-MS. Many of these techniques provide resources for independent pharmaceutical companies and the FDA/CDER to determine how biologically and chemically effective a novel drug may be. Ultimately if the results determine a high purity and bioavailability, a novel drug can begin production for the market.</para>
+      <para id="import-auto-idm276053904">Despite the USP’s specific standards, the FDA ultimately maintains enforcement. The FDA’s current domain oversees prescription and over-the-counter drugs, medical devices, food, tobacco safety, and many other health products. Within the food industry, the FDA focuses on quality of the food provided and its labeling, regulation nutrition charts and the additives and substances included. Failure to abide by the FDA’s regulations can result in public defamation of a company through the press, ordering recalls on faulty products, petitioning a source to seize items in violation, and even criminal penalties on violators. Unique in the history the food and drug industry, the Dietary Supplements Health and Education Act (DSHEA) ruled to protect public health and ensuring quality of dietary supplements. These supplements are mainly unregulated and sold without federal regulated proof of safety or efficacy. Labels are leniently published under the pseudonym of “Supplement Facts” and restrict from claiming treatment or prevention of medical diseases. The FDA is only legally able to subject such supplements to regulations after proof of misbranding or harm results from such products. Ultimately, the FDA strives to protect and promote the public health industry by monitoring and controlling the drugs, foods, and products that can affect one’s health. While there may be certain supplements exempt from such tight government scrutiny, the pharmaceutical industry focuses much of its analytical processing power to determine its products’ safety and effectiveness for wide consumption.</para>
+      <para id="import-auto-idm303281680">A pharmaceutical company’s ability to chemically analyze a drug is essential for the company to synthesize the drug correctly, and in accordance with standards defined by regulatory agencies of the industry. The techniques described above allow manufacturers to evaluate the composition of a drug from the earliest stages of development, to the packaging of the final product. This provides them with the information necessary to fine-tune protocols, and maximize the efficiency of manufacturing processes. More importantly, such analytical chemistry techniques are required to address drug safety and efficacy concerns surrounding a pre-approved drug. Manufacturers must identify possible impurities and prove the drug is compliant with identity, strength, quality, and purity standards before it can be submitted for review. In order to detect impurities contained in a final product and prove that the drug meets certain regulatory criteria, pharmaceutical manufacturers must utilize chromatographic and spectrometric methods, among others, to collect the necessary data. These analytical methods, and the data that come from them, are instrumental in maintaining transparency between pharmaceutical manufacturers, regulatory agencies of the industry, and consumers.</para>
+      <para id="import-auto-idm508264176">As long as there are analytical methods available to indicate a drug’s expected safety and efficacy on the market, regulatory agencies of the pharmaceutical industry will be able to oversee the development and commercialization of emerging medications and thereby protect consumers. They do so by establishing standards, derived from analytical methods, which pre-market drugs must meet, in order to apply for approval. Today, the modern approach to drug therapy is shifting as new types of medication are developed. The exciting development of personalized gene and nanoparticle-based therapies brings with it the challenge of regulating such medications.</para>
+
+
+
+      
+      <para id="import-auto-idm331581712">Personalized medicine presents an opportunity for significant advances in the way pharmaceutical companies combat disease and will have to be regulated by an approach different than how commercially available drugs are regulated now. These new medications are created with chemical makeup specific to individual patients based on their genetics and the markers over or under expressed at the site of interest, and are therefore different for virtually every patient. For that reason, performing the same analytical techniques and referencing the same standards set for commercial drug development would be an insufficient approach to determine the safety and efficacy of a personalized medication. Bearing this in mind, a new regulatory approach must be developed for such medications, involving more advanced tools and screening. Already, the FDA has deployed a number of programs designed to regulate the science in support of personalized medicine. The “High-Performance Integrated Virtual Environment” (HIVE) is a database utilized by the FDA, which stores and analyzes the genetic code of individuals in reference to the genomes of other individuals who have been treated with personalized medicine. This program, and many like it, illustrates the potential for more analytical techniques to surface in the future to regulate new medications.</para>
+    </section><section id="import-auto-idm260431328">
+        <title>Good practice (GxP)</title>
+        <para id="import-auto-idm1110813776">Good practice laws were officially enacted in 1978 by the FDA and have been updated consistently over the past 40 years.  Good practice laws cover all steps of development of the drug from laboratory, to clinical trials, manufacturing, and distribution. In the laboratory, GLP dictates quality standards for how a study is conducted, how to collect data, and how to report results. For example, multiple scientists must sign off on a certain method used for a synthetic step in the development of a drug in order to ensure there was no falsification of data, and that records indicate what actually happened. Another part of GLP is quality assurance (QA). A QA auditor who has to ensure that all the people conducting science experiments are qualified and confirm that all the methods were correctly followed ensures this. The goal of GLP is to ensure that good science is conducted.</para>
+        <para id="import-auto-idm1172692224">Once a drug is taken to clinic it, GCP guidelines determine how a drug may be administered to humans safely. GCP guidelines come from a code of conduct from the Declaration of Helsinki in 1964 and were later combined with additional guidelines from the International Conference on Harmonization (ICH) in the 1990s. These guidelines were set in place to ensure humane treatment of human subjects in drug trials, specifically listing consent and safety of patients as critical to clinical trials. Part of GCP mandates that pharmaceutical companies must ensure efficacy, quality, and adverse effects of drugs prior to testing them in humans. In order to reach these goals, clinical trials are separated into multiple stages (<link target-id="import-auto-idm1292329728"/>). In these four phases companies are able to determine how much of a drug is safe for humans and eventually test novel drugs against the current available drugs.  Breaching GCP can lead to massive wastage of money and resources for governments, health systems, and pharmaceutical companies.</para><table id="import-auto-idm1292329728" summary="Phases of pre-clinical and clinical trials involving new drugs.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Phase </emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Primary goal </emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Dose </emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Patient monitor </emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Typical number of participants </emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Preclinical </entry>
+                <entry>Testing of drug in non-human subjects, to gather efficacy, toxicity and pharmacokinetic information </entry>
+                <entry>unrestricted </entry>
+                <entry>scientific researcher </entry>
+                <entry>not applicable (<emphasis effect="italics">in vitro</emphasis> and <emphasis effect="italics">in vivo</emphasis> only) </entry>
+              </row>
+              <row>
+                <entry>Phase 0 </entry>
+                <entry>Pharmacokinetics; particularly, oral bioavailability and half-life of the drug </entry>
+                <entry>very small, subtherapeutic </entry>
+                <entry>clinical researcher </entry>
+                <entry>10 people </entry>
+              </row>
+              <row>
+                <entry>Phase I </entry>
+                <entry>Testing of drug on healthy volunteers for safety; involves testing multiple doses</entry>
+                <entry>often subtherapeutic, but with ascending doses </entry>
+                <entry>clinical researcher </entry>
+                <entry>20–100 normal healthy volunteers (or for cancer drugs, cancer patients) </entry>
+              </row>
+              <row>
+                <entry>Phase II </entry>
+                <entry>Testing of drug on patients to assess efficacy and side effects </entry>
+                <entry>therapeutic dose </entry>
+                <entry>clinical researcher </entry>
+                <entry>100–300 patients with specific diseases </entry>
+              </row>
+              <row>
+                <entry>Phase III </entry>
+                <entry>Testing of drug on patients to assess efficacy, effectiveness and safety </entry>
+                <entry>therapeutic dose </entry>
+                <entry>clinical researcher and personal physician </entry>
+                <entry>300–3,000 patients with specific diseases </entry>
+              </row>
+              <row>
+                <entry>Phase IV </entry>
+                <entry>Postmarketing surveillance, watching drug use in public </entry>
+                <entry>therapeutic dose </entry>
+                <entry>personal physician </entry>
+                <entry>anyone seeking treatment from their physician </entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Phases of pre-clinical and clinical trials involving new drugs. </caption>
+</table><para id="import-auto-idm244863936">Once a drug passes the clinic it can be produced on a large scale and be distributed widely. In order to ensure the same quality and consistency of drugs GMP and GDP the FDA enacts regulations. The goal of GMP and GDP is to take proactive measures to ensure that companies minimize contamination and errors, in turn protecting the consumer from harmful consumption of an impure or toxic drug. GMP and GDP regulations are intentionally vague allowing each individual company to decide how to regulate sanitation, personnel qualifications, and equipment functionality. Breaching GMP regulations can lead to large fines and sanctions against a company. Similar to GLP and GCP, quality is assured through audits.</para>
+      </section>
+      <section id="import-auto-idm1147539088">
+        <title>Patents</title>
+        <para id="import-auto-idm1147539216">Patents are generally important regulations in any chemical industry; however, they play a larger role in pharmaceuticals. Patents are the main incentive for companies to continue R&amp;D and provide stability in the drug market. The US Patent office grants 20 years of exclusivity to an invention from the date of filing, with certain extensions or limitations based on the category. If the drug is novel, companies can apply to the FDA for 5-year extensions. In addition, if a drug is made to target a disease that affects young children, the drug can maintain exclusivity for up to 6 more months.</para>
+        <para id="import-auto-idm1131038128">In recent times, patents have been seen as very controversial in the industry. They allow for great investment in research and allow for companies to make profits and keep producing. On average, it takes about $2.6 billion dollars of investment and 10 years to put a drug from research to market. Without patents, there would be little investment into research. Additionally, companies would wait until one company puts the drug on the market and just reproduce the same drug at lower prices and undercut the competition, essentially benefitting off another company’s research without paying for R&amp;D.  For example, the company Amgen is valued at $7.72 billion dollars but has only produced two successful drugs: Neupogen, and Enbrel. Amgen has been able to profit from its drugs’ exclusivity in the last 20 years. On the other hand, without competition and no price limit, companies can overprice their drugs, leading to inaccessibility for large portions of the population. </para>
+      </section>
+      <section id="import-auto-idm1131038416">
+        <title>Orphan Drug Act and Rare Disease Act</title>
+        <para id="import-auto-idm226676240">Another set of regulations that have influenced R&amp;D in pharmaceutical companies is the Orphan Drug Act and the Rare Disease Act. Most of the R&amp;D budget goes to development of drugs that affect a large population of people because that’s where all the profits are for the companies. The problem is that many people who suffer from rare diseases get neglected and go untreated.  To respond to this problem, the government has subsidized R&amp;D into rare diseases through these two acts. This has increased R&amp;D into pharmaceutical treatments for rare diseases, also known as “orphan drugs”. These acts have allowed several people to get treated for several diseases such as muscular dystrophy, ALS, Huntington’s, and Parkinson’s disease. In addition, to further incentivize pharmaceutical companies, the FDA has offered extensions of 7 years for orphan drugs, providing another huge area for profit for the companies.</para>
+      </section>
+      <section id="import-auto-idm1103352960">
+        <title>Innovation needs</title>
+        <para id="import-auto-idm1191235472">With the industry wide reduction of R&amp;D budgets, pharmaceutical companies need to innovate and find ways in order to reduce the time and cost of R&amp;D while increasing returns on investments. In order to do this new technology must be used such as machine learning, genome sequencing, 3D printing, and nanotechnology. These technologies can revolutionize drug discovery and manufacturing and reduce the burden on analytical chemists.</para>
+        <para id="import-auto-idm1191235728">One of the biggest problems for analytic chemists is the time it takes to characterize and separate the vast number of drugs that could potentially be a treatment. Many of these drugs show no human activity and waste the time of many scientists. By incorporating machine learning and artificial intelligence into drug discovery, better guesses can be made by scientists. For example, with a crystal structure of a protein, artificial intelligence will be able to make the optimal guess of a drug that can fit into the binding pocket of a protein. This will guide chemists in the correct direction instead of making several drugs that are all guesses. This reduces the amount of work for analytical chemists and reduces the cost of R&amp;D. In order to make this change, the pharmaceutical industry must increase recruitment of data scientists and technology employees.</para>
+        <para id="import-auto-idm226676112">Another innovation in pharmaceuticals is genome sequencing. This technology allows researchers to identify gene abnormalities or biomarkers in individuals to predict which type of patients will be most benefited by a certain drug and which patients will have severe side effects. Recently Obama’s $215 million Precision Medicine Initiative has spurred the growth of several genomics programs in industry. Companies such as GlaxoSmithKline, Roche, AstraZeneca, and Abbvie have already been working with the FDA to develop genomics programs in order to expedite the drug discovery process. Genome sequencing could ultimately cut time and costs in R&amp;D and lead to higher incentives to conduct R&amp;D.</para><para id="import-auto-idm1208684624">One of the jobs of analytical chemists in pharmaceuticals is to examine the concentration and quality of active ingredients and assess how the drug will disperse throughout a human. Since every human is different it can be difficult to design a pill or tablet that works just as well in every human. 3D printing can revolutionize individualistic treatments by delivering specific doses of drugs with specific diffusion properties. 3D printing allows a pill to be made by stacking layers of the drug until the desired dosage is reached. Researchers at the School of Pharmacy of University College of London have analyzed how the surface area and volume contribute to a drug’s diffusion in the body. With 3D printing, companies can vary the surface area to volume ratio for each pill and provide the best option for patients. This would be difficult to do with standard manufacturing practices. Aprecia Pharmaceuticals has utilized this technology and has gotten approval from the FDA for their epilepsy drug Spritam. The long-term goal of 3D printing is to have each patient be able to download and print personalized pills. This goal would eliminate the need for analytical chemists to create a general pill or tablet that has some general diffusion pattern and will allow analytical chemists to have more freedom with drug design.</para>
+        <para id="import-auto-idm244864064">Finally, pharmaceutical companies can look towards nanotechnology to reduce the time and costs of R&amp;D. Currently many analytical and synthetic chemists must add excipients in addition to the active ingredient in order to improve diffusion across membranes or to increase solubility; however, with nanotechnology, scientists can guide the delivery of a drug to specific locations using infrared or ultraviolet radiation. This can improve drug activity and reduce the time it takes to design a drug thus improving profits for the companies.</para>
+      </section>
+    <section id="import-auto-idm1463687680"><title>Key analytical techniques </title><para id="import-auto-idm1186074240"><link target-id="import-auto-idm1451257328"/> lists the analytical techniques commonly used in the pharmaceutical industry. </para><table id="import-auto-idm1451257328" summary="Analytical techniques used in the pharmaceutical industry.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Technique</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Function of Technique</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+
+Liquid chromatography (LC) and high-performance liquid chromatography (<link url=" https://cnx.org/contents/uieDnVBC@23.1:hBnzUHCR@4/High-Performance-Liquid-chromatography" window="new">HPLC</link>)</entry>
+              <entry>Separate and identify the chemical components of a chemical mixture</entry>
+            </row>
+            <row>
+              <entry>Gas chromatography (<link url=" https://cnx.org/contents/uieDnVBC@23.1:xUaus2-x@2/Principles-of-Gas-Chromatography" window="new">GC</link>)</entry>
+              <entry>Separate the mobile and stationary gas phases</entry>
+            </row>
+            <row>
+              <entry>Nuclear magnetic resonance spectroscopy (<link url=" https://cnx.org/contents/uieDnVBC@23.1:E7XKyQly@1/Introduction-to-Nuclear-Magnetic-Resonance-Spectroscopy" window="new">NMR</link>)</entry>
+              <entry>Observe local magnetic fields around atomic nuclei to identify a sample</entry>
+            </row>
+            <row>
+              <entry>Mass Spectrometry (<link url=" https://cnx.org/contents/uieDnVBC@23.1:kl4gTdhf@1/Principles-of-Mass-Spectrometry-and-Modern-Applications" window="new">MS</link>)</entry>
+              <entry>Uses electric and magnetic fields to measure the mass of charged particles</entry>
+            </row>
+            <row>
+              <entry>Amperometry</entry>
+              <entry>Detects ions in a solution based on electric current or changes in electric current, measures concentration</entry>
+            </row>
+            <row>
+              <entry>Polarography</entry>
+              <entry>Analyzes solutions of reducible or oxidizable substances</entry>
+            </row>
+            <row>
+              <entry>Capillary electrophoresis (<link url=" https://cnx.org/contents/uieDnVBC@23.1:PjL-tA8c@3/Capillary-Electrophoresis-CE" window="new">CE</link>)</entry>
+              <entry>Separates charged analytes through a small capillary under the impact of an electric field</entry>
+            </row>
+            <row>
+              <entry>Flow injection analysis (FIA)</entry>
+              <entry>Records changes in absorbance, electrode potential, or other physical properties resulting from the passage of the sample material through the flow cell.</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup><caption>Analytical techniques used in the pharmaceutical industry.</caption>
+</table><section id="eip-795"><title>Chromatography</title><para id="import-auto-idm243582896">Chromatography is used to separate mixtures of substances based on certain properties such as size, charge, or polarity. In chemistry, separation by polarity is most common. Differences in polarity are exploited to separate mixture of compounds to assess the components in a few different methods. </para>
+      <para id="import-auto-idm1264884784">The simplest technique is known as thin layer chromatography (TLC). A thin layer of adsorbent, usually silica or alumina, is laid on top of a base surface, commonly glass or aluminum foil. The adsorbent is a strongly polar compound and interacts with other polar compounds. Sample of the product is “spotted” or dropped onto the plate at the bottom. The plate is then placed approximately 0.5 cm deep into a solvent mixture that is much less polar than the adsorbent. The solvent is then pulled up the plate using capillary action. As the solvent moves up the plate, more polar compounds interact strongly with the plate and do not travel, while the less polar compounds move with the solvent up the plate. The result is to separate a mixture of compounds by their polarity. The compounds on the plate are visualized using UV absorbance. If the compounds of interest are not UV active, various stains can be used to react with the compounds on the plate and cause them to change color for observation. TLC separations are quantified using R<sub>f</sub> values, defined as the distance travelled by the compound of interest divided by the distance traveled by the solvent. TLC is a very valuable technique because it requires only a small amount of sample, has minimal equipment costs or preparation associated with it, and can give results rapidly. However, compounds that have similar polarities cannot be easily separated. TLC also has low sensitivity, so it cannot be reliably used to detect trace contaminants. </para>
+      <para id="import-auto-idm1252639600">In order improve separation another technique called high performance thin layer chromatography (HPTLC) can be used. This technique uses higher quality plates with smaller adsorbent particle size. This allows the plate to give both better separation and higher sensitivity. In addition, the smaller particle size reduces the runtime of a TLC separation.</para>
+      <para id="import-auto-idm235047872">Another version of chromatography analysis commonly used is high performance liquid chromatography (HPLC). Liquid chromatography (LC) is a commonly used technique for purifying solutions by separating them by polarity and collecting samples individually. HPLC is to LC as HPTLC is to TLC. The additional advantages of HPLC make it useful to chemists as an analytical method. In HPLC, specialized equipment is used to push solvent, called the mobile phase, through a column, referred to as the stationary phase. This gives much better separation than what is seen in traditional liquid chromatography and allows chemists to see components of mixtures with superior resolution than TLC. Specific HPLC columns can be used to enhance separation even further, including chiral columns that can be used to separate enantiomers in a racemic mixture. The different components are also visualized using UV spectrometry, and if the compounds of interest are not UV active, then they cannot be detected. Since the solid phase is not exposed like it is in TLC, certain stains cannot be used. </para>
+      <para id="import-auto-idm1143138176">There are many other forms of chromatography that are useful to chemists like gas chromatography which involves vaporizing a sample and passing it through a hollow column lined with a stationary phase (usually a thin layer of liquid or polymer). The solid phase uses the same polarity principle as seen in both TLC and HPLC. The sample is carried on the mobile phase, an inert gas, most commonly helium. The sample travels through the column where more polar compounds take longer to elute as they have more interactions with the solid phase. This causes the mixture to separate by polarity. At the end of the column is a detector, often a thermal conductivity detector (TCD), a flame ionization detector (FID), or both. </para>
+      <para id="import-auto-idm1325451344">A thermal conductivity detector works by passing the sample around a tungsten-rhenium filament with a current traveling through it. The inert gas does not disturb the thermal conductivity or the metal, but analyte molecules can interact with the metal and decrease the thermal conductivity. A flame ionization detector works by pyrolyzing carbon-containing compounds to form cations and electrons, which generates a current for detection. Gas chromatography has an advantage because it does not rely on UV activity in order to detect the components of the solution. However it does require the analyte to be volatile enough to be vaporized. </para>
+    </section><section id="eip-430"><title>Mass spectroscopy</title><para id="import-auto-idm267202096">While chromatography is excellent for separating mixtures, it is unable to determine the components of a mixture. If the components are already known, it is possible to make educated guesses about which fractions belong to which component based on their relative polarities. If the components of the mixture are unknown, are not UV active, and/or cannot be stained, then it can be difficult to know what species you separated in your chromatography. This is where mass spectrometry comes in. `</para>
+      <para id="import-auto-idm1113875952">Mass spectrometry works by ionizing a sample in the gas phase and measuring the mass to charge ratio of the ions. There are multiple techniques for both the ionization step and the mass measurement step: </para>
+      <list id="eip-109"><item>Electron ionization (EI) is common because it is applicable to most organic compounds, with the only requirement being that they are volatile upon heating. Once the sample enters the gas phase, it is irritated with electrons where it acquires excess energy, causing it to fragment into ions. The mass of these fragments can then be measured and used to assess the mass of the sample as a whole. </item>
+<item>Electrospray ionization (ESI) is a technique where a solution of sample is ejected through a small tube into a strong electric field in a vacuum. This causes the solvent to dissolve such that the remaining sample particles pick up a charge. These ions are then passed into the analyzer to detect their mass to charge ratio. Because this technique causes samples to pick up multiple charges, it is unsuitable for smaller molecules. Thus, ESI is most commonly used for large molecules such as organometallics, polymers, and proteins. </item>
+<item>Matrix assisted laser desorption/ionization (MALDI) is a technique that relies on the use of a matrix, which absorbs the energy of a laser to excite the molecules into a gaseous ion state. Desorption is the process of ejecting the sample from the matrix, followed by moving the sample into the charged state. This technique is widely used for many types of samples. It is only limitation is an inability to detect below a certain molecular weight. This makes it unsuitable for use in small molecule chemistry. </item></list><para id="import-auto-idm232221120">Once the sample has ionized, it moves into the detector. The two most common detector types are the sector field mass analyzer and time-of-flight (TOF) analyzer. A sector field analyzer works by applying an electric field to the path of the ion, causing it to change course. This movement is more pronounced for lighter molecules allowing the machine to compare the relative mass to charge values. The time-of-flight analyzer functions similarly to a chromatography technique. All of the particles are accelerated into a path with the same potential to give them the same energy so ion travel is dependent only on mass.</para>
+      <para id="import-auto-idm1168563360">Mass spectrometry is a great compliment to both HPLC and GC. There are instruments are the market that combine the techniques, commonly referred to liquid chromatography-mass spectrometry (LC-MS) and gas chromatography (GC-MS). These instruments work by passing the sample first through the chromatography column to separate the mixture by polarity. As the different fractions come off of the column they are passed directly into a mass spectrometry machine, most commonly MALDI-TOF. This means that the peaks given on the chromatography can be assigned a mass, making it easier to confidently identify the components of the mixture.</para>
+    </section>
+      <section id="eip-102"><title>Capillary electrophoresis (CE)</title><para id="eip-453">Capillary electrophoresis (CE) is an electrophoretic technique based on the separation of charged analytes through a small capillary under the impact of an electric field. In CE, solutes are detected as peaks and the area of the peaks are proportional to concentration of solute. Compared to HPLC and gas chromatography, CE has a quicker time scale, uses low volume injections, utilizes cheap capillary columns, and often requires aqueous solutions. These beneficial characteristics make CE a valuable alternative to traditional separating methods. Flow injection analysis (FIA) is a recent attempt to automate the chemical analysis procedure. In FIA, a liquid sample is injected into a moving uninterrupted stream of carrier fluid. The injected sample forms a zone in that fluid and then moves to the detector. It utilizes a detector that records changes in absorbance, electrode potential, and other physical properties resulting from the passage of a sample material through the flow cell. <link target-id="import-auto-idm1095970496"/> depicts the different phases of FIA as a sample flows through the cell. </para>
+
+<figure id="import-auto-idm1095970496"><media id="import-auto-idm1169176592" alt="">
+          <image mime-type="image/jpg" src="../../media/FIA.jpg" width="350" print-width="3.5in"/>
+        </media>
+      <caption>An illustration of the different phases of FIA. Reproduced with permission from M. R. Siddiqui, Z. A. Al-Othman and N. Rahman, <emphasis effect="italics">Arab. J. Chem.</emphasis>, 2017, <emphasis effect="bold">10</emphasis>, S1409-S1421 (Copyright Elsevier, 2017). </caption></figure>
+
+</section></section><section id="import-auto-idm1101233120">
+      <title>Conclusions and future directions</title>
+      <para id="import-auto-idm216000656">Sound analytical chemistry is extremely important for the pharmaceutical industry. Due to shorter patents and smaller research budgets, analytical chemists have to find ways to be more economically efficient. The types of techniques that have the most utility in the industry are gas chromatography, HPLC, NMR, and mass spectroscopy. The advancement of capillary electrophoresis and flow injection analysis has made these techniques very important as well. These techniques are all essential for the drug discovery, manufacturing, and quality assurance processes that pharmaceutical companies go through to bring a drug to market.</para>
+      <para id="import-auto-idm216000400">The pharmaceutical industry will face a great deal of challenges in the future, but new technology will also provide more opportunities for growth. Big data and artificial intelligence may be able to help companies with the drug discovery process. Additionally, the possibility of 3D printing drugs could make manufacturing cheaper as well as making drugs more widespread across the globe. Analytical chemistry must continue to evolve along with the pharmaceutical industry while also cutting costs as the economics of the business become more complicated.</para>
+    </section>
+    <section id="import-auto-idm1145374960">
+      <title>Exercises</title>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-idm1145374576"><title>Numerical questions</title><exercise id="eip-947"><problem id="eip-933">
+  <para id="eip-930">In the aspirin synthesis (<link target-id="eip-35"/>) 1.254 g salicylic acid (M<sub>W</sub> = 138.12 g/mol) is reacted with excess acetic anhydride. How many grams of aspirin (M<sub>W</sub> = 180.158 g/mol) are produced?</para>
+<equation id="eip-35"><media id="import-auto-idm235427248" alt=""><image mime-type="image/jpg" src="../../media/Q1.jpg" width="500" print-width="5in"/></media></equation></problem>
+
+<solution id="eip-923">
+<equation id="eip-433"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mtext>mass aspirin </m:mtext>
+            <m:mtext/>
+            <m:mtext/>
+            <m:mtext>= </m:mtext>
+            <m:mtext/>
+            <m:mtext>mass salicylic acid </m:mtext>
+            <m:mtext/>
+            <m:mtext/>
+            <m:mtext>×</m:mtext>
+            <m:mfrac>
+              <m:mrow>
+                <m:mtext/>
+                <m:msub>
+                  <m:mtext>M</m:mtext>
+                  <m:mtext>W</m:mtext>
+                </m:msub>
+                <m:mtext> aspirin</m:mtext>
+              </m:mrow>
+              <m:mrow>
+                <m:mtext/>
+                <m:msub>
+                  <m:mtext> M</m:mtext>
+                  <m:mtext>W</m:mtext>
+                </m:msub>
+                <m:mtext> salicylic acid</m:mtext>
+              </m:mrow>
+            </m:mfrac>
+            <m:mtext/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">"mass aspirin" " " " " "= " " " "mass salicylic acid" " " " " "×"   {" " {"M"} rsub {"W"} " aspirin"} over {" " {" M"} rsub {"W"} " salicylic acid"} "  "</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+
+
+<equation id="eip-971"><m:math display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mn>1.254</m:mn>
+              <m:mi>g</m:mi>
+              <m:mi>×</m:mi>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>180.158</m:mn>
+                    <m:mrow>
+                      <m:mi>g</m:mi>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>138.12</m:mn>
+                    <m:mrow>
+                      <m:mi>g</m:mi>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>1.636</m:mn>
+              </m:mrow>
+              <m:mi>g</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">1.254 g  ×  {180.158 g/mol } over {138.12 g/mol }   =1.636 g</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+</solution>
+</exercise>
+        
+
+
+
+
+
+
+
+
+
+
+<exercise id="eip-406"><problem id="eip-359">
+  <para id="eip-424">A vitamin C (ascorbic acid, <link target-id="import-auto-idm1196007408XXX"/>) tablet has been dissolved in 250 mL of deionized water to be titrated. The titration (<link target-id="eip-737"/>) reached the endpoint once 2.649 mL of 0.005 M iodine solution was added. How many grams of ascorbic acid (M<sub>W</sub> = 176.12 g/mol) were present in the tablet?</para><figure id="import-auto-idm1196007408XXX"><media id="import-auto-idm1196007280XXX" alt=""><image mime-type="image/jpg" src="../../media/Asc.jpg" width="200" print-width="2in"/></media><caption>Structure of ascorbic acid (vitamin C).</caption></figure><equation id="eip-737"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mtext>ascorbic  acid + </m:mtext>
+            <m:mtext/>
+            <m:msub>
+              <m:mtext>I</m:mtext>
+              <m:mtext>2</m:mtext>
+            </m:msub>
+            <m:mtext/>
+            <m:mover>
+              <m:mtext/>
+              <m:mi>→</m:mi>
+            </m:mover>
+            <m:mtext>  2</m:mtext>
+            <m:mtext/>
+            <m:msup>
+              <m:mtext>I</m:mtext>
+              <m:mtext>-</m:mtext>
+            </m:msup>
+            <m:mtext>+  dehydroascorbic  acid</m:mtext>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">"ascorbic  acid+" " " {"I"} rsub {"2"} "  " {" "} csup {→} "  2" " " {"I"} ^ {"-"} "+  "  "dehydroascorbic"  "  acid"</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+</problem>
+
+
+<solution id="eip-670">
+
+<equation id="eip-849"><m:math display="block">
+          <m:semantics>
+            <m:mrow>
+              
+ <m:mtext>mass ascorbic acid </m:mtext>
+              <m:mrow>
+               
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                       <m:mtext> volume  </m:mtext> <m:mtext>   </m:mtext>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mi>×</m:mi>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">[</m:mo>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>I</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">]</m:mo>
+              </m:mrow>
+              <m:mi>×</m:mi>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>M</m:mi>
+                      <m:mi>W</m:mi>
+                    </m:msub>
+                     <m:mtext> ascorbic acid </m:mtext>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">mass ascorbic acid = left (volume  {I} rsub {2} right )  ×  left [{I} rsub {2} right ]  × ( {M} rsub {W}  ascorbic acid)</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+<equation id="eip-475"><m:math display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>0.002649</m:mn>
+                    <m:mi>L</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mi>×</m:mi>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>0.005</m:mn>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:msup>
+                        <m:mi mathvariant="italic">dm</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mi>×</m:mi>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>176.12</m:mn>
+                      <m:mrow>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi mathvariant="italic">mol</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0.002333</m:mn>
+              </m:mrow>
+              <m:mi>g</m:mi>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">left (0.002649 L right )  ×   left (0.005 mol/ {dm} ^ {3} right ) ×  left (176.12 g/mol right ) = 0.002333 g </m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+</solution>
+</exercise>
+
+
+
+
+
+<exercise id="eip-95"><problem id="eip-769">
+  <para id="eip-192">A pharmaceutically active ingredient is an ester with the formula C<sub>6</sub>H<sub>8</sub>O<sub>4</sub>. From the <sup>1</sup>H NMR spectrum (<link target-id="import-auto-idm1196007408"/>), what is the structure of this molecule?
+  </para>
+<figure id="import-auto-idm1196007408"><media id="import-auto-idm1196007280" alt=""><image mime-type="image/jpg" src="../../media/Q3.jpg" width="400" print-width="4in"/></media><caption><sup>1</sup>H NMR spectrum of a pharmaceutically active ingredient <link url="https://www.chemicalbook.com/SpectrumEN_624-49-7_1HNMR.htm"><emphasis effect="underline">https://www.chemicalbook.com/SpectrumEN_624-49-7_1HNMR.htm</emphasis></link></caption></figure></problem>
+
+<solution id="eip-496">
+  <para id="eip-989">Dimethyl fumarate (<link target-id="import-auto-idm1190570896"/>), the active ingredient in neuroscience drug Tecfidera. </para><figure id="import-auto-idm1190570896"><media id="import-auto-idm1190570768" alt="">
+            <image mime-type="image/png" src="../../media/Picture 22-5645.png" width="200" print-width="2in"/>
+          </media>
+        <caption>The structure of dimethyl fumarate. </caption></figure></solution>
+</exercise>
+        
+
+
+
+        
+        <exercise id="eip-264"><problem id="eip-545">
+  <para id="eip-970">After testing with a gas chromatogram, a drug has a retention time of 73 seconds. Calculate the theoretical number of plates required if the half-height width of the peak is 56.7 (<link url="https://www.shimadzu.com/an/hplc/support/lib/lctalk/theoretical_plate.html">
+            <emphasis effect="underline">https://www.shimadzu.com/an/hplc/support/lib/lctalk/theoretical_plate.html</emphasis>
+          </link>). </para></problem>
+
+<solution id="eip-759">
+  <para id="eip-677">N = 5.54(<emphasis effect="italics">tr</emphasis>/W<sub>0.5h</sub>)<sup>2</sup> = 9.183 approximately 10 plates </para></solution>
+</exercise><exercise id="eip-654"><problem id="eip-883">
+  <para id="eip-763">Bradykinin (<link target-id="import-auto-idm753435408XaCZ1ZCz11X"/>) is a peptide drug that mediates lowers blood pressure by dilating blood vessels. If a particular instrument produces a peak at 1060 <emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis> with a half height width of m<sub>1/2</sub> = 0.372, calculate the resolving power of the instrument. </para><figure id="import-auto-idm753435408XaCZ1ZCz11X"><media id="import-auto-idm574037904XaCZ1ZCz11X" alt="">             <image mime-type="image/jpg" src="../../media/drug30.jpg" width="400" print-width="4in"/>           </media>   <caption>The structure of Bradykinin. </caption></figure></problem>
+
+  
+
+
+
+<solution id="eip-954">
+  
+<equation id="eip-216"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mtext>Resolving power</m:mtext>
+          
+            <m:mrow>
+              <m:mtext> </m:mtext>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mi>m</m:mi>
+                    <m:msub>
+                      <m:mi>m</m:mi>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:msub>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1060</m:mn>
+                    <m:mn>0.372</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>2.85</m:mn>
+            </m:mrow>
+            <m:mi>x</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>3</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">"Resolving" "-" "power"   =  left ({m} over {{m} rsub {{1} over {2}}} right )   =  left ({1060} over {0.372} right )  =  2.85 x  {10} ^ {3}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+
+
+
+</solution>
+</exercise>
+
+
+
+<exercise id="eip-846"><problem id="eip-384">
+  <para id="eip-758">Cisapride (<link target-id="import-auto-idm753435408XaCZ1ZCz11XX"/>) is a gastroprokinetic medication that works by increasing motility in the upper GI tract. <link target-id="import-auto-idm753435408XaCZ1ZCz11XYX"/> is the separation of cisapride enantiomers by HPLC. Given t<sub>r</sub> and w<sub>1/2</sub> for each enantiomer, find the number of theoretical plates (N) for each peak. </para><figure id="import-auto-idm753435408XaCZ1ZCz11XX"><media id="import-auto-idm574037904XaCZ1ZCz11XX" alt="">             <image mime-type="image/jpg" src="../../media/drug32.jpg" width="300" print-width="3in"/>           </media>   <caption>The structure of cisapride. </caption></figure><figure id="import-auto-idm753435408XaCZ1ZCz11XYX"><media id="import-auto-idm574037904XaCZ1ZCz11XYX" alt="">             <image mime-type="image/jpg" src="../../media/drug31.jpg" width="300" print-width="3in"/>           </media>   <caption>The structure of cisapride. </caption></figure>
+
+</problem>
+
+<solution id="eip-810">
+  <para id="eip-235">Enantiomer I: t<sub>r</sub> = 5.80 min, w<sub>1/2</sub> = 1.10 min. Enantiomer II: t<sub>r</sub> = 10.45 min, w<sub>1/2</sub> = 1.48 min. The number of theoretical plates (N) is calculated using <link target-id="eip-6"/>. </para><equation id="eip-6"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>N</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>5.54</m:mn>
+            </m:mrow>
+            <m:msup>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>t</m:mi>
+                      <m:mi>r</m:mi>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>w</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">N = 5.54  {left ({{t} rsub {r}} over {{w} rsub {1/2}} right )} ^ {2}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-idm399372256">Enantiomer I, (-)-cisapride:</para>
+    <equation id="eip-808"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mn>5.54</m:mn>
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>5.80</m:mn>
+                        <m:mi mathvariant="italic">min</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>1.10</m:mn>
+                        <m:mi mathvariant="italic">min</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>154</m:mn>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">5.54  {left ({5.80 min} over {1.10 min} right )} ^ {2} = 154 </m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-idm396724320">Enantiomer II, (+)-cisapride:</para><equation id="eip-667"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mn>5.54</m:mn>
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>10.45</m:mn>
+                        <m:mi mathvariant="italic">min</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>1.48</m:mn>
+                        <m:mi mathvariant="italic">min</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>276</m:mn>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">5.54  {left ({10.45 min} over {1.48 min} right )} ^ {2} = 276 </m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+</solution>
+</exercise><exercise id="eip-544"><problem id="eip-591">
+  <para id="eip-576">TLC results for known samples A, B, C, and a drug of unknown composition is shown in <link target-id="import-auto-idm449192416"/>. Based on the length traveled by each spot, calculate the R<sub>f</sub> values, and indicate which molecule(s) (A/B/C) are present in the unknown.</para><figure id="import-auto-idm449192416"><media id="import-auto-idm480091088" alt="">
+          <image mime-type="image/jpg" src="../../media/TLC.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>TLC results for samples A, B, C, and a drug of unknown composition. </caption></figure></problem>
+
+<solution id="eip-204">
+
+
+
+<para id="import-auto-idm423266560">Using <link target-id="eip-793"/>. </para>
+  
+
+<equation id="eip-793"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mtext>R</m:mtext>
+              <m:mtext>f</m:mtext>
+            </m:msub>
+            <m:mtext> value =</m:mtext>
+            <m:mfrac>
+              <m:mtext>distance spot traveled</m:mtext>
+              <m:mrow>
+                <m:mtext>d</m:mtext>
+                <m:mtext>istance solvent traveled</m:mtext>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{"R"  } rsub {"f"} " value ="   {"distance spot traveled"} over {"d" "istance solvent traveled"}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-21"><m:math display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:mi>R</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1.65</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>4.0</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0.41</m:mn>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{R} rsub {f}   ( A )  =  {1.65 cm} over {4.0 cm} =0.41 </m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation id="eip-258"><m:math display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:mi>R</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2.65</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>4.0</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0.66</m:mn>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{R} rsub {f}   ( B )  =  {2.65 cm} over {4.0 cm} =0.66 </m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation id="eip-120"><m:math display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:mi>R</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>0.70</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>4.0</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0.18</m:mn>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{R} rsub {f}   ( C )  =  {0.70 cm} over {4.0 cm} =0.18 </m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation id="eip-217"><m:math display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:mi>R</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>1</m:mn>
+                      <m:mi mathvariant="italic">st</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1.65</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>4.0</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0.41</m:mn>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{R} rsub {f} ( {1} ^ {st} )  =  {1.65 cm} over {4.0 cm} =0.41 </m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation id="eip-500"><m:math display="block">
+          <m:semantics>
+            <m:mrow>
+              <m:msub>
+                <m:mi>R</m:mi>
+                <m:mi>f</m:mi>
+              </m:msub>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mi mathvariant="italic">nd</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>0.70</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>4.0</m:mn>
+                    <m:mi mathvariant="italic">cm</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0.18</m:mn>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">{R} rsub {f} ( {2} ^ {nd} )  =  {0.70 cm} over {4.0 cm} =0.18 </m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><para id="import-auto-idm461953488">Based on the R<sub>f</sub> values, the unknown drug contains compounds A and C.</para>
+
+
+</solution>
+</exercise></section><section id="import-auto-idm1104452640">
+        <title>Short answer questions:</title>
+        <list id="import-auto-idm264968048" list-type="enumerated" number-style="arabic">
+          <item>What analytical technologies do you believe have the most room for future improvement in the pharmaceutical industry and why?</item>
+          <item>What analytical practices can the pharmaceutical industry encourage in order to ensure better quality control?</item>
+          <item>Explain the ways in which you think big data and A.I. could be used to discover and improve upon drugs.</item>
+          <item>If you could theoretically advance technology of one analytical technique by 50 years overnight, what technique would you choose to most improve the pharmaceutical industry and why?</item>
+          <item>List some ways that pharmaceutical companies can stay profitable while also providing care to those in need.</item>
+        </list>
+      </section>
+    </section>
+    <section id="import-auto-idm259158592"><title>Bibliography</title><list id="import-auto-idm1146254080" list-type="bulleted"><item>B. Aksu, <emphasis effect="italics">AAPS PharmSciTech</emphasis>, 2012, <emphasis effect="bold">13</emphasis>,1138.</item>
+        <item>R. Burbidge, <emphasis effect="italics">Comput. Chem.</emphasis>, 2001, <emphasis effect="bold">26, </emphasis>5.</item>
+   
+        <item> Center for Drug Evaluation and Research. Development &amp; Approval Process (Drugs), <link url=" https://www.fda.gov/Drugs/DevelopmentApprovalProcess/"> <emphasis effect="underline"> https://www.fda.gov/Drugs/DevelopmentApprovalProcess/</emphasis></link> (accessed Nov 3, 2017).</item>
+
+        <item> Center for Drug Evaluation and Research. How Drugs are Developed and Approved, <link url="https://www.fda.gov/drugs/developmentapprovalprocess/howdrugsaredevelopedandapproved/"> <emphasis effect="underline"> https://www.fda.gov/drugs/developmentapprovalprocess/howdrugsaredevelopedandapproved/</emphasis></link> (accessed Nov 3, 2017).</item>
+
+        <item>B. Dejaegher, <emphasis effect="italics">J. Sep. Sci.</emphasis>, 2010, <emphasis effect="bold">33</emphasis>, 698.</item>
+        <item>Z. Desta, N. Soukhova, A. M. Morocho, and D. A. Flockhart, <emphasis effect="italics">J. Pharmacol. Exp. Ther.,</emphasis> 2001, <emphasis effect="bold">298</emphasis>, 2508.</item>
+        <item>J. Ermer, <emphasis effect="italics">J. Pharm. Biomed. Anal.</emphasis>, 2001, <emphasis effect="bold">24</emphasis>, 755.</item>
+        <item>FDA, <link url="https://www.fda.gov/downloads/Drugs/Guidances/UCM070337.pdf"> <emphasis effect="underline"> https://www.fda.gov/downloads/Drugs/Guidances/UCM070337.pdf
+</emphasis></link> (accessed November 2018).</item>
+
+        <item>FDA, <link url="https://www.fda.gov /downloads/drugs/ developmentapprovalprocess /smallbusinessassistance/ucm447307.pdf"> <emphasis effect="underline">https://www.fda.gov /downloads/drugs/ developmentapprovalprocess /smallbusinessassistance/ucm447307.pdf </emphasis></link> (accessed November 2018).</item>
+
+
+<item>FDA, Orphan Drug Act, <link url="https://www.fda.gov/forindustry/developingproductsforrarediseasesconditions/howtoapplyfororphanproductdesignation/ucm364750.htm"> <emphasis effect="underline">https://www.fda.gov/forindustry/developingproductsforrarediseasesconditions/howtoapplyfororphanproductdesignation/ucm364750.htm </emphasis></link> (accessed November 2018).</item>
+
+        <item>H. Gu, B. Hu, and J. Li, <emphasis effect="italics">Analyst</emphasis>, <emphasis effect="bold">2010</emphasis>, <emphasis effect="italics">135</emphasis>, 1259.</item>
+        <item>A. Haywood and B. D. Glass, <emphasis effect="italics">Aust. Prescr.</emphasis>, 2011, <emphasis effect="bold">34</emphasis>, 60.</item>
+        <item>S. Kurbanoglu, <emphasis effect="italics">Electrochim. Asia</emphasis>, 2018, <emphasis effect="bold">287</emphasis>, 135.</item>
+        <item>A. Lavecchia, <emphasis effect="italics">Drug Discov. Today</emphasis>, 2015, <emphasis effect="bold">20</emphasis>, 318.</item>
+        <item>K. Mervatova, <emphasis effect="italics">J. Pharm. Biomed. Anal.</emphasis>, 2007, <emphasis effect="bold">45</emphasis>, 367.</item>
+        <item>Z. Muwaffak, <emphasis effect="italics">Int. J. Pharm.</emphasis>, 2017, <emphasis effect="bold">527</emphasis>, 161.</item>
+        <item>NIH, https://allofus.nih.gov/, (accessed November 2015).</item>
+        <item>L. Novakova, <emphasis effect="italics">Talanta</emphasis>, 2006, <emphasis effect="bold">68, </emphasis>908.</item>
+        <item>L. A. Pastur-Romay, <emphasis effect="italics">Int. J. Mol. Sci.</emphasis>, 2016, <emphasis effect="bold">17</emphasis>, 1313.</item>
+        <item>PhRMA, <link url="http://phrma-docs.phrma.org/sites/default/files/pdf/rd_brochure_022307.pdf"> <emphasis effect="underline">http://phrma-docs.phrma.org/sites/default/files/pdf/rd_brochure_022307.pdf</emphasis></link> (accessed November 2018).</item>
+
+
+        <item>M. S. Raghavendra, J. R. Raj and A. Seetharaman, <emphasis effect="italics">Int. J. Acad. Res.</emphasis>, 2012, <emphasis effect="bold">4</emphasis>, 29.<emphasis effect="bold"/></item>
+        <item>S. D. Roughley and A. M. Jordan, <emphasis effect="italics">J. Med. Chem.</emphasis>, 2011, <emphasis effect="bold">54</emphasis>, 3451.</item>
+        <item>B. Saramento, <emphasis effect="italics">Pharm. Anal. Acta</emphasis>, 2012, <emphasis effect="bold">3.e110</emphasis>, 2153.</item>
+        <item>A. Schumacher, O. Gassmann and M. Hinder, <emphasis effect="italics">J. Transl. Med.</emphasis>, 2016, <emphasis effect="bold">14</emphasis>, 105.</item>
+        <item>M. R. Siddiqui, Z. A. Al-Othman and N. Rahman, <emphasis effect="italics">Arab. J. Chem.</emphasis>, 2017, <emphasis effect="bold">10</emphasis>, S1409. </item>
+        <item>S. Tian, <emphasis effect="italics">Mol. Pharm.</emphasis>, 2012, <emphasis effect="bold">9</emphasis>, 2875.</item>
+        <item>C. J. Van Boxtel, B. Santoso and I. R. Edwards, <emphasis effect="italics">Drug Benefits and Risks: International Textbook of Clinical Pharmacology</emphasis>, Wiley, Hoboken, NJ, USA, 2001.</item>
+        <item>A. Vijayananthan and O. Nawawi, <emphasis effect="italics">Biomed. Imaging Interv. J.</emphasis>, 2008, <emphasis effect="bold">4, </emphasis>35.</item>
+        <item>T. Vankeirsbilck, <emphasis effect="italics">Trends Analyt. Chem.</emphasis>, 2002, <emphasis effect="bold">21</emphasis>, 869.</item>
+      </list></section></content>
+</document>

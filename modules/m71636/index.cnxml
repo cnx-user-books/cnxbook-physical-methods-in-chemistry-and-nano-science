@@ -1,0 +1,884 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Environmental Conservation and Safety</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71636</md:content-id>
+  <md:title>Environmental Conservation and Safety</md:title>
+  <md:abstract/>
+  <md:uuid>9afb664d-390f-499f-93c6-3c4fcee19d5f</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-idm368287968">This module was written with the assistance of Sammy Hamdi. </para><section id="import-auto-idm1203801616"><title>Introduction </title><para id="import-auto-idm378029712">As economies around the world continue their ceaseless march towards growth and expansion, environmental pollution has become an issue on a global scale. As such, the development of effective analytical techniques to monitor, assess, and evaluate the air, water, and soil is an integral part in keeping pollution levels in check. Not only do environmental chemists measure such levels quantitatively, but they also must qualitatively gauge their results to understand how chemicals and the human activity associated with its production affect the environment. Because the environment and human safety are inextricably linked (many chemicals that are known to pollute the environment also adversely affect your health) it is imperative that environmental chemists communicate their findings to industries responsible for releasing pollutants in order to address the issues on regulatory terms.  </para>
+      
+      
+    </section><section id="import-auto-idm344805280"><title>Overview of pollutants</title><para id="import-auto-idm1246906704">The primary pollutants in air include carbon monoxide, oxides of nitrogen and sulfur, particulates, and volatile organic compounds (VOCs) in the atmosphere. While all of these pollutants can be naturally produced, their levels in the atmosphere are exacerbated by numerous manmade (anthropogenic) sources. A major source of carbon monoxide is the incomplete combustion of fossil fuels, a source, which is also responsible for releasing many of the greenhouse gases commonly attributed to global warming. </para>
+      <para id="import-auto-idm1151379664">Nitrogen oxides (NO<sub>x</sub>) and sulfur oxides (SO<sub>x</sub>) are primarily produced from the burning of fuels by power plants and other industrial facilities. Nitrogen dioxide (NO<sub>2</sub>), which is an oxide of great environmental and health concern, forms from the emissions of vehicles, power plants, and off-road equipment. Sulfur dioxide (SO<sub>2</sub>), on the other hand, is produced from the extraction of metal from ore and specific industries that directly utilize or mass-produce sulfur-containing compounds such as those performing the contact process, which is a method of producing sulfuric acid in high concentrations needed for various industrial processes. </para>
+      <para id="import-auto-idm1140711184">Particulate matter refers to a mixture of solid particles and liquid droplets found in the air. They range from submicroscopic particles emitted from combustion of organic compounds and metals to those that can be seen with the naked eye such as dirt, soot, or smoke. Because particulate matter is a wide-ranging pollutant that encompasses hundreds of compounds and materials, their sources are general and can be attributed to any industry or process that releases waste products into the air. In particular, diesel exhaust from automobiles release soot and metal particles into the air producing smog. <link target-id="import-auto-idm371046768"/> shows a graphic representation of global PM2.5 (a specific designation of particulate matter based on particle size) pollution. Interestingly, heavy pollution is concentrated in North Africa, the Middle East, South Asia, and China, where a significant portion of the population burn wood or other organics for cooking and heating. </para><figure id="import-auto-idm371046768"><media id="import-auto-idm371046640" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 3-4448.jpg" width="500" print-width="5in"/>
+        </media>
+      <caption>Global population weighted exposure to ambient PM2.5 pollution (μg/m<sup>3</sup>) (adapted from H. Ritchie and M. Roser, Air Pollution, <link url=" https://ourworldindata.org/air-pollution/"> https://ourworldindata.org/air-pollution/</link> (accessed Nov 29, 2017).</caption></figure><para id="import-auto-idm379343472">The release of volatile organic compounds (VOCs) is often ascribed to sources that are associated with fumes; namely, industries that produce paint, cleaning supplies, and solvents as well as processes that produce unburned gasoline and fuels.</para>
+      <para id="import-auto-idm1151422480">The primary pollutants found in wastewater include heavy metals, pesticides, dioxins, polychlorinated biphenyls (PCBs), nitrates, and phosphates. Among the heavy metals, As, Cd, Pb, Cr, Cu, Hg, and Ni are of major concern, mainly due to their presence at relatively high concentrations in drinking water and their known detrimental effects on human health. These heavy metals may leach into our drinking water supply through industrial processes such as mining, mineral processing, and ore production. Products such as batteries and paints may also contain heavy metals and can contaminate the water if improperly disposed. As an example to illustrate the presence of heavy metal poisoning in urban communities, <link target-id="import-auto-idm1140519040"/> depicts the prevalence of lead poisoning in New York City for children under 6 years old from 2006-2015. Most neighborhoods have a prevalence of under 5%, but some parts of the city suffer from a prevalence as high as 20%. Since the 1970s, New York City has dramatically reduced the number of children exposed to lead, but hasn’t met its longstanding goal of eliminating childhood poisoning, leaving some children vulnerable. Along with lead-based paint in old housing, the city’s children can face poisoning hazards from consumer products, soil, and water. </para><figure id="import-auto-idm1140519040"><media id="import-auto-idm1151422352" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 4-a8e6.jpg" width="450" print-width="4.5in"/>
+        </media>
+      <caption>Prevalence of childhood lead poisoning in New York City from 2006-2015. Adapted from M. B. Pell and J. Schneyer, The thousands of U.S. locales where lead poisoning is worse than in Flint. <emphasis effect="italics">Reuters</emphasis>. December 19, 2016. <link url=" https://www.reuters.com/investigates/special-report/usa-lead-testing/" window="new"> https://www.reuters.com/investigates/special-report/usa-lead-testing/</link> (accessed Nov 29, 2017). </caption></figure><para id="import-auto-idm1147264352">Pesticides, along with organic compounds containing nitrates and phosphates, can be released in the water from agriculture and the use of fertilizers. Farms are a major nonpoint source of runoff, and rainwater and irrigation can potentially drain fertilizers and pesticides into bodies of water. Polychlorinated biphenyls are a group of chlorinated hydrocarbons and are used in numerous industrial and commercial applications including electric equipment, plasticizers, pigments, dyes, and rubber products. Although manufacturing of PCBs was banned in 1979, PCBs may be present in products and materials produced before the ban and released into the environment. Finally, dioxins are a group of persistent environmental pollutants and are highly toxic. While the term “dioxin” refers to a specific compound 2,3,7,8-tetrachlorodibenzo-<emphasis effect="italics">p</emphasis>-dioxin (TCDD, <link target-id="import-auto-idm1211555664"/>), the name is often used to describe a larger family of structurally similar derivatives. They can be produced specifically through the production and incineration of chlorinated organic compounds and plastics.</para><figure id="import-auto-idm1211555664"><media id="import-auto-idm1211555536" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 1-7490.jpg" width="200" print-width="2in"/>
+        </media>
+      <caption>Structure of 2,3,7,8-tetrachlorodibenzo-<emphasis effect="italics">p</emphasis>-dioxin (dioxin). </caption></figure><para id="import-auto-idm366080896">Many pollutants of the ground overlap with the primary pollutants of water simply due to the fact that water contaminants can easily leach into the surrounding soil. However, some pollutants that are primarily associated with the soil include antibiotics, polycyclic aromatic hydrocarbons (PAHs), polymers, and nanomaterials. PAHs are insoluble in water, which limits their mobility in aquatic environments. However, they can be found in the ground from leached chemicals that occur naturally in coal, crude oil, and gasoline, especially upon the combustion of these chemicals. PAHs can also bind to or form small particles in the air resulting in an additional source of air pollution. </para>
+      <para id="import-auto-idm366080640">The pollution from antibiotics refers to the large-scale release of antibiotics into the environment. Not only do antibiotics deteriorate environmental quality, but they also result in the appearance and rapid spread of resistant bacteria in the environment. Therefore, unique from other sources of pollution, antibiotic pollution is of increasing concern as it poses additional public health risks associated with bacterial resistance. </para>
+      <para id="import-auto-idm1253715888">The pollution of polymers manifests itself most commonly in the form of plastics. Because plastics are slow to degrade, they often rapidly accumulate in both the land and the oceans. Due to such a wide-reaching range, living organisms are often victims of plastic pollution, and entire ecosystems have been severely affected when organisms directly ingest these materials, or are exposed to them. Lastly, a relatively overlooked threat to the environment is that of nanopollution. Nanoparticles are some of the smallest macromolecular pollutants, and are being expelled in increasingly greater amounts from the booming nanotechnology industries. </para>
+      <para id="import-auto-idm376436640"><link target-id="import-auto-idm378532592"/> lists all of the aforementioned pollutants alongside their primary anthropogenic source, main health effects, and comments on their industrial production. <link target-id="import-auto-idm1177386176"/> arranges selected  pollutants in a Venn diagram as a way to conceptualize the prevalence of pollutants in the environment. Owing to their small size (on the atomic level), heavy metals are an example of a pollutant that can be present in all three domains: air, water, and ground.</para><figure id="import-auto-idm1177386176"><media id="import-auto-idm369350064" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 9-e5c2.jpg" width="350" print-width="3.5in"/>
+        </media>
+      <caption>Venn diagram of major environmental pollutants. </caption></figure>
+      
+
+      <table id="import-auto-idm378532592" summary="Overview of major environmental pollutants.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Pollutant</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Anthropogenic source</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Health effects</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Production</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Carbon monoxide (CO)</entry>
+              <entry>Combustion of fossil fuels, coal power plants, waste incinerators</entry>
+              <entry>CO poisoning, heart disease</entry>
+              <entry>2.6 billion tons (global), anthropogenic (60%), deforestation (40%)</entry>
+            </row>
+            <row>
+              <entry>Nitrogen oxides (NO<sub>x</sub>)</entry>
+              <entry>Power stations, combustion engines, heavy industry</entry>
+              <entry>Respiratory diseases, lung infections</entry>
+              <entry>14.1 million tons (US, 2011)</entry>
+            </row>
+            <row>
+              <entry>Sulfur dioxide (SO<sub>2</sub>)</entry>
+              <entry>Coal/oil burning, smelting of metal ores, contact process. 99% of all SO<sub>2</sub> emissions come from man-made sources</entry>
+              <entry>Respiratory diseases, lung infections</entry>
+              <entry>6.3 millions tons (US, 2011)</entry>
+            </row>
+            <row>
+              <entry>Particulates </entry>
+              <entry>Dust from industrial activity, soot from incomplete combustion (idm371046768)</entry>
+              <entry>Lung diseases, blood clots/heart attacks, increased susceptibility to viruses and bacteria</entry>
+              <entry>EPA standard: annual 12.0 μg/m<sup>3</sup> (primary), 15.0 μg/m<sup>3</sup> (secondary)</entry>
+            </row>
+            <row>
+              <entry>Volatile organic compounds (VOCs)</entry>
+              <entry>Combustion engines, paint solvents, varnishes</entry>
+              <entry>Liver, kidney, CNS damage, eye, nose, throat infections, cancer</entry>
+              <entry>12.3 million tons (US, 2011)</entry>
+            </row>
+            <row>
+              <entry>CFCs</entry>
+              <entry>Refrigerants, propellants, cleaning solvents</entry>
+              <entry>Nausea, diarrhea, irritation of digestive tract</entry>
+              <entry>1 million tons (global, in 1970s), causes ozone depletion; production phased out by 1996</entry>
+            </row>
+            <row>
+              <entry>Heavy metals</entry>
+              <entry>Mining, mineral processing, production and smelting of ores, cement production, waste incineration</entry>
+              <entry>Neurotoxicity and brain dysfunction, metal poisoning, kidney damage, various cancers (<link target-id="import-auto-idm1140519040"/>)</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Pesticides</entry>
+              <entry>Agriculture/run-off, agriculture accounts for 80% of pesticide use</entry>
+              <entry>Skin/eye irritation, nerve damage</entry>
+              <entry>5.2 billion tons (global), 1 billion tons (US)</entry>
+            </row>
+            <row>
+              <entry>Dioxins</entry>
+              <entry>Production and incineration of chlorinated organic compounds, plastic production</entry>
+              <entry>Skin lesions, impairment of the immune system, liver damage</entry>
+              <entry>Banned in the US in 1979, but still may still be present in the environment</entry>
+            </row>
+            <row>
+              <entry>Polychlorinated biphenyls (PCBs)</entry>
+              <entry>Electric transformers and capacitors</entry>
+              <entry>Acne, rashes, liver damage, stomach damage</entry>
+              <entry>1.2 million tons between 1930 and 1975 (US), banned in 1976 (US)</entry>
+            </row>
+            <row>
+              <entry>Nitrates and phosphates</entry>
+              <entry>Fertilizes, agriculture</entry>
+              <entry>Nausea, diarrhea, vomiting, kidney/heart damage</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Antibiotics</entry>
+              <entry>Urban environments, agriculture</entry>
+              <entry>Increasingly resistant bacteria</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>Polycyclic aromatic hydrocarbons (PAHs)</entry>
+              <entry>Combustion of coal, oil, wood, residential heating, coke and Al production</entry>
+              <entry>Irritation of eyes and breathing passages, blood, liver abnormalities</entry>
+              <entry>300 - 1300 metric tons released annually (US)</entry>
+            </row>
+            <row>
+              <entry>Polymers (plastics)</entry>
+              <entry>Plastic industry landfills</entry>
+              <entry>Disrupted endocrine system</entry>
+              <entry>299 million tons of plastics produced (globally)</entry>
+            </row>
+            <row>
+              <entry>Nanomaterials</entry>
+              <entry>Manufacturing</entry>
+              <entry>Largely unknown, but probably similar to effects of heavy metals</entry>
+              <entry/>
+            </row>
+          </tbody>
+        
+
+
+</tgroup><caption>Overview of major environmental pollutants. </caption>
+</table></section><section id="import-auto-idm1253715536">
+      <title>Regulations protecting the environment </title>
+      <para id="import-auto-idm373430464">The momentous advances the chemical industries have made have not come without their deleterious environmental effects (both intentional and unintentional alike. But a multipronged approach starting in the 1970s) driven by environmentalists and their allies in the private and public sectors, has made tremendous progress in limiting the adverse environmental impacts of many industrial processes. In fact, the year 1970 marked a major win for environmental protection when the US EPA was founded and the Clean Air Act was passed. From reducing smog and toxic chemicals emitted from cars to disposing of industrial wastes in places other than our oceans and rivers to the elimination of harmful pesticides and refrigerants in favor of more benign replacements, much progress has been made in understanding the fate and transport of chemicals in the major environmental sinks and adjusting as needed to avoid major and gradual environmental catastrophes alike. </para>
+      <para id="import-auto-idm373430784">It was not an easy sell to chemical industries when their bottom line was invariably affected, but the intense public backlash to the widespread chemical waste in our environment made industry realize it was in their interest to work in improving their use, handling, disposal of critical chemicals as well as improving remediation and detection techniques using analytical tools such as chromatography and mass spectrometry. Industry and government led this change alike, the former providing crucial guidelines and industry standards and practices and the latter setting stricter rules and regulations to maintain environmental integrity. </para>
+      <para id="import-auto-idm374046128">The primary obstacle to the collaboration between the public and private sectors to protect the environment from harmful chemicals produced in industry is balancing the needs of industry to maintain proprietary information for competitive advantage and the needs of the public to be cognizant of potentially harmful chemicals. The major challenge moving forward is more intensive and accurate mathematical modeling and understanding of chemicals in the environment and sampling of our air, water, and soil that will require the collaboration of industrialists, research chemists, and engineers alike. </para>
+      <para id="import-auto-idm376724000">This life-cycle analysis of industrial chemicals and system approach the environmental modeling is now very much emphasized in industry and academia alike, and collaboration of both sectors moving forward is critical to environmental protection. </para>
+      <section id="import-auto-idm374046384">
+        <title>Air</title>
+        <para id="import-auto-idm1246470448">The Clean Air Act (1970) is the major, comprehensive federal law in the US to regulate harmful air emissions and pollutants. This law allows the EPA to establish Ambient Air Quality Standards to protect public health by directing states to develop actionable plans to set certain emission standards and achieve emission goals. Additionally, this act allows the EPA to set pollution limits of air toxics like benzene, lead, and perchloroethylene from large industrial facilities. This is done through two phases, the first of which is a technology standard set by what is maximally achievable with current technology based on levels being currently achieved in low-emitting facilities in industry. The second phase is a risk assessment phase where the EPA evaluates whether the margin of safety of the standards is sufficient to protect the environment and manage health risks. The EPA can change these standards in light of new pollution controls and prevention technology. Under this law, the EPA also sets maximum ambient limits for six criteria pollutants – ozone, particulate matter, carbon monoxide, nitrogen dioxide, sulfur dioxide, and lead based on the technology standard (<link target-id="import-auto-idm367510768"/>). Rather than directly set emission limits for the criteria pollutants, the EPA directs states to maintain ambient pollutant standards by issuing permits to major facility emitters. Greenhouse gases like carbon dioxide and methane were not covered originally because they were not thought to directly endanger public health, though in 2007 the Supreme Court ruled that under the Clean Air Act, the EPA has the obligation and authority to do so if they in fact endanger public welfare. Under the Obama administration, the EPA proposed the Clean Power Plan for existing power plants to reach CO<sub>2</sub> emission rates state by state and carbon pollution standards for new power plants at 1000-1100 lb/MWh, although many of these rules are currently backlogged by challenges in the court system. </para><table id="import-auto-idm367510768" summary="National ambient air quality standards.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Pollutant</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Level</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Emitting time period</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Carbon monoxide (CO)</entry>
+                <entry>9 ppm, 35 ppm</entry>
+                <entry>8 hours, 1 hour</entry>
+              </row>
+              <row>
+                <entry>Lead (Pb)</entry>
+                <entry>0.15 μg/m<sup>3 </sup></entry>
+                <entry> 3 months</entry>
+              </row>
+              <row>
+                <entry>Nitrogen dioxide (NO<sub>2</sub>) </entry>
+                <entry>53 ppb, 100 ppb</entry>
+                <entry>1 year, 1 hour</entry>
+              </row>
+              <row>
+                <entry>Ozone (O<sub>3</sub>) </entry>
+                <entry>70 ppb, 125 ppb</entry>
+                <entry>8 hours, 1 hour</entry>
+              </row>
+              <row>
+                <entry>Sulfur dioxide (SO<sub>2</sub>)</entry>
+                <entry>75 ppb </entry>
+                <entry>1 hour</entry>
+              </row>
+              <row>
+                <entry>Particulate matter (10 μm)</entry>
+                <entry>150 μg/m<sup>3 </sup></entry>
+                <entry>24 hours</entry>
+              </row>
+              <row>
+                <entry>Particulate matter (2.5 μm)</entry>
+                <entry>12 μg/m<sup>3</sup>, 35 μg/m<sup>3</sup></entry>
+                <entry>1 year, 24 hours</entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>National ambient air quality standards (Data obtained from EPA. Criteria Air Pollutants: NAAQS Table, <link url="https://www.epa.gov/criteria-air-pollutants/naaqs-table"> https://www.epa.gov/criteria-air-pollutants/naaqs-table</link> (accessed Nov 30, 2017). </caption>
+</table></section>
+      <section id="import-auto-idm373143840">
+        <title>Surface water </title>
+        <para id="import-auto-idm336039568">The Clean Water Act (1948) and Safe Drinking Water Act (1974) allowed the EPA to implement pollution control programs, primarily setting wastewater discharge standards for industry and municipalities and water quality standards in regard to pollutants/contaminants in surface and drinking waters. These acts authorize the EPA to establish guidelines for testing procedures used by industries and municipalities for gathering data and ensuring compliance with set effluent or wastewater standards.<sup>47</sup> These guidelines are a compilation of methods published by the consensus standards organization and others in the environmental community. Organizations who want to utilize alternative methods can do so only with EPA validation of and rulemaking on the proposal, termed the alternative test procedures (ATP). This allows professionals in the industry to utilize emerging technologies and novel analytical techniques that the government is slow to pick up on to ensure more accurate monitoring of chemicals for compliance.</para>
+        <para id="import-auto-idm376352192">Permits need to be obtained for industrial facilities disposing of chemical waste and discharging wastewater. However, of particular importance in the chemical industry is incidental or accidental chemical discharge into our waterways, particularly in the oil and gas industry. Shale gas extraction produces large volumes of wastewater from hydraulic fracturing that can contain high concentrations of dissolved solids (salts), heavy metals, and other pollutants like lubricants and antibacterial chemicals used in drilling and completion of wells. This produced water is tightly regulated by permits allowing injection into deep wells so that it cannot enter the water table. Additionally, the EPA’s Oil Pollution Prevention regulations further require owners and operators of oil and gas facilities to make and implement plans to prevent discharges. The EPA will periodically conduct inspections on oil and gas processing facilities based on such factors as proximity to drinking water intakes or environmentally sensitive areas like wetlands and places with endangered species, or the condition of infrastructure that can leak like tanks or piping. </para>
+        <para id="import-auto-idm378028640">The Toxic Substances Control Act (1976) gives the EPA authority to regulate the production, use, and exposure of certain toxic chemicals by mandating facilities to keep extensive records and monitoring of designated toxic chemicals in their wastewater and their eventual fate in the environment. Until 2016, the EPA had to determine that a chemical presented an “unreasonable risk” given its use to obtain proprietary information about it, in contrast to other places like the EU where industry is tasked with proving chemicals are safe. In 2016, the Chemical Safety Act for the 21st Century instituted mandatory safety review of chemicals and greater transparency on the model of the EU regulations. Before, many state regulations had gone far beyond federal standards due to acute human health risks of these chemicals, leading to competitive advantage issues in industry. Some chemicals used in industry of particular import that fall under this act for their harmful effects to humans and the environment are polychlorinated biphenyls (PCBs), heavy metals, asbestos and radon.</para>
+      </section>
+      <section id="import-auto-idm376352064">
+        <title>Soil and groundwater</title>
+        <para id="import-auto-idm381122688">The final major environmental sink that is regulated by the EPA is the ground. Two major concerns with soil and groundwater contamination are nutrient and pesticide runoff from farms as well as leakage from underground storage tanks, e.g., nuclear waste repositories or gasoline/chemical storage tanks. The Department of Energy is responsible for maintaining nuclear waste sites under the Nuclear Waste Policy Act (1982). The EPA is then tasked with protecting the environment from their release. Some active measures they use are constructing fences, limiting land use in the area particularly for farming, and constructing covers over nuclear waste that prevent seepage into groundwater, which also suppresses radiation and helps stabilize the waste so it doesn’t disperse through the soil. Mathematical modeling and numerical simulation of the repository and its radiation emissions are key here to ensure that the nuclear radiological risk to soil and groundwater remains low or contained in the immediate vicinity. </para>
+        <para id="import-auto-idm381255104">Moving forward, the future of chemistry in industry must be green – that is, taking into account the lifecycle of hazardous chemicals and their ultimate fate and vector through the environment. There are many factors that go into this, but the primary objective is getting ahead of the curve when it comes to environmental protection. This will require using more benign replacements for certain harmful chemicals, reaction pathways that produce less wasteful and potentially harmful side-products, choosing more inherently safer designs in chemical processes to prevent accidents and spills, and producing more accurate mathematical modeling and sampling to better understand the final state of the chemical in the environment and the major vectors and sinks it will effect. At the same time, regulatory officials and industry must work together to refine methods and technologies for analyte monitoring and to limit pollution into the environment. Forward thinking and collaboration is not only required of industrialists and regulatory officials in the US, but also regulatory bodies the world over to combat the environmental challenges affecting all humans. A major step in this regard was the Paris Climate Accord (2016) that brought almost all nations together with the aim to reduce carbon emissions through individualized voluntary programs. This voluntary or peer-pressure approach is a critical innovation in getting all nations to participate, as previous mandatory emission standards proved to be roundly ineffective.</para>
+      </section>
+    </section>
+    <section id="import-auto-idm376747520">
+      <title>Key analytical techniques</title>
+      <para id="import-auto-idm373144032">Analytical chemistry can be applied in measuring the many pollutants that often end up in soil, water supplies, and the air we breathe. The essential <emphasis effect="italics">in situ</emphasis> measurements commonly used across various methods and media include pH, temperature, turbidity, dissolved oxygen, and conductivity if ions are present. <link target-id="import-auto-idm373485328"/> provide a summary of various techniques organized into the three media discussed. </para><table id="import-auto-idm373485328" summary="Major analytical techniques, media, and various drawbacks.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Analytical technique</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Media of use</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Analyte</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Measurement</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Drawbacks</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Gravimetric analysis via precipitation</entry>
+              <entry>Ground, water</entry>
+              <entry>Metal ions, other various ions</entry>
+              <entry>Mass and concentration</entry>
+              <entry>Large amount of chemicals needed, often forms sludge-disposal, requires alkaline pH</entry>
+            </row>
+            <row>
+              <entry>Gas chromatography (<link url="https://cnx.org/contents/uieDnVBC@24.1:xUaus2-x@2/Principles-of-Gas-Chromatography">GC</link>) and high pressure liquid chromatography (<link url="https://cnx.org/contents/uieDnVBC@24.1:hBnzUHCR@4/High-Performance-Liquid-chromatography">HPLC</link>)</entry>
+              <entry>Ground, water, air</entry>
+              <entry>Gases (NO<sub>x</sub>, SO<sub>2</sub>, O<sub>3</sub>, PMs) dissolved or in air, organics (PAH, VOCs, DMU from pesticides)</entry>
+              <entry>Presence/ concentration</entry>
+              <entry>Very sensitive- detection of multiple signals if highly contaminated samples</entry>
+            </row>
+            <row>
+              <entry>Thermogravimetric/Combustion Analysis (<link url="https://cnx.org/contents/uieDnVBC@24.1:QiLqHkf7@2/Thermogravimetric-Analysis-of-Single-Walled-Carbon-Nanotubes">TGA</link>)</entry>
+              <entry>Ground, air</entry>
+              <entry>Fossil fuels such as oil, gases, hydrocarbons, certain metal hydrates</entry>
+              <entry>Mass, amount</entry>
+              <entry>Can be highly flammable, not the most consistent with metal complexes (EDTA)</entry>
+            </row>
+            <row>
+              <entry>GC/MS</entry>
+              <entry>Ground, water, air</entry>
+              <entry>Virtually any compound which can be ionized in gaseous state (dioxins, PCBs, etc.)</entry>
+              <entry>Identity, presence, mass</entry>
+              <entry>Requires compound to be on database, must be volatile enough </entry>
+            </row>
+            <row>
+              <entry>Ion exchange</entry>
+              <entry>Ground, water</entry>
+              <entry>Most metal ions (Pb<sup>2+</sup>, Cd<sup>2+</sup>, Zn<sup>2+</sup>, etc.)</entry>
+              <entry>Concentration, presence</entry>
+              <entry>Not best if large metal concentration, sensitive to pH, wastewater impurities</entry>
+            </row>
+            <row>
+              <entry>Electrolytic recovery</entry>
+              <entry>Water</entry>
+              <entry>Most metal ions</entry>
+              <entry>Mass, presence</entry>
+              <entry>Corrosion of electrodes, high current impurities</entry>
+            </row>
+            <row>
+              <entry>Absorption spectroscopy</entry>
+              <entry>Water, air</entry>
+              <entry>Most metal ions dissolved, dissolved gases (UV usually used)</entry>
+              <entry>Concentration, presence</entry>
+              <entry>Can be hard to interpret with many impurities, must use solvent blank</entry>
+            </row>
+            <row>
+              <entry>Extraction methods (DMU, w/methanol, Soxhlet, organic)</entry>
+              <entry>Ground, water</entry>
+              <entry>Mostly organic compound focus (PAH from soil), pesticides, aqueous</entry>
+              <entry>Presence, identity using GC/MS, NMR, etc. after extraction</entry>
+              <entry>Other contaminants may also be extracted</entry>
+            </row>
+            <row>
+              <entry>Adsorption techniques (zeolites, nanoparticles)</entry>
+              <entry>Ground, water</entry>
+              <entry>Mainly small metal atoms/ions, other nanoparticles </entry>
+              <entry>Identity, presence, concentration</entry>
+              <entry>Impurities can affect adsorption</entry>
+            </row>
+            <row>
+              <entry>Passive diffusion/active pumping</entry>
+              <entry>Water, air</entry>
+              <entry>Dissolved molecules, gases (NO<sub>x</sub>, PAHs, etc.)</entry>
+              <entry>Concentration, presence</entry>
+              <entry>Impurities affect rates/concentrations of diffusion</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup><caption>Major analytical techniques, media, and various drawbacks. </caption>
+</table><para id="import-auto-idm342294720">Notably, most of the analytes and pollutants depicted have various extraction methods that may then be followed by measurement techniques. Some of the analytical techniques depict both in tandem. In terms of extracting soluble metal ions from ground and water resources, there are both precipitant techniques and electroanalytical techniques. For example, often times basic titration using hydroxide ions with various samples of sewage water or water known to contain metal ions can help determine the concentration of the ions by means of gravimetric analysis of the precipitate. However for convenience, such measures are often not taken and an excess of base is added to simply precipitate out as many metal ions as possible. In other words, there may be a greater incentive to just “clean” the solution rather than taking analytical accounts of measuring concentration. </para><para id="eip-374">Another notable method of removing ions in contaminated wastewater is through ion exchange. However, this is usually limited to lesser metal ion concentrations. Matrices containing synthetic organic ion exchange resins are often used to exchange either cations or anions in solution. As stated though, high concentrations of metal ions can lead to contamination of the matrices by flooding them with organic wastes and other solids. For even purer solutions, such as processed water streams, electrolytic recovery (electrogravimetric analysis) can be used. This is a type of electroanalytical technique, which uses a current to deposit positively-charged metallic ions onto the negatively-charged cathode. The deposit can be measured to gravimetrically determine the relative mass and concentration of the metal. Nanoparticles are yet another method of extracting ions from water and soil, providing adsorbent surfaces capable of also being redox active. Further analysis can be conducted using GC/MS or a comparison of absorption spectra of the sample with various reagent/solvent blanks. In terms of organic wastes (VOCs, PCBs, dioxins, antibiotics, pesticides, etc.) mixed with aqueous water solutions, various methods of extraction with organic solvents can separate these from the metal ions. For example, 1,3-dimethylurea (DMU, <link target-id="import-auto-idm375945280"/>), a pesticide, can be extracted from the soil using methanol. Further cleaning of the solution followed by GC can determine the concentration and presence of DMU. In addition, combustion analysis of organic aliphatic hydrocarbons can help to determine the identity of unknown oils, natural gas pollutants, and fossil fuels.</para><figure id="import-auto-idm375945280"><media id="import-auto-idm370841760" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 6-b0db.jpg" width="175" print-width="1.5in"/>
+        </media>
+      <caption>The structure of 1,3-dimethylurea (DMU). </caption></figure><para id="import-auto-idm373860384">Analysis of air is mainly completed by capturing the gas of interest either passively through diffusion or actively through a pump. Passive diffusion tends to be more cost effective, with a steel mesh filter covering the tube containing triethanolamine (TEA, <link target-id="import-auto-idm372253408"/>). This compound reacts with nitrogen oxides to form nitrites and is sent to the laboratory. Washing of the metal disc with water collects the nitrite ions in solution which can be examined with UV absorption: the amount of light absorbed can determine the amount and concentration of nitrogen oxides that were present in the air collected. Different diffusion tubes can be used for other organic compounds such as benzenes and PAHs. GC or HPLC can be used to further identify other various gases. Active pumping of gases into sealed containers are also used. These tend to measure various concentrations of molecules in the air as they change hourly in time. GC/MS can directly determine the amount and presence of sulfur trioxide, carbon monoxide, ozone, PMs, and other gases collected.</para><figure id="import-auto-idm372253408"><media id="import-auto-idm1170372400" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 8-aaf3.jpg" width="200" print-width="2in"/>
+        </media>
+      <caption>Structure of triethanolamine (TEA). </caption></figure></section>
+    <section id="import-auto-idm372582272">
+      <title>Conclusions and future work</title>
+      <para id="import-auto-idm372581888">When controlling pollution in industry, there are three main steps to be taken: </para>
+      <list id="import-auto-idm366940880" list-type="bulleted" bullet-style="bullet"><item>The pollutants must be identified. For this purpose, identification processes must first be conducted on a small scale in a controlled environment before they can be scaled up and implemented on an industrial scale. Rigorous analysis of the raw materials as they are used or produced in various industries can lead to a better understanding of the pollutants involved and the extent of the environmental impact they may elicit. The detection of both predicted chemicals and unexpected ones spurs the development of new ideas for regulations. At the same time, successful analysis depends on the correct use of the many different analytical methods available for the detection of these environmental pollutants, whether they are found in the air, water, or ground. </item>
+        <item>Once the pollutants among the products have been identified, it must be determined which analytical techniques should be used to detect it in the environment. The nature of the pollutant is the principle factor in this decision, including how it enters the environment, where it is likely to be found, its physical state and chemical properties, and its effects on humans and the ecosystem at large. The nature of the particular environment should also be considered here, including geography and topography, rock and soil conditions, weather patterns, the presence or absence of water, and the lifeforms present, as these factors can affect both how pollutants impact the environment and how the pollutant can be detected. </item>
+        <item>After the pollutants have been identified and the appropriate analytical methods have been determined, formal regulations may then be imposed. It is important to know what pollutants are produced by a particular industrial process or human activity before establishing regulations in order to make sure that nothing important is being missed and that no unnecessary restrictions are being imposed to control pollutants that are not actually being produced. It is also important that the analytical methods are both accurate and consistent so that industries are not regulated too tightly or too loosely. </item>
+      </list><para id="import-auto-idm1202610624">It is also important to note that the analytical techniques presented in the chapter are not entirely optimal or ideal. Many of the analytical methods described above involve chemical reactions, which require the consumption of reagents and other materials, yielding waste products as a result. On top of that, these techniques are easily hindered by impurities in the samples, so it would be in our best interest to find innovative, efficient ways to isolate substances of interest from impurities when conducting the analysis. For example, this line of innovation would improve spectroscopic methods by cleaning up the signals. Alternatively, one can study the substances denoted as impurities themselves in the samples and establish standardized algorithms, formulas, or methods for screening them out in the data.</para>
+      <para id="import-auto-idm1202610368">In conclusion, the regulation of pollution in the environment is a continually evolving process. Many of the regulations in effect today developed over a relatively short period of time as people became increasingly aware of the impact of such pollution on public health. As new industries continue to develop, existing industries continue to adopt new practices and processes, and the world population expands, the types, nature, and impact of environmental pollution will continue to change over time. Knowing this, those responsible for regulating pollution must continue to develop and optimize analytical techniques in order to provide the necessary data to implement regulations in a manner agreeable to all involved.</para>
+    </section>
+    <section id="import-auto-idm1202610112">
+      <title>Exercises </title>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-idm372977184"><title>Numerical questions </title><exercise id="eip-440"><problem id="eip-549">
+ <para id="import-auto-idm1147579952">The COD (chemical oxygen demand) is an indicative measure of the amount of oxygen that can be consumed by reactions in a measured solution. It can be applied in quantifying the amount of oxidizable pollutants found in surface water or wastewater. The COD of a water sample is 25 mg of O<sub>2</sub> per liter. What volume of 2 mmol L<sup>-1</sup> Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> is required to titrate a 65 mL sample to the end point? </para>
+        <note id="eip-27">Note that the dichromate ion oxidizes 1.5 times the material that molecular oxygen does, i.e., the dichromate ion can accept 6 electrons (<link target-id="eip-605"/>) while molecular oxygen can only accept 4 (<link target-id="eip-34"/>).</note>
+
+
+
+<equation id="eip-605"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msubsup>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>Cr</m:mtext>
+                  <m:mtext>2</m:mtext>
+                </m:msub>
+                <m:mtext>O</m:mtext>
+              </m:mrow>
+              <m:mtext>7</m:mtext>
+              <m:mtext>2-</m:mtext>
+            </m:msubsup>
+            <m:mtext>+ 14</m:mtext>
+            <m:msup>
+              <m:mtext>H</m:mtext>
+              <m:mtext>+</m:mtext>
+            </m:msup>
+            <m:mtext> + 6</m:mtext>
+            <m:msup>
+              <m:mtext>e</m:mtext>
+              <m:mtext>-</m:mtext>
+            </m:msup>
+            <m:mtext> →   </m:mtext>
+            <m:mtext>2</m:mtext>
+            <m:msup>
+              <m:mtext>Cr</m:mtext>
+              <m:mtext>3+</m:mtext>
+            </m:msup>
+            <m:mtext>+7</m:mtext>
+            <m:msub>
+              <m:mtext>H</m:mtext>
+              <m:mtext>2</m:mtext>
+            </m:msub>
+            <m:mtext>O</m:mtext>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{{"Cr"} rsub {"2"} "O"} rsub {"7"} rsup {"2-"} "+ 14" {"H"} ^ {"+"} " + 6" {"e"} ^ {"-"} " →   " "2" {"Cr"} ^ {"3+"} "+7" {"H"} rsub {"2"} "O"</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+        <equation id="eip-34"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mtext>O</m:mtext>
+              <m:mtext>2</m:mtext>
+            </m:msub>
+            <m:mtext> + 4</m:mtext>
+            <m:msup>
+              <m:mtext>H</m:mtext>
+              <m:mtext>+</m:mtext>
+            </m:msup>
+            <m:mtext> + 4</m:mtext>
+            <m:msup>
+              <m:mtext>e</m:mtext>
+              <m:mtext>-</m:mtext>
+            </m:msup>
+            <m:mtext/>
+            <m:mtext/>
+            <m:mtext>→ </m:mtext>
+            <m:mtext> 2</m:mtext>
+            <m:msub>
+              <m:mtext>H</m:mtext>
+              <m:mtext>2</m:mtext>
+            </m:msub>
+            <m:mtext>O</m:mtext>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{"O"} rsub {"2"} " + 4" {"H"} ^ {"+"} " + 4" {"e"} ^ {"-"} " " " " "→ " " 2" {"H"} rsub {"2"} "O"</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+
+
+</problem>
+
+<solution id="eip-718">
+  
+        <equation id="eip-728"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>0.025</m:mn>
+                      <m:mi>g</m:mi>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>O</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msub>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi>L</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>32</m:mn>
+                      <m:mrow>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi mathvariant="italic">mol</m:mi>
+                      </m:mrow>
+                      <m:msub>
+                        <m:mi>O</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>7.81</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mrow>
+                  <m:mi mathvariant="italic">moles</m:mi>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi>L</m:mi>
+                </m:mrow>
+                <m:msub>
+                  <m:mi>O</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{0.025 g  {O} rsub {2} /L} over {32 g/mol   {O} rsub {2}} =7.81 ×  {10} ^ {-4}    moles/L   {O} rsub {2}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-629"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mn>7.81</m:mn>
+                <m:mi>×</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mrow>
+                  <m:mi mathvariant="italic">moles</m:mi>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi>L</m:mi>
+                </m:mrow>
+                <m:msub>
+                  <m:mi>O</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mi>×</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>0.001</m:mn>
+                      <m:mrow>
+                        <m:mi>l</m:mi>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi mathvariant="italic">mL</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:mn>65</m:mn>
+                <m:mrow>
+                  <m:mi mathvariant="italic">mL</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>5.078</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mi mathvariant="italic">moles</m:mi>
+                <m:msub>
+                  <m:mi>O</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">7.81 ×  {10} ^ {-4 } moles/L  {O} rsub {2}   ×  (0.001 l/mL)  ×  65 mL =5.078 ×  {10} ^ {-5}  moles  {O} rsub {2}  </m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm372121504">We know that 1.5 x moles Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> = moles O<sub>2</sub>, therefore: </para>
+        
+        <equation id="eip-742"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>5.078</m:mn>
+                      <m:mi>×</m:mi>
+                      <m:msup>
+                        <m:mn>10</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mn>1.5</m:mn>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>3.385</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mi mathvariant="italic">moles</m:mi>
+                <m:msub>
+                  <m:mi mathvariant="italic">Na</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:msub>
+                  <m:mi mathvariant="italic">Cr</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:msub>
+                  <m:mi>O</m:mi>
+                  <m:mn>7</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{5.078 ×  {10} ^ {-5 }} over {1.5}   =3.385 ×  {10} ^ {-5}  moles  {Na} rsub {2} {Cr} rsub {2} {O} rsub {7}  </m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-5"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>3.385</m:mn>
+                      <m:mi>×</m:mi>
+                      <m:msup>
+                        <m:mn>10</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mi mathvariant="italic">moles</m:mi>
+                      <m:msub>
+                        <m:mi mathvariant="italic">Na</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi mathvariant="italic">Cr</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>O</m:mi>
+                        <m:mn>7</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>0.002</m:mn>
+                      <m:mrow>
+                        <m:mi mathvariant="italic">moles</m:mi>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi>L</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0.0169</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>L</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>16.9</m:mn>
+                </m:mrow>
+                <m:mi mathvariant="italic">mL</m:mi>
+                <m:mi mathvariant="italic">moles</m:mi>
+                <m:msub>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi mathvariant="italic">Na</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi mathvariant="italic">Cr</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mi>O</m:mi>
+                  </m:mrow>
+                  <m:mn>7</m:mn>
+                </m:msub>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{3.385 ×  {10} ^ {-5}  moles  {Na} rsub {2} {Cr} rsub {2} {O} rsub {7}} over {0.002 moles/L}  =0.0169 L=16.9 mL moles  {{Na} rsub {2} {Cr} rsub {2} O} rsub {7}  </m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+</solution>
+</exercise>
+
+
+
+
+
+        
+
+
+
+        <exercise id="eip-313"><problem id="eip-367">
+  <para id="eip-316">Combustion analysis of a contaminating oil (hydrocarbon, M<sub>W</sub> = 114 g/mol) sample produced 15.44 g of CO<sub>2</sub> and 7.04 g of H<sub>2</sub>O. What is the identity of this compound?</para>
+</problem>
+
+<solution id="eip-675">
+  <equation id="eip-979"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>15.44</m:mn>
+                      <m:mi>g</m:mi>
+                      <m:mi>C</m:mi>
+                      <m:msub>
+                        <m:mi>O</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>44</m:mn>
+                      <m:mrow>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi mathvariant="italic">mol</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0.35</m:mn>
+                </m:mrow>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>C</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{15.44 g C {O} rsub {2}} over {44 g/mol}   =0.35 mol C</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-151"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>7.04</m:mn>
+                    <m:mi>g</m:mi>
+                    <m:msub>
+                      <m:mi>H</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                    <m:mi>O</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>18</m:mn>
+                    <m:mrow>
+                      <m:mi>g</m:mi>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mi>×</m:mi>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                      <m:mi>H</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mi>O</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0.78</m:mn>
+                </m:mrow>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>H</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{7.04 g   {H} rsub {2} O} over {18 g/mol}   ×  {2 mol H} over {1 mol  {H} rsub {2} O} =0.78 mol H</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm1140487968">Since the ratio of elements in a compound must be whole numbers: </para>
+        
+        <equation id="eip-372"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>C</m:mi>
+                <m:mi mathvariant="normal">:</m:mi>
+                <m:mn>2.25</m:mn>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>H</m:mi>
+                <m:mi>→</m:mi>
+                <m:mn>4</m:mn>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>C</m:mi>
+                <m:mi mathvariant="normal">:</m:mi>
+                <m:mn>9</m:mn>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>H</m:mi>
+                <m:mi>→</m:mi>
+                <m:msub>
+                  <m:mi>C</m:mi>
+                  <m:mn>4</m:mn>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mn>9</m:mn>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>57</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi mathvariant="italic">mol</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">1 mol C:2.25 mol H   →  4 mol C:9 mol H →   {C} rsub {4} {H} rsub {9}  =57 g/mol</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-30"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mn>4</m:mn>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>C</m:mi>
+                <m:mi mathvariant="normal">:</m:mi>
+                <m:mn>9</m:mn>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>H</m:mi>
+                <m:mi>→</m:mi>
+                <m:mn>8</m:mn>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>C</m:mi>
+                <m:mi mathvariant="normal">:</m:mi>
+                <m:mn>18</m:mn>
+                <m:mi mathvariant="italic">mol</m:mi>
+                <m:mi>H</m:mi>
+                <m:mi>→</m:mi>
+                <m:msub>
+                  <m:mi>C</m:mi>
+                  <m:mn>8</m:mn>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mn>18</m:mn>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>114</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi mathvariant="italic">mol</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">4 mol C:9 mol H   →  8 mol C:18 mol H →   {C} rsub {8} {H} rsub {18}  =114 g/mol</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+</solution>
+</exercise>
+        </section><section id="import-auto-idm372976880">
+        <title>Discussion questions</title>
+        <list id="import-auto-idm1131229856" list-type="bulleted"><item>Although carbon dioxide is popularly cited as one of the main greenhouse gases that contribute to global warming, it is not as dangerous as carbon monoxide as an air pollutant. Discuss some of the reasons why this is so.</item>
+          <item>Chlorofluorocarbons (CFCs) are atmospheric contaminants which can be eliminated by either deposition (i.e. precipitation, rain out) or reaction with other particles. Which do CFCs mainly undergo these processes and why not the other methods of elimination? How about SO<sub>2</sub> gases?</item>
+        </list></section>
+    </section>
+    <section id="import-auto-idm1194271600">
+      <title>Bibliography</title>
+      <list id="import-auto-idm374573888" list-type="bulleted"><item>Australian Department of the Environment and Energy. Sulfur Dioxide Factsheet (2005) <link url="http://www.environment.gov.au/protection/publications/factsheet-sulfur-dioxide-so2">http://www.environment.gov.au/protection/publications/factsheet-sulfur-dioxide-so2</link> (accessed Nov 28, 2017).</item>
+        <item>H. I. Abdel-Shafy and M. S. M. Mansour, <emphasis effect="italics">Egypt. J. Pet.</emphasis>, 2016, <emphasis effect="bold">25</emphasis>, 107.</item>
+        <item>S. Chowdhury, M. A. J. Mazumder, O. Al-Attas, and T. Husain, <emphasis effect="italics">Sci. Total Environ.</emphasis> 2016, <emphasis effect="bold">569–570</emphasis>, 476.</item>
+        <item>EPA. Particulate Matter (PM) <link url="https://www.epa.gov/pm-pollution/particulate-matter-pm-basics#PM">https://www.epa.gov/pm-pollution/particulate-matter-pm-basics#PM</link> (accessed Nov 6, 2017).</item>
+        <item>EPA. Summary of the Clean Air Act. <link url="https://www.epa.gov/laws-regulations/summary-clean-air-act">https://www.epa.gov/laws-regulations/summary-clean-air-act</link> (accessed Nov 30, 2017).</item>
+        <item>EPA. Controlling Hazardous Air Pollutants. <link url="https://www.epa.gov/haps/controlling-hazardous-air-pollutants">https://www.epa.gov/haps/controlling-hazardous-air-pollutants</link> (accessed Nov 30, 2017).</item>
+        <item>EPA. Criteria Air Pollutants: NAAQS Table.  <link url="https://www.epa.gov/criteria-air-pollutants/naaqs-table">https://www.epa.gov/criteria-air-pollutants/naaqs-table</link> (accessed Nov 30, 2017).</item>
+        <item>EPA. Safe Drinking Water Act. <link url="https://www.epa.gov/sdwa">https://www.epa.gov/sdwa</link> (accessed Nov 30, 2017).</item>
+        <item>EPA.Clean Water Act Compliance Monitoring. <link url="https://www.epa.gov/compliance/clean-water-act-cwa-compliance-monitoring">https://www.epa.gov/compliance/clean-water-act-cwa-compliance-monitoring</link> (accessed Nov 30, 2017).</item>
+        <item>EPA. Underground Injection Control. <link url="https://www.epa.gov/uic/underground-injection-control-regulations-and-safe-drinking-water-act-provisions">https://www.epa.gov/uic/underground-injection-control-regulations-and-safe-drinking-water-act-provisions</link> (accessed Nov 30, 2017). </item>
+        <item>EPA. Frank Lautenberg Chemical Safety for the 21st Century Act. <link url="https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/frank-r-lautenberg-chemical-safety-21st-century-act">https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/frank-r-lautenberg-chemical-safety-21st-century-act</link> (accessed Nov. 30, 2017).</item>
+        <item>EPA. Nuclear Waste Policy Act. <link url="https://www.epa.gov/laws-regulations/summary-nuclear-waste-policy-act">https://www.epa.gov/laws-regulations/summary-nuclear-waste-policy-act</link> (accessed Nov 30, 2017).</item>
+        <item>EPA. Radioactive Waste Disposal: An Environmental Perspective. <link url="https://www.epa.gov/sites/production/files/2015-03/documents/000003ob.pdf">https://www.epa.gov/sites/production/files/2015-03/documents/000003ob.pdf</link> (accessed Nov 30, 2017). </item>
+        <item>S. M. Horvath, <emphasis effect="italics">Bull. N.Y. Acad. Med.</emphasis> 1980, <emphasis effect="bold">56</emphasis>, 835.</item>
+        <item>K.-H. Kim, S. A. Jahan, E. Kabir, and R. J. C. Brown, <emphasis effect="italics">Environ. Int.</emphasis>, 2013, <emphasis effect="bold">60</emphasis>, 71.</item>
+        <item>E. V. Lau, S. Gan, and H. K. Ng, International Journal of Analytical Chemistry, 2010, <emphasis effect="bold">2010</emphasis>, 398381. </item>
+        <item>F.-Y. Lee, W.-K. Chen, C.-L. Lin, and C.-H. Kao, <emphasis effect="italics">Medicine</emphasis>, 2015, <emphasis effect="bold">94</emphasis>, 1.</item>
+        <item>J. L. Martinez, <emphasis effect="italics">Environ. Pollut.</emphasis>, 2009, <emphasis effect="bold">157</emphasis>, 2893.</item>
+        <item>J. Müller and E. Rohbock, <emphasis effect="italics">Talanta,</emphasis> 1980, <emphasis effect="bold">27</emphasis>, 673.</item>
+        <item>National Research Council, <emphasis effect="italics">Challenges for the Chemical Science in the 21st Century</emphasis>, The National Academic Press, Washington, D.C., 2003.</item>
+        <item>R. H. Nuttall and D. M. Stalker, <emphasis effect="italics">J. Inorg. Nuclear Chem.</emphasis>, 1978, <emphasis effect="bold">40</emphasis>, 39.</item>
+        <item>M. B. Pell and J. Schneyer, The thousands of U.S. locales where lead poisoning is worse than in Flint. <emphasis effect="italics">Reuters</emphasis>. December 19, 2016. <link url="https://www.reuters.com/investigates/special-report/usa-lead-testing/">https://www.reuters.com/investigates/special-report/usa-lead-testing/</link> (accessed Nov 29, 2017).</item>
+        <item>C. Potera, <emphasis effect="italics">Environ. Health Perspect.</emphasis>, 2007, <emphasis effect="bold">115</emphasis>, 580.</item>
+        <item>M. I. Sierra, A. Valdés, A. F. Fernández, R. Torrecillas, and M. F. Fraga, <emphasis effect="italics">Int. J. Nanomedicine</emphasis>, 2016, <emphasis effect="bold">11</emphasis>, 6297.</item>
+        <item>L. Zhang and M. Fang, <emphasis effect="italics">Nanotoday</emphasis>,  2010, <emphasis effect="bold">5</emphasis>, 128.</item>
+      </list></section>
+  </content>
+</document>

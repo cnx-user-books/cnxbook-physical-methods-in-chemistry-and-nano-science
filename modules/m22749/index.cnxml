@@ -1,0 +1,294 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Magnetics</title>
+  <metadata>
+  <md:content-id>m22749</md:content-id><md:title>Magnetics</md:title>
+  <md:abstract>A brief outline of some of the terms used in general magnetics</md:abstract>
+  <md:uuid>278b7e21-dd65-4874-bf03-e2d6f2894f60</md:uuid>
+</metadata>
+
+<content>
+    
+      <section id="id1167966032757">
+        <title>Magnetic moments</title>
+        <para id="id1167969755106">The magnetic moment of a material is the incomplete cancellation of the atomic magnetic moments in that material. Electron spin and orbital motion both have magnetic moments associated with them (<link target-id="id1167964986408"/>), but in most atoms the electronic moments are oriented usually randomly so that overall in the material they cancel each other out (<link target-id="id817891"/>), this is called diamagnetism. </para>
+        
+        <figure id="id1167964986408"><media id="id1167964986408_media" alt="">
+		<image mime-type="image/gif" src="../../media/orbital mot.gif" id="id1167964986408__onlineimage" width="250" print-width="2in"/>
+	</media>
+	<caption>Orbital magnetic moment. </caption></figure>
+        
+ 
+          <figure id="id817891"><media id="id817891_media" alt="">
+		<image mime-type="image/gif" src="../../media/diamagnetic.gif" id="id817891__onlineimage" height="250" width="347" print-width="2in"/>
+	</media>
+	<caption>Magnetic moments in a diamagnetic sample. </caption></figure>
+       
+
+        <para id="id1167964863222">If the cancellation of the moments is incomplete then the atom has a net magnetic moment. There are many subclasses of magnetic ordering such as para-, superpara-, ferro-, antiferro- or ferrimagnetisim which can be displayed in a material and which usually depends, upon the strength and type of magnetic interactions and external parameters such as temperature and crystal structure atomic content and the magnetic environment which a material is placed in. </para>
+        <para id="eip-885"><media id="id7865699_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-da0f.png" id="id7865699__onlineimage" height="38" width="190"/>
+          </media>
+</para><para id="id7687734">The magnetic moments of atoms, molecules or formula units are often quoted in terms of the Bohr magneton, which is equal to the magnetic moment due to electron spin </para>
+   
+
+
+        
+      </section>
+      <section id="id1167971708747">
+        <title>Magnetization</title>
+        <para id="id1167974178058">The magnetisim of a material, the extent that which a material is magnetic, is not a static quantity, but varies compared to the environment that a material is placed in. It is similar to the temperature of a material. For example if a material is placed in an oven it will heat up to a temperature similar to that of the ovens. However the speed of heating of that material, and also that of cooling are determined by the atomic structure of the material. The magnetization of a material is similar. When a material is placed in a magnetic field it maybe become magnetized to an extent and retain that magnetization after it is removed from the field. The extent of magnetization, and type of magnetization and the length of time that a material remains magnetized, depends again on the atomic makeup of the material.</para>
+        <para id="id8339477">Measuring a materials magnetisim can be done on a micro or macro scale. Magnetisim is measured over two parameters direction and strength. Thus magnetization has a vector quantity. The simplest form of a magnetometer is a compass. It measures the direction of a magnetic field. However more sophisticated instruments have been developed which give a greater insight into a materials magnetisim. </para>
+        <para id="id1167966008460">So what exactly are you reading when you observe the output from a magnetometer?</para>
+        <para id="id5867021">The magnetisim of a sample is called the magnetic moment of that sample and will be called that from now on. The single value of magnetic moment for the sample, is a combination of the magnetic moments on the atoms within the sample (<link target-id="id8757452"/>), it is also the type and level of magnetic ordering and the physical dimensions of the sample itself. 
+</para>
+
+        <figure id="id8757452"><media id="id8757452_media" alt="">
+		<image mime-type="image/gif" src="../../media/net mag moment.gif" id="id8757452__onlineimage" height="279" width="448" print-width="2.2in"/>
+	</media>
+	<caption>Schematic representations of the net magnetic moment in a diamagnetic sample. </caption></figure>
+       
+
+        <para id="id1167964868144">The "intensity of magnetization", <emphasis effect="italics">M</emphasis>, is a measure of the magnetization of a body. It is defined as the magnetic moment per unit volume or </para>
+        <para id="eip-901"><emphasis effect="italics">M</emphasis> = <emphasis effect="italics">m</emphasis>/<emphasis effect="italics">V</emphasis></para>
+        <para id="id1167963655164">with units of Am (emucm<sup>3</sup> in cgs notation).</para>
+        <para id="id1167964897802">A material contains many atoms and their arrangement affects the magnetization of that material. In <link target-id="id1167966468902"/> (a) a magnetic moment <emphasis effect="italics">m</emphasis> is contained in unit volume. This has a magnetization of <emphasis effect="italics">m</emphasis> Am. <link target-id="id1167966468902"/> (b) shows two such units, with the moments aligned parallel. The vector sum of moments is <emphasis effect="italics">2m</emphasis> in this case, but as the both the moment and volume are doubled <emphasis effect="italics">M</emphasis> remains the same. In <link target-id="id1167966468902"/> (c) the moments are aligned antiparallel. The vector sum of moments is now 0 and hence the magnetization is 0 Am. </para>
+
+
+          <figure id="id1167966468902"><media id="id1167966468902_media" alt="">
+		<image mime-type="image/jpg" src="../../media/Picture 8-a01f.jpg" id="id1167966468902__onlineimage" width="400" print-width="4in"/>
+	</media>
+	<caption>Effect of moment alignment on magnetization: (a) Single magnetic moment, (b) two identical moments aligned parallel and (c) antiparallel to each other. Adapted from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool </caption></figure>
+
+
+        
+        <para id="id8734844">Scenarios (b) and (c) are a simple representation of ferro- and antiferromagnetic ordering. Hence we would expect a large magnetization in a ferromagnetic material such as pure iron and a small magnetization in an antiferromagnet such as γ-Fe<sub>2</sub>O<sub>3</sub></para>
+        
+      </section>
+      <section id="id5994462">
+        <title>Magnetic Response </title>
+        <para id="id1167962819816">When a material is passed through a magnetic field it is affected in two ways: </para>
+        <list id="eip-478" list-type="enumerated" number-style="arabic"><item>Through its susceptibility. </item>
+<item>Through its permeability. </item>
+</list>
+        
+        <section id="eip-641"><title>Magnetic susceptibility</title><para id="eip-890">The concept of magnetic moment is the starting point when discussing the behavior of magnetic materials within a field. If you place a bar magnet in a field it will experience a torque or <emphasis effect="italics">moment</emphasis> tending to align its axis in the direction of the field. A compass needle behaves in the same way. This torque increases with the strength of the poles and their distance apart. So the value of magnetic moment tells you, in effect, 'how big a magnet' you have. </para>
+
+
+        
+        <figure id="id1167963505938"><media id="id1167963505938_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics6-4d7a.png" id="id1167963505938__onlineimage" width="432" print-width="2.8in"/>
+	</media>
+	<caption>Schematic representation of the torque or moment that a magnet experiences when it is placed in a magnetic field.  The magnetic will try to align with the magnetic field.</caption></figure>
+        
+        <para id="id1167964682532">If you place a material in a weak magnetic field, the magnetic field may not overcome the binding energies that keep the material in a non magnetic state. This is because it is energetically more favorable for the material to stay exactly the same. However, if the strength of the magnetic moment is increased, the torque acting on the smaller moments in the material, it may become energetically more preferable for the material to become magnetic. The reasons that the material becomes magnetic depends on factors such as crystal structure the temperature of the material and the strength of the field that it is in. However a simple explanation of this is that as the magnetic moment strength increases it becomes more favorable for the small fields to align themselves along the path of the magnetic field, instead of being opposed to the system. For this to occur the material must rearrange its magnetic makeup at the atomic level to lower the energy of the system and restore a balance.</para>
+        <para id="id6177843">It is important to remember that when we consider the magnetic susceptibility and take into account how a material changes on the atomic level when it is placed in a magnetic field with a certain moment. The moment that we are measuring with our magnetometer is the total moment of that sample. </para>
+        
+        
+        <para id="eip-463"><media id="id1167963938104_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics7-5fcb.png" id="id1167963938104__onlineimage" height="36" width="43"/>
+          </media>
+</para><para id="eip-175">where χ = susceptibility, M = variation of magnetization, and <emphasis effect="italics">H</emphasis> = applied field. </para>
+</section><section id="eip-525"><title>Magnetic permeability</title><para id="eip-717">Magnetic permeability is the ability of a material to conduct an electric field. In the same way that materials conduct or resist electricity, materials also conduct or resist a magnetic flux or the flow of magnetic lines of force (<link target-id="id1167965470054"/>). </para>
+
+
+    
+        
+        <figure id="id1167965470054"><media id="id1167965470054_media" alt="">
+		<image mime-type="image/gif" src="../../media/Ferromagnetic Ordering.gif" id="id1167965470054__onlineimage" height="234" width="295" print-width="2in"/>
+	</media>
+	<caption>Magnetic ordering in a ferromagnetic material. </caption></figure>
+        <para id="id1167964421991">Ferromagnetic materials are usually highly permeable to magnetic fields. Just as electrical conductivity is defined as the ratio of the current density to the electric field strength, so the magnetic permeability, μ, of a particular material is defined as the ratio of flux density to magnetic field strength. However unlike in electrical conductivity magnetic permeability is nonlinear.</para>
+        <para id="id1167964933586">μ = B/H</para>
+        <para id="id8778536">Permeability, where μ is written without a subscript, is known as <emphasis effect="italics"/>absolute permeability. Instead a variant is used called <emphasis effect="italics"/>relative permeability.</para>
+        <para id="id1167963353995">μ = μ<sub>o </sub>x μ<sub>r</sub></para>
+        <para id="id1167965897596">Absolute permeability is a variation upon 'straight' or absolute permeability, μ, but is more useful as it makes clearer how the presence of a particular material affects the relationship between flux density and field strength. The term 'relative' arises because this permeability is defined in relation to the permeability of a vacuum, μ<sub>0</sub>. </para>
+        <para id="id1167965612410">μ<sub>r </sub>= μ/μ<sub>o</sub></para>
+        <para id="id1167965868302">For example, if you use a material for which μ<sub>r</sub> = 3 then you know that the flux density will be three times as great as it would be if we just applied the same field strength to a vacuum.</para>
+
+
+      <section id="id1167965487199">
+        <title>Initial permeability</title>
+        <para id="id1167966052593">Initial permeability describes the relative permeability of a material at low values of B (below 0.1 T). The maximum value for μ in a material is frequently a factor of between 2 and 5 or more above its initial value. </para>
+        <para id="id3028331">Low flux has the advantage that every ferrite can be measured at that density without risk of saturation. This consistency means that comparison between different ferrites is easy. Also, if you measure the inductance with a normal component bridge then you are doing so with respect to the initial permeability. </para>
+      </section>
+      <section id="id1167965872871">
+        <title>Permeability of a vacuum in the SI</title>
+        <para id="id1167964833609">The permeability of a vacuum has a finite value - about 1.257 × 10<sup>-6</sup> H m<sup>-1</sup> - and is denoted by the symbol μ<sub>0</sub>. Note that this value is constant with field strength and temperature. Contrast this with the situation in ferromagnetic materials where μ is strongly dependent upon both. Also, for practical purposes, most non-ferromagnetic substances (such as wood, plastic, glass, bone, copper aluminum, air and water) have permeability almost equal to μ<sub>0</sub>; that is, their relative permeability is 1.0. </para>
+        <para id="id1167966090043">The permeability, μ, the variation of magnetic induction,</para>
+ 
+
+
+        <para id="eip-323"><media id="id5445345_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics9-cea4.png" id="id5445345__onlineimage" height="21" width="102"/>
+          </media>
+</para><para id="id1167962433703">with applied field, </para>
+        <para id="id1167963650056">μ = B/H</para>
+      </section>
+      
+
+</section>
+ 
+
+
+      </section>
+
+<section id="id1167964824116">
+        <title>Background contributions </title>
+        <para id="id8476812">A single measurement of a sample's magnetization is relatively easy to obtain, especially with modern technology. Often it is simply a case of loading the sample into the magnetometer in the correct manner and performing a single measurement. This value is, however, the sum total of the sample, any substrate or backing and the sample mount. A sample substrate can produce a substantial contribution to the sample total. </para>
+        
+        <para id="id1167969283232">For substrates that are diamagnetic, under zero applied field, this means it has no effect on the measurement of magnetization. Under applied fields its contribution is linear and temperature independent. The diamagnetic contribution can be calculated from knowledge of the volume and properties of the substrate and subtracted as a constant linear term to produce the signal from the sample alone. The diamagnetic background can also be seen clearly at high fields where the sample has reached saturation: the sample saturates but the linear background from the substrate continues to increase with field. The gradient of this background can be recorded and subtracted from the readings if the substrate properties are not known accurately. </para>
+      </section>
+      <section id="id6340575">
+        <title>Hysteresis</title>
+        <para id="id1167963771907">When a material exhibits hysteresis, it means that the material responds to a force and has a history of that force contained within it. Consider if you press on something until it depresses. When you release that pressure, if the material remains depressed and doesn’t spring back then it is said to exhibit some type of hysteresis. It remembers a history of what happened to it, and may exhibit that history in some way. Consider a piece of iron that is brought into a magnetic field, it retains some magnetization, even after the external magnetic field is removed. Once magnetized, the iron will stay magnetized indefinitely. To demagnetize the iron, it is necessary to apply a magnetic field in the opposite direction. This is the basis of memory in a hard disk drive.</para>
+        <para id="id1167964336660">The response of a material to an applied field and its magnetic hysteresis is an essential tool of magnetometry. Paramagnetic and diamagnetic materials can easily be recognized, soft and hard ferromagnetic materials give different types of hysteresis curves and from these curves values such as saturation magnetization, remnant magnetization and coercivity are readily observed. More detailed curves can give indications of the type of magnetic interactions within the sample. </para>
+        
+      </section>
+      <section id="id7915996">
+        <title>Diamagnetism and paramagnetizm </title>
+        <para id="id4172997">The intensity of magnetization depends upon both the magnetic moments in the sample and the way that they are oriented with respect to each other, known as the magnetic ordering. </para>
+        <para id="id1167963782619">Diamagnetic materials, which have no atomic magnetic moments, have no magnetization in zero field. When a field is applied a small, negative moment is induced on the diamagnetic atoms proportional to the applied field strength. As the field is reduced the induced moment is reduced. </para>
+
+
+
+          <figure id="id6439363"><media id="id6439363_media" alt="">
+		<image mime-type="image/png" src="../../media/Picture 1-9c8f.png" id="id6439363__onlineimage" width="323" print-width="3in"/>
+	</media>
+	<caption>Typical effect on the magnetization, <emphasis effect="italics">M</emphasis>, of an applied magnetic field, <emphasis effect="italics">H</emphasis>, on (a) a paramagnetic system and (b) a diamagnetic system.  Adapted from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool </caption></figure>
+     
+        
+        <para id="id1167964799575">In a paramagnet the atoms have a net magnetic moment but are oriented randomly throughout the sample due to thermal agitation, giving zero magnetization. As a field is applied the moments tend towards alignment along the field, giving a net magnetization which increases with applied field as the moments become more ordered. As the field is reduced the moments become disordered again by their thermal agitation. The figure shows the linear response M v H where μH &lt;&lt; kT. </para>
+      </section>
+      <section id="id1167961953127">
+        <title>Ferromagnetism </title>
+        <para id="id1167962246894">The hysteresis curves for a ferromagnetic material are more complex than those for diamagnets or paramagnets. Below diagram shows the main features of such a curve for a simple ferromagnet. </para>
+ 
+
+          <figure id="id1167963872317"><media id="id1167963872317_media" alt="">
+		<image mime-type="image/png" src="../../media/Picture 13-08e2.png" id="id1167963872317__onlineimage" width="322" print-width="3in"/>
+	</media>
+	<caption>Schematic of a magnetization hysteresis loop in a ferromagnetic material showing the saturation magnetization, <emphasis effect="italics">M</emphasis><emphasis effect="italics"><sub>s</sub></emphasis>, coercive field, <emphasis effect="italics">H</emphasis><emphasis effect="italics"><sub>c</sub></emphasis>, and remnant magnetization, <emphasis effect="italics">M</emphasis><emphasis effect="italics"><sub>r</sub></emphasis>. Virgin curves are shown dashed for nucleation (1) and pinning (2) type magnets.  Adapted from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool </caption></figure>
+  
+
+        
+        <para id="id1167963431376">In the virgin material (point 0) there is no magnetization. The process of magnetization, leading from point 0 to saturation at <emphasis effect="italics">M = M</emphasis><emphasis effect="italics"><sub>s</sub></emphasis>, is outlined below. Although the material is ordered ferromagnetically it consists of a number of ordered domains arranged randomly giving no net magnetization. This is shown in below (a) with two domains whose individual saturation moments, <emphasis effect="italics">M</emphasis><emphasis effect="italics"><sub>s</sub></emphasis>, lie antiparallel to each other. </para>
+  
+
+          <figure id="id1035623"><media id="id1035623_media" alt="">
+		<image mime-type="image/jpg" src="../../media/Picture 18-9aef.jpg" id="id1035623__onlineimage" width="300" print-width="3.8in"/>
+	</media>
+	<caption>The process of magnetization in a demagnetized ferromagnet. Adaped from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool </caption></figure>
+
+
+        <para id="id1167964606558">As the magnetic field, <emphasis effect="italics">H</emphasis>, is applied, (b), those domains which are more energetically favorable increase in size at the expense of those whose moment lies more antiparallel to <emphasis effect="italics">H</emphasis>. There is now a net magnetization; <emphasis effect="italics">M</emphasis>. Eventually a field is reached where all of the material is a single domain with a moment aligned parallel, or close to parallel, with <emphasis effect="italics">H</emphasis>. The magnetization is now <emphasis effect="italics">M = M</emphasis><emphasis effect="italics"><sub>s</sub></emphasis>CosΘ<emphasis effect="italics"/> where <emphasis effect="italics">Θ</emphasis> is the angle between <emphasis effect="italics">M</emphasis><emphasis effect="italics"><sub>s</sub></emphasis><emphasis effect="italics"/> along the easy magnetic axis and <emphasis effect="italics">H</emphasis>. Finally <emphasis effect="italics">M</emphasis><emphasis effect="italics"><sub>s</sub></emphasis><emphasis effect="italics"/> is rotated parallel to <emphasis effect="italics">H</emphasis> and the ferromagnet is saturated with a magnetization <emphasis effect="italics">M = M</emphasis><emphasis effect="italics"><sub>s</sub></emphasis>. </para>
+        <para id="id1167964179947">The process of domain wall motion affects the shape of the virgin curve. There are two qualitatively different modes of behavior known as nucleation and pinning, shown in <link target-id="id1167963872317"/> as curves 1 and 2, respectively. 
+
+</para>
+        <para id="id1167964325262">In a nucleation-type magnet saturation is reached quickly at a field much lower than the coercive field. This shows that the domain walls are easily moved and are not pinned significantly. Once the domain structure has been removed the formation of reversed domains becomes difficult, giving high coercivity. In a pinning-type magnet fields close to the coercive field are necessary to reach saturation magnetization. Here the domain walls are substantially pinned and this mechanism also gives high coercivity. </para>
+      </section>
+      <section id="id1167960578547">
+        <title>Remnance </title>
+        <para id="id1167964939149">As the applied field is reduced to 0 after the sample has reached saturation the sample can still possess a remnant magnetization, <emphasis effect="italics">M</emphasis><emphasis effect="italics"><sub>r</sub></emphasis>. The magnitude of this remnant magnetization is a product of the saturation magnetization, the number and orientation of easy axes and the type of anisotropy symmetry. If the axis of anisotropy or magnetic easy axis is perfectly aligned with the field then <emphasis effect="italics">M</emphasis><emphasis effect="italics"><sub>r</sub></emphasis><emphasis effect="italics"> = M</emphasis><emphasis effect="italics"><sub>s</sub></emphasis><emphasis effect="italics"/>, and if perpendicular <emphasis effect="italics">M</emphasis><emphasis effect="italics"><sub>r</sub></emphasis><emphasis effect="italics">= 0</emphasis>. </para>
+        <para id="id1167965402125">At saturation the angular distribution of domain magnetizations is closely aligned to <emphasis effect="italics">H</emphasis>. As the field is removed they turn to the nearest easy magnetic axis. In a cubic crystal with a positive anisotropy constant, <emphasis effect="italics">K</emphasis><emphasis effect="italics">1</emphasis>, the easy directions are &lt;100&gt;. At remnance the domain magnetizations will lie along one of the three &lt;100&gt; directions. The maximum deviation from <emphasis effect="italics">H</emphasis> occurs when <emphasis effect="italics">H</emphasis> is along the &lt;111&gt; axis, giving a cone of distribution of 55<sup>o</sup> around the axis. Averaging the saturation magnetization over this angle gives a remnant magnetization of 0.832 <emphasis effect="italics">M</emphasis><emphasis effect="italics">s</emphasis>. </para>
+      </section>
+      <section id="id1167965383269">
+        <title>Coercivity </title>
+        <para id="id1167970867570">The coercive field, <emphasis effect="italics">H</emphasis><emphasis effect="italics"><sub>c</sub></emphasis>, is the field at which the remnant magnetization is reduced to zero. This can vary from a few Am for soft magnets to 10<sup>7</sup>Am for hard magnets. It is the point of magnetization reversal in the sample, where the barrier between the two states of magnetization is reduced to zero by the applied field allowing the system to make a Barkhausen jump to a lower energy. It is a general indicator of the energy gradients in the sample which oppose large changes of magnetization. </para>
+        <para id="id1167964278651">The reversal of magnetization can come about as a rotation of the magnetization in a large volume or through the movement of domain walls under the pressure of the applied field. In general materials with few or no domains have a high coercivity whilst those with many domains have a low coercivity. However, domain wall pinning by physical defects such as vacancies, dislocations and grain boundaries can increase the coercivity. </para>
+
+
+          <figure id="id1167963656208"><media id="id1167963656208_media" alt="">
+		<image mime-type="image/png" src="../../media/Picture 81.png" id="id1167963656208__onlineimage" width="311" print-width="3in"/>
+	</media>
+	<caption>Shape of hysteresis loop as a function of Θ <emphasis effect="italics"><sub>H</sub></emphasis>, the angle between anisotropy axis and applied field <emphasis effect="italics">H</emphasis>, for: (a) Θ<emphasis effect="italics"><sub>H</sub></emphasis>, = 0°, (b) 45° and (c) 90°.  Adaped from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool </caption></figure>
+
+
+        
+        <para id="id1167969084986">The loop illustrated in <link target-id="id1167963656208"/> is indicative of a simple bi-stable system. There are two energy minima: one with magnetization in the positive direction, and another in the negative direction. The depth of these minima is influenced by the material and its geometry and is a further parameter in the strength of the coercive field. Another is the angle, <emphasis effect="italics">Θ</emphasis><emphasis effect="italics"><sub>H</sub></emphasis>, between the anisotropy axis and the applied field. The above fig shows how the shape of the hysteresis loop and the magnitude of <emphasis effect="italics">H</emphasis><emphasis effect="italics"><sub>c</sub></emphasis> varies with <emphasis effect="italics">Θ</emphasis><emphasis effect="italics"><sub>H</sub></emphasis>. This effect shows the importance of how samples with strong anisotropy are mounted in a magnetometer when comparing loops. </para>
+      </section>
+      <section id="id1167966037281">
+        <title>Temperature dependence</title>
+        <para id="id1167964971416">A hysteresis curve gives information about a magnetic system by varying the applied field but important information can also be gleaned by varying the temperature. As well as indicating transition temperatures, all of the main groups of magnetic ordering have characteristic temperature/magnetization curves. These are summarized in <link target-id="id6080960"/> and <link target-id="id1167964672869"/>. At all temperatures a diamagnet displays only any magnetization induced by the applied field and a small, negative susceptibility. </para>
+        <para id="id2948294">The curve shown for a paramagnet (<link target-id="id6080960"/>) is for one obeying the Curie law,
+
+</para>
+     
+   <para id="eip-612"><media id="id1167965857399_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics10-dd26.png" id="id1167965857399__onlineimage" height="46" width="43"/>
+          </media>
+</para>
+
+
+
+        <para id="id1167969436580">and so intercepts the axis at <emphasis effect="italics">T = 0</emphasis>. This is a subset of the Curie-Weiss law,</para>
+    
+    <para id="eip-613"><media id="id1167969440425_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics11-c7e0.png" id="id1167969440425__onlineimage" height="48" width="70"/>
+          </media>
+</para>
+
+
+
+        <para id="id1167959761553">where <emphasis effect="italics">θ</emphasis> is a specific temperature for a particular substance (equal to 0 for paramagnets). </para>
+
+
+
+<figure id="id6080960"><media id="id6080960_media" alt=""><image mime-type="image/jpg" src="../../media/Picture 23-b6cb.jpg" id="id6080960__onlineimage" width="300" print-width="3in"/></media><caption>Variation of reciprocal susceptibility with temperature for: (a) antiferromagnetic, (b) paramagnetic and (c) diamagnetic ordering.  Adaped from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool </caption></figure>
+
+
+        <figure id="id1167964672869"><media id="id1167964672869_media" alt="">
+		<image mime-type="image/jpg" src="../../media/Picture 26-1b3d.jpg" id="id1167964672869__onlineimage" width="300" print-width="3in"/>
+	</media>
+	<caption>Variation of saturation magnetization below, and reciprocal susceptibility above <emphasis effect="italics">T</emphasis><emphasis effect="italics"><sub>c</sub></emphasis> for: (a) ferromagnetic and (b) ferrimagnetic ordering.  Adaped from J. Bland Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool </caption></figure>
+        
+        <para id="id6842770">Above <emphasis effect="italics">T</emphasis><emphasis effect="italics"><sub>N</sub></emphasis> and <emphasis effect="italics">T</emphasis><emphasis effect="italics"><sub>C</sub></emphasis> both antiferromagnets and ferromagnets behave as paramagnets with 1/χ linearly proportional to temperature. They can be distinguished by their intercept on the temperature axis, <emphasis effect="italics">T = Θ. </emphasis>Ferromagnetics have a large, positive <emphasis effect="italics">Θ</emphasis>, indicative of their strong interactions. For paramagnetics <emphasis effect="italics">Θ</emphasis> = 0 and antiferromagnetics have a negative <emphasis effect="italics">Θ</emphasis>. </para>
+        <para id="id1167960018460">The net magnetic moment per atom can be calculated from the gradient of the straight line graph of 1/χ versus temperature for a paramagnetic ion, rearranging Curie's law to give </para>
+   
+     <para id="eip-350"><media id="id1167963456894_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics12-f281.png" id="id1167963456894__onlineimage" height="57" width="71"/>
+            </media>
+</para>
+
+
+
+        <para id="id1167964628043">where <emphasis effect="italics">A</emphasis> is the atomic mass, <emphasis effect="italics">k</emphasis> is Boltzmann's constant, <emphasis effect="italics">N</emphasis> is the number of atoms per unit volume and <emphasis effect="italics">x</emphasis> is the gradient. </para>
+        <para id="id1167961986429">Ferromagnets below <emphasis effect="italics">T</emphasis><emphasis effect="italics"><sub>C</sub></emphasis> display spontaneous magnetization. Their susceptibility above <emphasis effect="italics">T</emphasis><emphasis effect="italics"><sub>C</sub></emphasis> in the paramagnetic region is given by the Curie-Weiss law</para>
+        <para id="id1167966391696">where <emphasis effect="italics">g</emphasis> is the gyromagnetic constant. In the ferromagnetic phase with <emphasis effect="italics">T</emphasis> greater than <emphasis effect="italics">T</emphasis><emphasis effect="italics"><sub>C</sub></emphasis> the magnetization <emphasis effect="italics">M (T)</emphasis> can be simplified to a power law, for example the magnetization as a function of temperature can be given by </para>
+
+        <para id="eip-839"><media id="id1167965474056_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics13-be8b.png" id="id1167965474056__onlineimage" height="22" width="118"/>
+          </media>
+</para>
+
+
+
+
+
+        <para id="id1167971035821">where the term β is typically in the region of 0.33 for magnetic ordering in three dimensions. </para>
+        <para id="id5685903">The susceptibility of an antiferromagnet increases to a maximum at <emphasis effect="italics">T</emphasis><emphasis effect="italics"><sub>N</sub></emphasis> as temperature is reduced, then decreases again below <emphasis effect="italics">T</emphasis><emphasis effect="italics"><sub>N</sub></emphasis>. In the presence of crystal anisotropy in the system this change in susceptibility depends on the orientation of the spin axes: χ (parallel)decreases with temperature whilst χ (perpendicular) is constant. These can be expressed as </para>
+        <para id="eip-605"><media id="id1167965338584_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics14-e009.png" id="id1167965338584__onlineimage" height="38" width="60"/>
+            </media>
+</para>
+
+
+        <para id="id3867952">where <emphasis effect="italics">C</emphasis> is the Curie constant and <emphasis effect="italics">Θ</emphasis><emphasis effect="italics"/> is the total change in angle of the two sublattice magnetizations away from the spin axis, and </para>
+ 
+       <para id="eip-721"><media id="id1167970784968_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics15-2265.png" id="id1167970784968__onlineimage" height="46" width="186"/>
+          </media>
+</para>
+
+
+
+        <para id="id1167965464428">where <emphasis effect="italics">n</emphasis><emphasis effect="italics"><sub>g</sub></emphasis> is the number of magnetic atoms per gramme, <emphasis effect="italics">B</emphasis><emphasis effect="italics">’</emphasis><emphasis effect="italics"/> is the derivative of the Brillouin function with respect to its argument <emphasis effect="italics">a</emphasis><emphasis effect="italics">’</emphasis>, evaluated at a<sup>’</sup><sub>0</sub>, μ<sub>H</sub> is the magnetic moment per atom and γ is the molecular field coefficient. </para>
+      </section><section id="eip-558"><title>Bibliography</title><list id="eip-333"><item>U. Gradmann, Handbook of Magnetic Materials, vol. 7. </item>
+	<item>B. D. Cullity, <emphasis effect="italics">Introduction to Magnetic Materials</emphasis>, Addison-Wesley, Massachusettes (1972). </item>
+	<item>G. Bertotti, <emphasis effect="italics">Hysteresis in Magnetism</emphasis>, Academic Press, San Diego (1998). </item>
+	<item>S.  Chikazumi, S. H. Charap, <emphasis effect="italics">Physics of Magnetisim</emphasis>, Krieger Publishing Company (1978). </item>
+<item>J. Bland, Thesis M. Phys (Hons)., 'A Mossbauer spectroscopy and magnetometry study of magnetic multilayers and oxides.' Oliver Lodge Labs, Dept. Physics, University of Liverpool. </item>
+
+</list></section>
+
+  </content>
+</document>

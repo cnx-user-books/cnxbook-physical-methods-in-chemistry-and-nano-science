@@ -1,0 +1,566 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Powder X-Ray Diffraction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46152</md:content-id>
+  <md:title>Powder X-Ray Diffraction</md:title>
+  <md:abstract/>
+  <md:uuid>511960ae-2065-444a-a4c2-d2b37b0af280</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1172507203027"><title>Introduction</title><para id="import-auto-id1172463227125">Powder X-Ray diffraction (XRD) was developed in 1916 by Debye (<link target-id="import-auto-id1172478656470X"/>) and Scherrer (<link target-id="import-auto-id1172478656470XX"/>) as a technique that could be applied where traditional single-crystal diffraction cannot be performed. This includes cases where the sample cannot be prepared as a single crystal of sufficient size and quality. Powder samples are easier to prepare, and is especially useful for pharmaceuticals research. </para><figure id="import-auto-id1172478656470X"><media id="import-auto-id1172502422775X" alt="">
+          <image mime-type="image/jpg" src="../../media/deb.jpg" width="250" print-width="2in"/>
+        </media>
+      <caption>Dutch physicist and physical chemist Peter Joseph William Debye (1884-1966) recipient of the Nobel Prize in Chemistry.</caption></figure><figure id="import-auto-id1172478656470XX"><media id="import-auto-id1172502422775XX" alt="">
+          <image mime-type="image/jpg" src="../../media/sch.jpg" width="250" print-width="2in"/>
+        </media>
+      <caption>Swiss physicist Paul Scherrer (1890-1969).</caption></figure><para id="import-auto-id1172466485588">Diffraction occurs when a wave meets a set of regularly spaced scattering objects, and its wavelength of the distance between the scattering objects are of the same order of magnitude. This makes X-rays suitable for crystallography, as its wavelength and crystal lattice parameters are both in the scale of angstroms (Å). Crystal diffraction can be described by  Bragg diffraction, <link target-id="eip-287"/>, where λ is the wavelength of the incident monochromatic X-ray, <emphasis effect="italics">d</emphasis> is the distance between parallel crystal planes, and θ the angle between the beam and the plane.</para><equation id="eip-287">λ = 2d sinθ</equation><para id="import-auto-id1172509300652">For constructive interference to occur between two waves, the path length difference between the waves must be an integral multiple of their wavelength. This path length difference is represented by <emphasis effect="italics">2d </emphasis>sinθ <link target-id="import-auto-id1172478656470"/>. Because sinθ cannot be greater than 1, the wavelength of the X-ray limits the number of diffraction peaks that can appear.</para>
+
+<figure id="import-auto-id1172478656470"><media id="import-auto-id1172502422775" alt="">
+          <image mime-type="image/png" src="../../media/Bragg Law diagram.png" width="400" print-width="3in"/>
+        </media>
+      <caption>Bragg diffraction in a crystal. The angles at which diffraction occurs is a function of the distance between planes and the X-ray wavelength.</caption></figure>
+
+</section><section id="import-auto-id1172507231684">
+      <title>Production and detection of X-rays</title>
+      <para id="import-auto-id1172519403991">Most diffractometers use Cu or Mo as an X-ray source, and specifically the K<sub>α</sub> radiation of wavelengths of 1.54059 Å and 0.70932 Å, respectively. A stream of electrons is accelerated towards the metal target anode from a tungsten cathode, with a potential difference of about 30-50 kV. As this generates a lot of heat, the target anode must be cooled to prevent melting.</para><para id="import-auto-id773772">Detection of the diffracted beam can be done in many ways, and one common system is the gas proportional counter (GPC). The detector is filled with an inert gas such as argon, and electron-ion pairs are created when X-rays pass through it. An applied potential difference separates the pairs and generates secondary ionizations through an avalanche effect. The amplification of the signal is necessary as the intensity of the diffracted beam is very low compared to the incident beam. The current detected is then proportional to the intensity of the diffracted beam. A GPC has a very low noise background, which makes it widely used in labs.</para>
+    </section>
+    <section id="import-auto-id1172507186949"><title>Performing X-ray diffraction</title><note id="eip-657" type="warning">Exposure to X-rays may have health consequences, follow safety procedures when using the diffractometer.</note><para id="import-auto-id1172502536105">The particle size distribution should be even to ensure that the diffraction pattern is not dominated by a few large particles near the surface. This can be done by grinding the sample to reduce the average particle size to &lt;10µm. However, if particle sizes are too small, this can lead to broadening of peaks. This is due to both lattice damage and the reduction of the number of planes that cause destructive interference. </para><para id="import-auto-id1172478655415">The diffraction pattern is actually made up of angles that did not suffer from destructive interference due to their special relationship described by  Bragg Law (<link target-id="import-auto-id1172478656470"/>). If destructive interference is reduced close to these special angles, the peak is broadened and becomes less distinct. Some crystals such as calcite (CaCO<sub>3</sub>, <link target-id="import-auto-id1172463337221"/>) have preferred orientations and will change their orientation when pressure is applied. This leads to differences in the diffraction pattern of ‘loose’ and pressed samples. Thus, it is important to avoid even touching ‘loose’ powders to prevent errors when collecting data.</para><figure id="import-auto-id1172463337221"><media id="import-auto-id1172507045148" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-e7f6.png" width="300" print-width="2in"/>
+        </media>
+      <caption>Calcite crystal structure. Under compression, the <emphasis effect="italics">c</emphasis> axis orientates subparallel to the direction of pressure.</caption></figure><para id="import-auto-id1172505677300">The sample powder is loaded onto a sample dish for mounting in the diffractometer (<link target-id="import-auto-id1172467635320"/>), where rotating arms containing the X-ray source and detector scan the sample at different incident angles. The sample dish is rotated horizontally during scanning to ensure that the powder is exposed evenly to the X-rays.</para><figure id="import-auto-id1172467635320"><media id="import-auto-id1172466331002" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-79ff.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>A powder X-ray diffractometer. Two arms containing the X-ray source and detector are positioned around sample dishes, where the angle between each arm and the plane of the sample dishes is θ.</caption></figure><para id="import-auto-id1172502578938">A sample X-ray diffraction spectrum of germanium is shown in <link target-id="import-auto-id1172520513852"/>, with peaks identified by the planes that caused that diffraction. Germanium has a diamond cubic crystal lattice (<link target-id="import-auto-id1172507065553"/>), named after the crystal structure of prototypical example.  The crystal structure determines what crystal planes cause diffraction and the angles at which they occur. The angles are shown in 2θ as that is the angle measured between the two arms of the diffractometer, i.e., the angle between the incident and the diffracted beam (<link target-id="import-auto-id1172478656470"/>).</para><figure id="import-auto-id1172520513852"><media id="import-auto-id1172520070568" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-bcf3.png" width="300" print-width="3in"/>
+        </media>
+      <caption>Powder XRD spectrum of germanium. Reprinted with permission from H. W. Chiu, C. N. Chervin, and S. M. Kauzlarich, <emphasis effect="italics">Chem. Mater.</emphasis>, 2005, <emphasis effect="bold">17</emphasis>, 4858. Copyright 2013 American Chemical Society.</caption></figure><figure id="import-auto-id1172507065553"><media id="import-auto-id1172488511714" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-8567.png" width="300" print-width="2in"/>
+        </media>
+      <caption>Model of diamond cubic crystal lattice.</caption></figure></section><section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1172479961917"><title>Determining crystal structure for cubic lattices</title><para id="import-auto-id1172507066038">There are three basic cubic crystal lattices, and they are the simple cubic (SC), body-centered cubic (BCC), and the face-centered cubic (FCC) <link target-id="import-auto-id1172467978120"/>. These structures are simple enough to have their diffraction spectra analyzed without the aid of software.</para><figure id="import-auto-id1172467978120"><media id="import-auto-id1172520377639" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-cc63.png" width="300" print-width="3in"/>
+        </media>
+      <caption>Models of cubic crystal structures.</caption></figure><para id="import-auto-id1172477853143">Each of these structures has specific rules on which of their planes can produce diffraction, based on their Miller indices (<emphasis effect="italics">hkl</emphasis>).</para>
+      <list id="eip-512"><item>SC lattices show diffraction for all values of (<emphasis effect="italics">hkl</emphasis>), e.g., (<emphasis effect="italics">100</emphasis>), (<emphasis effect="italics">110</emphasis>), (<emphasis effect="italics">111</emphasis>), etc.</item>
+
+<item>BCC lattices show diffraction when the sum of <emphasis effect="italics">h</emphasis>+<emphasis effect="italics">k</emphasis>+<emphasis effect="italics">l</emphasis> is even, e.g., (<emphasis effect="italics">110</emphasis>), (<emphasis effect="italics">200</emphasis>), (<emphasis effect="italics">211</emphasis>), etc. </item>
+
+<item>FCC lattices show diffraction when the values of (<emphasis effect="italics">hkl</emphasis>) are either all even or all odd, e.g., (<emphasis effect="italics">111</emphasis>), (<emphasis effect="italics">200</emphasis>), (<emphasis effect="italics">220</emphasis>), etc.</item>
+
+<item>Diamond cubic lattices like that of germanium are FCC structures with four additional atoms in the opposite corners of the tetrahedral interstices. They show diffraction when the values of (<emphasis effect="italics">hkl</emphasis>) are all odd or all even and the sum <emphasis effect="italics">h</emphasis>+<emphasis effect="italics">k</emphasis>+<emphasis effect="italics">l</emphasis> is a multiple of 4, e.g., (<emphasis effect="italics">111</emphasis>), (<emphasis effect="italics">220</emphasis>), (<emphasis effect="italics">311</emphasis>), etc. </item></list><para id="import-auto-id1172505660276">The order in which these peaks appear depends on the sum of <emphasis effect="italics">h</emphasis><sup>2</sup>+<emphasis effect="italics">k</emphasis><sup>2</sup>+<emphasis effect="italics">l</emphasis><sup>2</sup>. These are shown in <link target-id="import-auto-id1172507038669"/>.</para><table id="import-auto-id1172507038669" summary="Diffraction planes and their corresponding h2+ k2+ l2values. The planes which result in diffraction for BCC and FCC structures are marked with a “Y”.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+           
+
+ <row>
+              <entry>
+
+                  <emphasis effect="bold"><emphasis effect="italics">(hkl)</emphasis></emphasis>
+              </entry>
+
+
+              <entry>
+                <emphasis effect="bold">
+                  <emphasis effect="italics">h<sup>2</sup>+k<sup>2</sup>+l<sup>2</sup></emphasis></emphasis>
+              </entry>
+
+
+              <entry>
+                
+                  <emphasis effect="bold">BCC</emphasis>
+                
+              </entry>
+
+
+              <entry>
+                
+                  <emphasis effect="bold">FCC</emphasis>
+               
+              </entry>
+
+
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>100</entry>
+              <entry>1</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>110</entry>
+              <entry>2</entry>
+              <entry>Y</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>111</entry>
+              <entry>3</entry>
+              <entry/>
+              <entry>Y</entry>
+            </row>
+            <row>
+              <entry>200</entry>
+              <entry>4</entry>
+              <entry>Y</entry>
+              <entry>Y</entry>
+            </row>
+            <row>
+              <entry>210</entry>
+              <entry>5</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>211</entry>
+              <entry>6</entry>
+              <entry>Y</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>220</entry>
+              <entry>8</entry>
+              <entry>Y</entry>
+              <entry>Y</entry>
+            </row>
+            <row>
+              <entry>300, 221</entry>
+              <entry>9</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>310</entry>
+              <entry>10</entry>
+              <entry>Y</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>311</entry>
+              <entry>11</entry>
+              <entry/>
+              <entry>Y</entry>
+            </row>
+            <row>
+              <entry>222</entry>
+              <entry>12</entry>
+              <entry>Y</entry>
+              <entry>Y</entry>
+            </row>
+            <row>
+              <entry>320</entry>
+              <entry>13</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>321</entry>
+              <entry>14</entry>
+              <entry>Y</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>400</entry>
+              <entry>16</entry>
+              <entry>Y</entry>
+              <entry>Y</entry>
+            </row>
+            <row>
+              <entry>410, 322</entry>
+              <entry>17</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>411, 330</entry>
+              <entry>18</entry>
+              <entry>Y</entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>331</entry>
+              <entry>19</entry>
+              <entry/>
+              <entry>Y</entry>
+            </row>
+            <row>
+              <entry>420</entry>
+              <entry>20</entry>
+              <entry>Y</entry>
+              <entry>Y</entry>
+            </row>
+            <row>
+              <entry>421</entry>
+              <entry>21</entry>
+              <entry/>
+              <entry/>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+
+
+</tgroup><caption>Diffraction planes and their corresponding <emphasis effect="italics">h<sup>2</sup>+k<sup>2</sup>+l<sup>2</sup></emphasis><sup/> values. The planes which result in diffraction for BCC and FCC structures are marked with a “Y”.</caption>
+</table><para id="import-auto-id1172507233054">The value of <emphasis effect="italics">d</emphasis> for each of these planes can be calculated using <link target-id="eip-96"/>, where <emphasis effect="italics">a</emphasis> is the lattice parameter of the crystal.</para><note id="eip-989">The lattice constant, or lattice parameter, refers to the constant distance between unit cells in a crystal lattice. </note><equation id="eip-96"><m:math>
+<m:apply><m:eq/><m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:power/><m:ci>d</m:ci><m:cn>2</m:cn></m:apply></m:apply><m:apply><m:divide/><m:apply><m:plus/><m:apply><m:power/><m:ci>h</m:ci><m:cn>2</m:cn></m:apply><m:apply><m:power/><m:ci>k</m:ci><m:cn>2</m:cn></m:apply><m:apply><m:power/><m:ci>l</m:ci><m:cn>2</m:cn></m:apply></m:apply><m:apply><m:power/><m:ci>a</m:ci><m:cn>2</m:cn></m:apply></m:apply></m:apply>
+</m:math></equation><example id="eip-962">
+
+      <para id="import-auto-id1172463342424">As the diamond cubic structure of Ge can be complicated, a simpler worked example for sample diffraction of NaCl with Cu-K<sub>α</sub> radiation is shown below. Given the values of 2θ that result in diffraction, <link target-id="import-auto-id1172478648972"/> can be constructed.</para><table id="import-auto-id1172478648972" summary="Table of diffraction angles for germanium.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">2θ</emphasis>
+              </entry>
+              <entry>
+
+                  <emphasis effect="bold">θ</emphasis>
+
+              </entry>
+              <entry>
+                <emphasis effect="bold">Sinθ</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Sin<sup>2</sup>θ</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>27.36</entry>
+              <entry>13.68</entry>
+              <entry>0.24</entry>
+              <entry>0.0559</entry>
+            </row>
+            <row>
+              <entry>31.69</entry>
+              <entry>15.85</entry>
+              <entry>0.27</entry>
+              <entry>0.0746</entry>
+            </row>
+            <row>
+              <entry>45.43</entry>
+              <entry>22.72</entry>
+              <entry>0.39</entry>
+              <entry>0.1491</entry>
+            </row>
+            <row>
+              <entry>53.85</entry>
+              <entry>26.92</entry>
+              <entry>0.45</entry>
+              <entry>0.2050</entry>
+            </row>
+            <row>
+              <entry>56.45</entry>
+              <entry>28.23</entry>
+              <entry>0.47</entry>
+              <entry>0.2237</entry>
+            </row>
+            <row>
+              <entry>66.20</entry>
+              <entry>33.10</entry>
+              <entry>0.55</entry>
+              <entry>0.2982</entry>
+            </row>
+            <row>
+              <entry>73.04</entry>
+              <entry>36.52</entry>
+              <entry>0.60</entry>
+              <entry>0.3541</entry>
+            </row>
+            <row>
+              <entry>75.26</entry>
+              <entry>37.63</entry>
+              <entry>0.61</entry>
+              <entry>0.3728</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+
+</tgroup><caption>Diffraction angles for Ge.</caption>
+</table><para id="import-auto-id1172463328599"><link target-id="import-auto-id1172507042348"/> can then be constructed using various ratios of sin<sup>2</sup>θ compared to the smallest value of sin<sup>2</sup>θ.</para><table id="import-auto-id1172507042348" summary="Table of ratio of diffraction angles for germanium.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Sin<sup>2</sup>θ</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Sin<sup>2</sup>θ/Sin<sup>2</sup>θ</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">2 x Sin<sup>2</sup>θ/Sin<sup>2</sup>θ</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">3 x Sin<sup>2</sup>θ/Sin<sup>2</sup>θ</emphasis>
+              </entry>
+ <entry>
+                <emphasis effect="bold">Corresponding <emphasis effect="italics">(hkl)</emphasis></emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>0.0559</entry>
+              <entry>1.00</entry>
+              <entry>2.00</entry>
+              <entry>3.00</entry>
+              <entry><emphasis effect="italics">111</emphasis></entry>
+  </row>
+            <row>
+              <entry>0.0746</entry>
+              <entry>1.33</entry>
+              <entry>2.67</entry>
+              <entry>4.00</entry>
+              <entry><emphasis effect="italics">200</emphasis></entry>
+  </row>
+            <row>
+              <entry>0.1491</entry>
+              <entry>2.67</entry>
+              <entry>5.33</entry>
+              <entry>8.00</entry>
+              <entry><emphasis effect="italics">220</emphasis></entry>
+  </row>
+            <row>
+              <entry>0.2050</entry>
+              <entry>3.67</entry>
+              <entry>7.34</entry>
+              <entry>11.00</entry>
+              <entry><emphasis effect="italics">311</emphasis></entry>
+  </row>
+            <row>
+              <entry>0.2237</entry>
+              <entry>4.00</entry>
+              <entry>8.00</entry>
+              <entry>12.00</entry>
+              <entry><emphasis effect="italics">222</emphasis></entry>
+  </row>
+            <row>
+              <entry>0.2982</entry>
+              <entry>5.33</entry>
+              <entry>10.67</entry>
+              <entry>16.00</entry>
+              <entry><emphasis effect="italics">400</emphasis></entry>
+  </row>
+            <row>
+              <entry>0.3541</entry>
+              <entry>6.34</entry>
+              <entry>12.67</entry>
+              <entry>19.01</entry>
+              <entry><emphasis effect="italics">331</emphasis></entry>
+  </row>
+            <row>
+              <entry>0.3728</entry>
+              <entry>6.67</entry>
+              <entry>13.34</entry>
+              <entry>20.01</entry>
+              <entry><emphasis effect="italics">420</emphasis></entry>
+  </row>
+          </tbody>
+        
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Ratio of diffraction angles for germanium.</caption>
+</table><para id="import-auto-id1172520057395">The values of these ratios can then be inspected to see if they corresponding to an expected series of <emphasis effect="italics">hkl</emphasis> values. In this case, the last column gives a list of integers, which corresponds to the <emphasis effect="italics">h</emphasis><sup>2</sup>+<emphasis effect="italics">k</emphasis><sup>2</sup>+<emphasis effect="italics">l</emphasis><sup>2</sup> values of the FCC lattice diffraction. Hence, NaCl has a FCC structure, shown in <link target-id="import-auto-id1172502510618"/> .</para><figure id="import-auto-id1172502510618"><media id="import-auto-id1172465210111" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-c3aa.png" width="300" print-width="2in"/>
+        </media>
+      <caption>Model of NaCl FCC lattice.</caption></figure><para id="import-auto-id1172505364889">The lattice parameter of NaCl can now be calculated from this data. The first peak occurs at θ = 13.68°. Given that the wavelength of the Cu-K<sub>α</sub> radiation is 1.54059 Å,  Bragg's Equation <link target-id="eip-287"/> can be applied as follows: </para><para id="import-auto-id1172465181728">1.54059 = 2<emphasis effect="italics">d</emphasis> sin 13.68</para>
+      <para id="import-auto-id1172463304846"><emphasis effect="italics">d</emphasis> = 3.2571 Å</para>
+      <para id="import-auto-id1172507043374">Since the first peak corresponds to the (111) plane, the distance between two parallel (111) planes is 3.2571 Å. The lattice parameter can now be worked out using <link target-id="eip-96"/></para>
+      <para id="import-auto-id1172476736627">1/3.2571<sup>2 </sup>= (1<sup>2</sup>+ 1<sup>2</sup>+ l<sup>2</sup>)/<emphasis effect="italics">a</emphasis><sup>2</sup></para><para id="import-auto-id1172507194216"><emphasis effect="italics">a</emphasis> = 5.6414 Å</para></example>
+
+<exercise id="eip-290"><problem id="eip-330">
+  <para id="eip-776">The powder XRD spectrum of Ag nanoparticles is given in <link target-id="import-auto-id1172507236954"/> as collected using Cu-K<sub>α</sub> radiation of 1.54059 Å. Determine its crystal structure and lattice parameter using the labeled peaks. 
+  </para><figure id="import-auto-id1172507236954"><media id="import-auto-id1172509223512" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics8-adf1.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>Powder XRD spectra of silver nanoparticles. Adapted  from  E. C. Njagi, H. Huang, L. Stafford, H. Genuino, H. M. Galindo, J. B. Collins, G. E. Hoag, and S. L. Suib, <emphasis effect="italics">Langmuir</emphasis>, 2011, <emphasis effect="bold">27</emphasis>, 264. Copyright 2013 American Chemical Society.</caption></figure></problem>
+
+<solution id="eip-146">
+  
+
+<table id="import-auto-id1172507232257" summary="Ratio of diffraction angles for Ag.">
+<tgroup cols="7"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">2θ</emphasis>
+                </entry>
+                <entry>
+                  
+                    <emphasis effect="bold">θ</emphasis>
+                
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Sinθ</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Sin<sup>2</sup>θ</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Sin<sup>2</sup>θ/Sin<sup>2</sup>θ</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">2 x Sin<sup>2</sup>θ/Sin<sup>2</sup>θ</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">3 x Sin<sup>2</sup>θ/Sin<sup>2</sup>θ</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>38.06</entry>
+                <entry>19.03</entry>
+                <entry>0.33</entry>
+                <entry>0.1063</entry>
+                <entry>1.00</entry>
+                <entry>2.00</entry>
+                <entry>3.00</entry>
+              </row>
+              <row>
+                <entry>44.24</entry>
+                <entry>22.12</entry>
+                <entry>0.38</entry>
+                <entry>0.1418</entry>
+                <entry>1.33</entry>
+                <entry>2.67</entry>
+                <entry>4.00</entry>
+              </row>
+              <row>
+                <entry>64.35</entry>
+                <entry>32.17</entry>
+                <entry>0.53</entry>
+                <entry>0.2835</entry>
+                <entry>2.67</entry>
+                <entry>5.33</entry>
+                <entry>8.00</entry>
+              </row>
+              <row>
+                <entry>77.28</entry>
+                <entry>38.64</entry>
+                <entry>0.62</entry>
+                <entry>0.3899</entry>
+                <entry>3.67</entry>
+                <entry>7.34</entry>
+                <entry>11.00</entry>
+              </row>
+              <row>
+                <entry>81.41</entry>
+                <entry>40.71</entry>
+                <entry>0.65</entry>
+                <entry>0.4253</entry>
+                <entry>4.00</entry>
+                <entry>8.00</entry>
+                <entry>12.00</entry>
+              </row>
+              <row>
+                <entry>97.71</entry>
+                <entry>48.86</entry>
+                <entry>0.75</entry>
+                <entry>0.5671</entry>
+                <entry>5.33</entry>
+                <entry>10.67</entry>
+                <entry>16.00</entry>
+              </row>
+              <row>
+                <entry>110.29</entry>
+                <entry>55.15</entry>
+                <entry>0.82</entry>
+                <entry>0.6734</entry>
+                <entry>6.34</entry>
+                <entry>12.67</entry>
+                <entry>19.01</entry>
+              </row>
+              <row>
+                <entry>114.69</entry>
+                <entry>57.35</entry>
+                <entry>0.84</entry>
+                <entry>0.7089</entry>
+                <entry>6.67</entry>
+                <entry>13.34</entry>
+                <entry>20.01</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+
+</tgroup><caption>Ratio of diffraction angles for Ag.</caption>
+</table><para id="import-auto-id1172488539196">Applying the Bragg equation <link target-id="eip-287"/>, </para>
+        <para id="import-auto-id1172507237917">1.54059 = 2<emphasis effect="italics">d</emphasis> sin 19.03</para>
+        <para id="import-auto-id1172502576667"><emphasis effect="italics">d</emphasis> = 2.3624 Å</para>
+        <para id="import-auto-id1172481923763">Calculate the lattice parameter using <link target-id="eip-96"/>,</para>
+        <para id="import-auto-id1172472403824">1/2.3624<sup>2 </sup>= (1<sup>2</sup>+ 1<sup>2</sup>+ l<sup>2</sup>)/<emphasis effect="italics">a</emphasis><sup>2</sup></para><para id="import-auto-id1172478660108"><emphasis effect="italics">a</emphasis> = 4.0918 Å</para><para id="eip-800">The last column gives a list of integers, which corresponds to the <emphasis effect="italics">h</emphasis><sup>2</sup>+<emphasis effect="italics">k</emphasis><sup>2</sup>+<emphasis effect="italics">l</emphasis><sup>2</sup> values of the FCC lattice diffraction. Hence, the Ag nanoparticles have a FCC structure.</para>
+
+</solution>
+</exercise></section><section id="import-auto-id1172507068222">
+      <title>Determining composition</title>
+      <para id="eip-333">As seen above, each crystal will give a pattern of diffraction peaks based on its lattice type and parameter. These fingerprint patterns are compiled into databases such as the one by the Joint Committee on Powder Diffraction Standard (JCPDS). Thus, the XRD spectra of samples can be matched with those stored in the database to determine its composition easily and rapidly. </para></section>
+    <section id="import-auto-id1172507028638">
+      <title>Solid state reaction monitoring</title><para id="import-auto-id1172507053392">Powder XRD is also able to perform analysis on solid state reactions such as the titanium dioxide (TiO<sub>2</sub>) anatase to rutile transition. A diffractometer equipped with a sample chamber that can be heated can take diffractograms at different temperatures to see how the reaction progresses. Spectra of the change in diffraction peaks during this transition is shown in <link target-id="import-auto-id1172507235808"/>, <link target-id="import-auto-id1172507242128"/>, and  <link target-id="import-auto-id1172507055133"/>. </para><figure id="import-auto-id1172507235808"><media id="import-auto-id1172507072870" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-a371.png" width="400" print-width="3in"/>
+        </media>
+      <caption>Powder XRD spectra of anatase TiO<sub>2</sub> at 25 °C. Courtesy of Jeremy Lee.</caption></figure><figure id="import-auto-id1172507242128"><media id="import-auto-id1172477970169" alt="">
+          <image mime-type="image/png" src="../../media/graphics10-df3c.png" width="400" print-width="3in"/>
+        </media>
+      <caption>Powder XRD spectra of anatase and rutile TiO<sub>2</sub> at 750 °C, with labelled peaks for each phase. Courtesy of Jeremy Lee.</caption></figure><figure id="import-auto-id1172507055133"><media id="import-auto-id1172466534731" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-2715.png" width="400" print-width="3in"/>
+        </media>
+      <caption>Powder XRD spectra of rutile TiO<sub>2</sub> at 1000 °C. Courtesy of Jeremy Lee.</caption></figure></section>
+    <section id="import-auto-id1172463304917">
+      <title>Summary</title><para id="import-auto-id1172507242494">XRD  allows for quick composition determination of unknown samples and gives information on crystal structure. Powder XRD is a useful application of X-ray diffraction, due to the ease of sample preparation compared to single-crystal diffraction. Its application to solid state reaction monitoring can also provide information on phase stability and transformation.</para></section>
+    <section id="import-auto-id1172507189823">
+      <title>Bibliography</title>
+      <list id="import-auto-id1172520560964" list-type="bulleted"><item>J. B. Brady and R. M. Newton, <emphasis effect="italics">J. Geol. Educ</emphasis>., 1995, <emphasis effect="bold">43</emphasis>, 466.</item>
+        <item>L. Brugemann and E. K. E. Gerndt, <emphasis effect="italics">Nucl. Instrum. Meth. A.</emphasis>, 2004, <emphasis effect="bold">531</emphasis>, 292.</item>
+        <item>B. D. Cullity and S. R. Stock. <emphasis effect="italics">Elements of X-ray Diffraction</emphasis>, 3rd Edition, Prentice Hall, New Jersey (2001).</item>
+        <item>H. W. Chiu, C. N. Chervin, and S. M. Kauzlarich, <emphasis effect="italics">Chem. Mater</emphasis>., 2005, <emphasis effect="bold">17</emphasis>, 4858. </item>
+        <item>R. Denker, N. Oosten-Nienhuis and R. Meier, <emphasis effect="italics">Sample preparation for X-ray analysis</emphasis>, (2008), Global Cement Magazine.</item>
+        <item>R.D. Deslattes, E.G. Kessler, Jr., P. Indelicato, L. de Billy, E. Lindroth, and J. Anton, <emphasis effect="italics">Rev. Mod. Phys.,</emphasis> 2003, <emphasis effect="bold">75</emphasis>, 35.</item>
+        <item>K. Mukherjee, <emphasis effect="italics">J. Indian Inst. Sci</emphasis>., 2007, <emphasis effect="bold">87</emphasis>, 221.</item>
+        <item>E. C. Njagi, H. Huang, L. Stafford, H. Genuino, H. M. Galindo, J. B. Collins, G. E. Hoag, and S. L. Suib, <emphasis effect="italics">Langmuir</emphasis>, 2011, <emphasis effect="bold">27</emphasis>, 264. </item>
+        <item>F. J. Turner, <emphasis effect="italics">Preferred Orientation of Calcite and Dolomite in Experimentally Deformed Marbles</emphasis>, (1952), Office of Naval Research.</item>
+      </list></section>
+  </content>
+</document>

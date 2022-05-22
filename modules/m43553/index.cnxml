@@ -1,0 +1,399 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Solution Molecular Weight of Small Molecules</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43553</md:content-id>
+  <md:title>Solution Molecular Weight of Small Molecules</md:title>
+  <md:abstract/>
+  <md:uuid>4a8e7dbb-8cd1-4cdf-9f1c-8447fe76507f</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1169719370261"><title>Introduction</title><para id="import-auto-id1169717498766">The cryoscopic method was formally introduced in the 1880’s when François-Marie Raoult (<link target-id=" import-auto-id1169723804791"/>) published how solutes depressed the freezing points of various solvents such as benzene, water, and formic acid. He concluded from his experimentation “if one molecule of a substance can be dissolved in one-hundred molecules of any given solvent then the solvent temperature is lowered by a specific temperature increment”. Based on Raoult’s research, Ernst Otto Beckmann (<link target-id=" import-auto-id1169717392610"/>) invented the Beckmann thermometer and the associated freezing - point apparatus (<link target-id=" import-auto-id1169724320197"/>), which was a significant improvement in measuring freezing - point depression values for a pure solvent. The simplicity, ease, and accuracy of this apparatus has allowed it to remain as a current standard with few modifications for molecular weight determination of unknown compounds. 
+      </para><figure id="import-auto-id1169723804791"><media id="import-auto-id1169717564898" alt="">
+          <image mime-type="image/png" src="../../media/Picture 15-34e7.png" width="300" print-width="2in"/>
+        </media>
+      <caption>French chemist François-Marie Raoult (1830 - 1901).</caption></figure>
+
+
+<figure id="import-auto-id1169717392610"><media id="import-auto-id1169717379972" alt="">
+          <image mime-type="image/png" src="../../media/Picture 16-1c75.png" width="300" print-width="2in"/>
+        </media>
+      <caption>German chemist Ernst Otto Beckmann (1853 - 1923).</caption></figure>
+
+
+
+<figure id="import-auto-id1169724320197"><media id="import-auto-id1169718955120" alt="">
+            <image mime-type="image/png" src="../../media/graphics1-2266.png" width="150" print-width="1.5in"/>
+          </media>
+        <caption>Beckmann differential thermometer and freezing point depression apparatus</caption></figure><para id="import-auto-id1169719860208">The historical significance of Raoult and Beckmann’s research, among many other investigators, has revolutionized a physical chemistry technique that is currently applied to a vast range of disciplines from food science to petroleum fluids.  For example, measured cryoscopic molecular weights of crude oil are used to predict the viscosity and surface tension for necessary fluid flow calculations in pipeline.
+      </para>
+    </section><section id="import-auto-id1169718823933">
+      <title>Freezing point depression</title>
+      <para id="import-auto-id1169725270368">Freezing point depression is a colligative property in which the freezing temperature of a pure solvent decreases in proportion to the number of solute molecules dissolved in the solvent. The known mass of the added solute and the freezing point of the pure solvent information permit an accurate calculation of the molecular weight of the solute.
+      </para><para id="import-auto-id1169719894212">In <link target-id="eip-787"/> the freezing point depression of a non-ionic solution is described. Where ∆T<sub>f</sub> is the change in the initial and final temperature of the pure solvent,  K<sub>f</sub> is the freezing point depression constant for the pure solvent, and m (moles solute/kg solvent) is the molality of the solution.
+      </para><equation id="eip-787"><media id="idX48_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq48.jpg" id="idX48__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id7159415">For an ionic solution shown in <link target-id="eip-174"/>, the dissociation particles must be accounted for with the number of solute particles per formula unit, i (the van’t Hoff factor).
+      </para><equation id="eip-174"><media id="idX49_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq49-344d.jpg" id="idX49__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation></section>
+    <section id="import-auto-id6188439">
+      <title> Cryoscopic procedure</title>
+      <section id="import-auto-id1169724306640"><title>Cryoscopic apparatus </title><para id="import-auto-id1169723613841">For cryoscopy, the apparatus to measure freezing point depression of a pure solvent may be representative of the Beckmann apparatus previously shown in <link target-id=" import-auto-id1169724320197"/>. The apparatus consists of a test tube containing the solute dissolved in a pure solvent, stir bar or magnetic wire and closed with a rubber stopper encasing a mercury thermometer. The test tube component is immersed in an ice-water bath in a beaker. An example of the apparatus is shown in <link target-id=" import-auto-id55565XX"/>. The rubber stopper and stir bar/wire stirrer are not shown in the figure. 
+
+        </para><figure id="id55565XX"><media id="apparatus_media" alt=""><image mime-type="image/jpg" src="../../media/Picture1X.jpg" id="apparatus_onlineimage" width="300" print-width="3in"/></media><caption>An example of a cryoscopic apparatus. Adapted from http://www.lahc.cc.ca.us/classes/chemistry/arias/Exp%2012%20-%20Freezing%20Point.pdf</caption></figure></section><section id="import-auto-id1169721113962">
+        <title>Sample and solvent selection</title><para id="import-auto-id1169725160194">The cryoscopic method may be used for a wide range of samples with various degrees of polarity. The solute and solvent selection should follow the premise of like dissolved like or in terms of Raoult’s principle of the dissolution of one molecule of solute in one-hundred molecules of a solvent. The most common solvents such as benzene are generally selected because it is unreactive, volatile, and miscible with many compounds. <link target-id=" import-auto-id1169723744343"/> shows the cryoscopic constants (K<sub>f</sub>) for the common solvents used for cryoscopy. A complete list of K<sub>f</sub> values are available in Knovel Critical Tables. 
+        </para><table id="import-auto-id1169723744343" summary="Freezing Point Depression Constant Values.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>
+
+                    <emphasis effect="bold">Compound</emphasis>
+
+                </entry>
+                <entry>
+                  <emphasis effect="bold">K<sub>f</sub> </emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Acetic Acid</entry>
+                <entry>3.90</entry>
+              </row>
+              <row>
+                <entry>Benzene</entry>
+                <entry>5.12</entry>
+              </row>
+              <row>
+                <entry>Camphor</entry>
+                <entry>39.7</entry>
+              </row>
+              <row>
+                <entry>Carbon disulfide</entry>
+                <entry>3.8</entry>
+              </row>
+              <row>
+                <entry>Carbon tetrachloride</entry>
+                <entry>30</entry>
+              </row>
+              <row>
+                <entry>Chloroform</entry>
+                <entry>4.68</entry>
+              </row>
+              <row>
+                <entry>Cyclohexane</entry>
+                <entry>20.2</entry>
+              </row>
+              <row>
+                <entry>Ethanol</entry>
+                <entry>1.99</entry>
+              </row>
+              <row>
+                <entry>Naphthalene</entry>
+                <entry>6.80</entry>
+              </row>
+              <row>
+                <entry>Phenol</entry>
+                <entry>7.27</entry>
+              </row>
+              <row>
+                <entry>Water</entry>
+                <entry>1.86</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+</tgroup><caption>Cryoscopic constants (K<sub>f</sub>) for common solvents used for cryoscopy. </caption>
+</table></section>
+      <section id="import-auto-id7162023">
+        <title>Cryoscopic Method</title>
+        <para id="import-auto-id1169717393559">The detailed information about the procedure used for cryoscopy is shown below:
+        </para><list id="import-auto-id8300442" list-type="enumerated" number-style="arabic" class="stepwise"><item>
+            Weigh (15 to 20 grams) of the pure solvent in a test tube and record the measured weight value of the pure solvent.
+          </item>
+          <item>
+           Place a stir bar or wire stirrer in the test tube and close with a rubber stopper that has a hole to encase a mercury thermometer. 
+          </item>
+          <item>
+            Place a mercury thermometer in the rubber stopper hole.
+          </item>
+          <item>
+           Immerse the test tube apparatus in an ice-water bath.
+          </item>
+          <item>
+            Allow the solvent to stir continuously and equilibrate to a few degrees below the freezing point of the solvent. 
+          </item>
+          <item>
+           Record the temperature at which the solvent reaches the freezing point, which remains at a constant temperature reading.
+          </item>
+          <item>
+            Repeat the freezing point data collection for at least two more measurements without a difference less than 0.5 °C between the measurements.
+
+          </item>
+          <item>
+           Weigh a quantity of the solute for investigation and record the measured value.
+          </item>
+          <item>
+         Add the weighed solute to the test tube containing the pure solvent.
+          </item>
+          <item>
+           Re - close the test tube with a rubber stopper encasing a mercury thermometer.
+          </item>
+          <item>
+          Re-immerse the test tube in an ice water bath and allow the mixture to stir to fully dissolve the solute in the pure solvent. 
+          </item>
+          <item>
+       Measure the freezing point and record the temperature value.
+          </item>
+        
+
+
+
+        </list><note id="eip-382">Allow the solution to stir continuously to avoid supercooling.</note><para id="import-auto-id1169727287827">The observed freezing point of the solution is when the temperature reading remains constant.
+        </para></section>
+    </section>
+    <section id="import-auto-id1169720187154">
+      <title>Sample calculation to determine molecular weight</title>
+      <section id="import-auto-id1169717499736">
+        <title>Sample data set      </title><para id="import-auto-id1169719740996"><link target-id=" import-auto-id1169720289037"/> represents an example of a data set collection for cryoscopy.</para><table id="import-auto-id1169720289037" summary="test">
+<tgroup cols="5"><colspec colnum="2" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <thead>
+              <row>
+                <entry>Parameter</entry>
+                <entry>Trial 1</entry>
+                <entry>Trial 2  </entry>
+                <entry>Trial 3</entry>
+                <entry>Avg</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Mass of cyclohexane (g)</entry>
+                <entry>9.05</entry>
+                <entry>9.00</entry>
+                <entry>9.04</entry>
+                <entry>9.03</entry>
+              </row>
+              <row>
+                <entry>Mass of unknown solute (g)</entry>
+                <entry>0.4000</entry>
+                <entry>0.4101</entry>
+                <entry>0.4050</entry>
+                <entry>0.4050</entry>
+              </row>
+              <row>
+                <entry>Freezing point of cyclohexane (°C)</entry>
+                <entry>6.5 °C</entry>
+                <entry>6.5 °C </entry>
+                <entry>6.5 °C</entry>
+                <entry>6.5 °C .</entry>
+              </row>
+              <row>
+                <entry>Freezing point of cyclohexane mixed with unknown solute (°C)</entry>
+                <entry>4.2 °C</entry>
+                <entry>4.3 °C</entry>
+                <entry>4.2 °C</entry>
+                <entry>4.2 °C</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+
+</tgroup><caption>Example of a data set collection for cryoscopy</caption>
+</table></section>
+      <section id="import-auto-id8848474"><title>Calculation of molecular weight using the freezing point depression equation       </title><para id="import-auto-id1169720183299">Calculate the freezing point (Fpt) depression of the solution,   TΔ<sub>f</sub>  (from <link target-id=" import-auto-id1169720289037"/>). 
+        </para><equation id="eip-624"><media id="idX50_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq52X.jpg" id="idX50__onlineimage" width="500" print-width="4.5in"/>
+</media></equation><equation id="eip-920"><media id="idX51_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq51-9a83.jpg" id="idX51__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-261"><media id="idX52_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq52-7ee2.jpg" id="idX52__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1169717592940">Calculate the molal concentration, m, of the solution using the freezing point depression and K<sub>f</sub> (see <link target-id=" import-auto-id1169723744343"/> and <link target-id=" import-auto-id1169720289037"/>).
+          
+         
+        </para><equation id="eip-965"><media id="idX53_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq53-4be8.jpg" id="idX53__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-508"><media id="idX54_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq54.jpg" id="idX54__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-395"><media id="idX55_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq55.jpg" id="idX55__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><note id="eip-385"><media id="idX55X_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq55X.jpg" id="idX55X__onlineimage" width="500" print-width="4.5in"/>
+</media></note><para id="import-auto-id1169717499887">Calculate the M<sub>W</sub> of the unknown sample. 
+           
+        </para><note id="eip-766">i = 1 for covalent compounds in <link target-id="eip-174"/>. </note><equation id="eip-8"><media id="idX56_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq56.jpg" id="idX56__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-776"><media id="idX57_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq57.jpg" id="idX57__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-875"><media id="idX58_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq58.jpg" id="idX58__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><exercise id="eip-217"><problem id="eip-545">
+  <para id="eip-369">Nicotine <link target-id="id204"/> is an extracted pale yellow oil from tobacco leaves that dissolves in water at temperatures less than 60 °C. What is the molality of nicotine in an aqueous solution that begins to freeze at -0.445 °C? See <link target-id="import-auto-id1169723744343"/> for K<sub>f</sub> values.</para>
+
+        <figure id="id204"><media id="nicotine_media" alt=""><image mime-type="image/jpg" src="../../media/nicotine.jpg" id="nicotine_onlineimage" width="200" print-width="2inin"/></media><caption>The chemical structure of nicotine. </caption></figure>
+
+</problem>
+
+<solution id="eip-16">
+
+<equation id="eip-6XX">
+<media id="idX59_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq59.jpg" id="idX59__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-6XXX">
+<media id="idX60_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq60.jpg" id="idX60__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-X61">
+<media id="idX61_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq61.jpg" id="idX61__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+</solution>
+</exercise><exercise id="eip-152"><problem id="eip-346">
+  <para id="eip-367">If the  solution used in <link target-id="eip-217"/> is obtained by dissolving 1.200  g of nicotine in 30.56 g of  water, what is the molar mass of nicotine? </para>
+</problem>
+
+<solution id="eip-158">
+
+<equation id="eip-X62">
+<media id="idX62_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq62.jpg" id="idX62__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-X63">
+<media id="idX63_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq63.jpg" id="idX63__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-X64">
+<media id="idX64_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq64.jpg" id="idX64__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+</solution>
+</exercise><exercise id="eip-736"><problem id="eip-427">
+  <para id="eip-245">What would be the freezing point depression when 0.500 molal of Ca(NO<sub>3</sub>)<sub>2</sub> is dissolved in 60 g of water? </para>
+</problem>
+
+<solution id="eip-606">
+
+<equation id="eip-X65">
+<media id="idX65_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq65.jpg" id="idX65__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-X66">
+<media id="idX66_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq66.jpg" id="idX66__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-X67">
+<media id="idX67_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq67.jpg" id="idX67__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+
+</solution>
+</exercise><exercise id="eip-433"><problem id="eip-998">
+  <para id="eip-712">Calculate the number of weighed grams of Ca(NO<sub>3</sub>)<sub>2</sub> added to the 60 g of water to achieve the freezing point depression from <link target-id="eip-736"/>? The M<sub>W</sub> of Ca(NO<sub>3</sub>)<sub>2</sub> is 164.088 g/moles.</para></problem>
+
+<solution id="eip-878">
+
+<equation id="eip-X68">
+<media id="idX68_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq68.jpg" id="idX68__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-X69">
+<media id="idX69_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq69.jpg" id="idX69__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-X70">
+<media id="idX70_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq70.jpg" id="idX70__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+</solution>
+</exercise></section></section>
+    <section id="import-auto-id1169717501087">
+      <title>Bibliography</title><list id="import-auto-id1169720178475" list-type="bulleted"><item>
+     
+<emphasis effect="italics">Knovel Critical Tables</emphasis>, 2nd Ed., Knovel, New York (2008). 
+
+ </item>
+        <item>
+         http://www.lahc.cc.ca.us/classes/chemistry/arias/Exp%2012%20-%20Freezing%20Point.pdf
+
+        </item>
+        <item>
+         H. C. Jones,
+          <emphasis effect="italics">The Modern Theory of Solutions: Memoirs by Pfeffer, Van't Hoff</emphasis>, Arrhenius, and Raoult, Harper and Brothers, New York (1899). 
+        </item>
+        <item>
+         E. Beckmann, <emphasis effect="italics">Z. Anorg. Allg. Chem.</emphasis>, 1910, 
+          <emphasis effect="bold">67</emphasis>, 17. 
+        </item>
+        <item>
+         H. P. Ronningsen. 
+          <emphasis effect="italics">Energ. Fuel.</emphasis>, 1993,
+          <emphasis effect="bold">7</emphasis>, 565. 
+        </item>
+        <item>
+         D. A McQuarrie, P. A Rock, and E. B. Gallogly, <emphasis effect="italics">General Chemistry</emphasis>, University Science Books, Mill Valley (2011).
+        </item>
+      </list></section>
+  </content>
+</document>

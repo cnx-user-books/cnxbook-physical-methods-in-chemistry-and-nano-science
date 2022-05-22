@@ -1,0 +1,325 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Gas Chromatography Analysis of the Hydrodechlorination Reaction of Trichloroethene</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34634</md:content-id>
+  <md:title>Gas Chromatography Analysis of the Hydrodechlorination Reaction of Trichloroethene</md:title>
+  <md:abstract/>
+  <md:uuid>e1e2645a-f5b8-475b-9346-61dfcd4a5130</md:uuid>
+</metadata>
+
+<content>
+    
+
+
+      <section id="id1168449508770">
+        <title>Introduction</title>
+        <para id="id1168481711905">Trichloroethene (TCE) is a widely spread environmental contaminant and a member of the class of compounds known as dense non-aqueous phase liquids (DNAPLs). Pd/Al<sub>2</sub>O<sub>3</sub> catalyst has shown activity for the hydrodechlorination (HDC) of chlorinated compounds.</para><para id="id1168486019274">To quantify the reaction rate, a 250 mL screw-cap bottle with 77 mL of headspace gas was used as the batch reactor for the studies. TCE (3 μL) is added in 173 mL DI water purged with hydrogen gas for 15 mins, together with 0.2 μL pentane as internal standard. Dynamic headspace analysis using GC has been applied. The experimental condition is concluded in the table below (<link target-id="id7158275"/>).</para><table id="id7158275" summary="The experimental condition in HDC of TCE.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>TCE</entry>
+                <entry>3 μL</entry>
+              </row>
+              <row>
+                <entry>H<sub>2</sub></entry>
+                <entry>1.5 ppm</entry>
+              </row>
+              <row>
+                <entry>pentane</entry>
+                <entry>0.2 μL</entry>
+              </row>
+              <row>
+                <entry>DI water</entry>
+                <entry>173 mL</entry>
+              </row>
+              <row>
+                <entry>
+1 wt% Pd/Al<sub>2</sub>O<sub>3</sub>
+                </entry>
+                <entry>50 mg</entry>
+              </row>
+              <row>
+                <entry>Temperature</entry>
+                <entry>25 °C</entry>
+              </row>
+              <row>
+                <entry>Pressure</entry>
+                <entry>1 atm</entry>
+              </row>
+              <row>
+                <entry>Reaction time</entry>
+                <entry>1 h</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>The experimental condition in HDC of TCE.</caption>
+</table></section>
+      <section id="id1168450464353">
+        <title>Reaction kinetics</title>
+        <para id="id1168464092722">First order reaction is assumed in the HDC of TCE, <link target-id="eip-241"/>, where K<sub>means</sub> is defined by <link target-id="eip-823"/>, and C<sub>cat</sub> is equal to the concentration of Pd metal within the reactor and k<sub>cat</sub> is the reaction rate with units of L/g<sub>Pd</sub>/min.</para><equation id="eip-241"><media id="id5548_media" alt=""><image mime-type="image/jpg" src="../../media/Eq28-86aa.jpg" id="id5548__onlineimage" width="450" print-width="4in"/></media></equation><equation id="eip-823"><media id="id5549_media" alt=""><image mime-type="image/jpg" src="../../media/Eq29-0390.jpg" id="id5549__onlineimage" width="450" print-width="4in"/></media></equation>
+        
+      </section>
+      <section id="id1168478726487">
+        <title>The GC method </title>
+        <para id="id1168454796330">The GC methods used are listed in <link target-id="id1168460175910"/>.</para>
+        <table id="id1168460175910" summary="GC method for detection of TCE and other related chlorinated compounds.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>GC type</entry>
+                <entry>Agilent 6890N GC</entry>
+              </row>
+              <row>
+                <entry>Column</entry>
+                <entry>Supelco 1-2382 40/60 Carboxen-1000 packed column</entry>
+              </row>
+              <row>
+                <entry>Detector</entry>
+                <entry>FID</entry>
+              </row>
+              <row>
+                <entry>Oven temperature</entry>
+                <entry>210 °C</entry>
+              </row>
+              <row>
+                <entry>Flow rate</entry>
+                <entry>35 mL/min</entry>
+              </row>
+              <row>
+                <entry>Injection amount</entry>
+                <entry>200 μL</entry>
+              </row>
+              <row>
+                <entry>Carrier gas</entry>
+                <entry>Helium</entry>
+              </row>
+              <row>
+                <entry>Detection time</entry>
+                <entry>5 min</entry>
+              </row>
+            </tbody>
+
+
+
+</tgroup><caption>GC method for detection of TCE and other related chlorinated compounds. </caption>
+</table></section>
+      <section id="id1168486671803">
+        <title>Quantitative method</title>
+        <para id="para-id1168486671803"><!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that was added as a byproduct of the word importer.-->
+Since pentane is introduced as the inert internal standard, the relative concentration of TCE in the system can be expressed as the ratio of area of TCE to pentane in the GC plot, <link target-id="eip-123"/>. </para><equation id="eip-123"><media id="id55430_media" alt=""><image mime-type="image/jpg" src="../../media/Eq30-187e.jpg" id="id55430__onlineimage" width="450" print-width="4in"/></media></equation>
+      </section>
+      
+      <section id="id1168450112040">
+        <title>Results and Analysis</title>
+        <para id="eip-623">The major analytes (referenced as TCE, pentane, and ethane) are very well separated from each other, allowing for quantitative analysis. The peak areas of the peaks associated with these compounds are integrated by the computer automatically, and are listed in (<link target-id="id1783212"/>) with respect to time.</para><table id="id1783212" summary="Peak area of pentane, TCE with respect to time.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Time/min</emphasis></entry>
+                <entry><emphasis effect="bold">Peak area of pentane</emphasis></entry>
+                <entry><emphasis effect="bold">Peak area of TCE</emphasis></entry>
+  </row>
+              <row>
+                <entry>0</entry>
+                <entry>5992.93</entry>
+                <entry>13464</entry>
+  </row>
+              <row>
+                <entry>5.92</entry>
+                <entry>6118.5</entry>
+                <entry>11591</entry>
+  </row>
+              <row>
+                <entry>11.25</entry>
+                <entry>5941.2</entry>
+                <entry>8891</entry>
+  </row>
+              <row>
+                <entry>16.92</entry>
+                <entry>5873.5</entry>
+                <entry>7055.6</entry>
+  </row>
+              <row>
+                <entry>24.13</entry>
+                <entry>5808.6</entry>
+                <entry>5247.4</entry>
+  </row>
+              <row>
+                <entry>32.65</entry>
+                <entry>5805.3</entry>
+                <entry>3726.3</entry>
+  </row>
+              <row>
+                <entry>43.65</entry>
+                <entry>5949.8</entry>
+                <entry>2432.8</entry>
+  </row>
+              <row>
+                <entry>53.53</entry>
+                <entry>5567.5</entry>
+                <entry>1492.3</entry>
+  </row>
+              <row>
+                <entry>64.72</entry>
+                <entry>5725.6</entry>
+                <entry>990.2</entry>
+  </row>
+              <row>
+                <entry>77.38</entry>
+                <entry>5624.3</entry>
+                <entry>550</entry>
+  </row>
+              <row>
+                <entry>94.13</entry>
+                <entry>5432.5</entry>
+                <entry>225.7</entry>
+  </row>
+              <row>
+                <entry>105</entry>
+                <entry>5274.4</entry>
+                <entry>176.8</entry>
+  </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+</tgroup><caption>Peak area of pentane, TCE as a function of reaction time.</caption>
+</table><para id="id1168485846473">Normalize TCE concentration with respect to peak area of pentane and then to the initial TCE concentration, and then calculate the nature logarithm of this normalized concentration, as shown in <link target-id="id1168477783066"/>.</para><table id="id1168477783066" summary="Normalized TCE concentration">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Time (min)</emphasis></entry>
+                <entry><emphasis effect="bold">TCE/pentane</emphasis></entry>
+                <entry>
+                  <emphasis effect="bold">TCE/pentane/TCE<sub>initial</sub></emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">ln(TCE/Pentane/TCE<sub>initial</sub>)</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>0</entry>
+                <entry>2.2466</entry>
+                <entry>1.0000</entry>
+                <entry>0.0000</entry>
+              </row>
+              <row>
+                <entry>5.92</entry>
+                <entry>1.8944</entry>
+                <entry>0.8432</entry>
+                <entry>-0.1705</entry>
+              </row>
+              <row>
+                <entry>11.25</entry>
+                <entry>1.4965</entry>
+                <entry>0.6661</entry>
+                <entry>-0.4063</entry>
+              </row>
+              <row>
+                <entry>16.92</entry>
+                <entry>1.2013</entry>
+                <entry>0.5347</entry>
+                <entry>-0.6261</entry>
+              </row>
+              <row>
+                <entry>24.13</entry>
+                <entry>0.9034</entry>
+                <entry>0.4021</entry>
+                <entry>-0.9110</entry>
+              </row>
+              <row>
+                <entry>32.65</entry>
+                <entry>0.6419</entry>
+                <entry>0.2857</entry>
+                <entry>-1.2528</entry>
+              </row>
+              <row>
+                <entry>43.65</entry>
+                <entry>0.4089</entry>
+                <entry>0.1820</entry>
+                <entry>-1.7038</entry>
+              </row>
+              <row>
+                <entry>53.53</entry>
+                <entry>0.2680</entry>
+                <entry>0.1193</entry>
+                <entry>-2.1261</entry>
+              </row>
+              <row>
+                <entry>64.72</entry>
+                <entry>0.1729</entry>
+                <entry>0.0770</entry>
+                <entry>-2.5642</entry>
+              </row>
+              <row>
+                <entry>77.38</entry>
+                <entry>0.0978</entry>
+                <entry>0.0435</entry>
+                <entry>-3.1344</entry>
+              </row>
+              <row>
+                <entry>94.13</entry>
+                <entry>0.0415</entry>
+                <entry>0.0185</entry>
+                <entry>-3.9904</entry>
+              </row>
+              <row>
+                <entry>105</entry>
+                <entry>0.0335</entry>
+                <entry>0.0149</entry>
+                <entry>-4.2050</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+</tgroup><caption>Normalized TCE concentration as a function of reaction time. </caption>
+</table><para id="id1168487122817">From a plot normalized TCE concentration against time shows the concentration profile of TCE during reaction (<link target-id="id1168477900575"/>), while the slope of the logarithmic plot provides the reaction rate constant (<link target-id="id1168473133971"/>).</para><para id="id1168463410662">
+          <figure id="id1168477900575"><media id="id1168477900575_media" alt="">
+              <image mime-type="image/png" src="../../media/z2.jpg" id="id1168477900575__onlineimage" width="400" print-width="4in"/>
+            </media>
+          <caption>A plot of the normalized concentration profile of TCE. </caption></figure></para>
+        
+        <figure id="id1168473133974"><media id="id1168473133971_media" alt="">
+            <image mime-type="image/jpg" src="../../media/7b.jpg" id="id1168473133971__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>A plot of ln(C<sub>TCE</sub>/C<sub>0</sub>) versus time.</caption></figure><para id="id1168464651764">From <link target-id="id1168477900575"/>, we can see that the linearity, i.e., the goodness of the assumption of first order reaction, is very much satisfied throughout the reaction. Thus, the reaction kinetic model is validated. Furthermore, the reaction rate constant can be calculated from the slope of the fitted line, i.e., k<sub>meas</sub> = 0.0414 min<sup>-1</sup>. From this the k<sub>cat</sub> can be obtained, <link target-id="eip-862"/>. </para>
+        
+        <equation id="eip-862"><media id="id55431_media" alt=""><image mime-type="image/jpg" src="../../media/Eq31-4c3f.jpg" id="id55431__onlineimage" width="450" print-width="4in"/></media></equation>
+      </section>
+
+
+    <section id="id1168470695743"><title>Bibliography</title><list id="eip-980">
+<item>M, O. Nutt, J, B.  Hughes, and M, S. Wong, <emphasis effect="italics">Environ. Sci. Technol.</emphasis>, 2005, <emphasis effect="bold">39</emphasis>, 1346.</item>
+
+<item><emphasis effect="italics">A Technical Guide for Static Headspace Analysis Using GC</emphasis>, Restek Corp. (2000).</item></list></section>
+  </content>
+</document>

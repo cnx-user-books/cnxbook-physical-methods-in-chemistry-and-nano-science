@@ -1,0 +1,47 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Analysis of Metal Nanoparticles using UV-Visible Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71307</md:content-id>
+  <md:title>Analysis of Metal Nanoparticles using UV-Visible Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>8cb76041-1d9c-4c21-a4ac-ed85ae0d780a</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm948645008"><title>Localized surface plasmon resonance</title><para id="import-auto-idm955106592">Localized surface plasmon resonance (LSPR) is an interesting optical property characteristic of metal nanoparticles, particularly gold nanoparticles (AuNPs), that is exploited for UV-visible spectroscopic characterization. A plasmon is defined as the oscillation of the free electrons in metals. The metal surface is polarized such that positive and negative charges are separated by a distance “d” unique to every metal nanostructure (<link target-id="import-auto-idm753435408XaCZ1ZCz"/>). If the wavelength of incident radiation matches the separation distance of positive and negative charges, the electrons exhibit resonance. This resonance can be modeled by the mass-spring harmonic oscillator where the negative charges act as a mass on a spring attached to the positive charges (<link target-id="import-auto-idm753435408XaCZ1ZCzz"/>). The negative charges pull away from the positive charges with some force while the positive charges pull the negative charges back towards them with a restoring force. In larger metal structures, LSPR is localized to one specific part of the structure. However, in metal nanoparticles, such as AuNPs, the LSPR wavelength is often in the UV/visible/IR region (~300-1000 nm). </para>
+
+<figure id="import-auto-idm753435408XaCZ1ZCz"><media id="import-auto-idm574037904XaCZ1ZCz" alt="">
+            <image mime-type="image/jpg" src="../../media/NP1.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>A visualization of charge polarization observed in a spherical metal nanoparticle.</caption></figure><figure id="import-auto-idm753435408XaCZ1ZCzz"><media id="import-auto-idm574037904XaCZ1ZCzz" alt="">
+            <image mime-type="image/jpg" src="../../media/NP2.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>Mass spring oscillator model for charge polarization. Resonance occurs when the incident light wavelength (λ) equals the charge separation distance (d), i.e., LSPR occurs at λ = d. The springs have a spring constant (k).</caption></figure><para id="import-auto-idm993760864">Analyzing AuNPs with UV-visible spectroscopy provides insight into the physical and chemical properties of the sample. When conducting UV-visible spectroscopy, the absorbance is measured over a continuous wavelength range (400-800 nm). The peak absorbance occurs at the nanoparticle’s specific LSPR wavelength within this range and can shift due to changes in morphology, diameter, surface functionalization, or environment. For instance, spherical AuNPs exhibit LSPR at a wavelength of 525 nm. Since the electrons in AuNPs naturally exhibit SPR at this wavelength, these nanoparticles appear maroon/purple in solution with water or PBS instead of the traditional gold color.  Previous studies show that increases in nanoparticle diameter due to either functionalization of the nanoparticle to a polymer or protein or aggregation among individual nanoparticles results in a red shift, a term to indicate that the LSPR wavelength at which peak absorbance is observed increases towards the infrared region. A representative UV-visible spectrum is shown in FIGURE.</para>
+      
+      
+      
+      
+      
+
+<figure id="import-auto-idm753435408XaCZ1ZCzzz"><media id="import-auto-idm574037904XaCZ1ZCzzz" alt="">
+            <image mime-type="image/jpg" src="../../media/NP3.jpg" width="250" print-width="2.5in"/>
+          </media>
+        <caption>UV-visible spectra of un-functionalized AuNPs (blue curve) and functionalized AuNPs (red curve). </caption></figure><para id="eip-135">Another variable that determines the LSPR wavelength is the morphology of the nanostructure. For instance, the UV-visible spectrogram of gold nanoparticles (AuNP) is different from that of gold nanorods (AuNRs). Bare AuNPs only exhibit one LSPR peak at approximately 525 nm while AuNRs typically exhibit a second LSPR peak wavelength in addition to the first one in the IR region (~800-1100 nm), see <link target-id="import-auto-idm753435408XabCZ1ZC12"/>. The reason behind the appearance of the second peak is that the electrons can become polarized among the transverse and longitudinal directions of the nanorod. In spherical nanoparticles, the electrons become polarized in only one direction. <link target-id="import-auto-idm753435408XaCZ1ZCz11"/> shows the longitudinal and transverse LSPR wavelengths in a sample of gold nanorods. The longitudinal LSPR wavelength is longer than the transverse LSPR wavelength because the distance between the positive and negative charges is longer. This figure represents the charges as both particles and waves to represent the wave-particle duality of electrons. The oscillations of the electric field over time represent how the nanostructure constantly switches polarity and never stays stagnant. </para>
+
+
+ <figure id="import-auto-idm753435408XabCZ1ZC12"><media id="import-auto-idm753435408XabCZ1ZC123" alt="">
+            <image mime-type="image/jpg" src="../../media/NP7.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>A typical UV-visible spectrum for gold nanorods (AuNRs). </caption></figure><figure id="import-auto-idm753435408XaCZ1ZCz11"><media id="import-auto-idm574037904XaCZ1ZCz11" alt="">
+            <image mime-type="image/jpg" src="../../media/NP6.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>Transverse (a) and Longitudinal (b) LSPR for gold nanorods (AuNRs). </caption></figure><para id="import-auto-idm914314960">When analyzing a sample of metal nanoparticles, UV-visible spectroscopy provides useful information about particle morphology and the success of a functionalization reaction. The LSPR peak wavelength of a sample of nonfunctionalized metal nanoparticles can be compared to a sample of functionalized nanoparticles to determine whether a red shift occurred. The presence of a red shift could act as an indicator of successful functionalization. However, one of the limitations of UV-visible spectroscopy is that it cannot accurately quantify the extent of metal nanoparticle functionalization. The LSPR peak wavelength can be shifted due to changes in the environment that the metal nanoparticles exist in along with changes in morphology. It can be difficult to distinguish which factor dominates the UV-visible peak shift because it is possible for unconjugated polymer or protein, reaction intermediates, reactants, or other impurities to float around in solution along with the conjugated nanoparticles. Conjugation reactions rarely yield 100% functionalized metal nanoparticles. </para><para id="import-auto-idm323871520">Finally, UV-visible spectroscopy cannot unambiguously account for nanoparticle aggregation, which can occur due to interactions between the polymer or protein conjugated to the nanoparticle surface or the ion/ion interactions between the nanoparticles themselves. There are numerous factors that can account for an LSPR peak shift in UV-visible, so it is not possible to attribute the shift to aggregation without further analysis. Fortunately, UV-visible is often conducted in conjunction with DLS to determine the presence of nanoparticle aggregation and the approximate size of the spherical nanoparticle.</para></section><section id="import-auto-idm977761232">
+      <title>Bibliography</title><list id="import-auto-idm921504272" list-type="enumerated" number-style="arabic"><item>W. Haiss, N. T. K.  Tanh, J.  Aveyard,  and D. G. Fernig,  <emphasis effect="italics">Anal. Chem.</emphasis>, 2007, <emphasis effect="bold">79</emphasis>, 4215.</item>
+        <item>V. Amendola,  R. Pilot, M.  Frasconi, O. M.  Marago, and  M. A.  Iati,  <emphasis effect="italics">J. Phys. Condens. Matter</emphasis>, 2017, <emphasis effect="bold">29</emphasis>, 1.</item>
+    
+        <item>D. K. Bozanic, A. S.  Luyt,  L. V.  Trandafilovic, and V. Djokovic,  <emphasis effect="italics">RSC Adv.</emphasis>, 2013, <emphasis effect="bold">3</emphasis>, 8705.</item>
+        <item> J. Cao, T.  Sun, and K. T. V. Grattan, <emphasis effect="italics">Sens. Actuators B Chem.</emphasis>, 2014, <emphasis effect="bold">195</emphasis>, 332.</item>
+
+  </list></section>
+  </content>
+</document>

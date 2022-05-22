@@ -1,0 +1,31 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Spot Tests</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m48634</md:content-id>
+  <md:title>Spot Tests</md:title>
+  <md:abstract/>
+  <md:uuid>568cd9e5-e02c-40f8-926c-ecf23e7c99bd</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1168044941794">Spot tests (spot analysis) are simple chemical procedures that uniquely identify a substance. They can be performed on small samples, even microscopic samples of matter with no preliminary separation. The first report of a spot test was in 1859 by Hugo Shiff for the detection of uric acid. </para><para id="import-auto-id1168043920449">In a typical spot test, a drop of chemical reagent is added to a drop of an unknown mixture. If the substance under study is present, it produces a chemical reaction characterized by one or more unique observables, e.g., a color change. </para>
+    <section id="import-auto-id1168045190540">
+      <title>Detection of chlorine </title>
+      <para id="import-auto-id1168044015173">A typical example of a spot test is the detection of chlorine in the gas phase by the exposure to paper impregnated with 0.1% 4-4’bis-dimethylamino-thiobenzophenone (thio-Michler’s ketone) dissolved in benzene. In the presence of chlorine the paper will change from yellow to blue. The mechanism involves the Zwitter ionic form of the thioketone, <link target-id="eip-421"/>, undergoing an oxidation reaction and subsequent disulfide coupling, <link target-id="eip-271"/>. </para><equation id="eip-421"><media id="idEq1zzz_media" alt="">
+        <image mime-type="image/jpg" src="../../media/Eq1-9eab.jpg" id=" idEq1zzz__onlineimage" width="500" print-width="5in"/>
+      </media>
+</equation><equation id="eip-271"><media id="idEq1zzzz_media" alt="">
+        <image mime-type="image/jpg" src="../../media/Eq2-ca5c.jpg" id="idEq1zzzz__onlineimage" width="500" print-width="5in"/>
+      </media>
+</equation></section>
+    <section id="import-auto-id1168050395804">
+      <title>Bibliography</title>
+      <list id="import-auto-id1168044201278" list-type="bulleted">
+        <item>L. Ben-Dor and E. Jungreis, <emphasis effect="italics">Microchimica Acta</emphasis>, 1964, <emphasis effect="bold">52</emphasis>, 100. </item>
+        <item>F. Feigl, <emphasis effect="italics">Spot Tests in Organic Analysis</emphasis>, 7<sup>th</sup> Ed. Elsevier, New York, 2012</item>
+        <item>N. MacInnes, A. R. Barron, R. S. Soman, and T. R. Gilbert, <emphasis effect="italics">J. Am. Ceram. Soc.</emphasis>, 1990, <emphasis effect="bold">73</emphasis>, 3696. </item>
+        <item>H. Schiff, <emphasis effect="italics">Ann. Chim. Acta</emphasis>, 1859, <emphasis effect="bold">109</emphasis>, 67.</item>
+      </list>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,489 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Low-Temperature Specific Heat Measurements for Magnetic Materials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45759</md:content-id>
+  <md:title>Low-Temperature Specific Heat Measurements for Magnetic Materials</md:title>
+  <md:abstract/>
+  <md:uuid>3c4ed275-4ceb-4831-88cd-c35907b3dda8</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm245683552">
+      <title>Introduction</title><para id="import-auto-idm829831984">Magnetic materials attract the attention of researchers and engineers because of their potential for application in magnetic and electronic devices such as navigational equipment, computers, and even high-speed transportation.  Perhaps more valuable still, however, is the insight they provide into fundamental physicals.  Magnetic materials provide an opportunity for studying exotic quantum mechanical phenomena such as quantum criticality, superconductivity, and heavy fermionic behavior intrinsic to these materials.  A battery of characterization techniques exist for measuring the physical properties of these materials, among them a method for measuring the specific heat of a material throughout a large range of temperatures.  Specific heat measurments are an important means of determining the transition temperature of magnetic materials—the temperature below which magnetic ordering occurs.  Additionally, the functionality of specific heat with temperature is characteristic of the behavior of electrons within the material and can be used to classify materials into different categories.</para>
+    </section>
+    <section id="import-auto-idm1324575376">
+      <title>Temperature-dependence of specific heat</title><para id="import-auto-idm458126016">The molar specific heat of a material is defined as the amount of energy required to raise the temperature of 1 mole of the material by 1 K.  This value is calculated theoretically by taking the partial derivative of the internal energy with respect to temperature.  This value is not a constant, as it is typically treated in high-school science courses: it depends on the temperature of the material.  Moreover, the temperature-dependence itself also changes based on the type of material.  There are three broad families of solid state materials defined by their specific heat behaviors.  Each of these families is discussed in the following sections.</para>
+      <section id="import-auto-idm276777024">
+        <title>Insulators</title>
+        <para id="import-auto-idm837452576">Insulators have specific heat with the simplest dependence on temperature.  According to the Debye theory of specific heat, which models materials as phonons (lattice vibrational modes) in a potential well, the internal energy of an insulating system is given by <link target-id=" eip-353"/>, where T<sub>D</sub> is the Debye temperature, defined as the temperature associated with the energy of the highest allowed phonon mode of the material.  In the limit that T&lt;&lt;T<sub>D</sub>, the energy expression reduces to <link target-id=" eip-20"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-353"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>9</m:mn>
+                      <m:mi>N</m:mi>
+                      <m:msub>
+                        <m:mi>k</m:mi>
+                        <m:mi>B</m:mi>
+                      </m:msub>
+                      <m:msup>
+                        <m:mi>T</m:mi>
+                        <m:mn>4</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:msubsup>
+                      <m:mi>T</m:mi>
+                      <m:mi>D</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msubsup>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mrow>
+                  <m:munderover>
+                    <m:mo stretchy="false">∫</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>T</m:mi>
+                        <m:mi>D</m:mi>
+                      </m:msub>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mi>T</m:mi>
+                    </m:mrow>
+                  </m:munderover>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mi>x</m:mi>
+                        </m:msup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mi mathvariant="italic">dx</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">U= {9N {k} rsub {B} {T} ^ {4}} over {{T} rsub {D} rsup {3}} int from {0} to {{T} rsub {D} /T} {{{x} ^ {3}} over {{e} ^ {x} -1} dx}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-20"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mi>U</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:msup>
+                      <m:mi>π</m:mi>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                    <m:mi>N</m:mi>
+                    <m:msub>
+                      <m:mi>k</m:mi>
+                      <m:mi>B</m:mi>
+                    </m:msub>
+                    <m:msup>
+                      <m:mi>T</m:mi>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msubsup>
+                      <m:mi>T</m:mi>
+                      <m:mi>D</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msubsup>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">U= {3 {π} ^ {4} N {k} rsub {B} {T} ^ {4}} over {5 {T} rsub {D} rsup {3}}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm794817056">For most magnetic materials, the Debye temperature is several orders of magnitude higher than the temperature at which magnetic ordering occurs, making this a valid approximation of the internal energy.  The specific heat derived from this expression is given by <link target-id=" eip-367"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-367"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>C</m:mi>
+                    <m:mi>v</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>∂</m:mi>
+                      <m:mi>U</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>∂</m:mi>
+                      <m:mi>T</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>12</m:mn>
+                      <m:msup>
+                        <m:mi>π</m:mi>
+                        <m:mn>4</m:mn>
+                      </m:msup>
+                      <m:mi>N</m:mi>
+                      <m:msub>
+                        <m:mi>k</m:mi>
+                        <m:mi>B</m:mi>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:msubsup>
+                        <m:mi>T</m:mi>
+                        <m:mi>D</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msubsup>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>T</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>β</m:mi>
+                </m:mrow>
+                <m:msup>
+                  <m:mi>T</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{C} rsub {v} = {∂U} over {∂T} = {12 {π} ^ {4} N {k} rsub {B}} over {5 {T} rsub {D} rsup {3}} {T} ^ {3} =β {T} ^ {3}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm644629488">The behavior described by the Debye theory accurately matches experimental measurements of specific heat for insulators at low temperatures.  Normal insulators, then, have a T<sup>3</sup> dependence in the specific heat that is dominated by contributions from phonon excitations.  Essentially all energy absorbed by insulating materials is stored in the vibrational modes of a solid lattice.  At very low temperatures this contribution is very small, and insulators display a high sensitivity to changes in heat energy.</para>
+      </section>
+      <section id="import-auto-idm506146816">
+        <title>Metals: Fermi liquids</title><para id="import-auto-idm494866112">While the Debye theory of specific heat accurately describes the behavior of insulators, it does not adequately describe the temperature dependence of the specific heat for metallic materials at low temperatures, where contributions from delocalized conduction electrons becomes significant.  The predictions made by the Debye model are corrected in the Einstein-Debye model of specific heat, where an additional term describing the contributions from the electrons (as modeled by a free electron gas) is added to the phonon contribution.  The internal energy of a free electron gas is given by <link target-id=" eip-463"/>, where g(E<sub>f</sub>) is the density of states at the Fermi level, which is material dependent.  The partial derivative of this expression with respect to temperature yields the specific heat of the electron gas, <link target-id=" eip-716"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-463"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>U</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:msup>
+                      <m:mi>π</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mn>6</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:msup>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>k</m:mi>
+                          <m:mi>B</m:mi>
+                        </m:msub>
+                        <m:mi>T</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>g</m:mi>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>E</m:mi>
+                        <m:mi>f</m:mi>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>U</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">U= {{π} ^ {2}} over {6} {left ({k} rsub {B} T right )} ^ {2} g left ({E} rsub {f} right ) + {U} rsub {0}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-716"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>C</m:mi>
+                    <m:mi>v</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:msup>
+                      <m:mi>π</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mi>k</m:mi>
+                  <m:mi>B</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+                <m:mi>g</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>E</m:mi>
+                      <m:mi>f</m:mi>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi mathvariant="italic">γT</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{C} rsub {v} = {{π} ^ {2}} over {3} {k} rsub {B} rsup {2} g left ({E} rsub {f} right ) T=γT</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm443667424">Combining this expression with the phonon contribution to specific heat gives the expression predicted by the Einstein-Debye model, <link target-id=" eip-929"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-929"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>C</m:mi>
+                    <m:mi>v</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:msup>
+                      <m:mi>π</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mi>k</m:mi>
+                  <m:mi>B</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+                <m:mi>g</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>E</m:mi>
+                      <m:mi>f</m:mi>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>12</m:mn>
+                      <m:msup>
+                        <m:mi>π</m:mi>
+                        <m:mn>4</m:mn>
+                      </m:msup>
+                      <m:mi>N</m:mi>
+                      <m:msub>
+                        <m:mi>k</m:mi>
+                        <m:mi>B</m:mi>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:msubsup>
+                        <m:mi>T</m:mi>
+                        <m:mi>D</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msubsup>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>T</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mi mathvariant="italic">γT</m:mi>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mi>β</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:msup>
+                  <m:mi>T</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{C} rsub {v} = {{π} ^ {2}} over {3} {k} rsub {B} rsup {2} g left ({E} rsub {f} right ) T + {12 {π} ^ {4} N {k} rsub {B}} over {5 {T} rsub {D} rsup {3}} {T} ^ {3} =γT+β {T} ^ {3}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm563429552">This is the general expression for the specific heat of a Fermi liquid—a variation on the Fermi gas in which fermions (typically electrons) are allowed to interact with each other and form quasiparticles—weakly bound and often short-lived composites of more fundamental particles such as electron-hole pairs or the Cooper pairs of BCS superconductor theory.</para>
+        <para id="import-auto-idm467668640">Most metallic materials follow this behavior and are thus classified as Fermi liquids.  This is easily confirmed by measuring the heat capacity as a function of temperature and linearizing the results by plotting C/T vs. T<sup>2</sup>.  The slope of this graph equal the coefficient β, and the y-intercept is equal to γ.  The ability to obtain these coefficients is important for gaining understanding of some unique physical phenomena.  For example, the compound YbRh<sub>2</sub>Si<sub>2</sub> is a heavy fermionic material—a material with charge carriers that have an “effective” mass much greater than the normal mass of an electron.  The increased mass is due to coupling of magnetic moments between conduction electrons and localized magnetic ions.  The coefficient γ is related to the density of states at the Fermi level, which is dependent on the carrier mass.  Determination of this coefficient via specific heat measurements provides a way to determine the effective carrier mass and the coupling strength of the quasiparticles.</para>
+        <para id="import-auto-idm276369920">Additionally, knowledge of Fermi-liquid behavior provides insight for application development.  The temperature dependence of the specific heat shows that the phonon contribution dominates at higher temperatures, where the behavior of metals and insulators is very similar.  At low temperatures, the electronic term is dominant, and metals can absorb more heat without a signficant change in temperature.  As will be discussed breifly later, this property of metals is utilized in low-temperature refrigeration systems for heat storage at low temperatures.</para>
+      </section>
+      <section id="import-auto-idm648101632">
+        <title>Metals: non-Fermi liquids</title><para id="import-auto-idm457443424">While most metals fall under the category of Fermi liquids, there are some that show a different dependence on temperature.  Naturally, these are classified as <emphasis effect="italics">non</emphasis>-Fermi liquids.  Often, deviation from Fermi-liquid behavior is an indicator of some of the interesting physical phenomena that currently garner the attention of many condensed matter researchers.  For instance, non-Fermi liquid behavior has been observed near quantum critical points.  Classically, fluctuations in physical properties such as magnetic susceptibility and resistivity occur near critical points which include phase changes or magnetic ordering transitions.  Normally, these fluctuations are suppressed at low temperatures—at absolute zero, classical systems collapse into the lowest energy state and remain stable; However, when the critical transition temperature is lowered by the application of pressure, doping, or magnetic field to absolute zero, the fluctuations are <emphasis effect="italics">enhanced</emphasis> as the temperature approaches absolute zero, propagating throughout the whole of the material.  As this is not classically allowed, this behavior indicates a quantum mechanical effect at play that is currently not well understood.  The transition point is then called a quantum critical point.  Non-fermi liquid behavior as identified by deviations in the expected specific heat, then, is used to identify materials that can provide an experimental basis for development of a theory that describes the physics of quantum criticality.</para>
+      </section>
+    </section>
+    <section id="import-auto-idm661731536">
+      <title>Determination of magnetic transition temperatures via specific heat measurements</title><para id="import-auto-idm546751504">While analysis of the temperature dependence of specific heat is a vital tool for studying the strange physical behaviors of quantum mechanics in solid state materials, these are studied by only a small subsection of the physics community.  The utility of specific heat measurements is not limited to a few niche subjects, however.  Possibly the most important use for specific heat measurements is the determination of critical transition temperatures.  For any sort of physical state transition—phase transitions, magnetic ordering, transitions to superconducting states—a sharp increase in the specific heat occurs during the transition.  This increase in specific heat is the reason why, for example, water does not change temperature as it changes from a liquid to a solid.  These increases are quite obvious in plots of the specific heat vs. temperature as seen in <link target-id=" import-auto-idm818710896"/>.  These transition-associated peaks are called Schottky anomalies, as normal specific heat behavior is not followed near to the transition temperature. </para><figure id="import-auto-idm818710896"><media id="import-auto-idm648662384" alt="">
+          <image mime-type="image/png" src="../../media/Picture 251.png" width="400" print-width="4in"/>
+        </media>
+      <caption>A Schottky anomaly at the magnetic ordering temperature of URu<sub>2</sub>Si<sub>2 </sub>. Adapted with permission from J. C. Lashley, M. F. Hundley, A. Migliori, J. L. Sarrao, P. G. Pagliuso, T. W. Darling, M. Jaime, J. C. Cooley, W. L. Hults, L. Morales, D. J. Thoma, J. L. Smith, J. Boerio-Goates, B. F. Woodfield, G. R.Stewart, R. A. Fisher, and N. E. Phillips. <emphasis effect="italics">Cryogenics</emphasis>, 2003, <emphasis effect="bold">43</emphasis>, 369. Copyright: Elsevier publishing.</caption></figure><para id="import-auto-idm540092208">For the purposes of this chapter, the following sections will focus on specific heat measurements as they relate to magnetic ordering transititions.  The following sections will describe the practical aspects of measuring the specific heat of these materials.</para>
+    </section>
+    <section id="import-auto-idm649716112">
+      <title>A practical guide to low-temperature specific heat measurements</title><section id="import-auto-idm652743024">
+        <title>The thermal relaxation method of measurement</title><para id="import-auto-idm655484192">Specific heat is measured using a calorimeter.  The design of basic calorimeters for use over a short range of temperatures is relatively simple.  They consist of a sample with a known mass and an unknown specific heat, an energy source which provides heat energy to the sample, a heat reservoir (of known mass and specific heat) that absorbs heat from the sample, insulation to provide adiabatic conditions inside the calorimeter, and probes for measuring the temperature of the sample and the reservoir.  The sample is heated with a pulse to a temperature higher than the heat reservoir, which decreases as energy is absorbed by the reservoir until a thermal equilibrium is established.  The total energy change is calculated using the specific heat and temperature change of the reservoir.  The specific heat of the sample is calculated by dividing the total energy change by the product of the mass of the sample and the temperature change of the sample.</para>
+        <para id="import-auto-idm954901888">However, this method of measurement produces an average value of the specific heat over the range of the change in temperature of the sample, and therefore, is insufficient for producing accurate measurements of the specific heat as a function of temperature.  The solution, then, is to minimize the temperature change by reducing the amount of heat added to the system; yet, this presents another obstacle to making measurement as, in general, the temperature change of the reservoir is much smaller than that of the sample.  If the change in temperature of the sample is minimized, the temperature change of reservoir becomes too small to measure with precision.  A more direct method of measurement, then, seems to be required.</para>
+        <para id="import-auto-idm494147104">Fortunately, such a method exists: it is known as the thermal relaxation method.  This method involves measurement of the specific heat without the need for precise knowledge of temperature changes in the reservoir.  In this method, solid samples are affixed to a platform.  Both the specific heat of the sample and the platform itself contribute to the measured specific heat; therefore, the contribution from the platform must be subtracted.  This contribution is determined by measuring the specific heat without a sample present.  Both the sample and the platform are in thermal contact with a heat reservoir at low temperature as depicted in <link target-id=" import-auto-idm652141888"/>.</para><figure id="import-auto-idm652141888"><media id="import-auto-idm542362416" alt="">
+            <image mime-type="image/png" src="../../media/Picture 252.png" width="400" print-width="4in"/>
+          </media>
+        <caption>A schematic representation depicting the thermal connection between the sample and the heat reservoir.</caption></figure><para id="import-auto-idm454070592">A heat pulse is delivered to the sample to produce a minimal increase in the temperature of the sample.  The temperature is measured vs. time as it decays back to the temperature of the reservoir as shown in <link target-id=" import-auto-idm812612656"/>.</para><figure id="import-auto-idm812612656"><media id="import-auto-idm924059296" alt="">
+            <image mime-type="image/png" src="../../media/Picture 253.png" width="500" print-width="4in"/>
+          </media>
+        <caption>The low-temperature heat-pulse temperature decay for a copper standard. Reused with permission from J. S. Hwang, K. J. Lin, and C. Tien. <emphasis effect="italics">Rev. Sci. Instrum.</emphasis>, 1997, <emphasis effect="bold">68</emphasis>, 94. Copyright: AIP publishing.</caption></figure><para id="import-auto-idm492497616">The temperature of the sample decays according to <link target-id=" eip-917"/>, where T<sub>0</sub> is the temperature of the heat reservoir, and ΔT is the temperature difference between the initial sample temperature and the reservoir temperature.  The decay time constant τ is directly related to the specific heat of the sample by <link target-id=" eip-874"/>, Where K is the thermal conductance of the thermal link between the sample and the heat reservoir.  In order for this to be valid, however, the thermal conductance must be sufficiently large that the energy transfer from the heated sample to the reservoir can be treated as a single process.  If the thermal conduction is poor, a two-τ behavior arises corresponding to two separate processes with different time constants—slow heat transfer from the sample to the platform, and fast transfer from the platform to the reservoir.  <link target-id=" import-auto-idm447806528"/>  shows a relaxation curve in which the two- τ behavior plays a significant role.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-917"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>∆</m:mi>
+                </m:mrow>
+                <m:mi>T</m:mi>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>e</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mi>τ</m:mi>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>T</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">T=∆T {e} ^ {-t/τ} + {T} rsub {0}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-874"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mi>τ</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>C</m:mi>
+                    <m:mi>p</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi>K</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">τ= {C} rsub {p} /K</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><figure id="import-auto-idm447806528"><media id="import-auto-idm232170256" alt="">
+            <image mime-type="image/png" src="../../media/Picture 254.png" width="500" print-width="4in"/>
+          </media>
+        <caption>A thermal relaxation decay graph for a sample of a Pb sample displaying the two-τ effect. Reused with permission from J. S. Hwang, K. J. Lin, and C. Tien. <emphasis effect="italics">Rev. Sci. Instrum.</emphasis>, 1997, <emphasis effect="bold">68</emphasis>, 94. Copyright: AIP publishing.</caption></figure><para id="import-auto-idm1477989024">The two-τ effect is generally undesireable for making measurements.  It can be avoided by reducing thermal conductance between the sample and the platform, effectively making the contribution from the heat transfer from the sample to the platform insignificant compared to the transfer from the platform to the reservoir; however, if the conductance between the sample and the platform is too low, the time required to reach thermal equilibrium becomes excessively long, translating into very long measurement times.  It is necessary, then, to optimize the conductance to compensate for both of these issues.  This essentially provides a limitation on the temperature range over which these effects are insignificant.</para><para id="import-auto-idm538812000">In order to measure at different temepratures, the temperature of the heat reservoir is increased stepwise from the lowest temperature until the desired temperature range is covered.  At each step, the temperature is allowed to equilibrate, and a data point is measured.</para>
+      </section>
+      <section id="import-auto-idm250027808">
+        <title>Instrumentation</title><para id="import-auto-idm256193472">Thermal relaxation calorimeters use advanced technology to make precise measurements of the specific heat using components made of highly specialized materials.  For example, the sample platform is made of synthetic sapphire which is used as a standard material, the grease which is applied to the sample to provide even thermal contact with the platform is a special hydrocarbon-based material which can withstand millikelvin temperatures without creeping, cracking, or releasing vapor, and the resistance thermometers used for ultralow temperatures are often made of treated graphite or germanium.  The culmination of years of materials science research and careful engineering has produced instrumentation with the capability for precise measurements from temperatures down to the millikelvin level.  There are four main systems that function to provide the proper conditions for measurement: the reservoir temperature control, the sample temperature control, the magnetic field control, and the pressure control system.  The essential components of these systems will be discussed in more detail in the following sections with special emphasis on the cooling systems that allow these extreme low temperatures to be achieved.</para>
+      </section>
+      <section id="import-auto-idm913648112">
+        <title>Cooling systems</title><para id="import-auto-idm451062528">The first of these is responsible for maintaining the low baseline temperature to which the sample temperature relaxes.  This is typically accomplished with the use of liquid helium cryostats or, in more recent years, so-called “cryogen-free” pulse tube coolers.</para>
+        <para id="import-auto-idm852223136">A cryostat is simply a bath of cryogenic fluid that is kept in thermal contact with the sample.  The fluid bath may be static or may be pumped through a circulation system for better cooling.  The cryostat must also be thermally insulated from the external environment in order to maintain low temperatures.  Insulation is provided by a metallic vacuum dewar: The vacuum virtually eliminates conuductive or convective heat transfer from the environment and the reflective metallic outer sleeve acts as a radiation shield.  For the low temperatures required to observe some magnetic transitions, liquid helium is generally required.  <sup>4</sup>He liquefies at 4.2 K, and the rarer (and much more expensive) isotope, <sup>3</sup>He, liquefies at 1.8 K.  For temperatures lower than 1.8 K, modern instruments employ evaporative attachments such as a 1-K pot, <sup>3</sup>He refrigerator, or a dilution refrigerator.  The 1-K pot is so named because it can achieve temperatures down to 1 K.  It consists of a small vessel filled with liquid <sup>4</sup>He under reduced pressure.  Heat is absorbed as the liquid evaporates and is carried away by the vapor.  The <sup>3</sup>He refrigerator utilizes a 1-K pot for liquefaction of <sup>3</sup>He, then evaporation of <sup>3</sup>He provide cooling to the sample.  <sup>3</sup>He refrigerators can provide temperatures as low as 200 mK.  The dilution refrigerator works on a similar principle, however the working fluid is a mixture of <sup>3</sup>He and <sup>4</sup>He.  Phase separation of the <sup>3</sup>He from the mixture provides further heat absorption as the <sup>3</sup>He evaporates.  Dilution refrigerators can achieve temperatures as low as 0.002 K (That’s cold!).  Evaporative refrigerators work only on a small area in thermal contact with the sample, rather than delivering cooling power to the entire volume of the cryostat bath.</para>
+        <para id="import-auto-idm952864272">Cryostat baths provide very high cooling power for very efficient cooling; however, they come with a major drawback:  the cost of helium is prohibitively high.  The helium vapor that boils off as it provides cooling to the sample must leave the system in order to carry the heat away and must therefore be replaced.  Even when the instrument is not in use, there is some loss of helium due to the imperfect nature of the insulating dewars.  In order to get the most use out of the helium, then, cryostat systems must always be in use.  In addition, rather than allowing expensive helium to simply escape, recovery systems for helium exhaust must be installed in order to operate in a cost-effective manner, though these systems are not 100% efficient, and the cost of operation and maintenance of recovery systems is not small either.  “Cryogen-free” coolers provide an alternative to cryostats in order to avoid the costs associated with helium usage and recovery.</para>
+        <para id="import-auto-idm654816352"><link target-id=" import-auto-idm481617232"/> shows a Gifford-McMahon type pulse tube—one example of the cryogen-free coolers.</para><figure id="import-auto-idm481617232"><media id="import-auto-idm464914320" alt="">
+            <image mime-type="image/png" src="../../media/Picture 255.png" width="450" print-width="4in"/>
+          </media>
+        <caption>A schematic representation of a Gifford-McMahon type pulse tube cooler.  Adapted from P. D. Nissen. <emphasis effect="italics">Closed Cycle Refrigerators – Pulse Tube Coolers</emphasis>. Retrieved from &lt;www.nbi.dk/~nygard/DPN-Pulsetubecoolers_low2010.pdf&gt;. </caption></figure><para id="import-auto-idm284903056">In this type of cooler, helium gas is driven through the regenerator by a compressor.  As a small volume element of the gas passes throught the regenerator, it drops in temperature as it deposits heat into the regenerator.  The regenerator must have a high specific heat in order to effectively absorb energy from the helum gas.  For higher-temperature pulse tube coolers, the regenerator is often made of copper mesh; however, for very low temperatures, helium has a higher specific heat than most metals.  Regnerators for this temperature range are often made of porous rare earth ceramics with magnetic transitions in the low temperature range.  The increase in specific heat near the Schottky anomaly for these materials provides the necessary capacity for heat absorption.  As the gas enters the tube at a temperature T<sub>L</sub><sup/>(from the diagram above) it is compressed, raising the temperature in accordance with the ideal gas law.  At this point, the gas is at a temperature higher than T<sub>H</sub> and excess heat is exhausted through the heat exchanger marked X<sub>3</sub> until the temperature is in equilibrium with T<sub>H</sub>.  When the rotary valve in the compressor turns, the expansion cycle begins, and the gas cools as it expands adiabatically to a temperature below T<sub>L</sub>.  It then absorbs heat from the sample through the heat exchanger X<sub>2</sub>.  This step provides the cooling power in pulse tube coolers.  Afterward, it travels back through the regenerator at a cold temperature and reabsorbs the heat that was initially stored during compression, and regains it’s original temperature through the heat exchanger X<sub>1</sub>.  <link target-id=" import-auto-idm643309536"/> illustrates the temperature cyle experienced by a volume element of the working gas as it moves through the pulse tube.</para><figure id="import-auto-idm643309536"><media id="import-auto-idm805863024" alt="">
+            <image mime-type="image/png" src="../../media/Picture 204.png" width="500" print-width="4in"/>
+          </media>
+        <caption>Temperature cycle of a gas element moving in the pulse tube cooler. <emphasis effect="bold">A to B</emphasis>: Gas initially at T<sub>H</sub> moves through the regenerator to heat exchanger X<sub>2</sub> dropping to T<sub>L</sub>. <emphasis effect="bold">B to C</emphasis>: Gas is compressed and the temperature rises above T<sub>H</sub>. <emphasis effect="bold">C to D</emphasis>: Gas is shunted along to X<sub>3</sub> and drops to T<sub>H</sub>. <emphasis effect="bold">D to E</emphasis>: Gas is expanded adiabatically to T&lt;T<sub>L</sub>. <emphasis effect="bold">E to F</emphasis>: Cold gas is shunted to X<sub>2</sub> and rises to T<sub>L</sub>, absorbing heat from the sample. <emphasis effect="bold">F to G</emphasis>: Gas at T<sub>L</sub> moves through the regenerator reabsorbing heat until it reaches T<sub>H</sub> at heat exchanger X<sub>1</sub>.</caption></figure><para id="import-auto-idm657729584">Pulse tube coolers are not truly “cryogen-free” as they are advertised, but they are preferable to cryostats because there is no net loss of the helium in the system.  However, pulse tubes are not a perfect solution.  They have very low efficiency over large changes in temperature and at very low temperatures as given by <link target-id=" eip-777"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-777"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mi>ξ</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>Δ</m:mi>
+                      <m:mi>T</m:mi>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+                      <m:mi>H</m:mi>
+                    </m:msub>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">ξ=1- {Δ T} over {{T} rsub {H}}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm487369120">As a result, pulse tube coolers consume a lot of electricity to provide the necessary cooling and may take a long time to achieve the desired temperature.  Over large temperature ranges such as the 4 – 300 K range typically used in specific heat measurements, pulse tubes can be used in stages, with one providing pre-cooling for the next, to increase the cooling power and provide a shorter cooling time, though this tends to increase the energy consumption.  The cost of running a pulse tube system is still generally less that that of a cryostat, however, and unlike cryostats, pulse tube systems do not have to be used constantly in order to remain cost-effective.</para>
+      </section>
+      <section id="import-auto-idm1357142384">
+        <title>Sample conditions</title><para id="import-auto-idm811390768">While the cooling system works more or less independently, the other systems—the sample temperature control, the magnetic field control, and the pressure control systems—work together to create the proper conditions for measurement of the sample.  The sample temperature control system provides the heat pulse used to increase the temperature of the sample before relaxation occurs.  The components of this system are incorporated into the sapphire sample platform as shown in <link target-id=" import-auto-idm249372240"/>.</para><figure id="import-auto-idm249372240"><media id="import-auto-idm557196080" alt="">
+            <image mime-type="image/png" src="../../media/Picture 205.png" width="500" print-width="4in"/>
+          </media>
+        <caption>The sample platform with important components of the sample temperature control system. Reused with permission from R. J. Schutz. <emphasis effect="italics">Rev. Sci. Instrum.</emphasis>, 1974, <emphasis effect="bold">45</emphasis>, 548. Copyright: AIP publishing.</caption></figure><para id="import-auto-idm826351088">The sample is affixed to the platform over the thermometer with a  small amount of grease, which also provides thermal conductance between the heating element and the sample.  The heat pulse is delivered to the sample by running a small current pulse through the heating element, and the response is measured by a resistance thermometer.  The resistance thermometer is made of specially-treated carbon or germanium which have standardized resistances for given temperatures.  The thermometer is calibrated to these standards to provide accurate temperature readings throughout the range of temperatures used for specific heat measurements.  A conductive wire provides thermal connection between the sample platform and the heat reservoir.  This wire must provide high conductivity to ensure that the heat transfer from the sample to the platform is the dominant process and prevent significant two-τ behavior.  Sample preparation is also governed by the temperature control system.  The sample must be in good thermal contact with the platform, therefore, a sample with a flat face is preferable.  The volume of the sample cannot be too large, either, or the heating element will not be able to heat the sample uniformly.  A temperature gradient throughout the sample skews the measurement of the temperature made by the thermometer.  Moreover, it is impossible to assign a 1:1 correspondence between the specific heat and temperature if the specific heat values do not correspond to a singular temperature.  For the best measurements, heat capacity samples must be cut from large single-crystals or polycrystalline solids using a hard diamond saw to prevent contamination of the sample with foreign material.</para>
+        <para id="import-auto-idm555152688">The magnetic field control system provides magnetic fields ranging from 0 to &gt;15 T.  As was mentioned previously, strong magnetic fields can suppress the transition to magnetically ordered states to lower temepratures, which is important for studying quantum critical behaviors.  The magnetic field control consists of a high-current solenoid and regulating electronics to ensure stable current and field outputs.</para>
+        <para id="import-auto-idm780126112">The pressure systems controls the pressure in the sample chamber, which is physically separated from the bath by a wall which allows thermal transfer only.  While the sample is installed in the chamber, the vacuum system must be able to maintain low pressures (~10<sup>-5</sup> torr) to ensure that no gas is present.  If the vacuum system fails, water from any air present in the system can condense inside the sample chamber, including on the sample platform, which alters thermal conductance and throws off measurement of the specific heat.  Moreover, as the temperature in the chamber drops, water can freeze and expand in the chamber which can cause significant damage to the instrument itself.</para></section>
+    </section>
+    <section id="import-auto-idm818818464">
+      <title>Conclusions</title>
+      <para id="import-auto-idm1499723152">Through the application of specialized materials and technology, measurements of the specific heat have become both highly accurate and very precise.  As our measurement capabilities expand toward the 0 K limit, exciting prospects arise for completion of our understanding, discovery of new phenomena, and development of important applications of novel magnetic materials.  Specific heat measurements, then, are a vital tool for studying magnetic materials, whether as a means of exploring the strange phenomena of quantum physics such as quantum criticality or heavy fermions, or simply as a routine method of characterizing physical transitions between different states.</para>
+    </section>
+    <section id="import-auto-idm643781440">
+      <title>Bibliography</title><list id="import-auto-idm527225344" list-type="bulleted" bullet-style="bullet"><item>P. Debye. <emphasis effect="italics">Ann. Phys.</emphasis>, 1912 <emphasis effect="bold">344</emphasis>, 14, 789.</item>
+        <item>F. J. Blatt. <emphasis effect="italics">Modern Physics</emphasis> McGraw-Hill (1992).</item>
+        <item>P. Gegenwart, Q. Si, and F. Steglich. <emphasis effect="italics">Nature Phys.</emphasis>, 2006, <emphasis effect="bold">4</emphasis>, 186.</item>
+        <item>H. V. Lohneysen, A. Rosch, M. Vojta, and P. Wolfle. <emphasis effect="italics">Rev. Mod. Phys.</emphasis>, 2007, <emphasis effect="bold">79</emphasis>, 1015.</item>
+        <item>A. J. Schofield. <emphasis effect="italics">Contemp. Phys.</emphasis>, 1999, <emphasis effect="bold">40</emphasis>, 2, 95.</item>
+        <item>J. C. Lashley, M. F. Hundley, A. Migliori, J. L. Sarrao, P. G. Pagliuso, T. W. Darling, M. Jaime, J. C. Cooley, W. L. Hults, L. Morales, D. J. Thoma, J. L. Smith, J. Boerio-Goates, B. F. Woodfield, G. R.Stewart, R. A. Fisher, and N. E. Phillips. <emphasis effect="italics">Cryogenics</emphasis>, 2003, <emphasis effect="bold">43</emphasis>, 369.</item>
+        <item>J. S. Hwang, K. J. Lin, and C. Tien. <emphasis effect="italics">Rev. Sci. Instrum.</emphasis>, 1997, <emphasis effect="bold">68</emphasis>, 94.</item>
+        <item>R. J. Schutz. <emphasis effect="italics">Rev. Sci. Instrum.</emphasis>, 1974, <emphasis effect="bold">45</emphasis>, 548.</item>
+        <item>A. T. A. M. de Waele. <emphasis effect="italics">Physica B</emphasis>, 2000, <emphasis effect="bold">280</emphasis>, 479.</item>
+        <item>P. D. Nissen. <emphasis effect="italics">Closed Cycle Refrigerators – Pulse Tube Coolers</emphasis>. Retrieved from &lt;www.nbi.dk/~nygard/DPN-Pulsetubecoolers_low2010.pdf&gt;</item>
+      </list></section>
+  </content>
+</document>

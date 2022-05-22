@@ -1,0 +1,413 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Forensic Science</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71621</md:content-id>
+  <md:title>Forensic Science</md:title>
+  <md:abstract/>
+  <md:uuid>142e7dee-b0ac-4d8e-9854-4c402c34f0c8</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm478345456">
+      <title>Introduction</title>
+      <para id="import-auto-idm441081232">Forensic chemistry applies chemistry to criminal investigations in which complex, accurate, analyses of evidence is crucial. Evidence can come from the crime scene, victims, and subjects, either ante-mortem or postmortem. Samples are taken to a laboratory, or in some urgent situations, temporary field laboratories can be set up. Chemists report their findings to the investigators and, if needed, prepare formal testimony for trial. The work of chemists in forensics has far reaching consequences, as evidence produced in court can be life changing for the victim, the subjects, and their families. More broadly, forensic chemistry has the potential to create change in legislation and in the legal system.</para>
+      <para id="import-auto-idm688575744">Target materials include: </para>
+      <list id="import-auto-idm835469072" list-type="bulleted">
+        <item>body fluids, </item>
+        <item>drugs, </item>
+        <item>toxins, </item>
+        <item>residues from explosives, fires, and gunshots. </item>
+      </list>
+      <para id="import-auto-idm239538432">At the scene of a crime, it is often difficult to distinguish between bodily fluids. However, even if attempts have been made to clean the crime scene by the perpetrator, trace amounts can still be detected. For example, in the Kastle-Meyer blood test (<link target-id="import-auto-idm668367696 "/>), the hemoglobin-catalyzed reduction of peroxide is facilitated by the oxidation of the pale yellow colored phenolphthalin (<link target-id="import-auto-idm530232064"/>) to the intensely pink colored phenolphthalein (<link target-id="import-auto-idm458373744"/>).</para><figure id="import-auto-idm668367696"><media id="import-auto-idm539511264" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 6-b897.jpg" width="250" print-width="2.5in"/>
+        </media>
+      <caption>The positive detection of blood using the Kastle–Meyer test.</caption></figure><figure id="import-auto-idm530232064"><media id="import-auto-idm803587424" alt="">
+          <image mime-type="image/png" src="../../media/Image1-447b.png" width="200" print-width="2in"/>
+        </media>
+      <caption>Structure of pale yellow colored phenolphthalin (2-(bis[4-hydroxyphenyl]methyl)benzoic acid).</caption></figure><figure id="import-auto-idm458373744"><media id="import-auto-idm351415744" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-7301.png" width="180" print-width="1.8in"/>
+        </media>
+      <caption>Structure of pink phenolphthalein (3,3-bis(4-hydroxyphenyl)-2-benzofuran-1(3<emphasis effect="italics">H</emphasis>)-one). </caption></figure><para id="import-auto-idm665577856">The detection of semen can be enabled with either luminol (<link target-id="import-auto-idm668354912"/>) or fluorescein (<link target-id="import-auto-idm468981840"/>) with the use of an alternate light source (ALS) of 415 nm wavelength. Saliva<emphasis effect="bold"/>and urine<emphasis effect="bold"/>are other fluids of interest. Once these biological samples have been collected, further extraction of DNA<emphasis effect="bold"/>can be performed to uniquely identify subject of interest. </para><figure id="import-auto-idm668354912"><media id="import-auto-idm364187408" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-1f55.png" width="120" print-width="1.2in"/>
+        </media>
+      <caption>Structure of luminol (5-amino-2,3-dihydrophthalazine-1,4-dione). </caption></figure><figure id="import-auto-idm468981840"><media id="import-auto-idm577381008" alt="">
+          <image mime-type="image/png" src="../../media/Picture 14-aec1.png" width="200" print-width="2in"/>
+        </media>
+      <caption>Structure of fluorescein (3′,6′-dihydroxyspiro[isobenzofuran-1(3<emphasis effect="italics">H</emphasis>),9′-[9<emphasis effect="italics">H</emphasis>]xanthen]-3-one). </caption></figure><para id="import-auto-idm466205280">It is essential to note the physiological condition of persons, which often gives clues to the events that transpired. Alcohol (ethanol), the most common target substance in the field, can be detected via a breathalyzer or through bodily fluids. Illicit drugs, on the other hand, are more difficult, as chemists must distinguish between the metabolites of chemicals from foods and other legal substances and the metabolites of illicit drugs. For example, heroin (<link target-id="import-auto-idm507241536"/>) is metabolized into morphine (<link target-id="import-auto-idm456028704"/>). Tetrahydrocannabinol (THC, <link target-id="import-auto-idm340401008"/>) in cannabis is another common drug and is easily detectable. Pharmaceuticals are important to look for as well as poisons and dangerous chemicals such as lead, arsenic, and mercury. </para><figure id="import-auto-idm507241536"><media id="import-auto-idm291980240" alt="">
+          <image mime-type="image/png" src="../../media/Picture 15-5a96.png" width="250" print-width="2.5in"/>
+        </media>
+      <caption>Structure of heroin ((5α,6α)-7,8-didehydro-4,5-epoxy-17-methylmorphinan-3,6-diol diacetate). </caption></figure><figure id="import-auto-idm456028704"><media id="import-auto-idm511152848" alt="">
+          <image mime-type="image/png" src="../../media/Picture 16-0936.png" width="200" print-width="2in"/>
+        </media>
+      <caption>Structure of morphine ((4R,4aR,7S,7aR,12bS)-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-7,9-diol). </caption></figure><figure id="import-auto-idm340401008"><media id="import-auto-idm439084672" alt="">
+          <image mime-type="image/png" src="../../media/Picture 17-40fb.png" width="240" print-width="2.4in"/>
+        </media>
+      <caption>Structure of tetrahydrocannabinol (THC, (−)-(6aR,10aR)-6,6,9-trimethyl-3-pentyl-6a,7,8,10a-tetrahydro-6H-benzo[c]chromen-1-ol). </caption></figure><para id="import-auto-idm352870528">In residues from gunpowder, chemists search for nitrates<emphasis effect="bold"/>and other nitro compounds. After fires, investigators search for accelerants such as gasoline<emphasis effect="bold"/>or kerosene<emphasis effect="bold"/>that would imply an intentional fire. Furthermore, discovery of C-4 or RDX<emphasis effect="bold"/>would indicate a criminal’s connection to the military. Other materials of interest include metals from bullet fragments, such as lead, copper, and zinc, as well as paint chips, hair, and other fibers. </para>
+    </section>
+    <section id="import-auto-idm281498288">
+      <title>Needs and challenges of the industry</title>
+      <para id="import-auto-idm563715232">With rapid advancements in technology that have greatly aided the work done in forensics, there still remain numerous challenges in the field. Initially established by law enforcement officials, forensics were not built with a strong foundation in science. The lack of a base in research and science is still reflected today within forensic laboratories. Personnel in the field may not be adequately trained in the analytical methods used to characterize evidence. The absence of training and accreditation limits the overall capabilities of forensic labs. Furthermore, forensic labs are constantly backlogged and under-resourced. Part of the taxing work environment can be attributed to the failure to fully educate those who join the facility. Productivity, efficiency, and accuracy of forensic work can very easily be compromised and placed under scrutiny by law enforcement departments. </para>
+      <para id="import-auto-idm548398208">One of the more striking concerns within forensics is the integrity of protocol and infrastructure across all forensic labs. Even today, labs within the United States fail to enforce standards, quality control, and proper education of forensic scientists. These lax conditions pave the way to contaminated specimens, fraudulent data, erroneous calculations, and lack of documentation. Cumulatively, these major blunders can lead to misinterpretation of evidence and the unjust conviction of an innocent individual. Taking into consideration crime scene investigation methods across the states, officials involved in the general sequence, and the processing of forensic evidence also tend to vary. It is possible to have solely one forensic examiner collect evidence, process evidence, perform the analyses, interpret the evidence, and testify in court. In other regions, it is also feasible to have several investigators collect and process the evidence; scientists conduct the analyses and prepare the conclusive reports. These inconsistencies in policy and protocol, however, leave more room for doubt in the courtroom.</para>
+      <para id="import-auto-idm347468960">In addition to the organizational and infrastructural issues, there are also inherent analytical challenges that pertain more to the chemistry of the evidence. Analytical chemists, to identify all of their possible metabolites specifically, must study illegal and newly released drugs. The chemical composition of these drugs and their metabolites must be properly studied in order to detect traces of them in future crime scene investigations. </para>
+      <para id="import-auto-idm329790192">Some of the improvements being worked on in recent years include innovations in toxicology, analysis of trace evidence, and innovations in scale and ease of use of forensic technologies. Beyond always trying to produce instruments, which reduce analysis times, increase instrument sensitivity, and reduce sample preparation, forensics is always trying to find ways to improve identification of drugs or other trace evidence. Since toxicology tests often use gas chromatography or liquid chromatography in tandem with mass spectrometry as a way to identify drugs through database comparison, the field must adapt to test for new drugs as they are created. Additionally, techniques must be adapted to differentiate between substances with the same or similar fragmentation patterns. </para>
+      <para id="import-auto-idm562981920">Similarly, in trace evidence, there is a necessity of compiling databases to allow for identification of evidence based on statistical data rather than just comparison with another sample, which is currently being done through the creation of explosives databases. Forensics also require ways of analyzing evidence both quickly and accurately, even in the field. To that end, scientists are developing a technology called a lab on a chip, which has been useful in certain medical applications and which will be able to detect DNA, illicit drugs, and explosives residues. Such advances in forensics will no doubt make it a more useful and reliable science in criminal investigation.</para>
+    </section>
+    <section id="import-auto-idm824141168">
+      <title>Standard analytical protocol</title>
+      <para id="import-auto-idm563402848">As previously mentioned, one of the biggest issues within the forensic science industry is a failure to establish standard protocols across the nation. While there is no national standard, each individual forensic science lab does establish its own standard procedures. These standard procedures cover a variety of topics and establish a step-by-step guide for many procedures. Additionally, the guide can cover the uncertainty of measurement, limitations, and documentation pertinent to a specific analysis. TABLE shows an example of the various types of procedures that can be seen in a set of standard operating procedures, as seen in the District of Columbia Department of Forensic Sciences Standard Operating Procedures. </para>
+      <table id="import-auto-idm344221904" summary="The standard analytical protocol that many forensic labs follow when conducting analysis of criminal evidence.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Procedure</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Purpose</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Forensic biological evidence examination</entry>
+              <entry>Procedures used for analyzing evidence for the presence of biological fluids and/or DNA</entry>
+            </row>
+            <row>
+              <entry>Phenolphthalein presumptive chemical test for the presence of blood </entry>
+              <entry>Procedures used for analyzing evidence for the specific presence of blood </entry>
+            </row>
+            <row>
+              <entry>Sodium rhodizonate (<link target-id="import-auto-idm448550416"/>) test</entry>
+              <entry>Designed for detecting depositions of vaporous and particulate lead around a suspected bullet hole</entry>
+            </row>
+            <row>
+              <entry>Report of results for firearm examination</entry>
+              <entry>Provides a structure for documenting examination results</entry>
+            </row>
+            <row>
+              <entry>Acid phosphatase test</entry>
+              <entry>Procedures used for analyzing evidence for the specific presence of semen</entry>
+            </row>
+            <row>
+              <entry>Modified Griess test</entry>
+              <entry>Designed to provide specific technique for detecting and preserving patterns of nitrite residues around a suspected bullet hole(s) as a basis for estimating muzzle-to-target distances</entry>
+            </row>
+            <row>
+              <entry>Use of alternate light source in stain identification</entry>
+              <entry>This procedure is used to help locate possible stains of biological origin for additional testing and identification. </entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>The standard analytical protocol that many forensic labs follow when conducting analysis of criminal evidence. </caption>
+</table><figure id="import-auto-idm448550416"><media id="import-auto-idm294226672" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 1-dfcd.jpg" width="150" print-width="1.5in"/>
+        </media>
+      <caption>The structure of sodium rhodizonate. </caption></figure><para id="import-auto-idm444163360">In an effort to continue improving the quality of forensic analysis nationwide, the National Forensic Science Improvement Act was signed in 2002. This act provides funding to support education, training, accreditation and certification, facilities, personnel and equipment. Funding from this grant requires that states certify their forensic science laboratories and provide a plan for improving the timeliness and quality of their forensic analysis. </para>
+      <para id="import-auto-idm340245312">Reporting is yet another aspect of forensic analysis that requires high specificity and transparency. The importance of reporting is emphasized in the courtroom, where the interpretation and presentation of forensic evidence can drastically change a trial’s end result. To ensure fairness in a trial, forensic scientists must present the results of all analyses performed on the evidence. Furthermore, forensic scientists must be careful to present their evidence in a scientific, unbiased manner. As seen in the above table, all procedures have their limitations and uncertainty of measurements. These facts must also be disclosed when documenting and when reporting as a key witness.</para>
+    </section>
+    <section id="import-auto-idm347193664">
+      <title>Key Analytical Techniques</title>
+      <para id="import-auto-idm700937408"><link target-id="import-auto-idm829781024"/>  summarizes the various analytical techniques that are utilized within the field of forensics for analysis of evidence. </para><table id="import-auto-idm829781024" summary="Analytical techniques utilized within the field of forensics for analysis of evidence.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Technique</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Function of technique</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Specific applications</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Chemical tests</entry>
+              <entry>Identifies presence of specific compounds with simple color and solubility tests</entry>
+              <entry>Drugs, toxicology, body fluids, gunshot residue, explosives, paint, documents</entry>
+            </row>
+            <row>
+              <entry>Optical microscopy</entry>
+              <entry>Magnifies objects to examine evidence </entry>
+              <entry>Fibers, paint, drugs, glass, soil, documents, firearms</entry>
+            </row>
+            <row>
+              <entry>Transmission electron microscopy (<link url=" https://cnx.org/contents/uieDnVBC@23.1:e-zLWCNY@1/Transmission-Electron-Microscopy-An-Overview" window="new">TEM</link>)</entry>
+              <entry>Images specimen that cannot be seen through optical microscopy</entry>
+              <entry>Paint </entry>
+            </row>
+            <row>
+              <entry>Scanning electron microscopy (<link url=" https://cnx.org/contents/uieDnVBC@23.1:1zDUtSc3@1/SEM-and-its-Applications-for-Polymer-Science" window="new">SEM</link>)</entry>
+              <entry>Images surface of samples</entry>
+              <entry>Gunshot residue, paint, fibers, glass, documents</entry>
+            </row>
+            <row>
+              <entry>X-ray diffraction (<link url=" https://cnx.org/contents/uieDnVBC@23.1:Va7G61qm@2/An-Introduction-to-X-ray-Diffraction" window="new">XRD</link>)</entry>
+              <entry>Determines arrangement of atoms in solids</entry>
+              <entry>Explosives, paint, drugs, documents, soil</entry>
+            </row>
+            <row>
+              <entry>Infrared spectroscopy (<link url=" https://cnx.org/contents/uieDnVBC@23.1:6oYLai6Q@1/Fourier-Transform-Infrared-Spectroscopy-of-Metal-Ligand-Complexes" window="new">FT-IR</link>)</entry>
+              <entry>Identifies functional groups in compound and determines compound by comparing with spectral library</entry>
+              <entry>Paint, fibers, polymers, documents, explosives, drugs</entry>
+            </row>
+            <row>
+              <entry><link url=" https://cnx.org/contents/uieDnVBC@23.1:c6H4ozK6@1/Raman-and-Surface-Enhanced-Raman-Spectroscopy" window="new">Raman</link> spectroscopy</entry>
+              <entry>Identifies compound by comparing with spectral library </entry>
+              <entry>Drugs, paint, fibers, documents, explosives</entry>
+            </row>
+            <row>
+              <entry><link url=" https://cnx.org/contents/uieDnVBC@23.1:Auez1s9H@1/Basics-of-UV-Visible-Spectroscopy" window="new">UV-visible</link> spectroscopy </entry>
+              <entry>Records UV-visible absorbance spectrum of compound</entry>
+              <entry>Fibers, paint, documents, drugs, toxicology</entry>
+            </row>
+            <row>
+              <entry>Fluorescence spectroscopy (<link url=" https://cnx.org/contents/uieDnVBC@23.1:68plJxYR@1/Cold-Vapor-Atomic-Fluorescence-Spectroscopy" window="new">FS</link>)</entry>
+              <entry>Records emission spectrum of compound</entry>
+              <entry>Body fluids, toxicology, fibers</entry>
+            </row>
+            <row>
+              <entry>Nuclear magnetic resonance (<link url=" https://cnx.org/contents/uieDnVBC@23.1:E7XKyQly@1/Introduction-to-Nuclear-Magnetic-Resonance-Spectroscopy" window="new">NMR</link>) spectroscopy</entry>
+              <entry>Identifies pure compound using the interaction of certain nuclei with a magnetic field</entry>
+              <entry>Drugs, explosives</entry>
+            </row>
+            <row>
+              <entry>Atomic absorption spectrometry (<link url=" https://cnx.org/contents/uieDnVBC@23.1:VZYI6Pkz@1/Introduction-to-Atomic-Absorption-Spectroscopy" window="new">AAS</link>)</entry>
+              <entry>Analyzes elements by measuring absorbance and emittance at specific wavelengths of light</entry>
+              <entry>Glass, gunshot residue, toxicology</entry>
+            </row>
+            <row>
+              <entry>Mass spectrometry (<link url=" https://cnx.org/contents/uieDnVBC@23.1:kl4gTdhf@1/Principles-of-Mass-Spectrometry-and-Modern-Applications" window="new">MS</link>)</entry>
+              <entry>Characterizes compounds by determining the mass</entry>
+              <entry>Drugs, explosives</entry>
+            </row>
+            <row>
+              <entry>Thin layer chromatography (TLC)</entry>
+              <entry>Separates compounds using liquid organic mobile phase and stationary phase adhered to a glass or plastic plate</entry>
+              <entry>Drugs, documents, fibers, explosives</entry>
+            </row>
+            <row>
+              <entry>Gas chromatography (<link url=" https://cnx.org/contents/uieDnVBC@23.1:xUaus2-x@2/Principles-of-Gas-Chromatography" window="new">GC</link>)</entry>
+              <entry>Separates compounds in the vapor phase </entry>
+              <entry>Drugs, toxicology, arson residues, explosives</entry>
+            </row>
+            <row>
+              <entry>Liquid chromatography (<link url=" https://cnx.org/contents/uieDnVBC@23.1:hBnzUHCR@4/High-Performance-Liquid-chromatography" window="new">LC</link>)</entry>
+              <entry>Separates compounds in the liquid phase</entry>
+              <entry>Drugs, toxicology, fibers</entry>
+            </row>
+            <row>
+              <entry>Capillary electrophoresis (<link url=" https://cnx.org/contents/uieDnVBC@23.1:PjL-tA8c@3/Capillary-Electrophoresis-CE" window="new">CE</link>)</entry>
+              <entry>Separates charged species with the use of an electric field</entry>
+              <entry>Drugs, toxicology, explosives, gunshot residues</entry>
+            </row>
+            <row>
+              <entry>Pyrolysis techniques</entry>
+              <entry>Produces molecular fragments of compounds at high temperatures that can be identified with GC or MS</entry>
+              <entry>Paint, fibers, polymers, documents</entry>
+            </row>
+            <row>
+              <entry>Differential scanning calorimetry (<link url=" https://cnx.org/contents/uieDnVBC@23.1:9EMWnRbD@2/Differential-Scanning-Calorimetry-DSC" window="new">DSC</link>) and differential thermal analysis (<link url=" https://cnx.org/contents/uieDnVBC@23.1:QiLqHkf7@2/Thermogravimetric-Analysis-of-Single-Walled-Carbon-Nanotubes" window="new">DTA</link>)</entry>
+              <entry>Determines physical and chemical properties of compounds by measuring the change in temperature of the compound as a function of time or temperature</entry>
+              <entry>Polymers, fibers</entry>
+            </row>
+            <row>
+              <entry>Thermogravimetric analysis (<link url=" https://cnx.org/contents/uieDnVBC@23.1:QiLqHkf7@2/Thermogravimetric-Analysis-of-Single-Walled-Carbon-Nanotubes" window="new">TGA</link>)</entry>
+              <entry>Identifies compounds by measuring mass changes as a function of temperature </entry>
+              <entry>Polymers, explosives, arson residues</entry>
+            </row>
+            <row>
+              <entry>Solid phase extraction</entry>
+              <entry>Separates dissolved species from the solvent</entry>
+              <entry>Drugs, toxicology</entry>
+            </row>
+            <row>
+              <entry>Solvent extraction</entry>
+              <entry>Separates compounds based on relative solubility in two different liquids</entry>
+              <entry>Drugs, toxicology</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+</tgroup><caption>Analytical techniques utilized within the field of forensics for analysis of evidence. </caption>
+</table><para id="import-auto-idm663167552">A vast spectrum of analytical techniques is utilized within the field of forensics. With only traces of evidence found at a crime scene, it is then crucial for scientists to carefully and thoroughly examines the samples that are available to them. Ranging from bodily fluids to paint, fibers, and explosive residue, evidence can be analyzed to uncover more information relating to the incident. Bodily fluids commonly characterized using chromatography and spectrometry can provide insight on the toxicology and drug levels of the individual. Chromatography methods, such as GC or HPLC, allow for a separation of chemical components within forensic samples. If performed in conjunction with mass spectrometry, both of these analytical methods can help reveal the toxins, drugs, and other chemicals involved in the crime. The different methods specific to chromatography and spectrometry are often explored in forensics to evade destruction of the sample or to optimize characterization. </para>
+      <para id="import-auto-idm238751152">In addition to bodily fluids, there are inorganic elements involved in a crime scene. Fibers, glass, inks, explosive residues, and several other forms of evidence can be characterized with techniques such as spectroscopy or microscopy. Implementing these analytical methods based on radiation (IR, UV-visible, Raman, SEM), scientists can acquire more qualitative and quantitative traits of the evidence. Specifically with microscopy techniques, morphology, layering, and structure of the samples can be determined. These characteristics can be significant when making comparisons to suspect and victim evidence. There are a multitude of other techniques that scientists can use to analyze and characterize evidence. Properly selecting a specific analytical technique is essential and dependent on the quantity, quality, and stable phase of the samples themselves.</para>
+    </section>
+    <section id="import-auto-idm438558656">
+      <title>Conclusions and future directions</title>
+      <para id="import-auto-idm558485920">Forensic analysis plays a pivotal role in the world of criminal investigation. There is no doubt that forensics will continue to be an important topic in convicting felons. However, the lack of adequate training for forensic technicians, inconsistency in the protocol used, and understaffed/inadequately supported labs leave a lot of room for improvement. To produce results that are sufficiently unbiased and uncontaminated in the court of law, evidence analysis has to become more regulated and less reliant on techniques like fingerprint analysis, which are subject to inherent bias against a suspect. The necessity of the field to produce accurate scientific results, which are beyond reproach in a court environment, is what makes the chemical analytical techniques used in the field so important. Testing for alcohol, illicit drugs, explosives, gunshot residue, etc. makes the field high stakes in terms of producing results, especially when techniques can run into pitfalls like bias and lack of standards across forensic labs. Thus, it is important that forensics be regulated through legislation like the National Forensic Science Improvement Act. As a science, forensic analysis continues to advance and improve to allow for better evidence analysis in the world of solving crimes. </para>
+      <para id="import-auto-idm552608016">Increased reliance on analytical techniques like Raman spectroscopy and gas chromatography, which are less prone to biases than other forms of evidence analysis, is one step the field can take to improve the accuracy of results. However, this will likely come at the cost of further increasing backlogs of forensic labs, which already find themselves with too much work and too few resources. Not to mention that as the number of things, which can be analyzed through forensic analytical techniques, increases (more kinds of drugs, explosives, smaller amounts of material) forensic labs will find their services increasingly more in demand. This makes it more difficult to do this work properly. Analytical techniques must adapt to perform investigations at faster speeds without loss of accuracy. As technology advances with innovations like the lab on a chip approach being developed and tested for use in forensic analysis, the results of forensic investigations will no doubt be faster and more reliable than ever. </para>
+    </section>
+    <section id="import-auto-idm563080256">
+      <title>Exercises</title>
+      <section id="import-auto-idm485618976"><title>Numerical problems</title><exercise id="eip-815"><problem id="eip-430">
+  <para id="eip-796">Gas chromatography was performed on a series of ethanol standards. An internal standard of 1 mL <emphasis effect="italics">n</emphasis>-propanol diluted to 50 mL in water was used in the experiment. A peak at 0.60 min was observed for <emphasis effect="italics">n-</emphasis>propanol and the ethanol peak was observed at 0.39 min. The ethanol standard concentrations and peak area ratios of ethanol over <emphasis effect="italics">n</emphasis>-propanol are listed in <link target-id="import-auto-idm253136912"/>. What is the BAC for the unknown sample?</para>
+        <table id="import-auto-idm253136912" summary="The ethanol standard concentrations and peak area ratios">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Ethanol concentration (mg/mL)</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Ethanol/n-propanol peak area ratio</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>0.200</entry>
+                <entry>0.0816</entry>
+              </row>
+              <row>
+                <entry>0.400</entry>
+                <entry>0.162</entry>
+              </row>
+              <row>
+                <entry>0.600</entry>
+                <entry>0.243</entry>
+              </row>
+              <row>
+                <entry>0.800</entry>
+                <entry>0.324</entry>
+              </row>
+              <row>
+                <entry>1.00</entry>
+                <entry>0.405</entry>
+              </row>
+              <row>
+                <entry>Unknown</entry>
+                <entry>0.292</entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup><caption>The ethanol standard concentrations and peak area ratios of ethanol over <emphasis effect="italics">n</emphasis>-propanol for standard solutions and an unknown.</caption>
+</table>
+
+</problem>
+
+<solution id="eip-187">
+  <para id="eip-447">Plot the ethanol concentration against the peak area ratio (<link target-id="import-auto-idm690639008"/>). </para>
+
+
+
+        
+        <figure id="import-auto-idm690639008"><media id="import-auto-idm237499728" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 9-b8cf.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Plot of ethanol concentration versus the peak area ratio. </caption></figure>
+        
+        <para id="import-auto-idm363281968">The slope of the line is determined: </para>
+        
+        <equation id="eip-542">y = 2.4728x - 0.0012. </equation><para id="import-auto-idm457978960">Thus, the ethanol concentration for the unknown may be calculated by substituting the value of 0.292 for x: </para>
+        
+        
+        <equation id="eip-145">y = 2.4728(0.292) - 0.0012</equation>
+<equation id="eip-766">y = 0.720 mg/mL</equation>
+
+</solution>
+</exercise>
+
+
+
+
+
+
+
+<exercise id="eip-905"><problem id="eip-363">
+  <para id="eip-630">One of the metabolites of heroin (<link target-id="import-auto-idm507241536"/>) is 6-monoacetylmorphine, the structure of which is shown in <link target-id="import-auto-idm540916160"/>. In the chemical ionization mass spectrum of an illicit heroin sample, where would the molecular ion peak for this metabolite appear in the spectrum? </para>
+    <figure id="import-auto-idm540916160"><media id="import-auto-idm460367088" alt="">
+            <image mime-type="image/jpg" src="../../media/Mor.jpg" width="270" print-width="2.7in"/>
+          </media>
+        <caption>The structure of 6-monoacetylmorphine (M<sub>w</sub> = 327.38 g/mol). </caption></figure></problem>
+
+<solution id="eip-960">
+  <para id="eip-292">In chemical ionization mass spectrometry (CI-MS), a proton is ordinarily gained by the species being analyzed. Therefore, the species detected as a metabolite for heroin would have a mass to charge ratio of 328 m/z. </para>
+</solution>
+</exercise>
+    
+        
+        
+        <exercise id="eip-449"><problem id="eip-354">
+  <para id="eip-540">A 0.52 g glass sample was analyzed by atomic absorption spectroscopy for Mg. The glass fragment was dissolved in HF, HCl, and DI water was added to result in a total volume of 1.00 L and an absorbance of 0.210 was recorded for this solution. 0.010 mL of a 1.00 g/L Mg<sup>2+</sup> solution was added to the unknown solution and the resulting absorbance was 0.462. Calculate the Mg content of the glass fragment.</para>
+</problem>
+
+<solution id="eip-531">
+  <para id="eip-257">The increase in absorbance after the addition of the standard Mg<sup>2+</sup> solution was:</para>
+       <equation id="eip-312">0.462 - 0.210 = 0.252</equation><para id="import-auto-idm241426672">The amount of Mg<sup>2+</sup> that was added was:</para>
+        <equation id="eip-747">0.010 x 0.001 L × 1.00 g/L = 0.00001 g</equation>
+        <para id="import-auto-idm438586560">Therefore, an absorbance of 0.252 corresponds to a concentration of 1.00 x 10<sup>-5</sup> g/L. This means that an absorbance of 0.210 corresponds to a concentration of:</para>
+        
+        <equation id="eip-213">(0.210/0.252) × 0.00001 g/L = 0.000833 g/L</equation>
+
+</solution>
+</exercise>
+        
+        
+ 
+
+<exercise id="eip-737"><problem id="eip-337">
+  <para id="eip-643">A urine sample is collected and tested for quinine (<link target-id="import-auto-idm753435408XCZZC"/>). Quinine is extracted with chloroform and re-extracted with sulfuric acid. A fluorimeter with an excitation wavelength of 350 nm is used to record an emission spectrum for the sample at 445 nm. A 1 mg/mL quinine sulfate quinine sulfate stock solution is prepared, and the fluorescence spectrum is recorded with the same conditions. The intensity of the quinine fluorescence in the urine sample is 0.76 and that of the standard is 0.92. Determine the concentration of quinine in the urine sample.</para>
+
+  <figure id="import-auto-idm753435408XCZZC"><media id="import-auto-idm574037904XCZZC" alt="">
+            <image mime-type="image/jpg" src="../../media/Quin.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>Structure of quinine. </caption></figure></problem>
+
+<solution id="eip-307">
+  <para id="eip-47">It is assumed that there is a linear relationship between the fluorescence intensity and the analyte concentration in this experiment:</para>
+        <equation id="eip-505">[quinine in urine] = urine extract intensity × 1 mg/mL (quinine reference intensity) </equation><equation id="eip-982">[quinine in urine] = (0.76/0.92) × 1 mg/mL = 0.83 mg/mL</equation>
+        
+</solution>
+</exercise>
+        
+
+      </section><section id="import-auto-idm504129776">
+        <title>Essay questions</title>
+        <list id="import-auto-idm434329024" list-type="enumerated" number-style="arabic">
+          <item>What are some of the difficulties in correctly identifying certain drugs and how might forensics scientists overcome these difficulties?</item>
+          <item>Forensic scientists are often exposed to information pertaining to the details of the case in which evidence is collected for leading to contextual bias. Is it necessary for forensic scientists to understand the background of a case to interpret evidence and should regulations be made to allow for more objective processing of evidence?</item>
+          <item>There are currently very limited standards across forensics labs in the United States. What problem does this cause and what additional regulations should be made to address these issues?</item>
+          <item>How should the field of forensic science keep up with the development of new drugs?</item>
+          <item>How important is forensic sciences in criminal investigations and court procedures?</item>
+        </list>
+      </section>
+    </section>
+    <section id="import-auto-idm499294496">
+      <title>Bibliography</title>
+      <list id="import-auto-idm471246496" list-type="bulleted"><item>S. D. Brandt and P. V. Kavanagh, <emphasis effect="italics">Drug Test. Anal.</emphasis>, 2017, <emphasis effect="bold">9</emphasis>, 342.</item>
+        <item>Committee on Identifying the Needs of the Forensic Sciences Community, National Research Council. Strengthening forensic science in the united states: a path forward; US Dept of Justice, 2012, <link url=" https://www.nap.edu/download/12589 " window="new"> https://www.nap.edu/download/12589 </link>(accessed Nov 2018).  </item>
+        <item>Guidelines for Forensic Scientists, <link url=" http://www.academyofexperts.org/guidance/guidelines-forensic-scientists" window="new"> http://www.academyofexperts.org/guidance/guidelines-forensic-scientists</link> (accessed Nov. 2018).</item>
+        <item>S. Jickells and A. Negrusz, Eds; <emphasis effect="italics">Clarke's Analytical Forensic Toxicology</emphasis>, Pharmaceutical Press: London (2008).</item>
+        <item>R. A. Middleberg, Forensic Toxicology in the Fore...and Aft, <link url=" https://www.forensicmag.com/article/2008/06/forensic-toxicology-foreand-aft" window="new"> https://www.forensicmag.com/article/2008/06/forensic-toxicology-foreand-aft</link> (accessed Nov. 2018).</item>
+        <item>N. G. S. Mogollón, C. D. Quiroz-Moreno, P. S. Prata, J. R. D. Almeida, A. S. Cevallos, R. Torres-Guiérrez, and F. Augusto, <emphasis effect="italics">J. Anal. Methods Chem.</emphasis>, 2018, <emphasis effect="bold">2018</emphasis>, 1.</item>
+        <item>National Criminal Justice Reference Service <link url=" https://www.ncjrs.gov/spotlight/forensic/legislation.html" window="new"> https://www.ncjrs.gov/spotlight/forensic/legislation.html</link> (accessed Nov. 2018).</item>
+        <item>M. E. Newman, NIST Focuses on Testing Standards to Support Lab on a Chip Commercialization. <link url=" https://www.nist.gov/news-events/news/2012/08/nist-focuses-testing-standards-support-lab-chip-commercialization" window="new"> https://www.nist.gov/news-events/news/2012/08/nist-focuses-testing-standards-support-lab-chip-commercialization</link> (accessed Nov 2018).</item>
+        <item>R. M. Smith, <emphasis effect="italics">Handbook of Analytical Separations</emphasis>, 2nd ed., Elsevier, Amsterdam, (2000). </item>
+        <item>B. Stuart, <emphasis effect="italics">Forensic Analytical Techniques</emphasis>. John Wiley &amp; Sons, Ltd., Chichester (2013).</item>
+        <item>A. Widener, <emphasis effect="italics">Chem</emphasis>. <emphasis effect="italics">Eng</emphasis>. <emphasis effect="italics">News</emphasis>, 2012, <emphasis effect="bold">90</emphasis>, 32.</item>
+        <item>A. J. Bertino and P. Bertino, <emphasis effect="italics">Forensic Science: Fundamentals and Investigations</emphasis>, 2nd ed.; South-Western: Mason (2011).</item>
+        <item>R. T. Bowen, <emphasis effect="italics">Ethics and the Practice of Forensic Science</emphasis>; CRC Press, Boca Raton, FL (2018).</item>
+        <item>J. M. Butler, <emphasis effect="italics">Forensic Sci. Int. Genet.</emphasis>, 2015, <emphasis effect="bold">18</emphasis>, 4.</item>
+        <item>Forensic Science Standards, <link url=" https://www.astm.org/Standards/forensic-science-standards.html " window="new"> https://www.astm.org/Standards/forensic-science-standards.html </link> (accessed December 2018)</item>
+        <item>R. M. Gardner and D. Krouskup, <emphasis effect="italics">Practical Crime Scene Processing and Investigation</emphasis>; CRC Press, Boca Raton, FL (2019).</item>
+        <item>M. M. Houck and J. A. Siegel, <emphasis effect="italics">Fundamentals of Forensic Science</emphasis>, Elsevier/Academic Press, Amsterdam (2015).</item>
+        <item>A. N. Nelwamondo, L. P. Colletti, R. E. Lindvall, A. Vesterlund, N. Xu, A. H. J. Tan, G. R. Eppich, V. D. Genetti, B. L. Kokwane, P. Lagerkvist, B. K. Pong, H. Ramebäck, L. Tandon, G. Rasmussen, Z. Varga, and M. Wallenius, <emphasis effect="italics">J. Radioanal. Nucl. Chem.</emphasis>, 2018, <emphasis effect="bold">315</emphasis>, 379.</item>
+        <item>J. H. Ryu, N. Y. Kim, B. W. Kwon, S. K. Suk, J. H. Park, and J. H. Park, <emphasis effect="italics">JIPS, </emphasis>2018, <emphasis effect="bold">14</emphasis>, 680. </item>
+        <item>R. Saferstein, <emphasis effect="italics">Forensic Science: From the Crime Scene to the Crime Lab</emphasis>, 3rd ed.; Prentice Hall: Boston (2015).</item>
+        <item>R. Tino, K. Vizarova, J. Provaznikova, S. Suty, and S. Kirschnerova, <emphasis effect="italics">Chem. Pap., </emphasis>2018, <emphasis effect="bold">72</emphasis>, 2265. </item>
+      </list></section>
+  </content>
+</document>

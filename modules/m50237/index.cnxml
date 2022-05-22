@@ -1,0 +1,1185 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Determination of Energetics of Fluxional Molecules by NMR</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50237</md:content-id>
+  <md:title>Determination of Energetics of Fluxional Molecules by NMR</md:title>
+  <md:abstract/>
+  <md:uuid>e45f3c94-c196-47a5-aa2a-c83989dd22f2</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164816176422"><title>Introduction to fluxionality</title><para id="import-auto-id1164801267955">It does not take an extensive knowledge of chemistry to understand that as-drawn chemical structures do not give an entirely correct picture of molecules. Unlike drawings, molecules are not stationary objects in solution, the gas phase, or even in the solid state. Bonds can rotate, bend, and stretch, and the molecule can even undergo conformational changes. Rotation, bending, and stretching do not typically interfere with characterization techniques, but conformational changes occasionally complicate analyses, especially nuclear magnetic resonance (NMR). </para><para id="import-auto-id1164803845883">For the present discussion, a fluxional molecule can be defined as one that undergoes an intramolecular reversible interchange between two or more conformations. Fluxionality is specified as intramolecular to differentiate from ligand exchange and complexation mechanisms, intermolecular processes. An irreversible interchange is more of a chemical reaction than a form of fluxionality. Most of the following examples alternate between two conformations, but more complex fluxionality is possible. Additionally, this module will focus on inorganic compounds. In this module, examples of fluxional molecules, NMR procedures, calculations of energetics of fluxional molecules, and the limitations of the approach will be covered.</para></section><section id="import-auto-id1164803841886"><title>Examples of fluxionality</title><section id="import-auto-id1164806425252"><title>Bailar twist</title><para id="import-auto-id1164803664895">Octahedral trischelate complexes are susceptible to Bailar twists, in which the complex distorts into a trigonal prismatic intermediate before reverting to its original octahedral geometry. If the chelates are not symmetric, a Δ enantiomer will be inverted to a Λ enantiomer. For example not how in <link target-id="import-auto-id1164804048655"/>  with the GaL<sub>3</sub> complex of 2,3-dihydroxy-N,N‘-diisopropylterephthalamide (<link target-id="import-auto-id1164804048655X"/>)  the end product has the chelate ligands spiraling the opposite direction around the metal center.</para><figure id="import-auto-id1164804048655"><media id="import-auto-id1164804161426" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-809e.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>Bailar twist of a gallium catchetol <emphasis effect="italics">tris</emphasis>-chelate complex. Adapted from B. Kersting, J. R. Telford,  M. Meyer, and K. N. Raymond, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1996, 118, 5712. </caption></figure><figure id="import-auto-id1164804048655X"><media id="import-auto-id1164804161426X" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics11-01d4.jpg" width="100" print-width="1in"/>
+          </media>
+        
+
+
+<caption>Substituted catchetol ligand 2,3-dihydroxy-N,N‘-diisopropylterephthalamide. Adapted from Kersting, B., Telford, J.R., Meyer, M., Raymond, K.N.; <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1996, 118, 5712. </caption></figure></section><section id="import-auto-id1164817932883">
+        <title>Berry pseudorotation</title><para id="import-auto-id1164805912700">D<sub>3h</sub> compounds can also experience fluxionality in the form of a Berry pseudorotation (depicted in <link target-id="import-auto-id1164805006834"/>), in which the complex distorts into a C<sub>4v</sub> intermediate and returns to trigonal bipyrimidal geometry, exchanging two equatorial and axial groups . Phosphorous pentafluoride is one of the simplest examples of this effect. In its <sup>19</sup>FNMR, only one peak representing five fluorines is present at 266 ppm, even at low temperatures. This is due to interconversion faster than the NMR timescale.</para><figure id="import-auto-id1164805006834"><media id="import-auto-id1164804148600" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-706f.png" width="500" print-width="4in"/>
+          </media>
+        <caption>Berry pseudorotation of phosphorus pentafluoride. </caption></figure></section>
+      <section id="import-auto-id1164813301219"><title>Sandwich and half-sandwich complexes</title><para id="import-auto-id1164809761523">Perhaps one of the best examples of fluxional metal complexes is (π<sup>5</sup>-C<sub>5</sub>H<sub>5</sub>)Fe(CO)<sub>2</sub>(π<sup>1</sup>-C<sub>5</sub>H<sub>5</sub>) (<link target-id="import-auto-id1164808978359X"/>). Not only does it have a rotating η<sup>5</sup> cyclopentadienyl ring, it also has an alternating η<sup>1</sup> cyclopentadienyl ring (Cp). This can be seen in its NMR spectra in <link target-id="import-auto-id1164808978359"/>. The signal for five protons corresponds to the metallocene Cp ring (5.6 ppm). Notice how the peak remains a sharp singlet despite the large temperature sampling range of the spectra. Another noteworthy aspect is how the multiplets corresponding to the other Cp ring broaden and eventually condense into one sharp singlet.</para><figure id="import-auto-id1164808978359X"><media id="import-auto-id1164803718390X" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics33.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>Structure of (π<sup>5</sup>-C<sub>5</sub>H<sub>5</sub>)Fe(CO)<sub>2</sub>(π<sup>1</sup>-C<sub>5</sub>H<sub>5</sub>). Reprinted with permission from M. J. Bennett Jr., F. A. Cotton, A. Davison, J. W. Faller, S. J. Lippard, and S. M. Morehouse, <emphasis effect="italics">J. Am. Chem. Soc.,</emphasis> 1966, <emphasis effect="bold">88</emphasis>, 4371. Copyright: American Chemical Society (1966).</caption></figure><figure id="import-auto-id1164808978359"><media id="import-auto-id1164803718390" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-61e7.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>Variable temperature NMR spectra  of (π<sup>5</sup>-C<sub>5</sub>H<sub>5</sub>)Fe(CO)<sub>2</sub>(π<sup>1</sup>-C<sub>5</sub>H<sub>5</sub>). Reprinted with permission from M. J. Bennett Jr., F. A. Cotton, A. Davison, J. W. Faller, S. J. Lippard, and S. M. Morehouse, <emphasis effect="italics">J. Am. Chem. Soc.,</emphasis> 1966, <emphasis effect="bold">88</emphasis>, 4371. Copyright: American Chemical Society (1966).</caption></figure></section></section><section id="import-auto-id1164809683043">
+      <title>An example procedure</title><para id="import-auto-id1164805908433">Sample preparation is essentially the same for routine NMR. The compound of interest will need to be dissolved in an NMR compatible solvent (CDCl<sub>3</sub> is a common example) and transferred into an NMR tube. Approximately 600 μL of solution is needed with only micrograms of compound. Compounds should be at least 99 % pure in order to ease peak assignments and analysis. Because each spectrometer has its own protocol for shimming and optimization, having the supervision of a trained specialist is strongly advised. Additionally, using an NMR with temperature control is essential. The basic goal of this experiment is to find three temperatures: slow interchange, fast interchange, and coalescence. Thus many spectra will be needed to be obtained at different temperatures in order to determine the energetics of the fluctuation.</para><para id="import-auto-id1164814320476">The process will be much swifter if the lower temperature range (in which the fluctuation is much slower than the spectrometer timescale) is known. A spectra should be taken in this range. Spectra at higher temperatures should be taken, preferably in regular increments (for instance, 10 K), until the peaks of interest condense into a sharp single at higher temperature. A spectrum at the coalescence temperature should also be taken in case of publishing a manuscript. This procedure should then be repeated in reverse; that is, spectra should be taken from high temperature to low temperature. This ensures that no thermal reaction has taken place and that no hysteresis is observed. With the data (spectra) in hand, the energetics can now be determined.</para></section>
+    <section id="import-auto-id1164815817712">
+      <title>Calculation of energetics</title><para id="import-auto-id1164803038477">For intramolecular processes that exchange two chemically equivalent nuclei, the function of the difference in their resonance frequencies (Δ<emphasis effect="italics">v</emphasis>) and rate of exchange (k) is the NMR spectrum. Slow interchange occurs when Δ<emphasis effect="italics">v</emphasis> &gt;&gt; k, and two separate peaks are observed. When Δ<emphasis effect="italics">v</emphasis> &lt;&lt; k, fast interchange is said to occur, and one sharp peak is observed. At intermediate temperatures, the peaks are broadened and overlap one another. When they completely merge into one peak, the coalescence temperature, T<sub>c</sub> is said to be reached. In the case of coalescence of an equal doublet (for instance, one proton exchanging with one proton), coalescences occurs when Δv<sub>0</sub>t = 1.4142/(2π), where Δv<sub>0</sub> is the difference in chemical shift at low interchange and where t is defined by <link target-id="eip-516"/>, where t<sub>a</sub> and t<sub>b</sub> are the respective lifetimes of species a and b. This condition only occurs when t<sub>a</sub> = t<sub>b</sub>, and as a result, k = ½ t.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-516"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>t</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>t</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>t</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {t} } = {  {1}  over  {t rSub { size 8{a} } } } + {  {1}  over  {t rSub { size 8{b} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1164804828289">For reference, the exact lineshape function (assuming two equivalent groups being exchanged) is given by the Bloch Equation, <link target-id="eip-97"/>, where g is the intensity at frequency <emphasis effect="italics">v</emphasis>,<emphasis effect="italics"/>and where K is a normalization constant</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-97"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>v</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>Kt</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mrow>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">[</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>5</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mrow>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>v</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">]</m:mo>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msup>
+                            <m:mn>4π</m:mn>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mi>t</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>v</m:mi>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>v</m:mi>
+                            <m:mrow>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>v</m:mi>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{g \( v \) = {  { ital "Kt" \( v rSub { size 8{a} } +v rSub { size 8{b} }  \)  rSup { size 8{2} } }  over  { \[ 0 "." 5 \( v rSub { size 8{a} } +v rSub { size 8{b} }  \) -v \]  rSup { size 8{2} } +4p rSup { size 8{2} } t rSup { size 8{2} }  \( v rSub { size 8{a} } -v \)  rSup { size 8{2} }  \( v rSub { size 8{b} } -v \)  rSup { size 8{2} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><section id="import-auto-id1164810784707">
+        <title>Low temperatures to coalescence temperature</title><para id="import-auto-id3803851">At low temperature (slow exchange), the spectrum has two peaks and Δ<emphasis effect="italics">v</emphasis> &gt;&gt; t. As a result, <link target-id="eip-97"/> reduces to <link target-id="eip-601"/>, where T<sub>2a’</sub> is the spin-spin relaxation time. The linewidth of the peak for species a is defined by <link target-id="eip-515"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-601"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>g</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>g</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mi>b</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msub>
+                              <m:mtext>KT</m:mtext>
+                              <m:mrow>
+                                <m:mn>2a</m:mn>
+                              </m:mrow>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msubsup>
+                              <m:mo>T</m:mo>
+                             
+                                
+                                  <m:mn>2a</m:mn>
+                                  
+                                    <m:mn>2</m:mn>
+                                  
+                                
+                              
+                            </m:msubsup>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>v</m:mi>
+                              <m:mrow>
+                                <m:mi>a</m:mi>
+                              </m:mrow>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>v</m:mi>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{g \( v \)  rSub { size 8{a} } =g \( v \)  rSub { size 8{b} } = {  { ital "KT" rSub { size 8{2a} } }  over  {1+T rSub { size 8{2a}   rSup { size 8{2} } }  \( v rSub { size 8{a} } -v \)  rSup { size 8{2} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-515"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msub>
+                      <m:mi fontstyle="italic">Δv</m:mi>
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">/</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn><m:mi>π</m:mi>
+                       
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>T</m:mi>
+                          <m:mrow>
+                            <m:mn>2a</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfrac>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>t</m:mi>
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \( Dv rSub { size 8{a} }  \)  rSub { size 8{1/2} } = {  {1}  over  {p} }  \(  {  {1}  over  {T rSub { size 8{2a} } } } + {  {1}  over  {t rSub { size 8{a} } } }  \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-id1164821339409">Because the spin-spin relaxation time is difficult to determine, especially in inhomogeneous environments, rate constants at higher temperatures but before coalescence are preferable and more reliable. </para>
+        <para id="import-auto-id1164817455887">The rate constant k can then be determined by comparing the linewidth of a peak with no exchange (low temp) with the linewidth of the peak with little exchange using <link target-id="eip-859"/>, where subscript <emphasis effect="italics">e</emphasis> refers to the peak in the slightly higher temperature spectrum and subscript <emphasis effect="italics">0</emphasis> refers to the peak in the no exchange spectrum.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-859"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mi>π</m:mi>
+                        <m:msqrt>
+                          <m:mn>2</m:mn>
+                        </m:msqrt>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">[</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msub>
+                      <m:mi fontstyle="italic">Δv</m:mi>
+                      <m:mrow>
+                        <m:mi>e</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">/</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi fontstyle="italic">Δv</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:msub>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">/</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">]</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{k= {  {p}  over  { sqrt {2} } }  \[  \( Dv rSub { size 8{e} }  \)  rSub { size 8{1/2} } - \( Dv rSub { size 8{0} }  \)  rSub { size 8{1/2} }  \] } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-id1164807468435">Additionally, k can be determined from the difference in frequency (chemical shift) using <link target-id="eip-547"/>, where Δ<emphasis effect="italics">v</emphasis><emphasis effect="italics"><sub>0</sub></emphasis> is the chemical shift difference in Hz at the no exchange temperature and Δ<emphasis effect="italics">v</emphasis><emphasis effect="italics"><sub>e</sub></emphasis> is the chemical shift difference at the exchange temperature. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-547"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>k</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mi>π</m:mi>
+                          <m:msqrt>
+                            <m:mn>2</m:mn>
+                          </m:msqrt>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi fontstyle="italic">Δv</m:mi>
+                          
+                            
+                              <m:mn>0</m:mn>
+                              
+                                <m:mn>2</m:mn>
+                             
+                            
+                          
+                        </m:msubsup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msubsup>
+                          <m:mi fontstyle="italic">Δv</m:mi>
+                          
+                              <m:mn>e</m:mn>
+                              
+                                <m:mn>2</m:mn>
+                             
+                            
+                          
+                        </m:msubsup>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{k= {  {p}  over  { sqrt {2} } }  \( Dv rSub { size 8{0}   rSup { size 8{2} } } -Dv rSub { size 8{e}   rSup { size 8{2} } }  \) } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+        </equation><para id="import-auto-id1164800753898">The intensity ratio method, <link target-id="eip-944"/>, can be used to determine the rate constant for spectra whose peaks have begun to merge, where r is the ratio between the maximum intensity and the minimum intensity, of the merging peaks, I<sub>max</sub>/I<sub>min</sub></para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-944"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>k</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mi>π</m:mi>
+                          <m:msqrt>
+                            <m:mn>2</m:mn>
+                          </m:msqrt>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>r</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>r</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>r</m:mi>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">/</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msup>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">/</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{k= {  {p}  over  { sqrt {2} } }  \( r+ \( r rSup { size 8{2} } -r \)  rSup { size 8{1/2} }  \)  rSup { size 8{-1/2} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+  
+        </equation><para id="import-auto-id1164809305179">As mentioned earlier, the coalescence temperature, T<sub>c</sub> is the temperature at which the two peaks corresponding to the interchanging groups merge into one broad peak and <link target-id="eip-576"/> may be used to calculate the rate at coalescence. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-576"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi fontstyle="italic">πΔv</m:mi>
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:msqrt>
+                          <m:mn>2</m:mn>
+                        </m:msqrt>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{k= {  {pDv rSub { size 8{0} } }  over  { sqrt {2} } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+
+        </equation></section>
+      <section id="import-auto-id1164806266556">
+        <title>Higher temperatures</title><para id="import-auto-id1164801864421">Beyond the coalescence temperature, interchange is so rapid (k &gt;&gt; t) that the spectrometer registers the two groups as equivalent and as one peak. At temperatures greater than that of coalescence, the lineshape equation reduces to <link target-id="eip-621"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-621"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>g</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msub>
+                              <m:mtext>KT</m:mtext>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow>
+                          <m:mo stretchy="false">[</m:mo>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi fontstyle="italic">πT</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>v</m:mi>
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                </m:mrow>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mi>v</m:mi>
+                                <m:mrow>
+                                  <m:mi>b</m:mi>
+                                </m:mrow>
+                              </m:msub>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>2v</m:mn>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">]</m:mo>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{g \( v \) = {  { ital "KT" rSub { size 8{2} } }  over  { \[ 1+pT rSub { size 8{2} }  \( v rSub { size 8{a} } +v rSub { size 8{b} } -2v \)  rSup { size 8{2} }  \] } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-id1164804960246">As mentioned earlier, determination of T<sub>2</sub> is very time consuming and often unreliable due to inhomogeneity of the sample and of the magnetic field. The following approximation (<link target-id="eip-304"/>) applies to spectra whose signal has not completely fallen (in their coalescence). </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-304"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>5π</m:mtext><m:msup>
+                            <m:mn fontstyle="italic">Δv</m:mn>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:msub>
+                            <m:mi fontstyle="italic">Δv</m:mi>
+                            <m:mrow>
+                              <m:mi>e</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mo stretchy="false">/</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi fontstyle="italic">Δv</m:mi>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                          <m:msub>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">/</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{k= {  {0 "." 5pDv rSup { size 8{2} } }  over  { \( Dv rSub { size 8{e} }  \)  rSub { size 8{1/2} } - \( Dv rSub { size 8{0} }  \)  rSub { size 8{1/2} } } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+
+        </equation><para id="import-auto-id1164801953078">Now that the rate constants have been extracted from the spectra, energetic parameters may now be calculated.  For a rough measure of the activation parameters, only the spectra at no exchange and coalescence are needed. The coalescence temperature is determined from the NMR experiment, and the rate of exchange at coalescence is given by <link target-id="eip-576"/>. The activation parameters can then be determined from the Eyring equation (<link target-id="eip-446"/>), where k<sub>B</sub> is the Boltzmann constant, and where ΔH<sup>‡ </sup>- TΔS<sup>‡</sup> = ΔG<sup>‡</sup>.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-446"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>ln</m:mtext>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mfrac>
+                        <m:mi>k</m:mi>
+                        <m:mi>T</m:mi>
+                      </m:mfrac>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:msup>
+                                <m:mi fontstyle="italic">ΔH</m:mi>
+                                <m:mrow>
+                                  <m:mn>‡</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>RT</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mfrac>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:msup>
+                                <m:mi fontstyle="italic">ΔS</m:mi>
+                                <m:mrow>
+                                  <m:mn>‡</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mi>R</m:mi>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mtext>ln</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>k</m:mi>
+                          <m:mrow>
+                            <m:mi>B</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mi>h</m:mi>
+                      </m:mfrac>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{"ln" \(  {  {k}  over  {T} }  \) = {  {DH rSup { size 8{³} } }  over  { ital "RT"} } - {  {DS rSup { size 8{³} } }  over  {R} } +"ln" \(  {  {k rSub { size 8{B} } }  over  {h} }  \) } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+
+        </equation><para id="import-auto-id1164803997433">For more accurate calculations of the energetics, the rates at different temperatures need to be obtained. A plot of ln(k/T) versus 1/T (where T is the temperature at which the spectrum was taken) will yield ΔH<sup>‡</sup>, ΔS<sup>‡</sup>, and ΔG<sup>‡</sup>. For a pictorial representation of these concepts, see <link target-id="import-auto-id1164818217460"/>.</para><figure id="import-auto-id1164818217460"><media id="import-auto-id1164806536167" alt="">
+            <image mime-type="image/png" src="../../media/Picture 19-cddc.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Simulated NMR temperature domains of fluxional molecules. Reprinted with permission from F. P. Gasparro and N. H. Kolodny, <emphasis effect="italics">J. Chem. Ed.</emphasis>, 1977, 4, 258. Copyright: American Chemical Society (1977).</caption></figure></section>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1164806164329"><title>Diverse populations</title><para id="import-auto-id1164827018178">For unequal doublets (for instance, two protons exchanging with one proton), a different treatment is needed. The difference in population can be defined through <link target-id="eip-149"/>, where P<sub>i</sub> is the concentration (integration) of species i and X = 2π<emphasis effect="italics">Δv</emphasis>t (counts per second).  Values for Δ<emphasis effect="italics">v</emphasis>t are given in <link target-id="import-auto-id1164807964682"/>. </para><equation id="eip-149"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi fontstyle="italic">ΔP</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>P</m:mi>
+                            <m:mrow>
+                              <m:mi>a</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>P</m:mi>
+                            <m:mrow>
+                              <m:mi>b</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mo stretchy="false">[</m:mo>
+                    </m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>X</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:msup>
+                      <m:mo stretchy="false">]</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mo stretchy="false">/</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mi>X</m:mi>
+                    </m:mfrac>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{DP=P rSub { size 8{a} } -P rSub { size 8{b} } = \[  {  {X rSup { size 8{2} } -2}  over  {3} }  \]  rSup { size 8{3/2} }  \(  {  {1}  over  {X} }  \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><figure id="import-auto-id1164807964682"><media id="import-auto-id1164811120953" alt="">
+            <image mime-type="image/png" src="../../media/Picture 70.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Plot of Δ<emphasis effect="italics">v</emphasis>t versus ΔP. Reprinted with permission from H. Shanan-Atidi and K. H. Bar-Eli, <emphasis effect="italics">J. Phys. Chem.</emphasis>, 1970, <emphasis effect="bold">74</emphasis>, 961. Copyright: American Chemical Society (1970).</caption></figure><para id="import-auto-id1164803116131">The rates of conversion for the two species, k<sub>a</sub> and k<sub>b</sub>, follow k<sub>a</sub>P<sub>a</sub> = k<sub>b</sub>P<sub>b</sub> (equilibrium), and because k<sub>a</sub> = 1/t<sub>a</sub> and k<sub>b</sub> = 1/t<sub>b</sub>, the rate constant follows <link target-id="eip-947"/>. </para><equation id="eip-947"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>k</m:mi>
+                        <m:mrow>
+                          <m:mi>i</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2t</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi fontstyle="italic">ΔP</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{k rSub { size 8{i} } = {  {1}  over  {2t} }  \( 1-DP \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-id1164803047090">From Eyring’s expressions, the Gibbs free activation energy for each species can be obtained through <link target-id="eip-564"/> and <link target-id="eip-364"/></para><equation id="eip-564"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi fontstyle="italic">ΔG</m:mi>
+                      
+                        
+                            <m:mn>a</m:mn>
+                            
+                              <m:mn>‡</m:mn>
+                                                      
+                        
+                      </m:msubsup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>RT</m:mtext>
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mtext>ln</m:mtext>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>kT</m:mtext>
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:msub>
+                        <m:mi fontstyle="italic">hπΔv</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mfrac>
+                      <m:mi>X</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi fontstyle="italic">ΔP</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{DG rSub { size 8{b}   rSup { size 8{³} } } = ital "RT" rSub { size 8{c} } "ln" \(  {  { ital "kT" rSub { size 8{c} } }  over  {hpDv rSub { size 8{0} } } } x {  {X}  over  {1-DP} }  \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-364"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi fontstyle="italic">ΔG</m:mi>
+                      
+                        
+                            <m:mn>b</m:mn>
+                            
+                              <m:mn>‡</m:mn>
+                                                      
+                        
+                      </m:msubsup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>RT</m:mtext>
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mtext>ln</m:mtext>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>kT</m:mtext>
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:msub>
+                        <m:mi fontstyle="italic">hπΔv</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mfrac>
+                      <m:mi>X</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi fontstyle="italic">ΔP</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{DG rSub { size 8{b}   rSup { size 8{³} } } = ital "RT" rSub { size 8{c} } "ln" \(  {  { ital "kT" rSub { size 8{c} } }  over  {hpDv rSub { size 8{0} } } } x {  {X}  over  {1-DP} }  \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+        <para id="import-auto-id1164805824647">Taking the difference of <link target-id="eip-564"/> and <link target-id="eip-364"/> gives the difference in energy between species a and b (<link target-id="eip-909"/>). </para><equation id="eip-909"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow><m:msup>
+                      <m:mi fontstyle="italic">ΔG</m:mi><m:mn>‡</m:mn></m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>RT</m:mtext>
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mtext>ln</m:mtext>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>P</m:mi>
+                        <m:mrow>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>P</m:mi>
+                        <m:mrow>
+                          <m:mi>b</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext>RT</m:mtext>
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mtext>ln</m:mtext>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>P</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>P</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{DG= ital "RT" rSub { size 8{c} } "ln" \(  {  {P rSub { size 8{a} } }  over  {P rSub { size 8{b} } } }  \) = ital "RT" rSub { size 8{c} } "ln" \(  {  {1+P}  over  {1-P} }  \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-id1164813775624">Converting constants will yield the following activation energies in calories per mole (<link target-id="eip-195"/> and <link target-id="eip-831"/>). </para><equation id="eip-195"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi fontstyle="italic">ΔG</m:mi>
+                        
+                            <m:mn>a</m:mn>
+                            
+                              <m:mn>‡</m:mn>
+                           
+                        
+                      </m:msubsup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>57</m:mtext>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+                      <m:mrow>
+                        <m:mi>c</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">[</m:mo>
+                    <m:mtext>10</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:mtext>62</m:mtext>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>log</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:mi>X</m:mi>
+                      <m:mrow>
+                        <m:mn>2p</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi fontstyle="italic">ΔP</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>log</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>T</m:mi>
+                        <m:mrow>
+                          <m:mi>c</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mi fontstyle="italic">Δv</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">]</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{DG rSub { size 8{a}   rSup { size 8{³} } } =4 "." "57"T rSub { size 8{c} }  \[ "10" "." "62"+"log" \(  {  {X}  over  {2p \( 1-DP \) } }  \) +"log" \( T rSub { size 8{c} } /Dv \)  \] } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-831"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi fontstyle="italic">ΔG</m:mi>
+                       
+                            <m:mn>b</m:mn>
+                           
+                              <m:mn>‡</m:mn>
+                            
+                      </m:msubsup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>57</m:mtext>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+                      <m:mrow>
+                        <m:mi>c</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">[</m:mo>
+                    <m:mtext>10</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:mtext>62</m:mtext>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>log</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:mi>X</m:mi>
+                      <m:mrow>
+                        <m:mn>2p</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi fontstyle="italic">ΔP</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>log</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>T</m:mi>
+                        <m:mrow>
+                          <m:mi>c</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mi fontstyle="italic">Δv</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">]</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{DG rSub { size 8{b}   rSup { size 8{³} } } =4 "." "57"T rSub { size 8{c} }  \[ "10" "." "62"+"log" \(  {  {X}  over  {2p \( 1-DP \) } }  \) +"log" \( T rSub { size 8{c} } /Dv \)  \] } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-id1164802682110">To obtain the free energys of activation, values of log (X/(2π(1 + ΔP))) need to be plotted against ΔP (values T<sub>c</sub> and Δ<emphasis effect="italics">v</emphasis><emphasis effect="italics">0</emphasis> are predetermined).</para>
+        <note id="eip-65">This unequal doublet energetics approximation only gives ΔG<sup>‡</sup> at one temperature, and a more rigorous theoretical treatment is needed to give information about ΔS<sup>‡</sup> and ΔH<sup>‡</sup>.</note></section></section>
+    <section id="import-auto-id1164804053008">
+      <title>Example of determination of energetic parameters</title><para id="import-auto-id1164803668787">Normally ligands such as dipyrido(2,3-a;3′,2′-j)phenazine (dpop’) are tridentate when complexed to transition metal centers. However, dpop’ binds to rhenium in a bidentate manner, with the outer nitrogens alternating in being coordinated and uncoordinated. See <link target-id="import-auto-id1164801839115"/> for the structure of Re(CO)<sub>3</sub>(dpop')Cl. This fluxionality results in the exchange of the aromatic protons on the dpop’ ligand, which can be observed via <sup>1</sup>HNMR. Because of the complex nature of the coalescence of doublets, the rate constants at different temperatures were determined via computer simulation (DNMR3, a plugin of Topspin). These spectra are shown in <link target-id="import-auto-id1164805869376"/>.</para><figure id="import-auto-id1164801839115"><media id="import-auto-id4346781" alt="">
+          <image mime-type="image/png" src="../../media/Picture 74.png" width="200" print-width="2in"/>
+        </media>
+      <caption>The structure of Re(CO)<sub>3</sub>(dpop’)Cl. Reprinted with permission from  K. D. Zimmera, R. Shoemakerb, and R. R. Ruminski, <emphasis effect="italics">Inorg. Chim. Acta.</emphasis>, 2006, <emphasis effect="bold">5</emphasis>, 1478. Copyright: Elsevier (2006).</caption></figure><figure id="import-auto-id1164805869376"><media id="import-auto-id1164833964285" alt="">
+          <image mime-type="image/png" src="../../media/Picture 72.png" height="397" width="540"/>
+        </media>
+      <caption>experimental and simulated <sup>1</sup>HNMR spectra for Re(CO)<sub>3</sub>(dpop’)Cl. Reprinted with permission from  K. D. Zimmera, R. Shoemakerb, and R. R. Ruminski, <emphasis effect="italics">Inorg. Chim. Acta.</emphasis>, 2006, <emphasis effect="bold">5</emphasis>, 1478. Copyright: Elsevier (2006).</caption></figure><para id="import-auto-id1164815641017">The activation parameters can then be obtained by plotting ln(k/T) versus 1/T (see <link target-id="import-auto-id1164825427864"/> for the Eyring plot). ΔS<sup>‡</sup> can be extracted from the y-intercept, and ΔH<sup>‡</sup> can be obtained through the slope of the plot. For this example, ΔH<sup>‡</sup>, ΔS<sup>‡</sup> and ΔG<sup>‡</sup>. were determined to be 64.9 kJ/mol, 7.88 J/mol, and 62.4 kJ/mol. </para><figure id="import-auto-id1164825427864"><media id="import-auto-id1164816424126" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 4-45ef.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>Eyring plot of ln(k/T) versus 1/T for Re(CO)<sub>3</sub>(dpop’)Cl. Adapted from K. D. Zimmera, R. Shoemakerb, and R. R. Ruminski, <emphasis effect="italics">Inorg. Chim. Acta</emphasis>, 2006, <emphasis effect="bold">5</emphasis>, 1478. Copyright: Elsevier (2006). </caption></figure></section>
+    <section id="import-auto-id1164802491990">
+      <title>Limitations to the approach</title><para id="import-auto-id1164807494918">Though NMR is a powerful technique for determining the energetics of fluxional molecules, it does have one major limitation.  If the fluctuation is too rapid for the NMR timescale (&lt; 1 ms) or if the conformational change is too slow meaning the coalescence temperature is not observed, the energetics cannot be calculated. In other words, spectra at coalescence and at no exchange need to be observable. One is also limited by the capabilities of the available spectrometer. The energetics of very fast fluxionality (metallocenes, PF<sub>5</sub>, etc) and very slow fluxionality may not be determinable. Also note that this method does not prove any fluxionality or any mechanism thereof; it only gives a value for the activation energy of the process. As a side note, sometimes the coalescence of NMR peaks is not due to fluxionality, but rather temperature-dependent chemical shifts.</para></section>
+    <section id="import-auto-id1164816071807"><title>Bibliography</title><list id="eip-842"><item>H. S. Gutowsky and C. J. Hoffmann, <emphasis effect="italics">J. Chem. Phys.</emphasis>, 1951, <emphasis effect="bold">19</emphasis>, 1259. </item>
+<item>H. Nakazawa, K. Kawamura, K. Kubo, and K. Miyoshi, <emphasis effect="italics">Organometallics</emphasis>, 1999, <emphasis effect="bold">18</emphasis>, 2961.</item>
+<item>C. Raynaud, L. Maron, J. P. Daudey, and F. Jolibois. <emphasis effect="italics">ChemPhysChem,</emphasis> 2006, 7, 407.</item>
+<item>F. P. Gasparro and N. H. Kolodny, <emphasis effect="italics">J. Chem. Ed.</emphasis>, 1977, <emphasis effect="bold">4</emphasis>, 258.</item>
+<item> B. Kersting, J. R. Telford, M. Meyer, and K. N. Raymond, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1996, <emphasis effect="bold">118</emphasis>, 5712.</item>
+<item>M. J. Bennett Jr., F. A. Cotton, A. Davison, J. W. Faller, S. J. Lippard, and S. M. Morehouse, <emphasis effect="italics">J. Am. Chem. Soc.,</emphasis> 1966, <emphasis effect="bold">88</emphasis>, 4371.</item>
+<item>H. Shanan-Atidi and K. H. Bar-Eli, <emphasis effect="italics">J. Phys. Chem.</emphasis>, 1970, <emphasis effect="bold">74</emphasis>, 961.</item>
+<item>D. J. Press, N. M. R. McNeil, A. Rauk, and T. G. Back, <emphasis effect="italics">J. Org. Chem.</emphasis>, 2012, <emphasis effect="bold">77</emphasis>, 9268.</item>
+<item>B. D. Nageswara Rao, <emphasis effect="italics">Meth. Enzymol.</emphasis>, 1989, <emphasis effect="bold">176</emphasis>, 279.</item>
+<item>K. D. Zimmera, R. Shoemakerb, and R. R. Ruminski, <emphasis effect="italics">Inorg. Chim. Acta</emphasis>, 2006, <emphasis effect="bold">5</emphasis>, 1478.</item>
+</list></section></content>
+</document>

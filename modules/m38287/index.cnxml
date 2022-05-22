@@ -1,0 +1,462 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>XAFS Analysis for Arsenic Adsorption onto Iron Oxides</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38287</md:content-id>
+  <md:title>XAFS Analysis for Arsenic Adsorption onto Iron Oxides</md:title>
+  <md:abstract>This module gives a general idea of the kind of information can be obtained by XAFS analysis. A brief introduction about EXAFS and XANES is given. Finally, an example of data analysis and interpretation is provided using results reported for the adsorption of arsenic onto iron oxides.</md:abstract>
+  <md:uuid>e94efa16-54cf-45e8-9daf-9eb2b9909495</md:uuid>
+</metadata>
+
+<content>
+    <section id="id2158603">
+      <title>Introduction</title>
+      <para id="id5516685">X-ray absorption fine structure (XAFS) spectroscopy includes both X-ray absorption near edge structure (XANES) and extended X-ray absorption fine structure (EXAFS) spectroscopies. The difference between both techniques is the area to analyze, as shown <link target-id="id4225379"/> and the information each technique provides. The complete XAFS spectrum is collected across an energy range of around 200 eV before the absorption edge of interest and until 1000 eV after it (<link target-id="id4225379"/>). The absorption edge is defined as the X-ray energy when the absorption coefficient has a pronounced increasing. This energy is equal to the energy required to excite an electron to an unoccupied orbital. </para>
+      <figure id="id4225379"><media id="id4225379_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-d820.jpg" id="id4225379__onlineimage" width="400" print-width="4in"/>
+        </media>
+      <caption>Characteristic spectra areas for X-ray absorption near edge structure (XANES) and extended X-ray absorption fine structure (EXAFS) spectroscopies. Adapted from S. D. Kelly, D. Hesterberg, and B. Ravel in <emphasis effect="italics">Methods of Soil Analysis: Part 5, Mineralogical Methods</emphasis>, Ed. A. L. Urely and R. Drees, Soil Science Society of America Book Series, Madison (2008).</caption></figure>
+      
+      <para id="id4314306">X-ray absorption near edge structure (XANES) is used to determine the valence state and coordination geometry, whereas extended X-ray absorption fine structure (EXAFS) is used to determine the local molecular structure of a particular element in a sample. </para>
+      <section id="id3947329">
+        <title>X-ray absorption near edge structure (XANES) spectra</title>
+        <para id="id6538317">XANES is the part of the absorption spectrum closer an absorption edge. It covers from approximately -50 eV to +200 eV relative to the edge energy (<link target-id="id4225379"/>). Because the shape of the absorption edge is related to the density of states available for the excitation of the photoelectron, the binding geometry and the oxidation state of the atom affect the XANES part of the absorption spectrum.</para>
+        <para id="id2332805">Before the absorption edge, there is a linear and smooth area. Then, the edge appears as a step, which can have other extra shapes as isolated peaks, shoulders or a <emphasis effect="italics">white line</emphasis>, which is a strong peak onto the edge. Those shapes give some information about the atom. For example, the presence of a white line indicates that after the electron releasing, the atomic states of the element is confined by the potential it feels. This peak sharp would be smoothed if the atom could enter to any kind of resonance. Important information is given because of the absorption edge position. Atoms with higher oxidation state have fewer electrons than protons, so, the energy states of the remaining electrons are lowered slightly, which causes a shift of the absorption edge energy up to several eV to a higher X-ray energy.</para>
+      </section>
+      <section id="id4237751">
+        <title>Extended X-ray absorption fine structure (EXAFS) spectra</title>
+        <para id="id4316343">The EXAFS part of the spectrum is the oscillatory part of the absorption coefficient above around 1000 eV of the absorption edge. This region is used to determine the molecular bonding environments of the elements. EXAFS gives information about the types and numbers of atoms in coordination a specific atom and their inter-atomic distances. The atoms at the same radial distance from a determinate atom form a shell. The number of the atoms in the shell is the coordination number (e.g., <link target-id="id4027425"/>).</para>
+        <figure id="id4027425"><media id="id4027425_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-0e28.png" id="id4027425__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+        <caption>A schematic representation of coordination number in different layers in which there are two shells around the center atom. Both shells, green (x) and red (+), have coordination numbers of 4, but the radial distance of the red one (+) is bigger than the green one (x). Based on S. D. Kelly, D. Hesterberg, and B. Ravel in <emphasis effect="italics">Methods of Soil Analysis: Part 5, Mineralogical Methods</emphasis>, Ed. A. L. Urely and R. Drees, Soil Science Society of America Book Series, Madison (2008).</caption></figure>
+        
+        <para id="id5522935">An EXAFS signal is given by the photoelectron scattering generated for the center atom. The phase of the signal is determinate by the distance and the path the photoelectrons travel. A simple scheme of the different paths is shown by <link target-id="id889863 "/>. In the case of two shells around the centered atom, there is a degeneracy of four for the path between the main atom to the first shell, a degeneracy of four for the path between the main atom to the second shell, and a degeneracy of eight for the path between the main atom to the first shell, to the second one and to the center atom.</para>
+        <figure id="id889863"><media id="id889863_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-bfbd.png" id="id889863__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+        <caption>A two shell diagram in which there are three kinds of paths. From the center atom to the green one (x) and then going back (1); from the center atom to the red one (+) and the going back (2); and from the center atom to the first shell to the second one, and the returning to the center atom (3). Based on S. D. Kelly, D. Hesterberg, and B. Ravel in <emphasis effect="italics">Methods of Soil Analysis: Part 5, Mineralogical Methods</emphasis>, Ed. A. L. Urely and R. Drees, Soil Science Society of America Book Series, Madison (2008).</caption></figure>
+        
+        <para id="id6815762">The analysis of EXAFS spectra is accomplished using Fourier transformation to fit the data to the EXAFS equation. The EXAFS equation is a sum of the contribution from all scattering paths of the photoelectrons <link target-id="id5531068"/>, where each path is given by <link target-id="eip-319 "/>. </para>
+        <equation id="id5531068">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>χ</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>k</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:munder>
+                            <m:mo stretchy="false">∑</m:mo>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>i</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:munder>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>χ</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>i</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>k</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{χ \( k \) = Sum cSub { size 8{i} }  {χ rSub { size 8{i} }  \( k \) } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-319"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>χ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>i</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>k</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">≡</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>N</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>i</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                                <m:msubsup>
+                                  <m:mi>S</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>0</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msubsup>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:msub>
+                              <m:mi>F</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:msub>
+                                        <m:mtext>eff</m:mtext>
+                                        <m:mstyle fontsize="6pt">
+                                          <m:mrow>
+                                            <m:mi>i</m:mi>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msub>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>k</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msubsup>
+                                <m:mtext>kR</m:mtext>
+                                <m:mi>i</m:mi>
+                                <m:mn>2</m:mn>
+                              </m:msubsup>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>sin</m:mtext>
+                            <m:mo stretchy="false">[</m:mo>
+                            <m:mn>2</m:mn>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mtext>kR</m:mtext>
+                                  <m:mi>i</m:mi>
+                                </m:msub>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi>ϕ</m:mi>
+                              <m:mi>i</m:mi>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>k</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">]</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msubsup>
+                                    <m:mn>2σ</m:mn>
+                                    <m:mstyle fontsize="6pt">
+                                      <m:mrow>
+                                        <m:mi>i</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                    <m:mstyle fontsize="6pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msubsup>
+                                </m:mrow>
+                                <m:msup>
+                                  <m:mi>k</m:mi>
+                                  <m:mstyle fontsize="6pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:msub>
+                                  <m:mn>2R</m:mn>
+                                  <m:mstyle fontsize="6pt">
+                                    <m:mrow>
+                                      <m:mi>i</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mi>λ</m:mi>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>k</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{χ rSub { size 8{i} }  \( k \)  equiv  {  { left (N rSub { size 8{i} } S rSub { size 8{0} }  rSup { size 8{2} }  right )F rSub { size 8{ ital "eff" rSub { size 6{i} } } }  \( k \) }  over  { ital "kR" rSub {i}  rSup {2} } }  size 12{"sin" \[ 2 ital "kR" rSub {i} } size 12{+ϕ rSub {i} } size 12{ \( k \)  \] e rSup { - 2σ rSub { size 6{i} }  rSup { size 6{2} } k rSup { size 6{2} } } } size 12{e rSup { {  { - 2R rSub { size 6{i} } }  over  {λ \( k \) } } } }} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        
+        <para id="id5430900">The terms <emphasis effect="italics">F</emphasis><sub>eff</sub><emphasis effect="italics">i</emphasis>(k), φ<emphasis effect="italics">i</emphasis>(k), and <emphasis effect="italics">λ</emphasis><emphasis effect="italics">i</emphasis>(k) are the effective scattering amplitude of the photoelectron, the phase shift of the photoelectron, and the mean free path of the photoelectron, respectively. The term <emphasis effect="italics">R<sub>i</sub></emphasis> is the half path length of the photoelectron (the distance between the centered atom and a coordinating atom for a single-scattering event). And the <emphasis effect="italics">k</emphasis><sup>2</sup> is given by the <link target-id="id7636798 "/>. The remaining variables are frequently determined by modeling the EXAFS spectrum.</para>
+        <equation id="id7636798">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>k</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mn>2m</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>e</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>E</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:msub>
+                                  <m:mi>E</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>0</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msub>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mi fontstyle="italic">ΔE</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                        <m:mo stretchy="false">ℏ</m:mo>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{k rSup { size 8{2} } = {  {2m rSub { size 8{e} }  left (E - E rSub { size 8{0} } +ΔE rSub { size 8{0} }  right )}  over  { hbar } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+      </section>
+    </section>
+    <section id="id3753743"><title>XAFS analysis for arsenic adsorption onto iron oxides</title><para id="id5589269">The absorption of arsenic species onto iron oxide offers n example of the information that can be obtained by EXAFS. Because the huge impact that the presence of arsenic in water can produce in societies there is a lot of research in the adsorption of arsenic in several kinds of materials, in particular nano materials. Some of the materials more promising for this kind of applications are iron oxides. The elucidation of the mechanism of arsenic coordination onto the surfaces of those materials has been studied lately using X-ray absorption spectroscopy. </para>
+      <para id="id6448416">There are several ways how arsenate (AsO<sub>4</sub><sup>3−</sup>, <link target-id="id2011aso4"/>) can be adsorbed onto the surfaces. <link target-id="id5560523 "/> shows the three ways that Sherman proposes arsenate can be adsorbed onto goethite (α-FeOOH): bidentate cornersharing (2C), bidentate edge sharing (2E) and monodentate corner-sharing (1V) shapes. <link target-id="id7342830 "/> shows that the bidentate corner sharing (2C) is the configuration that corresponds with the calculated parameters not only for goethite, but for several iron oxides. </para>
+
+
+
+      <figure id="id2011aso4"><media id="id2011aso4_media" alt="">
+          <image mime-type="image/jpg" src="../../media/AsO4.jpg" id="id2011aso4__onlineimage" width="100" print-width="1in"/>
+        </media>
+      <caption>Structure of the arsenate anion.</caption></figure>
+      
+
+
+
+      <figure id="id5560523"><media id="id5560523_media" alt="">
+          <image mime-type="image/png" src="../../media/Objeto 5.png" id="id5560523__onlineimage" width="300" print-width="3in"/>
+        </media>
+      <caption>Possible configurations of arsenate onto goethite. The tetrahedral with the small spheres represents the arsenate ions. Adapted from D. M. Sherman and S. R. Randal. <emphasis effect="italics">Geochim. Cosmochim. Ac. </emphasis>2003, <emphasis effect="bold">67</emphasis>, 4223. </caption></figure>
+      
+
+        <figure id="id7342830"><media id="id7342830_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-9114.jpg" id="id7342830__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+        <caption>Fourier transforms of the EXAFS for arsenate sorbed onto goethite, lepidocrocite, hematite and ferrihydrite. Adapted from D. M. Sherman and S. R. Randal. <emphasis effect="italics">Geochim. Cosmochim. Ac. </emphasis>2003, <emphasis effect="bold">67</emphasis>, 4223.</caption></figure>
+
+      
+      <para id="id7673072">Several studies have confirmed that the bidentate corner sharing (2C) is the one present in the arsenate adsorption but also one similar, a tridentate corner sharing complex (3C), for the arsenite adsorption onto most of iron oxides as shows <link target-id=" id5206352 "/>. <link target-id="id1692318"/> shows the coordination numbers and distances reported in the literature for the As(III) and As(V) onto goethite.</para>
+
+        <figure id="id5206352"><media id="id5206352_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics6-e60d.png" id="id5206352__onlineimage" width="200" print-width="2in"/>
+          </media>
+        <caption>Proposed structural model for arsenic(III) tridante. Adapted from G. Morin,  Y. Wang, G. Ona-Nguema, F. Juillot, G. Calas, N. Menguy, E. Aubry, J. R. Bargar, and G. E. Brown. <emphasis effect="italics">Langmuir</emphasis> 2009, <emphasis effect="bold">25</emphasis>, 9119.</caption></figure>
+
+      
+      <table id="id1692318" summary="Coordination numbers and distances reported in the literature for the As(III) and As(V) adsorption onto goethite.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">As</emphasis></entry>
+              <entry>
+                <emphasis effect="bold">CN</emphasis>
+                <emphasis effect="bold">As-O</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">R</emphasis>
+                <emphasis effect="bold">As-O</emphasis>
+                <emphasis effect="bold"> (</emphasis>
+                <emphasis effect="bold">Å</emphasis>
+                <emphasis effect="bold">)</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">CN</emphasis>
+                <emphasis effect="bold">As-Fe</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">R</emphasis>
+                <emphasis effect="bold">As-Fe</emphasis>
+                <emphasis effect="bold"> (</emphasis>
+                <emphasis effect="bold">Å</emphasis>
+                <emphasis effect="bold">)</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>III</entry>
+              <entry>3.06±0.03</entry>
+              <entry>1.79±0.8</entry>
+              <entry>2.57±0.01</entry>
+              <entry>3.34±3</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>3.19</entry>
+              <entry>1.77±1</entry>
+              <entry>1.4</entry>
+              <entry>3.34±5</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>3</entry>
+              <entry>1.78</entry>
+              <entry>2</entry>
+              <entry>3.55±5</entry>
+            </row>
+            <row>
+              <entry>V</entry>
+              <entry>1.03.0</entry>
+              <entry>1.631.70</entry>
+              <entry>2</entry>
+              <entry>3.30</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>4.6</entry>
+              <entry>1.68</entry>
+              <entry>--</entry>
+              <entry>3.55±5</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup><caption>Coordination numbers (CN) and inter-atomic distances (R) reported in the literature for the As(III) and As(V) adsorption onto goethite.</caption>
+</table>
+      
+    </section>
+    <section id="id5180997">
+      <title>Bibliography</title>
+      <list id="id1649954" list-type="bulleted"><item>G. Bunker. <emphasis effect="italics">Introduction to XAFS: A practical guide to X-ray Absorption Fine Structure Spectroscopy</emphasis>, Cambridge University Press, Cambridge (2010). </item>
+        <item>S. D. Kelly, D. Hesterberg, and B. Ravel in <emphasis effect="italics">Methods of Soil Analysis: Part 5, Mineralogical Methods</emphasis>, Ed. A. L. Urely and R. Drees, Soil Science Society of America Book Series, Madison (2008). </item>
+        <item>G. A. Waychunas, B. A. Rea, C. C. Fuller, and J. A. Davis. <emphasis effect="italics">Geochim. Cosmochim. Ac. </emphasis>1993, <emphasis effect="bold">57</emphasis>, 2251. </item>
+        <item>B. A. Manning, and S. E. Fendorf, and S.<emphasis effect="italics"/>Goldberg<emphasis effect="italics">, Environ. Sci. Techn</emphasis>., 1998, <emphasis effect="bold">32</emphasis>, 2383. </item>
+        <item>D. M. Sherman and S. R. Randal, <emphasis effect="italics">Geochim. Cosmochim. Ac.</emphasis>, 2003, <emphasis effect="bold">67</emphasis>, 4223. </item>
+        <item>G. Ona-Nguena, G. Morin F. Juillot, G. Calas, and G. E. Brown, <emphasis effect="italics">Environ. Sci. Techn.</emphasis>, 2005, <emphasis effect="bold">39</emphasis>, 9147. </item>
+        <item>M. Stachowicz, T. Hiemstra, and W. H. Van Riemsdijk, <emphasis effect="italics">J. Colloid. Interf. Sci.</emphasis>, 2005, <emphasis effect="bold">302</emphasis>, 62. </item>
+        <item>M. Auffan, J. Rose, O. Proux, D. Borschneck, A. Masion, P. Chaurand, J. L. Hazemann, C. Chaneac, J. P. Jolivet, M. R. Wiesner, A. Van Geen, and J. Y. Bottero, <emphasis effect="italics">Langmuir</emphasis>, 2008, <emphasis effect="bold">24</emphasis>, 3215. </item>
+        <item>G. Ona-Nguena, G. Morin, Y. Wang, N. Menguy, F. Juillot, L, Olivi, G. Aquilanti, M. Abdelmoula, C. Ruby, J. R. Bargar, F. Guyot, G. Calas, and G. E. Brown, Jr., <emphasis effect="italics">Geochim. Cosmochim. Ac.</emphasis>, 2009, <emphasis effect="bold">73</emphasis>, 1359. </item>
+        <item>G. Morin, Y. Wang, G. Ona-Nguema, F. Juillot, G. Calas, N. Menguy, E. Aubry, J. R. Bargar, and G. E. Brown Jr., <emphasis effect="italics">Langmuir</emphasis>, 2009, <emphasis effect="bold">25</emphasis>, 9119. </item>
+
+<item>J. Rose, M. M. Cortalezzi-Fidalgo, S. Moustier, C. Magnetto, C. D. Jones, A. R. Barron, M. R. Wiesner, and J.-Y. Bottero, <emphasis effect="italics">Chem. Mater.</emphasis>, 2002, <emphasis effect="bold">14</emphasis>, 621.</item> 
+
+      </list>
+    </section>
+  </content>
+</document>

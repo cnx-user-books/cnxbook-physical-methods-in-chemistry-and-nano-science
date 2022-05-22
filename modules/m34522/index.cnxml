@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Surface-Enhanced Raman Spectroscopy for the Study of Surface Chemistry</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34522</md:content-id>
+  <md:title>Surface-Enhanced Raman Spectroscopy for the Study of Surface Chemistry</md:title>
+  <md:abstract/>
+  <md:uuid>f8a19258-739c-43d6-9b26-cc6b9cf70821</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164232113733">The ever-rising interest in nanotechnology involves the synthesis and application of materials with a very high surface area to volume ratio. This places increasing importance on understanding the chemistry occurring at a surface, particularly the surface of a nanoparticle. Slight modifications of the nanoparticle or its surrounding environment can greatly affect many properties including the solubility, biological toxicity, and reactivity of the nanomaterial. Noble metal nanomaterials are of particular interest due to their unique optical properties and biological inertness. </para>
+    <para id="id1164245313339">One tool employed to understand the surface chemistry of noble metal nanomaterial, particularly those composed of gold or silver is <emphasis effect="italics">surface-enhanced Raman spectroscopy</emphasis> (SERS). Replacing a metal surface with a metal nanoparticle increases the available surface area for the adsorption of molecules. Compared to a flat metal surface, a similar sample size using nanoparticles will have a dramatically stronger signal, since signal intensity is directly related to the concentration of the molecule of interest. Due to the shape and size of the structure, the electrons in the nanoparticle oscillate collectively when exposed to incident electromagnetic radiation. This is called the <emphasis effect="italics">localized surface plasmon resonance</emphasis> (LSPR) of the nanoparticle. The LSPR of the nanoparticles boosts the Raman signal intensity dramatically for molecules of interest near the surface of the nanoparticle. In order to maximize this effect, a nanoparticle should be selected with its resonant wavelength falling in the middle of the incident and scattered wavelengths. </para>
+    <para id="id1164230526696">The overall intensity enhancement of SERS can be as large as a factor of 10<sup>6</sup>, with the surface plasmon resonance responsible for roughly four orders of magnitude of this signal increase. The other two orders of magnitude have been attributed to chemical enhancement mechanisms arising charge interactions between the metal particle and the adsorbate or from resonances in the adsorbate alone, as discussed above. </para>
+    <section id="id1164233286912">
+      <title>Why is SERS useful for studying surface chemistry? </title>
+      <para id="id1164233572143"><emphasis effect="bold"/>Traditionally, SERS uses nanoparticles made of conductive materials, such as gold, to learn more about a particular molecule. However, of interest in many growing fields that incorporate nanotechnology is the structure and functionalization of a nanoparticle stabilized by some surfactant or capping agent. In this case, SERS can provide valuable information regarding the stability and surface structure of the nanoparticle. Another use of nanoparticles in SERS is to provide information about a ligand’s structure and the nature of ligand binding. In many applications it is important to know whether a molecule is bound to the surface of the nanoparticle or simply electrostatically interacting with it. </para>
+      
+    </section>
+    <section id="id1164231896187">
+      <title>Sample preparation and instrumental details</title>
+      <para id="id1164248231441">The standard Raman instrument is composed of three major components. First, the instrument must have an illumination system. This is usually composed of one or more lasers. The major restriction for the illumination system is that the incident frequency of light must not be absorbed by the sample or solvent. The next major component is the sample illumination system. This can vary widely based on the specifics of the instrument, including whether the system is a standard macro-Raman or has micro-Raman capabilities. The sample illumination system will determine the phase of material under investigation. The final necessary piece of a Raman system is the spectrometer. This is usually placed 90° away from the incident illumination and may include a series of filters or a monochromator. An example of a macro-Raman and micro-Raman setup can be seen in <link target-id="id1164230316098"/> and <link target-id="id1164243735458"/>. A macro-Raman spectrometer has a spatial resolution anywhere from 100 μm to one millimeter while a micro-Raman spectrometer uses a microscope to magnify its spatial resolution. </para>
+      <figure id="id1164230316098"><media id="id1164230316098_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-3685.jpg" id="id1164230316098__onlineimage" width="450" print-width="4.5in"/>
+        </media>
+      <caption>Schematic of a macro-Raman spectrometer.</caption></figure>
+      
+      <figure id="id1164243735458"><media id="id1164243735458_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-e907.jpg" id="id1164243735458__onlineimage" width="450" print-width="4.5in"/>
+        </media>
+      <caption>Schematic of a micro-Raman spectrometer where illumination and collection are performed through microscope objective.</caption></figure>
+      
+    </section>
+    <section id="id1164234452811">
+      <title>Bibliography</title>
+      
+      <list id="eip-496"><item>D. A. Skoog, F. J. Holler, and S. R. Crouch, <emphasis effect="italics">Principles of Instrumental Analysis</emphasis>, 6<sup>th</sup> Ed, Brooks Cole (2006).  </item>
+<item>P. L. Stiles, J. A. Dieringer, N. C. Shah, and R. P. van Duyne, <emphasis effect="italics">Annu. Rev. Anal. Chem.</emphasis>, 2008, <emphasis effect="bold">1</emphasis>, 601. </item>
+</list>
+    </section>
+  </content>
+</document>

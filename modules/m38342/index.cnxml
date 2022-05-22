@@ -1,0 +1,103 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Determination of Relaxation Parameters of Contrast Agents</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38342</md:content-id>
+  <md:title>Determination of Relaxation Parameters of Contrast Agents</md:title>
+  <md:abstract>Newly developing non invasive characterisation methods in medicine requires more powerful techniques such as MRI, therefore new contrast agents should be developed. Influence of contrast
+agents to surrounding area (water) determined by NMR relaxometer.</md:abstract>
+  <md:uuid>6a87068e-459c-4b6d-8b4b-4f4c333e430f</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1166608320847"><title>Introduction</title><para id="eip-391">Magnetic resonance imaging (MRI) (also known as nuclear magnetic resonance imaging (NMRI) or magnetic resonance tomography (MRT)) is a powerful noninvasive diagnostic technique, which is used to generate magnetic field (B<sub>0</sub>) and interacts with spin angular momentum of the nucleus in the tissue. Spin angular momentum depends on number of protons and neutrons of nucleus. Nuclei with even number of protons plus neutrons are insensitive to magnetic field, so cannot be viewed by MRI. </para>
+
+<para id="id1561987">Each nucleus can be considered as an arrow with arbitrary direction in absence of external magnetic field (<link target-id="id1166594140507"/>). And we consider them to get oriented in same direction once magnetic field applied (<link target-id="id1166612440426"/>). In order to get nuclei orient in specific direction, energy is supplied, and to bring it to original position energy is emitted. All this transitions eventually lead to changes in angular velocity, which is defined as Larmor frequency and the expression <link target-id="eip-948"/>, where ω is the Larmor frequency, γ is the gyromagnetic ratio, and B<sub>0 </sub>is the magnetic field. It is not easy to detect energy, which is involved in such a transition, that’s why use of high resolution spectrometers required, those which are developed by nowadays as a most powerful MRI are close to 9 Tesla with mass approaching forty five tons. Unfortunately it is expensive tool to purchase and to operate. That’s why new techniques should be developed, so most of the MRI spectrometers can be involved in imaging. Fortunately presence of huge amount of nuclei in analyzed sample or body can provide with some information.</para>
+
+
+
+      <equation id="eip-948"><media id="id201130_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq30-ec98.jpg" id=" id201130__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation><figure id="id1166594140507"><media id="id1166594140507_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-0736.jpg" id="id1166594140507__onlineimage" width="129" print-width="1.6in"/>
+        </media>
+      
+<caption>Representation of nuclei in absence of magnetic field.</caption></figure>
+      
+      <figure id="id1166612440426"><media id="id1166612440426_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-8e98.jpg" id="id1166612440426__onlineimage" width="169" print-width="2in"/>
+        </media>
+   <caption>Representation of nuclei in presence of magnetic field. </caption></figure>
+      
+      
+      <section id="id1166589339890">
+        <title>Nuclear magnetic resonance relaxometer</title>
+        <para id="id1166594319453">Each nucleus possesses microscopic magnetic spins of <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis> and <emphasis effect="italics">z</emphasis>. Presence of randomly distributed atoms with varying <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> spins will lead to zero upon summation of <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> planes. But in case of <emphasis effect="italics">z</emphasis>, summation of magnetic spins will not lead to cancellation. According to Currie’s law, <link target-id="eip-31"/>, (M<emphasis effect="italics"><sub>z</sub></emphasis> is the resulting magnetization of <emphasis effect="italics">z</emphasis> axis, C is a material specific Curie constant, B<sub>0</sub> is the magnetic field, and T is absolute temperature), magnetization of <emphasis effect="italics">z</emphasis> axis proportional to magnetic field applied from outside. Basically, excitation happens by passing current through coil which leads to magnetization of <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis> and <emphasis effect="italics">z</emphasis> axis. It is the way of changing magnetism from <emphasis effect="italics">z</emphasis> axis to <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> axis. Once external current supply is turned off, magnetization will eventually quench. This means a change of magnetization from x and y axis to <emphasis effect="italics">z</emphasis> axis, were it eventually become equilibrated and device no more can detect the signals. Energy which is emitted from excited spin leads to development of new current inside of the same coil recorded by detector; hence same coil can be used as detector and source of magnetic field. This process called as a relaxation and that's why, return of magnetization to <emphasis effect="italics">z</emphasis> axis called as spin-lattice relaxation or T<sub>1</sub> relaxation (time required for magnetization to align on <emphasis effect="italics">z</emphasis> axis). Eventual result of zero magnetization on <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> axis called as spin-spin relaxation or T<sub>2</sub> relaxation (<link target-id="id1166589378166"/>). </para>
+
+
+        <equation id="eip-31"><media id="id201131_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq31-0838.jpg" id=" id201131__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation>
+
+
+
+        <figure id="id1166589378166"><media id="id1166589378166_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-9196.jpg" id="id1166589378166__onlineimage" width="249" print-width="3in"/>
+          </media>
+        <caption>Magnetic spins relaxation mechanism</caption></figure>
+        
+      </section>
+    </section>
+    <section id="id1166613187901">
+      <title>Contrast agents for MRI</title>
+      <para id="id1166608163366">In MRI imaging contrast is determined according to T<sub>1</sub>, T<sub>2</sub> or the proton density parameter. Therefor we can obtain three different images. By changing intervals between radio frequency (RF) 90° pulses and RF 180° pulses, the desired type of image can be obtained. There are few computational techniques available to improve contrast of image; those are repetitive scans and different mathematical computations. Repetitive scans take a long time, therefore cannot be applied in MRI. Mathematical computation on their own, do not provide with desired results. For that reason, in order to obtain high resolution images, contrast agents (CA) are important part of medical imaging.</para>
+      <section id="id1166589349218"><title>Types of contrast agents</title><para id="id6843535">There are different types of contrast agents available in markets which reduce the supremacy of T<sub>1</sub> or T<sub>2</sub>, and differentiate according to relaxivity<sub>1</sub> (r<sub>1</sub>) and relaxivity<sub>2</sub> (r<sub>2</sub>) values. The relaxivity (r<sub>i</sub>) can be described as 1/T<sub>i</sub> (s<sup>-1</sup>) of water molecules per mM concentration of CA. Contrast agents are paramagnetic and can interact with dipole moments of water molecules, causing fluctuations in molecules. This theory is known as Solomon-Bloembergen-Morgan (SBM) theory. Those which are efficient were derivatives of gadolinium (e.g., gadobenic acid (FIGURE a) and gadoxetic acid (FIGURE b)), iron (e.g., superparamagnetic iron oxide and ultrasmall superparamagnetic iron oxide) and manganese (e.g., manganese dipyridoxal diphosphate). Fundamentally the role of contrast agents can be played by any paramagnetic species.</para>
+      
+
+<figure id="idGad"><media id=" id554545Gd_media" alt="">
+            <image mime-type="image/jpg" src="../../media/FigGd.jpg" id=" id554545Gd__onlineimage" width="400" print-width="4in"/>
+          </media>
+
+<caption>The structures of two representative commercial gadolinium MRI contrast agents; (a) gadobenic acid and (b) gadoxetic acid. </caption></figure>
+
+</section>
+      <section id="id1166605081976">
+        <title>Principal of interactions of CA with surrounding media</title>
+        <para id="id7984053">There are two main principles of interactions of contrast agents with water molecules. One is direct interaction, which is called inner sphere relaxation, and the other mechanism that  happens in the absence of direct interaction with water molecule which is outer sphere relaxation. If we have water molecules in the first coordination sphere of metal ion, we can consider them as the inner sphere, and if diffusion of protons from outside happens randomly we define them as outer sphere relaxation. Another type of relaxivity comes from already affected water molecules, which transfers their relaxivity to protons of close proximity, this type of relaxivity called second sphere and is usually neglected or contributed as outer sphere. In inner sphere proton relaxivity there are two main mechanisms involved in relaxation. One is dipole-dipole interactions between metal and proton and another is scalar mechanism. Dipole-dipole interaction affects electron spin vectors and scalar mechanism usually controls water exchange. Effect of contrast agents on T<sub>1 </sub>relaxation is much larger than on T<sub>2</sub>, since T<sub>1</sub> is much larger for tissues than T<sub>2</sub>. </para>
+      </section>
+    </section>
+    <section id="id6276201">
+      <title>Determination of relaxivity</title>
+      <para id="id1166597435339"> Determination of relaxivity became very easy with the advancements of NMR and computer technology, where you need just to load your sample and read values from the screen. But let’s consider in more detail what are the precautions should be taken during sample preparation and data acquisition.</para>
+      <section id="id1166589636603">
+        <title>Sample preparation</title>
+        <para id="id1166615286169">The sample to be analyzed is dissolved in water or another solvent. Generally water is used since contrast agents for medical MRI are used in aqueous media. The amount of solution used is determined according to the internal standard volume, which is used for calibration purposes of device and is usually provided by company producing device. A suitable sample holder is a NMR tube. It is important to degas solvent prior measurements by bubbling gas through it (nitrogen or argon works well), so no any traces of oxygen remains in solution, since oxygen is paramagnetic.</para>
+      </section>
+      <section id="id1166603831431"><title>Data acquisition</title><para id="id1166602975995">Before collecting data it is better to keep the sample in the device compartment for few minutes, so temperature of magnet and your solution equilibrates. The relaxivity (r<sub>i</sub>) calculated according to (<link target-id="eip-600"/>), where T<sub>i</sub> is the relaxation time in the presence of CAs, T<sub>id</sub> is the relaxation time in the absence of CAs, and CA is the concentration of paramagnetic CAs (mM). Having the relaxivity values allows for a comparison of a particular compound to other known contrast agents.</para>
+
+
+        <equation id="eip-600">
+
+
+<media id="id554545Eq_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Eq32-d898.jpg" id=" id554545Eq__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+
+
+</equation>
+      </section>
+    </section>
+    <section id="id1166608721958">
+      <title>Bibliography</title>
+      <list id="id1166608106311" list-type="bulleted"><item>D. Canet, <emphasis effect="italics">Nuclear Magnetic Resonance: Concepts and Methods</emphasis>, John Wiley and Sons, Chichester (1996).</item>
+        <item>A. Abragam, <emphasis effect="italics">Principles of Nuclear Magnetism</emphasis>, Oxford University Press, Oxford (1961).</item>
+        <item>I. Solomon and N. Bloembergen, <emphasis effect="italics">J. Chem. Phys.</emphasis>, 1956, <emphasis effect="bold">25</emphasis>, 261.</item>
+        <item>N. Bloembergen and L. O. Morgan, <emphasis effect="italics">J. Chem. Phys.</emphasis>, 1961, <emphasis effect="bold">34</emphasis>, 842.</item>
+        <item>P. G. Morris and P. Mansfield, <emphasis effect="italics">NMR Imaging in Biomedicine</emphasis>, Academic Press, Orlando (1982). </item>
+        <item>J. S. Ananta, B. Godin, R. Sethi, L. Moriggi, X. Liu, R. E. Serda, R. Krishnamurthy, R. Muthupillai, R. D. Bolskar, L. Helm, M. Ferrari, L. J. Wilson, and P. Decuzzi, <emphasis effect="italics">Nature Nanotech.</emphasis>, 2010, <emphasis effect="bold">5</emphasis>, 817.</item>
+        <item>R. B. Lauffer, <emphasis effect="italics">Chem. Rev.</emphasis>, 1987, <emphasis effect="bold">87</emphasis>, 901.</item>
+      </list>
+    </section>
+  </content>
+</document>

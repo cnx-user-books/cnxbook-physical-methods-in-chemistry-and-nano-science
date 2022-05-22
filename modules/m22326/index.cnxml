@@ -1,0 +1,1215 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>The Application of VSI (Vertical Scanning Interferometry) to the Study of Crystal Surface Processes</title>
+  <metadata>
+  <md:content-id>m22326</md:content-id><md:title>The Application of VSI (Vertical Scanning Interferometry) to the Study of Crystal Surface Processes</md:title>
+  <md:abstract/>
+  <md:uuid>2515fd85-46bf-42d5-8713-018032a6eb77</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1172435127287">
+      <title>Introduction</title>
+      <para id="id1172431685650"> The processes which occur at the surfaces of crystals depend on many external and internal factors such as crystal structure and composition, conditions of a medium where the crystal surface exists and others. The appearance of a crystal surface is the result of complexity of interactions between the crystal surface and the environment. The mechanisms of surface processes such as dissolution or growth are studied by the physical chemistry of surfaces. There are a lot of computational techniques which allows us to predict the changing of surface morphology of different minerals which are influenced by different conditions such as temperature, pressure, pH and chemical composition of solution reacting with the surface. For example, Monte Carlo method is widely used to simulate the dissolution or growth of crystals. However, the theoretical models of surface processes need to be verified by natural observations. We can extract a lot of useful information about the surface processes through studying the changing of crystal surface structure under influence of environmental conditions. The changes in surface structure can be studied through the observation of crystal surface topography. The topography can be directly observed macroscopically or by using microscopic techniques. Microscopic observation allows us to study even very small changes and estimate the rate of processes by observing changing the crystal surface topography in time.<emphasis effect="bold"/></para>
+      <para id="id1172435095646">Much laboratory worked under the reconstruction of surface changes and interpretation of dissolution and precipitation kinetics of crystals. Invention of AFM made possible to monitor changes of surface structure during dissolution or growth. However, to detect and quantify the results of dissolution processes or growth it is necessary to determine surface area changes over a significantly larger field of view than AFM can provide. More recently, vertical scanning interferometry (VSI) has been developed as new tool to distinguish and trace the reactive parts of crystal surfaces. VSI and AFM are complementary techniques and practically well suited to detect surface changes. </para>
+      
+      <para id="id1172431733978"> VSI technique provides a method for quantification of surface topography at the angstrom to nanometer level. Time-dependent VSI measurements can be used to study the surface-normal retreat across crystal and other solid surfaces during dissolution process. Therefore, VSI can be used to directly and nondirectly measure mineral dissolution rates with high precision. Analogically, VSI can be used to study kinetics of crystal growth.</para>
+    </section>
+    <section id="id1172437690612">
+      <title>Physical principles of optical interferometry</title>
+      <para id="id1172432889673">Optical interferometry allows us to make extremely accurate measurements and has been used as a laboratory technique for almost a hundred years. Thomas Young observed interference of light and measured the wavelength of light in an experiment, performed around 1801. This experiment gave an evidence of Young's arguments for the wave model for light. The discovery of interference gave a basis to development of interferomertry techniques widely successfully used as in microscopic investigations, as in astronomic investigations. </para>
+      
+      <para id="id1172435194262">The physical principles of optical interferometry exploit the wave properties of light. Light can be thought as electromagnetic wave propagating through space. If we assume that we are dealing with a linearly polarized wave propagating in a vacuum in z direction, electric field E can be represented by a sinusoidal function of distance and time. </para>
+      <equation id="id1172433050891">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>E</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>z</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>t</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>a</m:mi>
+                    </m:mrow>
+                    <m:mtext>cos</m:mtext>
+                    <m:mfenced open="[" close="]">
+                      <m:mrow>
+                        <m:mn>2π</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>vt</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mrow>
+                            <m:mi>z</m:mi>
+                            <m:mo stretchy="false">/</m:mo>
+                            <m:mi>λ</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{E \( x,y,z,t \) =a"cos" left [2π \(  ital "vt" - z/λ \)  right ]} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172445218998">Where <emphasis effect="italics">a</emphasis> is the amplitude of the light wave, <emphasis effect="italics">v</emphasis> is the frequency, and <emphasis effect="italics">λ </emphasis> is its wavelength. The term within the square brackets is called the phase of the wave. Let’s rewrite this equation in more compact form, </para>
+      
+      <equation id="id1172434233044">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>E</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>z</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>t</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>a</m:mi>
+                    </m:mrow>
+                    <m:mtext>cos</m:mtext>
+                    <m:mrow>
+                      <m:mo stretchy="false">⌈</m:mo>
+                      <m:mrow>
+                        <m:mi fontstyle="italic">ωt</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>kz</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                      <m:mo stretchy="false">⌉</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{E \( x,y,z,t \) =a"cos" lceil ωt -  ital "kz" rceil } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172433936010">where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2πv</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω=2πv} {}</m:annotation></m:semantics></m:math> is the circular frequency, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2π</m:mn><m:mo stretchy="false">/</m:mo><m:mi>λ</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=2π/λ} {}</m:annotation></m:semantics></m:math> is the propagation constant. Let’s also transform this second equation into a complex exponential form, </para>
+      
+      <equation id="id1172433124718">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>E</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>z</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>t</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>Re</m:mtext>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mfenced open="{" close="}">
+                        <m:mrow>
+                          <m:mi>a</m:mi>
+                          <m:mtext>exp</m:mtext>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi fontstyle="italic">iϕ</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mtext>exp</m:mtext>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi fontstyle="italic">iωt</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>Re</m:mtext>
+                    </m:mrow>
+                    <m:mfenced open="{" close="}">
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mtext>exp</m:mtext>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi fontstyle="italic">iωt</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{E \( x,y,z,t \) ="Re" left lbrace a"exp" \( iϕ \) "exp" \( iωt \)  right rbrace ="Re" left lbrace A"exp" \( iωt \)  right rbrace } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172431561528">where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2πz</m:mn><m:mo stretchy="false">/</m:mo><m:mi>λ</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ=2πz/λ} {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>exp</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi fontstyle="italic">iϕ</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A="exp" \(  - iϕ \) } {}</m:annotation></m:semantics></m:math> is known as the complex amplitude. If n is a refractive index of a medium where the light propagates, the light wave traverses a distance d in such a medium. The equivalent optical path in this case is </para>
+      
+      <equation id="id1172437591840">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{p=n cdot d} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172434077537">When two light waves are superposed, the result intensity at any point depends on whether reinforce or cancel each other (<link target-id="id1172435163110"/>). This is well known phenomenon of interference. We will assume that two waves are propagating in the same direction and are polarized with their field vectors in the same plane. We will also assume that they have the same frequency. The complex amplitude at any point in the interference pattern is then the sum of the complex amplitudes of the two waves, so that we can write, </para>
+      
+      <equation id="id1172433106820">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{A=A rSub { size 8{1} } +A rSub { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172433156844">where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>exp</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:msub><m:mi fontstyle="italic">iϕ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} } =a rSub { size 8{1} } "exp" \(  - iϕ rSub { size 8{1} }  \) } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>exp</m:mtext><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:msub><m:mi fontstyle="italic">iϕ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{2} } =a rSub { size 8{2} } "exp" \(  - iϕ rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math> are the complex amplitudes of two waves. The resultant intensity is, therefore,</para>
+      <equation id="id1172439781545">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mi>A</m:mi>
+                            <m:mo stretchy="false">∣</m:mo>
+                          </m:mrow>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">/</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mtext>cos</m:mtext>
+                    <m:mi fontstyle="italic">Δϕ</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I= lline A rline  rSup { size 8{2} } =I rSub { size 8{1} } +I rSub { size 8{2} } +2 \( I rSub { size 8{1} } I rSub { size 8{2} }  \)  rSup { size 8{1/2} } "cos"Δϕ} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172438356371">where <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math></emphasis> and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></emphasis> are the intensities of two waves acting separately, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi fontstyle="italic">Δϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>ϕ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ϕ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δϕ=ϕ rSub { size 8{1} }  - ϕ rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is the phase difference between them. If the two waves are derived from a common source, the phase difference corresponds to an optical path difference, </para>
+      
+      <equation id="id1172434330042">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi fontstyle="italic">Δp</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>λ</m:mi>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mn>2π</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi fontstyle="italic">Δϕ</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{Δp= \( λ/2π \) Δϕ} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+    
+  
+
+
+        <figure id="id1172435163110"><media id="id1172435163110_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-196b.jpg" id="id1172435163110__onlineimage" height="459" width="525" print-width="4.5in"/>
+          </media>
+          
+        <caption>The scheme of interferometric wave interaction when two waves interact with each other, the amplitude of resulting wave will increase or decrease. The value of this amplitude depends on phase difference between two original waves.</caption></figure>
+   
+
+      <para id="id1172431733015">If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi fontstyle="italic">Δϕ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δϕ} {}</m:annotation></m:semantics></m:math>, the phase difference between the beams, varies linearly across the field of view, the intensity varies cosinusoidally, giving rise to alternating light and dark bands or fringes (<link target-id="id1172435163110"/>). The intensity in an interference pattern has its maximum value </para>
+      <equation id="id1172432893651">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mtext>max</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>I</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">/</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"max"} } =I rSub { size 8{1} } +I rSub { size 8{2} } +2 \( I rSub { size 8{1} } I rSub { size 8{2} }  \)  rSup { size 8{1/2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172437581656">when 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi fontstyle="italic">Δϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2mπ</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δϕ=2mπ} {}</m:annotation></m:semantics></m:math>, where m is an integer and its minimum value</para>
+      <equation id="eip-487"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mstyle fontsize="12pt">
+					<m:mrow>
+						<m:mrow>
+							<m:mrow>
+								<m:msub>
+									<m:mi>I</m:mi>
+									<m:mstyle fontsize="8pt">
+										<m:mrow>
+											<m:mtext>min</m:mtext>
+										</m:mrow>
+									</m:mstyle>
+								</m:msub>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mrow>
+									<m:mrow>
+										<m:msub>
+											<m:mi>I</m:mi>
+											<m:mstyle fontsize="8pt">
+												<m:mrow>
+													<m:mn>1</m:mn>
+												</m:mrow>
+											</m:mstyle>
+										</m:msub>
+										<m:mo stretchy="false">+</m:mo>
+										<m:msub>
+											<m:mi>I</m:mi>
+											<m:mstyle fontsize="8pt">
+												<m:mrow>
+													<m:mn>2</m:mn>
+												</m:mrow>
+											</m:mstyle>
+										</m:msub>
+									</m:mrow>
+									<m:mo stretchy="false">−</m:mo>
+									<m:mn>2</m:mn>
+								</m:mrow>
+							</m:mrow>
+							<m:mo stretchy="false">(</m:mo>
+							<m:msub>
+								<m:mi>I</m:mi>
+								<m:mstyle fontsize="8pt">
+									<m:mrow>
+										<m:mn>1</m:mn>
+									</m:mrow>
+								</m:mstyle>
+							</m:msub>
+							<m:msub>
+								<m:mi>I</m:mi>
+								<m:mstyle fontsize="8pt">
+									<m:mrow>
+										<m:mn>2</m:mn>
+									</m:mrow>
+								</m:mstyle>
+							</m:msub>
+							<m:msup>
+								<m:mo stretchy="false">)</m:mo>
+								<m:mstyle fontsize="8pt">
+									<m:mrow>
+										<m:mrow>
+											<m:mn>1</m:mn>
+											<m:mo stretchy="false">/</m:mo>
+											<m:mn>2</m:mn>
+										</m:mrow>
+									</m:mrow>
+								</m:mstyle>
+							</m:msup>
+						</m:mrow>
+					</m:mrow>
+				</m:mstyle>
+				<m:mrow/>
+			</m:mrow>
+			<m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"min"} } =I rSub { size 8{1} } +I rSub { size 8{2} }  - 2 \( I rSub { size 8{1} } I rSub { size 8{2} }  \)  rSup { size 8{1/2} } } {}</m:annotation>
+		</m:semantics>
+	</m:math>
+</equation>
+      <para id="id1172432926410">when 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">Δϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>2m</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δϕ= \( 2m+1 \) π} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id1172433026884">The principle of interferometry is widely used to develop many types of interferometric set ups. One of the earliest set ups is Michelson interferometry. The idea of this interferometry is quite simple: interference fringes are produced by splitting a beam of monochromatic light so that one beam strikes a fixed mirror and the other a movable mirror. An interference pattern results when the reflected beams are brought back together. The Michelson interferometric scheme is shown in <link target-id="id1172433025083"/>. 
+ </para>
+      
+      <figure id="id1172433025083"><media id="id1172433025083_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-e50d.jpg" id="id1172433025083__onlineimage" width="518" print-width="3.5in"/>
+        </media>
+      <caption>Schematic representation of a Michelson interferometry set-up. </caption></figure>
+      <para id="eip-362">The difference of path lengths between two beams is 2x because beams traverse the designated distances twice. The interference occurs when the path difference is equal to integer numbers of wavelengths, </para><equation id="eip-837"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi fontstyle="italic">Δp</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>2x</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi fontstyle="italic">mλ</m:mi>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mrow>
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>0,</m:mn>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:mn>1,</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">±</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{Δp=2x=mλ,m=0, +- 1, +- 2 "."  "."  "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><para id="id1172433825670">Modern interferometric systems are more complicated. Using special phase-measurement techniques they capable to perform much more accurate height measurements than can be obtained just by directly looking at the interference fringes and measuring how they depart from being straight and equally spaced. Typically interferometric system consist of lights source, beamsplitter, objective system, system of registration of signals and transformation into digital format and computer which process data. Vertical scanning interferometry is contains all these parts. <link target-id="id1172437604109"/> shows a configuration of VSI interferometric system.</para>
+      
+
+
+        <figure id="id1172437604109"><media id="id1172437604109_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Fig3-4546.jpg" id="id1172437604109__onlineimage" width="600" print-width="4.5in"/>
+          </media>
+        <caption>Schematic representation of the Vertical scanning interferometry (VSI) system. </caption></figure>
+
+
+
+      <para id="id1172443075821">Many of modern interferometric systems use Mirau objective in their constructions. Mireau objective is based on a Michelson interferometer. This objective consists of a lens, a reference mirror and a beamsplitter. The idea of getting interfering beams is simple: two beams (red lines) travel along the optical axis. Then they are reflected from the reference surface and the sample surface respectively (blue lines). After this these beams are recombined to interfere with each other. An illumination or light source system is used to direct light onto a sample surface through a cube beam splitter and the Mireau objective. The sample surface within the field of view of the objective is uniformly illuminated by those beams with different incidence angles. Any point on the sample surface can reflect those incident beams in the form of divergent cone. Similarly, the point on the reference symmetrical with that on the sample surface also reflects those illuminated beams in the same form.</para>
+      <para id="id1172431894470">The Mireau objective directs the beams reflected of the reference and the sample surface onto a CCD (charge-coupled device) sensor through a tube lens. The CCD sensor is an analog shift register that enables the transportation of analog signals (electric charges) through successive stages (capacitors), controlled by a clock signal. The resulting interference fringe pattern is detected by CCD sensor and the corresponding signal is digitized by a frame grabber for further processing with a computer. </para>
+      <para id="id1172438103764">The distance between a minimum and a maximum of the interferogram produced by two beams reflected from the reference and sample surface is known. That is, exactly half the wavelength of the light source. Therefore, with a simple interferogram the vertical resolution of the technique would be also limited to λ/2. If we will use a laser light as a light source with a wavelength of 300 nm the resolution would be only 150 nm. This resolution is not good enough for a detailed near-atomic scale investigation of crystal surfaces. Fortunately, the vertical resolution of the technique can be improved significantly by moving either the reference or the sample by a fraction of the wavelength of the light. In this way, several interferograms are produced. Then they are all overlayed, and their phase shifts compared by the computer software <link target-id="id1172440828934"/>. This method is widely known as phase shift interferometry (PSI). </para>
+      
+      <figure id="id1172440828934"><media id="id1172440828934_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4-54ce.jpg" id="id1172440828934__onlineimage" height="438" width="587" print-width="4.5in"/>
+        </media>
+        
+      <caption>Sketch illustrating phase-shift technology. The sample is continuously moved along the vertical axes in order to scan surface topography. All interferograms are automatically overlayed using computer software.</caption></figure>
+      
+      <para id="id1172431626000">Most optical testing interferometers now use phase-shifting techniques not only because of high resolution but also because phase-shifting is a high accuracy rapid way of getting the interferogram information into the computer. Also usage of this technique makes the inherent noise in the data taking process very low. As the result in a good environment angstrom or sub-angstrom surface height measurements can be performed. As it was said above, in phase-shifting interferometry the phase difference between the interfering beams is changed at a constant rate as the detector is read out. Once the phase is determined across the interference field, the corresponding height distribution on the sample surface can be determined. The phase distribution <emphasis effect="italics">φ(x, y) </emphasis>is recorded by using the CCD camera. </para>
+      <para id="id1172435089456">Let’s assign <emphasis effect="italics">A(x, y)</emphasis>, <emphasis effect="italics">B(x, y)</emphasis>, <emphasis effect="italics">C(x, y) </emphasis>and <emphasis effect="italics">D(x, y) </emphasis>to the resulting interference light intensities which are corresponded to phase-shifting steps of 0, <emphasis effect="italics">π/</emphasis>2, <emphasis effect="italics">π </emphasis>and 3<emphasis effect="italics">π/</emphasis>2. These intensities can be obtained by moving the reference mirror through displacements of <emphasis effect="italics">λ/</emphasis>8, <emphasis effect="italics">λ/</emphasis>4 and 3<emphasis effect="italics">λ/</emphasis>8, respectively. The equations for the resulting intensities would be:</para>
+      <equation id="id1172437550984">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>A</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>cos</m:mtext>
+                    <m:mi>α</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{A \( x,y \) =I rSub { size 8{1} }  \( x,y \) +I rSub { size 8{2} }  \( x,y \) "cos"α \( x,y \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id1172437550840">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>B</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>sin</m:mtext>
+                    <m:mi>α</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{B \( x,y \) =I rSub { size 8{1} }  \( x,y \)  - I rSub { size 8{2} }  \( x,y \) "sin"α \( x,y \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id1172439398891">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>C</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>cos</m:mtext>
+                    <m:mi>α</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{C \( x,y \) =I rSub { size 8{1} }  \( x,y \)  - I rSub { size 8{2} }  \( x,y \) "cos"α \( x,y \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id1172437177031">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>D</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>sin</m:mtext>
+                    <m:mi>α</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{D \( x,y \) =I rSub { size 8{1} }  \( x,y \) +I rSub { size 8{2} }  \( x,y \) "sin"α \( x,y \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172438119666">where 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} }  left (x,y right )} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} }  left (x,y right )} {}</m:annotation></m:semantics></m:math> are two overlapping beams from two symmetric points on the test surface and the reference respectively. Solving equations <link target-id="id1172437550984"/>–<link target-id="id1172437177031"/>, the phase map <emphasis effect="italics">φ(x, y) </emphasis>of a sample surface will be given by the relation:
+
+</para>
+      <equation id="id1172435430115">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>ϕ</m:mi>
+                    <m:mrow>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mi>,</m:mi>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>B</m:mi>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mi>,</m:mi>
+                                <m:mi>y</m:mi>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>D</m:mi>
+                          </m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mi>,</m:mi>
+                              <m:mi>y</m:mi>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>A</m:mi>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mi>,</m:mi>
+                                <m:mi>y</m:mi>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>C</m:mi>
+                          </m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mi>,</m:mi>
+                              <m:mi>y</m:mi>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ϕ left (x,y right )= {  {B left (x,y right ) - D left (x,y right )}  over  {A left (x,y right ) - C left (x,y right )} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172432914260">Once the phase<emphasis effect="italics"/>is determined across the interference field pixel by pixel on a two-dimensional CCD array, the local height distribution<emphasis effect="italics">/</emphasis>contour, <emphasis effect="italics">h(x, y)</emphasis>, on the test surface is given by</para>
+      <equation id="id1172436214741">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mi>λ</m:mi>
+                        <m:mn>4π</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mi>ϕ</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{h \( x,y \) = {  {λ}  over  {4π} } ϕ \( x,y \) } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172434144325">Normally the resulted fringe can be in the form of a linear fringe pattern by adjusting the relative position between the reference mirror and sample surfaces. Hence any distorted interference fringe would indicate a local profile<emphasis effect="italics">/</emphasis>contour of the test surface. </para>
+      <para id="id1172437936162">It is important to note that the Mireau objective is mounted on a capacitive closed-loop controlled PZT (piezoelectric actuator) as to enable phase shifting to be accurately implemented. The PZT is based on piezoelectric effect referred to the electric potential generated by applying pressure to piezoelectric material. This type of materials is used to convert electrical energy to mechanical energy and vice-versa. The precise motion that results when an electric potential is applied to a piezoelectric material has an importance for nanopositioning. Actuators using the piezo effect have been commercially available for 35 years and in that time have transformed the world of precision positioning and motion control.</para>
+      <para id="id1172431920564">Vertical scanning interferometer also has another name; white-light interferometry (WLI) because of using the white light as a source of light. With this type of source a separate fringe system is produced for each wavelength, and the resultant intensity at any point of examined surface is obtained by summing these individual patterns. Due to the broad bandwidth of the source the coherent length L of the source is short: </para>
+      <equation id="id1172435049998">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>L</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>λ</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mi fontstyle="italic">nΔλ</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{L= {  {λ rSup { size 8{2} } }  over  {nΔλ} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172436209660">where λ is the center wavelength, n is the refractive index of the medium, ∆λ is the spectral width of the source. In this way good contrast fringes can be obtained only when the lengths of interfering beams pathways are closed to each other. If we will vary the length of a pathway of a beam reflected from sample, the height of a sample can be determined by looking at the position for which a fringe contrast is a maximum. In this case interference pattern exist only over a very shallow depth of the surface. When we vary a pathway of sample-reflected beam we also move the sample in a vertical direction in order to get the phase at which maximum intensity of fringes will be achieved. This phase will be converted in height of a point at the sample surface. </para>
+      <para id="id1172431586958">The combination of phase shift technology with white-light source provides a very powerful tool to measure the topography of quite rough surfaces with the amplitude in heights about and the precision up to 1-2 nm. Through a developed software package for quantitatively evaluating the resulting interferogram, the proposed system can retrieve the surface profile and topography of the sample objects <link target-id="id1172433893151"/>.
+</para>
+      
+      
+
+        <figure id="id1172433893151"><media id="id1172433893151_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-6f63.jpg" id="id1172433893151__onlineimage" height="468" width="613" print-width="4.5in"/>
+          </media>
+        <caption>Example of muscovite surface topography, obtained by using VSI- 50x objective. </caption></figure>
+
+
+    </section>
+    <section id="id1172431587923">
+      <title>A comparison of common methods to determine surface topography: SEM, AFM and VSI</title>
+      <para id="id1172432758068"> Except the interferometric methods described above, there are a several other microscopic techniques for studying crystal surface topography. The most common are scanning electron microscopy (SEM) and atomic force microscopy (AFM). All these techniques are used to obtain information about the surface structure. However they differ from each other by the physical principles on which they based. </para>
+      <section id="id1172431648253">
+        <title>Scanning electron microscopy</title>
+        <para id="id1172433145260">SEM allows us to obtain images of surface topography with the resolution much higher than the conventional light microscopes do. Also it is able to provide information about other surface characteristics such as chemical composition, electrical conductivity etc, see <link target-id="id1172431683492"/>. All types of data are generated by the reflecting of accelerated electron beams from the sample surface. When electrons strike the sample surface, they lose their energy by repeated random scattering and adsorption within an outer layer into the depth varying from 100 nm to 5 microns. </para>
+        <figure id="id1172431683492"><media id="id1172431683492_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6-9280.jpg" id="id1172431683492__onlineimage" height="235" width="600" print-width="4.5in"/>
+          </media>
+        <caption>Scheme of electron beam-sample interaction at SEM analysis</caption></figure>
+        <para id="id1172433051817">The thickness of this outer layer also knows as interactive layer depends on energy of electrons in the beam, composition and density of a sample. Result of the interaction between electron beam and the surface provides several types of signals. The main type is secondary or inelastic scattered electrons. They are produced as a result of interaction between the beam of electrons and weakly bound electrons in the conduction band of the sample. Secondary electrons are ejected from the k-orbitals of atoms within the surface layer of thickness about a few nanometers. This is because secondary electrons are low energy electrons (&lt;50 eV), so only those formed within the first few nanometers of the sample surface have enough energy to escape and be detected. Secondary backscattered electrons provide the most common signal to investigate surface topography with lateral resolution up to 0.4 - 0.7 nm.</para>
+        <para id="id1172435384624">High energy beam electrons are elastic scattered back from the surface. This type of signal gives information about chemical composition of the surface because the energy of backscattered electrons depends on the weight of atoms within the interaction layer. Also this type of electrons can form secondary electrons and escape from the surface or travel father into the sample than the secondary. The SEM image formed is the result of the intensity of the secondary electron emission from the sample at each x,y data point during the scanning of the surface. </para>
+      </section>
+      <section id="id1172438538279">
+        <title>Atomic force microscopy</title>
+        <para id="id1172433831187">AFM is a very popular tool to study surface dissolution. AFM set up consists of scanning a sharp tip on the end of a flexible cantilever which moves across a sample surface. The tips typically have an end radius of 2 to 20 nm, depending on tip type. When the tip touch the surface the forces of these interactions leads to deflection of a cantilever. The interaction between tip and sample surface involve mechanical contact forces, van der Waals forces, capillary forces, chemical bonding, electrostatic forces, magnetic forces etc. The deflection of a cantilever is usually measured by reflecting a laser beam off the back of the cantilever into a split photodiode detector. A schematic drawing of AFM can be seen in <link target-id="id1172431757745"/>. The two most commonly used modes of operation are contact mode AFM and tapping mode AFM, which are conducted in air or liquid environments.</para>
+        
+
+
+          <figure id="id1172431757745"><media id="id1172431757745_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics7-6ba6.jpg" id="id1172431757745__onlineimage" width="400" print-width="2.9in"/>
+            </media>
+          <caption>Schematic drawing of an AFM apparatus. </caption></figure>
+    
+
+        <para id="id1172433149219">Working under the contact mode AFM scans the sample while monitoring the change in cantilever deflection with the split photodiode detector. Loop maintains a constant cantilever reflection by vertically moving the scanner to get a constant signal. The distance which the scanner goes by moving vertically at each x,y data point is stored by the computer to form the topographic image of the sample surface. Working under the tapping mode AFM oscillates the cantilever at its resonance frequency (typically~300 kHz) and lightly “taps” the tip on the surface during scanning. The electrostatic forces increase when tip gets close to the sample surface, therefore the amplitude of the oscillation decreases. The laser deflection method is used to detect the amplitude of cantilever oscillation. Similar to the contact mode, feedback loop maintains a constant oscillation amplitude by moving the scanner vertically at every x,y data point. Recording this movement forms the topographical image. The advantage of tapping mode over contact mode is that it eliminates the lateral, shear forces present in contact mode. This enables tapping mode to image soft, fragile, and adhesive surfaces without damaging them while work under contact mode allows the damage to occur. </para>
+      </section>
+      <section id="id1172431617819">
+        <title>Comparison of techniques</title>
+        <para id="id1172441562224">All techniques described above are widely used in studying of surface nano- and micromorphology. However, each method has its own limitations and the proper choice of analytical technique depends on features of analyzed surface and primary goals of research. </para>
+        <para id="id1172435307521">All these techniques are capable to obtain an image of a sample surface with quite good resolution. The lateral resolution of VSI is much less, then for other techniques: 150 nm for VSI and 0.5 nm for AFM and SEM. Vertical resolution of AFM (0.5 Ǻ) is better then for VSI (1 - 2 nm), however VSI is capable to measure a high vertical range of heights (1 mm) which makes possible to study even very rough surfaces. On the contrary, AFM allows us to measure only quite smooth surfaces because of its relatively small vertical scan range (7 µm). SEM has less resolution, than AFM because it requires coating of a conductive material with the thickness within several nm.</para>
+        <para id="id1172441095822">The significant advantage of VSI is that it can provide a large field of view (845 × 630 µm for 10x objective) of tested surfaces. Recent studies of surface roughness characteristics showed that the surface roughness parameters increase with the increasing field of view until a critical size of 250,000 µm is reached. This value is larger then the maximum field of view produced by AFM (100 × 100 µm) but can be easily obtained by VSI. SEM is also capable to produce images with large field of view. However, SEM is able to provide only 2D images from one scan while AFM and VSI let us to obtain 3D images. It makes quantitative analysis of surface topography more complicated, for example, topography of membranes is studied by cross section and top view images. </para>
+        <table id="id1172432926171" summary="A comparison of VSI sample and resolution with AFM and SEM.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry/>
+                <entry><emphasis effect="bold"> VSI</emphasis> </entry>
+                <entry><emphasis effect="bold"> AFM</emphasis> </entry>
+                <entry><emphasis effect="bold"> SEM</emphasis> </entry>
+              </row>
+              <row>
+                <entry>Lateral resolution</entry>
+                <entry>0.5-1.2 µm </entry>
+                <entry>0.5 nm</entry>
+                <entry>0.5-1 nm</entry>
+              </row>
+              <row>
+                <entry>Vertical resolution</entry>
+                <entry>2 nm </entry>
+                <entry>0.5 Å</entry>
+                <entry>Only 2D images</entry>
+              </row>
+              <row>
+                <entry>Field of view</entry>
+                <entry>845 × 630 µm (10x objective) </entry>
+                <entry>100 × 100 µm</entry>
+                <entry>1-2 mm</entry>
+              </row>
+              <row>
+                <entry>Vertical range of scan</entry>
+                <entry>1 mm</entry>
+                <entry>10 µm </entry>
+                <entry>-</entry>
+              </row>
+              <row>
+                <entry>Preparation of a sample</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>Required coating of a conducted material</entry>
+              </row>
+              <row>
+                <entry>Required environment</entry>
+                <entry>Air</entry>
+                <entry>Air, liquid</entry>
+                <entry>Vacuum</entry>
+              </row>
+            </tbody>
+          
+
+
+
+</tgroup><caption>A comparison of VSI sample and resolution with AFM and SEM.  </caption>
+</table>
+      </section>
+    </section>
+    <section id="id1172432936351">
+      <title>The experimental studying of surface processes using microscopic techniques</title>
+      <para id="id1172431564964">The limitations of each technique described above are critically important to choose appropriate technique for studying surface processes. Let’s explore application of these techniques to study dissolution of crystals. </para>
+      <para id="id1172437996338"> When crystalline matter dissolves the changes of the crystal surface topography can be observed by using microscopic techniques. If we will apply an unreactive mask (silicon for example) on crystal surface and place a crystalline sample into the experiment reactor then we get two types of surfaces: dissolving and remaining the same or unreacted. After some period of time the crystal surface starts to dissolve and change its z-level. In order to study these changes <emphasis effect="italics">ex situ</emphasis> we can pull out a sample from the reaction cell then remove a mask and measure the average height difference 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>Δ</m:mi><m:mover accent="true"><m:mi>h</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ { bar  {h}}} {}</m:annotation></m:semantics></m:math>between the unreacted and dissolved areas. The average heights of dissolved and unreacted areas are obtained through digital processing of data obtained by microscopes. The velocity of normal surface retreat 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SNR</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{ ital "SNR"} } } {}</m:annotation></m:semantics></m:math> during the time interval ∆t is defined as</para>
+      <para id="id1172437810970">
+        <m:math>
+          <m:semantics>
+            <m:mrow/>
+            <m:annotation encoding="StarMath 5.0">{}</m:annotation>
+          </m:semantics>
+        </m:math>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>SNR</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>Δ</m:mi>
+                        <m:mover accent="true">
+                          <m:mi>h</m:mi>
+                          <m:mo>¯</m:mo>
+                        </m:mover>
+                      </m:mrow>
+                      <m:mi fontstyle="italic">Δt</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{ ital "SNR"} } = {  {Δ {overline  {h}} }  over  {Δt} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id1172435403018">Dividing this velocity by the molar volume 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mover accent="true"><m:mi>V</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {V}} } {}</m:annotation></m:semantics></m:math>(cm<sup>3</sup>/mol) gives a global dissolution rate in the familiar units of moles per unit area per unit time:</para>
+      <equation id="id1172437709040">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>R</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>SNR</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                      <m:mover accent="true">
+                        <m:mi>V</m:mi>
+                        <m:mo>¯</m:mo>
+                      </m:mover>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{R= {  {v rSub { size 8{ ital "SNR"} } }  over  { {overline  {V}} } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1172431771038">This method allows us to obtain experimental values of dissolution rates just by precise measuring of average surface heights. Moreover, using this method we can measure local dissolution rates at etch pits by monitoring changes in the volume and density of etch pits across the surface over time. VSI technique is capable to perform these measurements because of large vertical range of scanning. In order to get precise values of rates which are not depend on observing place of crystal surface we need to measure enough large areas. VSI technique provides data from areas which are large enough to study surfaces with heterogeneous dissolution dynamics and obtain average dissolution rates. Therefore, VSI makes possible to measure rates of normal surface retreat during the dissolution and observe formation, growth and distribution of etch pits on the surface. </para>
+      <para id="id1172432878497">However, if the mechanism of dissolution is controlled by dynamics of atomic steps and kink sites within a smooth atomic surface area, the observation of the dissolution process need to use a more precise technique. AFM is capable to provide information about changes in step morphology <emphasis effect="italics">in situ</emphasis> when the dissolution occurs. For example, immediate response of the dissolved surface to the changing of environmental conditions (concentrations of ions in the solution, pH etc.) can be studied by using AFM. </para>
+      <para id="id1172440031984">SEM is also used to examine micro and nanotexture of solid surfaces and study dissolution processes. This method allows us to observe large areas of crystal surface with high resolution which makes possible to measure a high variety of surfaces. The significant disadvantage of this method is the requirement to cover examine sample by conductive substance which limits the resolution of SEM. The other disadvantage of SEM is that the analysis is conducted in vacuum. Recent technique, environmental SEM or ESEM overcomes these requirements and makes possible even examine liquids and biological materials. The third disadvantage of this technique is that it produces only 2D images. This creates some difficulties to measure 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>Δ</m:mi><m:mover accent="true"><m:mi>h</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ {overline  {h}} } {}</m:annotation></m:semantics></m:math> within the dissolving area. One of advantages of this technique is that it is able to measure not only surface topography but also chemical composition and other surface characteristics of the surface. This fact is used to monitor changing in chemical composition during the dissolution.</para>
+      
+      
+    </section><section id="eip-536"><title>Bibliography</title><list id="eip-930"><item>A. C. Lasaga, <emphasis effect="italics">Kinetic Theory in the Earth Sciences</emphasis>. Princeton Univ. Press, Princeton, NJ (1998).</item>
+	<item>A. Luttge, E. V. Bolton, and A. C. Lasaga A.C., <emphasis effect="italics">Am. J. Sci.</emphasis>, 1999, <emphasis effect="bold"> 299</emphasis>, 652.</item>
+	<item>D. Kaczmarek, <emphasis effect="italics">Vacuum</emphasis>, 2001, <emphasis effect="bold"> 62</emphasis>, 303. </item>
+	<item>P. Hariharan. <emphasis effect="italics">Optical interferometry</emphasis>, Second edition, Academic press (2003) ISBN 0-12-311630-9. </item>
+	<item>A. Luttge and P. G. Conrad, <emphasis effect="italics">Appl. Environ. Microbiol.</emphasis>, 2004, <emphasis effect="bold"> 70</emphasis>, 1627. </item>
+	<item>A. C. Lasaga and A. Luttge, <emphasis effect="italics">American Mineralogist</emphasis>, 2004, <emphasis effect="bold"> 89</emphasis>, 527.</item>
+	<item>K. J. Davis and A. Luttge, <emphasis effect="italics">Am. J. Sci.</emphasis>, 2005, <emphasis effect="bold"> 305</emphasis>, 727. </item>
+	<item>S. H. Wang and Tay, <emphasis effect="italics">Meas. Sci. Technol.</emphasis>, 2006, <emphasis effect="bold"> 17</emphasis>, 617. </item>
+	<item>A. Luttge and R. S. Arvidson, in <emphasis effect="italics">Kinetics of water-rock interaction</emphasis>, Ed. S. Brantley, J. Kubicki, and A. White, Springer (2007). </item>
+	<item>L. Zhang and A. Luttge, <emphasis effect="italics">American Mineralogist</emphasis>, 2007, <emphasis effect="bold"> 92</emphasis>, 1316.</item>
+	<item>C. Fischer A. and Luttge, <emphasis effect="italics">Am. J. Sci.</emphasis>, 2007, <emphasis effect="bold"> 307</emphasis>, 955. </item>
+	<item>Y. Wyart, G. Georges, C. Deumie, C. Amra, and P. Moulina, <emphasis effect="italics">J. Membrane Sci.</emphasis>, 2008, <emphasis effect="bold"> 315</emphasis>, 82.</item>
+	<item>T. C. Vaimakis, E. D. Economou, and C. C. Trapalis, <emphasis effect="italics">J. Therm. Anal. Cal.</emphasis>, 2008, <emphasis effect="bold"> 92</emphasis>, 783.</item>
+
+
+
+ </list></section>
+  </content>
+</document>

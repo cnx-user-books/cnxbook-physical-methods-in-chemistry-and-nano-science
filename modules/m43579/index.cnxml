@@ -1,0 +1,1144 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Catalyst Characterization Using Thermal Conductivity Detector</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43579</md:content-id>
+  <md:title>Catalyst Characterization Using Thermal Conductivity Detector</md:title>
+  <md:abstract/>
+  <md:uuid>cf577954-4f6d-4ab2-b109-2ac68eb62451</md:uuid>
+</metadata>
+
+<content>
+    <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id5363456"><title>Introduction </title><para id="eip-666">A catalyst is a "substance that accelerates the rate of chemical reactions without being consumed". Some reactions, such as the hydrodechlorination of TCE, <link target-id="eip-690"/>, don't occur spontaneously, but can occur in the presence of a catalyst. </para><equation id="eip-690"><m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mtext>C</m:mtext>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  <m:msub>
+   <m:mrow>
+    <m:mtext>Cl</m:mtext>
+   </m:mrow>
+   <m:mtext>3</m:mtext>
+  </m:msub>
+  <m:msub>
+   <m:mrow>
+    <m:mtext>H+4H</m:mtext>
+   </m:mrow>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  <m:munder>
+   <m:mo>→</m:mo>
+   <m:mrow>
+    <m:mtext>Pd</m:mtext>
+   </m:mrow>
+  </m:munder>
+  <m:msub>
+   <m:mtext>C</m:mtext>
+   <m:mtext>2</m:mtext>
+  </m:msub>
+  <m:msub>
+   <m:mtext>H</m:mtext>
+   <m:mtext>6</m:mtext>
+  </m:msub>
+  <m:mtext>+3HCl</m:mtext>
+ </m:mrow>
+</m:math>
+</equation><para id="import-auto-id1168182847459">Metal dispersion is a commong term within the catalyst industry. The term refers to the amount of metal that is active for a specific reaction. Let’s assume a catalyst material has a composition of 1 wt% palladium and 99% alumina (Al<sub>2</sub>O<sub>3</sub>) (<link target-id="figureone"/>). Even though the catalyst material has 1 wt% of palladium, not all the palladium is active. The material might be oxidized due to air exposure or some of the material is not exposed to the surface (<link target-id="figuretwo"/>), hence it can’t participate in the reaction. For this reason it is important to characterize the material.</para><figure id="figureone"><media id="figure1" alt="commercial cat">
+   <image mime-type="image/jpeg" src="../../media/powder.JPG" width="300" print-width="3in"/>
+ </media>
+
+
+<caption>A photograph of a sample of commercially available 1 wt% Pd/Al<sub>2</sub>O<sub>3</sub>.</caption></figure><figure id="figuretwo"><media id="figure2" alt="diagram">
+   <image mime-type="image/png" src="../../media/nano.png" width="300" print-width="3in"/>
+ </media>
+<caption>Representation of Pd nanoparticles on Al<sub>2</sub>O<sub>3</sub>. Some palladium atoms are exposed to the surface, while some other lay below the surface atoms and are not accessible for reaction. </caption></figure><para id="import-auto-id1168182824838">In order for Pd to react according to <link target-id="eip-690"/>, it needs to be in the metallic form. Any oxidized palladium will be inactive. Thus, it is important to determine the oxidation state of the Pd atoms on the surface of the material. This can be accomplished using an experiment called temperature programmed reduction (TPR). Subsequently, the percentage of active palladium can be determined by hydrogen chemisorption. The percentage of active metal is an important parameter when comparing the performance of multiple catalyst. Usually the rate of reaction is normalized by the amount of active catalyst. </para></section><section id="import-auto-id1168184334962">
+      <title>Principles of thermal conductivity</title>
+      <para id="import-auto-id1168190536646">Thermal conductivity is the ability of a chemical specie to conduct heat. Each gas has a different thermal conductivity. The units of thermal conductivity in the international system of units are W/m·K. <link target-id="import-auto-id1168184435267"/>, shows the thermal conductivity of some common gasses. </para><table id="import-auto-id1168184435267" summary="Thermal conductivity values for common gasses.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry align="center">Gas</entry>
+           <entry align="center">Thermal conductivity (W/m·K)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+            <entry align="center">Hydrogen</entry>
+          <entry align="center">0.18050</entry>
+            </row>
+            <row>
+            <entry align="center">Argon</entry>
+            <entry align="center">0.01772</entry>
+            </row>
+            <row>
+             <entry align="center">Helium</entry>
+             <entry align="center">0.15130</entry>
+            </row>
+            <row>
+             <entry align="center">Carbon Monoxide</entry>
+            <entry align="center">0.02614</entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+</tgroup><caption>Thermal conductivity values for common gasses.</caption>
+</table></section>
+    <section id="import-auto-id1168187277405"><title>Thermal conductivity detector</title><para id="import-auto-id1168184908982">A thermal conductivity detector has four filaments that change resistance according to the thermal conductivity of the gas flowing over it. Two filaments meassure the reference gas and the other two measures the sample gas. The detector is isothermal; it will increase or decrease the voltage in each of the resistors in order to maintain a constant temperature. The temperature of the detector is 125 °C. When both the reference and samples gas have the same composition and same flow rate, the resistors are balanced and the detector will zero the signal. If there is a change in flow rate or in the gas composition the detector will react to maintain the constant temperature. The detector circuitry can be described using a Wheatstone bridge configuration as shown in <link target-id="import-auto-id1168184934588"/>. If the gas flowing through the sample has a higher thermal conductivity the filament will cool down, the detector will apply a higher voltage to keep a constant temperature and this will be recorded as a positive signal. </para><figure id="import-auto-id1168184934588"><media id="import-auto-id1168182149302" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-947d.png" width="400" print-width="4in"/> 
+        </media>
+      <caption>A simplified circuit diagram of a thermal conductivity detector.</caption></figure><para id="eip-482">This detector is part of a typical commercial instrument such as a Micromeritics AutoChem 2920 (<link target-id="instrument"/>). This instrument is an automated analyzer with the ability to perform chemical adsorption and temperature-programmed reactions on a catalyst, catalyst support, or other materials.</para><figure id="instrument"><media id="instrument1" alt="">
+          <image mime-type="image/jpeg" src="../../media/autochem.JPG" width="400" print-width="4in"/> 
+        </media>
+      <caption>A photograph of a Micromeritics AutoChem 2920. </caption></figure></section><section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1168187129663"><title>Temperature programmed reduction (TPR)</title><para id="eip-125">TPR will determine the number of reducible species on a catalyst and will tell  at what temperature each of these species was reduced. For example palladium is ordinarily found as Pd(0) or Pd(II), i.e., oxidation states 0 and +2. Pd(II) can be reduced at very low temperatures (5 - 10 °C) to Pd(0) following <link target-id="eip-637"/>. </para><equation id="eip-637"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mrow>
+     <m:mtext>PdO+H</m:mtext>
+    </m:mrow>
+    <m:mtext>2</m:mtext>
+   </m:msub>
+   <m:mo>→</m:mo><m:msub>
+    <m:mrow>
+     <m:mtext>Pd(0)+H</m:mtext>
+    </m:mrow>
+    <m:mtext>2</m:mtext>
+   </m:msub>
+   <m:mtext>O</m:mtext>
+  </m:mrow>
+  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbqedmvETj2BSbqefm0B1jxALjharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8FesqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9Gqpi0dc9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaGaaeiuaiaabsgacaqGpbGaae4kaiaabIeadaWgaaWcbaGaaeOmaaqabaGccqGHsgIRcaqGqbGaaeizaiaabIcacaqGWaGaaeykaiaabUcacaqGibWaaSbaaSqaaiaabkdaaeqaaOGaae4taaaa@3BF0@</m:annotation>
+ </m:semantics>
+</m:math></equation><para id="import-auto-id1168182821499">A 128.9 mg 1wt% Pd/Al<sub>2</sub>O<sub>3</sub> samples is used for the experiment, <link target-id="sample"/>. Since we want to study the oxidation state of the commercial catalyst, no pre-treatment needs to be executed to the sample. A 10% hydrogen-argon mixture is used as analysis and reference gas. Argon has a low thermal conductivity and hydrogen has a much higher thermal conductivity. All gases will flow at 50 cm<sup>3</sup>/min. The TPR experiment will start at an initial temperature of 200 K, temperature ramp 10 K/min, and final temperature of 400 K. The H<sub>2</sub>/Ar mixture is flowed through the sample, and past the detector in the analysis port. While in the reference port the mixture doesn’t become in contact with the sample. When the analysis gas starts flowing over the sample, a baseline reading is established by the detector. The baseline is established at the initial temperature to ensure there is no reduction. While this gas is flowing, the temperature of the sample is increased linearly with time and the consumption of hydrogen is recorded. Hydrogen atoms react with oxygen atoms to form H<sub>2</sub>O. </para><figure id="sample"><media id="sample1" alt="">
+          <image mime-type="image/jpeg" src="../../media/sample.JPG" width="300" print-width="3in"/> 
+        </media>
+      <caption>A sample of Pd/Al<sub>2</sub>O<sub>3</sub> in a typical sample holder.</caption></figure><para id="import-auto-id1168182943828">Water molecules are removed from the gas stream using a cold trap. As a result, the amount of hydrogen in the argon/hydrogen gas mixture decreases and the thermal conductivity of the mixture also decrease. The change is compared to the reference gas and yields to a hydrogen uptake volume. <link target-id="figure3"/> is a typical TPR profile for PdO. </para><figure id="figure3"><media id="figurethree" alt="tpr">
+   <image mime-type="image/jpeg" src="../../media/pdotpr.jpg" width="300" print-width="3in"/>
+
+
+ </media>
+<caption>A typical TPR profile of PdO. Adapted from R. Zhang, J. A. Schwarz, A. Datye, and J. P. Baltrus, <emphasis effect="italics">J. Catal.</emphasis>, 1992, <emphasis effect="bold">138</emphasis>, 55.</caption></figure></section><section id="import-auto-id1168185272702">
+      <title>Pulse chemisorption</title><para id="import-auto-id1168182817829">Once the catalyst (1 wt% Pd/Al<sub>2</sub>O<sub>3</sub>) has been completely reduced, the user will be able to determine how much palladium is active. A pulse chemisorption experiment will determine active surface area, percentage of metal dispersion and particle size. Pulses of hydrogen will be introduced to the sample tube in order to interact with the sample. In each pulse hydrogen will undergo a dissociative adsorption on to palladium active sites until all palladium atoms have reacted.  After all active sites have reacted, the hydrogen pulses emerge unchanged from the sample tube. The amount of hydrogen chemisorbed is calculated as the total amount of hydrogen injected minus the total amount eluted from the system. </para></section>
+    <section id="import-auto-id1168182670368">
+      <title>Data collection for hydrogen pulse chemisorption </title>
+      <para id="import-auto-id1168186283768">The sample from previous experiment (TPR) will be used for this experiment. Ultra high-purity argon will be used to purge the sample at a flow rate of 40 cm<sup>3</sup>/min.  The sample will be heated to 200 °C in order to remove all chemisorbed hydrogen atoms from the Pd(0) surface. The sample is cooled down to 40 °C. Argon will be used as carrier gas at a flow of 40 cm<sup>3</sup>/min. Filaments temperature will be 175 °C and the detector temperature will be 110 °C. The injection loop has a volume of 0.03610 cm<sup>3</sup> @ STP. As shown in <link target-id="pulse1"/>., hydrogen pulses will be injected in to the flow stream, carried by argon to become in contact and react with the sample. It should be noted that the first pulse of hydrogen was almost completely adsorbed by the sample.  The second and third pulses show how the samples is been saturated. The positive value of the TCD detector is consistent with our assumptions. Since hydrogen has a higher thermal conductivity than argon, as it flows through the detector it will tend to cool down the filaments, the detector will then apply a positive voltage to the filaments in order to maintain a constant temperature.</para><figure id="pulse1"><media id="pulse" alt="chemi">
+   <image mime-type="image/jpeg" src="../../media/pulse.jpg" width="300" print-width="3in"/>
+ </media>
+<caption>A typical hydrogen pulse chemisorption profile of 1 wt% Pd/Al<sub>2</sub>O<sub>3</sub>.</caption></figure></section>
+    <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-346"><title>Pulse chemisorption data analysis</title><para id="eip-30"><link target-id="areatable"/> shows the integration of the peaks from  <link target-id="pulse1"/>. This integration is performed by an automated software provided with the instrument. It should be noted that the first pulse was completely consumed by the sample, the pulse was injected between time 0 and 5 minutes. From <link target-id="pulse1"/> we observe that during the first four pulses, hydrogen is  consumed by the sample. After the fourth pulse, it appears the sample is not consuming hydrogen. The experiment continues for a total of seven pulses, at this point the software determines that no consumption is occurring and stops the experiment. Pulse eight is denominated the "saturation peak", meaning the pulse at which no hydrogen was consumed. </para><table id="areatable" summary="Hydrogen pulse chemisorption data.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+
+          <thead>
+            <row>
+              <entry align="center">Pulse n</entry>
+             <entry align="center">Area</entry>
+
+            </row>
+          </thead>
+          <tbody>
+
+         <row>
+ <entry align="center">1</entry>
+             <entry align="center">0</entry>
+  </row>
+
+
+            <row>
+              <entry align="center">2</entry>
+          <entry align="center">0.000471772</entry>
+
+            </row>
+            <row>
+              <entry align="center">3</entry>
+              <entry align="center">0.00247767</entry>
+
+            </row>
+            <row>
+              <entry align="center">4</entry>
+              <entry align="center">0.009846683</entry>
+
+            </row>
+            <row>
+              <entry align="center">5</entry>
+             <entry align="center">0.010348201</entry>
+
+            </row>
+            <row>
+            <entry align="center">6</entry>
+             <entry align="center">0.010030243</entry>
+
+            </row>
+            <row>
+             <entry align="center">7</entry>
+             <entry align="center">0.009967717</entry>
+
+            </row>
+            <row>
+             <entry align="center">8</entry>
+             <entry align="center">0.010580979</entry>
+
+            </row>
+
+   
+</tbody>
+
+
+
+
+
+
+
+</tgroup><caption>Hydrogen pulse chemisorption data.</caption>
+</table><para id="eip-456">Using <link target-id="eip-649"/> the change in area (Δarea<sub>n</sub>) is calculated for each peak pulse area (area<sub>n</sub>)and compared to that of the saturation pulse area (area<sub>saturation</sub> = 0.010580979). Each of these changes in area is proportional to an amount of hydrogen consumed by the sample in each pulse. <link target-id="delta"/> Shows the calculated change in area. </para><equation id="eip-649"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>Δ</m:mi><m:msub>
+    <m:mrow>
+     <m:mtext>Area</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>n</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:msub>
+    <m:mrow>
+     <m:mtext>=Area</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>saturation</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:msub>
+    <m:mrow>
+     <m:mtext>-Area</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>n</m:mtext>
+    </m:mrow>
+   </m:msub>
+   
+  </m:mrow>
+  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbqedmvETj2BSbqefm0B1jxALjharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8FesqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9Gqpi0dc9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaGaeuiLdqKaaeyqaiaabkhacaqGLbGaaeyyamaaBaaaleaacaqGWbGaaeyzaiaabggacaqGRbGaaeOtaaqabaGccaqG9aGaaeyqaiaabkhacaqGLbGaaeyyamaaBaaaleaacaqGZbGaaeyyaiaabshacaqG1bGaaeOCaiaabggacaqG0bGaaeyAaiaab+gacaqGUbaabeaakiaab2cacaqGbbGaaeOCaiaabwgacaqGHbWaaSbaaSqaaiaabchacaqGLbGaaeyyaiaabUgacaqGobaabeaaaaa@4E7A@</m:annotation>
+ </m:semantics>
+</m:math>
+</equation><table id="delta" summary="Hydrogen pulse chemisorption data with ΔArea.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+
+
+          <thead>
+            <row>
+              <entry align="center">Pulse n</entry>
+             <entry align="center">Area<sub>n</sub></entry>
+<entry align="center">ΔArea<sub>n</sub></entry>
+            </row>
+          </thead>
+          <tbody>
+<row>
+              <entry align="center">1</entry>
+              <entry align="center">0</entry>
+              <entry align="center">0.010580979</entry>
+  </row>
+
+
+
+            <row>
+              <entry align="center">2</entry>
+              <entry align="center">0.000471772</entry>
+              <entry align="center">0.0105338018</entry>
+  </row>
+            <row>
+              <entry align="center">3</entry>
+              <entry align="center">0.00247767</entry>
+              <entry align="center">0.008103309</entry>
+  </row>
+            <row>
+              <entry align="center">4</entry>
+              <entry align="center">0.009846683</entry>
+              <entry align="center">0.000734296</entry>
+  </row>
+            <row>
+              <entry align="center">5</entry>
+              <entry align="center">0.010348201</entry>
+              <entry align="center">0.000232778</entry>
+  </row>
+            <row>
+              <entry align="center">6</entry>
+              <entry align="center">0.010030243</entry>
+              <entry align="center">0.000550736</entry>
+  </row>
+            <row>
+              <entry align="center">7</entry>
+              <entry align="center">0.009967717</entry>
+              <entry align="center">0.000613262</entry>
+  </row>
+            <row>
+              <entry align="center">8</entry>
+              <entry align="center">0.010580979</entry>
+              <entry align="center">0</entry>
+  </row>
+  
+</tbody>
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Hydrogen pulse chemisorption data with ΔArea.</caption>
+</table><para id="eip-490">The Δarea<sub>n</sub> values are then converted into hydrogen gas consumption using <link target-id="eip-272"/>, where F<sub>c</sub> is the area-to-volume conversion factor for hydrogen and SW is the weight of the sample. F<sub>c</sub> is equal to 2.6465 cm<sup>3</sup>/peak area. <link target-id="import-auto-id1168191774947"/> shows the results of the volume adsorbed and the cumulative volume adsorbed.  Using the data on <link target-id="import-auto-id1168191774947"/>, a series of calculations can now be performed in order to have a better understanding of our catalyst properties. 
+</para><equation id="eip-272"><m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mtext>V</m:mtext>
+   <m:mrow>
+    <m:mtext>adsorbed</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mtext>=</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mrow>
+      <m:mtext>ΔArea</m:mtext>
+     </m:mrow>
+     <m:mtext>n</m:mtext>
+    </m:msub>
+    <m:msub>
+     <m:mrow>
+      <m:mtext>×F</m:mtext>
+     </m:mrow>
+     <m:mtext>c</m:mtext>
+    </m:msub>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>SW</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</equation><table id="import-auto-id1168191774947" summary="Includes the volume adsorbed per pulse and the cumulative volume adsorbed.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry align="center">Pulse n</entry>
+             <entry align="center">area<sub>n</sub></entry>
+              <entry align="center">Δarea<sub>n</sub></entry>
+             <entry align="center">V<sub>adsorbed</sub> (cm<sup>3</sup>/g STP)</entry>
+              <entry align="center">Cumulative quantity (cm<sup>3</sup>/g STP)</entry>
+            </row>
+          </thead>
+          <tbody>
+
+     <row>
+             <entry align="center">1</entry>
+             <entry align="center">0</entry>
+             <entry align="center">0.0105809790</entry>
+             <entry align="center">0.2800256</entry>
+             <entry align="center">0.2800256</entry>
+            </row>
+
+            <row>
+             <entry align="center">2</entry>
+             <entry align="center">0.000471772</entry>
+             <entry align="center">0.0105338018</entry>
+             <entry align="center">0.2787771</entry>
+              <entry align="center">0.5588027</entry>
+            </row>
+            <row>
+              <entry align="center">3</entry>
+              <entry align="center">0.00247767</entry>
+              <entry align="center">0.0081033090</entry>
+              <entry align="center">0.2144541</entry>
+              <entry align="center">0.7732567</entry>
+            </row>
+            <row>
+              <entry align="center">4</entry>
+              <entry align="center">0.009846683</entry>
+              <entry align="center">0.0007342960</entry>
+              <entry align="center">0.0194331</entry>
+              <entry align="center">0.7926899</entry>
+            </row>
+            <row>
+              <entry align="center">5</entry>
+             <entry align="center">0.010348201</entry>
+             <entry align="center">0.0002327780</entry>
+              <entry align="center">0.0061605</entry>
+              <entry align="center">0.7988504</entry>
+            </row>
+            <row>
+            <entry align="center">6</entry>
+             <entry align="center">0.010030243</entry>
+              <entry align="center">0.0005507360</entry>
+              <entry align="center">0.0145752</entry>
+              <entry align="center">0.8134256</entry>
+            </row>
+            <row>
+             <entry align="center">7</entry>
+             <entry align="center">0.009967717</entry>
+              <entry align="center">0.0006132620</entry>
+              <entry align="center">0.0162300</entry>
+              <entry align="center">0.8296556</entry>
+            </row>
+            <row>
+             <entry align="center">8</entry>
+             <entry align="center">0.010580979</entry>
+             <entry align="center">0</entry>
+            <entry align="center">0.0000000</entry>
+              <entry align="center">0.8296556</entry>
+            </row>
+   
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Includes the volume adsorbed per pulse and the cumulative volume adsorbed.</caption>
+</table><section id="eip-843"><title>Gram molecular weight</title>
+
+
+
+<para id="eip-910">Gram molecular weight is the weighted average of the number of moles of each active metal in the catalyst. Since this is a monometallic catalyst, the gram molecular weight is equal to the molecular weight of palladium (106.42 [g/mol]). The GMC<sub>Calc</sub> is calculated using <link target-id="eip-819"/>, where F is the fraction of sample weight for metal N and W<sub>atomicN</sub> is the gram molecular weight of metal N (g/g-mole). <link target-id="eip-546"/> shows the calculation for this experiment. </para>
+
+
+<equation id="eip-819"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mrow>
+     <m:mtext>GMW</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Calc</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mtext>1</m:mtext>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:msub>
+          <m:mtext>F</m:mtext>
+          <m:mtext>1</m:mtext>
+         </m:msub>
+         
+        </m:mrow>
+        <m:mrow>
+         <m:msub>
+          <m:mtext>W</m:mtext>
+          <m:mrow>
+           <m:mtext>atomic1</m:mtext>
+          </m:mrow>
+         </m:msub>
+         
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:msub>
+          <m:mtext>F</m:mtext>
+          <m:mtext>2</m:mtext>
+         </m:msub>
+         
+        </m:mrow>
+        <m:mrow>
+         <m:msub>
+          <m:mtext>W</m:mtext>
+          <m:mrow>
+           <m:mtext>atomic2</m:mtext>
+          </m:mrow>
+         </m:msub>
+         
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mtext>...</m:mtext><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:msub>
+          <m:mtext>F</m:mtext>
+          <m:mtext>N</m:mtext>
+         </m:msub>
+         
+        </m:mrow>
+        <m:mrow>
+         <m:msub>
+          <m:mtext>W</m:mtext>
+          <m:mrow>
+           <m:mtext>atomicN</m:mtext>
+          </m:mrow>
+         </m:msub>
+         
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbqedmvETj2BSbqefm0B1jxALjharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8FesqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9Gqpi0dc9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaGaae4raiaab2eacaqGxbWaaSbaaSqaaiaaboeacaqGHbGaaeiBaiaabogaaeqaaOGaeyypa0ZaaSaaaeaacaqGXaaabaWaaeWaaeaadaWcaaqaaiaabAeadaWgaaWcbaGaaeymaaqabaaakeaacaqGxbWaaSbaaSqaaiaabggacaqG0bGaae4Baiaab2gacaqGPbGaae4yaiaabgdaaeqaaaaaaOGaayjkaiaawMcaaiabgUcaRmaabmaabaWaaSaaaeaacaqGgbWaaSbaaSqaaiaabkdaaeqaaaGcbaGaae4vamaaBaaaleaacaqGHbGaaeiDaiaab+gacaqGTbGaaeyAaiaabogacaqGYaaabeaaaaaakiaawIcacaGLPaaacqGHRaWkcaqGUaGaaeOlaiaab6cacqGHRaWkdaqadaqaamaalaaabaGaaeOramaaBaaaleaacaqGobaabeaaaOqaaiaabEfadaWgaaWcbaGaaeyyaiaabshacaqGVbGaaeyBaiaabMgacaqGJbGaaeOtaaqabaaaaaGccaGLOaGaayzkaaaaaaaa@5ADE@</m:annotation>
+ </m:semantics>
+</m:math>
+</equation>
+
+<equation id="eip-546"><m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mrow>
+    <m:mtext>GMW</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Calc</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mtext>=</m:mtext><m:mfrac>
+   <m:mtext>1</m:mtext>
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mtext>F</m:mtext>
+         <m:mtext>1</m:mtext>
+        </m:msub>
+        
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mtext>W</m:mtext>
+         <m:mrow>
+          <m:mtext>atomicPd</m:mtext>
+         </m:mrow>
+        </m:msub>
+        
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>=</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:msub>
+     <m:mtext>W</m:mtext>
+     <m:mrow>
+      <m:mtext>atomicPd</m:mtext>
+     </m:mrow>
+    </m:msub>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mtext>F</m:mtext>
+     <m:mtext>1</m:mtext>
+    </m:msub>
+    
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>=</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>106</m:mtext><m:mtext>.42</m:mtext><m:mfrac>
+     <m:mtext>g</m:mtext>
+     <m:mrow>
+      <m:mtext>g-mole</m:mtext>
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+   <m:mtext>1</m:mtext>
+  </m:mfrac>
+  <m:mtext>=106</m:mtext><m:mtext>.42</m:mtext><m:mfrac>
+   <m:mtext>g</m:mtext>
+   <m:mrow>
+    <m:mtext>g-mole</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</equation>
+
+
+
+</section>
+
+<section id="eip-241"><title>Metal dispersion</title>
+
+<para id="import-auto-id1168182140270">The metal dispersion is calculated using <link target-id="eip-458"/>, where PD is the percent metal dispersion, V<sub>s</sub> is the volume adsorbed (cm<sup>3</sup> at STP), SF<sub>Calc</sub> is the calculated stoichiometry factor (equal to 2 for a palladium-hydrogen system), SW is the sample weight and GMW<sub>Calc</sub> is the calculated gram molecular weight of the sample [g/g-mole]. Therefore, in <link target-id="eip-558"/> we obtain a metal dispersion of 6.03%. </para><equation id="eip-458"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>PD</m:mtext><m:munder>
+    <m:mrow/>
+    <m:mrow/>
+   </m:munder>
+   <m:mo>=</m:mo><m:mtext>100</m:mtext><m:mo>×</m:mo><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:msub>
+        <m:mtext>V</m:mtext>
+        <m:mtext>s</m:mtext>
+       </m:msub>
+       <m:mo>×</m:mo><m:msub>
+        <m:mrow>
+         <m:mtext>SF</m:mtext>
+        </m:mrow>
+        <m:mrow>
+         <m:mtext>Calc</m:mtext>
+        </m:mrow>
+       </m:msub>
+       
+      </m:mrow>
+      <m:mrow>
+       <m:mtext>SW</m:mtext><m:mo>×</m:mo><m:mtext>22414</m:mtext>
+      </m:mrow>
+     </m:mfrac>
+     
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>×</m:mo><m:msub>
+    <m:mrow>
+     <m:mtext>GMW</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Calc</m:mtext>
+    </m:mrow>
+   </m:msub>
+   
+  </m:mrow>
+  <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=faaagCart1ev2aaaKnaaaaWenf2ys9wBH5garuavP1wzZbqedmvETj2BSbqefm0B1jxALjharqqtubsr4rNCHbGeaGqiVu0Je9sqqrpepC0xbbL8FesqqrFfpeea0xe9Lq=Jc9vqaqpepm0xbba9pwe9Q8fs0=yqaqpepae9pg0FirpepeKkFr0xfr=xfr=xb9Gqpi0dc9adbaqaaeGaciGaaiaabeqaamaabaabaaGcbaGaaeiuaiaabseadaWfqaqaaaWcbaaabeaakiabg2da9iaabgdacaqGWaGaaeimaiabgEna0oaabmaabaWaaSaaaeaacaqGwbWaaSbaaSqaaiaabohaaeqaaOGaey41aqRaae4uaiaabAeadaWgaaWcbaGaae4qaiaabggacaqGSbGaae4yaaqabaaakeaacaqGtbGaae4vaiabgEna0kaabkdacaqGYaGaaeinaiaabgdacaqG0aaaaaGaayjkaiaawMcaaiabgEna0kaabEeacaqGnbGaae4vamaaBaaaleaacaqGdbGaaeyyaiaabYgacaqGJbaabeaaaaa@4FBF@</m:annotation>
+ </m:semantics>
+</m:math>
+</equation><equation id="eip-558"><m:math display="block">
+ <m:mtext>PD=100×</m:mtext><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mtext>0</m:mtext><m:mtext>.8296556</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>cm</m:mtext>
+       </m:mrow>
+       <m:mtext>3</m:mtext>
+      </m:msup>
+      
+     </m:mrow> <m:mo>]</m:mo></m:mrow><m:mtext>×2</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>0</m:mtext><m:mtext>.1289</m:mtext><m:mrow><m:mo>[</m:mo> <m:mtext>g</m:mtext> <m:mo>]</m:mo></m:mrow><m:mtext>×22414</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mtext>cm</m:mtext>
+         </m:mrow>
+         <m:mtext>3</m:mtext>
+        </m:msup>
+        
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>mol</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow> <m:mo>]</m:mo></m:mrow>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mtext>×106</m:mtext><m:mtext>.42</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+  <m:mfrac>
+   <m:mtext>g</m:mtext>
+   <m:mrow>
+    <m:mtext>g-mol</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6.03</m:mn><m:mi>%</m:mi>
+</m:math>
+</equation>
+
+</section>
+
+
+<section id="eip-566"><title>Metallic surface area per gram of metal</title>
+
+
+<para id="import-auto-id1168184704594">The metallic surface area per gram of metal is calculated using <link target-id="eip-144"/>, where SA<sub>Metallic</sub> is the metallic surface area (m<sup>2</sup>/g of metal), SW<sub>Metal</sub> is the active metal weight, SF<sub>Calc</sub> is the calculated stoichiometric factor and SA<sub>Pd</sub> is the cross sectional area of one palladium atom (nm<sup>2</sup>). Thus, in <link target-id="eip-558"/> we obtain a metallic surface area of 2420.99 m<sup>2</sup>/g-metal. </para><equation id="eip-144"><m:math display="block">
+ <m:msub>
+  <m:mtext>SA</m:mtext>
+  <m:mrow>
+   <m:mtext>Metallic</m:mtext>
+  </m:mrow>
+ </m:msub>
+ <m:mtext>=</m:mtext><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msub>
+      <m:mtext>V</m:mtext>
+      <m:mtext>S</m:mtext>
+     </m:msub>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:msub>
+      <m:mrow>
+       <m:mtext>SW</m:mtext>
+      </m:mrow>
+      <m:mrow>
+       <m:mtext>Metal</m:mtext>
+      </m:mrow>
+     </m:msub>
+     <m:mtext>×22414</m:mtext>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:msub>
+    <m:mrow>
+     <m:mtext>SF</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Calc</m:mtext>
+    </m:mrow>
+   </m:msub>
+   
+  </m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:mtext>6</m:mtext><m:msup>
+    <m:mrow>
+     <m:mtext>.022×10</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>23</m:mtext>
+    </m:mrow>
+   </m:msup>
+   
+  </m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:msub>
+  <m:mtext>×SA</m:mtext>
+  <m:mrow>
+   <m:mtext>Pd</m:mtext>
+  </m:mrow>
+ </m:msub>
+ 
+</m:math>
+</equation><equation id="eip-108"><m:math display="block">
+ <m:msub>
+  <m:mtext>SA</m:mtext>
+  <m:mrow>
+   <m:mtext>Metallic</m:mtext>
+  </m:mrow>
+ </m:msub>
+ <m:mtext>=</m:mtext><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mtext>0</m:mtext><m:mtext>.8296556</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mtext>cm</m:mtext>
+       </m:mrow>
+       <m:mtext>3</m:mtext>
+      </m:msup>
+      
+     </m:mrow> <m:mo>]</m:mo></m:mrow>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>0</m:mtext><m:mtext>.001289</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+      <m:msub>
+       <m:mtext>g</m:mtext>
+       <m:mrow>
+        <m:mtext>metal</m:mtext>
+       </m:mrow>
+      </m:msub>
+      
+     </m:mrow> <m:mo>]</m:mo></m:mrow><m:mtext>×22414</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mtext>cm</m:mtext>
+         </m:mrow>
+         <m:mtext>3</m:mtext>
+        </m:msup>
+        
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>mol</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow> <m:mo>]</m:mo></m:mrow>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+  <m:mtext>2</m:mtext>
+ <m:mo>)</m:mo></m:mrow><m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:mtext>6</m:mtext><m:msup>
+    <m:mrow>
+     <m:mtext>.022×10</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>23</m:mtext>
+    </m:mrow>
+   </m:msup>
+   <m:mrow><m:mo>[</m:mo> <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mtext>atoms</m:mtext>
+     </m:mrow>
+     <m:mrow>
+      <m:mtext>mol</m:mtext>
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow> <m:mo>]</m:mo></m:mrow>
+  </m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mtext>×0</m:mtext><m:mtext>.07</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mtext>nm</m:mtext>
+     </m:mrow>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>atom</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow> <m:mo>]</m:mo></m:mrow><m:mtext>=2420</m:mtext><m:mtext>.99</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msup>
+     <m:mtext>m</m:mtext>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>g-metal</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow> <m:mo>]</m:mo></m:mrow>
+</m:math>
+</equation>
+
+
+
+</section>
+
+
+
+<section id="eip-86"><title>Active particle size</title>
+
+
+<para id="import-auto-id1168182838828">The active particle size is estimated using <link target-id="eip-221"/>, where D<sub>Calc</sub> is palladium metal density (g/cm<sup>3</sup>), SW<sub>Metal</sub> is the active metal weight, GMW<sub>Calc</sub> is the calculated gram molecular weight (g/g-mole), and SA<sub>Pd</sub> is the cross sectional area of one palladium atom (nm<sup>2</sup>). As seen in <link target-id="eip-903"/> we obtain an optical particle size of 2.88 nm. </para>
+
+<equation id="eip-221"><m:math display="block">
+ <m:mtext>APS=</m:mtext><m:mfrac>
+  <m:mtext>6</m:mtext>
+  <m:mrow>
+   <m:msub>
+    <m:mtext>D</m:mtext>
+    <m:mrow>
+     <m:mtext>Calc</m:mtext>
+    </m:mrow>
+   </m:msub>
+   <m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:msub>
+        <m:mtext>W</m:mtext>
+        <m:mtext>s</m:mtext>
+       </m:msub>
+       
+      </m:mrow>
+      <m:mrow>
+       <m:msub>
+        <m:mrow>
+         <m:mtext>GMW</m:mtext>
+        </m:mrow>
+        <m:mrow>
+         <m:mtext>Calc</m:mtext>
+        </m:mrow>
+       </m:msub>
+       
+      </m:mrow>
+     </m:mfrac>
+     
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>6</m:mtext><m:msup>
+      <m:mrow>
+       <m:mtext>.022×10</m:mtext>
+      </m:mrow>
+      <m:mrow>
+       <m:mtext>23</m:mtext>
+      </m:mrow>
+     </m:msup>
+     
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:msub>
+    <m:mrow>
+     <m:mtext>×SA</m:mtext>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Metallic</m:mtext>
+    </m:mrow>
+   </m:msub>
+   
+  </m:mrow>
+ </m:mfrac>
+ 
+</m:math>
+</equation><equation id="eip-903"><m:math display="block">
+ <m:mtext>APS=</m:mtext><m:mfrac>
+  <m:mrow>
+   <m:mtext>600</m:mtext>
+  </m:mrow>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>1</m:mtext><m:msup>
+      <m:mrow>
+       <m:mtext>.202×10</m:mtext>
+      </m:mrow>
+      <m:mrow>
+       <m:mtext>-20</m:mtext>
+      </m:mrow>
+     </m:msup>
+     <m:mrow><m:mo>[</m:mo> <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mtext>g</m:mtext>
+         <m:mrow>
+          <m:mtext>Pd</m:mtext>
+         </m:mrow>
+        </m:msub>
+        
+       </m:mrow>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mtext>nm</m:mtext>
+         </m:mrow>
+         <m:mtext>3</m:mtext>
+        </m:msup>
+        
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow> <m:mo>]</m:mo></m:mrow>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:mtext>0</m:mtext><m:mtext>.001289</m:mtext><m:mrow><m:mo>[</m:mo> <m:mtext>g</m:mtext> <m:mo>]</m:mo></m:mrow>
+      </m:mrow>
+      <m:mrow>
+       <m:mtext>106</m:mtext><m:mtext>.42</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:msub>
+           <m:mtext>g</m:mtext>
+           <m:mrow>
+            <m:mtext>Pd</m:mtext>
+           </m:mrow>
+          </m:msub>
+          
+         </m:mrow>
+         <m:mrow>
+          <m:mtext>mol</m:mtext>
+         </m:mrow>
+        </m:mfrac>
+        
+       </m:mrow> <m:mo>]</m:mo></m:mrow>
+      </m:mrow>
+     </m:mfrac>
+     
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>6</m:mtext><m:msup>
+      <m:mrow>
+       <m:mtext>.022×10</m:mtext>
+      </m:mrow>
+      <m:mrow>
+       <m:mtext>23</m:mtext>
+      </m:mrow>
+     </m:msup>
+     <m:mrow><m:mo>[</m:mo> <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mtext>atoms</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>mol</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow> <m:mo>]</m:mo></m:mrow>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext>×</m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>2420</m:mtext><m:mtext>.99</m:mtext><m:mrow><m:mo>[</m:mo> <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mtext>m</m:mtext>
+         <m:mtext>2</m:mtext>
+        </m:msup>
+        
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mtext>g</m:mtext>
+         <m:mrow>
+          <m:mtext>Pd</m:mtext>
+         </m:mrow>
+        </m:msub>
+        
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow> <m:mo>]</m:mo></m:mrow>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:mfrac>
+ <m:mtext>=2</m:mtext><m:mtext>.88nm</m:mtext>
+</m:math>
+</equation>
+
+
+</section>
+
+<para id="import-auto-id1168182942607">In a commercial instrument, a summary report will be provided which summarizes the properties of our catalytic material. All the equations used during this example were extracted from the AutoChem 2920-User's Manual.</para><table id="import-auto-id1168186959236" summary="Summary report provided by Micromeritics AuthoChem 2920.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry align="center">Properties</entry>
+              <entry align="center">Value</entry>
+            </row>
+          </thead>
+          <tbody>
+<row>
+              <entry align="center">Palladium atomic weight</entry>
+              <entry align="center">106.4 g/mol</entry>
+            </row>
+            <row>
+              <entry align="center">Atomic cross-sectional area</entry>
+              <entry align="center">0.0787 nm²</entry>
+            </row>
+            <row>
+              <entry align="center">Metal density</entry>
+              <entry align="center">12.02 g/cm³</entry>
+            </row>
+            <row>
+              <entry align="center">Palladium loading </entry>
+              <entry align="center">1 wt%</entry>
+            </row>
+            <row>
+              <entry align="center">Metal dispersion</entry>
+              <entry align="center">6.03%</entry>
+            </row>
+            <row>
+              <entry align="center">Metallic surface area</entry>
+             <entry align="center">2420.99  m²/g-metal</entry>
+            </row>
+         
+            <row>
+              <entry align="center">Active particle diameter (hemisphere)</entry>
+              <entry align="center">2.88 nm</entry>
+            </row>
+      
+          </tbody>
+        
+
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Summary report provided by Micromeritics AuthoChem 2920.</caption>
+</table></section><section id="import-auto-id1168182823230">
+      <title>References </title>
+      <list id="eip-904" list-type="bulleted" bullet-style="bullet"><item>A. J. Canty, <emphasis effect="italics">Accounts Chem. Res.</emphasis>, 1992, <emphasis effect="bold">25</emphasis>, 83. </item>
+
+<item>H. S. Fogler, <emphasis effect="italics">Elements of Chemical Reaction Engineering</emphasis>, Prentice-Hall, New York (1992).</item>
+
+<item>Micromeritics Instrument Corporation, <emphasis effect="italics">AutoChem 2920 – Automated catalyst characterization system – Operators Manual</emphasis>, V4.01 (2009). </item>
+
+
+
+<item>M. O. Nutt, K. N. Heck, P. Alvarez, and M. S. Wong, <emphasis effect="italics">Appl. Catal. B-Environ.</emphasis>, 2006, <emphasis effect="bold">69</emphasis>, 115.</item>
+
+<item>M. O. Nutt, J. B. Hughes, and M. S. Wong, <emphasis effect="italics">Environ. Sci. Technol.</emphasis>, 2005, <emphasis effect="bold">39</emphasis>, 1346.</item>
+
+<item>P. A. Webb and C. Orr, <emphasis effect="italics">Analytical Methods in Fine Particle Technology</emphasis>, Micromeritics Instrument Corp, 1997.</item>
+
+<item>R. Zhang, J. A. Schwarz, A. Datye, and J. P. Baltrus, <emphasis effect="italics">J. Catal.</emphasis>, 1992, <emphasis effect="bold">138</emphasis>, 55.</item>
+
+
+</list></section>
+  </content>
+</document>

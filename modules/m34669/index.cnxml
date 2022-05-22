@@ -1,0 +1,220 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Introduction to Cyclic Voltammetry Measurements</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34669</md:content-id>
+  <md:title>Introduction to Cyclic Voltammetry Measurements</md:title>
+  <md:abstract/>
+  <md:uuid>50cd332c-b40e-4538-b80d-19acc17db704</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1165614957756">
+      <title>Introduction</title>
+      <para id="id1165617022906">Cyclic voltammetry (CV) is one type of potentiodynamic electrochemical measurements. Generally speaking, the operating process is a potential-controlled reversible experiment, which scans the electric potential before turning to reverse direction after reaching the final potential and then scans back to the initial potential, as shown in <link target-id="id1165623186611"/>a. When voltage is applied to the system changes with time, the current will change with time accordingly as shown in <link target-id="id1165623186611"/>b. Thus the curve of current and voltage, illustrated in <link target-id="id1165623186611"/>c, can be represented from the data, which can be obtained from <link target-id="id1165623186611"/>a and b. </para>
+      <figure id="id1165623186611"><media id="id1165623186611_media" alt="">
+          <image mime-type="image/jpg" src="../../media/CV.jpg" id="id1165623186611__onlineimage" width="200" print-width="2in"/>
+        </media>
+        
+      <caption>Potential wave changes with time (a); current response with time (b); current-potential representations (c). Adapted from D. K. Gosser, Jr. <emphasis effect="italics">Cyclic Voltammetry Simulation and Analysis of Reaction Mechanisms</emphasis>, Wiley-VCH, New York, (1993).</caption></figure>
+      <para id="id1165616411227">Cyclic voltammetry is a very important analytical characterization in the field of electrochemistry. Any process that includes electron transfer can be investigated with this characterization. For example, the investigation of catalytical reactions, analyzing the stoichiometry of complex compounds, and determining of the photovoltaic materials’ band gap. In this module, I will focus on the application of CV measurement in the field of characterization of solar cell materials.</para>
+      <para id="id1165615624858">Although CV was first practiced using a hanging mercury drop electrode, based on the work of Nobel Prize winner Heyrovský (<link target-id="id55565"/>), it did not gain widespread until solid electrodes like Pt, Au and carbonaceous electrodes were used, particularly to study anodic oxidations. A major advance was made when mechanistic diagnostics and accompanying quantitations became known through the computer simulations. Now, the application of computers and related software packages make the analysis of data much quicker and easier. </para>
+
+<figure id="id55565"><media id="id55565_media" alt="">
+            <image mime-type="image/jpg" src="../../media/jaroslav-heyrovsky.jpg" id="id55565__onlineimage" width="300" print-width="2in"/>
+          </media><caption>Czech chemist and inventor Jaroslav Heyrovský (1890 – 1967).</caption></figure>
+
+
+
+    </section>
+
+
+    <section id="id1165620131324">
+      <title>The components of a CV system</title>
+      <para id="id8413209">As shown in <link target-id="id1165617052203"/>, the CV systems are as follows:</para>
+      <list id="id1165616444723" list-type="bulleted"><item>The epsilon includes potentiostat and current-voltage converter. The potentiostat is required for controlling the applied potential, and a current-to-voltage converter is used for measuring the current, both of which are contained within the epsilon (<link target-id="id1165617052203"/>). </item>
+<item>The input system is a function generator (<link target-id="id1165617052203"/>). Operators can change parameters, including scan rate and scan range, through this part. The output part is a computer screen, which can show data and curves directly to the operators.</item>
+<item>All electrodes must work in electrolyte solution (<link target-id="id1165617052203"/>). </item>
+<item>Sometimes, the oxygen and water in the atmosphere will dissolve in the solution, and will be deoxidized or oxidized when voltage is applied. Therefore the data will be less accurate. To prevent this from happening, bubbling of an inert gas (nitrogen or argon) is required.</item>
+<item>The key component of the CV systems is the electrochemical cell (<link target-id="id1165617052203"/>), which is connected to the epsilon part. Electrochemical cell contains three electrodes, counter electrode (C in <link target-id="id1165617052203"/>), working electrode (W in <link target-id="id1165617052203"/>) and reference electrode (R in <link target-id="id1165617052203"/>). All of them must be immersed in an electrolyte solution when working. </item>
+</list>
+
+
+      <figure id="id1165617052203">
+        <media id="id1165617052203_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-7f05.jpg" id="id1165617052203__onlineimage" width="400" print-width="4in"/>
+        </media>
+        <caption>Components of cyclic voltammetry systems. Adapted from D. K. Gosser, Jr., <emphasis effect="italics">Cyclic Voltammetry Simulation and Analysis of Reaction Mechanisms</emphasis>, Wiley-VCH, NewYork, (1993).</caption>
+      </figure>
+
+
+
+      <para id="id1165614965869">In order to better understand the electrodes mentioned above, three kinds of electrodes will be discussed in more detail.</para>
+      <list id="id1165614761471" list-type="bulleted"><item>Counter electrodes (C in <link target-id="id1165617052203"/>) are non-reactive high surface area electrodes, for which the platinum gauze is the common choice.</item>
+        <item>The working electrode (W in <link target-id="id1165617052203"/>) is commonly an inlaid disc electrodes (Pt, Au, graphite, etc.) of well-defined area are most commonly used. Other geometries may be available in appropriate circumstances, such as dropping or hanging mercury hemisphere, cylinder, band, arrays, and grid electrodes.</item>
+        <item>For the reference electrode (R in <link target-id="id1165617052203"/>), aqueous Ag/AgCl or calomel half cells are commonly used, and can be obtained commercially or easily prepared in the laboratory. Sometimes, a simple silver or platinum wire is used in conjunction with an internal potential reference provided by ferrocene (<link target-id=" id55566"/>), when a suitable conventional reference electrode is not available. Ferrocene undergoes a one-electron oxidation at a low potential, around 0.5 V versus a saturated calomel electrode (SCE). It is also been used as standard in electrochemistry as F<sub>c</sub><sup>+</sup>/F<sub>c</sub> = 0.64 V versus a normal hydrogen electrode (NHE). </item>
+      </list>
+
+<figure id="id55566"><media id="id55566_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Ferrocene.jpg" id="id55566__onlineimage" width="300" print-width="3in"/>
+          </media><caption>The structure of (C<sub>5</sub>H<sub>5</sub>)<sub>2</sub>Fe (ferrocene). </caption></figure>
+
+
+
+
+
+
+<para id="id1165614779994">Cyclic voltammetry systems employ different types of potential waveforms (<link target-id="id1165614790144"/>) that can be used to satisfy different requirements. Potential waveforms reflect the way potential is applied to this system. These different types are referred to by characteristic names, for example, cyclic voltammetry, and differential pulse voltammetry. The cyclic voltammetry analytical method is the one whose potential waveform is generally an isosceles triangle (<link target-id="id1165614790144"/>a).</para>
+
+
+
+        <figure id="id1165614790144"><media id="id1165614790144_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Fig1-d287.jpg" id="id1165614790144__onlineimage" width="300" print-width="3in"/>
+          </media>
+          
+        <caption>Examples of different waveforms of CV systems, illustrating various possible cycles. Adapted from D. K. Gosser, Jr., <emphasis effect="italics">Cyclic Voltammetry Simulation and Analysis of Reaction Mechanisms</emphasis>, Wiley-VCH, New York (1993).</caption></figure>
+
+
+
+    </section>
+
+
+
+    <section id="id4117026">
+      <title>The physical principles on which the CV systems are based</title>
+      <para id="id1165617590544">As mentioned above, there are two main parts of a CV system: the electrochemical cell and the epsilon. <link target-id="id1165616190529"/> shows the schematic drawing of circuit diagram in electrochemical cell.</para>
+
+
+
+        <figure id="id1165616190529"><media id="id1165616190529_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-682e.jpg" id="id1165616190529__onlineimage" width="400" print-width="4in"/>
+          </media>
+          
+        <caption>Diagram of a typical cyclic voltammetry circuit layout. Adapted from R. G. Compton and C. E. Banks, <emphasis effect="italics">Understanding Voltammetry</emphasis>, World Scientific, Sigapore (2007).</caption></figure>
+
+
+
+      <para id="id1165619146594">In a voltammetric experiment, potential is applied to a system, using working electrode
+ (W in <link target-id="id1165616190529"/>) and the reference electrode (R = <link target-id="id1165616190529"/>), and the current response is measured using the working electrode and a third electrode, the counter electrode (C in <link target-id="id1165616190529"/>). The typical current-voltage curve for ferricyanide/ferrocyanide, <link target-id="eip-796"/>, is shown in <link target-id="id1165625987630"/>.  </para>
+
+
+
+        <equation id="eip-796"><media id="id12345_media" alt=""><image mime-type="image/jpg" src="../../media/Eq2-f82b.jpg" id="id12345__onlineimage" width="450" print-width="4in"/></media></equation><figure id="id1165625987630"><media id="id1165625987630_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-3543.jpg" id="id1165625987630__onlineimage" width="300" print-width="3in"/>
+          </media>
+          
+        <caption>Typical curve of current-voltage curve for for ferricyanide/ferrocyanide, <link target-id="eip-796"/>. </caption></figure>
+
+      
+      <section id="id1165616751634">
+        <title>What useful information we can get from the data collected</title>
+        <para id="id1165616354893">The information we are able to obtain from CV experimental data is the current-voltage curve. From the curve we can then determine the redox potential, and gain insights into the kinetics of electron reactions, as well as determine the presence of reaction intermediate. </para>    </section>
+</section>
+
+
+
+
+
+
+<section id="id1165623684279">
+      <title>Why choose CV  for the characterizations of solar cell materials?</title>
+      <para id="id1165616835642">Despite some limitations, cyclic voltammetry is very well suited for a wide range of applications. Moreover, in some areas of research, cyclic voltammetry is one of the standard techniques used for characterization. Due to its characteristic shapes of curves, it has been considered as ‘electrochemical spectroscopy’. In addition, the system is quite easy to operate, and sample preparation is relatively simple.</para>
+
+
+<para id="eip-368">The band gap of a semiconductor is a very important value to be determined for photovoltaic materials. <link target-id="id1165615634226"/> shows the relative energy level involved in light harvesting of an organic solar cell. The energy difference (E<sub>g</sub>) between the lowest unoccupied molecular orbital (LUMO) and the highest occupied molecular orbital (HOMO), which determines the efficiency. The oxidation and reduction of an organic molecule involve electron transfers (<link target-id="id1165624096208"/>), and CV measurements can be used to determine the potential change during redox. Through the analysis of data obtained by the CV measurement the electronic band gap is obtained. </para><figure id="id1165615634226"><media id="id1165615634226_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics6-552f.jpg" id="id1165615634226__onlineimage" width="400" print-width="4in"/>
+            </media>
+            
+          <caption>Diagram showing energy level and light harvesting of and organic solar cell. Adapted from S. B. Darling, <emphasis effect="italics">Energy Environm. Sci.</emphasis>, 2009, <emphasis effect="bold">2</emphasis>, 1266. </caption></figure>
+
+
+
+        
+
+
+
+          <figure id="id1165624096208"><media id="id1165624096208_media" alt="">
+              <image mime-type="image/jpg" src="../../media/Fig3-f2bf.jpg" id="id1165624096208__onlineimage" width="400" print-width="4in"/>
+            </media>
+            
+          <caption>Diagram showing energy level and light harvesting of organic solar cell. Adapted from D. K. Gosser, Jr., <emphasis effect="italics">Cyclic Voltammetry Simulation and Analysis of Reaction Mechanisms</emphasis>, Wiley-VCH, New York (1993).</caption></figure>
+
+
+
+
+
+
+
+     
+      <section id="id1165616365527">
+        <title>The example of the analysis of CV data in solar cell material characterization</title>
+        <para id="id1165614898108">Graphene nanoribbons (GNRs) are long, narrow sheets of graphene formed from the unzipping of carbon nanotubes (<link target-id="id1165617457643"/>). GNRs can be both semiconducting and semi-metallic, depending on their width, and they represent a particularly versatile variety of graphene. The high surface area, high aspect ratio, and interesting electronic properties of GNRs render them promising candidates for applications of energy-storage materials.</para>
+
+
+
+          <figure id="id1165617457643"><media id="id1165617457643_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics8-964d.jpg" id="id1165617457643__onlineimage" width="500" print-width="5in"/>
+            </media>
+              <caption>Schematic for the “unzipping” of carbon nanotubes to produce graphene (Rice University). </caption></figure>
+
+
+        <para id="id1165615603739">Graphene nanoribbons can be oxidized to oxidized graphene nanoribbons (XGNRs), are readily soluble in water easily. Cyclic voltammetry is an effective method to characterize the band gap of semiconductor materials. To test the band gap of oxidized graphene nanoribbons (XGNRs), operating parameters can be set as follows: </para>
+        
+        <list id="id1165616607093" list-type="bulleted"><item>0.1M KCl solution </item>
+          <item>Working electrode: evaporated gold on silicon. </item>
+          <item>Scan rate: 10 mV/s.</item>
+          <item>Scan range: 0 ~ 3000 mV for oxidization reaction; -3000 ~ 0 mV for reduction reaction. </item>
+          <item>Samples preparation: spin coat an aqueous solution of the oxidized graphene nanoribbons onto the working electrode, and dry at 100 °C.</item>
+        </list>
+        
+        <para id="id7095433">To make sure that the results are accurate, two samples can be tested under the same condition to see whether the redox peaks are at the same position. The amount of XGNRs will vary from sample to sample, thus the height of peaks will vary also. Typical curves obtained from the oxidation reaction (<link target-id="id1165624096208"/>a) and reduction reaction (<link target-id="id1165624096208"/>b) are shown in <link target-id="id1165620300514"/> and <link target-id="id1165614750708"/>, respectively.</para>
+
+
+          <figure id="id1165620300514"><media id="id1165620300514_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics9-21f7.jpg" id="id1165620300514__onlineimage" width="400" print-width="4in"/>
+            </media>
+            
+          <caption>Oxidation curves of two samples of XGNRs prepared under similar condition. The sample with lower concentration is shown by the red curve, while the sample with higher concentration is shown as a black curve. </caption></figure>
+
+
+          <figure id="id1165614750708"><media id="id1165614750708_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics10-0a19.jpg" id="id1165614750708__onlineimage" width="400" print-width="4in"/>
+            </media>
+            
+          <caption>Reduction curves of two samples of XGNRs prepared under similar condition. The sample with lower concentration is shown by the green curve, while the sample with higher concentration is shown as a black curve. </caption></figure>
+
+
+
+
+        <para id="id1165618903719">From the curves shown in <link target-id="id1165620300514"/> and <link target-id="id1165614750708"/> the following conclusions can be obtained:</para>
+        <list id="id1165616552590" list-type="bulleted"><item>Two reduction peak and onset is about -0.75 V (i.e., <link target-id="id1165624096208"/>b).</item>
+<item>One oxidation peak with onset about 0.85 V  (i.e., <link target-id="id1165624096208"/>a).</item>
+<item>The calculated band gap = 1.60 eV. </item></list>
+        
+        <para id="id1165616424927">In conclusion, there are many applications for CV system, efficient method, and the application in the field of solar cell provides the band gap information for research. </para>
+      </section>
+      </section>
+
+    <section id="id1165620093712">
+      <title>Bibliography</title>
+      <list id="id1165618648630" list-type="bulleted"><item>R. N. Adams, <emphasis effect="italics">Electrochemistry at Solid Electrodes</emphasis>, Marcel Dekker, NewYork (1968).</item>
+
+        <item>R. G. Compton, and C. E. Banks, <emphasis effect="italics">Understanding Voltammetry</emphasis>, World Scientific, Sigapore, (2007).</item>
+<item>S. B. Darling, <emphasis effect="italics">Energy Environm. Sci.</emphasis>, 2009, <emphasis effect="bold">2</emphasis>, 1266. </item>
+
+      <item>S. W. Feldberg, <emphasis effect="italics">A General Method for Simulation</emphasis>, Vol. 3 in Electroanalytical Chemistry Series, Marcel Dekker, NewYork, (1969). </item>
+
+      <item>W. Kemula and Z. Kublik, <emphasis effect="italics">Nature</emphasis>, 1958, <emphasis effect="bold">182</emphasis>, 793. </item>
+
+        <item>D. V. Kosynkin, A. L Higginbotham, A. Sinitskii, J. R. Lomeda, A. Dimiev, B. K. Price, and J. M. Tour, <emphasis effect="italics">Nature</emphasis>, 2009, <emphasis effect="bold">458</emphasis>, 872.</item>
+
+        <item>R. S. Nicholson and I. Shain, <emphasis effect="italics">Anal. Chem.</emphasis>, 1964, <emphasis effect="bold">36</emphasis>, 706.</item>
+  
+
+<item>L. Piszczek, A. Lgnatowicz, J. Kielbase, <emphasis effect="italics">J. Chem. Edu.</emphasis>, 1998, <emphasis effect="bold">65,</emphasis> 171. </item>
+  
+<item>J. Zhu, Z. Zhao, D. Xiao, J. Li, X. Yang, and Y. Wu, <emphasis effect="italics">Electrochem. Commun.</emphasis>, 2005, <emphasis effect="bold">7</emphasis>, 58.</item>
+
+      </list>
+    </section>
+  </content>
+</document>

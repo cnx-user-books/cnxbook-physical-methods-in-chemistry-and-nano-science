@@ -1,0 +1,137 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Optical Properties of Group 12-16 (II-VI) Semiconductor Nanoparticles</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34553</md:content-id>
+  <md:title>Optical Properties of Group 12-16 (II-VI) Semiconductor Nanoparticles</md:title>
+  <md:abstract/>
+  <md:uuid>f1268c87-1d5d-4e17-a48c-8a9b8ba63faa</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="id1166446275316">
+      <title>What are Group 12-16 semiconductors?</title>
+      <para id="id1166418519330">Semiconductor materials are generally classified on the basis of the periodic table group that their constituent elements belong to. Thus, Group 12-16 semiconductors, formerly called II-VI semiconductors, are materials whose cations are from the Group 12 and anions are from Group 16 in the periodic table (<link target-id="id1166461888876"/>). Some examples of Group 12-16 semiconductor materials are cadmium selenide (CdSe), zinc sulfide (ZnS), cadmium teluride (CdTe), zinc oxide (ZnO), and mercuric selenide (HgSe) among others.</para>
+      
+      <note id="eip-649">The new IUPAC (International Union of Pure and Applied Chemistry) convention is being followed in this document, to avoid any confusion with regard to conventions used earlier. In the old IUPAC convention, Group 12 was known as Group IIB with the roman numeral ‘II’ referring to the number of electrons in the outer electronic shells and B referring to being on the right part of the table. However, in the CAS (Chemical Abstracts Service), the alphabet B refers to transition elements as compared to main group elements, though the roman numeral has the same meaning. Similarly, Group 16 was earlier known as Group VI because all the elements in this group have 6 valence shell electrons.</note><figure id="id1166461888876"><media id="id1166461888876_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-05ab.png" id="id1166461888876__onlineimage" width="200" print-width="2in"/>
+        </media>
+      <caption>The red box indicates the Group 12 and Group 16 elements in the periodic table.</caption></figure>
+      
+      
+    </section>
+    <section id="id1166451028342">
+      <title>What are Group 12-16 (II-VI) semiconductor nanoparticles?</title>
+      <para id="id1166441554396">From the Greek word <emphasis effect="italics">nanos</emphasis> - meaning "dwarf" this prefix is used in the metric system to mean 10<sup>-9</sup> or one billionth (1/1,000,000,000). Thus a nanometer is 10<sup>-9</sup> or one billionth of a meter, and a nanojoule is 10<sup>-9</sup> or one billionth of a Joule, etc. A nanoparticle is ordinarily defined as any particle with at least one of its dimensions in the 1 - 100 nm range. </para>
+      <para id="id1166435964207">Nanoscale materials often show behavior which is intermediate between that of a bulk solid and that of an individual molecule or atom. An inorganic nanocrystal can be imagined to be comprised of a few atoms or molecules. It thus will behave differently from a single atom; however, it is still smaller than a macroscopic solid, and hence will show different properties. For example, if one would compare the chemical reactivity of a bulk solid and a nanoparticle, the latter would have a higher reactivity due to a significant fraction of the total number of atoms being on the surface of the particle. Properties such as boiling point, melting point, optical properties, chemical stability, electronic properties, etc. are all different in a nanoparticle as compared to its bulk counterpart. In the case of Group 12-16 semiconductors, this reduction in size from bulk to the nanoscale results in many size dependent properties such as varying band gap energy, optical and electronic properties. </para>
+      
+    </section>
+    <section id="id1166445288755"><title>Optical properties of semiconductor quantum nanoparticles</title><para id="id1166457256055">In the case of semiconductor nanocrystals, the effect of the size on the optical properties of the particles is very interesting. Consider a Group 12-16 semiconductor, cadmium selenide (CdSe). A 2 nm sized CdSe crystal has a blue color fluorescence whereas a larger nanocrystal of CdSe of about 6 nm has a dark red fluorescence (<link target-id="id1166445203089"/>). In order to understand the size dependent optical properties of semiconductor nanoparticles, it is important to know the physics behind what is happening at the nano level.</para>
+      <figure id="id1166445203089"><media id="id1166445203089_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-e07a.jpg" id="id1166445203089__onlineimage" width="250" print-width="2.5in"/>
+        </media>
+      <caption>Fluorescing CdSe quantum dots synthesized in a heat transfer liquid of different sizes (M. S. Wong, Rice University). </caption></figure>
+      
+      <section id="id1166462109847">
+        <title>Energy levels in a semiconductor</title>
+        <para id="id1166440497797">The electronic structure of any material is given by a solution of Schrödinger equations with boundary conditions, depending on the physical situation. The electronic structure of a semiconductor (<link target-id="id1166445041724"/>) can be described by the following terms: </para>
+
+          <figure id="id1166445041724"><media id="id1166445041724_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics3-a2a0.png" id="id1166445041724__onlineimage" width="150" print-width="1.5in"/>
+            </media>
+          <caption>Simplified representation of the energy levels in a bulk semiconductor.</caption></figure>
+        
+        <section id="eip-764"><title>Energy level</title><para id="eip-410">
+By the solution of Schrödinger’s equations, the electrons in a semiconductor can have only certain allowable energies, which are associated with energy levels. No electrons can exist in between these levels, or in other words can have energies in between the allowed energies. In addition, from Pauli’s Exclusion Principle, only 2 electrons with opposite spin can exist at any one energy level. Thus, the electrons start filling from the lowest energy levels. Greater the number of atoms in a crystal, the difference in allowable energies become very small, thus the distance between energy levels decreases. However, this distance can never be zero. For a bulk semiconductor, due to the large number of atoms, the distance between energy levels is very small and for all practical purpose the energy levels can be described as continuous (<link target-id="id1166445041724"/>).
+</para></section><section id="eip-919"><title>Band gap</title><para id="eip-316">
+From the solution of Schrödinger’s equations, there are a set of energies which is not allowable, and thus no energy levels can exist in this region. This region is called the band gap and is a quantum mechanical phenomenon (<link target-id="id1166445041724"/>). In a bulk semiconductor the bandgap is fixed; whereas in a quantum dot nanoparticle the bandgap varies with the size of the nanoparticle.
+</para></section><section id="eip-231"><title>Valence band</title><para id="eip-841">
+In bulk semiconductors, since the energy levels can be considered as continuous, they are also termed as energy bands. Valence band contains electrons from the lowest energy level to the energy level at the lower edge of the bandgap (<link target-id="id1166445041724"/>). Since filling of energy is from the lowest energy level, this band is usually almost full.
+</para></section><section id="eip-561"><title>Conduction band </title><para id="eip-364">
+The conduction band consists of energy levels from the upper edge of the bandgap and higher (<link target-id="id1166445041724"/>). To reach the conduction band, the electrons in the valence band should have enough energy to cross the band gap. Once the electrons are excited, they subsequently relax back to the valence band (either radiatively or non-radiatively) followed by a subsequent emission of radiation. This property is responsible for most of the applications of quantum dots.
+</para></section><section id="eip-332"><title>Exciton and exciton Bohr radius</title><para id="eip-575">
+When an electron is excited from the valence band to the conduction band, corresponding to the electron in the conduction band a hole (absence of electron) is formed in the valence band. This electron pair is called an exciton. Excitons have a natural separation distance between the electron and hole, which is characteristic of the material. This average distance is called exciton Bohr radius. In a bulk semiconductor, the size of the crystal is much larger than the exciton Bohr radius and hence the exciton is free to move throughout the crystal.
+</para></section>
+      </section>
+      <section id="id6420403">
+        <title>Energy levels in a quantum dot semiconductor</title>
+        <para id="id1166445333907">Before understanding the electronic structure of a quantum dot semiconductor, it is important to understand what a quantum dot nanoparticle is. We earlier studied that a nanoparticle is any particle with one of its dimensions in the 1 - 100 nm. A quantum dot is a nanoparticle with its diameter on the order of the materials exciton Bohr radius. Quantum dots are typically 2 - 10 nm wide and approximately consist of 10 to 50 atoms. With this understanding of a quantum dot semiconductor, the electronic structure of a quantum dot semiconductor can be described by the following terms. </para>
+        <figure id="id1166441277821"><media id="id1166441277821_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-0f79.png" id="id1166441277821__onlineimage" width="200" print-width="2in"/>
+          </media>
+        <caption>Energy levels in quantum dot. Allowed optical transitions are shown. Adapted from T. Pradeep, <emphasis effect="italics">Nano: The Essentials. Understanding Nanoscience and Nanotechnology</emphasis>, Tata McGraw-Hill, New Delhi (2007).</caption></figure>
+        
+        <section id="eip-998"><title>Quantum confinement</title><para id="eip-254">When the size of the semiconductor crystal becomes comparable or smaller than the exciton Bohr radius, the quantum dots are in a state of quantum confinement. As a result of quantum confinement, the energy levels in a quantum dot are discrete (<link target-id="id1166441277821"/>) as opposed to being continuous in a bulk crystal (<link target-id="id1166445041724"/>).
+</para></section><section id="eip-354"><title>Discrete energy levels</title><para id="eip-752">In materials that have small number of atoms and are considered as quantum confined, the energy levels are separated by an appreciable amount of energy such that they are not continuous, but are discrete (see <link target-id="id1166441277821"/>). The energy associated with an electron (equivalent to conduction band energy level) is given by is given by <link target-id="eip-668"/>, where <emphasis effect="italics">h</emphasis> is the Planck’s constant, <emphasis effect="italics">m<sub>e</sub></emphasis> is the effective mass of electron and <emphasis effect="italics">n</emphasis> is the quantum number for the conduction band states, and <emphasis effect="italics">n</emphasis> can take the values 1, 2, 3 and so on. Similarly, the energy associated with the hole (equivalent to valence band energy level) is given by <link target-id="eip-762"/>, where <emphasis effect="italics">n'</emphasis> is the quantum number for the valence states, and <emphasis effect="italics">n'</emphasis> can take the values 1, 2, 3, and so on. The energy increases as one goes higher in the quantum number. Since the electron mass is much smaller than that of the hole, the electron levels are separated more widely than the hole levels.</para><equation id="eip-668"><media id="id1188_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Eq6-e588.jpg" id="id1188__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+</equation><equation id="eip-762"><media id="id1189_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Eq7-5b60.jpg" id="id1189__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+</equation></section>
+        
+        
+        
+        
+        <section id="eip-978"><title>Tunable band gap</title><para id="eip-872">As seen from <link target-id="eip-668"/>  and <link target-id="eip-762"/>, the energy levels are affected by the diameter of the semiconductor particles. If the diameter is very small, since the energy is dependent on inverse of diameter squared, the energy levels of the upper edge of the band gap (lowest conduction band level) and lower edge of the band gap (highest valence band level) change significantly with the diameter of the particle and the effective mass of the electron and the hole, resulting in a size dependent tunable band gap. This also results in the discretization of the energy levels. </para><para id="eip-650">Qualitatively, this can be understood in the following way. In a bulk semiconductor, the addition or removal of an atom is insignificant compared to the size of the bulk semiconductor, which consists of a large number of atoms. The large size of bulk semiconductors makes the changes in band gap so negligible on the addition of an atom, that it is considered as a fixed band gap. In a quantum dot, addition of an atom does make a difference, resulting in the tunability of band gap.</para></section>
+        
+      </section>
+      <section id="id1166461790145">
+        <title>UV-visible absorbance</title>
+        <para id="id1166457816830">Due to the presence of discrete energy levels in a QD, there is a widening of the energy gap between the highest occupied electronic states and the lowest unoccupied states as compared to the bulk material. As a consequence, the optical properties of the semiconductor nanoparticles also become size dependent.</para>
+        <para id="id1166445626094">The minimum energy required to create an exciton is the defined by the band gap of the material, i.e., the energy required to excite an electron from the highest level of valence energy states to the lowest level of the conduction energy states. For a quantum dot, the bandgap varies with the size of the particle. From <link target-id="eip-668"/>  and <link target-id="eip-762"/>, it can be inferred that the band gap becomes higher as the particle becomes smaller. This means that for a smaller particle, the energy required for an electron to get excited is higher. The relation between energy and wavelength is given by <link target-id="eip-929"/>, where <emphasis effect="italics">h</emphasis> is the Planck’s constant, <emphasis effect="italics">c</emphasis> is the speed of light, λ is the wavelength of light. Therefore, from <link target-id="eip-929"/> to cross a bandgap of greater energy, shorter wavelengths of light are absorbed, i.e., a blue shift is seen. </para>
+        <equation id="eip-929"><media id="id1187_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Eq8-dede.jpg" id="id1187__onlineimage" width="500" print-width="4.5in"/>
+          </media>
+</equation>
+        
+        <para id="id1166442750634">For Group 12-16 semiconductors, the bandgap energy falls in the UV-visible range. That is ultraviolet light or visible light can be used to excite an electron from the ground valence states to the excited conduction states. In a bulk semiconductor the band gap is fixed, and the energy states are continuous. This results in a rather uniform absorption spectrum (<link target-id="id1166435777924"/>a).</para>
+        <figure id="id1166435777924"><media id="id1166435777924_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics5-cdad.png" id="id1166435777924__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>UV-vis spectra of (a) bulk CdS and (b) 4 nm CdS. Adapted from G. Kickelbick, <emphasis effect="italics">Hybrid Materials: Synthesis, Characterization and Applications</emphasis>, Wiley-VCH, Weinheim (2007).</caption></figure>
+        
+        <para id="id4133273">In the case of Group 12-16 quantum dots, since the bandgap can be changed with the size, these materials can absorb over a range of wavelengths. The peaks seen in the absorption spectrum (<link target-id="id1166435777924"/>b) correspond to the optical transitions between the electron and hole levels. The minimum energy and thus the maximum wavelength peak corresponds to the first exciton peak or the energy for an electron to get excited from the highest valence state to the lowest conduction state. The quantum dot will not absorb wavelengths of energy longer than this wavelength. This is known as the absorption onset. </para>
+        
+      </section>
+      <section id="id1166445436867">
+        <title>Fluorescence</title>
+        <para id="id1166437605560">Fluorescence is the emission of electromagnetic radiation in the form of light by a material that has absorbed a photon. When a semiconductor quantum dot (QD) absorbs a photon/energy equal to or greater than its band gap, the electrons in the QD’s get excited to the conduction state. This excited state is however not stable. The electron can relax back to its ground state by either emitting a photon or lose energy via heat losses. These processes can be divided into two categories – radiative decay and non-radiative decay. Radiative decay is the loss of energy through the emission of a photon or radiation. Non-radiative decay involves the loss of heat through lattice vibrations and this usually occurs when the energy difference between the levels is small. Non-radiative decay occurs much faster than radiative decay. </para>
+        <para id="id1166454011384">Usually the electron relaxes to the ground state through a combination of both radiative and non-radiative decays. The electron moves quickly through the conduction energy levels through small non-radiative decays and the final transition across the band gap is via a radiative decay. Large nonradiative decays don’t occur across the band gap because the crystal structure can’t withstand large vibrations without breaking the bonds of the crystal. Since some of the energy is lost through the non-radiative decay, the energy of the emitted photon, through the radiative decay, is much lesser than the absorbed energy. As a result the wavelength of the emitted photon or fluorescence is longer than the wavelength of absorbed light. This energy difference is called the Stokes shift. Due this Stokes shift, the emission peak corresponding to the absorption band edge peak is shifted towards a higher wavelength (lower energy), i.e., <link target-id="id1166448472868"/>. </para>
+        
+        
+        
+<figure id="id1166448472868"><media id=" id1166448472868_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics6a.png" id=" id1166448472868__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+ 
+<caption>Absorption spectra (a) and emission spectra (b) of CdSe tetrapod. 
+  </caption></figure><para id="eip-730">Intensity of emission versus wavelength is a bell-shaped Gaussian curve. As long as the excitation wavelength is shorter than the absorption onset, the maximum emission wavelength is independent of the excitation wavelength. <link target-id="id1166448472868"/> shows a combined absorption and emission spectrum for a typical CdSe tetrapod.</para>
+
+      </section>
+      <section id="id1166457258805">
+        <title>Factors affecting the optical properties of NPs</title>
+        <para id="id1166459932173">There are various factors that affect the absorption and emission spectra for Group 12-16 semiconductor quantum crystals. Fluorescence is much more sensitive to the background, environment, presence of traps and the surface of the QDs than UV-visible absorption. Some of the major factors influencing the optical properties of quantum nanoparticles include: </para>
+        <list id="id1166418522020" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Surface defects, imperfection of lattice, surface charges</emphasis> – The surface defects and imperfections in the lattice structure of semiconductor quantum dots occur in the form of unsatisfied valencies. Similar to surface charges, unsatisfied valencies provide a sink for the charge carriers, resulting in unwanted recombinations. </item>
+          <item><emphasis effect="bold">Surface ligands</emphasis> – The presence of surface ligands is another factor that affects the optical properties. If the surface ligand coverage is a 100%, there is a smaller chance of surface recombinations to occur.</item>
+          <item><emphasis effect="bold">Solvent polarity</emphasis> – The polarity of solvents is very important for the optical properties of the nanoparticles. If the quantum dots are prepared in organic solvent and have an organic surface ligand, the more non-polar the solvent, the particles are more dispersed. This reduces the loss of electrons through recombinations again, since when particles come in close proximity to each other, increases the non-radiative decay events. </item>
+        </list>
+      </section>
+      <section id="id1166423601681"><title>Applications of the optical properties of Group 12-16 semiconductor NPs</title><para id="id1166449929003">The size dependent optical properties of NP’s have many applications from biomedical applications to solar cell technology, from photocatalysis to chemical sensing. Most of these applications use the following unique properties.</para><para id="eip-177">For applications in the field of nanoelectronics, the sizes of the quantum dots can be tuned to be comparable to the scattering lengths, reducing the scattering rate and hence, the signal to noise ratio. For Group 12-16 QDs to be used in the field of solar cells, the bandgap of the particles can be tuned so as to form absorb energy over a large range of the solar spectrum, resulting in more number of excitons and hence more electricity. Since the nanoparticles are so small, most of the atoms are on the surface. Thus, the surface to volume ratio is very large for the quantum dots. In addition to a high surface to volume ratio, the Group 12-16 QDs respond to light energy. Thus quantum dots have very good photocatalytic properties. Quantum dots show fluorescence properties, and emit visible light when excited. This property can be used for applications as biomarkers. These quantum dots can be tagged to drugs to monitor the path of the drugs. Specially shaped Group 12-16 nanoparticles such as hollow shells can be used as drug delivery agents. Another use for the fluorescence properties of Group 12-16 semiconductor QDs is in color-changing paints, which can change colors according to the light source used.</para>
+        
+        
+        
+      </section>
+      <section id="id1166459980332">
+        <title>Bibliography</title>
+        <list id="id1166444515345" list-type="bulleted" bullet-style="bullet"><item id="id1166445728389">M. J. Schulz, V. N. Shanov, and Y. Yun, <emphasis effect="italics">Nanomedicine - Design of Particles, Sensors, Motors, Implants, Robots, and Devices</emphasis>, Artech House, London (2009).</item>
+          <item>S. V. Gapoenko, <emphasis effect="italics">Optical Properties of Semiconductor Nanocrystals</emphasis>, Cambridge University Press, Cambridge (2003).</item>
+          <item>T. Pradeep, <emphasis effect="italics">Nano: The Essentials. Understanding Nanoscience and Nanotechnology</emphasis>, Tata McGraw-Hill, New Delhi (2007).</item>
+          <item>G. Schmid, <emphasis effect="italics">Nanoparticles: From Theory to Application</emphasis>, Wiley-VCH, Weinheim (2004).</item>
+          <item>A. L. Rogach,<emphasis effect="italics"> Semiconductor Nanocrystal Quantum Dots. Synthesis, Assembly, Spectroscopy and Applications</emphasis>, Springer Wien, New York (2008).</item>
+          <item>G. Kickelbick, <emphasis effect="italics">Hybrid Materials: Synthesis, Characterization and Applications</emphasis>, Wiley-VCH, Weinheim (2007).</item>
+        </list>
+      </section>
+    </section>
+  </content>
+</document>

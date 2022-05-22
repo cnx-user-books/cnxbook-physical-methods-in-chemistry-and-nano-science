@@ -1,0 +1,60 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Cold Vapor Atomic Fluorescence Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38339</md:content-id>
+  <md:title>Cold Vapor Atomic Fluorescence Spectroscopy</md:title>
+  <md:abstract>This module explains how cold vapor atomic fluorescence spectroscopy works.</md:abstract>
+  <md:uuid>ebca6527-1611-4fbf-aba8-b5b1fa4b9991</md:uuid>
+</metadata>
+
+<content>
+
+      
+
+<section id="id1165432708605">
+        <title>Introduction</title>
+        <para id="id1165443083670"> Atomic fluorescence spectroscopy (AFS) is a method that was invented by Winefordner and Vickers in 1964 as a means to analyze the chemical concentration of a sample. The idea is to excite a sample vapor with the appropriate UV radiation, and by measuring the emitting radiation, the amount of the specific element being measured could be quantified. In its most basic form, AFS consists of a UV light source to excite the sample, a monochromator, a detector and a readout device (<link target-id="id1165432684172"/>). Cold vapor atomic fluorescence spectroscopy (CVAFS) uses the same technique as AFS, but the preparation of the sample is adapted specifically to quantify the presence of heavy metals that are volatile, such as mercury, and allows for these elements to be measured at room temperature. </para>
+
+
+
+<figure id="id1165432684172"><media id="id1165432684172_media" alt=""><image mime-type="image/jpg" src="../../media/FigCold.jpg" id="id1165432684172__onlineimage" width="500" print-width="5in"/></media><caption>The basic setup for CVAFS.
+*The monochromator can be in either position in the scheme.</caption></figure> 
+
+      </section>
+      <section id="id1165433304704"><title>Theory</title><para id="id1165453377493">The theory behind CVAFS is that as the sample absorbs photons from the radiation source, it will enter an excited state. As the atom falls back into the ground state from its excited vibrational state(s), it will emit a photon, which can then be measured to determine the concentration. In its most basic sense, this process is represented by <link target-id="eip-149"/> where P<sub>F</sub> is the power given off as photons from the sample, P<sub>abs</sub> is the power of the radiation absorbed by the sample, and φ is the proportionality factor of the energy lost due to collisions and interactions between the atoms present, and not due to photon emission.</para><equation id="eip-149"><media id="id201120_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq20-bbfe.jpg" id="id201120__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+
+      </section>
+      <section id="id1165448298656">
+        <title>Sample preparation</title>
+        <para id="id1165453255346"> For CVAFS, the sample must be digested, usually with an acid to break down the compound being tested so that all metal atoms in the sample are accessible to be vaporized. The sample is put into a bubbler, usually with an agent that will convert the element to its gaseous species. An inert gas carrier such as argon is then passed through the bubbler to carry the metal vapors to the fluorescence cell. It is important that the gas carrier is inert, so that the signal will only be absorbed and emitted by the sample in question and not the carrier gas.</para>
+      </section>
+
+
+      <section id="id1165432376632">
+        <title>Atomic fluorescence spectroscopy</title>
+        <para id="id1165435639109">Once the sample is loaded into the cell, a collimated (almost parallel) UV light source passes through the sample so that it will fluoresce. A monochromator is often used, either between the light source and the sample, or between the sample and the detector. These two different setups are referred to as excitation or emission spectrum, respectively. In an excitation spectrum, the light source is kept at a constant wavelength via the monochromator, and multiple wavelengths of emitted light are gathered, whereas in the emission spectrum, only the specified wavelength of light emitted from the sample is measured, but the sample is exposed to multiple wavelengths of light from the excitatory source. The fluorescence will be detected by a photomultiplier tube, which is extremely light sensitive, and a photodiode is used to convert the light into voltage or current, which can then in turn be interpreted into the amount of the chemical present.</para>
+      </section>
+
+
+
+
+      <section id="id1165433785968"><title>Bibliography</title><list id="eip-143">
+<item>M. L. Bruce and D. L. Pfeil, <emphasis effect="italics">Am. Lab.</emphasis>, 2001, 28.</item>
+<item><emphasis effect="italics">Method 245.7: Mercury in Water by Cold Vapor Atomic Fluorescence Spectrometry</emphasis>, Revision 2.0. EPA (2005).</item>
+<item>J. D. Winefordner and T. J. Vickers. <emphasis effect="italics">Anal. Chem.</emphasis>, 1964, <emphasis effect="bold">36</emphasis>, 161.</item>
+</list>
+
+
+
+
+      </section>
+
+  </content>
+</document>

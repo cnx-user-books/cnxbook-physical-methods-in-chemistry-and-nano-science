@@ -1,0 +1,391 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Capillary Electrophoresis (CE)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43696</md:content-id>
+  <md:title>Capillary Electrophoresis (CE)</md:title>
+  <md:abstract/>
+  <md:uuid>3e32feb4-0f1c-4f07-88b9-566417836583</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm1199132560">
+      <title>Introduction</title>
+      <para id="import-auto-idm1189526544">Capillary electrophoresis (CE) encompasses a family of electrokinetic separation techniques that uses an applied electric field to separate out analytes based on their charge and size.  The basic principle is hinged upon that of electrophoresis, which is the motion of particles relative to a fluid (electrolyte) under the influence of an electric field. The founding father of electrophoresis, Arne W. K. Tiselius (<link target-id="import-auto-idm1177714064"/>), first used electrophoresis to separate proteins, and he went on to win a Nobel Prize in Chemistry in 1948 for his work on both electrophoresis and adsorption analysis. However, it was Stellan Hjerten (<link target-id=" import-auto-idm1161490288"/>), who worked under Arne W. K. Tiselius, who pioneered work in CE in 1967, although CE was not well recognized until 1980 when James W. Jorgenson (<link target-id=" import-auto-idm551645168"/>) and Krynn D. Lukacs published a series of papers describing this new technique. </para><figure id="import-auto-idm1177714064"><media id="import-auto-idm643215728" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 2-8110.jpg" width="300" print-width="2in"/>
+        </media>
+      <caption>Swedish chemist Arne W. K. Tiselius (1902–1971) who was the founding father of electrophoresis. </caption></figure><figure id="import-auto-idm1161490288"><media id="import-auto-idm567090288" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 3-5fa2.jpg" width="300" print-width="2in"/>
+        </media>
+      <caption>Swedish chemist Stellan Hjerten (1928–present) who worked under Arne W. K. Tiselius that pioneered work in CE. </caption></figure><figure id="import-auto-idm551645168"><media id="import-auto-idm1207585376" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 5-c56e.jpg" width="300" print-width="2in"/>
+        </media>
+      <caption>James W. Jorgensen (1952-present). </caption></figure></section>
+    <section id="import-auto-idm1091315456">
+      <title>Instrument overview</title>
+      <para id="import-auto-idm1202253968">The main components of CE are shown in <link target-id=" import-auto-idm1169047008"/>. The electric circuit of the CE is the heart of the instrument.</para><figure id="import-auto-idm1169047008"><media id="import-auto-idm1242155744" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 1-e5b7.jpg" width="500" print-width="4in"/>
+        </media>
+      <caption>A schematic diagram of the components of a typical capillary electrophoresis setup and the capillary column.</caption></figure><section id="import-auto-idm465773056">
+        <title>Injection methods</title>
+        <para id="import-auto-idm1242560560">The samples that are studied in CE are mainly liquid samples. A typical capillary column has an inner diameter of 50 μm and a length of 25 cm. Because the column can only contain a minimal amount of running buffer, only small sample volumes can be tested (nL to μL). The samples are introduced mainly by two injection methods: hydrodynamic and electrokinetic injection. The two methods are displayed in <link target-id="import-auto-idm290140640"/>. A disadvantage of electrokinetic injection is that the composition of the injected sample may not be the same as the composition of the original sample. This is because the injection method is dependent on the electrophoretic and electroosmotic mobility of the species in the sample. However, both injection methods depend on the temperature and the viscosity of the solution. Hence, it is important to control both parameters when a reproducible volume of sample injections is desired. It is advisable to use internal standards instead of external standards when performing quantitative analysis on the samples as it is hard to control both the temperature and viscosity of the solution.</para><table id="import-auto-idm290140640" summary="The working principle of the two injection methods used in CE.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Injection method</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Working Principle</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Hydrodynamic injection</entry>
+                <entry>The sample vial is enclosed in a chamber with one end of capillary column immersed in it. Pressure is then applied to the chamber for a fixed period so that the sample can enter the capillary. After the sample, has been introduced, the capillary is withdrawn and then re-immersed into the source reservoir and separation takes place.</entry>
+              </row>
+              <row>
+                <entry>Electrokinetic injection</entry>
+                <entry>The sample is enclosed in a chamber with one end of capillary column immersed in it with an electrode present. The electric field is applied, and the samples enter the capillary. After the sample, has been introduced, the capillary is withdrawn and then re-immersed into the source reservoir and separation takes place.</entry>
+              </row>
+            </tbody>
+          
+
+
+
+</tgroup><caption>The working principle of the two injection methods used in CE.</caption>
+</table></section>
+      <section id="import-auto-idm1340533744">
+        <title>Column</title>
+        <para id="import-auto-idm557776928">After the samples have been injected, the capillary column is used as the main medium to separate the components. The capillary column used in CE shares the same characteristics as the capillary column used in gas chromatography (GC); however, the most critical components of the CE column are:</para><list id="eip-662"><item>the inner diameter of the capillary,</item>
+<item>the total length of the capillary,</item>
+<item>the length of the column from the injector to the detector.</item>
+</list></section>
+      <section id="import-auto-idm1066781664">
+        <title>Solvent buffer</title>
+        <para id="import-auto-idm1207133168">The solvent buffer carries the sample through the column. It is crucial to employ a good buffer as a successful CE experiment is hinged upon this. CE is based on the separation of charges in an electric field. Therefore, the buffer should either sustain the pre-existing charge on the analyte or enable the analyte to obtain a charge, and it is important to consider the pH of the buffer before using it.</para></section>
+      <section id="import-auto-idm337850800">
+        <title>Applied voltage (kV) </title><para id="import-auto-idm780402944">The applied voltage is important in the separation of the analytes as it drives the movement of the analyte. It is important that it is not too high as it may become a safety concern.</para>
+      </section>
+      <section id="import-auto-idm1174748720">
+        <title>Detectors</title>
+        <para id="import-auto-idm1167857168">Analytes that have been separated after the applying the voltage can be detected by many detection methods. The most common method is UV-visible absorbance. The detection takes place across the capillary with a small portion of the capillary acting as the detection cell. The on-tube detection cell is usually made optically transparent by scraping off the polyimide coating and coating it with another optically transparent material so that the capillary would not break easily. For species that do not have a chromophore, a chromophore can be added to the buffer solution. When the analyte passes by, there would be a decrease in signal. This decreased signal will correspond to the amount of analyte present.  Other common detection techniques employable in CE are fluorescence and mass spectrometry (MS).</para></section>
+    </section>
+    <section id="import-auto-idm1138940032">
+      <title>Theory</title>
+      <para id="import-auto-idm1198371568">In CE, the sample is introduced into the capillary by the above-mentioned methods.  A high voltage is then applied causing the ions of the sample to migrate towards the electrode in the destination reservoir, in this case, the cathode. Sample components migration and separation are determined by two factors, electrophoretic mobility and electroosmotic mobility.</para>
+      <section id="import-auto-idm1064906656">
+        <title>Electrophoretic mobility</title>
+        <para id="import-auto-idm819136976">The electrophoretic mobility, μ<sub>ep,</sub> is inherently dependent on the properties of the solute and the medium in which the solute is moving. Essentially, it is a constant value, that can be calculated as given by <link target-id="eip-826"/>, where q is the solute`s charge, η is the buffer viscosity and r is the solutes radius.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-826"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>μ</m:mi>
+                    <m:mi mathvariant="italic">ep</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mi>q</m:mi>
+                    <m:mo stretchy="false">/</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mrow>
+                <m:mi mathvariant="italic">πηr</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{μ} rsub {ep}   = q/6πηr</m:annotation>
+            </m:semantics>
+          </m:math></equation><para id="import-auto-idm285106688">The electrophoretic velocity, v<sub>ep</sub>, is dependent on the electrophoretic mobility and the applied electric field, E (<link target-id="eip-59"/>). </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-59"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mi mathvariant="italic">ep</m:mi>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>μ</m:mi>
+                    <m:mi mathvariant="italic">ep</m:mi>
+                  </m:msub>
+                </m:mrow>
+                <m:mi>E</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{v} rsub {ep}   =  {μ} rsub {ep} E</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm837920304">Thus, when solutes have a larger charge to size ratio the electrophoretic mobility and velocity will increase. Cations and the anion would move in opposing directions corresponding to the sign of the electrophoretic mobility with is a result of their charge. Thus, neutral species that have no charge do not have an electrophoretic mobility.</para>
+      </section>
+      <section id="import-auto-idm1193463744">
+        <title>Electroosmotic mobility</title>
+        <para id="import-auto-idm319365680">The second factor that controls the migration of the solute is the electroosmotic flow. With zero charge, it is expected that the neutral species should remain stationary. However, under normal conditions, the buffer solution moves towards the cathode as well. The cause of the electroosmotic flow is the electric double layer that develops at the silica solution interface. </para>
+        <para id="import-auto-idm1181513392">At pH more than 3, the abundant silanol (-OH) groups present on the inner surface of the silica capillary, de-protonate to form negatively charged silanate ions (-SiO<sup>-</sup>). The cations present in the buffer solution will be attracted to the silanate ions and some of them will bind strongly to it forming a fixed layer. The formation of the fixed layer only partially neutralizes the negative charge on the capillary walls. Hence, more cations than anions will be present in the layer adjacent to the fixed layer, forming the diffuse layer. The combination of the fixed layer and diffuse layer is known as the double layer as shown in <link target-id=" import-auto-idm642904432"/>.  The cations present in the diffuse layer will migrate towards the cathode, as these cations are solvated the solution will also flow with it, producing the electroosmotic flow. The anions present in the diffuse layer are solvated and will move towards the anode. However, as there are more cations than anions the cations will push the anions together with it in the direction of the cathode. Hence, the electroosmotic flow moves in the direction of the cathode. </para><figure id="import-auto-idm642904432"><media id="import-auto-idm510331760" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 6-6322.jpg" width="500" print-width="4in"/>
+          </media>
+        <caption>An illustration of the electric double layer and movement of the species in solution. Adapted from D. Harvey, <emphasis effect="italics">Analytical Chemistry 2.0(e-textbook),</emphasis> 851.</caption></figure><para id="import-auto-idm551868176">The electroosmotic mobility, μ<sub>eof</sub>, is described by <link target-id="eip-163"/>, where ξ is the zeta potential, ε is the buffer dielectric constant and η is the buffer viscosity. The electroosmotic velocity, v<sub>eof</sub>, is the rate at which the buffer moves through the capillary is given by <link target-id="eip-903"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-163"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>μ</m:mi>
+                  <m:mi mathvariant="italic">eof</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mi mathvariant="italic">ξε</m:mi>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi mathvariant="italic">πη</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{μ} rsub {eof} = {ξε} over {4πη}</m:annotation>
+            </m:semantics>
+          </m:math></equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-903"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">eo</m:mi>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>μ</m:mi>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">eo</m:mi>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mi>E</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{v} rsub {eo f} = { μ} rsub {eo f} E</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation></section>
+      <section id="import-auto-idm366235248">
+        <title>Zeta potential</title>
+        <para id="import-auto-idm245864112">The zeta potential, ξ, also known as the electrokinetic potential is the electric potential at the interface of the double layer. Hence, in our case, it is the potential of the diffuse layer that is at a finite distance from the capillary wall. Zeta potential is mainly affected and directly proportional to two factors:</para>
+        <list id="import-auto-idm661516032" list-type="enumerated" number-style="arabic">
+          <item>The thickness of the double layer. A higher concentration of cations possibly due to an increase in the buffer`s ionic strength would lead to a decrease in the thickness of the double layer. As the thickness of the double layer decreases, the zeta potential would decrease that results in the decrease of the electroosmotic flow.</item>
+          <item>The charge on the capillary walls. A greater density of the silanate ions corresponds to a larger zeta potential. The formation of silanate ions is pH dependent. Hence, at pH less than 2 there is a decrease in the zeta potential and the electroosmotic flow as the silanol exists in its protonated form. However, as the pH increases, there are more silanate ions formed causing an increase in zeta potential and hence, the electroosmotic flow.</item>
+        </list>
+      </section>
+      <section id="import-auto-idm831107184">
+        <title>Order of elution</title>
+        <para id="import-auto-idm818264272">Electroosmotic flow of the buffer is generally greater than the electrophoretic flow of the analytes. Hence, even the anions would move to the cathode as illustrated in <link target-id=" import-auto-idm1103562672"/>.  Small, highly charged cations would be the first to elute before larger cations with lower charge. This is followed by the neutral species which elutes as one band in the middle. The larger anions with low charge elute next and lastly, the highly charged small anion would have the longest elution time. This is clearly portrayed in the electropherogram in <link target-id="import-auto-idm840453056"/>.</para><figure id="import-auto-idm1103562672"><media id="import-auto-idm810672704" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 16-f0f8.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>An illustration of the order of elution of the charged species. Adapted from D. A. Skoog, D. M. West, F. J. Holler and S. R. Crouch,<emphasis effect="italics"> Fundamentals of Analytical Chemistry</emphasis>, Copyright Brooks Cole (2013).</caption></figure><figure id="import-auto-idm840453056"><media id="import-auto-idm1195361552" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 10-8edb.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>A typical electropherogram demonstrating the order of elution of cations and anions. Adapted from J. Sáiz, I. J. Koenka, T. Duc Mai, P. C. Hauser, C. García-Ruiz, <emphasis effect="italics">TrAC</emphasis>, 2014, <emphasis effect="bold">62. </emphasis>162. 
+</caption></figure></section>
+    </section>
+    <section id="import-auto-idm1171859696">
+      <title>Optimizing the CE experiment  </title>
+      <para id="import-auto-idm642432192">There are several components that can be varied to optimize the electropherogram obtained from CE. Hence, for any given setup certain parameters should be known:</para>
+      <list id="import-auto-idm1207023888" list-type="bulleted" bullet-style="bullet"><item>the total length of the capillary (L),</item>
+        <item>the length the solutes travel from the start to the detector (l),</item>
+        <item>the applied voltage (V).</item>
+      </list><section id="import-auto-idm1105728176">
+        <title>Reduction in migration time, t<sub>mn</sub></title>
+        <para id="import-auto-idm367000800">To shorten the analysis time, a higher voltage can be used or a shorter capillary tube can be used. However, it is important to note that the voltage cannot be arbitrarily high as it will lead to joule heating. Another possibility is to increase μ<sub>eof </sub>by increasing pH or decreasing the ionic strength of the buffer, <link target-id="eip-90"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-90"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>t</m:mi>
+                  <m:mi mathvariant="italic">mn</m:mi>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mtext>lL</m:mtext>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext>(μ</m:mtext>
+                      <m:mtext>ep</m:mtext>
+                    </m:msub>
+                    <m:mtext>+</m:mtext>
+                    <m:msub>
+                      <m:mtext>μ</m:mtext>
+                      <m:mtext>eof</m:mtext>
+                    </m:msub>
+                    <m:mtext>)V</m:mtext>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{t} rsub {mn} = {"lL"} over {{"(μ"} rsub {"ep"} "+" {"μ"} rsub {"eof"} ")V"}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation></section>
+      <section id="import-auto-idm569469408">
+        <title>Efficiency</title>
+        <para id="import-auto-idm816605680">In chromatography, the efficiency is given by the number of theoretical plates, N. In CE, there exist a similar parameter, <link target-id="eip-339"/>, where D is the solute`s diffusion coefficient. Efficiency increase s with an increase in voltage applied as the solute spends less time in the capillary there will be less time for the solute to diffuse. Generally, for CE, N will be very large.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-339"><m:math display="block"><m:semantics><m:mrow><m:mtext>N = </m:mtext><m:mfrac><m:msup><m:mtext>l</m:mtext><m:mtext>2</m:mtext></m:msup><m:mrow><m:mtext>2D</m:mtext><m:msub><m:mtext>t</m:mtext><m:mtext>mn</m:mtext></m:msub></m:mrow></m:mfrac><m:mtext>= </m:mtext><m:mfrac><m:mrow><m:msub><m:mtext>μ</m:mtext><m:mtext>tot</m:mtext></m:msub><m:mtext>Vl</m:mtext></m:mrow><m:mtext>2DL</m:mtext></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">"N = " {{"l"} ^ {"2"}} over {"2D" {"t"} rsub {"mn"}} "= " {{"μ"} rsub {"tot"} "Vl"} over {"2DL"}</m:annotation></m:semantics></m:math> </equation></section>
+      <section id="import-auto-idm306827760">
+        <title>Resolution between two peaks </title>
+        <para id="import-auto-idm552694288">The resolution between two peaks, R, is defined by <link target-id="eip-455"/>,  where Δv is the difference in velocity of two solutes and ṽ is the average velocity of two solutes. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-455"><m:math display="block"><m:semantics><m:mrow><m:mtext>R=</m:mtext><m:mfrac><m:msqrt><m:mtext>N</m:mtext></m:msqrt><m:mtext>4</m:mtext></m:mfrac><m:mtext> ×</m:mtext><m:mfrac><m:mtext>∆v</m:mtext><m:mi>ṽ</m:mi></m:mfrac></m:mrow><m:annotation encoding="StarMath 5.0">"R="   {sqrt {"N"}} over {"4"} " ×" {"∆v"} over {ṽ}</m:annotation></m:semantics></m:math></equation><para id="import-auto-idm1215918304">Substituting the equation by N gives <link target-id="eip-842"/>. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-842"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>R</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0.177</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mrow>
+                          <m:mi mathvariant="italic">ep</m:mi>
+                          <m:mi>,</m:mi>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mrow>
+                          <m:mi mathvariant="italic">ep</m:mi>
+                          <m:mi>,</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:msqrt>
+                  <m:mfrac>
+                    <m:mi>V</m:mi>
+                    <m:mrow>
+                      <m:mi>D</m:mi>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>μ</m:mi>
+                              <m:mi mathvariant="italic">av</m:mi>
+                            </m:msub>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi>μ</m:mi>
+                              <m:mi mathvariant="italic">eof</m:mi>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:msqrt>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">R=0.177 left ({μ} rsub {ep,1} - {μ} rsub {ep, 2} right ) sqrt {{V} over {D( {μ} rsub {av} + {μ} rsub {eof} )}}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm639732720">Therefore, increasing the applied voltage, V, will increase the resolution. However, it is not very effective as a 4-fold increase in applied voltage would only give a 2-fold increase in resolution. In addition, increase in N, the number of theoretical plates would result in better resolution.</para>
+      </section>
+      <section id="import-auto-idm444420224">
+        <title>Selectivity </title>
+        <para id="import-auto-idm837315280">In chromatography, selectivity, α, is defined as the ratio of the two retention factors of the solute. This is the same for CE, <link target-id="eip-21"/>, where t<sub>2 </sub>and t<sub>1</sub> are the retention times for the two solutes such that, α is more than 1.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-21"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>α</m:mtext>
+                <m:mtext>=</m:mtext>
+                <m:mfrac>
+                  <m:msub>
+                    <m:mtext>t</m:mtext>
+                    <m:mtext>2</m:mtext>
+                  </m:msub>
+                  <m:msub>
+                    <m:mtext>t</m:mtext>
+                    <m:mtext>1</m:mtext>
+                  </m:msub>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"α" "="   {{"t"} rsub {"2"}} over {{"t"} rsub {"1"}}</m:annotation>
+            </m:semantics>
+          </m:math></equation><para id="import-auto-idm510499744">Selectivity can be improved by adjusting the pH of the buffer solution. The purpose is to change the charge of the species being eluted. </para>
+      </section>
+    </section>
+    <section id="import-auto-idm265901856">
+      <title>Comparison between CE and HPLC</title><para id="import-auto-idm449696384">CE unlike High-performance liquid chromatography (HPLC) accommodates many samples and tends to have a better resolution and efficiency. A comparison between the two methods is given in Table <link target-id="import-auto-idm289887184"/>. </para><table id="import-auto-idm289887184" summary="Advantages and disadvantages of CE versus HPLC.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">CE</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">HPLC </emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Wider selection of analyte to be analyzed</entry>
+              <entry>Limited by the solubility of the sample</entry>
+            </row>
+            <row>
+              <entry>Higher efficiency, no stationary mass transfer term as there is no stationary phase</entry>
+              <entry>Efficiency is lowered due to the stationary mass transfer term (equilibration between the stationary and mobile phase)</entry>
+            </row>
+            <row>
+              <entry>Electroosmotic flow profile in the capillary is flat as a result no band broadening. Better peak resolution and sharper peaks</entry>
+              <entry>Rounded laminar flow profile that is common in pressure driven systems such as HPLC. Resulting in broader peaks and lower resolution</entry>
+            </row>
+            <row>
+              <entry>Can be coupled to most detectors depending on application</entry>
+              <entry>Some detectors require the solvent to be changed and prior modification of the sample before analysis</entry>
+            </row>
+            <row>
+              <entry>Greater peak capacity as it uses a very large number of theoretical plates, N</entry>
+              <entry>The peak capacity is lowered as N is not as large</entry>
+            </row>
+            <row>
+              <entry>High voltages are used when carrying out the experiment</entry>
+              <entry>No need for high voltage</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Advantages and disadvantages of CE versus HPLC.</caption>
+</table></section>
+    <section id="import-auto-idm366626464">
+      <title>Micellar electrokinetic chromatography </title><para id="import-auto-idm698789152">CE allows the separation of charged particles, and it is mainly compared to ion chromatography. However, no separation takes place for neutral species in CE. Thus, a modified CE technique named micellar electrokinetic chromatography (MEKC) can be used to separate neutrals based on its size and its affinity to the micelle.  In MEKC, surfactant species is added to the buffer solution at a concentration at which micelles will form. An example of a surfactant is sodium dodecyl sulfate (SDS) as seen in <link target-id=" import-auto-idm362298448"/>. The formation of the hydrophobic interior would allow the encapsulation of the neutral species. Whilst, the negatively charge hydrophilic exterior allows the molecule to be treated as an anion. Thus, it would move towards the cathode with a velocity less than the electroosmotic flow.</para><figure id="import-auto-idm362298448"><media id="import-auto-idm1072968224" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig 8.1.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>The structure of sodium dodecyl sulfate and its representation. An illustration of a cross section of a formed micelle. Adapted from D. Harvey, <emphasis effect="italics">Analytical Chemistry 2.0(e-textbook),</emphasis> 851.</caption></figure><para id="import-auto-idm526102896">Neutral molecules are in dynamic equilibrium between the bulk solution and interior of the micelle. In the absence of the micelle the neutral species would reach the detector at t<sub>0</sub> but in the presence of the micelle, it reaches the detector at t<sub>mc</sub>, where t<sub>mc</sub> is greater than t<sub>0</sub>. The longer the neutral molecule remains in the micelle, the longer it's migration time. Thus small, non-polar neutral species that favor interaction with the interior of the micelle would take a longer time to reach the detector than a large, polar species. Anionic, cationic and zwitter ionic surfactants can be added to change the partition coefficient of the neutral species. Cationic surfactants would result in positive micelles that would move in the direction of electroosmotic flow. This enables it to move faster towards the cathode. However, due to the fast migration, it is possible that insufficient time is given for the neutral species to interact with the micelle resulting in poor separation. Thus, all factors must be considered before choosing the right surfactant to be used. The mechanism of separation between MEKC and liquid chromatography is the same. Both are dependent on the partition coefficient of the species between the mobile phase and stationary phase. The main difference lies in the pseudo stationary phase in MEKC, the micelles. The micelle which can be considered the stationary phase in MEKC moves at a slower rate than the mobile ions. </para></section>
+    <section id="import-auto-idm548101056">
+      <title>Case study: the use of CE in separation of quantum dots (QD)</title>
+      <para id="import-auto-idm1189818928">Quantum dots are semiconductor nanocrystals that lie in the size range of 1-10 nm, and they have different electrophoretic mobility due to their varying sizes and surface charge. CE can be used to separate and characterize such species, and a method to characterize and separate CdSe QD in the aqueous medium has been developed. The QDs were synthesized with an outer layer of trioctylphosphine (TOP, <link target-id=" import-auto-idm450026928"/>) and trioctylphosphine oxide (TOPO, <link target-id=" import-auto-idm540753648"/>),  making the surface of the QD hydrophobic. The background electrolyte solution used was SDS, in order to make the QDs soluble in water and form a QD-TOPO/TOP-SDS complex. Different sizes of CdSe were used and the separation was with respect to the charge-to-mass ratio of the complexes. It was concluded from the study that the larger the CdSe core (i.e., the larger the charge-to-mass ratio) eluted out last. The electropherogram from the study is shown in <link target-id=" import-auto-idm496178352"/>, from which it is visible that good separation had taken place by using CE. Laser-induced fluorescence detection was used, the buffer system was SDS, and the pH of the system set up was fixed at 6.5. The pH is highly important in this case as the stability of the system and the separation is dependent on it. </para><figure id="import-auto-idm450026928"><media id="import-auto-idm512220384" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 4-a0f2.jpg" width="300" print-width="3in"/>
+        </media>
+      <caption>The structure of trioctylphosphine (TOP). </caption></figure><figure id="import-auto-idm540753648"><media id="import-auto-idm524722560" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 7-22c5.jpg" width="300" print-width="3in"/>
+        </media>
+      <caption>The structure of trioctylphosphine oxide (TOPO). </caption></figure><figure id="import-auto-idm496178352"><media id="import-auto-idm567011376" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 8-7e46.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>Electropherogram for a mixture of four different CdSe-TOPO/TOP-SDS complexes. Reproduced from C. Carrillo-Carrión, Y. Moliner-Martínez, B. M. Simonet, and M. Valcárcel, <emphasis effect="italics">Anal. Chem.</emphasis>, 2011, <emphasis effect="bold">83</emphasis>, 2807.</caption></figure></section>
+    <section id="import-auto-idm336433296">
+      <title>Bibliography</title>
+      <list id="import-auto-idm369870272" list-type="bulleted"><item>F. Rouessac and A. Rouessac, <emphasis effect="italics">Chemical Analysis: Modern Instrumentation Methods and Techniques,</emphasis> Wiley, 2007, 145- 181</item>
+        <item>C. Carrillo-Carrión, Y. Moliner-Martínez, B. M. Simonet, and M. Valcárcel, <emphasis effect="italics">Anal. Chem.,</emphasis> 2011, <emphasis effect="bold">83</emphasis>, 2807.</item>
+        <item>J. Sáiz, I. J. Koenka, T. Duc Mai, P. C. Hauser, and C. García-Ruiz, <emphasis effect="italics">TrAC-Trend Anal. Chem.</emphasis>, 2014, <emphasis effect="bold">62</emphasis>, 162.</item>
+        <item>D. A. Skoog, D. M. West, F. J. Holler and S. R. Crouch, <emphasis effect="italics">Fundamentals of Analytical Chemistry</emphasis>, Brooks Cole, 2013, 942.</item>
+        <item>D. Harvey, <emphasis effect="italics">Analytical Chemistry 2.0(e-textbook),</emphasis> 851. </item>
+        <item>The official site of the Nobel Prize. https://www.nobelprize.org/nobel_prizes/chemistry/laureates/1948/tiselius-bio.html</item>
+        <item>S. Hertjan., <emphasis effect="italics">Analyst</emphasis>, 2003, <emphasis effect="bold">128</emphasis>, 1307.    </item>
+        <item>University of North Carolina. Professor James W. Jorgenson. http://www.chem.unc.edu/people/faculty/jorgenson/</item>
+        <item>F. Sang, X. Huang, and J. Ren, <emphasis effect="italics">Electrophoresis</emphasis>, 2014, <emphasis effect="bold">35</emphasis>, 793.</item>
+      </list></section>
+  </content>
+</document>

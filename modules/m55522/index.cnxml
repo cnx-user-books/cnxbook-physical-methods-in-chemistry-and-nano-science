@@ -1,0 +1,149 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Dual Polarization Interferometry for Thin Film Characterization</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55522</md:content-id>
+  <md:title>Dual Polarization Interferometry for Thin Film Characterization</md:title>
+  <md:abstract/>
+  <md:uuid>d7261a6e-107e-4dec-9097-5a9845adca06</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165059885288">
+      <title>Introduction </title>
+      <section id="import-auto-id2564415">
+        <title>Overview </title>
+        <para id="import-auto-id1165060338112">As research interests begin to focus on progressively smaller dimensions, the need for nanoscale characterization techniques has seen a steep rise in demand. In addition, the wide scope of nanotechnology across all fields of science has perpetuated the application of characterization techniques to a multitude of disciplines. Dual polarization interferometry (DPI) is an example of a technique developed to solve a specific problem, but was expanded and utilized to characterize fields ranging surface science, protein studies, and crystallography. With a simple optical instrument, DPI can perform label-free sensing of refractive index and layer thickness in real time, which provides vital information about a system on the nanoscale, including the elucidation of structure-function relationships. </para>
+      </section>
+      <section id="import-auto-id1165054377252"><title>History </title><para id="import-auto-id1165059749618">DPI was conceived in 1996 by Dr. Neville Freeman and Dr. Graham Cross (<link target-id="eip-id1165516233789 "/>) when they recognized a need to measure refractive index and adlayer thickness simultaneously in protein membranes to gain a true understanding of the dynamics of the system. They patented the technique in 1998, and the instrument was commercialized by Farfield Group Ltd. in 2000. </para>
+        <figure id="eip-id1165516233789"><media id="NanoModuleFigure1" alt="NanoModule Figure 1.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 1.jpg" width="300" print-width="2.5in"/>
+</media><caption>English physicist Graham Cross. Copyright: Durham University. </caption></figure><para id="import-auto-id1165053154281">Freeman and Cross unveiled the first full publication describing the technique in 2003, where they chose to measure well-known protein systems and compare their data to X-ray crystallography and neutron reflection data. The first system they studied was sulpho-NHS-LC-biotin coated with streptavidin and a biotinylated peptide capture antibody, and the second system was BS<sup>3</sup> coated with anti-HSA. Molecular structures are shown in <link target-id="eip-id1167475363923 "/>. Their results showed good agreement with known layer thicknesses, and the method showed clear advantages over neutron reflection and surface plasmon resonance. A schematic and picture of the instrument used by Freeman and Cross in this publication is shown in <link target-id="eip-id1167013043909"/> and <link target-id="eip-id1167011314688"/>, respectively.</para><figure id="eip-id1167475363923"><media id="NanoModuleFigure2" alt="NanoModule Figure 2.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 2.jpg" width="500" print-width="5in"/>
+</media><caption>Molecular structures of (a) sulpho-NHS-LC-biotin and (b) <emphasis effect="italics">bis-</emphasis>(sulphosuccinimydyl) suberate (BS<sup>3</sup>). Reprinted with permission from G. H. Cross, A. A. Reeves, S. Brand, J. F. Popplewell, L. L. Peel, M. J. Swann, and N. J. Freeman, <emphasis effect="italics">Biosens. Bioelectron.</emphasis>, 2003, <emphasis effect="bold">19</emphasis>, 383. Copyright: Biosensors &amp; Bioelectronics (2003).</caption></figure><figure id="eip-id1167013043909"><media id="NanoModuleFigure3a" alt="NanoModule Figure 3a.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 3a.jpg" width="500" print-width="4in"/>
+</media>
+<caption>The first DPI schematic and instrument. Reprinted with permission from G. H. Cross, A. A. Reeves, S. Brand, J. F. Popplewell, L. L. Peel, M. J. Swann, and N. J. Freeman, <emphasis effect="italics">Biosens. Bioelectron.</emphasis>, 2003, <emphasis effect="bold">19</emphasis>, 383. Copyright: Biosensors &amp; Bioelectronics (2003). </caption></figure><figure id="eip-id1167011314688"><media id="NanoModuleFigure3b" alt="NanoModule Figure 3b.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 3b.jpg" width="500" print-width="4in"/>
+</media><caption>Picture of the DPI instrument used by Freeman and Cross. </caption></figure></section></section>
+    <section id="import-auto-id2154537">
+      <title>Instrumentation </title>
+      <section id="import-auto-id1165066255965">
+        <title>Theory </title>
+        <para id="import-auto-id1165065773049">The optical power of DPS comes from the ability to measure two different interference fringe patterns simultaneously in real time. Phase changes in these fringe patterns result from changes in refractive index and layer thickness that can be detected by the waveguide interferometer, and resolving these interference patterns provides refractive index and layer thickness values.  </para></section>
+      <section id="import-auto-id1165057480338"><title>Optics  </title><para id="import-auto-id1165059888348">A representation of the interferometer is shown in <link target-id="eip-id1165623223808 "/>. The interferometer is composed of a simplified slab waveguide, which guides a wave of light in one transverse direction without scattering. A broad laser light is shone on the side facet of stacked waveguides separated with a cladding layer, where the waveguides act as a sensing layer and a reference layer that produce an interference pattern in a decaying (evanescent) electric field.  </para><figure id="eip-id1165623223808"><media id="NanoModuleFigure4" alt="NanoModule Figure 4.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 4.jpg" width="600" print-width="5in"/>
+</media>
+<caption>Basic representation of a slab waveguide interferometer. Reprinted with permission from M. Wang, S. Uusitalo, C. Liedert, J. Hiltunen, L. Hakalahti, and R. Myllyla, <emphasis effect="italics">Appl. Optics</emphasis>, 2012, <emphasis effect="bold">12</emphasis>, 1886. Copyright: Applied Optics (2012). </caption></figure><para id="import-auto-id1165064703616">A full representation of DPI theory and instrumentation is shown in <link target-id="eip-id1165624190512"/>  and <link target-id="eip-id1165621704088"/>, respectively. The layer thickness and refractive index measurements are determined by measuring two phase changes in the system simultaneously because both transverse-electric and transverse-magnetic polarizations are allowed through the waveguides. Phase changes in each polarization of the light wave are lateral shifts of the wave peak from a given reference peak. The phase shifts are caused by changes in refractive index and layer thickness that result from molecular fluctuations in the sample. Switching between transverse-electric and transverse-magnetic polarizations happens very rapidly at 2 ms, where the switching mechanism is performed by a liquid crystal wave plate. This enables real-time measurements of the parameters to be obtained simultaneously. </para><figure id="eip-id1165624190512"><media id="NanoModuleFigure5" alt="NanoModule Figure 5.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 5.jpg" width="600" print-width="4.5in"/>
+</media><caption>DPI sensing apparatus and fringe pattern collection from transverse-magnetic and transverse-electric polarizations of light. Adapted from J. Escorihuela, M.A. Gonzalez-Martinez, J.L. Lopez-Paz, R. Puchades, A. Maquieira, and D. Gimenez-Romero, <emphasis effect="italics">Chem. Rev</emphasis>., 2015, <emphasis effect="bold">115</emphasis>, 265. Copyright: Chemical Reviews, (2015).</caption></figure><figure id="eip-id1165621704088"><media id="NanoModuleFigure6" alt="NanoModule Figure 6.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 6.jpg" width="600" print-width="5in"/>
+</media><caption>Fringe pattern detection of the waveguides and phase change determination between the sensing and reference interference patterns. Adapted from J. Escorihuela, M.A. Gonzalez-Martinez, J.L. Lopez-Paz, R. Puchades, A. Maquieira, and D. Gimenez-Romero, <emphasis effect="italics">Chem. Rev</emphasis>., 2015, <emphasis effect="bold">115</emphasis>, 265. Copyright: Chemical Reviews, (2015). </caption></figure></section></section>
+    <section id="import-auto-id1165066502864">
+      <title>Comparison of DPI with other techniques </title>
+      <section id="import-auto-id1165078221035">
+        <title>Initial DPI evaluations </title>
+        <para id="import-auto-id1165060492485">The first techniques rigorously compared to DPI were neutron reflection (NR) and X-ray diffraction. These studies demonstrated that DPI had a very high precision of 40 pm, which is comparable to NR and superior to X-ray diffraction. Additionally, DPI can provide real time information and conditions similar to an in-vivo environment, and the instrumental requirements are far simpler than those for NR. However, NR and X-ray diffraction are able to provide structural information that DPI cannot determine.  </para></section>
+      <section id="import-auto-id1165060319409"><title>DPI comparison with orthogonal analytical techniques</title><para id="import-auto-id1165064656559">Comparisons between DPI and alternative techniques have been performed since the initial evaluations, with techniques including surface plasmon resonance (SPR), atomic force microscopy (AFM), and quartz crystal microbalance with dissipation monitoring (QCM-D). </para>
+        <para id="import-auto-id1165055079806">SPR is well-established for characterizing protein adsorption and has been used before DPI was developed. These techniques are very similar in that they both use an optical element based on an evanescent field, but they differ greatly in the method of calculating the mass of adsorbed protein. Rigorous testing showed that both tests give very accurate results, but their strengths differ. Because SPR uses spot-testing with an area of 0.26 mm<sup>2 </sup>while DPI uses the average measurements over the length of the entire 15 mm chip, SPR is recommended for use in kinetic studies where diffusion in involved. However, DPI shows much greater accuracy than SPR when measuring refractive index and layer thickness.</para><para id="import-auto-id1165057908990"><link url="http://cnx.org/contents/0b9311a0-9ebe-4702-8dd0-7e61f883dd7b@1" window="new"> Atomic Force Microscopy </link> is a very different analytical technique than DPI because it is a type of microscopy used for high-resolution surface characterization. Hence, AFM and DPI are well-suited to be used in conjunction because AFM can provide accurate molecular structures and surface mapping while DPI provides layer thickness that AFM cannot determine. </para><para id="import-auto-id1165067745988">QCM-D is a technique that can be used with DPI to provide complementary data. QCM-D differs from DPI by calculating both mass of the solvent and the mass of the adsorbed protein layer. These techniques can be used together to determine the amount of hydration in the adsorbed layer. QCM-D can also quantify the supramolecular conformation of the adlayer using energy dissipation calculations, while DPI can detect these conformational changes using birefringence, thus making these techniques orthogonal. One way that DPI is superior to QCM-D is that the latter techniques loses accuracy as the film becomes very thin, while DPI retains accuracy throughout the angstrom scale. </para>
+        <para id="import-auto-id1165060331857">A tabulated representation of these techniques and their ability to measure structural detail, in-vivo<emphasis effect="italics"/>conditions, and real time data is shown in <link target-id="eip-70"/>.  </para><table id="eip-70" summary="table">
+<tgroup cols="4"><tbody>
+
+
+  <row>
+    <entry><emphasis effect="bold">Technique</emphasis></entry>
+    <entry><emphasis effect="bold">Real time</emphasis></entry>
+    <entry><emphasis effect="bold">Close to in-vivo<sup>a</sup></emphasis></entry>
+    <entry><emphasis effect="bold">Structural details</emphasis></entry>
+  </row>
+  <row>
+    <entry>QCM-D</entry>
+    <entry>Yes</entry>
+    <entry>Yes</entry>
+    <entry>Medium</entry>
+  </row>
+  <row>
+    <entry>SPR</entry>
+    <entry>Yes</entry>
+    <entry>Yes</entry>
+    <entry>Low</entry>
+  </row>
+  <row>
+    <entry>X-ray</entry>
+    <entry>No</entry>
+    <entry>No</entry>
+    <entry>Very high</entry>
+  </row>
+  <row>
+    <entry>AFM</entry>
+    <entry>No</entry>
+    <entry>No</entry>
+    <entry>High</entry>
+  </row>
+  <row>
+    <entry>NR</entry>
+    <entry>No</entry>
+    <entry>Yes</entry>
+    <entry>(High</entry>
+  </row>
+  <row>
+    <entry>DPI</entry>
+    <entry>Yes</entry>
+    <entry>Yes</entry>
+    <entry>Medium</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup><caption>Comparison of DPI with other analytical techniques. Data reproduced from J. Escorihuela, M. A. Gonzalez-Martinez, J. L. Lopez-Paz, R. Puchades, A. Maquieira, and D. Gimenez-Romero, <emphasis effect="italics">Chem. Rev</emphasis>., 2015, <emphasis effect="bold">115</emphasis>, 265.<sup>a</sup> Close to in-vivo means that the sensor can provide information that is similar to those experiences under in-vivo conditions. Copyright: Chemical Reviews, (2015). </caption>
+</table></section></section>
+    <section id="import-auto-id1165064445101">
+      <title>Applications of DPI</title>
+      <section id="import-auto-id1165060322296">
+        <title>Protein Studies</title>
+        <para id="import-auto-id1165066724404">DPI has been most heavily applied to protein studies. It has been used to elucidate membrane crystallization, protein orientation in a membrane, and conformational changes. It has also been used to study protein-protein interactions, protein-antibody interactions, and the stoichiometry of binding events.</para>
+      </section>
+      <section id="import-auto-id1165064825051"><title>Thin film studies</title><para id="import-auto-id1165057951171">Since its establishment using protein interaction studies, DPI has seen its applications expanded to include thin film studies. DPI was compared to ellipsometry and QCM-D studies to indicate that it can be applied to heterogeneous thin films by applying revised analytical formulas to estimate the thickness, refractive index, and extinction coefficient of heterogeneous films that absorb light. A non-uniform density distribution model was developed and tested on polyethylenimine deposited onto silica and compared to QCD-M measurements. Additionally, this revised model was able to calculate the mass of multiple species of molecules in composite films, even if the molecules absorbed different amounts of light. This information is valuable for providing surface composition. The structure of polyethylenimine used to form an adsorbing film is shown in <link target-id="eip-id1168187480904"/>. </para><figure id="eip-id1168187480904"><media id="NanoModuleFigure7" alt="NanoModule Figure 7.">
+  <image mime-type="image/png" src="../../media/NanoModule Figure 7.png" width="400" print-width="3in"/>
+</media><caption>Structure of polyethylenimine used to form a thin film for DPI measurements. </caption></figure><para id="import-auto-id1165065117421">A challenge of measuring layer thickness in thin films such as polyethylenimine is that DPI’s evanescent field will create inaccurate measurements in inhomogeneous films as the film thickness increases. An error of approximately 5% was seen when layer thickness was increased to 90 nm. Data from this study determining the densities throughout the polyethylenimine film are shown in <link target-id="eip-id1168188219855"/>.</para><figure id="eip-id1168188219855"><media id="NanoModuleFigure8" alt="NanoModule Figure 8.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 8.jpg" width="700" print-width="5in"/>
+</media><caption>Density distribution of a polyethylenimine film using heterogeneous layer equations for DPI and QCM-D. Reproduced from P. D. Coffey, M. J.Swann, T. A. Waigh, Q. Mua, and J. R. Lu, <emphasis effect="italics">RSC Adv.</emphasis>, 2013, <emphasis effect="bold">3</emphasis>, 3316.</caption></figure></section><section id="import-auto-id1165053826745"><title>Thin layer adsorption studies</title><para id="import-auto-id1165065780566">Similar to thin film characterization studies, thin layers of adsorbed polymers have also been elucidated using DPI. It has been demonstrated that two different adsorption conformations of polyacrylamide form on resin, which provides useful information about adsorption behaviors of the polymer. This information is industrially important because polyacrylamide is widely used through the oil industry, and the adsorption of polyacrylamide onto resin is known to affect the oil/water interfacial stability.  </para>
+        <para id="import-auto-id1165053610728">Initial adsorption kinetics and conformations were also illuminated using DPI on bottlebrush polyelectrolytes. Bottlebrush polyelectrolytes are show in <link target-id="eip-id1163855364291"/>. It was shown that polyelectrolytes with high charge density initially adsorbed in layers that were parallel to the surface, but as polyelectrolytes were replaced with low charge density species, alignment changed to prefer perpendicular arrangement to the surface. </para><figure id="eip-id1163855364291"><media id="NanoModuleFigure9" alt="NanoModule Figure 9.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 9.jpg" width="700" print-width="6in"/>
+</media><caption>A representation of bottlebrush polyelectrolytes and how they adsorb to a layer differently over time as determined by DPI. Reproduced from G. Bijelic, A. Shovsky, I. Varga, R. Makuska, and P. M. Claesson, <emphasis effect="italics">J. Colloid Interf. Sci.</emphasis>, 2010, <emphasis effect="bold">348, </emphasis>189. Copyright: Journal of Colloid and Interface Science, (2010). </caption></figure></section><section id="import-auto-id1165083474383"><title>Hg<sup>2+</sup> biosensing studies </title><para id="import-auto-id1165063581501">In 2009, it was shown by Wang et al. that DPI could be used for small molecule sensing. In their first study describing this use of DPI, they used single stranded DNA that was rich in thymine to complex Hg<sup>2+</sup> ions. When DNA complexed with Hg<sup>2+</sup>, the DNA transformed from a random coil structure to a hairpin structure. This change in structure could be detected by DPI at Hg<sup>2+</sup> concentrations smaller than the threshold concentration allowed in drinking water, indicating the sensitivity of this label-free method for Hg<sup>2+</sup> detection.  High selectivity was indicated when the authors did not observe similar structural changes for Mg<sup>2+</sup>, Ca<sup>2+</sup>, Mn<sup>2+</sup>, Fe<sup>3+</sup>, Cd<sup>2+</sup>, Co<sup>2+</sup>, Ni<sup>2+</sup>, Zn<sup>2+</sup> or Pb<sup>2+</sup> ions. A graphical description of this experiment is shown in <link target-id="eip-id1167138903745"/>. Wang et al. later demonstrated that biosensing of small molecules and other metal cations can be achieved using other forms of functionalized DNA that specifically bind the desired analytes. Examples of molecules detected in this manner are shown in <link target-id="eip-id1167138841778"/>. </para><figure id="eip-id1167138903745"><media id="NanoModuleFigure10" alt="NanoModule Figure 10.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 10.jpg" width="600" print-width="5in"/>
+</media><caption>Selective Hg<sup>2+ </sup>detection using single strand DNA to complex the cation and measure the conformational changes in the DNA with DPI. Reproduced from J. Escorihuela, M. A. Gonzalez-Martinez, J. L. Lopez-Paz, R. Puchades, A. Maquieira, and D. Gimenez-Romero, <emphasis effect="italics">Chem. Rev</emphasis>., 2015, <emphasis effect="bold">115</emphasis>, 265. Copyright: Chemical Reviews, (2015). </caption></figure><figure id="eip-id1167138841778"><media id="NanoModuleFigure11" alt="NanoModule Figure 11.">
+  <image mime-type="image/jpeg" src="../../media/NanoModule Figure 11.jpg" width="600" print-width="6in"/>
+</media><caption>Small molecules detected using DPI measurements of functionalized DNA biosensors. Reproduced from J. Escorihuela, M. A. Gonzalez-Martinez, J. L. Lopez-Paz, R. Puchades, A. Maquieira, and D. Gimenez-Romero, <emphasis effect="italics">Chem. Rev</emphasis>., 2015, <emphasis effect="bold">115</emphasis>, 265. Copyright: Chemical Reviews, (2015). </caption></figure></section></section>
+    <section id="import-auto-id1165060461630"><title>Bibliography</title><list id="eip-537"><item>J. Escorihuela, M. A. Gonzalez-Martinez, J. L. Lopez-Paz, R. Puchades, A. Maquieira, and D. Gimenez-Romero, <emphasis effect="italics">Chem. Rev.,</emphasis> 2015, <emphasis effect="bold">115,</emphasis> 265.</item>
+
+<item>G. H. Cross, Y. Ren, and N. J. Freeman, <emphasis effect="italics">J. Appl. Phys</emphasis>., 1999, <emphasis effect="bold">86</emphasis>, 6483.</item>
+
+<item>N. J. Freeman and G. H. Cross, Patent WO9822807-A, May 28, 1998.</item>
+
+<item>G. H. Cross, A. A. Reeves, S. Brand, J. F. Popplewell, L. L. Peel, M. J. Swann, and N. J. Freeman, <emphasis effect="italics">Biosens. Bioelectron., </emphasis>2003, <emphasis effect="bold">19</emphasis>, 383. </item>
+
+<item>A.W. Sonesson, T.H. Callisen, H. Brismar, and U.M. Elofsson, <emphasis effect="italics">Colloid Surface B</emphasis>,<emphasis effect="italics"/>2007, <emphasis effect="bold">54</emphasis>, 236.</item>
+
+<item>M. Wang, S. Uusitalo, C. Liedert, J. Hiltunen, L. Hakalahti, and R. Myllyla, <emphasis effect="italics">Appl. Optics, </emphasis>2012, <emphasis effect="bold">12</emphasis>, 1886.</item>
+
+<item>M. Duan, K. Li, J. Zhang, B. Jing, Y. Xiong, H. Wang, and J. Tao, <emphasis effect="italics">RSC Adv., </emphasis>2015, DOI: 10.1039/C5RA00291E. </item>
+
+<item>P. D. Coffey, M. J.Swann, T. A. Waigh, Q. Mua, and J. R. Lu, <emphasis effect="italics">RSC Adv.</emphasis>, 2013, <emphasis effect="bold">3</emphasis>, 3316.</item>
+
+<item>G. Bijelic, A. Shovsky, I. Varga, R. Makuska, and P. M. Claesson, <emphasis effect="italics">J. Colloid Interf. Sci.</emphasis>, 2010, <emphasis effect="bold">348, </emphasis>189. </item>
+
+<item>M. J. Swann, L. L. Peel, S. Carrington, and N. J. Freeman, <emphasis effect="italics">Anal. Biochem.</emphasis>, 2004, <emphasis effect="bold">329</emphasis>, 190. </item>
+
+<item>Y. Wang, Y. Zheng, F. Yanga, and X. Yang, <emphasis effect="italics">Chem. Commun</emphasis>., 2012, <emphasis effect="bold">48</emphasis>, 2873. </item>
+</list>
+
+
+
+
+      
+    </section></content>
+</document>

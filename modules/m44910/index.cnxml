@@ -1,0 +1,119 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Magnetic Force Microscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m44910</md:content-id>
+  <md:title>Magnetic Force Microscopy</md:title>
+  <md:abstract/>
+  <md:uuid>0d53e6aa-8cc7-4725-a90e-4094be8db9fb</md:uuid>
+</metadata>
+
+<content>
+    <section id="eip-585"><title>Introduction</title><para id="import-auto-idm1053846784">Magnetic force microscopy (MFM) is a natural extension of scanning tunneling microscopy (STM), whereby both the physical topology of a sample surface and the magnetic topology may be seen. Scanning tunneling microscopy was developed in 1982 by Gerd Binnig and Heinrich Rohrer, and the two shared the 1986 Nobel prize for their innovation. Binnig later went on to develop the first atomic force microscope (AFM) along with Calvin Quate and Christoph Gerber (<link target-id="fig-1"/>). Magnetic force microscopy was not far behind, with the first report of its use in 1987 by Yves Martin and H. Kumar Wickramasinge (<link target-id="fig-2"/>). An AFM with a magnetic tip was used to perform these early experiments, which proved to be useful in imaging both static and dynamic magnetic fields. </para><figure id="fig-1"><media id="pic1" alt="">
+    <image mime-type="image/png" src="../../media/Picture 10-db88.png" width="300" print-width="2in"/>
+  </media>
+  
+<caption>Photograph of German physicist Gerd Binnig (left) and Swiss physicist Heinrich Rohrer (right). Reproduced with permission from “The Scanning Tunneling Microscope.” Nobelprize.org. Nobel Media AB, 2017. Copyright Nobel Media AB 2017.
+  </caption></figure><figure id="fig-2"><media id="pic2" alt="">
+    <image mime-type="image/png" src="../../media/Picture 9-dc4e.png" width="300" print-width="2in"/>
+  </media>
+  
+<caption>H. Kumar Wickramasinge, now a professor at the University of California, Irvine. Reproduced from “H. Kumar Wickramasinge.” UCI Samueli, University of California, Irvine. Copyright The Henry Samueli School of Engineering, 2017. Nobelprize.org. Nobel Media AB, 2017. Copyright Nobel Media AB 2017.
+  </caption></figure><para id="import-auto-idm1083111744">MFM, AFM, and STM all have similar instrumental setups, all of which are based on the early scanning tunneling microscopes.  In essence, STM uses a very small conductive tip attached to a piezoelectric cylinder to carefully scan across a small sample space. The electrostatic forces between the conducting sample and tip are measured, and the output is a picture that shows the surface of the sample. AFM and MFM are essentially derivative types of STM, which explains why a typical MFM device is very similar to an STM, with a piezoelectric driver and magnetized tip as seen in <link target-id="import-auto-idm1042434400"/> and <link target-id="fig-41"/>.</para><figure id="import-auto-idm1042434400"><media id="import-auto-idm289480768" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-57cd.png" width="600" print-width="5in"/>
+      </media>
+    <caption>This image shows a typical MFM setup. Reproduced with permission from A. Méndez-Vilas, <emphasis effect="italics">Modern research and educational topics in microscopy. Vol. 2: Applications in physical/chemical sciences, techniques</emphasis>. Formatex, Badajoz (2007).. Copyright: FORMATEX 2007.</caption></figure><figure id="fig-41"><media id="pic41" alt="">
+    <image mime-type="image/png" src="../../media/Figure4.png" width="400" print-width="4in"/>
+  </media><caption>Illustration of an MFM tip on the instrument cantilever.</caption></figure><para id="eip-207">One may notice that this MFM instrument very closely resembles an atomic force microscope, and this is for good reason. The simplest MFM instruments are no more than AFM instruments with a magnetic tip. The differences between AFM and MFM lie in the data collected and its processing. Where AFM gives topological data through tapping, noncontact, or contact mode, MFM gives both topological (tapping) and magnetic topological (non-contact) data through a two-scan process known as interleave scanning. The relationships between basic STM, AFM, and MFM are summarized in <link target-id="import-auto-idm318057456"/>. </para><table id="import-auto-idm318057456" summary="A summary of the capabilities of MFM, SPM, and AFM instrumentation.">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <thead>
+          <row>
+            <entry>Technique</entry>
+            <entry>Samples</entry>
+            <entry>Qualities Observed</entry>
+            <entry>Modes</entry>
+            <entry>Benefits</entry>
+            <entry>Limitations</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <emphasis effect="bold">MFM</emphasis>
+            </entry>
+            <entry>Any film or powder surface; magnetic</entry>
+            <entry>Electrostatic interactions; magnetic forces/domains; van der Waals' interactions; topology; morphology</entry>
+            <entry>Tapping; non-contact</entry>
+            <entry>Magnetic and physical properties; high resolution</entry>
+            <entry>Resolution depends on tip size; different tips for various applications; complicated data processing and analysis</entry>
+          </row>
+
+          <row>
+            <entry>
+              <emphasis effect="bold">STM</emphasis>
+            </entry>
+            <entry>Only conductive surfaces</entry>
+            <entry>Topology; morphology</entry>
+            <entry>Constant height; constant current</entry>
+            <entry>Simplest instrumental setup; many variations</entry>
+            <entry>Resolution depends on tip size; tips wear out easily; rare technique</entry>
+          </row>
+
+
+          <row>
+            <entry>
+              <emphasis effect="bold">AFM</emphasis>
+            </entry>
+            <entry>Any film or powder surface</entry>
+            <entry>Particle size; topology; morphology</entry>
+            <entry>Tapping;contact; non-contact</entry>
+            <entry>Common, standardized; often do not need special tip; ease of data analysis</entry>
+            <entry>Resolution depends on tip size; easy to break tips; slow process</entry>
+          </row>
+</tbody>
+      
+
+
+
+
+
+</tgroup><caption>A summary of the capabilities of MFM, SPM, and AFM instrumentation.</caption>
+</table></section><section id="eip-134"><title>Data collection</title><para id="import-auto-idm862880784">Interleave scanning, also known as two-pass scanning, is a process typically used in an MFM experiment. The magnetized tip is first passed across the sample in tapping mode, similar to an AFM experiment, and this gives the surface topology of the sample. Then, a second scan is taken in non-contact mode, where the magnetic force exerted on the tip by the sample is measured. These two types of scans are shown in <link target-id="fig-5"/>.</para><figure id="fig-5"><media id="pic5" alt="">
+    <image mime-type="image/png" src="../../media/Picture 8-3a25.png" width="400" print-width="4in"/>
+  </media>
+  
+<caption>Interleave (two-pass) scanning across a sample surface.</caption></figure><para id="import-auto-idm1041239056">In non-contact mode (also called dynamic or AC mode), the magnetic force gradient from the sample affects the resonance frequency of the MFM cantilever, and can be measured in three different ways.</para>
+
+<list id="eip-488"><item>Phase detection: the phase difference between the oscillation of the cantilever and piezoelectric source is measured</item>
+<item>Amplitude detection: the changes in the cantilever’s oscillations are measured</item>
+<item>Frequency modulation: the piezoelectric source’s oscillation frequency is changed to maintain a 90° phase lag between the cantilever and the piezoelectric actuator. The frequency change needed for the lag is measured.</item></list>
+
+
+    <para id="import-auto-idm328517232">Regardless of the method used in determining the magnetic force gradient from the sample, a MFM interleave scan will always give the user information about both the surface and magnetic topology of the sample. A typical sample size is 100x100 μm, and the entire sample is scanned by rastering from one line to another. In this way, the MFM data processor can compose an image of the surface by combining lines of data from either the surface or magnetic scan. The output of an MFM scan is two images, one showing the surface and the other showing magnetic qualities of the sample. An idealized example is shown in <link target-id="fig-6"/>.</para><figure id="fig-6"><media id="pic6" alt="">
+    <image mime-type="image/png" src="../../media/Picture 5-a093.png" width="500" print-width="5in"/>
+  </media>
+  
+<caption>Idealized images of a mixture of ferromagnetic and non-ferromagnetic nanoparticles from MFM.
+  </caption></figure><section id="eip-590"><title>Types of MFM tips</title><para id="eip-505">Any suitable magnetic material or coating can be used to make an MFM tip. Some of the most commonly used standard tips are coated with FeNi, CoCr, and NiP, while many research applications call for individualized tips such as carbon nanotubes. The resolution of the end image in MFM is dependent directly on the size of the tip, therefore MFM tips must come to a sharp point on the angstrom scale in order to function at high resolution. This leads to tips being costly, an issue exacerbated by the fact that coatings are often soft or brittle, leading to wear and tear. The best materials for MFM tips, therefore, depend on the desired resolution and application. For example, a high coercivity coating such as CoCr may be favored for analyzing bulk or strongly magnetic samples, whereas a low coercivity material such as FeNi might be preferred for more fine and sensitive applications.</para></section><section id="eip-871"><title>Data output and applications</title><para id="import-auto-idm1087834512">From an MFM scan, the product is a 2D scan of the sample surface, whether this be the physical or magnetic topographical image. Importantly, the resolution depends on the size of the tip of the probe; the smaller the probe, the higher the number of data points per square micrometer and therefore the resolution of the resulting image. MFM can be extremely useful in determining the properties of new materials, as in <link target-id="fig-7"/>, or in analyzing already known materials’ magnetic landscapes. This makes MFM particularly useful for the analysis of hard drives. As people store more and more information on magnetic storage devices, higher storage capacities need to be developed and emergency backup procedures for this data must be developed. MFM is an ideal procedure for characterizing the fine magnetic surfaces of hard drives for use in research and development, and also can show the magnetic surfaces of already-used hard drives for data recovery in the event of a hard drive malfunction. This is useful both in forensics and in researching new magnetic storage materials.</para><figure id="fig-7"><media id="pic7" alt="">
+    <image mime-type="image/png" src="../../media/Picture 4-2ef5.png" width="600" print-width="5in"/>
+  </media>
+  
+<caption>Images of Fe<sub>40</sub>Ni<sub>38</sub>Mo<sub>4</sub>B<sub>18</sub> ribbons from MFM. Left images: surface topography. Right images: magnetic topography. Reproduced with permission from I. García, N. Iturriza, J. José del Val, H. Grande, J. A. Pomposo, and J. González, <emphasis effect="italics">J. Magn. Magn. Mater.,</emphasis> 2010, <emphasis effect="bold">13</emphasis>, 1822. Copyright: Elsevier (2010).
+  </caption></figure><para id="import-auto-idm831695024">MFM has also found applications on the frontiers of research, most notably in the field of Spintronics. In general, Spintronics is the study of the spin and magnetic moment of solid-state materials, and the manipulation of these properties to create novel electronic devices. One example of this is quantum computing, which is promising as a fast and efficient alternative to traditional transistor-based computing. With regards to Spintronics, MFM can be used to characterize non-homogenous magnetic materials and unique samples such as dilute magnetic semiconductors (DMS). This is useful for research in magnetic storage such as MRAM, semiconductors , and magnetoresistive materials.</para>
+    </section>
+<section id="eip-73"><title>MFM for characterization of magnetic storage devices</title><para id="eip-750">In device manufacturing, the smoothness and/or roughness of the magnetic coatings of hard drive disks is significant in their ability to operate. Smoother coatings provide a low magnetic noise level, but stick to read/write heads, whereas rough surfaces have the opposite qualities. Therefore, fine tuning not only of the magnetic properties but the surface qualities of a given magnetic film is extremely important in the development of new hard drive technology. Magnetic force microscopy allows the manufacturers of hard drives to analyze disks for magnetic and surface topology, making it easier to control the quality of drives and determine which materials are suitable for further research. Industrial competition for higher bit density (bits per square millimeter), which means faster processing and increased storage capability, means that MFM is very important for characterizing films to very high resolution. </para></section> </section><section id="eip-878"><title>Conclusion</title><para id="eip-905">Magnetic force microscopy is a powerful surface technique used to deduce both the magnetic and surface topology of a given sample. In general, MFM offers high resolution, which depends on the size of the tip, and straightforward data once processed. The images outputted by the MFM raster scan are clear and show structural and magnetic features of a 100x100 μm square of the given sample. This information can be used not only to examine surface properties, morphology, and particle size, but also to determine the bit density of hard drives, features of magnetic computing materials, and identify exotic magnetic phenomena at the atomic level. As MFM evolves, thinner and thinner magnetic tips are being fabricated to finer applications, such as in the use of carbon nanotubes as tips to give high atomic resolution in MFM images. The customizability of magnetic coatings and tips, as well as the use of AFM equipment for MFM, make MFM an important technique in the electronics industry, making it possible to see magnetic domains and structures that otherwise would remain hidden.
+</para></section><section id="eip-249"><title>Bibliography</title><list id="import-auto-idm285121776" list-type="bulleted">
+      <item>I. García, N. Iturriza, J. José del Val, H. Grande, J. A. Pomposo, and J. González, <emphasis effect="italics">J. Magn. Magn. Mater.,</emphasis> 2010, <emphasis effect="bold">13</emphasis>, 1822.</item>
+      <item>Y. Martin and H. K. Wickramasinghe, <emphasis effect="italics">Appl. Phys. Lett.</emphasis> 1987, <emphasis effect="bold">50</emphasis>, 1455.</item>
+      <item>A. Méndez-Vilas, <emphasis effect="italics">Modern research and educational topics in microscopy. Vol. 2: Applications in physical/chemical sciences, techniques</emphasis>. Formatex, Badajoz (2007).</item>
+      <item>G. Persch and H. Strecker, <emphasis effect="italics">Ultramicroscopy.,</emphasis> 1992, <emphasis effect="italics">42-44</emphasis>, 1269.</item>
+      <item>S. Salapaka and M. Salapaka, <emphasis effect="italics">IEEE Control Syst. Mag.,</emphasis> 2008, <emphasis effect="bold">2</emphasis>,<emphasis effect="italics"/>65.</item>
+      <item>K. Tanaka, M. Yoshimura, and K. Ueda, <emphasis effect="italics">J. Nanomater.,</emphasis> 2009, 1.</item>
+      <item>I. Žutić, J. Fabian, and S. Das Sarma, <emphasis effect="italics">Rev. Mod. Phys.,</emphasis> 2004, <emphasis effect="bold">2</emphasis>, 323.</item>
+    </list>
+</section></content>
+</document>

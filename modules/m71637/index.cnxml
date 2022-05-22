@@ -1,0 +1,1127 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Semiconductors and Nanotechnology</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71637</md:content-id>
+  <md:title>Semiconductors and Nanotechnology</md:title>
+  <md:abstract/>
+  <md:uuid>90360dd1-5607-4fa5-9e52-19f83f6cd8af</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-idm1263517616">This module was written with the assistance of Alejandro Akerlundh. </para><section id="import-auto-idm1164164992">
+      <title>Introduction </title>
+      <para id="import-auto-idm1234055600">The fields of semiconductors and nanotechnology both rely heavily on analytical chemistry techniques to maintain the quality of the products and materials. Each of these fields requires very pure materials because of the significant changes in function that may result from tiny impurities. Analytical methods are used every day in these areas to ensure the purity of the materials and the functionality of the products. </para>
+      <section id="import-auto-idm222857872">
+        <title>Semiconductors</title>
+        <para id="import-auto-idm266500544">A semiconductor is a material that uses the excitation of electrons to conduct electricity. The advent of semiconductors began shortly after World War II in the 1940s due to funding for electronics and materials research development. The industry has grown over the past 70 years to become the fourth largest exporting industry in the United States. Worldwide sales of semiconductors reached $335 billion in 2015 and are expected to continue rising. Currently, there are four broad semiconductor applications: </para>
+        <list id="import-auto-idm230257808" list-type="bulleted">
+          <item>logic for data manipulation, </item>
+          <item>memory for information storage in computers, </item>
+          <item>microprocessors for software tasks,</item>
+          <item>converting analog to digital signals. </item>
+        </list>
+        <para id="import-auto-idm1166092448">Energy levels in bulk materials are considered to be grouped into bands of infinitesimally spaced levels. Conduction is achieved by exciting electrons from the highest occupied band (<emphasis effect="italics">valence band</emphasis>) to the lowest energy unoccupied band (<emphasis effect="italics">conduction band</emphasis>), see <link target-id="import-auto-idm1337362624 "/>. Once in the conduction band, electrons are free to move throughout the material and thus conduct electricity. In metals, the conduction band overlaps the valence band, so tiny amounts of energy are required to move electrons throughout the material. As a result, metals are conductive. Insulators have a substantial energy difference between the valence band and the conduction band, and so electrons are typically not able to be excited by the conduction band. Semiconductors arise when the valence band and the conduction band are reasonably close in energy, such that electrons can move between the two bands with relatively small energy inputs (<link target-id="import-auto-idm1337362624 "/>).</para><figure id="import-auto-idm1337362624"><media id="import-auto-idm1321800720" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 1-f0f9.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>Schematic representation of the valence and conduction energy bands in metals, semiconductors, and insulators. </caption></figure><para id="import-auto-idm1185102528">Typically, this energy comes in the form of thermal energy, though other forms of energy may be used. The difference between the valence band and the conduction band is known as the <emphasis effect="italics">band gap</emphasis>. If the band gap in a material is small without altering the chemical composition of that material, the material is said to be an <emphasis effect="italics">intrinsic semiconductor</emphasis>. However, semiconductors can be made by doping a pure material with another substance that introduces additional energy bands is called an <emphasis effect="italics">extrinsic semiconductor</emphasis>. In one case, an additional unoccupied band can be added slightly above the valence band of the pure material (<link target-id="import-auto-idm208286688"/>). This type of doping creates a p-type semiconductor because the pre-existing valence electrons are more easily excited to the new conduction band. Alternatively, an additional occupied band can be introduced that is slightly lower in energy than the pre-existing conduction band. The new valence band electrons can be efficiently excited to the conduction band, thus creating an n-type semiconductor (<link target-id="import-auto-idm208286688"/>). </para><figure id="import-auto-idm208286688"><media id="import-auto-idm1184199184" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 3-86ec.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>Schematic representation of n- and p-type extrinsic semiconductors (bands in doped semiconductors). </caption></figure><para id="import-auto-idm1604957024">Semiconductors are made from a variety of materials, but the most common semiconductors are made from highly pure silicon doped with either a group III element such as aluminum (to create a p-type semiconductor) or a group V element such as phosphorus (to form an n-type semiconductor). Doping with an element that has fewer valence electrons than the bulk material (e.g., silicon doped with boron) essentially creates “holes” near the valence band, which creates a p-type semiconductor (<link target-id="import-auto-idm208286688"/>). Conversely, adding a dopant with more valence electrons than the bulk material (e.g., silicon doped with phosphorus) adds electrons near the conduction band and thus creates an n-type semiconductor (<link target-id="import-auto-idm208286688"/>). These two doping principles allow semiconductors to be made from a wide variety of materials including GaN, BN, InN, and GaInAs. </para></section>
+      <section id="import-auto-idm230260656">
+        <title>Nanotechnology</title>
+        <para id="import-auto-idm1152016576">Nanotechnology is a rapidly growing industry in analytical chemistry as the engineering of functional systems at a molecular scale. Due to the unique properties of nanomaterials, especially their surface-area-to-mass ratio and quantum effects, they are being used in a variety of industries. nanotechnology is used in the selective incorporation into high-end products, especially in the automotive and aerospace industries. In the energy industry, nanotechnology has helped the development of new catalysts for use in fuel cells. Batteries have nanostructured composite electrode materials, and thin films can be used within solar cells. </para>
+        <para id="import-auto-idm1116267904">The change of the physical properties of nanoparticles as compared to bulk homologues is a result of an increased surface area to volume ratio. Their high surface area can improve the chemical conduction and performance of catalysis and structures such as electrodes (fuel cells and batteries). Other unique properties as a result of the high surface area of nanoparticles include increased strength and heat resistance. Because nanoparticles have dimensions below the critical wavelength of light, they obtain a level of transparency useful for packaging, cosmetics, and coatings. There are many types of nanoparticles, the main ones including metal oxide ceramic, metal, and silicate. </para>
+      </section>
+    </section>
+    <section id="import-auto-idm1112430288">
+      <title>Key analytical techniques</title>
+      <para id="import-auto-idm229376656">Many analytical techniques are needed for semiconductors and nanotechnology to detect minuscule amounts of impurities and to visualize structures on the nanoscale. <link target-id="import-auto-idm1161618160"/> lists some of these methods, what they are used for, and some of the limitations. All of these techniques are used in the semiconductor and electronics industry to guarantee the purity of the products.</para><table id="import-auto-idm1161618160" summary="Key analytical techniques and applications.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Technique</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Result </emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Detection limit</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Limitations</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Typical application</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Transmission electron microscopy (<link url="https://cnx.org/contents/uieDnVBC@24.1:e-zLWCNY@1/Transmission-Electron-Microscopy-An-Overview">TEM</link>) </entry>
+              <entry>Images of nanoscale objects</entry>
+              <entry>~45 pm</entry>
+              <entry>Cannot see color, artifacts may arise from sample prep</entry>
+              <entry>Determining size of nanoparticles</entry>
+            </row>
+            <row>
+              <entry>Activation analysis</entry>
+              <entry>Concentrations of trace impurities</entry>
+              <entry>&lt;1 ppb</entry>
+              <entry>Only allows 4-6 elements to be analyzed</entry>
+              <entry>Semiconductor quality control</entry>
+            </row>
+            <row>
+              <entry>Emission spectrography (flame test, plasma coupled, fluorescence emission) </entry>
+              <entry>Elemental analysis (concentration of each element)</entry>
+              <entry>~1 ng/mL (depends on element)</entry>
+              <entry>Destructive technique</entry>
+              <entry>Determination of alkali metal concentration in pharmaceuticals</entry>
+            </row>
+            <row>
+              <entry>Electron paramagnetic resonance spectroscopy (<link url="https://cnx.org/contents/uieDnVBC@24.1:fMnoCMmb@3/EPR-Spectroscopy-An-Overview">EPR</link>) </entry>
+              <entry>Environment around impurities with unpaired spins</entry>
+              <entry>&lt;1 ppm</entry>
+              <entry>Sample must have unpaired electrons; electron spins are excited by a magnetic field</entry>
+              <entry>Determine whether Mn impurities incorporated into semiconductor nanocrystal or adsorbed onto surface</entry>
+            </row>
+            <row>
+              <entry>Energy dispersive X-ray analysis (<link url="https://cnx.org/contents/uieDnVBC@24.1:vcZrdZIQ@1/An-Introduction-to-Energy-Dispersive-X-ray-Spectroscopy">EDS</link>) </entry>
+              <entry>Trace impurities of a sample</entry>
+              <entry>~1000 ppm</entry>
+              <entry>Destructive technique</entry>
+              <entry>Semiconductor quality control</entry>
+            </row>
+            <row>
+              <entry>Extended X-Ray absorption fine structure spectroscopy (<link url="https://cnx.org/contents/uieDnVBC@24.1:6U76FlTP@2/XAFS-Analysis-for-Arsenic-Adsorption-onto-Iron-Oxides">EXAFS</link>) </entry>
+              <entry>Microenvironment of impurity atom (type of doping)</entry>
+              <entry>~1 ppm</entry>
+              <entry>Doesn’t work as well for amorphous/ liquid samples</entry>
+              <entry>Detection of small concentrations of elements in the environment</entry>
+            </row>
+            <row>
+              <entry>Secondary ion mass spectrometry (<link url="https://cnx.org/contents/uieDnVBC@24.1:9MOuFsIk@2/Secondary-Ion-Mass-Spectrometry-SIMS">SIMS</link>)</entry>
+              <entry>Concentration of impurities in a sample</entry>
+              <entry>~1 ppm</entry>
+              <entry>Destructive technique</entry>
+              <entry>Semiconductor quality control</entry>
+            </row>
+            <row>
+              <entry>Rutherford backscattering spectrometry (<link url="https://cnx.org/contents/uieDnVBC@24.1:2jLvz-IO@3/Rutherford-Backscattering-of-Thin-Films">RBS</link>)</entry>
+              <entry>Concentration of impurities in a sample</entry>
+              <entry>~10<sup>11</sup>-10<sup>15</sup> atoms/cm<sup>2</sup></entry>
+              <entry>Only images in 2D</entry>
+              <entry>Analysis of trace impurities of thin films</entry>
+            </row>
+            <row>
+              <entry>Atomic force microscopy (<link url="https://cnx.org/contents/uieDnVBC@24.1:C5MRoJ6-@1/Atomic-Force-Microscopy">AFM</link>)</entry>
+              <entry>Images of nanoscale materials</entry>
+              <entry>0.5 nm</entry>
+              <entry>Requires air/liquid environment</entry>
+              <entry>Visualization of nanomaterials on a surface</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>Key analytical techniques and applications. </caption>
+</table></section>
+    <section id="import-auto-idm1080663904">
+      <title>Needs and challenges of the industry</title>
+      <para id="import-auto-idm1569679680">The traditional semiconductor industry is limited in the ultimate smallest size of the materials that can be made because of the small concentration of dopant in a typical semiconductor. Because the concentration is so low (on the order of 10<sup>12</sup>-10<sup>13</sup> atoms/cm<sup>3</sup>) measuring the amount of dopant in a sample becomes very difficult as the size of the sample becomes small. Existing techniques have detection limits typically in the range of one part per million, but there require new methods to detect more minor quantities of impurities. The limit of detection thus limits how small semiconductor devices can be made reproducibly. There is, however, a potential use for semiconductors on the nanoscale especially in portable electronics. </para>
+      <para id="import-auto-idm1278068272">Heat dissipation issues and bounds on purity levels may limit how small semiconductors can potentially be. This need to make semiconductors smaller will halt the shrinking of electronics until there appeared new technological advances. One potential way that researchers are attempting to overcome this is by making semiconductor wafers out of nanomaterials. Small wafers like these could be the future of transistors in electronics because they could potentially make processors smaller and more efficient. Researchers are also investigating other materials that may prove useful in electronics. </para>
+      <para id="import-auto-idm255323584">In addition to these challenges, the “end of life” challenge of semiconductors has not been widely explored. Environmental effects of used semiconductor devices have not been extensively researched despite the widespread use of semiconductors in technology. For continuous growth of the industry, more work needs to be done investigating the effects of semiconductors on the environment and protocols for disposal must be developed. </para>
+      <para id="import-auto-idm1222029536">Challenges of nanotechnology mainly evolve around human health, environmental safety, and sustainability. Nanoscale materials often behave differently than those with a more massive structure. For example, a bulk aluminum product is perfectly safe whereas nano-sized aluminum is highly explosive. Because nanoparticles often have a higher toxicity, as compared to bulk analogues, hazards from engineered nanoparticles, resulting in tissue damage, inflammatory reactions, cardiovascular and other extrapulmonary effects, require awareness and safety precautions. Nanoparticle discharge into the environment needs environmental risk assessment and prevention as well. The source of this kind of discharge can come from production/transport and storage of intermediate and finished products, industrial waste, the release of particles during use of the products, as well as diffusion, transport and transformation in the air, soil, and water. </para>
+    </section>
+    <section id="import-auto-idm1222029664">
+      <title>Regulations</title>
+      <section id="import-auto-idm1119025872">
+        <title>Semiconductor industry</title>
+        <para id="import-auto-idm1179742800">For semiconductors to perform their intended function, they must be extremely pure. In the synthesis of silicon semiconductors, silicon crystals are purified to 99.9999% purity. Once the required purity is obtained, chemical-mechanical polishing polishes the silicon wafers smooth. This process destroys any imperfections on the wafer disk with harsh corrosive chemicals. After eliminating flaws, the wafers are coated with photoresists and washed repeatedly. All of these processes are carried out in semiconductor fabrication facilities, or “fabs,” which are buildings with rooms that are completely dust-free. The air that goes into fabs is filtered to remove any impurities that could touch the wafers. These filters remove any impure compounds down to the width of 1% of a human hair. All workers must be covered from head to toe in “bunny suits” so that they do not introduce any contaminants to the room. The rigorous sterile technique is employed to protect the wafers from contaminants that could compromise their function.</para>
+        <para id="import-auto-idm1144688416">Many chemicals required to produce functioning silicon wafers are harmful to humans. Since the semiconductor industry only developed 70 years ago, the process of developing regulations for chemical exposure and environmental impact is ongoing. The need for chemical controls highlighted after a lawsuit in 1996 against IBM by former employees claiming that exposure to hazardous chemicals during work hours contributed heavily to the death of several employees was filed. The trial resulted in a study by the United States Health and Safety Executive to determine whether the levels of exposure to carcinogenic chemicals in wafer fabrication facilities were at an unhealthy level. </para>
+        <para id="import-auto-idm249959312">Semiconductor facilities create a substantial amount of dangerous waste due to the harsh chemicals required for processing. Approximately 3787 gallons of contaminated water are generated in the production of a silicon wafer. This causes problems with drinking water contamination, specifically with trichloroethane (FIGURE), in California during the 1980s. More recently, the semiconductor industry has attempted to focus on cutting down emission of harmful CO<sub>2</sub> based and fluorinated gases. </para>
+        <para id="import-auto-idm238271344">According to the EPA, three classes of fluorinated gases (F-gases) contribute to the acceleration of climate change: hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulfur hexafluoride (SF<sub>6</sub>, <link target-id="import-auto-idm1118319072"/>). F-gases are present in refrigerators, air conditioning units, and in some aerosols. HFCs have been shown to deplete the ozone layer, but not nearly as much as CO<sub>2</sub>. However, HFC contributes much more heavily to global warming than CO<sub>2</sub>, which means that even small amounts of HFCs in the atmosphere can add significantly to global climate change. PFCs have similar effects to HFC regarding global warming. Sulfur hexafluoride is especially dangerous to the environment since it undergoes decomposition to produce oxyfluorides. Limiting the production of greenhouse gases in the semiconductor industry while searching for alternative methods that do not create copious amounts of greenhouse gases is an ongoing process. </para><figure id="import-auto-idm1118319072"><media id="import-auto-idm1261352256" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 4-fe88.jpg" width="150" print-width="1.5in"/>
+          </media>
+        <caption>Structure of sulfur hexafluoride, SF<sub>6</sub>. </caption></figure></section>
+      <section id="import-auto-idm210493248">
+        <title>Nanotechnology </title>
+        <para id="import-auto-idm267274912">Specific regulatory measures have been implemented to minimize environmental and health risks of nanotechnology. For example, European Commission-funded research projects implemented NanoSafe and NanoSafe2 to study risk in production and use of nanoparticles and NanoDerm to investigate the quality of skin as a barrier to ultra-fine particles. The Organization for Economic Cooperation and Development (OECD), which includes most of the industrialized nations of the EU has taken initiatives to test 14 generic nanomaterials for health and environmental effects while establishing a database for sharing research information on potential adverse effects of manufactured nanomaterials. Another example is UK’s government’s agenda on nanotechnologies, which includes setting up a research coordination group to investigate risks from nanoparticles, and risk assessment associated with medicines and medical devices. Additional measures include the safety of unbound nanoparticles in cosmetics and other consumer products, the disclosure of testing methodologies used by industry, labeling requirements on consumer products, and sectoring specific regulations for products of nanotechnologies, in additional to REACH a European level. </para>
+        <para id="import-auto-idm267300704">There are currently no regulations governing nanotechnology in the United States, although the California EPA has begun to request analytical data from manufacturers of carbon nanotubes to study the environmental implications. Part of the regulatory challenge remains regarding gaps in the oversight system. For example, certain product types that use nanotechnology and involve high human exposure, such as cosmetics and dietary supplements, are subject to laws that prohibit effective oversight. </para>
+      </section>
+    </section>
+    <section id="import-auto-idm1337335360">
+      <title>Conclusions and future directions</title>
+      <para id="import-auto-idm249254592">Nanotechnology will play a significant role in a variety of industries, ranging from medicine to electronics. With more comprehensive risk assessment and preventative measures to ensure human health and environmental safety, future areas of nanotechnology such as electronics and communications chemicals and materials, manufacturing, energy technologies, space exploration, environment and national security. Regarding medical use, improvements in drug delivery, repair/replacement, hearing, and vision can impact in the future. In the food and agriculture market, nanoproducts such as nano seeds, nanoparticle pesticides, nano ponds, nano foods, and nano packaging have future potential. In the textiles area, nanotechnology future innovation resides in carbon nanofibers, carbon nanoparticles, clay nanoparticles, metal oxide nanoparticles, carbon nanotubes, nanotechnology in textile finishing, and self-assembled nanolayers. Finally, considering the situation of developing countries, nanotechnology may be able to capture the growing future markets of energy, agriculture, water treatment, disease diagnosis and screening, drug delivery systems, food processing and storage, air pollution remediation, construction, health monitoring, disease vector and pest detection control. </para>
+    </section>
+    <section id="import-auto-idm1321910016">
+      <title>Excercise</title>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-idm254358608"><title>Numerical questions</title><exercise id="eip-131"><problem id="eip-138">
+  <para id="eip-401">
+   A n-type semiconductor was created by doping highly pure Si (99.9999% by mass) with phosphorus. Activation analysis found the concentration of P in the final product to be 10<sup>20</sup> atoms/cm<sup>3</sup>. Find the percent by mass of P and Si in the final product. The density of the final product is 1.87 g/cm<sup>3</sup>. 
+  </para>
+</problem>
+
+<solution id="eip-320">
+  <equation id="eip-23"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mtext>20</m:mtext>
+                    </m:msup>
+                    <m:mtext> atoms P</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mtext>1 c</m:mtext>
+                    <m:msup>
+                      <m:mtext>m</m:mtext>
+                      <m:mtext>3</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mtext> ×</m:mtext>
+                <m:mfrac>
+                  <m:mtext>1 mol P</m:mtext>
+                  <m:mrow>
+                    <m:mtext>6.022×</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mtext>23</m:mtext>
+                    </m:msup>
+                    <m:mtext> atoms P</m:mtext>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mtext> ×</m:mtext>
+                <m:mfrac>
+                  <m:mtext>30.97 g P</m:mtext>
+                  <m:mrow>
+                    <m:mtext>1 </m:mtext>
+                    <m:mtext>mol</m:mtext>
+                    <m:mtext> P</m:mtext>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mtext> ×</m:mtext>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mtext>1 c</m:mtext>
+                    <m:msup>
+                      <m:mtext>m</m:mtext>
+                      <m:mtext>3</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mtext>1.87 g product</m:mtext>
+                </m:mfrac>
+                <m:mtext> × 100%</m:mtext>
+                <m:mtext/>
+                <m:mtext>=</m:mtext>
+                <m:mtext/>
+                <m:mtext>0.275% P</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{{"10"} ^ {"20"} " atoms P"} over {"1 c" {"m"} ^ {"3"}} " ×"   {"1 mol P"} over {"6.022×" {"10"} ^ {"23"} " atoms P"} " ×"   {"30.97 g P"} over {"1 "  "mol"  " P"} " ×"   {"1 c" {"m"} ^ {"3"}} over {"1.87 g product"} " × 100%" " " "=" " " "0.275% P"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-618"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>100%-0.275% P</m:mtext>
+                <m:mtext/>
+                <m:mtext> = </m:mtext>
+                <m:mtext/>
+                <m:mtext>99.775% non phosphorus</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"100%-0.275% P" " " " = " " " "99.775% non phosphorus"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-374"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>99.775% × 0.999999</m:mtext>
+                <m:mtext/>
+                <m:mtext>=</m:mtext>
+                <m:mtext/>
+                <m:mtext>99.775%</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"99.775% × 0.999999" " " "=" " " "99.775%"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+</solution>
+</exercise>
+
+
+        
+      
+
+
+        <exercise id="eip-716"><problem id="eip-299">
+  <para id="eip-408">
+    Calculate the surface area to volume ratio of a tennis ball (r = 3.4 cm) and of a gold nanoparticle (r = 5 nm).
+  </para>
+</problem>
+
+<solution id="eip-920">
+  
+<para id="import-auto-idm1160890576">For a tennis ball</para><equation id="eip-666"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>S</m:mtext>
+                <m:mtext/>
+                <m:mtext>=</m:mtext>
+                <m:mtext/>
+                <m:mtext>4π</m:mtext>
+                <m:msup>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext>3.4×</m:mtext>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mtext>2</m:mtext>
+                        </m:msup>
+                        <m:mtext> m</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                  <m:mtext>2</m:mtext>
+                </m:msup>
+                <m:mtext/>
+                <m:mtext>=</m:mtext>
+                <m:mtext/>
+                <m:mtext>0.0145</m:mtext>
+                <m:msup>
+                  <m:mtext>m</m:mtext>
+                  <m:mtext>2</m:mtext>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"S" " " "=" " " "4π" {left ("3.4×" {"10"} ^ {"2"} " m" right )} ^ {"2"} " " "=" " " "0.0145"   {"m"} ^ {"2"}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-269"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>V</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mi>π</m:mi>
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="true">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>3.4</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mn>10</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mi>m</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="true">)</m:mo>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>1.65</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>4</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>m</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">V= {4} over {3} π {left (3.4 ×  {10} ^ {2}  m right )} ^ {3} =1.65 ×  {10} ^ {4}   {m} ^ {3}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-531"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mi>S</m:mi>
+                    <m:mi>V</m:mi>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>0.0145</m:mn>
+                      <m:msup>
+                        <m:mi>m</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1.65</m:mn>
+                      <m:mi>×</m:mi>
+                      <m:msup>
+                        <m:mn>10</m:mn>
+                        <m:mn>4</m:mn>
+                      </m:msup>
+                      <m:msup>
+                        <m:mi>m</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>88.2</m:mn>
+                </m:mrow>
+                <m:msup>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{S} over {V}  =  {0.0145  {m} ^ {2}} over {1.65× {10} ^ {4}   {m} ^ {3}} =88.2  {m} ^ {-1}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm1165535376">For a gold nanoparticle</para>
+        
+        <equation id="eip-79"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>S</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+                <m:mi>π</m:mi>
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="true">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mn>10</m:mn>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>9</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mi>m</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="true">)</m:mo>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>3.14</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:msup>
+                  <m:mi>m</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">S = 4π {left (5 ×  {10} ^ {-9}  m right )} ^ {2} = 3.14 × { 10} ^ {-16}   {m} ^ {2}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-905"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>V</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mi>π</m:mi>
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="true">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mn>10</m:mn>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>9</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mi>m</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="true">)</m:mo>
+                    </m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>5.24</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>25</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:msup>
+                  <m:mi>m</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">V= {4} over {3} π {left (5 × { 10} ^ {-9} m right )} ^ {3} =5.24 × { 10} ^ {-25} {m} ^ {3}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-304"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mi>S</m:mi>
+                    <m:mi>V</m:mi>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>3.14</m:mn>
+                      <m:mi>×</m:mi>
+                      <m:msup>
+                        <m:mn>10</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>16</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:msup>
+                        <m:mi>m</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>5.24</m:mn>
+                      <m:mi>×</m:mi>
+                      <m:msup>
+                        <m:mn>10</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>25</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:msup>
+                        <m:mi>m</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>6.00</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>8</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{S} over {V} = {3.14 ×  {10} ^ {-16} {m} ^ {2}} over {5.24 ×  {10} ^ {-25}   {m} ^ {3}} =6.00 ×  {10} ^ {8} { m} ^ {-1}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+
+</solution>
+</exercise>
+
+
+
+
+
+
+
+
+
+
+
+        <exercise id="eip-405"><problem id="eip-135">
+  <para id="eip-250">
+   An electron beam strikes a crystal of Ge. Electrons scattered by the crystal move at a velocity of 1.8 × 10<sup>5</sup> m/s. Calculate the energy of the incident beam. Ge is a semiconductor with a band gap, E<sub>g</sub>, of 0.67 eV. The mass of an electron is approximately 9.11 × 10<sup>-31</sup> kg. 1 J = 1.6 × 10<sup>-19</sup> eV. 
+  </para>
+</problem>
+
+<solution id="eip-900">
+
+        
+        <equation id="eip-555"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>E</m:mtext>
+                  <m:mrow>
+                    <m:mtext>incident</m:mtext>
+                    <m:msup>
+                      <m:mtext>e</m:mtext>
+                      <m:mtext>-</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                </m:msub>
+                <m:mtext>=</m:mtext>
+                <m:msub>
+                  <m:mtext>E</m:mtext>
+                  <m:mtext>emitted</m:mtext>
+                </m:msub>
+                <m:mtext>+</m:mtext>
+                <m:msub>
+                  <m:mtext>E</m:mtext>
+                  <m:mtext>scattered</m:mtext>
+                </m:msub>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{"E"} rsub {"incident"   {"e"} ^ {"-"}} "=" {"E"} rsub {"emitted"} "+" {"E"} rsub {"scattered"}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-57"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>E</m:mtext>
+                  <m:mrow>
+                    <m:mtext>incident</m:mtext>
+                    <m:msup>
+                      <m:mtext>e</m:mtext>
+                      <m:mtext>-</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                </m:msub>
+                <m:mtext>=</m:mtext>
+                <m:msub>
+                  <m:mtext>E</m:mtext>
+                  <m:mtext>g</m:mtext>
+                </m:msub>
+                <m:mtext>+</m:mtext>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mtext>m</m:mtext>
+                    <m:msup>
+                      <m:mtext>v</m:mtext>
+                      <m:mtext>2</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mtext>2</m:mtext>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{"E"} rsub {"incident"   {"e"} ^ {"-"}} "=" {"E"} rsub {"g"} "+" {"m" {"v"} ^ {"2"}} over {"2"}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-346"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>E</m:mtext>
+                  <m:mrow>
+                    <m:mtext>incident</m:mtext>
+                    <m:msup>
+                      <m:mtext>e</m:mtext>
+                      <m:mtext>-</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                </m:msub>
+                <m:mtext>=0.67+</m:mtext>
+                <m:mfrac>
+                  <m:mtext>1</m:mtext>
+                  <m:mtext>2</m:mtext>
+                </m:mfrac>
+                <m:mtext> ×</m:mtext>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>9.11×</m:mtext>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+                        <m:mtext>-31</m:mtext>
+                      </m:msup>
+                      <m:mtext> kg</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mtext> ×</m:mtext>
+                <m:mfrac>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="true">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>1.8×</m:mtext>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mtext>5</m:mtext>
+                          </m:msup>
+                          <m:mfrac>
+                            <m:mtext>m</m:mtext>
+                            <m:mtext>s</m:mtext>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="true">)</m:mo>
+                    </m:mrow>
+                    <m:mtext>2</m:mtext>
+                  </m:msup>
+                  <m:mrow>
+                    <m:mtext>1.6×</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mtext>-19</m:mtext>
+                    </m:msup>
+                    <m:mfrac>
+                      <m:mtext>eV</m:mtext>
+                      <m:mtext>J</m:mtext>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mtext>=0.76eV</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{"E"} rsub {"incident"   {"e"} ^ {"-"}} "=0.67+" {"1"} over {"2"} " ×"   left ("9.11×" {"10"} ^ {"-31"} " kg" right ) " ×"   {{left ("1.8×" {"10"} ^ {"5"} {"m"} over {"s"} right )} ^ {"2"}} over {"1.6×" {"10"} ^ {"-19"} {"eV" } over {"J"}} "=0.76eV"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+</solution>
+</exercise>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <exercise id="eip-813"><problem id="eip-450">
+  <para id="eip-704">
+ The energy of the photon emitted by a quantum dot can be given EQ, where R is the radius of the quantum dot, m<sub>e</sub> = 7.29 × 10<sup>-32</sup> kg, m<sub>h</sub> = 5.24 × 10<sup>-31</sup> kg, and E<sub>g</sub> = 2.15 × 10<sup>-19</sup> J (note the value for E<sub>g</sub> is the band gap and is specific to this particular quantum dot). Use this equation to calculate the size of quantum dots that emit light at 537 nm and at 632 nm. 
+  </para>
+</problem>
+
+<solution id="eip-838">
+ <equation id="eip-272"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>E=</m:mtext>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>ℏ</m:mtext>
+                      <m:mtext>2</m:mtext>
+                    </m:msup>
+                    <m:msup>
+                      <m:mtext>π</m:mtext>
+                      <m:mtext>2</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mtext>2</m:mtext>
+                    <m:msub>
+                      <m:mtext>m</m:mtext>
+                      <m:mtext>e</m:mtext>
+                    </m:msub>
+                    <m:msup>
+                      <m:mtext>R</m:mtext>
+                      <m:mtext>2</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mtext>+</m:mtext>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>ℏ</m:mtext>
+                      <m:mtext>2</m:mtext>
+                    </m:msup>
+                    <m:msup>
+                      <m:mtext>π</m:mtext>
+                      <m:mtext>2</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mtext>2</m:mtext>
+                    <m:msub>
+                      <m:mtext>m</m:mtext>
+                      <m:mtext>h</m:mtext>
+                    </m:msub>
+                    <m:msup>
+                      <m:mtext>R</m:mtext>
+                      <m:mtext>2</m:mtext>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mtext>+</m:mtext>
+                <m:msub>
+                  <m:mtext>E</m:mtext>
+                  <m:mtext>g</m:mtext>
+                </m:msub>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"E=" {{"ℏ"} ^ {"2"} {"π"} ^ {"2"}} over {"2" {"m"} rsub {"e"} {"R"} ^ {"2"}} "+" {{"ℏ"} ^ {"2"} {"π"} ^ {"2"}} over {"2" {"m"} rsub {"h"} {"R"} ^ {"2"}} "+" {"E"} rsub {"g"}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm1111740592">For 537 nm: </para><equation id="eip-504"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>E</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi mathvariant="italic">hν</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>6.626</m:mn>
+                        <m:mi>×</m:mi>
+                        <m:msup>
+                          <m:mn>10</m:mn>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>34</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mi mathvariant="italic">Js</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2.998</m:mn>
+                      <m:mi>×</m:mi>
+                      <m:msup>
+                        <m:mn>10</m:mn>
+                        <m:mn>8</m:mn>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mi>m</m:mi>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>537</m:mn>
+                      <m:mi>×</m:mi>
+                      <m:msup>
+                        <m:mn>10</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mi>m</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>3.70</m:mn>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>19</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mi>J</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">E=hν=(6.626× {10} ^ {-34}  Js) × {2.998× {10} ^ {8}  m/s } over {537× {10} ^ {-9} m} = 3.70 ×  {10} ^ {-19}   J</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="eip-671"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>R=</m:mtext>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mtext>1</m:mtext>
+                      <m:mrow>
+                        <m:mtext>E-</m:mtext>
+                        <m:msub>
+                          <m:mtext>E</m:mtext>
+                          <m:mtext>g</m:mtext>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="true">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>ℏ</m:mtext>
+                                <m:mtext>2</m:mtext>
+                              </m:msup>
+                              <m:msup>
+                                <m:mtext>π</m:mtext>
+                                <m:mtext>2</m:mtext>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mtext>2</m:mtext>
+                              <m:msub>
+                                <m:mtext>m</m:mtext>
+                                <m:mtext>e</m:mtext>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mtext>+</m:mtext>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>ℏ</m:mtext>
+                                <m:mtext>2</m:mtext>
+                              </m:msup>
+                              <m:msup>
+                                <m:mtext>π</m:mtext>
+                                <m:mtext>2</m:mtext>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mtext>2</m:mtext>
+                              <m:msub>
+                                <m:mtext>m</m:mtext>
+                                <m:mtext>h</m:mtext>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="true">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:msqrt>
+                <m:mtext>=2.34 nm</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"R=" sqrt {{"1"} over {"E-" {"E"} rsub {"g"}} left ({{"ℏ"} ^ {"2"} {"π"} ^ {"2"}} over {"2" {"m"} rsub {"e"}} "+" {{"ℏ"} ^ {"2"} {"π"} ^ {"2"}} over {"2" {"m"} rsub {"h"}} right )} "=2.34 nm"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm1078843536">For 632 nm:</para>
+        
+        <equation id="eip-650"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>E</m:mtext>
+                <m:mtext/>
+                <m:mtext>=</m:mtext>
+                <m:mtext/>
+                <m:mtext>hν</m:mtext>
+                <m:mtext/>
+                <m:mtext>=</m:mtext>
+                <m:mtext/>
+                <m:mtext>(6.626×</m:mtext>
+                <m:msup>
+                  <m:mtext>10</m:mtext>
+                  <m:mtext>-34</m:mtext>
+                </m:msup>
+                <m:mtext/>
+                <m:mtext>Js</m:mtext>
+                <m:mtext>) ×</m:mtext>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mtext>2.998×</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mtext>8</m:mtext>
+                    </m:msup>
+                    <m:mtext> m/s</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mtext>632×</m:mtext>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mtext>-9</m:mtext>
+                    </m:msup>
+                    <m:mtext>m</m:mtext>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mtext/>
+                <m:mtext>= </m:mtext>
+                <m:mtext/>
+                <m:mtext>3.15 ×</m:mtext>
+                <m:msup>
+                  <m:mtext>10</m:mtext>
+                  <m:mtext>-19</m:mtext>
+                </m:msup>
+                <m:mtext>  J</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"E" "  " "=" "  "  "hν"  "  " "=" "  " "(6.626×" {"10"} ^ {"-34"} " "  "Js"  ") ×" {"2.998×" {"10"} ^ {"8"} " m/s"} over {"632×" {"10"} ^ {"-9"} "m"} " " "= " " " "3.15 ×"   {"10"} ^ {"-19"} "  J"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation id="eip-395"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>R=</m:mtext>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mtext>1</m:mtext>
+                      <m:mrow>
+                        <m:mtext>E-</m:mtext>
+                        <m:msub>
+                          <m:mtext>E</m:mtext>
+                          <m:mtext>g</m:mtext>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="true">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>ℏ</m:mtext>
+                                <m:mtext>2</m:mtext>
+                              </m:msup>
+                              <m:msup>
+                                <m:mtext>π</m:mtext>
+                                <m:mtext>2</m:mtext>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mtext>2</m:mtext>
+                              <m:msub>
+                                <m:mtext>m</m:mtext>
+                                <m:mtext>e</m:mtext>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mtext>+</m:mtext>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>ℏ</m:mtext>
+                                <m:mtext>2</m:mtext>
+                              </m:msup>
+                              <m:msup>
+                                <m:mtext>π</m:mtext>
+                                <m:mtext>2</m:mtext>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mtext>2</m:mtext>
+                              <m:msub>
+                                <m:mtext>m</m:mtext>
+                                <m:mtext>h</m:mtext>
+                              </m:msub>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="true">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:msqrt>
+                <m:mtext>=2.92 nm</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"R=" sqrt {{"1"} over {"E-" {"E"} rsub {"g"}} left ({{"ℏ"} ^ {"2"} {"π"} ^ {"2"}} over {"2" {"m"} rsub {"e"}} "+" {{"ℏ"} ^ {"2"} {"π"} ^ {"2"}} over {"2" {"m"} rsub {"h"}} right )} "=2.92 nm"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+</solution>
+</exercise>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+      </section><section id="import-auto-idm1222031248">
+        <title>Thought provoking questions</title><list id="import-auto-idm236550704" list-type="enumerated" number-style="arabic">
+          <item>What is the obligation of the US government with regards semiconductor synthesis regulation? Should all companies be required to abide by standards set by the government? How would these standards be implemented?</item>
+          <item>What would happen if an n-type semiconductor was connected to a p-type semiconductor? How would electrons want to flow? How might this system behave in an electrical circuit?</item>
+          <item>You are attempting to synthesize gold nanoparticles for the development of a new drug delivery agent. Because of the highly specific nature of biological systems, you need your nanoparticles to be between 5 and 6 nm in diameter. What techniques could you use to analyze the nanoparticles?</item>
+          <item>How would temperature affect semiconductor conductivity?</item>
+        </list>
+      </section>
+    </section>
+    <section id="import-auto-idm236548352">
+      <title>Bibliography</title>
+      <list id="import-auto-idm1144934272" list-type="bulleted">
+        <item>J. C. Davies, <emphasis effect="italics">Oversight of Next Generation Nanotechnology</emphasis>, Woodrow Wilson International Center for Scholars, Washington, DC, 2009.</item>
+        <item>C. T. Dervos and P. Vassiliou, <emphasis effect="italics">J. Air Waste Manag. Assoc.</emphasis>, 2000, <emphasis effect="bold">50</emphasis>, 137. </item>
+        <item>EPA, <link url="http://www.epa.ie/air/airenforcement/ozone/fluorinatedgreenhousegases/">http://www.epa.ie/air/airenforcement/ozone/fluorinatedgreenhousegases/</link> (accessed December 1, 2017). </item>
+        <item>EPA, <link url="https://www.epa.gov/pfas/environmental-laws-and-regulations-apply-perfluorocarbons">https://www.epa.gov/pfas/environmental-laws-and-regulations-apply-perfluorocarbons</link> (accessed December 1, 2017). </item>
+        <item>S. Greengard, <emphasis effect="italics">Commun. ACM</emphasis>, 2017, <emphasis effect="bold">60</emphasis>, 18.</item>
+        <item>S. Kang, M. Pinault, L. Pfefferele, and M. Elimelech, <emphasis effect="italics">Langmuir</emphasis>, 2007, <emphasis effect="bold">23</emphasis>, 8670.</item>
+        <item>Y Kuznetsov and A McPherson, <emphasis effect="italics">Microbiol. Mol. Biol. Rev.</emphasis>, 2011, <emphasis effect="bold">75</emphasis>, 268.</item>
+        <item>M. Levinshtein, S. Rumyantsev, M. Shur, <emphasis effect="italics">Properties of Advanced Semiconductor Materials</emphasis>, John Wiley &amp; Sons, New York, NY, 2001.</item>
+        <item><emphasis effect="italics">Nanoscience and Nanotechnologies: Opportunities and Uncertainties</emphasis>, The Royal Society &amp; The Royal Academy of Engineering, Plymouth, 2004.</item>
+        <item>National Center for Biotechnology Information, <link url="https://www.ncbi.nlm.nih.gov/pubmed/17658863">https://www.ncbi.nlm.nih.gov/pubmed/17658863</link> (accessed November 2017).</item>
+        <item>J. Perriére, <emphasis effect="italics">Vacuum</emphasis>, 1987, <emphasis effect="bold">37</emphasis>, 429.</item>
+        <item>M. Platzer, J. Sargent Jr., <emphasis effect="italics">U.S. Semiconductor Manufacturing: Industry Trends, Global Competition, Federal Policy</emphasis>, Congressional Research Service, 7-5700, 2016.</item>
+        <item>B. Ruben in <emphasis effect="italics">Trace Analysis of Semiconductor Materials</emphasis>, Eds. J. Paul Cali R. Belcher,  and L. Gordon. Pergamon Press, Oxford 1964. </item>
+        <item>S. P. Shanmuganatan and S. Nakkeeran, <emphasis effect="italics">Int. J. Curr. Res.</emphasis>, 2013, <emphasis effect="bold">5</emphasis>, 921.</item>
+        <item>Scottish Environmental Protection Agency, <link url="http://apps.sepa.org.uk/spripa/Pages/SubstanceInformation.aspx?pid=121">http://apps.sepa.org.uk/spripa/Pages/SubstanceInformation.aspx?pid=121</link> (accessed December 1, 2017). </item>
+        <item>E. Szabó, <emphasis effect="italics">J. Radioanal. Nucl. </emphasis><emphasis effect="italics">Chem.</emphasis>, 1974, <emphasis effect="bold">19</emphasis>, 23.</item>
+        <item>United Nations Framework Convention on Climate Change: Kyoto Protocol, <link url="http://unfccc.int/kyoto_protocol/items/2830.php">http://unfccc.int/kyoto_protocol/items/2830.php</link> (accessed on December 1, 2017). </item>
+        <item>United States Department of State, <link url="https://www.state.gov/e/oes/eqt/chemicalpollution/83007.htm">https://www.state.gov/e/oes/eqt/chemicalpollution/83007.htm</link> (accessed December 1, 2017).  </item>
+        <item>P. Williams, <emphasis effect="italics">Ann. Rev. Mater. Sci.</emphasis>, 1985, <emphasis effect="bold">15</emphasis>, 517.</item>
+        <item>Y. Yoneda, H. Kawazoe and T. Kanazawa, <emphasis effect="italics">J. Non-Cryst. Solids</emphasis>, 1983, <emphasis effect="bold">56</emphasis>, 33.</item>
+      </list>
+    </section>
+  </content>
+</document>

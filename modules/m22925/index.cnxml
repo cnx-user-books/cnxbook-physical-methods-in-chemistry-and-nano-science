@@ -1,0 +1,207 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Characterization of Single-Walled Carbon Nanotubes by Raman Spectroscopy</title>
+  <metadata>
+  <md:content-id>m22925</md:content-id><md:title>Characterization of Single-Walled Carbon Nanotubes by Raman Spectroscopy</md:title>
+  <md:abstract>Raman Spectroscopy can be successfully employed to study Carbon nanotubes at single nanotube level. Length, diameter, electronic type (metallic or semiconducting), and whether nanotubes are separated or in bundle can be known by the use of Raman Spectroscopy.</md:abstract>
+  <md:uuid>dbcfa4b2-7859-4674-a814-9a79e43d87fd</md:uuid>
+</metadata>
+
+<content>
+   
+<section id="id6715964">
+        
+        <title>Introduction</title><para id="id6775919">Carbon nanotubes (CNTs) have proven to be a unique system for the application of Raman spectroscopy, and at the same time Raman spectroscopy has provided an exceedingly powerful tool useful in the study of the vibrational properties and electronic structures of CNTs. Raman spectroscopy has been successfully applied for studying CNTs at single nanotube level. </para><para id="eip-508">The large van der Waals interactions between the CNTs lead to an agglomeration of the tubes in the form of bundles or ropes. This problem can be solved by wrapping the tubes in a surfactant or functionalizing the SWNTs by attaching appropriate chemical moieties to the sidewalls of the tube. Functionalization causes a local change in the hybridization from sp<sup>2</sup> to sp<sup>3</sup> of the side-wall carbon atoms, and Raman spectroscopy can be used to determine this change. In addition information on length, diameter, electronic type (metallic or semiconducting), and whether nanotubes are separated or in bundle can be obtained by the use of Raman spectroscopy. Recent progress in understanding the Raman spectra of single walled carbon nanotubes (SWNT) have stimulated Raman studies of more complicated multi-wall carbon nanotubes (MWNT), but unfortunately quantitative determination of the latter is not possible at the present state of art. </para>
+      </section>
+      <section id="id7232282">
+        <title>Characterizing SWNTs</title>
+        <para id="id4668336">Raman spectroscopy is a single resonance process, i.e., the signals are greatly enhanced if either the incoming laser energy (<emphasis effect="italics">E</emphasis><emphasis effect="italics"><sub>laser</sub></emphasis>) or the scattered radiation matches an allowed electronic transition in the sample. For this process to occur, the phonon modes are assumed to occur at the center of the Brillouin zone (q = 0). Owing to their one dimensional nature, the Π-electronic density of states of a perfect, infinite, SWNTs form sharp singularities which are known as van Hove singularities (vHs), which are energetically symmetrical with respect to Fermi level (<emphasis effect="italics">E</emphasis><emphasis effect="italics"><sub>f</sub></emphasis>) of the individual SWNTs. The allowed optical transitions occur between matching vHs of the valence and conduction band of the SWNTs, i.e., from first valence band vHs to the first conduction band vHs (<emphasis effect="italics">E</emphasis><emphasis effect="italics"><sub>11</sub></emphasis>) or from the second vHs of the valence band to the second vHs of the conduction band (<emphasis effect="italics">E</emphasis><emphasis effect="italics"><sub>22</sub></emphasis>). Since the quantum state of an electron (k) remains the same during the transition, it is referred to as k-selection rule.</para>
+        <para id="id5404341">The electronic properties, and therefore the individual transition energies in SWNTs are given by their structure, i.e., by their chiral vector that determines the way SWNT is rolled up to form a cylinder. <link target-id="id4928782"/> shows a SWNT having vector R making an angle θ, known as the chiral angle, with the so-called zigzag or r<sub>1</sub> direction.</para>
+
+          <figure id="id4928782"><media id="id4928782_media" alt="">
+              <image mime-type="image/jpeg" src="../../media/fig1.JPG" id="id4928782__onlineimage" width="450" print-width="4in"/>
+            </media>
+          <caption>The unrolled honeycomb lattice of a nanotube. When the sites O and A, and the sites B and C are connected, a portion of a graphene sheet can be rolled seamlessly to form a SWNT. The vectors OA and OB define the chiral vector R of the nanotube, respectively. The rectangle OABC defines the unit cell if the nanotube. The figure is constructed for (<emphasis effect="italics">n,m</emphasis>) = (4,2) nanotube. Adapted from M. S. Dresselhaus, G. Dresselhaus, R. Saito, and A. Jorio, <emphasis effect="italics"> Physics Reports</emphasis>, 2004, <emphasis effect="bold"> 2</emphasis>, 47.</caption></figure>
+    
+        
+        <para id="id2904925">Raman spectroscopy of an ensemble of many SWNTs having different chiral vectors is sensitive to the subset of tubes where the condition of allowed transition is fulfilled. A ‘Kataura-Plot’ gives the allowed electronic transition energies of individual SWNTs as a function of diameter <emphasis effect="italics">d</emphasis>, hence information on which tubes are resonant for a given excitation wavelength can be inferred. Since electronic transition energies vary roughly as 1/<emphasis effect="italics">d</emphasis>, the question whether a given laser energy probes predominantly semiconducting or metallic tubes depends on the mean diameter and diameter distribution in the SWNT ensemble. However, the transition energies that apply to an isolated SWNT do not necessarily hold for an ensemble of interacting SWNTs owing to the mutual van der Waals interactions.</para>
+        <para id="id2667435"><link target-id="eip-id1170632395033"/> shows a typical Raman spectrum from 100 to 3000 cm<sup>-1</sup> taken of SWNTs produced by catalytic decomposition of carbon monoxide (HiPco-process). The two dominant Raman features are the radial breathing mode (RBM) at low frequencies and tangential (G-band) multifeature at higher frequencies. Other weak features, such as the disorder induced D-band and the G’ band (an overtone mode) are also shown.</para>
+
+
+
+<figure id="eip-id1170632395033"><media id="spectra" alt="">
+     <image mime-type="image/jpeg" src="../../media/fig2.JPG" id="id1170632395033__onlineimage" width="450" print-width="4.5in"/>
+  </media><caption>Raman spectrum of HiPco SWNTs using a laser of wavelength of λ<sub>exc</sub> = 633 nm. Adapted from R. Graupner, <emphasis effect="italics">J. Raman Spectrosc.</emphasis>, 2007, <emphasis effect="bold"> 38</emphasis>, 673.</caption></figure>
+
+        
+        
+        
+      </section>
+      <section id="id3756438">
+        <title>Modes in the Raman spectra of SWNTs</title>
+        <section id="id4071626">
+          <title>Radial breathing modes (RBMs)</title>
+          <para id="id1052620">Out of all Raman modes observed in the spectra of SWNTs, the radial breathing modes are unique to SWNTs. They appear between 150 cm<sup>-1</sup> &lt; ω<sub>RBM</sub> &lt; 300 cm<sup>-1</sup> from the elastically scattered laser line. It corresponds to the vibration of the C atoms in the radial direction, as if the tube is breathing (<link target-id="id6281260"/>). An important point about these modes is the fact that the energy (or wavenumber) of these vibrational modes depends on the diameter (<emphasis effect="italics">d</emphasis>) of the SWNTs, and not on the way the SWNT is rolled up to form a cylinder, i.e., they do not depend on the θ of the tube.</para>
+ 
+    
+            <figure id="id6281260"><media id="id6281260_media" alt="">
+                <image mime-type="image/jpeg" src="../../media/fig9.JPG" id="id6281260__onlineimage" width="204" print-width="2in"/>
+              </media>
+            <caption>Schematic picture showing vibration for RBM. Adapted from A. Jorio, M. A. Pimenta, A. G. S. Filho, R. Saito, G. Dresselhaus, and M. S. Dresselhaus, <emphasis effect="italics"> New J. Phys.</emphasis>, 2003, <emphasis effect="bold"> 5</emphasis>, 139.</caption></figure>
+      
+          
+          
+          
+          <para id="eip-466">These features are very useful for characterizing nanotube diameters through the relation ω<sub>RBM</sub> =  A/<emphasis effect="italics">d</emphasis> + B, where A and B are constants and their variations are often attributed to environmental effects, i.e., whether the SWNTs are present as individual tubes wrapped in a surfactant, isolated on a substrate surface, or in the form of bundles. However, for typical SWNT bundles in the diameter range, <emphasis effect="italics">d</emphasis> = 1.5 ± 0.2 nm, A = 234 cm<sup>-1</sup> nm and B = 10 cm<sup>-1</sup> (where B is an upshift coming from tube-tube interactions). For isolated SWNTs on an oxidized Si substrate, A= 248 cm<sup>-1</sup> nm and B = 0. As can be seen from <link target-id="figure-id"/>, the relation ω<sub>RBM</sub> =  A/d + B holds true for the usual diameter range i.e., when <emphasis effect="italics">d</emphasis> lies between 1 and 2 nm. However, for <emphasis effect="italics">d</emphasis> less than 1 nm, nanotube lattice distortions lead to chirality dependence of ω<sub>RBM</sub> and for large diameters tubes when, <emphasis effect="italics">d</emphasis> is more than 2 nm the intensity of RBM feature is weak and is hardly observable.</para>
+
+<figure id="figure-id"><media id="diametercurve" alt="">
+     <image mime-type="image/jpeg" src="../../media/fig 4.JPG" width="400" print-width="3in"/>
+  </media>
+<caption>RBM frequencies ω<sub>RBM</sub> = A/<emphasis effect="italics">d</emphasis> + B versus nanotube diameter for (i) A = 234 cm<sup>-1</sup> nm and B = 10 cm<sup>-1</sup>, for SWNT bundles (dashed curve); (ii) A = 248 cm<sup>-1</sup> nm and B = 0, for isolated SWNTs (solid curve). Adapted from A. Jorio, M. A. Pimenta, A. G. S. Filho, R. Saito, G. Dresselhaus, and M. S. Dresselhaus, <emphasis effect="italics"> New J. Phys.</emphasis>, 2003, <emphasis effect="bold"> 5</emphasis>, 139.</caption></figure>
+
+          <para id="id3348199">Hence, a single Raman measurement gives an idea of the tubes that are in resonance with the laser line, but does not give a complete characterization of the diameter distribution of the sample. However, by taking Raman spectra using many laser lines, a good characterization of the diameter distributions in the sample can be obtained. Also, natural line widths observed for isolated SWNTs are ω<sub>RBM</sub> = 3 cm<sup>-1</sup>, but as the tube diameter is increased, broadening is observed which is denoted by Γ<sub>RBM</sub>. It has been observed that for <emphasis effect="italics">d</emphasis> &gt; 2 nm, Γ<sub>RBM</sub> &gt; 20 cm<sup>-1</sup>. For SWNT bundles, the line width does not reflect Γ<sub>RMB</sub>, it rather reflects an ensemble of tubes in resonance with the energy of laser.</para><section id="eip-987"><title>Variation of RBM intensities upon functionalization </title><para id="eip-872">Functionalization of SWNTs leads to variations of relative intensities of RBM compared to the starting material (unfunctionalized SWNTs). Owing to the diameter dependence of the RBM frequency and the resonant nature of the Raman scattering process, chemical reactions that are sensitive to the diameter as well as the electronic structure, i.e., metallic or semiconducting of the SWNTs can be sorted out. The difference in Raman spectra is usually inferred by thermal defunctionalization, where the functional groups are removed by annealing. The basis of using annealing for defunctionalizing SWNTs is based on the fact that annealing restores the Raman intensities, in contrast to other treatments where a complete disintegration of the SWNTs occurs. <link target-id="eip-id1172135337928"/> shows the Raman spectra of the pristine, functionalized and annealed SWNTs. It can be observed that the absolute intensities of the radial breathing modes is drastically reduced after functionalization. This decrease can be attributed to vHs, which themselves are a consequence of translational symmetry of the SWNTs. Since the translational symmetry of the SWNTs is broken as a result of irregular distribution of the sp<sup>3</sup>-sites due to the functionalization, these vHs are broadened and strongly reduced in intensity. As a result, the resonant Raman cross section of all modes is strongly reduced as well.
+</para>
+
+
+<figure id="eip-id1172135337928"><media id="id4042396_media" alt="">
+              <image mime-type="image/jpeg" src="../../media/figure6.JPG" id="id4042396__onlineimage" width="450" print-width="3.5in"/>
+            </media><caption>Raman spectra of sidewall functionalized SWNTs of (A) pristine material, (B) functionalized SWNTs, and (C) after annealing at 750 °C in Ar. Adapted from R. Graupner, <emphasis effect="italics"> J. Raman Spectrosc.</emphasis>, 2007, <emphasis effect="bold"> 38</emphasis>, 673.</caption></figure>
+
+
+<para id="eip-273">For an ensemble of functionalized SWNTs, a decrease in high wavenumber RBM intensities has been observed which leads to an inference that destruction of small diameter SWNT takes place. Also, after prolonged treatment with nitric acid and subsequent annealing in oxygen or vacuum, diameter enlargement of SWNTs is observed from the disappearance of RBMs from small diameter SWNTs and the appearance of new RBMs characteristic of SWNTs with larger diameters. In addition, laser irradiation seems to damage preferentially small diameter SWNTs. In all cases, the decrease of RBM intensities is either attributed to the complete disintegration of SWNTs or reduction in resonance enhancement of selectively functionalized SWNTs. However, change in RBM intensities can also have other reasons. One reason is doping induced bleaching of electronic transitions in SWNTs. When a dopant is added, a previously occupied electronic state can be filled or emptied, as a result of which E<emphasis effect="italics"><sub>f</sub></emphasis> in the SWNTs is shifted. If this shift is large enough and the conduction band vHs corresponding to the respective E<emphasis effect="italics"><sub>ii</sub></emphasis> transition that is excited by the laser light gets occupied (n-type doping) or the valence band vHs is emptied (p-type doping), the resonant enhancement is lost as the electronic transitions are quenched.</para><para id="eip-634">Sample morphology has also seen to affect the RBMs. The same unfunctionalized sample in different aggregation states gives rise to different spectra. This is because the transition energy, E<emphasis effect="italics"><sub>ii</sub></emphasis> depends on the aggregation state of the SWNTs.</para></section>
+        </section>
+        
+        
+        <section id="id3933630">
+          <title>Tangential modes (G-band)</title>
+          <para id="id6551874">The tangential modes are the most intensive high-energy modes of SWNTs and form the so-called G-band, which is typically observed at around 1600 cm<sup>-1</sup>. For this mode, the atomic displacements occur along the cicumferential direction (<link target-id="id4125889"/>). Spectra in this frequency can be used for SWNT characterization, independent of the RBM observation. This multi-peak feature can, for example, also be used for diameter characterization, although the information provided is less accurate than the RBM feature, and it gives information about the metallic character of the SWNTs in resonance with laser line.</para>
+          <figure id="id4125889"><media id="id4125889_media" alt="">
+              <image mime-type="image/jpeg" src="../../media/fig10.JPG" id="id4125889__onlineimage" width="204" print-width="2in"/>
+            </media>
+          <caption>Schematic picture showing the atomic vibrations for the G-band. Adapted from A. Jorio, M. A. Pimenta, A. G. S. Filho, R. Saito, G. Dresselhaus, and M. S. Dresselhaus, <emphasis effect="italics"> New J. Phys.</emphasis>, 2003, <emphasis effect="bold"> 5</emphasis>, 139.</caption></figure>
+          
+          
+
+
+
+            <para id="eip-156">The tangential modes are useful in distinguishing semiconducting from metallic SWNTs. The difference is evident in the G- feature (<link target-id="id4812869"/> and <link target-id="id2639668"/>) which broadens and becomes asymmetric for metallic SWNTs in comparison with the Lorentzian lineshape for semiconducting tubes, and this broadening is related to the presence of free electrons in nanotubes with metallic character. This broadened G-feature is usually fit using a Breit-Wigner-Fano (BWF) line that accounts for the coupling of a discrete phonon with a continuum related to conduction electrons. This BWF line is observed in many graphite-like materials with metallic character, such as n-doped graphite intercalation compounds (GIC), n-doped fullerenes, as well as metallic SWNTs. The intensity of this G- mode depends on the size and number of metallic SWNTs in a bundle (<link target-id="id6872614"/>).</para><figure id="id4812869"><media id="id4812869_media" alt="">
+                <image mime-type="image/png" src="../../media/graphics7-d642.png" id="id4812869__onlineimage" width="300" print-width="2.3in"/>
+              </media>
+            <caption>G-band for highly ordered pyrolytic graphite (HOPG), MWNT bundles, one isolated semiconducting SWNT and one isolated metallic SWNT. The multi-peak G-band feature is not clear for MWNTs due to the large tube size.  A. Jorio, M. A. Pimenta, A. G. S. Filho, R. Saito, G. Dresselhaus, and M. S. Dresselhaus, <emphasis effect="italics"> New J. Phys.</emphasis>, 2003, <emphasis effect="bold"> 5</emphasis>, 139. Copyright Institute of Physics (2005). </caption></figure>
+ 
+          
+          
+     
+            <figure id="id2639668"><media id="id2639668_media" alt="">
+                <image mime-type="image/png" src="../../media/graphics8-6906.png" id="id2639668__onlineimage" width="450" print-width="4in"/>
+              </media>
+            <caption>Raman signal from three isolated semiconducting and three isolated metallic SWNTs showing the G-and D-band profiles. SWNTs in good resonance (strong signal with low signal to noise ratio) show practically no D-band. A. Jorio, M. A. Pimenta, A. G. S. Filho, R. Saito, G. Dresselhaus, and M. S. Dresselhaus, <emphasis effect="italics"> New J. Phys.</emphasis>, 2003, <emphasis effect="bold"> 5</emphasis>, 139. Copyright Institute of Physics (2005). </caption></figure>
+       
+          
+          
+          
+          <figure id="id6872614"><media id="id6872614_media" alt="">
+              <image mime-type="image/jpg" src="../../media/fig11.JPG" id="id6872614__onlineimage" width="500" print-width="3in"/>
+            </media>
+          <caption>Dependence of G+ (black symbols) and G- (red symbols) frequencies as a function of diameter. Adapted from M. Paillet, T. Michel, J. C. Meyer, V. N. Popov, L. Henrad, S. Roth, and J. L. Sauvajol, <emphasis effect="italics">Phy. Rev. Lett.</emphasis>, 2006, <emphasis effect="bold"> 96</emphasis>, 257401.</caption></figure>
+          
+          <section id="eip-797"><title>Change of G-band line shape on functionalization </title>
+
+
+<para id="eip-267">Chemical treatments are found to affect the line shape of the tangential line modes. Selective functionalization of SWNTs or a change in the ratio of metallic to semiconducting SWNTs due to selective etching is responsible for such a change. According to <link target-id="eip-id1167701320986"/>, it can be seen that an increase or decrease of the BWF line shape is observed depending on the laser wavelength. At λ<sub>exc</sub> = 633 nm, the preferentially functionalized small diameter SWNTs are semiconducting, therefore the G-band shows a decrease in the BWG asymmetry. However, the situation is reversed at 514 nm, where small metallic tubes are probed. BWF resonance intensity of small bundles increases with bundle thickness, so care should be taken that the effect ascribed directly to functionalization of the SWNTs is not caused by the exfoliation of the previously bundles SWNT.</para><figure id="eip-id1167701320986"><media id="id6478910_media" alt="">
+              <image mime-type="image/jpeg" src="../../media/Figure 7.JPG" id="id6478910__onlineimage" height="300" width="600"/>
+            </media><caption>G-and D-band spectra of pristine (black) and ozonized (blue) SWNTs at 633 nm (left) and 514 nm (right) excitation. Adapted from  R. Graupner, <emphasis effect="italics"> J. Raman Spectrosc.</emphasis>, 2007, <emphasis effect="bold"> 38</emphasis>, 673.</caption></figure>
+
+
+</section>
+        </section>
+        
+        <section id="id5370720">
+          <title>Disorder-induced D-band</title>
+          <para id="id5173482">This is one of the most discussed modes for the characterization of functionalized SWNTs and is observed at 1300-1400 cm<sup>-1</sup>. Not only for functionalized SWNTs, D-band is also observed for unfunctionalized SWNTs. From a large number of Raman spectra from isolated SWNTs, about 50% exhibit observable D-band signals with weak intensity (<link target-id="id2639668"/>). A large D-peak compared with the G-peak usually means a bad resonance condition, which indicates the presence of amorphous carbon.</para>
+          
+          <para id="id4151583">The appearance of D-peak can be interpreted due to the breakdown of the k-selection rule. It also depends on the laser energy and diameter of the SWNTs. This behavior is interpreted as a double resonance effect, where not only one of the direct, k-conserving electronic transitions, but also the emission of phonon is a resonant process. In contrast to single resonant Raman scattering, where only phonons around the center of the Brillouin zone (q = 0) are excited, the phonons that provoke the D-band exhibit a non-negligible q vector. This explains the double resonance theory for D-band in Raman spectroscopy. In few cases, the overtone of the D-band known as the G’-band (or D*-band) is observed at 2600-2800 cm<sup>-1</sup>, and it does not require defect scattering as the two phonons with q and –q are excited. This mode is therefore observed independent of the defect concentration.</para>
+          <para id="id6023548">The presence of D-band cannot be correlated to the presence of various defects (such as hetero-atoms, vacancies, heptagon-pentagon pairs, kinks, or even the presence of impurities, etc). Following are the two main characteristics of the D-band found in carbon nanotubes:</para>
+          <list id="id2632490" list-type="enumerated" number-style="arabic"><item>Small linewidths: Γ<sub>D</sub> values for SWNTs range from 40 cm<sup>-1</sup> down to 7 cm<sup>-1</sup>. </item>
+            <item>Lower frequencies: D-band frequency is usually lower than the frequency of sp<sup>2</sup>-based carbons, and this downshift of frequency shows 1/<emphasis effect="italics">d </emphasis>dependence.</item>
+          </list><section id="eip-344"><title>D-Band intensity as a measure of functionalization versus defect density </title><para id="eip-28">Since D-peak appears due to the presence defects, an increase in the intensity of the band is taken as a fingerprint for successful functionalization. But, whether D-band intensity is a measure of degree of functionalization or not is still sure. So, it is not correct to correlate D-peak intensity or D-peak area to the degree of functionalization. From <link target-id="eip-id1167702155100"/>, it can be observed that for lower degree of functionalization, intensity of the D-band scales linearly with defect density. As the degree of functionalization is further increased, both D and G-band area decrease, which is explained by the loss of resonance enhancement due to functionalization. Also, normalization of the D-peak intensity to the G-band in order to correct for changes in resonance intensities also leads to a decrease for higher densities of functional groups.
+</para>
+
+
+      
+
+<figure id="eip-id1167702155100"><media id="id3333974_media" alt="">
+                <image mime-type="image/jpeg" src="../../media/Figure 8.JPG" id="id3333974__onlineimage" height="300" width="700"/>
+              </media><caption>The left figure shows the intensity ratio I<sub>D</sub>/I<sub>G</sub> and the right figure shows D- and G-band intensity at λ<sub>exc</sub> = 532 nm with respect to degree of functionalization using diazonium reagents. Adapted from  R. Graupner, <emphasis effect="italics"> J. Raman Spectrosc.</emphasis>, 2007, <emphasis effect="bold"> 38</emphasis>, 673.</caption></figure>
+
+</section>
+          
+        </section>
+        
+        <section id="id4887969">
+          <title>Limitations of Raman spectroscopy</title>
+          <para id="id5758008">Though Raman spectroscopy has provides an exceedingly important tool for characterization of SWNTs, however, it suffers from few serious limitations. One of the main limitations of Raman spectroscopy is that it does not provide any information about the extent of functionalization in the SWNTs. The presence of D-band indicates disorder, i.e. side wall distribution, however it cannot differentiate between the number of substituents and their distribution. Following are the two main limitations of Raman Spectroscopy:</para>
+          <section id="eip-37"><title>Quantification of substituents</title><para id="eip-307">This can be illustrated by the following examples. Purified HiPco tubes may be fluorinated at 150 °C to give F-SWNTs with a C:F ratio of approximately 2.4:1. The Raman spectra (using 780 nm excitation) for F-SWNTs shows in addition to the tangential mode at ~1587 cm<sup>-1</sup> an intense broad D (disorder) mode at ~ 1295 cm<sup>-1</sup> consistent with the side wall functionalization. Irrespective of the arrangements of the fluorine substituents, thermolysis of F-SWNTs results in the loss of fluorine and the re-formation of unfunctionalized SWNTs alnog with their cleavage into shorter length tubes. As can be seen from <link target-id="id6635797"/>, the intensity of the D-band decreases as the thermolysis temperature increases. This is consistent with the loss of F-substituents. The G-band shows a concomitant sharpening and increase in intensity. </para>
+          
+          <figure id="id6635797"><media id="id6635797_media" alt="">
+              <image mime-type="image/jpg" src="../../media/fig16.jpg" id="id6635797__onlineimage" width="450" print-width="3in"/>
+            </media>
+          <caption>Raman spectra of F-SWNTs (a) as prepared at 150 °C and after heating to (b) 400, (c) 450 and (d) 550 °C. </caption></figure>
+          
+          
+          <para id="id3812415">As discussed above, the presence of a significant D mode has been the primary method for determining the presence of sidewall functionalization. It has been commonly accepted that the relative intensity of the D mode <emphasis effect="italics">versus</emphasis> the tangential G mode is a quantitative measure of level of substitution. However, as discussed below, the G:D ratio is also dependent on the distribution of substituents. Using Raman spectroscopy in combination with XPS analysis of F-SWNTs that have been subjected to thermolysis at different temperatures, a measure of the accuracy of Raman as a quantitative tool for determining substituent concentration can be obtained. As can be seen from <link target-id="id6491211"/>, there is essentially no change in the G:D band ratio despite a doubling amount of functional groups.Thus, at low levels of functionalization the use of Raman spectroscopy to quantify the presence of fluorine substituents is a clearly suspect. </para>
+          <figure id="id6491211"><media id="id6491211_media" alt="">
+              <image mime-type="image/jpg" src="../../media/NMR Raman.jpg" id="id6491211__onlineimage" width="514" print-width="3.5in"/>
+            </media>
+          <caption>C(sp<sup>2</sup>):C-F(sp<sup>3</sup>) ratio (blue) and Raman G-band:D-band ratio (red) as a function of C:F ratio from XPS. </caption></figure>
+          
+          <para id="id5262372">On the basis of above data it can be concluded that Raman spectroscopy does not provide an accurate quantification of small differences at low levels of functionalization, whereas when a comparison between samples with high levels of functionalization or large differences in degree of functionalization is requires Raman spectroscopy provides a good quantification.</para>
+          
+</section>
+
+
+<section id="eip-938"><title>Number versus distribution</title><para id="eip-44">Fluorinated nanotubes may be readily functionalized by reaction with the appropriate amine in the presence of base according to the scheme shown in <link target-id="id4149746"/>. </para>
+          
+          <figure id="id4149746"><media id="id4149746_media" alt="">
+              <image mime-type="image/jpg" src="../../media/fig15.jpg" id="id4149746__onlineimage" width="400" print-width="3.5in"/>
+            </media>
+          <caption>Synthesis of functionalized SWNTs. </caption></figure>
+          
+          <para id="id4114214">When the Raman spectra of the functionalized SWNTs is taken (<link target-id="id4201091"/>), it is found out that the relative intensity of the disorder D-band at ~1290 cm<sup>-1</sup><emphasis effect="italics">versus</emphasis> the tangential G-band (1500 - 1600 cm<sup>-1</sup>) is much higher for thiophene-SWNT than thiol-SWNT. If the relative intensity of the D mode is the measure of the level of substitution, it can be concluded that there are more number of thiophene groups present per C than thiol groups. However, from the TGA weight loss data the SWNT-C:substituent ratios are calculated to be 19:1 and 17.5:1. Thus, contrary to the Raman data the TGA suggest that the number of substituents per C (in the SWNT) is actually similar for both substituents.</para>
+          <figure id="id4201091"><media id="id4201091_media" alt="">
+              <image mime-type="image/jpg" src="../../media/fig13.jpg" id="id4201091__onlineimage" width="450" print-width="3in"/>
+            </media>
+          <caption>Raman spectrum of (a) thiol-SWNT and (b)thiophene-SWNT using 780 nm excitation showing the relative intensity of D-band at ~1300 cm<sup>-1</sup> versus the G-band at ~1590 cm<sup>-1</sup>. </caption></figure>
+          
+          
+          <para id="id4035113">This result would suggest that Raman spectroscopy is potentially unsuccessful in correctly providing the information about the number of substituents on the SWNTs. Subsequent imaging of the functionalized SWNTs by STM showed that the distribution of the functional groups was the difference between the thiol and thiphene functionalized SWNTs <link target-id="id6857018"/>. Thus, relative ratio of the D- and G-bands is a measure of concentration and distribution of functional groups on SWNTs. </para>
+          <figure id="id6857018"><media id="id6857018_media" alt="">
+              <image mime-type="image/jpg" src="../../media/distribution.jpg" id="id6857018__onlineimage" width="320" print-width="2.5in"/>
+            </media>
+          <caption>Schematic representation of the functional group distribution for (a) thiol-SWNT and (b) thiophene-SWNT. </caption></figure>
+</section>
+          
+          
+        </section>
+      </section>
+      <section id="id5038379">
+        <title>Multi-walled carbon nanotubes (MWNTs)</title>
+        <para id="id3707173">Most of the characteristic differences that distinguish the Raman spectra in SWNTs from the spectra of graphite are not so evident for MWNTs. It is because the outer diameter for MWNTs is very large and the ensemble of CNTs in them varies from small to very large. For example, the RBM Raman feature associated with a small diameter inner tube (less than 2 nm) can sometimes be observed when a good resonance condition is established, but since the RBM signal from large diameter tubes is usually too weak to be observable and the ensemble average of inner tube diameter broadens the signal, a good signal is not observed. However, when hydrogen gas in the arc discharge method is used, a thin innermost nanotube within a MWNT of diameter 1 nm can be obtained which gives strong RBM peaks in the Raman spectra.</para>
+        <para id="id5601019">Thereas the G+ - G- splitting is large for small diameter SWNT, the corresponding splitting of the G-band in MWNTs is both small in intensity and smeared out due to the effect of the diameter distribution. Therefore the G-band feature predominantly exists a weakly asymmetric characteristic lineshape, and a peak appearing close to the graphite frequency of 1582 cm<sup>-1</sup>.however for isolated MWNTs prepared in the presence of hydrogen gas using the arc discharge method, it is possible to observe multiple G-band splitting effects even more clearly than for the SWNTs, and this is because environmental effects become relatively small for the innermost nanotube in a MWNT relative to the interactions occurring between SWNTs and different environments. The Raman spectroscopy of MWNTs has not been well investigated up to now. The new directions in this field are yet to be explored.</para>
+  
+
+    </section>
+    <section id="id4685903">
+      <title>Bibliography</title>
+      <list id="id2767498" list-type="bulleted"><item>R. Graupner, <emphasis effect="italics">J. Ramn Spectrosc.</emphasis>, 2007, <emphasis effect="bold"> 38</emphasis>, 673.</item>
+<item>S. Costa, B. Palen, M. Kruszynska, A. Bachmatiuk, and R.J. Kalenczuk, <emphasis effect="italics">Mat. Sci. Poland</emphasis>, 2008, <emphasis effect="bold"> 26</emphasis>, 433.</item>
+        <item>M. Paillet, T. Michel , J. C. Meyer, V. N. Popov, L. Henrad, S. Roth, and J. L. Sauvajol, <emphasis effect="italics">Phy. Rev. Lett.</emphasis>, 2006, <emphasis effect="bold"> 96</emphasis>, 257401. </item>
+        <item>L. Zhang, J. Zhang, N. Schmandt, J. Cratty, V. N. Khabashesku, K. F. Kelly, and A. R. Barron, <emphasis effect="italics">Chem. Commun.</emphasis>, 2005, 5429.</item>
+        <item>L. B. Alemany, L. Zhang, L. Zeng, C. L. Edwards, and A. R. Barron, <emphasis effect="italics">Chem. Mater.</emphasis>, 2006, <emphasis effect="bold"> 19</emphasis>, 735.</item>
+        <item>M. S. Dresselhaus, G. Dresselhaus, R. Saito, and A. Jorio, <emphasis effect="italics">J. Phys. Rep.</emphasis>, 2005, <emphasis effect="bold"> 2</emphasis>, 47.</item>
+        <item>A. Jorio, M. A. Pimenta, A. G. S. Filho, R. Saito, G. Dresselhaus, and M. S. Dresselhaus, <emphasis effect="italics">New J. Phys.</emphasis>, 2003, <emphasis effect="bold"> 5</emphasis>, 139.</item>
+
+
+      </list>
+    </section>
+  </content>
+</document>

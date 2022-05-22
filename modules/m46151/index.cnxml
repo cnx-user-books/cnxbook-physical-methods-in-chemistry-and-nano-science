@@ -1,0 +1,181 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>P-31 NMR Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46151</md:content-id>
+  <md:title>P-31 NMR Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>306c4521-80e7-4b82-abe4-9b45b9b5f5c7</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1163653174635">
+      <title>Introduction</title>
+      <para id="import-auto-id1163665444728">Phosphorus-31 nuclear magnetic resonance (<sup>31</sup>P NMR) is conceptually the same as proton (<sup>1</sup>H) NMR. The <sup>31</sup>P nucleus is useful in NMR spectroscopy due to its relatively high gyromagnetic ratio (17.235 MHz<emphasis effect="bold"/>T<sup>-1</sup>). For comparison, the gyromagnetic ratios of <sup>1</sup>H and <sup>13</sup>C are (42.576 MHz T<sup>-1</sup>) and (10.705 MHz T<sup>-1</sup>), respectively. Furthermore, <sup>31</sup>P has a 100% natural isotopic abundance. Like the <sup>1</sup>H nucleus, the <sup>31</sup>P nucleus has a nuclear spin of <sup>1</sup>/<sub>2</sub> which makes spectra relatively easy to interpret. <sup>31</sup>P NMR is an excellent technique for studying phosphorus containing compounds, such as organic compounds and metal coordination complexes.</para></section>
+    <section id="import-auto-id1163653761324">
+      <title>Differences between <sup>1</sup>H and <sup>31</sup>P NMR</title>
+      <para id="import-auto-id1163665563750">There are certain significant differences between <sup>1</sup>H and <sup>31</sup>P NMR. While <sup>1</sup>H NMR spectra is referenced to tetramethylsilane [Si(C<emphasis effect="underline">H</emphasis><sub>3</sub>)<sub>4</sub>], the chemical shifts in <sup>31</sup>P NMR are typically reported relative to 85% phosphoric acid (δ = 0 ppm), which is used as an external standard due to its reactivity. However, trimethyl phosphite, <emphasis effect="underline">P</emphasis>(OCH<sub>3</sub>)<sub>3</sub>, is also used since unlike phosphoric acid its shift (δ = 140 ppm) is not dependent on concentration or pH.   As in <sup>1</sup>H NMR, positive chemical shifts correspond to a downfield shift from the standard. However, prior to the mid-1970s, the convention was the opposite. As a result, older texts and papers report shifts using the opposite sign. Chemical shifts in <sup>31</sup>P NMR commonly depend on the concentration of the sample, the solvent used, and the presence of other compounds. This is because the external standard does not take into account the bulk properties of the sample. As a result, reported chemical shifts for the same compound could vary by 1 ppm or more, especially for phosphate groups (P=O).  <sup>31</sup>P NMR spectra are often recorded with all proton signals decoupled, i.e., <sup>31</sup>P-{<sup>1</sup>H}, as is done with <sup>13</sup>C NMR. This gives rise to single, sharp signals per unique <sup>31</sup>P nucleus. Herein, we will consider both coupled and decoupled spectra.</para></section>
+    <section id="import-auto-id8888284">
+      <title>Interpreting spectra</title>
+      <para id="import-auto-id1163656229832">As in <sup>1</sup>H NMR, phosphorus signals occur at different frequencies depending on the electron environment of each phosphorus nucleus (<link target-id=" import-auto-id1163654590586"/>). In this section we will study a few examples of phosphorus compounds with varying chemical shifts and coupling to other nuclei.</para><figure id="import-auto-id1163654590586"><media id="import-auto-id1163654465140" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-bc1b.jpg" width="450" print-width="4in"/>
+        </media>
+      <caption>Chemical shift ranges for different types of phosphorus compounds.</caption></figure><section id="import-auto-id1163653240282">
+        <title>Different phosphorus environments and their coupling to <sup>1</sup>H</title>
+        <para id="import-auto-id1163653877083">Consider the structure of 2,6,7-trioxa-1,4-diphosphabicyclo[2.2.2]octane [P<sub>α</sub>(OCH<sub>2</sub>)<sub>3</sub>P<sub>β</sub>] shown in <link target-id="import-auto-id1163653289101"/>. The subscripts α and β are simply used to differentiate the two phosphorus nuclei. According to Table 1, we expect the shift of P<sub>α</sub> to be downfield of the phosphoric acid standard, roughly around 125 ppm to 140 ppm and the shift of P<sub>β</sub> to be upfield of the standard, between -5 ppm and -70 ppm. In the decoupled spectrum shown in <link target-id="import-auto-id1163653289101"/>, we can assign the phosphorus shift at 90.0 ppm  to P<sub>α</sub> and the shift at -67.0 ppm to P<sub>β</sub>.</para><figure id="import-auto-id1163653289101"><media id="import-auto-id1163654492979" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-79d8.jpg" width="400" print-width="3in"/>
+          </media>
+        <caption>Structure and decoupled <sup>31</sup>P spectrum (<sup>31</sup>P-{<sup>1</sup>H}) of P<sub>α</sub>(OCH<sub>2</sub>)<sub>3</sub>P<sub>β</sub>.</caption></figure><para id="import-auto-id1163653759899"><link target-id="import-auto-id1163655288322"/>  shows the coupling of the phosphorus signals to the protons in the compound. We expect a stronger coupling for P<sub>β</sub> because there are only two bonds separating P<sub>β</sub> from H, whereas three bonds separate P<sub>α</sub> from H (<emphasis effect="italics">J</emphasis><sub>PCH</sub> &gt; <emphasis effect="italics">J</emphasis><sub>POCH</sub>). Indeed, <emphasis effect="italics">J</emphasis><sub>PCH</sub> = 8.9 Hz and <emphasis effect="italics">J</emphasis><sub>POCH</sub> = 2.6 Hz, corroborating our peak assignments above. </para><figure id="import-auto-id1163655288322"><media id="import-auto-id1163655540984" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-0af0.jpg" width="400" print-width="3in"/>
+          </media>
+        <caption>The <sup>31</sup>P spin coupled spectrum of P<sub>α</sub>(OCH<sub>2</sub>)<sub>3</sub>P<sub>β</sub>.</caption></figure><para id="eip-799">Finally, <link target-id="import-auto-id1163654479107"/> shows the <sup>1</sup>H spectrum of P<sub>α</sub>(OCH<sub>2</sub>)<sub>3</sub>P<sub>β</sub> (<link target-id="import-auto-id1163653779490"/>), which shows a doublet of doublets for the proton signal due to coupling to the two phosphorus nuclei. </para><figure id="import-auto-id1163654479107"><media id="import-auto-id1163665265834" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-3aa7.jpg" width="400" print-width="3in"/>
+          </media>
+        <caption><sup>1</sup>H spectrum of P<sub>α</sub>(OCH<sub>2</sub>)<sub>3</sub>P<sub>β</sub> and proton splitting pattern due to phosphorus.</caption></figure><para id="eip-93">As suggested by the data in <link target-id="import-auto-id1163654590586"/> we can predict and observe changes in phosphorus chemical shift by changing the coordination of P.  Thus for the series of compounds with the structure shown in <link target-id="import-auto-id1163653779490"/> the different chemical shifts corresponding to different phosphorus compounds are shown in <link target-id="import-auto-id1163653817235"/>.</para><figure id="import-auto-id1163653779490"><media id="import-auto-id1163654442185" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-b823.jpg" width="150" print-width="1.5in"/>
+          </media>
+        <caption>Structure of [XP<sub>α</sub>(OCH<sub>2</sub>)<sub>3</sub>P<sub>β</sub>Y]. </caption></figure><table id="import-auto-id1163653817235" summary="31P chemical shifts for variable coordination of [XPα(OCH2)3PβY]. Data from K. J. Coskran and J. G. Verkade, Inorg. Chem., 1965, 4, 1655.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <thead>
+              <row>
+                <entry>
+
+                    <emphasis effect="bold">X</emphasis>
+
+                </entry>
+                <entry>
+
+                    <emphasis effect="bold">Y</emphasis>
+                
+                </entry>
+                <entry>
+                  <emphasis effect="bold">P<sub>α</sub> chemical shift (ppm)</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">P<sub>β</sub> chemical shift (ppm)</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>90.0</entry>
+                <entry>-67.0</entry>
+              </row>
+              <row>
+                <entry>O</entry>
+                <entry>O</entry>
+                <entry>-18.1</entry>
+                <entry>6.4</entry>
+              </row>
+              <row>
+                <entry>S</entry>
+                <entry>-</entry>
+                <entry>51.8</entry>
+                <entry>-70.6</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+</tgroup><caption><sup>31</sup>P chemical shifts for variable coordination of [XP<sub>α</sub>(OCH<sub>2</sub>)<sub>3</sub>P<sub>β</sub>Y] (<link target-id="import-auto-id1163653779490"/>). Data from K. J. Coskran and J. G. Verkade, <emphasis effect="italics">Inorg. Chem.</emphasis>, 1965, <emphasis effect="bold">4</emphasis>, 1655.</caption>
+</table></section>
+      <section id="import-auto-id1163660545973">
+        <title>Coupling to fluorine</title>
+        <para id="import-auto-id1163660106642"><sup>19</sup>F NMR is very similar to <sup>31</sup>P NMR in that <sup>19</sup>F has spin <sup>1</sup>/<sub>2</sub> and is a 100% abundant isotope. As a result, <sup>19</sup>F NMR is a great technique for fluorine-containing compounds and allows observance of P-F coupling. The coupled <sup>31</sup>P and <sup>19</sup>F NMR spectra of ethoxy<emphasis effect="italics">bis</emphasis>(trifluoromethyl)phosphine, P(CF<sub>3</sub>)<sub>2</sub>(OCH<sub>2</sub>CH<sub>3</sub>), are shown in <link target-id="import-auto-id1163653748048"/>. It is worth noting the splitting due to <emphasis effect="italics">J</emphasis><sub>PCF</sub> = 86.6 Hz.</para><figure id="import-auto-id1163653748048"><media id="import-auto-id1163653813134" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6-bba4.jpg" width="400" print-width="3in"/>
+          </media>
+        <caption>Structure, <sup>31</sup>P-{<sup>1</sup>H} spectrum (A), and <sup>19</sup>F-{<sup>1</sup>H} spectrum (B) for P(CF<sub>3</sub>)<sub>2</sub>(OCH<sub>2</sub>CH<sub>3</sub>). Data from K. J. Packer, <emphasis effect="italics">J. Chem. Soc.</emphasis>, 1963, 960.</caption></figure></section>
+      <section id="import-auto-id1163653213294">
+        <title><sup>31</sup>P-<sup>1</sup>H coupling</title>
+        <para id="import-auto-id1163653734927">Consider the structure of dimethyl phosphonate, OPH(OCH<sub>3</sub>)<sub>2</sub>, shown in <link target-id="import-auto-id1163653865485"/>. As the phosphorus nucleus is coupled to a hydrogen nucleus bound directly to it, that is, a coupling separated by a single bond,  we expect <emphasis effect="italics">J</emphasis><sub>PH</sub> to be very high. Indeed, the separation is so large (715 Hz) that one could easily mistake the split peak for two peaks corresponding to two different phosphorus nuclei.</para><figure id="import-auto-id1163653865485"><media id="import-auto-id1163654516811" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics7-1db7.jpg" width="400" print-width="3in"/>
+          </media>
+        <caption>Structure and <sup>31</sup>P NMR spectrum of OPH(OCH<sub>3</sub>)<sub>2</sub> with only the OC<emphasis effect="underline">H</emphasis><sub>3</sub> protons decoupled.</caption></figure><para id="import-auto-id1163653847717">This strong coupling could also lead us astray when we consider the <sup>1</sup>H NMR spectrum of dimethyl phosphonate (<link target-id="import-auto-id1163653317101"/>). Here we observe two very small peaks corresponding to the phosphine proton. The peaks are separated by such a large distance and are so small relative to the methoxy doublet (ratio of 1:1:12), that it would be easy to confuse them for an impurity. To assign the small doublet, we could decouple the phosphorus signal at 11 ppm, which will cause this peak to collapse into a singlet.</para><figure id="import-auto-id1163653317101"><media id="import-auto-id1163654521074" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics8-1ca9.jpg" width="400" print-width="3in"/>
+          </media>
+        <caption><sup>1</sup>H spectrum of OPH(OCH<sub>3</sub>)<sub>2</sub>. Data from K. Moedritzer, <emphasis effect="italics">J. Inorg. Nucl. Chem.</emphasis>, 1961, <emphasis effect="bold">22</emphasis>, 19.</caption></figure></section>
+    </section>
+    <section id="import-auto-id1163660200410">
+      <title>Obtaining <sup>31</sup>P spectra</title>
+      <section id="import-auto-id1163653837371">
+        <title>Sample preparation</title>
+        <para id="import-auto-id1163653795966">Unlike <sup>13</sup>C NMR, which requires high sample concentrations due to the low isotopic abundance of <sup>13</sup>C, <sup>31</sup>P sample preparation is very similar to <sup>1</sup>H sample preparation. As in other NMR experiments, a <sup>31</sup>P NMR sample must be free of particulate matter. A reasonable concentration is 2-10 mg of sample dissolved in 0.6-1.0 mL of solvent. If needed, the solution can be filtered through a small glass fiber. Note that the solid will not be analyzed in the NMR experiment. Unlike <sup>1</sup>H NMR, however, the sample does <emphasis effect="bold">not</emphasis> to be dissolved in a deuterated solvent since common solvents do not have <sup>31</sup>P nuclei to contribute to spectra. This is true, of course, only if a <sup>1</sup>H NMR spectrum is not to be obtained from this sample. Being able to use non-deuterated solvents offers many advantages to <sup>31</sup>P NMR, such as the simplicity of assaying purity and monitoring reactions, which will be discussed later.</para></section>
+      <section id="import-auto-id1163655587360"><title>Instrument operation</title><para id="import-auto-id1163654443307">Instrument operation will vary according to instrumentation and software available. However, there are a few important aspects to instrument operation relevant to <sup>31</sup>P NMR. The instrument probe, which excites nuclear spins and detects chemical shifts, must be set up appropriately for a <sup>31</sup>P NMR experiment. For an instrument with a multinuclear probe, it is a simple matter to access the NMR software and make the switch to a <sup>31</sup>P experiment. This will select the appropriate frequency for <sup>31</sup>P. For an instrument which has separate probes for different nuclei, it is imperative that one be trained by an expert user in changing the probes on the spectrometer.</para><para id="import-auto-id1163659611800">Before running the NMR experiment, consider whether the <sup>31</sup>P spectrum should include coupling to protons. Note that <sup>31</sup>P spectra are typically reported with all protons decoupled, i.e.,<sup> 31</sup>1P-{<sup>1</sup>H}. This is usually the default setting for a <sup>31</sup>P NMR experiment. To change the coupling setting, follow the instructions specific to your NMR instrument software.</para><para id="import-auto-id1163655298199">As mentioned previously, chemical shifts in <sup>31</sup>P NMR are reported relative to 85% phosphoric acid. This must be an external standard due to the high reactivity of phosphoric acid. One method for standardizing an experiment uses a coaxial tube inserted into the sample NMR tube (<link target-id="import-auto-id1163653264853"/>). The 85% H<sub>3</sub>PO<sub>4</sub> signal will appear as part of the sample NMR spectrum and can thus be set to 0 ppm.</para><figure id="import-auto-id1163653264853"><media id="import-auto-id1163653878480" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 4-1501.jpg" width="80" print-width="0.75in"/>
+          </media>
+        <caption>Diagram of NMR tube with inserted coaxial reference insert. Image Courtesy of Wilmad-LabGlass; All Rights Reserved.</caption></figure><para id="import-auto-id1163656205744">Another way to reference an NMR spectrum is to use a 85% H<sub>3</sub>PO<sub>4</sub> standard sample. These can be prepared in the laboratory or purchased commercially. To allow for long term use, these samples are typically vacuum sealed, as opposed to capped the way NMR samples typically are. The procedure for using a separate reference is as follows.</para>
+        <list id="import-auto-id1163654515685" list-type="enumerated" number-style="arabic">
+          <item>Insert NMR sample tube into spectrometer.</item>
+          <item>Tune the <sup>31</sup>P probe and shim the magnetic field according to your individual instrument procedure.</item>
+          <item>Remove NMR sample tube and insert H<sub>3</sub>PO<sub>4</sub> reference tube into spectrometer.</item>
+          <item>Begin NMR experiment. As scans proceed, perform a fourier transform and set the phosphorus signal to 0 ppm. Continue to reference spectrum until the shift stops changing.</item>
+          <item>Stop experiment.</item>
+          <item>Remove H<sub>3</sub>PO<sub>4</sub> reference tube and insert NMR sample into spectrometer.</item>
+          <item>Run NMR experiment without changing the referencing of the spectrum.</item>
+        </list>
+      </section></section>
+    <section id="import-auto-id1163653189312">
+      <title><sup>31</sup>P NMR applications</title>
+      <section id="import-auto-id1163655659548">
+        <title>Assaying sample purity</title>
+        <para id="import-auto-id1163655538402"><sup>31</sup>P NMR spectroscopy gives rise to single sharp peaks that facilitate differentiating phosphorus-containing species, such as starting materials from products. For this reason, <sup>31</sup>P NMR is a quick and simple technique for assaying sample purity. Beware, however, that a “clean” <sup>31</sup>P spectrum does not necessarily suggest a pure compound, only a mixture free of phosphorus-containing contaminants.</para>
+        <para id="import-auto-id1163660581837"><sup>31</sup>P NMR can also be used to determine the optical purity of a chiral sample. Adding an enantiomer to the chiral mixture to form two different diastereomers will give rise to two unique chemical shifts in the <sup>31</sup>P spectrum. The ratio of these peaks can then be compared to determine optical purity.</para>
+      </section>
+      <section id="import-auto-id1163658471810"><title>Monitoring reactions</title><para id="import-auto-id1163653773512">As suggested in the previous section, <sup>31</sup>P NMR can be used to monitor a reaction involving phosphorus compounds. Consider the reaction between a slight excess of organic diphosphine ligand and a nickel(0) <emphasis effect="italics">bis</emphasis>-cyclooctadiene, <link target-id="eip-113"/>.</para><equation id="eip-113"><media id="import-auto-id1163653872370" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics9-1f9e.jpg" width="400" print-width="3in"/>
+          </media>
+
+</equation><para id="import-auto-id1163658960697">The reaction can be followed by <sup>31</sup>P NMR by simply taking a small aliquot from the reaction mixture and adding it to an NMR tube, filtering as needed. The sample is then used to acquire a <sup>31</sup>P NMR spectrum and the procedure can be repeated at different reaction times. The data acquired for these experiments is found in <link target-id="import-auto-id1163654454399"/>. The changing in <sup>31</sup>P peak intensity can be used to monitor the reaction, which begins with a single signal at -4.40 ppm, corresponding to the free diphosphine ligand. After an hour, a new signal appears at 41.05 ppm, corresponding the the diphosphine nickel complex. The downfield peak grows as the reaction proceeds relative to the upfield peak. No change is observed between four and five hours, suggesting the conclusion of the reaction.</para><figure id="import-auto-id1163654454399"><media id="import-auto-id1163656991285" alt="">
+            <image mime-type="image/jpg" src="../../media/P2Ni Reaction over time.jpg" width="400" print-width="3in"/>
+          </media>
+        <caption><sup>31</sup>P-{<sup>1</sup>H} NMR spectra of the reaction of diphosphine ligand with nickel(0) <emphasis effect="italics">bis</emphasis>-cyclooctadiene to make a diphosphine nickel complex over time.</caption></figure><para id="import-auto-id1163658954452">There are a number of advantages for using <sup>31</sup>P for reaction monitoring when available as compared to <sup>1</sup>H NMR:</para>
+        <list id="import-auto-id1163653395454" list-type="bulleted">
+          <item>There is no need for a deuterated solvent, which simplifies sample preparation and saves time and resources.</item>
+          <item>The <sup>31</sup>P spectrum is simple and can be analyzed quickly. The corresponding <sup>1</sup>H NMR spectra for the above reaction would include a number of overlapping peaks for the two phosphorus species as well as peaks for both free and bound cyclooctadiene ligand.</item>
+          <item>Purification of product is also easy assayed.</item>
+        </list>
+        <para id="import-auto-id1163653297883"><sup>31</sup>P NMR does not eliminate the need for <sup>1</sup>H NMR chacterization, as impurities lacking phosphorus will not appear in a <sup>31</sup>P experiment. However, at the completion of the reaction, both the crude and purified products can be easily analyzed by both <sup>1</sup>H and <sup>31</sup>P NMR spectroscopy.</para>
+      </section><section id="import-auto-id1163653233986">
+        <title>Measuring epoxide content of carbon nanomaterials.</title>
+        <para id="import-auto-id1163653385945">One can measure the amount of epoxide on nanomaterials such as carbon nanotubes and fullerenes by monitoring a reaction involving phosphorus compounds in a similar manner to that described above. This technique uses the catalytic reaction of methyltrioxorhenium (<link target-id="eip-226"/>). An epoxide reacts with methyltrioxorhenium to form a five membered ring. In the presence of triphenylphosphine (PPH<sub>3</sub>), the catalyst is regenerated, forming an alkene and triphenylphosphine oxide (OPPh<sub>3</sub>). The same reaction can be applied to carbon nanostructures and used to quantify the amount of epoxide on the nanomaterial. <link target-id=" eip-930"/> illustrates the quantification of epoxide on a carbon nanotube.</para><equation id="eip-226"><media id="import-auto-id1163653872371" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics11-90e3.jpg" width="400" print-width="3in"/>
+          </media></equation><equation id="eip-930"><media id="import-auto-id1163653579500" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics12-c5dd.jpg" width="400" print-width="3in"/>
+          </media>
+        </equation><para id="import-auto-id1163655015506">Because the amount of initial PPh<sub>3</sub> used in the reaction is known, the relative amounts of PPh<sub>3</sub> and OPPh<sub>3</sub> can be used to stoichiometrically determine the amount of epoxide on the nanotube. <sup>31</sup>P NMR spectroscopy is used to determine the relative amounts of PPh<sub>3</sub> and OPPh<sub>3</sub> (<link target-id=" import-auto-id1163653875361"/>).</para><figure id="import-auto-id1163653875361"><media id="import-auto-id1163653260012" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics13-f930.jpg" width="400" print-width="3in"/>
+          </media>
+        <caption><sup>31</sup>P spectrum of experiment before addition of Re complex (top) and at the completion of experiment (bottom).</caption></figure><para id="import-auto-id1163653867880">The integration of the two <sup>31</sup>P signals is used to quantify the amount of epoxide on the nanotube according to <link target-id="eip-342"/>. </para><equation id="eip-342"><media id="import-auto-XXXXX" alt="">
+            <image mime-type="image/jpg" src="../../media/EqO.jpg" width="400" print-width="3.5in"/>
+          </media></equation><para id="import-auto-id1163653881887">Thus, from a known quantity of PPh<sub>3</sub>, one can find the amount of OPPh<sub>3</sub> formed and relate it stoichiometrically to the amount of epoxide on the nanotube. Not only does this experiment allow for such quantification, it is also unaffected by the presence of the many different species present in the experiment. This is because the compounds of interest, PPh<sub>3</sub> and OPPh<sub>3</sub>, are the only ones that are characterized by <sup>31</sup>P NMR spectroscopy.</para></section>
+    </section>
+    <section id="import-auto-id1163653886033">
+      <title>Conclusion</title>
+      <para id="import-auto-id1163653792813"><sup>31</sup>P NMR spectroscopy is a simple technique that can be used alongside <sup>1</sup>H NMR to characterize phosphorus-containing compounds. When used on its own, the biggest difference from <sup>1</sup>H NMR is that there is no need to utilize deuterated solvents. This advantage leads to many different applications of <sup>31</sup>P NMR, such as assaying purity and monitoring reactions. </para>
+    </section>
+    <section id="import-auto-id1163653302169">
+      <title>Bibliography</title>
+      <list id="eip-924"><item>K. J. Coskran and J. G. Verkade, <emphasis effect="italics">Inorg. Chem.</emphasis>, 1965, <emphasis effect="bold">4</emphasis>, 1655.</item>
+
+<item>M. M. Crutchfield, C. H. Dungan, J. H. Letcher, V. Mark, and J. R. Van Wazer, <emphasis effect="italics">P31: Nuclear Magnetic Resonance</emphasis>. Interscience, NY (1967). </item>
+
+<item>W. Guo, K. F. Kelly, A. R. Barron and W. E. Billups, <emphasis effect="italics">J. Am. Chem. Soc</emphasis>., 2008, <emphasis effect="bold">130</emphasis>, 5414.</item>
+
+<item>K. Moedritzer, <emphasis effect="italics">J. Inorg. Nucl. Chem.</emphasis>, 1961, <emphasis effect="bold">22</emphasis>, 19.</item>
+
+<item>D. Ogrin, J. Chattopadhyay, A. K. Sadana, E. Billups, and A. R. Barron, <emphasis effect="italics">J. Am. Chem. Soc</emphasis>., 2006, <emphasis effect="bold">128</emphasis>, 11322.</item>
+
+<item>K. J. Packer, <emphasis effect="italics">J. Chem. Soc.</emphasis>, 1963, 960.</item>
+
+<item>J. G. Verkade, and L. D. Quin. <emphasis effect="italics">Phosphorus-31 NMR Spectroscopy in Stereochemical Analysis</emphasis>. VCH, Deerfield Beach, FL (1987).</item></list></section>
+  </content>
+</document>

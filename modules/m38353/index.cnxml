@@ -1,0 +1,155 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Principles of Mass Spectrometry and Modern Applications</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38353</md:content-id>
+  <md:title>Principles of Mass Spectrometry and Modern Applications</md:title>
+  <md:abstract>Overview of the basics of mass spectrometry. Explanation of ionization and detection methods.</md:abstract>
+  <md:uuid>925e204d-d85f-4db8-be50-3e4d60057b37</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1170670823676">
+      <title>Introduction </title>
+      <para id="id1170661083875">Mass spectrometry (MS) is a powerful characterization technique used for the identification of a wide variety of chemical compounds. At its simplest, MS is merely a tool for determining the molecular weight of the chemical species in a sample. However, with the high resolution obtainable from modern machines, it is possible to distinguish isomers, isotopes, and even compounds with nominally identical molecular weights. Libraries of mass spectra have been compiled which allow rapid identification of most known compounds, including proteins as large as 100 kDa (100,000 amu). </para>
+      <para id="id1170691052030">Mass spectrometers separate compounds based on a property known as the mass-to-charge ratio. The sample to be identified is first ionized, and then passed through some form of magnetic field. Based on parameters such as how long it takes the molecule to travel a certain distance or the amount of deflection caused by the field, a mass can be calculated for the ion. As will be discussed later, there are a wide variety of techniques for ionizing and detecting compounds.</para>
+      <para id="id1170657912174">Limitations of MS generally stem from compounds that are not easily ionizable, or which decompose upon ionization. Geometric isomers can generally be distinguished easily, but differences in chirality are not easily resolved. Complications can also arise from samples which are not easily dissolved in common solvents. </para>
+    </section>
+    <section id="id1170674018676">
+      <title>Ionization techniques</title>
+      
+      <section id="eip-65"><title>Electon impact (EI) </title><para id="eip-216">In electon impact ionization, a vaporized sample is passed through a beam of electrons. The high energy (typically 70 eV) beam strips electrons from the sample molecules leaving a positively charged radical species. The molecular ion is typically unstable and undergoes decomposition or rearrangement to produce fragment ions. Because of this, electron impact is classified as a “hard” ionization technique. With regards to metal-containing compounds, fragments in EI will almost always contain the metal atom (i.e., [ML<sub>n</sub>]<sup>+•</sup> fragments to [ML<sub>n-1</sub>]<sup>+</sup> + L<sup>•</sup>, not ML<sub>n-1</sub><sup>•</sup> + L<sup>+</sup>). One of the main limitations of EI is that the sample must be volatile and thermally stable. </para></section>
+      <section id="id1170694352305">
+        <title>Chemical ionization (CI) </title>
+        <para id="id1170687528940">In chemical ionization, the sample is introduced to a chamber filled with excess reagent gas (such as methane). The reagent gas is ionized by electrons, forming a plasma with species such as CH<sub>5</sub><sup>+</sup>, which react with the sample to form the pseudomolecular ion [M+H]<sup>+</sup>. Because CI does not involve radical reactions, fragmentation of the sample is generally much lower than that of EI. CI can also be operated in negative mode (to generate anions) by using different reagent gases. For example, a mixture of CH<sub>4</sub> and NO<sub>2</sub> will generate hydroxide ions, which can abstract protons to yield the [M-H]<sup>-</sup> species. A related technique, atmospheric pressure chemical ionization (APCI) delivers the sample as a neutral spray, which is then ionized by corona discharge, producing ions in a similar manner as described above. APCI is particularly suited for low molecular weight, nonpolar species that cannot be easily analyzed by other common techniques such as ESI.</para>
+      </section>
+      <section id="id1170678676696">
+        <title>Field ionization/desorption </title>
+        <para id="id1170672006791">Field ionization and desorption are two closely related techniques which use quantum tunneling of electrons to generate ions. Typically, a highly positive potential is applied to an electrode with a sharp point, resulting in a high potential gradient at the tip (<link target-id=" id1170658865171"/>). As the sample reaches this field, electron tunneling occurs to generate the cation, which is repelled into the mass analyzer. Field ionization utilizes gaseous samples whereas in field desorption the sample is adsorbed directly onto the electrode. Both of these techniques are <emphasis effect="italics">soft</emphasis>, resulting in low energy ions which do not easily fragment.</para>
+        <figure id="id1170658865171"><media id="id1170658865171_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1b.jpg" id="id1170658865171__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic of field ionization. </caption></figure>
+        
+      </section>
+      <section id="id1170684697479"><title>Electrospray ionization (ESI) </title><para id="id1170672094298">In ESI, a highly charged aerosol is generated from a sample in solution. As the droplets shrink due to evaporation, the charge density increases until a <emphasis effect="italics">coulombic explosion</emphasis> occurs, producing daughter droplets that repeat the process until individualized sample ions are generated (<link target-id="id1170691631729"/>). One of the limitations of ESI is the requirement that the sample be soluble. ESI is best applied to charged, polar, or basic compounds.</para>
+
+
+        <figure id="id1170691631729"><media id="id1170691631729_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2b.jpg" id="id1170691631729__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic of electrospray ionization. </caption></figure>
+        
+      </section>
+      <section id="id1170656358741">
+        <title>Matrix assisted laser desorption ionization (MALDI)</title>
+        <para id="id1170682639549">Laser desorption ionization generates ions by ablation from a surface using a pulsed laser. This technique is greatly improved by the addition of a matrix co-crystallized with the sample. As the sample is irradiated, a plume of desorbed molecules is generated. It is believed that ionization occurs in this plume due to a variety of chemical and physical interactions between the sample and the matrix (<link target-id="id1170653946068"/>). One of the major advantages of MALDI is that it produces singly charged ions almost exclusively and can be used to volatilize extremely high molecular weight species such as polymers and proteins. A related technique, desorption ionization on silicon (DIOS) also uses laser desorption, but the sample is immobilized on a porous silicon surface with no matrix. This allows the study of low molecular weight compounds which may be obscured by matrix peaks in conventional MALDI.</para>
+        <figure id="id1170653946068"><media id="id1170653946068_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-7327.jpg" id="id1170653946068__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic of matrix assisted laser desorption ionization. </caption></figure>
+        
+      </section>
+      <section id="id8894277">
+        <title>Inductively coupled plasma mass spectrometry (ICP-MS)</title>
+        <para id="id1170664720920">A plasma torch generated by electromagnetic induction is used to ionize samples. Because the effective temperature of the plasma is about 10,000 °C, samples are broken down to ions of their constituent elements. Thus, all chemical information is lost, and the technique is best suited for elemental analysis. ICP-MS is typically used for analysis of trace elements.</para>
+      </section>
+      <section id="id1170695659220"><title>Fast atom bombardment (FAB) and secondary ion mass spectrometry (SIMS)</title><para id="id1170664711869">Both of these techniques involve sputtering a sample to generate individualized ions; FAB utilizes a stream of inert gas atoms (argon or xenon) whereas SIMS uses ions such as Cs<sup>+</sup>. Ionization occurs by charge transfer between the ions and the sample or by protonation from the matrix material (<link target-id="id1170670521725"/>). Both solid and liquid samples may be analyzed. A unique aspect of these techniques for analysis of solids is the ability to do depth profiling because of the destructive nature of the ionization technique.</para>
+
+          <figure id="id1170670521725"><media id="id1170670521725_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics4-43ec.jpg" id="id1170670521725__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Schematic of fast atom bombardment ionization. </caption></figure>
+
+        
+      </section>
+      <section id="id1170658430956">
+        <title>Choosing an ionization technique</title>
+        <para id="id1170678677746">Depending on the information desired from mass spectrometry analysis, different ionization techniques may be desired. For example, a hard ionization method such as electron impact may be used for a complex molecule in order to determine the component parts by fragmentation. On the other hand, a high molecular weight sample of polymer or protein may require an ionization method such as MALDI in order to be volatilized. Often, samples may be easily analyzed using multiple ionization methods, and the choice is simplified to choosing the most convenient method. For example, electrospray ionization may be easily coupled to liquid chromatography systems, as no additional sample preparation is required. <link target-id="eip-14"/> provides a quick guide to ionization techniques typically applied to various types of samples.</para>
+        <table id="eip-14" summary="Strengths of various ionization techniques.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Information desired</emphasis></entry>
+    <entry><emphasis effect="bold">Ionization technique</emphasis></entry>
+  </row>
+  <row>
+    <entry>Elemental analysis</entry>
+    <entry>Inductively coupled plasma</entry>
+  </row>
+  <row>
+    <entry>Depth profiling</entry>
+    <entry>Fast atom bombardment/secondary ion mass spectroscopy</entry>
+  </row>
+  <row>
+    <entry>Chemical speciation/component analysis (fragmentation desired)</entry>
+    <entry>Electron impact</entry>
+  </row>
+  <row>
+    <entry>Molecular species identification of compounds soluble in common solvents</entry>
+    <entry>Electrospray ionization</entry>
+  </row>
+  <row>
+    <entry>Molecular species identification of hydrocarbon compounds</entry>
+    <entry>Field ionization</entry>
+  </row>
+  <row>
+    <entry>Molecular species identification of high molecular weight compounds</entry>
+    <entry>Matrix assisted laser desorption ionization</entry>
+  </row>
+  <row>
+    <entry>Molecular species identification of halogen containing compounds</entry>
+    <entry>Chemical ionization (negative mode)</entry>
+  </row>
+</tbody>
+</tgroup><caption>Strengths of various ionization techniques. </caption>
+</table>
+        
+      </section>
+    </section>
+    <section id="id1170668218262">
+      <title>Mass analyzers</title>
+      <section id="id1170682442828"><title>Sectors </title><para id="id1170664083819">A magnetic or electric field is used to deflect ions into curved trajectories depending on the <emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis> ratio, with heavier ions experiencing less deflection (<link target-id="id1170675114524"/>). Ions are brought into focus at the detector slit by varying the field strength; a mass spectrum is generated by scanning field strengths linearly or exponentially. Sector mass analyzers have high resolution and sensitivity, and can detect high mass ranges, but are expensive, require large amounts of space, and are incompatible with the most popular ionization techniques MALDI and ESI.</para>
+        <figure id="id1170675114524"><media id="id1170675114524_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6b.jpg" id="id1170675114524__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic of a magnetic sector mass analyzer. </caption></figure>
+        
+      </section>
+      <section id="id1170666786884"><title>Time-of-flight (TOF) </title><para id="id1170656968408">The amount of time required for an ion to travel a known distance is measured (<link target-id="id1170685411003"/>). A pulse of ions is accelerated through and electric analyzer such that they have identical kinetic energies. As a result, their velocity is directly dependent on their mass. Extremely high vacuum conditions are required to extend the mean free path of ions and avoid collisions. TOF mass analyzers are fastest, have unlimited mass ranges, and allow simultaneous detection of all species, but are best coupled with pulsed ionization sources such as MALDI.</para>
+
+
+          <figure id="id1170685411003"><media id="id1170685411003_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics7b.jpg" id="id1170685411003__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Schematic of a time-of-flight (TOF) mass analyzer.</caption></figure>
+
+
+        
+      </section>
+      <section id="id1170688024185"><title>Quadrupole</title><para id="id1170666166644">Ions are passed through four parallel rods which apply a varying voltage and radiofrequency potential (<link target-id="id1170661584758"/>). As the field changes, ions respond by undergoing complex trajectories. Depending on the applied voltage and RF frequencies, only ions of a certain <emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis> ratio will have stable trajectories and pass through the analyzer. All other ions will be lost by collision with the rods. Quadrupole analyzers are relatively inexpensive, but have limited resolution and low mass range. </para>
+
+        <figure id="id1170661584758"><media id="id1170661584758_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics8b.jpg" id="id1170661584758__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic of a quadrupole mass analyzer.</caption></figure>
+        
+      </section>
+      <section id="id1170675127896">
+        <title>Ion trap </title>
+        <para id="id1170689883112">Ion traps operate under the same principle as quadrupole, but contain the ions in space. Electrodes can be manipulated to selectively eject ions of desired <emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis> ratios, allowing for mass analysis. Ion traps are uniquely suited for repeated cycles of mass spectrometry because of their ability to retain ions of desired <emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis> ratios. Selected fragments can be further fragmented by collision induced dissociation with helium gas. Ion traps are compact, relatively inexpensive, and can be adapted to many hybrid instruments.</para>
+      </section>
+    </section>
+    <section id="id4196677">
+      <title>Coupling mass spectrometry to other instruments</title>
+      <para id="id1170663376167">Mass spectrometry is a powerful tool for identification of compounds, and is frequently combined with separation techniques such as liquid or gas chromatography for rapid identification of the compounds within a mixture. Typically, liquid chromatography systems are paired with ESI-quadrupole mass spectrometers to take advantage of the solvated sample. GC-MS systems usually employ electron impact ionization and quadrupole or ion trap mass analyzers to take advantage of the gas-phase molecules and fragmentation libraries associated with EI for rapid identification.</para>
+      <para id="id1170672323735">Mass spectrometers are also often coupled in tandem to form MS-MS systems. Typically the first spectrometer utilizes a hard ionization technique to fragment the sample. The fragments are passed on to a second mass analyzer where they may be further fragmented and analyzed. This technique is particularly important for studying large, complex molecules such as proteins.</para>
+    </section>
+    <section id="id1170669828147"><title>Bibliography</title><list id="eip-369"><item>W. Henderson and J. S. McIndoe, <emphasis effect="italics">Mass Spectrometry of Inorganic, Coordination, and Organometallic Compounds</emphasis>, John Wiley &amp; Sons Ltd., Chichester (2005).</item>
+<item><emphasis effect="italics">Inorganic Mass Spectrometry Fundamentals and Applications</emphasis>, Ed. C. M. Barshick, D. C. Duckworth, and D. H. Smith, Marcel Dekker Inc., New York (2000).</item>
+<item>F. W. McLafferty, <emphasis effect="italics">Science</emphasis>, 1981, <emphasis effect="bold">214</emphasis>, 280. </item></list>
+
+
+
+
+    </section>
+  </content>
+</document>

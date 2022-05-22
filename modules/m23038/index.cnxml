@@ -1,0 +1,513 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>TGA/DSC-FTIR Characterization of Oxide  Nanaoparticles</title>
+  <metadata>
+  <md:content-id>m23038</md:content-id><md:title>TGA/DSC-FTIR Characterization of Oxide  Nanaoparticles</md:title>
+  <md:abstract>In this module the application of TGA-FTIR for metal oxide nanoparticles is presented. This method is demonstrated on a sample of WO3-x nanorods synthesized via a solvothermal method.</md:abstract>
+  <md:uuid>1980e53d-ee0a-46b1-b305-dfd1ad56899c</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="id1170644666329">
+      <title>Metal oxide nanoparticles</title>
+      <para id="id1170644628417">The binary compound of one or more oxygen atoms with at least one metal atom that forms a structure ≤100 nm is classified as metal oxide (MO<sub>x</sub>) nanoparticle. MO<sub>x</sub> nanoparticles have exceptional physical and chemical properties (especially if they are smaller than 10 nm) that are strongly related to their dimensions and to their morphology. These enhanced features are due to the increased surface to volume ratio which has a strong impact on the measured binding energies. Based on theoretical models, binding or cohesive energy is inversely related to particle size with a linear relationship <link target-id="id1170644298783"/>. 
+
+</para>
+      <equation id="id1170644298783"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mstyle fontsize="12pt">
+					<m:mrow>
+						<m:mrow>
+							<m:mrow>
+								<m:msub>
+									<m:mi>E</m:mi>
+									<m:mstyle fontsize="8pt">
+										<m:mrow>
+											<m:mstyle fontstyle="italic">
+												<m:mrow>
+													<m:mtext>NP</m:mtext>
+												</m:mrow>
+											</m:mstyle>
+										</m:mrow>
+									</m:mstyle>
+								</m:msub>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mrow>
+									<m:msub>
+										<m:mi>E</m:mi>
+										<m:mstyle fontsize="8pt">
+											<m:mrow>
+												<m:mstyle fontstyle="italic">
+													<m:mrow>
+														<m:mtext>bulk</m:mtext>
+													</m:mrow>
+												</m:mstyle>
+											</m:mrow>
+										</m:mstyle>
+									</m:msub>
+									<m:mo stretchy="false">⋅</m:mo>
+									<m:mo stretchy="false">[</m:mo>
+								</m:mrow>
+							</m:mrow>
+							<m:mrow>
+								<m:mn>1</m:mn>
+								<m:mo stretchy="false">−</m:mo>
+								<m:mrow>
+									<m:mi>c</m:mi>
+									<m:mo stretchy="false">⋅</m:mo>
+									<m:msup>
+										<m:mi>r</m:mi>
+										<m:mstyle fontsize="8pt">
+											<m:mrow>
+												<m:mrow>
+													<m:mo stretchy="false">−</m:mo>
+													<m:mn>1</m:mn>
+												</m:mrow>
+											</m:mrow>
+										</m:mstyle>
+									</m:msup>
+								</m:mrow>
+							</m:mrow>
+							<m:mo stretchy="false">]</m:mo>
+						</m:mrow>
+					</m:mrow>
+				</m:mstyle>
+				<m:mrow/>
+			</m:mrow>
+			<m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{ ital "NP"} } =E rSub { size 8{ ital "bulk"} }  cdot  \[ 1 - c cdot r rSup { size 8{ - 1} }  \] } {}</m:annotation>
+		</m:semantics>
+	</m:math>
+</equation>
+      <para id="id1170644413953">where <emphasis effect="italics">E</emphasis><emphasis effect="italics"><sub>NP</sub></emphasis><emphasis effect="italics"> and E</emphasis><emphasis effect="italics"><sub>bulk</sub></emphasis> is the binding energy of the nanoparticle and the bulk binding energy respectively, <emphasis effect="italics">c</emphasis> is a material constant and <emphasis effect="italics">r</emphasis> is the radius of the cluster. As seen from <link target-id="id1170644298783"/>, nanoparticles have lower binding energies than bulk material, which means lower electron cloud density and therefore more mobile electrons. This is one of the features that have been identified to contribute to a series of physical and chemical properties. </para>
+      
+ 
+    <section id="id1170644623804">
+      <title>Synthesis of metal oxide nanoparticles</title>
+      <para id="id1170644325836">Since today, numerous synthetic methods have been developed with the most common ones presented in <link target-id="id1170644579516"/>. These methods have been successfully applied for the synthesis of a variety of materials with 0-D to 3-D complex structures. Among them, the solvothermal methods are by far the most popular ones due to their simplicity. Between the two classes of solvothermal methods, slow decomposition methods, usually called thermal decomposition methods, are preferred over the hot injection methods since they are less complicated, less dangerous and avoid the use of additional solvents. </para>
+      
+      <table id="id1170644579516" summary="Methods for synthesizing MOx nanoparticles">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<colspec colnum="3" colname="c3"/>
+	<colspec colnum="4" colname="c4"/>
+	<tbody>
+		<row>
+			<entry><emphasis effect="bold">Method</emphasis></entry>
+			<entry><emphasis effect="bold">Characteristics</emphasis></entry>
+			<entry><emphasis effect="bold">Advantages</emphasis></entry>
+			<entry><emphasis effect="bold">Disadvantages</emphasis> </entry>
+		</row>
+		<row>
+			<entry>Solvothermal <list id="id1170644589320" list-type="enumerated" number-style="lower-alpha" mark-suffix=")"><item>Slow decomposition</item><item>Hot injection</item></list></entry>
+			<entry>
+				<list id="id1170644683700" list-type="enumerated" number-style="lower-alpha" mark-suffix=")">
+					<item>Slow heating of M-precursor in the presence of ligand/surfactant precursor</item>
+					<item>Injection of M-precursor into solution at high Temp.</item>
+				</list>
+			</entry>
+			<entry>
+				<list id="id1170644666925" list-type="enumerated" number-style="lower-alpha" mark-suffix=")">
+					<item>Safe, easily carried out, variety of M-precursors to use</item>
+					<item>Excellent control of particle distribution</item>
+				</list>
+			</entry>
+			<entry>
+				<list id="id1170644620615" list-type="enumerated" number-style="lower-alpha" mark-suffix=")">
+					<item>Poor control of nucleation/ growth stages – Particle size</item>
+					<item>Hazardous, Reproducibility depends on individual</item>
+				</list>
+			</entry>
+		</row>
+		<row>
+			<entry>Template directed </entry>
+			<entry>Use of organic molecules or preexistent nanoparticles as templates for directing nanoparticle formation</entry>
+			<entry>High yield and high purity of nanoparticles</entry>
+			<entry>Template removal in some cases causes particle deformation or loss</entry>
+		</row>
+		<row>
+			<entry>Sonochemical </entry>
+			<entry>Ultrasound influence particle nucleation </entry>
+			<entry>Mild synthesis conditions</entry>
+			<entry>Limited applicability</entry>
+		</row>
+		<row>
+			<entry>Thermal evaporation </entry>
+			<entry>Thermal evaporation of Metal oxides </entry>
+			<entry>Monodisperse particle formation, excellent control in shape and structure</entry>
+			<entry>Extremely high temperatures, and vacuum system is required</entry>
+		</row>
+		<row>
+			<entry>Gas phase catalytic growth </entry>
+			<entry>Use of catalyst that serves as a preferential site for absorbing Metal reactants</entry>
+			<entry>Excellent control in shape and structure</entry>
+			<entry>Limited applicability</entry>
+		</row>
+	</tbody>
+
+
+
+
+
+
+</tgroup><caption>Methods for synthesizing MO<sub>x</sub> nanoparticles</caption>
+</table>
+      <para id="id1170644783177">A general schematic diagram of the stages involving the nanoparticles formation is shown in <link target-id="id1170644681088"/>. As seen, first step is the M-atom generation by dissociation of the metal-precursor. Next step is the M-complex formulation, which is carried out before the actual particle assembly stage. Between this step and the final particle formulation, oxidation of the activated complex occurs upon interaction with an oxidant substance. The x-axis is a function of temperature or time or both depending on the synthesis procedure.</para>
+ 
+
+        <figure id="id1170644681088"><media id="id1170644681088_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics1-f26d.jpg" id="id1170644681088__onlineimage" width="400" print-width="4in"/>
+	</media>
+<caption>Stages of nanoparticle synthesis. </caption></figure>
+
+      <para id="id1170644755405">In all cases, the particles synthesized consist of MO<sub>x</sub> nanoparticle structures stabilized by one or more types of ligand(s) as seen in <link target-id="id1170644631694"/>. The ligands are usually long-chained organic molecules that have one more functional groups. These molecules protect the nanoparticles from attracting each other under van der Waals forces and therefore prevent them from aggregating.</para>
+      <figure id="id1170644631694"><media id="id1170644631694_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics2-ab30.jpg" id="id1170644631694__onlineimage" width="517" print-width="4in"/>
+	</media>
+	<caption>Schematic representation of a surfactant/ligand stabilized nanoparticle. </caption></figure>
+      <para id="id1170644904071">Even though often not referred to specifically, all particles synthesized are stabilized by organic (hydrophilic, hydrophobic or amphoteric) ligands. The detection and the understanding of the structure of these ligands can be of critical importance for understanding the controlling the properties of the synthesized nanoparticles.</para>
+      <section id="id1170644738232">
+        <title>Metal oxide nanoparticles synthesized via slow decomposition </title>
+        <para id="id1170644534930">In this work, we refer to MO<sub>x</sub> nanoparticles synthesized via slow decomposition of a metal complex. In <link target-id="id1170644439284"/>, a number of different MO<sub>x</sub> nanoparticles are presented, synthesized via metal complex dissociation. Metal–MO<sub>x</sub> and mixed MO<sub>x</sub> nanoparticles are not discussed here.</para>
+        <table id="id1170644439284" summary="Examples of MOx nanoparticles synthesized via decomposition of metal complex">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<colspec colnum="3" colname="c3"/>
+	<tbody>
+		<row>
+			<entry><emphasis effect="bold">Metal oxide</emphasis></entry>
+			<entry><emphasis effect="bold">Shape</emphasis></entry>
+			<entry><emphasis effect="bold">Size (approx.)</emphasis></entry>
+		</row>
+		<row>
+			<entry>Cerium oxide</entry>
+			<entry>dots</entry>
+			<entry>5-20 nm</entry>
+		</row>
+		<row>
+			<entry>Iron oxide </entry>
+			<entry>dots, cubes</entry>
+			<entry>8.5-23.4 nm</entry>
+		</row>
+		<row>
+			<entry>Manganese oxide </entry>
+			<entry>Multipods</entry>
+			<entry>&gt;50 nm</entry>
+		</row>
+		<row>
+			<entry>Zinc oxide</entry>
+			<entry>Hexagonal pyramid</entry>
+			<entry>15-25 nm</entry>
+		</row>
+		<row>
+			<entry>Cobalt oxide </entry>
+			<entry>dots</entry>
+			<entry>~ 10 nm</entry>
+		</row>
+		<row>
+			<entry>Chromium oxide </entry>
+			<entry>dots</entry>
+			<entry>12 nm</entry>
+		</row>
+		<row>
+			<entry>Vanadium oxide </entry>
+			<entry>dots</entry>
+			<entry>9-15 nm</entry>
+		</row>
+		<row>
+			<entry>Molybdenum oxide </entry>
+			<entry>dots</entry>
+			<entry>5 nm</entry>
+		</row>
+		<row>
+			<entry>Rhodium oxide </entry>
+			<entry>dots,rods</entry>
+			<entry>16 nm</entry>
+		</row>
+		<row>
+			<entry>Palladium oxide </entry>
+			<entry>dots</entry>
+			<entry>18 nm</entry>
+		</row>
+		<row>
+			<entry>Ruthenium oxide </entry>
+			<entry>dots</entry>
+			<entry>9-14 nm</entry>
+		</row>
+		<row>
+			<entry>Zirconium oxide </entry>
+			<entry>rods</entry>
+			<entry>7x30 nm</entry>
+		</row>
+		<row>
+			<entry>Barium oxide </entry>
+			<entry>dots</entry>
+			<entry>20 nm</entry>
+		</row>
+		<row>
+			<entry>Magnesium oxide </entry>
+			<entry>dots</entry>
+			<entry>4-8 nm</entry>
+		</row>
+		<row>
+			<entry>Calcium oxide</entry>
+			<entry>dots, rods</entry>
+			<entry>7-12 nm</entry>
+		</row>
+		<row>
+			<entry>Nickel oxide </entry>
+			<entry>dots</entry>
+			<entry>8-15 nm</entry>
+		</row>
+		<row>
+			<entry>Titanium oxide </entry>
+			<entry>dots and rods</entry>
+			<entry>2.3-30 nm</entry>
+		</row>
+		<row>
+			<entry>Tin oxide </entry>
+			<entry>dots</entry>
+			<entry>2.0-5.0 nm</entry>
+		</row>
+		<row>
+			<entry>Indium oxide </entry>
+			<entry>dots</entry>
+			<entry>~ 5 nm</entry>
+		</row>
+		<row>
+			<entry>Samaria</entry>
+			<entry>Square</entry>
+			<entry>~ 10 nm</entry>
+		</row>
+	</tbody>
+
+
+
+
+
+</tgroup><caption>Examples of MO<sub>x</sub> nanoparticles synthesized via decomposition of metal complexes. </caption>
+</table>
+        <para id="id1170644439658">A significant number of metal oxides synthesized using slow decomposition is reported in literature. If we use the periodic table to map the different MO<sub>x</sub> nanoparticles (<link target-id="id1170644598800"/>), we notice that most of the alkali and transition metals generate MO<sub>x </sub>nanoparticles, while only a few of the poor metals seem to do so, using this synthetic route. Moreover, two of the rare earth metals (Ce and Sm) have been reported to successfully give metal oxide nanoparticles via slow decomposition. </para>
+      
+
+          <figure id="id1170644598800"><media id="id1170644598800_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics3-cbe4.jpg" id="id1170644598800__onlineimage" width="650" print-width="5in"/>
+	</media>
+<caption>“Periodic” table of MO<sub>x</sub> nanoparticles synthesized using the slow decomposition technique. </caption></figure>
+      
+        <para id="id1170645339484">Among the different characterization techniques used for defining these structures, transition electron microscopy (TEM) holds the lion’s share. Nevertheless, most of the modern characterization methods are more important when it comes to understanding the properties of nanoparticles. X-ray photoelectron spectroscopy (XPS), X-ray diffraction (XRD), nuclear magnetic resonance (NMR), IR spectroscopy, Raman spectroscopy, and thermogravimetric analysis (TGA) methods are systematically used for characterization.</para>
+        
+      </section>
+    </section>
+    <section id="id1170645228169">
+      <title>Synthesis and characterization of WO<sub>3-x</sub> nanorods</title>
+     
+
+        <para id="id1170645213719">The synthesis of WO<sub>3-x </sub>nanorods is based on the method published by Lee et al. A slurry mixture of Me<sub>3</sub>NO∙2H<sub>2</sub>O, oleylamine and W(CO)<sub>6</sub> was heated up to 250 °C at a rate of 3 °C/min (<link target-id="id1170645341532"/>). The mixture was aged at this temperature for 3 hours before cooling down to room temperature.</para>
+   
+
+          <figure id="id1170645341532"><media id="id1170645341532_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics4-5c9d.jpg" id="id1170645341532__onlineimage" width="608" print-width="5in"/>
+	</media>
+<caption>Experimental setup for synthesis of WO<sub>3-x</sub> nanorods. </caption></figure>
+
+        <para id="id1170645340754">Multiple color variations were observed between 100 - 250 °C with the final product having a dark blue color. Tungsten oxide nanorods (W<sub>18</sub>O<sub>49</sub> identified by XRD) with a diameter of 7±2 nm and 50±2 nm long were acquired after centrifugation of the product solution. A TEM image of the W<sub>18</sub>O<sub>49</sub> nanorods is shown in <link target-id="id1170645338932"/>.</para>
+        <figure id="id1170645338932"><media id="id1170645338932_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics5-f1d6.jpg" id="id1170645338932__onlineimage" width="286" print-width="3.5in"/>
+	</media>
+<caption>TEM image of WO<sub>3-x</sub> nanorods. </caption></figure>
+     
+      
+
+ </section>
+   </section>
+
+<section id="id1170645235361">
+        <title>Thermogravimetric analysis (TGA)/differential scanning calorimetry (DSC)</title>
+        <para id="id1170645235367">Thermogravimetric analysis (TGA) is a technique widely used for determining the organic and inorganic content of various materials. Its basic rule of function is the high precision measurement of weight gain/loss with increasing temperature under inert or reactive atmospheres. Each weight change corresponds to physical (crystallization, phase transformation) or chemical (oxidation, reduction, reaction) processes that take place by increasing the temperature. The sample is placed into platinum or alumina pan and along with an empty or standard pan are placed onto two high precision balances inside a high temperature oven. A method for pretreating the samples is selected and the procedure is initiated. Differential scanning calorimetry (DSC) is a technique usually accompanying TGA and is used for calculating enthalpy energy changes or heat capacity changes associated with phase transitions and/or ligand-binding energy cleavage.</para>
+        
+        
+        <para id="id1170645235992">In <link target-id="id1170645341873"/> the TGA/DSC plot acquired for the ligand decomposition of WO<sub>3-x </sub>nanorods is presented. The sample was heated at constant rate under N<sub>2</sub> atmosphere up to 195 °C for removing moisture and then up to 700 °C for removing the oleylamine ligands. It is important to use an inert gas for performing such a study to avoid any premature oxidation and/or capping agent combustion. 26.5% of the weight loss is due to oleylamine evaporations which means about 0.004 moles per gram of sample. After isothermal heating at 700 °C for 25 min the flow was switched to air for oxidizing the ligand-free WO<sub>3-x</sub> to WO<sub>3</sub>. From the DSC curve we noticed the following changes of the weight corrected heat flow: </para>
+        
+        <list id="eip-36" list-type="enumerated" number-style="arabic"><item>From 0 – 10 min assigned to water evaporation.</item>
+<item>From 65 – 75 min assigned to OA evaporation. </item>
+<item>From 155 – 164 min assigned to WO<sub>3-x</sub> oxidation. </item>
+<item>From 168 – 175 min is also due to further oxidation of W<sup>5+</sup> atoms. </item></list><para id="eip-899">The heat flow increase during the WO<sub>3-x</sub> to WO<sub>3 </sub>oxidation is proportional to the crystal phase defects (or W atoms of oxidation state +5) and can be used for performing qualitative studies between different WO<sub>x </sub>nanoparticles.</para>
+
+          <figure id="id1170645341873"><media id="id1170645341873_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics6-04ff.jpg" id="id1170645341873__onlineimage" width="624" print-width="5in"/>
+	</media>
+<caption>TGA/DSC plot for WO<sub>3-x</sub> nanorods. </caption></figure>
+    
+        <para id="id1170645339460">The detailed information about the procedure used to acquire the TGA/DSC plot shown in <link target-id="id1170645341873"/> is as follows. </para>
+        
+        <list id="eip-501" list-type="enumerated" number-style="arabic" class="stepwise"><item>Select gas (N<sub>2</sub> with flow rate 50 mL/min.)</item>
+<item>Ramp 20 °C/min to 200 °C. </item>
+<item>Isothermal for 20 min.</item>
+<item>Ramp 5 °C/min to 700 °C.</item>
+<item>Isothermal for 25 min.</item>
+<item>Select gas (air).</item>
+<item>Isothermal for 20 min.</item>
+<item>Ramp 10 °C/min to 850 °C.</item>
+<item>Cool down</item>
+</list>
+        
+        
+        
+        
+        
+        
+        
+      </section>
+      <section id="id1170645235081">
+        <title>Fourier transform infrared spectroscopy </title>
+        <para id="id1170645235091">Fourier transform infrared spectroscopy (FTIR) is the most popular spectroscopic method used for characterizing organic and inorganic compounds. The basic modification of an FTIR from a regular IR instrument is a device called interferometer, which generates a signal that allows very fast IR spectrum acquisition. For doing so, the generatated interferogram has to be “expanded” using a Fourier transformation to generate a complete IR frequency spectrum. In the case of performing FTIR transmission studies the intensity of the transmitted signal is measured and the IR fingerprint is generated <link target-id="id1170645235400"/>.</para>
+  
+      
+
+
+<equation id="id1170645235400"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mstyle fontsize="12pt">
+					<m:mrow>
+						<m:mrow>
+							<m:mrow>
+								<m:mi>T</m:mi>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mfrac>
+									<m:mi>I</m:mi>
+									<m:msub>
+										<m:mi>I</m:mi>
+										<m:mstyle fontsize="8pt">
+											<m:mrow>
+												<m:mi>b</m:mi>
+											</m:mrow>
+										</m:mstyle>
+									</m:msub>
+								</m:mfrac>
+							</m:mrow>
+							<m:mo stretchy="false">=</m:mo>
+							<m:msup>
+								<m:mi>e</m:mi>
+								<m:mstyle fontsize="8pt">
+									<m:mrow>
+										<m:mstyle fontstyle="italic">
+											<m:mrow>
+												<m:mtext>cεl</m:mtext>
+											</m:mrow>
+										</m:mstyle>
+									</m:mrow>
+								</m:mstyle>
+							</m:msup>
+						</m:mrow>
+					</m:mrow>
+				</m:mstyle>
+				<m:mrow/>
+			</m:mrow>
+			<m:annotation encoding="StarMath 5.0"> size 12{T= {  {I}  over  {I rSub { size 8{b} } } } =e rSup { size 8{ ital "cel"} } } {}</m:annotation>
+		</m:semantics>
+	</m:math>
+</equation>
+
+
+
+
+
+        <para id="id1170645234509">Where <emphasis effect="italics">I</emphasis> is the intensity of the samples, <emphasis effect="italics">I</emphasis><emphasis effect="italics"><sub>b</sub></emphasis> is the intensity of the background, <emphasis effect="italics">c</emphasis> is the concentration of the compound, <emphasis effect="italics">ε</emphasis> is the molar extinction coefficient and <emphasis effect="italics">l</emphasis> is the distance that light travels through the material. A transformation of transmission to absorption spectra is usually performed and the actual concentration of the component can be calculated by applying the Beer-Lambert law <link target-id="id1170645337336"/>.</para>
+        
+        <equation id="id1170645337336"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mstyle fontsize="12pt">
+					<m:mrow>
+						<m:mrow>
+							<m:mrow>
+								<m:mi>A</m:mi>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mrow>
+									<m:mo stretchy="false">−</m:mo>
+									<m:mtext>ln</m:mtext>
+								</m:mrow>
+							</m:mrow>
+							<m:mo stretchy="false">(</m:mo>
+							<m:mi>T</m:mi>
+							<m:mrow>
+								<m:mo stretchy="false">)</m:mo>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mstyle fontstyle="italic">
+									<m:mrow>
+										<m:mtext>cεl</m:mtext>
+									</m:mrow>
+								</m:mstyle>
+							</m:mrow>
+						</m:mrow>
+					</m:mrow>
+				</m:mstyle>
+				<m:mrow/>
+			</m:mrow>
+			<m:annotation encoding="StarMath 5.0"> size 12{A= - "ln" \( T \) = ital "cel"} {}</m:annotation>
+		</m:semantics>
+	</m:math>
+</equation>
+        <para id="id1170645337512">A qualitative IR-band map is presented in <link target-id="id1170645337080"/>. The absorption bands between 4000 to 1600 cm<sup>-1</sup> represent the group frequency region and are used to identify the stretching vibrations of different bonds. At lower frequencies (from 1600 to 400 cm<sup>-1</sup>) vibrations due to intermolecular bond bending occurs upon IR excitation and therefore are usually not taken into account.</para>
+ 
+
+          <figure id="id1170645337080"><media id="id1170645337080_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics7-51a4.jpg" id="id1170645337080__onlineimage" width="550" print-width="4in"/>
+	</media>
+<caption>Selected FTIR stretching and bending modes associated with the typical ligands used for nanoparticle stabilization. </caption></figure>
+
+      </section>
+      <section id="id1170645337106">
+        <title>TGA/DSC–FTIR characterization</title>
+        <para id="id1170645337114">TGA/DSC is a powerful tool for identifying the different compounds evolved during the controlled pyrolysis and therefore provide qualitative and quantitative information about the volatile components of the sample. In metal oxide nanoparticle synthesis TGA/DSC-FTIR studies can provide qualitative and quantitative information about the volatile compounds of the nanoparticles. </para>
+        <para id="id1170645337118">TGA–FTIR results presented below were acquired using a Q600 Simultaneous TGA/DSC (SDT) instrument online with a Nicolet 5700 FTIR spectrometer. This system has a digital mass flow control and two gas inlets giving the capability to switch reacting gas during each run. It allows simultaneous weight change and differential heat flow measurements up to 1500 °C, while at the same time the outflow line is connected to the FTIR for performing gas phase compound identification. Grand-Schmidt thermographs were usually constructed to present the species evolution with time in 3 dimensions.</para>
+        <para id="id1170645340066">Selected IR spectra are presented in <link target-id="id1170645320687"/>. Four regions with intense peaks are observed. Between 4000 – 3550 cm<sup>-1</sup> due to O-H bond stretching assigned to H<sub>2</sub>O that is always present and due to due to N-H group stretching that is assigned to the amine group of oleylamine. Between 2400 – 2250 cm<sup>-1</sup> due to O=C=O stretching, between 1900 – 1400 cm<sup>-1</sup> which is mainly to C=O stretching and between 800 – 400 cm<sup>-1</sup> cannot be resolved as explained previously.</para>
+        
+
+
+          <figure id="id1170645320687"><media id="id1170645320687_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics8-6aab.jpg" id="id1170645320687__onlineimage" width="585" print-width="4.5in"/>
+	</media>
+<caption>FTIR spectra of products from WO<sub>3-x</sub> pyrolysis. </caption></figure>
+
+        <para id="id1170645340489">The peak intensity evolution with time can be more easily observed in <link target-id="id1170645339953"/> and <link target-id="id1170645339981"/>. As seen, CO<sub>2</sub> evolution increases significantly with time especially after switching our flow from N<sub>2</sub> to air. H<sub>2</sub>O seems to be present in the outflow stream up to 700 °C while the majority of the N-H amine peaks seem to disappear at about 75 min. C=N compounds are not expected to be present in the stream which leaves bands between 1900 – 1400 cm<sup>-1</sup> assigned to C=C and C=O stretching vibrations. Unsaturated olefins resulting from the cracking of the oleylamine molecule are possible at elevated temperatures as well as the presence of CO especially under N<sub>2</sub> atmosphere.</para>
+ 
+
+          <figure id="id1170645339953"><media id="id1170645339953_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics9-e6cb.jpg" id="id1170645339953__onlineimage" width="559" print-width="5in"/>
+	</media>
+	<caption>3D representation of FTIR Spectra of the volatile compounds of WO<sub>3-x</sub>.</caption></figure>
+
+        <figure id="id1170645339981"><media id="id1170645339981_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics10-a3e6.jpg" id="id1170645339981__onlineimage" width="615" print-width="5in"/>
+	</media>
+<caption>Intensity profile of FTIR spectra of the volatile compounds formed from the pyrolysis of WO<sub>3-x</sub>. </caption></figure>
+        <para id="id1170645336975">From the above compound identification we can summarize and propose the following applications for TGA-FTIR. First, more complex ligands, containing aromatic rings and maybe other functional groups may provide more insight in the ligand to MO<sub>x</sub> interaction. Second, the presence of CO and CO<sub>2</sub> even under N<sub>2</sub> flow means that complete O<sub>2 </sub>removal from the TGA and the FTIR cannot be achieved under these conditions. Even though the system was equilibrated for more than an hour, traces of O<sub>2</sub> are existent which create errors in our calculations.</para>
+            </section>
+
+
+
+
+<section id="eip-463"><title>Bibliography</title><list id="eip-275"><item>R. D. Parra and H. H. Farrell, <emphasis effect="italics">J. Phys. Chem. C</emphasis>, 2009, <emphasis effect="bold"> 113</emphasis>, 4786.</item>
+<item>S. C. Vanithakumari and K. K. Nanda, <emphasis effect="italics">J. Phys. Chem. B</emphasis>, 2006, <emphasis effect="bold"> 110</emphasis>, 6985.</item>
+<item>M. Wautelet and D. Duvivier, <emphasis effect="italics">Eur. J. Phys.</emphasis>, 2007, <emphasis effect="bold"> 28</emphasis>, 953.</item>
+<item>X. Wang and Y. Li, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2002, <emphasis effect="bold"> 124</emphasis>, 2880.</item>
+<item>F. K. R. N. Greta and R. Patzke, <emphasis effect="italics">Angew. Chem., Int. Ed.</emphasis>, 2002, <emphasis effect="bold"> 41</emphasis>, 2446.</item>
+<item>Z. W. Pan, Z. R. Dai, and Z. L. Wang, <emphasis effect="italics">Science</emphasis>, 2001, <emphasis effect="bold"> 291</emphasis>, 1947.</item>
+<item>H. Gu and M. D. Soucek, <emphasis effect="italics">Chem. Mater.</emphasis>, 2007, <emphasis effect="bold"> 19</emphasis>, 1103.</item>
+<item>L. M. Bronstein, X. Huang, J. Retrum, A. Schmucker, M. Pink, B. D. Stein, and B. Dragnea, <emphasis effect="italics">Chem. Mater.</emphasis>, 2007, <emphasis effect="bold"> 19</emphasis>, 3624.</item>
+<item>D. Zitoun, N. Pinna, N. Frolet, and C. Belin, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2005, <emphasis effect="bold"> 127</emphasis>, 15034.</item>
+<item>S. -H. Choi, E. -G. Kim, J. Park, K. An, N. Lee, S. C. Kim, and T. Hyeon, <emphasis effect="italics">J. Phys. Chem., B</emphasis>, 2005, <emphasis effect="bold"> 109</emphasis>, 14792. </item>
+<item>M. Epifani, J. Arbiol, R. Diaz, M. J. Peralvarez, P. Siciliano, and J. R. Morante, <emphasis effect="italics">Chem. Mater.</emphasis>, 2005, <emphasis effect="bold"> 17</emphasis>, 6468. </item>
+<item>T. Yu, J. Joo, Y. I. Park, and T. Hyeon, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2006, <emphasis effect="bold"> 128</emphasis>, 1786.</item>
+<item>K. Lee, W. S. Seo, and J. T. Park, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2003, <emphasis effect="bold"> 125</emphasis>, 3408.</item>
+<item>C. A. Emeis, <emphasis effect="italics">J. Catalysis</emphasis>, 1993, <emphasis effect="bold"> 141</emphasis>, 347.</item>
+<item>P. R. Griffiths, J. A. De Haseth, <emphasis effect="italics">Fourier Transform Infrared Spectrometry</emphasis>. Wiley-Interscience, New York (2007)</item>
+
+ 
+
+</list></section>
+  </content>
+</document>

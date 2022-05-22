@@ -1,0 +1,93 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Raman and Surface-Enhanced Raman Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34528</md:content-id>
+  <md:title>Raman and Surface-Enhanced Raman Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>73a1f8a3-32ba-4250-9277-ea639edafb80</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1168942349273">
+      <title>What is Raman spectroscopy?</title>
+      <para id="id1168951668608">Raman spectroscopy is a powerful tool for determining chemical species. As with other spectroscopic techniques, Raman spectroscopy detects certain interactions of light with matter. In particular, this technique exploits the existence of Stokes and Anti-Stokes scattering to examine molecular structure. When radiation in the near infrared (NIR) or visible range interacts with a molecule, several types of scattering can occur. Three of these can be seen in the energy diagram in <link target-id="id1168942932554"/>. </para>
+      
+
+<figure id="id1168942932554"><media id="id1168942932554_media" alt=""><image mime-type="image/jpg" src="../../media/graphics1-6937.jpg" id="id1168942932554__onlineimage" width="400" print-width="4in"/></media><caption>Three types of scattering by a molecule excited by a photon with energy E = hν. The most common transition is marked with bold arrows.</caption></figure>
+      
+      <para id="id1168948422694">In all three types of scattering, an incident photon of energy hν raises the molecule from a vibrational state to one of the infinite number of virtual states located between the ground and first electronic states. The type of scattering observed is dependent on how the molecule relaxes after excitation.</para>
+      
+      <list id="id1168940812379" list-type="enumerated" number-style="arabic" class="stepwise"><title>Rayleigh scattering</title><item>The molecule is excited to any virtual state.</item>
+        <item>The molecule relaxes back to its original state. </item>
+        <item>The photon is scattered elastically, leaving with its original energy.</item>
+      </list>
+      
+      <list id="id2136382" list-type="enumerated" number-style="arabic" class="stepwise"><title>Stokes scattering</title><item>The molecule is excited to any virtual state.</item>
+        <item>The molecule relaxes back to a higher vibrational state than it had originally.</item>
+        <item>The photon leaves with energy hν-ΔE and has been scattered inelastically. </item>
+      </list>
+      
+      <list id="id1168949748950" list-type="enumerated" number-style="arabic" class="stepwise"><title>Anti-Stokes scattering</title><item>The molecule begins in a vibrationally excited state.</item>
+        <item>The molecule is excited to any virtual state.</item>
+        <item>The molecule relaxes back to a lower vibrational state than it had originally. </item>
+        <item>The photon leaves with energy hν+ΔE, and has been scattered superelastically. </item>
+      </list>
+      <para id="id1168943147541">Rayleigh scattering is by far the most common transition, due to the fact that no change has to occur in the vibrational state of the molecule. The anti-Stokes transition is the least common, as it requires the molecule to be in a vibrationally excited state before the photon is incident upon it. Due to the lack of intensity of the anti-Stokes signal and filtering requirements that eliminate photons with incident energy and higher, generally only Stokes scattering is used in Raman measurements. The relative intensities of Rayleigh, Stokes and anti-Stokes scattering can be seen in <link target-id="id1168944931482"/>.</para>
+      <figure id="id1168944931482"><media id="id1168944931482_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig4a.jpg" id="id1168944931482__onlineimage" width="350" print-width="3.5in"/>
+        </media>
+      <caption>Location and relative intensity (indicated by peak height and width) of the Stokes and anti-Stokes scattering relative to Rayleigh scattering.</caption></figure>
+      
+      <para id="id2083496">Raman spectroscopy observes the change in energy between the incident and scattered photons associated with the Stokes and anti-Stokes transitions. This is typically measured as the change in the wavenumber (cm<sup>-1</sup>), from the incident light source. Because Raman measures the change in wavenumber, measurements can be taken using a source at any wavelength; however, near infrared and visible radiation are commonly used. Photons with ultraviolet wavelengths could work as well, but tend to cause photodecomposition of the sample.</para>
+    </section>
+    <section id="id7356169">
+      <title>Comparison between Raman and infrared spectroscopy</title>
+      <para id="id1168942670706">Raman spectroscopy sounds very much like infrared (IR) spectroscopy; however, IR examines the wavenumber at which a functional group has a vibrational mode, while Raman observes the shift in vibration from an incident source. The Raman frequency shift is identical to the IR peak frequency for a given molecule or functional group. As mentioned above, this shift is independent of the excitation wavelength, giving versatility to the design and applicability of Raman instruments.</para>
+      <para id="eip-182">The cause of the vibration is also mechanistically different between IR and Raman. This is because the two operate on different sets of selection rules. IR absorption requires a dipole moment or change in charge distribution to be associated with the vibrational mode. Only then can photons of the same energy as the vibrational state of molecule interact. A schematic of this can be seen in <link target-id="id1168955964522"/>. </para>
+
+<figure id="id1168955964522"><media id="id1168955964522_media" alt=""><image mime-type="image/jpg" src="../../media/graphics3-9f15.jpg" id="id1168955964522__onlineimage" width="400" print-width="4in"/></media><caption>A change in dipole moment is required for a vibrational mode to be IR active.</caption></figure>
+      
+      <para id="id1168948762181">Raman signals, on the other hand, due to scattering, occur because of a molecule’s polarizability, illustrated in <link target-id="id1168951287296"/>. Many molecules that are inactive or weak in the IR will have intense Raman signals. This results in often complementary techniques.</para>
+
+
+      <figure id="id1168951287296"><media id="id1168951287296_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4-c107.jpg" id="id1168951287296__onlineimage" width="450" print-width="4.5in"/>
+        </media>
+      <caption>A change in the polarizability of a bond is required for a vibrational mode to be Raman active.</caption></figure>
+      
+      
+    </section>
+    <section id="id1168949211794">
+      <title>What does Raman spectroscopy measure?</title>
+      <para id="id1168948195450">Raman activity depends on the polarizability of a bond. This is a measure of the deformability of a bond in an electric field. This factor essentially depends on how easy it is for the electrons in the bond to be displaced, inducing a temporary dipole. When there is a large concentration of loosely held electrons in a bond, the polarizability is also large, and the group or molecule will have an intense Raman signal. Because of this, Raman is typically more sensitive to the molecular framework of a molecule rather than a specific functional group as in IR. This should not be confused with the polarity of a molecule, which is a measure of the separation of electric charge within a molecule. Polar molecules often have very weak Raman signals due to the fact that electronegative atoms hold electrons so closely.</para>
+      <para id="id1168939237718">Raman spectroscopy can provide information about both inorganic and organic chemical species. Many electron atoms, such as metals in coordination compounds, tend to have many loosely bound electrons, and therefore tend to be Raman active. Raman can provide information on the metal ligand bond, leading to knowledge of the composition, structure, and stability of these complexes. This can be particularly useful in metal compounds that have low vibrational absorption frequencies in the IR. Raman is also very useful for determining functional groups and fingerprints of organic molecules. Often, Raman vibrations are highly characteristic to a specific molecule, due to vibrations of a molecule as a whole, not in localized groups. The groups that do appear in Raman spectra have vibrations that are largely localized within the group, and often have multiple bonds involved. </para>
+    </section>
+    <section id="id1168943019651">
+      <title>What is surface-enhanced Raman spectroscopy?</title>
+      <para id="id1168950881007">Raman measurements provide useful characterization of many materials. However, the Raman signal is inherently weak (less than 0.001% of the source intensity), restricting the usefulness of this analytical tool. Placing the molecule of interest near a metal surface can dramatically increase the Raman signal. This is the basis of surface-enhanced Raman spectroscopy (SERS). There are several factors leading to the increase in Raman signal intensity near a metal surface.</para>
+      
+      
+      <list id="id2084286" list-type="enumerated" number-style="arabic"><item>The distance to the metal surface.<list id="id2061321" list-type="bulleted"><item>Signal enhancement drops off with distance from the surface.</item><item>The molecule of interest must be close to the surface for signal enhancement to occur.</item></list></item>
+        <item>Details about the metal surface: morphology and roughness.<list id="id1168948778475" list-type="bulleted"><item>This determines how close and how many molecules can be near a particular surface area. </item></list></item>
+        <item>The properties of the metal. <list id="id1168944811769" list-type="bulleted"><item>Greatest enhancement occurs when the excitation wavelength is near the plasma frequency of the metal. </item></list></item>
+        <item>The relative orientation of the molecule to the normal of the surface.<list id="id1168949996764" list-type="bulleted"><item>The polarizability of the bonds within the molecule can be affected by the electrons in the surface of the metal.</item></list></item>
+      </list>
+    </section>
+    <section id="id1168927105732">
+      <title>Bibliography</title>
+      <list id="eip-252"><item>W. Demtröder, <emphasis effect="italics">Laser Spectroscopy Basic Concepts and Instrumentation</emphasis>, Springer, New York (2003). </item>
+<item>D. W. Mayo, F. A. Miller, and R. W. Hannah, <emphasis effect="italics">Course Notes on the Interpretation of Infrared and Raman Spectra</emphasis>, Wiley-VCH, Hoboken, NJ (2003). 
+</item>
+<item>D. A. Skoog, F. J. Holler, and S. R. Crouch, <emphasis effect="italics">Principles of Instrumental Analysis</emphasis>, 6<sup>th</sup> edition, Brooks Cole (2006).  </item>
+
+
+
+
+
+
+</list>
+      
+      
+    </section>
+  </content>
+</document>

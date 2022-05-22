@@ -1,0 +1,80 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>EPR Spectroscopy: An Overview</title>
+  <metadata>
+  <md:content-id>m22370</md:content-id><md:title>EPR Spectroscopy: An Overview</md:title>
+  <md:abstract/>
+  <md:uuid>7cc9e808-c99b-4cd6-9284-949303c856a1</md:uuid>
+</metadata>
+
+<content>
+   
+      <section id="id12080035">
+        <title>Basic principles for EPR spectroscopy</title>
+        <para id="id12018384">Electron paramagnetic resonance spectroscopy (EPR) is a powerful tool for investigating paramagnetic species, including organic radicals, inorganic radicals, and triplet states. The basic principles behind EPR are very similar to the more ubiquitous nuclear magnetic resonance spectroscopy (NMR), except that EPR focuses on the interaction of an external magnetic field with the unpaired electron(s) in a molecule, rather than the nuclei of individual atoms. EPR has been used to investigate kinetics, mechanisms, and structures of paramagnetic species and along with general chemistry and physics, has applications in biochemistry, polymer science, and geosciences.</para>
+        <para id="id12080348">The degeneracy of the electron spin states is lifted when an unpaired electron is placed in a magnetic field, creating two spin states, m<sub>s</sub> = ± ½, where m<sub>s</sub> = - ½, the lower energy state, is aligned with the magnetic field. The spin state on the electron can flip when electromagnetic radiation is applied. In the case of electron spin transitions, this corresponds to radiation in the microwave range.</para>
+        <para id="id12107989">The energy difference between the two spin states is given by the equation</para>
+        <para id="id12107993">∆ E = E<sub>+</sub> - E<sub>-</sub> = h<emphasis effect="italics">v</emphasis> = <emphasis effect="italics">gß</emphasis>B</para>
+        
+        
+        <para id="eip-879">where h is Planck’s constant (6.626 x 10<sup>-34</sup> J s<sup>-1</sup>), v is the frequency of radiation, ß is the Bohr magneton (9.274 x 10<sup>-24</sup> J T<sup>-1</sup>), B is the strength of the magnetic field in Tesla, and g is known as the g-factor.  The g-factor is a unitless measurement of the intrinsic magnetic moment of the electron, and its value for a free electron is 2.0023.  The value of g can vary, however, and can be calculated by rearrangement of the above equation, i.e.,</para><para id="id11937310"><emphasis effect="italics">g</emphasis> = h<emphasis effect="italics">v</emphasis> / ßB</para>
+        <para id="id11937330">using the magnetic field and the frequency of the spectrometer. Since h, <emphasis effect="italics">v</emphasis>, and <emphasis effect="italics">ß</emphasis> should not change during an experiment, g values decrease as B increases. The concept of g can be roughly equated to that of chemical shift in NMR.</para>
+      </section>
+      <section id="id12114636">
+        <title>Instrumentation</title>
+        <para id="id12095740">EPR spectroscopy can be carried out by either 1) varying the magnetic field and holding the frequency constant or 2) varying the frequency and holding the magnetic field constant (as is the case for NMR spectroscopy). Commercial EPR spectrometers typically vary the magnetic field and holding the frequency constant, opposite of NMR spectrometers. The majority of EPR spectrometers are in the range of 8-10 GHz (X-band), though there are spectrometers which work at lower and higher fields: 1-2 GHz (L-band) and 2-4 GHz (S-band), 35 GHz (Q-band) and 95 GHz (W-band).</para>
+      
+          <figure id="id12183149"><media id="id12183149_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics1-5b02.png" id="id12183149__onlineimage" width="500" print-width="4in"/>
+            </media>
+          <caption>Block diagram of a typical EPR spectrometer.</caption></figure>
+    
+        
+        <para id="id11740912">EPR spectrometers work by generating microwaves from a source (typically a klystron), sending them through an attenuator, and passing them on to the sample, which is located in a microwave cavity (<link target-id="id12183149"/>). Microwaves reflected back from the cavity are routed to the detector diode, and the signal comes out as a decrease in current at the detector analogous to absorption of microwaves by the sample.</para>
+        <para id="id12196923">Samples for EPR can be gases, single crystals, solutions, powders, and frozen solutions. For solutions, solvents with high dielectric constants are not advisable, as they will absorb microwaves. For frozen solutions, solvents that will form a glass when frozen are preferable. Good glasses are formed from solvents with low symmetry and solvents that do not hydrogen bond. Drago provides an extensive list of solvents that form good glasses.</para>
+        <para id="id11295792">EPR spectra are generally presented as the first derivative of the absorption spectra for ease of interpretation. An example is given in <link target-id="id11938387"/>.</para>
+        <figure id="id11938387"><media id="id11938387_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-d885.png" id="id11938387__onlineimage" width="425" print-width="4in"/>
+          </media>
+        <caption>Example of first and second derivative EPR spectrum. </caption></figure>
+        
+        <para id="id11724021">Magnetic field strength is generally reported in units of Gauss or mTesla. Often EPR spectra are very complicated, and analysis of spectra through the use of computer programs is usual. There are computer programs that will predict the EPR spectra of compounds with the input of a few parameters.</para>
+      </section>
+      <section id="id11732420">
+        <title>Factors that affect EPR spectra</title>
+        <section id="id12082931">
+          <title>Hyperfine coupling</title>
+          <para id="id12079553">Hyperfine coupling in EPR is analogous to spin-spin coupling in NMR. There are two kinds of hyperfine coupling: 1) coupling of the electron magnetic moment to the magnetic moment of its own nucleus; and 2) coupling of the electron to a nucleus of a different atom, called super hyperfine splitting. Both types of hyperfine coupling cause a splitting of the spectral lines with intensities following Pascal’s triangle for I = 1/2 nuclei, similar to J-coupling in NMR. A simulated spectrum of the methyl radical is shown in <link target-id="methylrad"/>.  The line is split equally by the three hydrogens giving rise to four lines of intensity 1:3:3:1 with hyperfine coupling constant <emphasis effect="italics">a</emphasis>.</para>
+          
+          
+
+
+
+<figure id="methylrad"><media id="methylradic" alt="">
+              <image mime-type="image/png" src="../../media/methylradical.png" id="methylradical__onlineimage" width="400" print-width="4in"/>
+            </media>
+          <caption>Simulated spectrum of CH<sub>3</sub> radical with hyperfine coupling constant <emphasis effect="italics">a</emphasis>.</caption></figure>
+
+
+
+
+
+<para id="eip-212">The hyperfine splitting constant, known as <emphasis effect="italics">a</emphasis>, can be determined by measuring the distance between each of the hyperfine lines. This value can be converted into Hz (A) using the <emphasis effect="italics">g</emphasis> value in the equation:</para><para id="eip-221">hA = <emphasis effect="italics">g ßa</emphasis></para><para id="eip-85">In the specific case of Cu(II), the nuclear spin of Cu is I = 3/2, so the hyperfine splitting would  result in four lines of intensity 1:1:1:1.  Similarly, super hyperfine splitting of Cu(II) ligated to four symmetric I = 1 nuclei, such as <sup>14</sup>N, would yield nine lines with intensities would be 1:8:28:56:70:56:28:8:1.</para>
+        </section>
+        <section id="id11739526">
+          <title>Anisotropy</title>
+          <para id="id11935237">The <emphasis effect="italics">g</emphasis> factor of many paramagnetic species, including Cu(II), is anisotropic, meaning that it depends on its orientation in the magnetic field. The <emphasis effect="italics">g </emphasis>factor for anisotropic species breaks down generally into three values of <emphasis effect="italics">g</emphasis> following a Cartesian coordinate system which is symmetric along the diagonal: <emphasis effect="italics">g</emphasis><emphasis effect="italics">x</emphasis>,<emphasis effect="italics"> g</emphasis><emphasis effect="italics">y</emphasis>, and <emphasis effect="italics">g</emphasis><emphasis effect="italics">z</emphasis>. There are four limits to this system:</para>
+          <list id="id11692716" mark-suffix=")" list-type="enumerated" number-style="lower-roman"><item>When <emphasis effect="italics">g</emphasis><emphasis effect="italics">x</emphasis> = <emphasis effect="italics">g</emphasis><emphasis effect="italics">y</emphasis> = <emphasis effect="italics">g</emphasis><emphasis effect="italics">z</emphasis> the spectrum is considered to be isotropic, and is not dependent on orientation in the magnetic field.</item>
+            <item>When <emphasis effect="italics">g</emphasis><emphasis effect="italics">x</emphasis> = <emphasis effect="italics">g</emphasis><emphasis effect="italics">y</emphasis> &gt; <emphasis effect="italics">g</emphasis><emphasis effect="italics">z</emphasis> the spectrum is said to be axial, and is elongated along the z-axis. The two equivalent <emphasis effect="italics">g</emphasis> values are known as <emphasis effect="italics">g</emphasis><sub>⊥</sub> while the singular value is known as <emphasis effect="italics">g</emphasis><sub>‖</sub>. It exhibits a small peak at low field and a large peak at high field.</item>
+            <item>When <emphasis effect="italics">g</emphasis><emphasis effect="italics">x</emphasis> = <emphasis effect="italics">g</emphasis><emphasis effect="italics">y</emphasis> &lt; <emphasis effect="italics">g</emphasis><emphasis effect="italics">z</emphasis> the spectrum is also said to be axial, but is shortened in the xy plane. It exhibits a large peak at low field and a small peak at high field.</item>
+            <item>When <emphasis effect="italics">g</emphasis><emphasis effect="italics">x</emphasis> ≠ <emphasis effect="italics">g</emphasis><emphasis effect="italics">y</emphasis> ≠ <emphasis effect="italics">g</emphasis><emphasis effect="italics">z</emphasis> the spectrum is said to be rhombic, and shows three large peaks corresponding to the different components of <emphasis effect="italics">g</emphasis>.</item>
+          </list><para id="eip-546">Condition ii corresponds to Cu(II) in a square planar geometry with the unpaired electron in the d<sub>x<sup>2</sup>-y<sup>2</sup></sub> orbital.  Where there is also hyperfine splitting involved, <emphasis effect="italics">g</emphasis> is defined as being the weighted average of the lines.</para>
+          </section></section><section id="eip-542"><title>Bibliography</title><list id="eip-847"><item>R. S. Drago, <emphasis effect="italics">Physical Methods for Chemists</emphasis>. 2nd edition, Saunders College Publishing, Mexico (1992). </item>
+<item>G. Palmer, In <emphasis effect="italics">Physical Methods in Bioinorganic Chemistry Spectroscopy and Magnetism</emphasis>. Ed. L. Que, University Science Books, Sausalito, CA (2000). </item>
+<item>P. H. Rieger, <emphasis effect="italics">Electron Spin Resonance: Analysis and Interpretation</emphasis>. Royal Society of Chemistry, Cambridge, UK, (2007). </item>
+<item>J. Weil, J. Bolton, and J. Wertz, <emphasis effect="italics">Electron Paramagnetic Resonance: Elemental Theory and Practical Applications</emphasis>, John Wiley and Sons, New York (1994). </item></list></section>
+ 
+
+
+
+  </content>
+</document>

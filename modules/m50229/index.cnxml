@@ -1,0 +1,146 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Neutron Activation Analysis (NAA)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50229</md:content-id>
+  <md:title>Neutron Activation Analysis (NAA)</md:title>
+  <md:abstract/>
+  <md:uuid>f2fc4bbb-decb-4b6b-ad90-7e9d669d11a5</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1171030785134">
+      <title>Introduction </title>
+      <para id="import-auto-id1171043579546">Neutron activation analysis (NAA) is a non-destructive analytical method commonly used to determine the identities and concentrations of elements within a variety of materials. Unlike many other analytical techniques, NAA is based on nuclear rather than electronic transitions. In NAA, samples are subjected to neutron radiation (i.e., bombarded with neutrons), which causes the elements in the sample to capture free neutrons and form radioactive isotopes, such as in <link target-id="eip-420"/>. </para><equation id="eip-420"><media id="import-auto-id3697208" alt="">
+          <image mime-type="image/png" src="../../media/Cobalt and Neutron.png" height="23" width="127"/>
+        </media></equation><para id="import-auto-id1171066807269">The excited isotope undergoes nuclear decay and loses energy by emitting a series of particles that can include neutrons, protons, alpha particles, beta particles, and high-energy gamma ray photons. Each element on the periodic table has a unique emission and decay path that allows the identity and concentration of the element to be determined.</para></section>
+    <section id="import-auto-id1171066819658">
+      <title>History</title>
+      <para id="import-auto-id1171067309276">Almost eighty years ago in 1936, George de Hevesy and Hilde Levi published the first paper on the process of neutron activation analysis. They had discovered that rare earth elements such as dysprosium became radioactive after being activated by thermal neutrons from a radon-beryllium (<sup>266</sup>Ra + Be) source. Using a Geiger counter to count the beta particles emitted, Hevesy and Levi were able to identify the rare earth elements by half-life. This discovery led to the increasingly popular process of inducing radioactivity and observing the resulting nuclear decay in order to identify an element, a process we now know as NAA. In the years immediately following Hevesy and Levi’s discovery, however, the advancement of this technique was restricted by the lack of stable neutron sources and adequate spectrometry equipment. Even with the development of charged-particle accelerators in the 1930s, analyzing multi-element samples remained time-consuming and tedious. The method was improved in the mid-1940s with the availability of the X-10 reactor at the Oak Ridge National Laboratory, the first research-type nuclear reactor. As compared with the earlier neutron sources used, this reactor increased the sensitivity of NAA by a factor of a million. Yet the detection step of NAA still revolved around Geiger or proportional counters; thus, many technological advancements were still to come. As technology has progressed in the recent decades, the NAA method has grown tremendously, and scientists now have a plethora of neutron sources and detectors to choose from when analyzing a sample with NAA. </para></section>
+    <section id="import-auto-id1171057264217">
+      <title>Sample preparation</title>
+      <para id="import-auto-id1171052290916">In order to analyze a material with NAA, a small sample of at least 50 milligrams must be obtained from the material, usually by drilling. It is suggested that two different samples are obtained from the material using two drill bits of different compositions. This will show any contamination from the drill bits and, thus, minimize error. Prior to irradiation, the small samples are encapsulated in vials of either quartz or high purity linear polyethylene. </para></section>
+    <section id="import-auto-id1171035859865">
+      <title>Instrument</title>
+      <section id="import-auto-id1171057520450">
+        <title>How it works</title>
+        <para id="import-auto-id1171062197107">Neutron activation analysis works through the processes of neutron activation and radioactive decay. In neutron activation, radioactivity is induced by bombarding a sample with free neutrons from a neuron source. The target atomic nucleus captures a free neutron and, in turn, enters an excited state. This excited and therefore unstable isotope undergoes nuclear decay, a process in which the unstable nucleus emits a series of particles that can include neutrons, protons, alpha, and beta particles in an effort to return to a low-energy, stable state. As suggested by the several different particles of ionizing radiation listed above, there are many different types of nuclear decay possible. These are summarized in <link target-id="import-auto-id1171051495374"/>.  </para><figure id="import-auto-id1171051495374"><media id="import-auto-id1171063379767" alt="">
+            <image mime-type="image/png" src="../../media/Radioactive Decay Modes.png" width="200" print-width="2in"/>
+          </media>
+        <caption>Transition diagram illustrating the changes in neutron number N and atomic number Z for different nuclear decay modes – alpha decay (α), normal beta decay (β<sup>-</sup>), positron emission (β<sup>+</sup>), electron capture (EC), proton emission (p), and neutron emission (n). Permission to copy granted via the GNU Free Documentation License. </caption></figure><para id="import-auto-id1171066642772">An additional type of nuclear decay is that of gamma radiation (denoted as γ), a process in which the excited nucleus emits high-energy gamma ray photons. There is no change in either neutron number N or atomic number Z, yet the nucleus undergoes a nuclear transformation involving the loss of energy. In order to distinguish the higher energy parent nucleus (prior to gamma decay) from the lower energy daughter nucleus (after gamma decay), the mass number of the parent nucleus is labeled with the letter <emphasis effect="italics">m</emphasis>, which means “metastable.” An example of gamma radiation with the element technetium is provided in <link target-id="eip-417"/>. </para><equation id="eip-417"><media id="import-auto-id1171047746700" alt="">
+            <image mime-type="image/png" src="../../media/Technetium.png" height="23" width="133"/>
+          </media>
+        </equation><para id="import-auto-id1171055976347">In NAA, the radioactive nuclei in the sample undergo both gamma and particle nuclear decay. <link target-id="import-auto-id1171053319636"/> below presents a schematic example of nuclear decay. After capturing a free neutron, the excited <sup><emphasis effect="italics">60m</emphasis></sup>Co nucleus undergoes an internal transformation by emitting gamma rays. The lower-energy daughter nucleus <sup><emphasis effect="italics">60</emphasis></sup>Co, which is still radioactive, then emits a beta particle. This results in a high-energy <sup><emphasis effect="italics">60</emphasis></sup>Ni nucleus, which once again undergoes an internal transformation by emitting gamma rays. The nucleus then reaches the stable <sup><emphasis effect="italics">60</emphasis></sup>Ni state. </para><figure id="import-auto-id1171053319636"><media id="import-auto-id1171052125221" alt="">
+            <image mime-type="image/png" src="../../media/Activation Scheme on Powerpoint.png" width="500" print-width="5in"/>
+          </media>
+        <caption>Scheme of neutron activation analysis with <sup>59</sup>Co as the target nucleus.</caption></figure><para id="import-auto-id1171066878650">Although alpha and beta particle detectors do exist, most detectors used in NAA are designed to detect the gamma rays that are emitted from the excited nuclei following neutron capture. Each element has a unique radioactive emission and decay path that is scientifically known. Thus, based on the path and the spectrum produced by the instrument, NAA can determine the identity and concentration of the element.</para></section>
+      <section id="import-auto-id1171047028137">
+        <title>Neutron sources </title>
+        <para id="import-auto-id1171049906872">As mentioned above, there are many different neutron sources that can be used in modern-day NAA. A chart comparing three common sources is shown in <link target-id="import-auto-id1171031336436"/>.</para><table id="import-auto-id1171031336436" summary="Different Neutron Sources">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Source type</emphasis>
+                </entry>
+                <entry>
+                    <emphasis effect="bold">Description</emphasis>
+                </entry>
+                <entry>
+                    <emphasis effect="bold">Example(s)</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Typical output</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Isotopic neutron sources</entry>
+                <entry>Certain isotopes undergo spontaneous fission and release neutrons as they decay. </entry>
+                <entry><sup>226</sup>Ra(Be), <sup>124</sup>Sb(Be), <sup>241</sup>Am(Be), <sup>252</sup>Cf</entry>
+                <entry>10<sup>5</sup>-10<sup>7</sup> s<sup>-1</sup> GBq<sup>-1</sup> or 2.2 10<sup>12</sup> s<sup>-1</sup> g<sup>-1</sup> for <sup>252</sup>Cf</entry>
+              </row>
+              <row>
+                <entry>Particle accelerators or neutron generators</entry>
+                <entry>Particle accelerators produce neutrons by colliding hydrogen, deuterium, and tritium with target nuclei such as deuterium, tritium, lithium, and beryllium.</entry>
+                <entry>Acceleration of deuterium ions toward a target containing deuterium or tritium, resulting in the reactions <sup>2</sup>H(<sup>2</sup>H,n)<sup>3</sup>He and <sup>3</sup>H(<sup>2</sup>H,n)<sup>4</sup>He</entry>
+                <entry>10<sup>8</sup>-10<sup>10</sup> s<sup>-1</sup> for the first deuterium on deuterium reactions and 10<sup>9</sup>-10<sup>11</sup> s<sup>-1</sup> for deuterium on tritium reactions</entry>
+              </row>
+              <row>
+                <entry>Nuclear research reactors</entry>
+                <entry>Within nuclear reactors, large atomic nuclei absorbs neutrons and undergo nuclear fission. The nuclei split into lighter nuclei, which releases energy, radiation, and free neutrons. </entry>
+                <entry><sup>235</sup>U and <sup>239</sup>Pu</entry>
+                <entry>10<sup>15</sup>-10<sup>18</sup> m<sup>-2</sup> s<sup>-1</sup></entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+</tgroup><caption>Different neutron sources.</caption>
+</table></section>
+      <section id="import-auto-id1171064284280">
+        <title>Gamma and particle detectors </title>
+        <para id="import-auto-id1171047605286">As mentioned earlier, most detectors used in NAA are designed to detect the gamma rays emitted from the decaying nucleus. Two widely used gamma detectors are the scintillation type and the semiconductor type. The former uses a sensitive crystal, often sodium iodide that is doped with thallium (NaI(Tl)), that emits light when gamma rays strike it. Semiconductor detectors, on the other hand, use germanium to form a diode that produces a signal in response to gamma radiation. The signal produced is proportional to the energy of the emitted gamma radiation. Both types of gamma detectors have excellent sensitivity with detection limits ranging from 0.1 to 10<sup>6</sup> nanogram element per gram sample, but semiconductor type detectors usually have superior resolution.</para><para id="import-auto-id1171063349922">Furthermore, particles detectors designed to detect the alpha and beta particles that are emitted in nuclear decay are also available; however, gamma detectors are favorable. Particle detectors require a high vacuum since atmospheric gases in the air can absorb and affect the emission of these particles. Gamma rays are not affected in this way. </para>
+      </section>
+    </section>
+    <section id="import-auto-id1171057257428">
+      <title>Variations/parameters</title>
+      <section id="import-auto-id1171066993781">
+        <title>INAA versus RNAA</title>
+        <para id="import-auto-id1171038774086">Instrumental neutron activation analysis (INAA) is the simplest and most widely used form of NAA. It involves the direct irradiation of the sample, meaning that the sample does not undergo any chemical separation or treatment prior to detection. INAA can only be used if the activity of the other radioactive isotopes in the sample does not interfere with the measurement of the element(s) of interest. Interference often occurs when the element(s) of interest are present in trace or ultratrace amounts. If interference does occur, the activity of the other radioactive isotopes must be removed or eliminated. Radiochemical separation is one way to do this. NAA that involves sample decomposition and elemental separation is known as radiochemical neutron activation analysis (RNAA). In RNAA, the interfering elements are separated from the element(s) of interest through an appropriate separation method. Such methods include extractions, precipitations, distillations, and ion exchanges. Inactive elements and matrices are often added to ensure appropriate conditions and typical behavior for the element(s) of interest. A schematic comparison of INAA and RNAA is shown below in <link target-id="import-auto-id1171054839689"/>. </para><figure id="import-auto-id1171054839689"><media id="import-auto-id1171040130832" alt="">
+            <image mime-type="image/png" src="../../media/INAA vs. RNAA.png" width="500" print-width="5in"/>
+          </media>
+        <caption>Schematic Comparison of INAA and RNAA. Adapted from Neutron Activation Analysis Online, http://www.naa-online.net/theory/types-of-naa/, (accessed February 2014).</caption></figure></section>
+      <section id="import-auto-id8308936">
+        <title>ENAA versus FNAA</title>
+        <para id="import-auto-id1171068547795">Another experimental parameter that must be considered is the kinetic energy of the neutrons used for irradiation. In epithermal neutron activation analysis (ENAA), the neutrons – known as epithermal neutrons – are partially moderated in the reactor and have kinetic energies between 0.5 eV to 0.5 MeV. These are lower-energy neutrons as compared to fast neutrons, which are used in fast neutron activation analysis (FNAA). Fast neutrons are high-energy, unmoderated neutrons with kinetic energies above 0.5 MeV. </para>
+      </section>
+      <section id="import-auto-id1171056815480">
+        <title>PGNAA versus DGNAA</title>
+        <para id="import-auto-id1171068013552">The final parameter to be discussed is the time of measurement. The nuclear decay products can be measured either during or after neutron irradiation. If the gamma rays are measured during irradiation, the procedure is known as prompt gamma neutron activation analysis (PGNAA). This is a special type of NAA that requires additional equipment including an adjacent gamma detector and a neutron beam guide. PGNAA is often used for elements with rapid decay rates, elements with weak gamma emission intensities, and elements that cannot easily be determined by delayed gamma neutron activation analysis (DGNAA) such as hydrogen, boron, and carbon. In DGNAA, the emitted gamma rays are measured after irradiation. DGNAA procedures include much longer irradiation and decay periods than PGNAA, often extending into days or weeks. This means that DGNAA is ideal for long-lasting radioactive isotopes. A schematic comparison of PGNAA and DGNAA is shown below in <link target-id="import-auto-id1171052044588"/>. </para><figure id="import-auto-id1171052044588"><media id="import-auto-id1171030630262" alt="">
+            <image mime-type="image/png" src="../../media/PGNAA vs. DGNAA.png" width="500" print-width="5in"/>
+          </media><caption>Schematic Comparison of PGNAA and DGNAA. Adapted from Neutron Activation Analysis Online, http://www.naa-online.net/theory/types-of-naa/, (accessed February 2014).</caption></figure></section>
+    </section>
+    <section id="import-auto-id1171053626810">
+      <title>Examples</title>
+      <section id="import-auto-id1171054163512">
+        <title>Characterizing archaeological materials</title>
+        <para id="import-auto-id1171061261899">Throughout recent decades, NAA has often been used to characterize many different types of samples including archaeological materials. In 1961, the Demokritos nuclear reactor, a water moderated and cooled reactor, went critical at low power at the National Center for Scientific Research “Demokritos” (NCSR “Demokritos”) in Athens, Greece. Since then, NCSR “Demokritos” has been a leading center for the analysis of archaeological materials.</para><para id="import-auto-id1171067162175">Ceramics, carbonates, silicates, and steatite are routinely analyzed at NCSR “Demokritos” with NAA. A routine analysis begins by weighing and placing 130 milligrams of the powdered sample into a polyethylene vial. Two batches of ten vials,  eight samples and two standards, are then irradiated in the Demokritos nuclear reactor for 45 minutes at a thermal neutron flux of 6 x 10<sup>13</sup> neutrons cm<sup>-2</sup> s<sup>-1</sup>. The first measurement occurs seven days after irradiation. The gamma ray emissions of both the samples and standards are counted with a germanium gamma detector (semiconductor type) for one hour. This measurement determines the concentrations of the following elements: As, Ca, K, La, Lu, Na, Sb, Sm, U, and Yb. A second measurement is performed three weeks after irradiation in which the samples and standards are counted for two hours. In this measurement, the concentrations of the following elements are determined: Ba, Ce, Co, Cr, Cs, Eu, Fe, Hf, Nd, Ni, Rb, Sc, Ta, Tb, Th, Zn, and Zr. </para><para id="import-auto-id1171042084039">Using the method described above, NCSR “Demokritos” analyzed 195 samples of black-on-red painted pottery from the late Neolithic age in what is now known as the Black-On-Red Pottery Project. An example of black-on-red painted pottery is presented in <link target-id="import-auto-id1171055113487"/>.</para><figure id="import-auto-id1171055113487"><media id="import-auto-id1171053641643" alt="">
+            <image mime-type="image/png" src="../../media/Pottery.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Example of black-on-red painted pottery from the late Neolithic age. Reproduced from V. Kilikoglou, A. P. Grimanis, A. Tsolakidou, A. Hein, D. Malalmidou, and Z. Tsirtsoni, <emphasis effect="italics">Archaeometry</emphasis>, 2007, <emphasis effect="bold">49</emphasis>, 301.  Copyright: John Wiley and Sons, Inc., (2007).</caption></figure><para id="eip-923">This project aimed to identify production patterns in this ceramic group and explore the degree of standardization, localization, and scale of production from 14 sites throughout the Strymonas Valley in northern Greece. A map of the area of interest is provided below in <link target-id="import-auto-id1171069715521"/>. NCSR “Demokritos” also sought to analyze the variations in pottery traditions by differentiating so-called ceramic recipes. By using NAA, NCSR “Demokritos” was able to determine the unique chemical make-ups of the many pottery fragments. The chemical patterning revealed through the analyses suggested that the 195 samples of black-on-red Neolithic pottery came from four distinct productions areas with the primary production area located in the valley of the Strymon and Angitis rivers. Although distinct, the pottery from the four different geographical areas all had common technological and stylistic characteristics, which suggests that a level of standardization did exist throughout the area of interest during the late Neolithic age.</para><figure id="import-auto-id1171069715521"><media id="import-auto-id1171046767020" alt="">
+            <image mime-type="image/png" src="../../media/Picture 1-3a70.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Map of Strymonas Valley in northern Greece. Reproduced from V. Kilikoglou, A. P. Grimanis, A. Tsolakidou, A. Hein, D. Malalmidou, and Z. Tsirtsoni, <emphasis effect="italics">Archaeometry</emphasis>, 2007, <emphasis effect="bold">49</emphasis>, 301. Copyright: John Wiley and Sons, Inc., (2007).</caption></figure></section>
+      <section id="import-auto-id1171067488512">
+        <title>Determining elemental concentrations in blood</title>
+        <para id="import-auto-id1171066813092">Additionally, NAA has been used in hematology laboratories to determine specific elemental concentrations in blood and provide information to aid in the diagnosis and treatment of patients. Identifying abnormalities and unusual concentrations of certain elements in the bloodstream can also aid in the prediction of damage to the organ systems of the human body.  </para><para id="import-auto-id1171066805066">In one study, NAA was used to determine the concentrations of sodium and chlorine in blood serum. In order to investigate the accuracy of the technique in this setting, 26 blood samples of healthy male and female donors – aged between 25 and 60 years and weighing between 50 and 85 kilograms – were selected from the Paulista Blood Bank in São Paulo. The samples were initially irradiated for 2 minutes at a neutron flux ranging from approximately 1 x 10<sup>11</sup> to 6 x 10<sup>11</sup> neutrons cm<sup>-2</sup> s<sup>-1</sup> and counted for 10 minutes using a gold activation detector. The procedure was later repeated using a longer irradiation time of 10 minutes. The determined concentrations of sodium and chlorine were then compared to standard values. The NAA analyses resulted in concentrations that strongly agreed with the adopted reference value. For example, the chlorine concentration was found to be 3.41 - 3.68 µg/µL of blood, which correlates closely to the reference value of 3.44 - 3.76 µg/µL of blood. This illustrates that NAA can accurately measure elemental concentrations in a variety of materials including blood samples. </para></section>
+    </section>
+    <section id="import-auto-id1171054997377">
+      <title>Limitations</title>
+      <para id="import-auto-id1171037904837">Although NAA is an accurate (~5%) and precise (&lt;0.1%) multi-element analytical technique, it has several limitations that should be addressed. Firstly, samples irradiated in NAA will remain radioactive for a period of time (often years) following the analysis procedures. These radioactive samples require special handling and disposal protocols. Secondly, the number of the available nuclear reactors has declined in recent years. In the United States, only 31 nuclear research and test reactors are currently licensed and operating. A map of these reactors is provided in <link target-id="import-auto-id1171056304247"/>. </para><figure id="import-auto-id1171056304247"><media id="import-auto-id1171043755098" alt="">
+          <image mime-type="image/png" src="../../media/US Reactors.png" width="400" print-width="4in"/>
+        </media>
+      <caption>Map of US nuclear research and test reactors. Taken from Map of Research and Test Reactor Sites, http://www.nrc.gov/reactors/operating/map-nonpower-reactors.html, (accessed February 2014).</caption></figure><para id="import-auto-id1171063027661">As a result of the declining number of reactors and irradiation facilities in the nation, the cost of neutron activation analysis has increased. The popularity of NAA has declined in recent decades due to both the increasing cost and the development of other successful multi-element analytical methods such as inductively coupled plasma atomic emission spectroscopy (ICP-AES). </para>
+    </section>
+    <section id="import-auto-id1171066657756">
+      <title>Bibliography</title>
+      <list id="import-auto-id1171066969243" list-type="bulleted"><item>Z. B. Alfassi, <emphasis effect="italics">Activation Analysis</emphasis>, CRC Press, Boca Raton (1990).</item>
+        <item>P. Bode, A. Byrne, Z. Chai, A. Chatt, V. Dimic, T. Z. Hossain, J. Kučera, G. C. Lalor, and R. Parthasarathy, <emphasis effect="italics">Report of an Advisory Group Meeting Held in Vienna, 22-26 June 1998</emphasis>, IAEA, Vienna, 2001, 1.</item>
+        <item>V. P. Guinn, <emphasis effect="italics">Bio. Trace Elem. Res.</emphasis>, 1990, <emphasis effect="bold">26-27</emphasis>, 1.</item>
+        <item>L. Hamidatou, H. Slamene, T. Akhal, and B. Zouranen, <emphasis effect="italics">Imaging and Radioanalytical Techniques in Interdisciplinary Research – Fundamentals and Cutting Edge Applications</emphasis>, ed. F. Kharfi, InTech, Rijeka (2013).</item>
+        <item>V. Kilikoglou, A. P. Grimanis, A. Tsolakidou, A. Hein, D. Malalmidou, and Z. Tsirtsoni, <emphasis effect="italics">Archaeometry</emphasis>, 2007, <emphasis effect="bold">49</emphasis>, 301.</item>
+        <item>S. S. Nargolwalla and E. P. Przybylowicz, <emphasis effect="italics">Activation Analysis with Neutron Generators</emphasis>, Wiley, New York, 39<sup>th</sup> edn. (1973). </item>
+        <item>M. Pollard and C. Heron, <emphasis effect="italics">Archaeological Chemistry</emphasis>, Royal Society of Chemistry, Cambridge (1996).</item>
+        <item>B. Zamboi, L. C. Oliveira, and L. Dalaqua Jr., Americas Nuclear Energy Symposium, Miami, 2004.</item>
+        <item>Neutron Activation Analysis Online, <link url="http://www.naa-online.net/theory/types-of-naa/"><emphasis effect="underline">http://www.naa-online.net/theory/types-of-naa/</emphasis></link>, (accessed February 2014). </item>
+        <item>Map of Research and Test Reactor Sites, <link url="http://www.nrc.gov/reactors/operating/map-nonpower-reactors.html"><emphasis effect="underline">http://www.nrc.gov/reactors/operating/map-nonpower-reactors.html</emphasis></link>, (accessed February 2014). </item>
+      </list></section>
+  </content>
+</document>

@@ -1,0 +1,403 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Crystal Structure</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m16927</md:content-id>
+  <md:title>Crystal Structure</md:title>
+  <md:abstract/>
+  <md:uuid>e90d5161-66b0-4214-bd6c-9f1d20a35bae</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-277912173817">
+      <title>Introduction</title>
+      <para id="eip-4">In any sort of discussion of crystalline materials, it is useful to begin with a discussion of crystallography: the study of the formation, structure, and properties of crystals. A crystal structure is defined as the particular repeating arrangement of atoms (molecules or ions) throughout a crystal. Structure refers to the internal arrangement of particles and not the external appearance of the crystal. However, these are not entirely independent since the external appearance of a crystal is often related to the internal arrangement. For example, crystals of cubic rock salt (NaCl) are physically cubic in appearance. Only a few of the possible crystal structures are of concern with respect to simple inorganic salts and these will be discussed in detail, however, it is important to understand the nomenclature of crystallography. </para>
+    </section>
+    <section id="id-421224437513">
+      <title>Crystallography </title>
+      <section id="id-796347250996">
+        <title>Bravais lattice </title>
+        <para id="id6779280">The Bravais lattice is the basic building block from which all crystals can be constructed. The concept originated as a topological problem of finding the number of different ways to arrange points in space where each point would have an identical “atmosphere”. That is each point would be surrounded by an identical set of points as any other point, so that all points would be indistinguishable from each other. Mathematician Auguste Bravais discovered that there were 14 different collections of the groups of points, which are known as Bravais lattices. These lattices fall into seven different "crystal systems”, as differentiated by the relationship between the angles between sides of the “unit cell” and the distance between points in the unit cell. The unit cell is the smallest group of atoms, ions or molecules that, when repeated at regular intervals in three dimensions, will produce the lattice of a crystal system. The “lattice parameter” is the length between two points on the corners of a unit cell. Each of the various lattice parameters are designated by the letters <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">c</emphasis>. If two sides are equal, such as in a tetragonal lattice, then the lengths of the two lattice parameters are designated <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">c</emphasis>, with <emphasis effect="italics">b</emphasis> omitted. The angles are designated by the Greek letters α, β, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math>, such that an angle with a specific Greek letter is not subtended by the axis with its Roman equivalent. For example, α is the included angle between the <emphasis effect="italics">b</emphasis> and <emphasis effect="italics">c</emphasis> axis. </para>
+        <para id="id6779447"><link target-id="id6779456"/> shows the various crystal systems, while <link target-id="id6801835"/> shows the 14 Bravais lattices. It is important to distinguish the characteristics of each of the individual systems. An example of a material that takes on each of the Bravais lattices is shown in <link target-id="id6801858"/>. 
+
+</para>
+        <table id="id6779456" summary="Geometrical characteristics of the seven crystal systems.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">System</emphasis></entry>
+                <entry><emphasis effect="bold">Axial lengths and angles</emphasis> </entry>
+                <entry><emphasis effect="bold">Unit cell geometry</emphasis> </entry>
+              </row>
+              <row>
+                <entry>cubic</entry>
+                <entry>a = b = c, α = β = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math>= 90°</entry>
+                <entry>
+                  <media id="id10510733" alt=""><image src="../../media/graphics1-1e61.jpg" mime-type="image/jpeg" print-width="0.4"/></media>
+                </entry>
+              </row>
+              <row>
+                <entry>tetragonal</entry>
+                <entry>a = b ≠ c, α = β = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math>= 90°</entry>
+                <entry>
+                  <media id="id13106733" alt=""><image src="../../media/graphics2-133f.jpg" mime-type="image/jpeg" print-width="0.4"/></media>
+                </entry>
+              </row>
+              <row>
+                <entry>orthorhombic</entry>
+                <entry>a ≠ b ≠ c, α = β = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math>= 90°</entry>
+                <entry>
+                  <media id="id9507474" alt=""><image src="../../media/graphics3-c8a5.jpg" mime-type="image/jpeg" print-width="0.4"/></media>
+                </entry>
+              </row>
+              <row>
+                <entry>rhombohedral</entry>
+                <entry>a = b = c, α = β = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> ≠ 90°</entry>
+                <entry>
+                  <media id="id6321386" alt=""><image src="../../media/graphics4-b014.jpg" mime-type="image/jpeg" print-width="0.4"/></media>
+                </entry>
+              </row>
+              <row>
+                <entry>hexagonal</entry>
+                <entry>a = b ≠ c, α = β = 90°, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> = 120°</entry>
+                <entry>
+                  <media id="id6665178" alt=""><image src="../../media/graphics5-d62b.jpg" mime-type="image/jpeg" print-width="0.4"/></media>
+                </entry>
+              </row>
+              <row>
+                <entry>monoclinic</entry>
+                <entry>a ≠ b ≠ c, α = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> = 90°, β ≠ 90°</entry>
+                <entry>
+                  <media id="id13130154" alt=""><image src="../../media/graphics6-97c9.jpg" mime-type="image/jpeg" print-width="0.4"/></media>
+                </entry>
+              </row>
+              <row>
+                <entry>triclinic</entry>
+                <entry>a ≠ b ≠ c, α ≠ β ≠ 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math></entry>
+                <entry>
+                  <media id="id10546190" alt=""><image src="../../media/graphics7-353e.jpg" mime-type="image/jpeg" print-width="0.4"/></media>
+                </entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+</tgroup><caption>Geometrical characteristics of the seven crystal systems. </caption>
+</table>
+        <figure id="id6801835"><media id="id13103014" alt=""><image src="../../media/graphics8-fe7a.png" mime-type="image/png" width="314" print-width="3.5in"/></media><caption>Bravais lattices.</caption></figure>
+        <table id="id6801858" summary="Examples of elements and compounds that adopt each of the crystal systems.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Crystal system</emphasis></entry>
+                <entry><emphasis effect="bold">Example</emphasis></entry>
+              </row>
+              <row>
+                <entry>
+        triclinic</entry>
+                <entry>
+                  K<sub>2</sub>S<sub>2</sub>O<sub>8</sub>
+                </entry>
+              </row>
+              <row>
+                <entry>monoclinic</entry>
+                <entry> As<sub>4</sub>S<sub>4</sub>, KNO<sub>2</sub>
+
+</entry>
+              </row>
+              <row>
+                <entry>rhombohedral</entry>
+                <entry>Hg, Sb</entry>
+              </row>
+              <row>
+                <entry>hexagonal</entry>
+                <entry>Zn, Co, NiAs</entry>
+              </row>
+              <row>
+                <entry>orthorhombic</entry>
+                <entry>Ga, Fe<sub>3</sub>C
+</entry>
+              </row>
+              <row>
+                <entry>tetragonal</entry>
+                <entry>In, TiO<sub>2</sub></entry>
+              </row>
+              <row>
+                <entry>cubic</entry>
+                <entry>Au, Si, NaCl</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+</tgroup><caption>Examples of elements and compounds that adopt each of the crystal systems. </caption>
+</table>
+        <para id="id6792203">The cubic lattice is the most symmetrical of the systems. All the angles are equal to 90°, and all the sides are of the same length (<emphasis effect="italics">a</emphasis> = <emphasis effect="italics">b</emphasis> = <emphasis effect="italics">c</emphasis>). Only the length of one of the sides (<emphasis effect="italics">a</emphasis>) is required to describe this system completely. In addition to simple cubic, the cubic lattice also includes body-centered cubic and face-centered cubic (<link target-id="id6801835"/>). Body-centered cubic results from the presence of an atom (or ion) in the center of a cube, in addition to the atoms (ions) positioned at the vertices of the cube. In a similar manner, a face-centered cubic requires, in addition to the atoms (ions) positioned at the vertices of the cube, the presence of atoms (ions) in the center of each of the cubes face. </para>
+        <para id="id6792298">The tetragonal lattice has all of its angles equal to 90°, and has two out of the three sides of equal length (<emphasis effect="italics">a</emphasis> = <emphasis effect="italics">b</emphasis>). The system also includes body-centered tetragonal (<link target-id="id6801835"/>). </para>
+        <para id="id6792373">In an orthorhombic lattice all of the angles are equal to 90°, while all of its sides are of unequal length. The system needs only to be described by three lattice parameters. This system also includes body-centered orthorhombic, base-centered orthorhombic, and face-centered orthorhombic (<link target-id="id6801835"/>). A base-centered lattice has, in addition to the atoms (ions) positioned at the vertices of the orthorhombic lattice, atoms (ions) positioned on just two opposing faces. </para>
+        <para id="id6792441">The rhombohedral lattice is also known as trigonal, and has no angles equal to 90°, but all sides are of equal length (<emphasis effect="italics">a</emphasis> = <emphasis effect="italics">b</emphasis> = <emphasis effect="italics">c</emphasis>), thus requiring only by one lattice parameter, and all three angles are equal (α = β = <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math>). </para>
+        <para id="id6792495">A hexagonal crystal structure has two angles equal to 90°, with the other angle (
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math>) equal to 120°. For this to happen, the two sides surrounding the 120° angle must be equal (<emphasis effect="italics">a</emphasis> = <emphasis effect="italics">b</emphasis>), while the third side (<emphasis effect="italics">c</emphasis>) is at 90° to the other sides and can be of any length. </para>
+        <para id="id6792768">The monoclinic lattice has no sides of equal length, but two of the angles are equal to 90°, with the other angle (usually defined as β) being something other than 90°. It is a tilted parallelogram prism with rectangular bases. This system also includes base-centered monoclinic (<link target-id="id6801835"/>). </para>
+        <para id="id6792888">In the triclinic lattice none of the sides of the unit cell are equal, and none of the angles within the unit cell are equal to 90°. The triclinic lattice is chosen such that all the internal angles are either acute or obtuse. This crystal system has the lowest symmetry and must be described by 3 lattice parameters (<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">c</emphasis>) and the 3 angles (α, β, and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math>). </para>
+      </section>
+      <section id="id-121292776078">
+        <title>Atom positions, crystal directions and Miller indices</title>
+        <section id="id-430465354177">
+          <title>Atom positions and crystal axes </title>
+          <para id="id6793055">The structure of a crystal is defined with respect to a unit cell. As the entire crystal consists of repeating unit cells, this definition is sufficient to represent the entire crystal. Within the unit cell, the atomic arrangement is expressed using coordinates. There are two systems of coordinates commonly in use, which can cause some confusion. Both use a corner of the unit cell as their origin. The first, less-commonly seen system is that of Cartesian or orthogonal coordinates (X, Y, Z). These usually have the units of Angstroms and relate to the distance in each direction between the origin of the cell and the atom. These coordinates may be manipulated in the same fashion are used with two- or three-dimensional graphs. It is very simple, therefore, to calculate inter-atomic distances and angles given the Cartesian coordinates of the atoms. Unfortunately, the repeating nature of a crystal cannot be expressed easily using such coordinates. For example, consider a cubic cell of dimension 3.52 Å. Pretend that this cell contains an atom that has the coordinates (1.5, 2.1, 2.4). That is, the atom is 1.5 Å away from the origin in the x direction (which coincides with the <emphasis effect="italics">a</emphasis> cell axis), 2.1 Å in the y (which coincides with the <emphasis effect="italics">b</emphasis> cell axis) and 2.4 Å in the z (which coincides with the <emphasis effect="italics">c</emphasis> cell axis). There will be an equivalent atom in the next unit cell along the x-direction, which will have the coordinates (1.5 + 3.52, 2.1, 2.4) or (5.02, 2.1, 2.4). This was a rather simple calculation, as the cell has very high symmetry and so the cell axes, <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis> and <emphasis effect="italics">c</emphasis>, coincide with the Cartesian axes, X, Y and Z. However, consider lower symmetry cells such as triclinic or monoclinic in which the cell axes are not mutually orthogonal. In such cases, expressing the repeating nature of the crystal is much more difficult to accomplish.</para>
+          <para id="id6793126">Accordingly, atomic coordinates are usually expressed in terms of fractional coordinates, (x, y, z). This coordinate system is coincident with the cell axes (<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">c</emphasis>) and relates to the position of the atom in terms of the fraction along each axis. Consider the atom in the cubic cell discussion above. The atom was 1.5 Å in the <emphasis effect="italics">a </emphasis>direction away from the origin. As the <emphasis effect="italics">a</emphasis> axis is 3.52 Å long, the atom is (<sup>1.5</sup>/<sub>3.52</sub>) or 0.43 of the axis away from the origin. Similarly, it is (<sup>2.1</sup>/<sub>3.52</sub>) or 0.60 of the <emphasis effect="italics">b</emphasis> axis and (<sup>2.4</sup>/<sub>3.5</sub>) or 0.68 of the <emphasis effect="italics">c</emphasis> axis. The fractional coordinates of this atom are, therefore, (0.43, 0.60, 0.68). The coordinates of the equivalent atom in the next cell over in the <emphasis effect="italics">a </emphasis>direction, however, are easily calculated as this atom is simply 1 unit cell away in <emphasis effect="italics">a</emphasis>. Thus, all one has to do is add 1 to the x coordinate: (1.43, 0.60, 0.68). Such transformations can be performed regardless of the shape of the unit cell. Fractional coordinates, therefore, are used to retain and manipulate crystal information.</para>
+        </section>
+        <section id="id-206197028982">
+          <title>Crystal directions</title>
+          <para id="id6793205">The designation of the individual vectors within any given crystal lattice is accomplished by the use of whole number multipliers of the lattice parameter of the point at which the vector exits the unit cell. The vector is indicated by the notation [<emphasis effect="italics">hkl</emphasis>], where <emphasis effect="italics">h</emphasis>, <emphasis effect="italics">k</emphasis>, and <emphasis effect="italics">l</emphasis> are reciprocals of the point at which the vector exits the unit cell. The origination of all vectors is assumed defined as [000]. For example, the direction along the <emphasis effect="italics">a</emphasis>-axis according to this scheme would be [100] because this has a component only in the <emphasis effect="italics">a</emphasis>-direction and no component along either the <emphasis effect="italics">b</emphasis> or <emphasis effect="italics">c </emphasis>axial direction. A vector diagonally along the face defined by the <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> axis would be [110], while going from one corner of the unit cell to the opposite corner would be in the [111] direction. <link target-id="id6797756"/> shows some examples of the various directions in the unit cell. The crystal direction notation is made up of the lowest combination of integers and represents unit distances rather than actual distances. A [222] direction is identical to a [111], so [111] is used. Fractions are not used. For example, a vector that intercepts the center of the top face of the unit cell has the coordinates x = 1/2, y = 1/2, z = 1. All have to be inversed to convert to the lowest combination of integers (whole numbers); i.e., [221] in <link target-id="id6797756"/>. Finally, all parallel vectors have the same crystal direction, e.g., the four vertical edges of the cell shown in <link target-id="id6797756"/> all have the crystal direction [<emphasis effect="italics">hkl</emphasis>] = [001]. </para>
+          <figure id="id6797756"><media id="id6625673" alt=""><image src="../../media/graphics9-e6e0.png" mime-type="image/png" width="200" print-width="2.5in"/></media><caption>Some common directions in a cubic unit cell. </caption></figure>
+          <para id="id6797780">Crystal directions may be grouped in families. To avoid confusion there exists a convention in the choice of brackets surrounding the three numbers to differentiate a crystal direction from a family of direction. For a direction, square brackets [<emphasis effect="italics">hkl</emphasis>] are used to indicate an individual direction. Angle brackets &lt;<emphasis effect="italics">hkl</emphasis>&gt; indicate a family of directions. A family of directions includes any directions that are equivalent in length and types of atoms encountered. For example, in a cubic lattice, the [100], [010], and [001] directions all belong to the &lt;100&gt; family of planes because they are equivalent. If the cubic lattice were rotated 90°, the <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">c</emphasis> directions would remain indistinguishable, and there would be no way of telling on which crystallographic positions the atoms are situated, so the family of directions is the same. In a hexagonal crystal, however, this is not the case, so the [100] and [010] would both be &lt;100&gt; directions, but the [001] direction would be distinct. Finally, negative directions are identified with a bar over the negative number instead of a minus sign. </para>
+        </section>
+        <section id="id-00619854533179">
+          <title>Crystal planes </title>
+          <para id="id6797928">Planes in a crystal can be specified using a notation called Miller indices. The Miller index is indicated by the notation [<emphasis effect="italics">hkl</emphasis>] where <emphasis effect="italics">h</emphasis>, <emphasis effect="italics">k</emphasis>, and <emphasis effect="italics">l</emphasis> are reciprocals of the plane with the <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, and <emphasis effect="italics">z</emphasis> axes. To obtain the Miller indices of a given plane requires the following steps: </para>
+          <list id="eip-509" list-type="enumerated" number-style="arabic" class="stepwise"><item>The plane in question is placed on a unit cell.</item>
+<item>Its intercepts with each of the crystal axes are then found.</item>
+<item>The reciprocal of the intercepts are taken.</item>
+<item>These are multiplied by a scalar to insure that is in the simple ratio of whole numbers. </item></list>
+          
+          
+          
+          <para id="id6798003">For example, the face of a lattice that does not intersect the y or z axis would be (100), while a plane along the body diagonal would be the (111) plane. An illustration of this along with the (111) and (110) planes is given in <link target-id="id6798014"/>. 
+
+ </para>
+          <figure id="id6798014"><media id="id10221512" alt=""><image src="../../media/graphics11-3a7d.png" mime-type="image/png" width="300" print-width="4in"/></media><caption>Examples of Miller indices notation for crystal planes.</caption></figure>
+          <para id="id6798039">As with crystal directions, Miller indices directions may be grouped in families. Individual Miller indices are given in parentheses (<emphasis effect="italics">hkl</emphasis>), while braces {<emphasis effect="italics">hkl</emphasis>} are placed around the indices of a family of planes. For example, (001), (100), and (010) are all in the {100} family of planes, for a cubic lattice. </para>
+        </section>
+      </section>
+    </section>
+    <section id="id-019981515456">
+      <title>Description of crystal structures </title>
+      <para id="id6798071">Crystal structures may be described in a number of ways. The most common manner is to refer to the size and shape of the unit cell and the positions of the atoms (or ions) within the cell. However, this information is sometimes insufficient to allow for an understanding of the true structure in three dimensions. Consideration of several unit cells, the arrangement of the atoms with respect to each other, the number of other atoms they in contact with, and the distances to neighboring atoms, often will provide a better understanding. A number of methods are available to describe extended solid-state structures. The most applicable with regard to elemental and compound semiconductor, metals and the majority of insulators is the close packing approach. </para>
+      <section id="id-832737501261">
+        <title>Close packed structures: hexagonal close packing and cubic close packing </title>
+        <para id="id6798102">Many crystal structures can be described using the concept of close packing. This concept requires that the atoms (ions) are arranged so as to have the maximum density. In order to understand close packing in three dimensions, the most efficient way for equal sized spheres to be packed in two dimensions must be considered. </para>
+        <para id="id6798113">The most efficient way for equal sized spheres to be packed in two dimensions is shown in <link target-id="id6798132"/>, in which it can be seen that each sphere (the dark gray shaded sphere) is surrounded by, and is in contact with, six other spheres (the light gray spheres in <link target-id="id6798132"/>). It should be noted that contact with six other spheres the maximum possible is the spheres are the same size, although lower density packing is possible. Close packed layers are formed by repetition to an infinite sheet. Within these close packed layers, three close packed rows are present, shown by the dashed lines in <link target-id="id6798132"/>. </para>
+        <figure id="id6798132"><media id="id10127134" alt=""><image src="../../media/graphics12-d29d.png" mime-type="image/png" width="300" print-width="3in"/></media><caption>Schematic representation of a close packed layer of equal sized spheres. The close packed rows (directions) are shown by the dashed lines.</caption></figure>
+        <para id="id6798156">The most efficient way for equal sized spheres to be packed in three dimensions is to stack close packed layers on top of each other to give a close packed structure. There are two simple ways in which this can be done, resulting in either a hexagonal or cubic close packed structures. </para>
+        <section id="id-158781073793">
+          <title>Hexagonal close packed </title>
+          <para id="id6798172">If two close packed layers A and B are placed in contact with each other so as to maximize the density, then the spheres of layer B will rest in the hollow (vacancy) between three of the spheres in layer A. This is demonstrated in <link target-id="id6798208"/>. Atoms in the second layer, B (shaded light gray), may occupy one of two possible positions (<link target-id="id6798208"/>a or b) but not both together or a mixture of each. If a third layer is placed on top of layer B such that it exactly covers layer A, subsequent placement of layers will result in the following sequence ...ABABAB.... This is known as hexagonal close packing or <emphasis effect="italics">hcp</emphasis>. </para>
+          <figure id="id6798208"><media id="id6832527" alt=""><image src="../../media/graphics13-5d63.png" mime-type="image/png" width="455" print-width="4in"/></media><caption>Schematic representation of two close packed layers arranged in A (dark grey) and B (light grey) positions. The alternative stacking of the B layer is shown in (a) and (b).</caption></figure>
+          <para id="id6798232">The hexagonal close packed cell is a derivative of the hexagonal Bravais lattice system (<link target-id="id6801835"/>) with the addition of an atom inside the unit cell at the coordinates (<sup>1</sup>/<sub>3</sub>,<sup>2</sup>/<sub>3</sub>,<sup>1</sup>/<sub>2</sub>). The basal plane of the unit cell coincides with the close packed layers (<link target-id="id6798278"/>). In other words the close packed layer makes-up the {001} family of crystal planes. </para>
+          <figure id="id6798278"><media id="id10516169" alt=""><image src="../../media/graphics14-7da9.png" mime-type="image/png" width="200" print-width="2in"/></media><caption>A schematic projection of the basal plane of the hcp unit cell on the close packed layers.</caption></figure>
+          <para id="id6798302">The “packing fraction” in a hexagonal close packed cell is 74.05%; that is 74.05% of the total volume is occupied. The packing fraction or density is derived by assuming that each atom is a hard sphere in contact with its nearest neighbors. Determination of the packing fraction is accomplished by calculating the number of whole spheres per unit cell (2 in hcp), the volume occupied by these spheres, and a comparison with the total volume of a unit cell. The number gives an idea of how “open” or filled a structure is. By comparison, the packing fraction for body-centered cubic (<link target-id="id6801835"/>) is 68% and for diamond cubic (an important semiconductor structure to be described later) is it 34%. </para>
+        </section>
+        <section id="id-91111646255">
+          <title>Cubic close packed: face-centered cubic </title>
+          <para id="id6798341">In a similar manner to the generation of the hexagonal close packed structure, two close packed layers are stacked (<link target-id="id6798132"/>) however, the third layer (C) is placed such that it does not exactly cover layer A, while sitting in a set of troughs in layer B (<link target-id="id6798371"/>), then upon repetition the packing sequence will be ...ABCABCABC.... This is known as cubic close packing or <emphasis effect="italics">ccp</emphasis>. </para>
+          <figure id="id6798371"><media id="id9219382" alt=""><image src="../../media/graphics15-ea2e.png" mime-type="image/png" width="300" print-width="3in"/></media><caption>Schematic representation of the three close packed layers in a cubic close packed arrangement: A (dark grey), B (medium grey), and C (light grey).</caption></figure>
+          <para id="id6798396">The unit cell of cubic close packed structure is actually that of a face-centered cubic (<emphasis effect="italics">fcc</emphasis>) Bravais lattice. In the <emphasis effect="italics">fcc</emphasis> lattice the close packed layers constitute the {111} planes. As with the <emphasis effect="italics">hcp</emphasis> lattice packing fraction in a cubic close packed (<emphasis effect="italics">fcc</emphasis>) cell is 74.05%. Since face centered cubic or <emphasis effect="italics">fcc</emphasis> is more commonly used in preference to cubic close packed (<emphasis effect="italics">ccp</emphasis>) in describing the structures, the former will be used throughout this text. </para>
+        </section>
+      </section>
+      <section id="id-784692814843">
+        <title>Coordination number </title>
+        <para id="id6798451">The coordination number of an atom or ion within an extended structure is defined as the number of nearest neighbor atoms (ions of opposite charge) that are in contact with it. A slightly different definition is often used for atoms within individual molecules: the number of donor atoms associated with the central atom or ion. However, this distinction is rather artificial, and both can be employed. </para>
+        <para id="id6798463">The coordination numbers for metal atoms in a molecule or complex are commonly 4, 5, and 6, but all values from 2 to 9 are known and a few examples of higher coordination numbers have been reported. In contrast, common coordination numbers in the solid state are 3, 4, 6, 8, and 12. For example, the atom in the center of body-centered cubic lattice has a coordination number of 8, because it touches the eight atoms at the corners of the unit cell, while an atom in a simple cubic structure would have a coordination number of 6. In both <emphasis effect="italics">fcc</emphasis> and <emphasis effect="italics">hcp</emphasis> lattices each of the atoms have a coordination number of 12. </para>
+      </section>
+      <section id="id-757282217148">
+        <title>Octahedral and tetrahedral vacancies </title>
+        <para id="id6798498">As was mentioned above, the packing fraction in both <emphasis effect="italics">fcc</emphasis> and <emphasis effect="italics">hcp</emphasis> cells is 74.05%, leaving 25.95% of the volume unfilled. The unfilled lattice sites (interstices) between the atoms in a cell are called interstitial sites or vacancies. The shape and relative size of these sites is important in controlling the position of additional atoms. In both <emphasis effect="italics">fcc</emphasis> and <emphasis effect="italics">hcp</emphasis> cells most of the space within these atoms lies within two different sites known as octahedral sites and tetrahedral sites. The difference between the two lies in their “coordination number”, or the number of atoms surrounding each site. Tetrahedral sites (vacancies) are surrounded by four atoms arranged at the corners of a tetrahedron. Similarly, octahedral sites are surrounded by six atoms which make-up the apices of an octahedron. For a given close packed lattice an octahedral vacancy will be larger than a tetrahedral vacancy. </para>
+        <para id="id6798548">Within a face centered cubic lattice, the eight tetrahedral sites are positioned within the cell, at the general fractional coordinate of (<sup>n</sup>/<sub>4</sub>,<sup>n</sup>/<sub>4</sub>,<sup>n</sup>/<sub>4</sub>) where n = 1 or 3, e.g., (<sup>1</sup>/<sub>4</sub>,<sup>1</sup>/<sub>4</sub>,<sup>1</sup>/<sub>4</sub>), (<sup>1</sup>/<sub>4</sub>,<sup>1</sup>/<sub>4</sub>,<sup>3</sup>/<sub>4</sub>), etc. The octahedral sites are located at the center of the unit cell (<sup>1</sup>/<sub>2</sub>,<sup>1</sup>/<sub>2</sub>,<sup>1</sup>/<sub>2</sub>), as well as at each of the edges of the cell, e.g., (<sup>1</sup>/<sub>2</sub>,0,0). In the hexagonal close packed system, the tetrahedral sites are at (0,0,<sup>3</sup>/<sub>8</sub>) and (<sup>1</sup>/<sub>3</sub>,<sup>2</sup>/<sub>3</sub>,<sup>7</sup>/<sub>8</sub>), and the octahedral sites are at (<sup>1</sup>/<sub>3</sub>,<sup>1</sup>/<sub>3</sub>,<sup>1</sup>/<sub>4</sub>) and all symmetry equivalent positions. </para>
+      </section>
+      <section id="id-367917192422">
+        <title>Important structure types</title>
+        <para id="id6798777">The majority of crystalline materials do not have a structure that fits into the one atom per site simple Bravais lattice. A number of other important crystal structures are found, however, only a few of these crystal structures are those of which occur for the elemental and compound semiconductors and the majority of these are derived from <emphasis effect="italics">fcc</emphasis>  or <emphasis effect="italics">hcp</emphasis> lattices. Each structural type is generally defined by an archetype, a material (often a naturally occurring mineral) which has the structure in question and to which all the similar materials are related. With regard to commonly used elemental and compound semiconductors the important structures are diamond, zinc blende, Wurtzite, and to a lesser extent chalcopyrite. However, rock salt, β-tin, cinnabar and cesium chloride are observed as high pressure or high temperature phases and are therefore also discussed. The following provides a summary of these structures. Details of the full range of solid-state structures are given elsewhere. </para>
+        <section id="id-716463692229">
+          <title>Diamond Cubic </title>
+          <para id="id6798823">The diamond cubic structure consists of two interpenetrating face-centered cubic lattices, with one offset <sup>1</sup>/<sub>4</sub> of a cube along the cube diagonal. It may also be described as face centered cubic lattice in which half of the tetrahedral sites are filled while all the octahedral sites remain vacant. The diamond cubic unit cell is shown in <link target-id="id6798956"/>. Each of the atoms (e.g., C) is four coordinate, and the shortest interatomic distance (C-C) may be determined from the unit cell parameter (<emphasis effect="italics">a</emphasis>). </para>
+          
+
+
+
+
+<equation id="eip-10001"><media id="id10001_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq1-a2cf.jpg" id="id10001__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+
+
+
+
+
+
+
+          <figure id="id6798956"><media id="id9370549" alt=""><image src="../../media/graphics16-8567.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a diamond cubic lattice showing the two interpenetrating face-centered cubic lattices.</caption></figure>
+
+        </section>
+
+        <section id="id-754250806937">
+          <title>Zinc blende </title>
+          <para id="id6798988">This is a binary phase (ME) and is named after its archetype, a common mineral form of zinc sulfide (ZnS). As with the diamond lattice, zinc blende consists of the two interpenetrating <emphasis effect="italics">fcc</emphasis> lattices. However, in zinc blende one lattice consists of one of the types of atoms (Zn in ZnS), and the other lattice is of the second type of atom (S in ZnS). It may also be described as face centered cubic lattice of S atoms in which half of the tetrahedral sites are filled with Zn atoms. All the atoms in a zinc blende structure are 4-coordinate. The zinc blende unit cell is shown in <link target-id="id6799244"/>. A number of inter-atomic distances may be calculated for any material with a zinc blende unit cell using the lattice parameter (<emphasis effect="italics">a</emphasis>). </para>
+          
+
+<equation id="eip-10002"><media id="id10002_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq2-32ba.jpg" id="id10002__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+
+
+<equation id="eip-10003"><media id="id10003_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq3-0d0f.jpg" id="id10003__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+
+
+
+         <figure id="id6799244"><media id="id6680545" alt=""><image src="../../media/graphics17-a537.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a zinc blende (ZnS) lattice. Zinc atoms are shown in green (small), sulfur atoms shown in red (large), and the dashed lines show the unit cell.</caption></figure>
+        </section>
+
+
+        <section id="id-886582524281">
+          <title>Chalcopyrite </title>
+          <para id="id6799276">The mineral chalcopyrite CuFeS<sub>2</sub> is the archetype of this structure. The structure is tetragonal (<emphasis effect="italics">a</emphasis> = <emphasis effect="italics">b</emphasis>  ≠ <emphasis effect="italics">c</emphasis>, α = β = <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>γ</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> = 90°, and is essentially a superlattice on that of zinc blende. Thus, is easiest to imagine that the chalcopyrite lattice is made-up of a lattice of sulfur atoms in which the tetrahedral sites are filled in layers, ...FeCuCuFe..., etc. (<link target-id="id6799447"/>). In such an idealized structure <emphasis effect="italics">c</emphasis> = 2<emphasis effect="italics">a</emphasis>, however, this is not true of all materials with chalcopyrite structures. </para>
+          <figure id="id6799447"><media id="id13106412" alt=""><image src="../../media/graphics18-9a72.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a chalcopyrite lattice. Copper atoms are shown in blue, iron atoms are shown in green and sulfur atoms are shown in yellow. The dashed lines show the unit cell.</caption></figure>
+        </section>
+
+        <section id="id-299158001368">
+          <title>Rock salt </title>
+          <para id="id6799480">As its name implies the archetypal rock salt structure is NaCl (table salt). In common with the zinc blende structure, rock salt consists of two interpenetrating face-centered cubic lattices. However, the second lattice is offset 1/2<emphasis effect="italics">a</emphasis> along the unit cell axis. It may also be described as face centered cubic lattice in which all of the octahedral sites are filled, while all the tetrahedral sites remain vacant, and thus each of the atoms in the rock salt structure are 6-coordinate. The rock salt unit cell is shown in <link target-id="id6799710"/>. A number of inter-atomic distances may be calculated for any material with a rock salt structure using the lattice parameter (<emphasis effect="italics">a</emphasis>). </para>
+
+
+<equation id="eip-10005"><media id="id10005_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq5-fccb.jpg" id="id10005__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+<equation id="eip-10004"><media id="id10004_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq4-8e6b.jpg" id="id10004__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+
+
+
+          <figure id="id6799710"><media id="id13074127" alt=""><image src="../../media/graphics19-c3aa.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a rock salt lattice. Sodium ions are shown in purple (small spheres) and chloride ions are shown in red (large spheres).</caption></figure>
+        </section>
+        <section id="id-664875331662">
+          <title>Cinnabar </title>
+          <para id="id6799742">Cinnabar, named after the archetype mercury sulfide, HgS, is a distorted rock salt structure in which the resulting cell is rhombohedral (trigonal) with each atom having a coordination number of six. </para>
+        </section>
+        <section id="id-869667685323">
+          <title>Wurtzite </title>
+          <para id="id6799773">This is a hexagonal form of the zinc sulfide. It is identical in the number of and types of atoms, but it is built from two interpenetrating <emphasis effect="italics">hcp</emphasis> lattices as opposed to the <emphasis effect="italics">fcc </emphasis>lattices in zinc blende. As with zinc blende all the atoms in a wurtzite structure are 4-coordinate. The wurtzite unit cell is shown in <link target-id="id6799949"/>. A number of inter atomic distances may be calculated for any material with a wurtzite cell using the lattice parameter (<emphasis effect="italics">a</emphasis>). </para>
+
+
+
+
+<equation id="eip-10006"><media id="id10006_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq6-942f.jpg" id="id10006__onlineimage" width="500" print-width="5in"/>
+        </media></equation>
+
+
+<equation id="eip-10007"><media id="id10007_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq7-740d.jpg" id="id10007__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+
+          <para id="element-712">However, it should be noted that these formulae do not necessarily apply when the ratio <emphasis effect="italics">a</emphasis>/<emphasis effect="italics">c</emphasis> is different from the ideal value of 1.632. </para><figure id="id6799949"><media id="id13126578" alt=""><image src="../../media/graphics20-d845.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a wurtzite lattice. Zinc atoms are shown in green (small spheres), sulfur atoms shown in red (large spheres), and the dashed lines show the unit cell.</caption></figure>
+        </section>
+        <section id="id-684652035699">
+          <title>Cesium Chloride </title>
+          <para id="id6799981">The cesium chloride structure is found in materials with large cations and relatively small anions. It has a simple (primitive) cubic cell (<link target-id="id6801835 "/>) with a chloride ion at the corners of the cube and the cesium ion at the body center. The coordination numbers of both Cs<sup>+</sup> and Cl<sup>-</sup>, with the inner atomic distances determined from the cell lattice constant (<emphasis effect="italics">a</emphasis>). </para>
+
+
+
+<equation id="eip-10008"><media id="id10008_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq8-418b.jpg" id="id10008__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+<equation id="eip-10009"><media id="id10009_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq9-34cd.jpg" id="id10009__onlineimage" width="500" print-width="4.5in"/>
+        </media></equation>
+
+
+        </section>
+        <section id="id-531114280106">
+          <title>β-Tin. </title>
+          <para id="id6800233">The room temperature allotrope of tin is β-tin or white tin. It has a tetragonal structure, in which each tin atom has four nearest neighbors (Sn-Sn = 3.016 Å) arranged in a very flattened tetrahedron, and two next nearest neighbors (Sn-Sn = 3.175 Å). The overall structure of β-tin consists of fused hexagons, each being linked to its neighbor via a four-membered Sn<sub>4</sub> ring. </para>
+        </section>
+      </section>
+    </section>
+    
+
+<section id="id-365871777634">
+      <title>Defects in crystalline solids </title>
+      <para id="id6790064">Up to this point we have only been concerned with ideal structures for crystalline solids in which each atom occupies a designated point in the crystal lattice. Unfortunately, defects ordinarily exist in equilibrium between the crystal lattice and its environment. These defects are of two general types: point defects and extended defects. As their names imply, point defects are associated with a single crystal lattice site, while extended defects occur over a greater range. </para>
+      <section id="id-813489558453">
+        <title>Point defects: “too many or too few” or “just plain wrong” </title>
+        <para id="id6790086">Point defects have a significant effect on the properties of a semiconductor, so it is important to understand the classes of point defects and the characteristics of each type. <link target-id="id6790101"/> summarizes various classes of native point defects, however, they may be divided into two general classes; defects with the wrong number of atoms (deficiency or surplus) and defects where the identity of the atoms is incorrect. </para>
+        <figure id="id6790101"><media id="id13062133" alt=""><image src="../../media/graphics27-1dc1.png" mime-type="image/png" width="400" print-width="4in"/></media><caption>Point defects in a crystal lattice. </caption></figure>
+        <section id="id-0949067990516">
+          <title>Interstitial Impurity </title>
+          <para id="id6790133">An interstitial impurity occurs when an extra atom is positioned in a lattice site that should be vacant in an ideal structure (<link target-id="id6790101"/>b). Since all the adjacent lattice sites are filled the additional atom will have to squeeze itself into the interstitial site, resulting in distortion of the lattice and alteration in the local electronic behavior of the structure. Small atoms, such as carbon, will prefer to occupy these interstitial sites. Interstitial impurities readily diffuse through the lattice via interstitial diffusion, which can result in a change of the properties of a material as a function of time. Oxygen impurities in silicon generally are located as interstitials. </para>
+        </section>
+        <section id="id-727362422219">
+          <title>Vacancies </title>
+          <para id="id6790158">The converse of an interstitial impurity is when there are not enough atoms in a particular area of the lattice. These are called vacancies. Vacancies exist in any material above absolute zero and increase in concentration with temperature. In the case of compound semiconductors, vacancies can be either cation vacancies (<link target-id="id6790101"/>c) or anion vacancies (<link target-id="id6790101"/>d), depending on what type of atom are “missing”. </para>
+        </section>
+        <section id="id-72944704784">
+          <title>Substitution </title>
+          <para id="id6790185">Substitution of various atoms into the normal lattice structure is common, and used to change the electronic properties of both compound and elemental semiconductors. Any impurity element that is incorporated during crystal growth can occupy a lattice site. Depending on the impurity, substitution defects can greatly distort the lattice and/or alter the electronic structure. In general, cations will try to occupy cation lattice sites (<link target-id="id6790101"/>e), and anion will occupy the anion site (<link target-id="id6790101"/>f). For example, a zinc impurity in GaAs will occupy a gallium site, if possible, while a sulfur, selenium and tellurium atoms would all try to substitute for an arsenic. Some impurities will occupy either site indiscriminately, e.g., Si and Sn occupy both Ga and As sites in GaAs. </para>
+        </section>
+        <section id="id-516767515879">
+          <title>Antisite Defects </title>
+          <para id="id6790212">Antisite defects are a particular form of substitution defect, and are unique to compound semiconductors. An antisite defect occurs when a cation is misplaced on an anion lattice site or vice versa (<link target-id="id6790101"/>g and h). Dependant on the arrangement these are designated as either A<sub>B</sub> antisite defects or B<sub>A</sub> antisite defects. For example, if an arsenic atom is on a gallium lattice site the defect would be an As<sub>Ga</sub> defect. Antisite defects involve fitting into a lattice site atoms of a different size than the rest of the lattice, and therefore this often results in a localized distortion of the lattice. In addition, cations and anions will have a different number of electrons in their valence shells, so this substitution will alter the local electron concentration and the electronic properties of this area of the semiconductor. </para>
+        </section>
+      </section>
+      <section id="id-387836445137">
+        <title>Extended Defects: Dislocations in a Crystal Lattice </title>
+        <para id="id6790401">Extended defects may be created either during crystal growth or as a consequence of stress in the crystal lattice. The plastic deformation of crystalline solids does not occur such that all bonds along a plane are broken and reformed simultaneously. Instead, the deformation occurs through a dislocation in the crystal lattice. <link target-id="id6790420"/> shows a schematic representation of a dislocation in a crystal lattice. Two features of this type of dislocation are the presence of an extra crystal plane, and a large void at the dislocation core. Impurities tend to segregate to the dislocation core in order to relieve strain from their presence. </para>
+        <figure id="id6790420"><media id="id13083057" alt=""><image src="../../media/graphics28-ee49.png" mime-type="image/png" width="350" print-width="3.5in"/></media><caption>Dislocation in a crystal lattice.</caption></figure>
+      </section>
+    </section>
+    <section id="id-41418214271">
+      <title>Epitaxy </title>
+      <para id="id6790453">Epitaxy, is a transliteration of two Greek words <emphasis effect="italics">epi</emphasis>, meaning "upon", and <emphasis effect="italics">taxis</emphasis>, meaning "ordered". With respect to crystal growth it applies to the process of growing thin crystalline layers on a crystal substrate. In epitaxial growth, there is a precise crystal orientation of the film in relation to the substrate. The growth of epitaxial films can be done by a number of methods including molecular beam epitaxy, atomic layer epitaxy, and chemical vapor deposition, all of which will be described later. </para>
+      <para id="id6790479">Epitaxy of the same material, such as a gallium arsenide film on a gallium arsenide substrate, is called homoepitaxy, while epitaxy where the film and substrate material are different is called heteroepitaxy. Clearly, in homoepitaxy, the substrate and film will have the identical structure, however, in heteroepitaxy, it is important to employ where possible a substrate with the same structure and similar lattice parameters. For example, zinc selenide (zinc blende, <emphasis effect="italics">a </emphasis>= 5.668 Å) is readily grown on gallium arsenide (zinc blende, <emphasis effect="italics">a</emphasis> = 5.653 Å). Alternatively, epitaxial crystal growth can occur where there exists a simple relationship between the structures of the substrate and crystal layer, such as is observed between Al<sub>2</sub>O<sub>3</sub> (100) on Si (100). Whichever route is chosen a close match in the lattice parameters is required, otherwise, the strains induced by the lattice mismatch results in distortion of the film and formation of dislocations. If the mismatch is significant epitaxial growth is not energetically favorable, causing a textured film or polycrystalline untextured film to be grown. As a general rule of thumb, epitaxy can be achieved if the lattice parameters of the two materials are within about 5% of each other. For good quality epitaxy, this should be less than 1%. The larger the mismatch, the larger the strain in the film. As the film gets thicker and thicker, it will try to relieve the strain in the film, which could include the loss of epitaxy of the growth of dislocations. It is important to note that the &lt;100&gt; directions of a film must be parallel to the &lt;100&gt; direction of the substrate. In some cases, such as Fe on MgO, the [111] direction is parallel to the substrate [100]. The epitaxial relationship is specified by giving first the plane in the film that is parallel to the substrate [100]. </para>
+    </section>
+    <section id="id-322120615504">
+      <title>Bibliography</title>
+      <list id="eip-50"><item><emphasis effect="italics">International Tables for X-ray Crystallography</emphasis>. Vol. IV; Kynoch Press: Birmingham, UK (1974).</item>
+<item>B. F. G. Johnson, in <emphasis effect="italics">Comprehensive Inorganic Chemistry</emphasis>, Pergamon Press, Vol. 4, Chapter 52 (1973).</item>
+<item>A. R. West, <emphasis effect="italics">Solid State Chemistry and its Applications</emphasis>, Wiley, New York (1984).</item></list>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </section>
+  </content>
+</document>

@@ -1,0 +1,311 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>XPS of Carbon Nanomaterials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34549</md:content-id>
+  <md:title>XPS of Carbon Nanomaterials</md:title>
+  <md:abstract/>
+  <md:uuid>fdddbf98-39ce-4edc-934e-dd1f7477b52b</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1163795695637">
+      <title>Introduction</title>
+      <para id="id1163792015299">X-ray photoelectron spectroscopy (XPS), also called electron spectroscopy for chemical analysis (ESCA), is a method used to determine the elemental composition of a material’s surface. It can be further applied to determine the chemical or electronic state of these elements. </para>
+      <para id="id1163800120521">The photoelectric effect is the ejection of electrons from the surface of a material upon exposure to electromagnetic radiation of sufficient energy. Electrons emitted have characteristic kinetic energies proportional to the energy of the radiation, according to <link target-id="eip-948"/>, where KE is the kinetic energy of the electron, <emphasis effect="italics">h</emphasis> is Planck’s constant, ν is the frequency of the incident radiation, E<sub>b</sub> is the ionization, or binding, energy, and φ is the work function. The work function is a constant which is dependent upon the spectrometer. </para>
+      
+      <equation id="eip-948"><media id="id22_media" alt="">
+<image mime-type="image/jpg" src="../../media/EqAB1.jpg" id="id22__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+<para id="id1163808985933">In photoelectron spectroscopy, high energy radiation is used to expel core electrons from a sample. The kinetic energies of the resulting core electrons are measured. Using the equation with the kinetic energy and known frequency of radiation, the binding energy of the ejected electron may be determined. By Koopman’s theorem, which states that ionization energy is equivalent to the negative of the orbital energy, the energy of the orbital from which the electron originated is determined. These orbital energies are characteristic of the element and its state. </para>
+    </section>
+    <section id="id1163816890053">
+      <title>Basics of XPS</title>
+      <section id="id1163811464310">
+        <title>Sample preparation</title>
+        <para id="id1163796681870">As a surface technique, samples are particularly susceptible to contamination. Furthermore, XPS samples must be prepared carefully, as any loose or volatile material could contaminate the instrument because of the ultra-high vacuum conditions. A common method of XPS sample preparation is embedding the solid sample into a graphite tape. Samples are usually placed on 1 x 1 cm or 3 x 3 cm sheets.</para>
+      </section>
+      <section id="id1163796612190">
+        <title>Experimental set-up</title>
+        <para id="id1163795943278">Monochromatic aluminum (<emphasis effect="italics">h</emphasis>ν = 1486.6 eV) or magnesium (<emphasis effect="italics">h</emphasis>ν = 1253.6 eV) K<sub>α</sub> X-rays are used to eject core electrons from the sample. The photoelectrons ejected from the material are detected and their energies measured. Ultra-high vacuum conditions are used in order to minimize gas collisions interfering with the electrons before they reach the detector. </para>
+      </section>
+      <section id="id1163799851790">
+        <title>Measurement specifications</title>
+        <para id="id1163793031531">XPS analyzes material between depths of 1 and 10 nm, which is equivalent to several atomic layers, and across a width of about 10 µm. Since XPS is a surface technique, the orientation of the material affects the spectrum collected. </para>
+      </section>
+      <section id="id1163796637863">
+        <title>Data collection</title>
+        <para id="id1163799631667">X-ray photoelectron (XP) spectra provide the relative frequencies of binding energies of electrons detected, measured in electron-volts (eV). Detectors have accuracies on the order of ±0.1 eV. The binding energies are used to identify the elements to which the peaks correspond. XPS data is given in a plot of intensity versus binding energy. Intensity may be measured in counts per unit time (such as counts per second, denoted c/s). Often, intensity is reported as arbitrary units (arb. units), since only relative intensities provide relevant information. Comparing the areas under the peaks gives relative percentages of the elements detected in the sample. Initially, a survey XP spectrum is obtained, which shows all of the detectable elements present in the sample. Elements with low detection or with abundances near the detection limit of the spectrometer may be missed with the survey scan. <link target-id="id1163790834092"/> shows a sample survey XP scan of fluorinated double-walled carbon nanotubes (DWNTs). </para>
+
+
+          <figure id="id1163790834092"><media id="id1163790834092_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics2-1efb.jpg" id="id1163790834092__onlineimage" width="300" print-width="3in"/>
+            </media>
+                 <caption>Survey XP spectrum of F-DWNTs (O. Kuznetsov, Rice University).</caption></figure>
+
+        <para id="id1163799305423">Subsequently, high resolution scans of the peaks can be obtained to give more information. Elements of the same kind in different states and environments have slightly different characteristic binding energies. Computer software is used to fit peaks within the elemental peak which represent different states of the same element, commonly called deconvolution of the elemental peak. <link target-id="id1163793100640"/> and <link target-id="id1163797067735"/> show high resolutions scans of C1s and F1s peaks, respectively, from <link target-id="id1163790834092"/>, along with the peak designations. </para>
+        
+<figure id="id1163793100640"><media id="id1163793100640_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics3-2bd3.jpg" id="id1163793100640__onlineimage" width="300" print-width="3in"/>
+            </media>
+ <caption>Deconvoluted high resolution C1s spectrum of F-DWNTs  (O. Kuznetsov, Rice University).</caption></figure>
+
+
+<figure id="id1163797067735"><media id="id1163797067735_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-55a2.jpg" id="id1163797067735__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+             <caption>Deconvoluted high resolution F1s spectrum of F-DWNTs (O. Kuznetsov, Rice University).</caption></figure>
+
+
+
+      </section>
+      <section id="id1163791254497">
+        <title>Limitations </title>
+        <para id="id1163796658634">Both hydrogen and helium cannot be detected using XPS. For this reason, XPS can provide only relative, rather than absolute, ratios of elements in a sample. Also, elements with relatively low atomic percentages close to that of the detection limit or low detection by XPS may not be seen in the spectrum. Furthermore, each peak represents a distribution of observed binding energies of ejected electrons based on the depth of the atom from which they originate, as well as the state of the atom. Electrons from atoms deeper in the sample must travel through the above layers before being liberated and detected, which reduces their kinetic energies and thus increases their apparent binding energies. The width of the peaks in the spectrum consequently depends on the thickness of the sample and the depth to which the XPS can detect; therefore, the values obtained vary slightly depending on the depth of the atom. Additionally, the depth to which XPS can analyze depends on the element being detected. </para>
+        <para id="id1163800157273">High resolution scans of a peak can be used to distinguish among species of the same element. However, the identification of different species is discretionary. Computer programs are used to deconvolute the elemental peak. The peaks may then be assigned to particular species, but the peaks may not correspond with species in the sample. As such, the data obtained must be used cautiously, and care should be taken to avoid over-analyzing data. </para>
+      </section>
+    </section>
+    <section id="id1163802904279">
+      <title>XPS for carbon nanomaterials</title>
+      <para id="id1163791407170">Despite the aforementioned limitations, XPS is a powerful surface technique that can be used to accurately detect the presence and relative quantities of elements in a sample. Further analysis can provide information about the state and environment of atoms in the sample, which can be used to infer information about the surface structure of the material. This is particularly useful for carbon nanomaterials, in which surface structure and composition greatly influence the properties of the material. There is much research interest in modifying carbon nanomaterials to modulate their properties for use in many different applications. </para>
+      <section id="id1163798784855">
+        <title>Sample preparation</title>
+        <para id="id1163793987546">Carbon nanomaterials present certain issues in regard to sample preparation. The use of graphite tape is a poor option for carbon nanomaterials because the spectra will show peaks from the graphite tape, adding to the carbon peak and potentially skewing or overwhelming the data. Instead, a thin indium foil (between 0.1 and 0.5 mm thick) is used as the sample substrate. The sample is simply pressed onto a piece of the foil. </para>
+      </section>
+    </section>
+    <section id="id1163799156739">
+      <title>Analysis and applications for carbon nanomaterials</title>
+      <section id="id1163795231576">
+        <title>Chemical Speciation</title>
+        <para id="id1163799821264">The XP survey scan is an effective way to determine the identity of elements present on the surface of a material, as well as the approximate relative ratios of the elements detected. This has important implications for carbon nanomaterials, in which surface composition is of greatest importance in their uses. XPS may be used to determine the purity of a material. For example, nanodiamond powder is a created by detonation, which can leave nitrogenous groups and various oxygen containing groups attached to the surface. <link target-id="id1163790789004"/> shows a survey scan of a nanodiamond thin film with the relative atomic percentages of carbon, oxygen, and nitrogen being 91.25%, 6.25%, and 1.7%, respectively.  Based on the XPS data, the nanodiamond material is approximately 91.25% pure.  </para>
+        
+
+
+<figure id="id1163790789004"><media id="id1163790789004_media" alt="">
+              <image mime-type="image/jpg" src="../../media/Picture 5-6a00.jpg" id="id1163790789004__onlineimage" width="300" print-width="3in"/>
+            </media>          <caption>Survey XPS of a  nanodiamond thin film. Adapted from F. Y. Xie, W. G. Xie, J. Chen, X. Liu, D. Y. Lu, and W. H. Zhang, <emphasis effect="italics">J. Vac. Sci. Tech. B</emphasis>, 2008, <emphasis effect="bold">26</emphasis>, 102.</caption></figure>
+
+       
+        <para id="id1163807058112">XPS is a useful method to verify the efficacy of a purification process. For example, high-pressure CO conversion single-walled nanotubes (HiPco SWNTs) are made using iron as a catalyst. <link target-id="id1163791539779"/> shows the Fe2p XP spectra for pristine and purified HiPco SWNTs. </para>
+
+          <figure id="id1163791539779"><media id="id1163791539779_media" alt="">
+              <image mime-type="image/jpg" src="../../media/Picture 6-96b8.jpg" id="id1163791539779__onlineimage" width="300" print-width="3in"/>
+            </media>
+       <caption>High resolution scan of Fe2p peak for pristine and purified HiPco SWNTs. Adapted with permission from C. M. Yang, H. Kanoh, K. Kaneko, M. Yudasaka, and S. Iijima, <emphasis effect="italics">J. Phys. Chem. B</emphasis>, 2002, <emphasis effect="bold">106</emphasis>, 8994. Copyright: American Chemical Society (2002).  </caption></figure>
+
+
+        <para id="id1163790715601">For this application, XPS is often done in conjunction with thermogravimetric analysis (TGA), which measures the weight lost from a sample at increasing temperatures. TGA data serves to corroborate the changes observed with the XPS data by comparing the percentage of weight loss around the region of the impurity suspected based on the XP spectra. The TGA data support the reduction in iron content with purification suggested by the XP spectra above, for the weight loss at temperatures consistent with iron loss decreases from 27% in pristine SWNTs to 18% in purified SWNTs. Additionally, XPS can provide information about the nature of the impurity. In <link target-id="id1163791539779"/>, the Fe2p spectrum for pristine HiPco SWNTs shows two peaks characteristic of metallic iron at 707 and 720 eV. In contrast, the Fe2p spectrum for purified HiPco SWNTs also shows two peaks at 711 and 724 eV, which are characteristic of either Fe<sub>2</sub>O<sub>3</sub> or Fe<sub>3</sub>O<sub>4</sub>. In general, the atomic percentage of carbon obtained from the XPS spectrum is a measure of the purity of the carbon nanomaterials. </para>
+      </section>
+      <section id="id1163790778024">
+        <title>Bonding and functional groups </title>
+        <para id="id1163792705800">XP spectra give evidence of functionalization and can provide insight into the identity of the functional groups. Carbon nanomaterials provide a versatile surface which can be functionalized to modulate their properties. For example, the sodium salt of phenyl sulfonated SWNTs is water soluble. In the XP survey scan of the phenyl sulfonated SWNTs, there is evidence of functionalization owing to the appearance of the S2p peak. <link target-id="id1163790707564"/> shows the survey XP spectrum of phenyl sulfonated SWNTs. </para>
+        
+<figure id="id1163790707564"><media id="id1163790707564_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-33c2.jpg" id="id1163790707564__onlineimage" width="300" print-width="3in"/>
+          </media> <caption>Survey XP spectrum of phenyl sulfonated SWNTs. Adapted with permission from F. Liang, J. M. Beach, P. K. Rai, W. H. Guo, R. H. Hauge, M. Pasquali, R. E. Smalley, and W. E. Billups, <emphasis effect="italics">Chem. Mater.</emphasis>, 2006, <emphasis effect="bold">18</emphasis>, 1520. Copyright:  American Chemical Society (2006). </caption></figure>           
+
+<para id="id1163793045246">The survey XP spectrum of the sodium salt shows a Na1s peak (<link target-id="id1163796856022"/>) and the high resolution scans of Na1s and S2p show that the relative atomic percentages of Na1s and S2p are nearly equal (<link target-id="id1163808984978"/>), which supports the formation of the sodium salt. </para>
+        
+
+<figure id="id1163796856022"><media id="id1163796856022_media" alt="">
+            <image mime-type="image/png" src="../../media/ssodium salt swnts.jpg" id="id1163796856022__onlineimage" width="300" print-width="3.5in"/>
+          </media> <caption>Survey XP spectrum of phenyl sulfonated SWNTs. Adapted with permission from F. Liang, J. M. Beach, P. K. Rai, W. H. Guo, R. H. Hauge, M. Pasquali, R. E. Smalley, and W. E. Billups, <emphasis effect="italics">Chem. Mater.</emphasis>, 2006, <emphasis effect="bold">18</emphasis>, 1520. Copyright: American Chemical Society (2006).  </caption></figure>   
+        
+
+          <figure id="id1163808984978"><media id="id1163808984978_media" alt="">
+              <image mime-type="image/jpg" src="../../media/Picture 8-7e4a.jpg" id="id1163808984978__onlineimage" width="400" print-width="4in"/> </media><caption>High resolution S2p (left) and Na1s (right) XP spectra of phenyl sulfonated SWNTs. Adapted with permission from F. Liang, J. M. Beach, P. K. Rai, W. H. Guo, R. H. Hauge, M. Pasquali, R. E. Smalley, and W. E. Billups, <emphasis effect="italics">Chem. Mater.</emphasis>, 2006, <emphasis effect="bold">18</emphasis>, 1520. Copyright: American Chemical Society (2006).  </caption></figure>
+
+
+
+      </section>
+      <section id="id1163796875713">
+        <title>Further characterization </title>
+        <para id="id1163796697174">High resolution scans of each of the element peaks of interest can be obtained to give more information about the material. This is a way to determine with high accuracy the presence of elements as well as relative ratios of elements present in the sample.  This can be used to distinguish species of the same element in different chemical states and environments, such as through bonding and hybridization, present in the material. The distinct peaks may have binding energies that differ slightly from that of the convoluted elemental peak. Assignment of peaks can be done using XPS databases, such as that produced by <link url="http://srdata.nist.gov/xps/Default.aspx">NIST</link>. The ratios of the intensities of these peaks can be used to determine the percentage of atoms in a particular state. Discrimination between and identity of elements in different states and environments is a strength of XPS that is of particular interest for carbon nanomaterials. </para>
+        <section id="id1163790773624">
+          <title>Hybridization </title>
+          <para id="id1163795151693">The hybridization of carbons influences the properties of a carbon nanomaterial and has implications in its structure. XPS can be used to determine the hybridization of carbons on the surface of a material, such as graphite and nanodiamond. Graphite is a carbon material consisting of sp<sup>2</sup> carbons. Thus, theoretically the XPS of pure graphite would show a single C1s peak, with a binding energy characteristic of sp<sup>2</sup> carbon (around 284.2 eV). On the other hand, nanodiamond consists of sp<sup>3</sup> bonded carbons. The XPS of nanodiamond should show a single C1s peak, with a binding energy characteristic of sp<sup>3</sup> carbon (around 286 eV). The ratio of the sp<sup>2</sup> and sp<sup>3 </sup>peaks in the C1s spectrum gives the ratio of sp<sup>2</sup> and sp<sup>3</sup> carbons in the nanomaterial. This ratio can be altered and compared by collecting the C1s spectra. For example, laser treatment of graphite creates diamond-like material, with more sp<sup>3</sup> character when a higher laser power is used. This can be observed in <link target-id="id1163800036714"/>, in which the C1s peak is broadened and shifted to higher binding energies as increased laser power is applied. </para>
+          
+<figure id="id1163800036714"><media id="id1163800036714_media" alt="">
+              <image mime-type="image/jpg" src="../../media/Picture 9-e577.jpg" id="id1163800036714__onlineimage" width="250" print-width="2.5in"/>
+            </media>
+ <caption>C1s high resolution XP spectra of graphite, nanodiamond, and graphite samples with increasing laser power treatment.  Adapted from P. Merel, M. Tabbal, M. Chaker, S. Moisa, and J. Margot, <emphasis effect="italics">Appl. Surf. Sci.</emphasis>, 1998, <emphasis effect="bold">136</emphasis>, 105.</caption></figure>           
+        
+<para id="id1163801673862">Alternatively, annealing nanodiamond thin films at very high temperatures creates graphitic layers on the nanodiamond surface, increasing sp<sup>2</sup> content. The extent of graphitization increases with the temperature at which the sample is annealed, as shown in <link target-id="id1163820184207"/>. </para>
+
+<figure id="id1163820184207"><media id="id1163820184207_media" alt="">
+              <image mime-type="image/jpg" src="../../media/10 nd annealed.jpg" id="id1163820184207__onlineimage" width="300" print-width="3in"/>
+            </media> <caption>Deconvoluted high resolution C1s XP spectra for annealed nanodiamond.  Adapted from F. Y. Xie, W. G. Xie, J. Chen, X. Liu, D. Y. Lu, and W. H. Zhang, <emphasis effect="italics"> J. Vac. Sci. Tech. B</emphasis>, 2008, <emphasis effect="bold">26</emphasis>, 102.</caption></figure>           
+        
+
+          
+        </section>
+        <section id="id1163798814107">
+          <title>Reaction completion</title>
+          <para id="id1163793992736">Comparing the relative intensities of various C1s peaks can be powerful in verifying that a reaction has occurred. Fluorinated carbon materials are often used as precursors to a broad range of variously functionalized materials. Reaction of fluorinated SWNTs (F-SWNTs) with polyethyleneimine (PEI) leads to decreases in the covalent carbon-fluoride C1s peak, as well as the evolution of the amine C1s peak. These changes are observed in the C1s spectra of the two samples (<link target-id="id1163790785753"/>). </para>
+
+            <figure id="id1163790785753"><media id="id1163790785753_media" alt=""><image mime-type="image/jpg" src="../../media/Picture 11-b17c.jpg" id="id1163790785753__onlineimage" width="350" print-width="3.5in"/>
+              </media>    <caption>High resolution C1s XP spectra of F-SWNTs (top) and PEI-SWNTs (bottom).  Adapted with permission from E. P. Dillon, C. A. Crouse, and A. R. Barron, <emphasis effect="italics"> ACS Nano</emphasis>, 2008, <emphasis effect="bold"> 2</emphasis>, 156. Copyright: American Chemical Society (2008).  </caption></figure>
+     
+
+   </section>
+        <section id="id1163792679815">
+          <title>Nature and extent of functionalization</title>
+          <para id="id1163791551223">XPS can also be applied to determine the nature and extent of functionalization. In general, binding energy increases with decreasing electron density about the atom. Species with more positive oxidation states have higher binding energies, while more reduced species experience a greater degree of shielding, thus increasing the ease of electron removal. </para>
+          <para id="id1163793995708">The method of fluorination of carbon materials and such factors as temperature and length of fluorination affect the extent of fluoride addition as well as the types of carbon-fluorine bonds present. A survey scan can be used to determine the amount of fluorine compared to carbon. High resolution scans of the C1s and F1s peaks can also give information about the proportion and types of bonds. A shift in the peaks, as well as changes in peak width and intensity, can be observed in spectra as an indication of fluorination of graphite. <link target-id="id1163798736743"/> shows the Cls and F1s spectra of samples containing varying ratios of carbon to fluorine.</para>
+          
+<figure id="id1163798736743"><media id="id1163798736743_media" alt="">
+              <image mime-type="image/jpg" src="../../media/Picture 12-087a.jpg" id="id1163798736743__onlineimage" width="400" print-width="4in"/>
+            </media>   <caption>C1s and F1s high resolution XP spectra for graphite fluorides.  Adapted from I. Palchan, M. Crespin, H. Estrade-Szwarckopf, and B. Rousseau. <emphasis effect="italics">Chem. Phys. Lett.</emphasis>, 1989, <emphasis effect="bold">157</emphasis>, 321.</caption></figure>           
+
+<para id="id1163798519015">Furthermore, different carbon-fluorine bonds show characteristic peaks in high resolution C1s and F1s spectra. The carbon-fluorine interactions in a material can range from ionic to covalent. Covalent carbon-fluorine bonds show higher core electron binding energies than bonds more ionic in character. The method of fluorination affects the nature of the fluorine bonds. Graphite intercalation compounds are characterized by ionic carbon-fluorine bonding. <link target-id="id1163805686681"/> shows the F1s spectra for two fluorinated exfoliated graphite samples prepared with different methods. </para>
+          
+<figure id="id1163805686681"><media id="id1163805686681_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics6-fa0c.jpg" id="id1163805686681__onlineimage" width="300" print-width="3in"/>
+            </media> <caption>High resolution F1s XP spectra of two fluorinated exfoliated graphite samples.  Adapted from A. Tressaud, F. Moguet, S. Flandrois, M. Chambon, C. Guimon, G. Nanse, E. Papirer, V. Gupta, and O.P. Bahl. <emphasis effect="italics">J. Phys. Chem. Solids</emphasis>, 1996, <emphasis effect="bold">57</emphasis>, 745.</caption></figure>           
+        
+<para id="id1163798851047">Also, the peaks for carbons attached to a single fluorine atom, two fluorine atoms, and carbons attached to fluorines have characteristic binding energies. These peaks are seen in that C1s spectra of F- and PEI-SWNTs shown in <link target-id="id1163790671840"/>. </para>
+
+            <figure id="id1163790671840"><media id="id1163790671840_media" alt="">
+                <image mime-type="image/jpg" src="../../media/Picture 14-9e01.jpg" id="id1163790671840__onlineimage" width="300" print-width="3in"/>
+              </media><caption>High resolution C1s XP spectra of F-SWNTs (top) and PEI-SWNTs (bottom).  Adapted with permission from E. P. Dillon, C. A. Crouse, and A. R. Barron, <emphasis effect="italics"> ACS Nano</emphasis>, 2008, <emphasis effect="bold"> 2</emphasis>, 156. Copyright: American Chemical Society (2008).  </caption></figure>
+
+          
+          <para id="id1163814387972"><link target-id="id1163790796161"/> lists various bonds and functionalities and the corresponding C1s binding energies, which may be useful in assigning peaks in a C1s spectrum, and consequently in characterizing the surface of a material.</para>
+
+          <table id="id1163790796161" summary="Bonds containing carbon and characteristic C1s binding energies">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry><emphasis effect="bold">Bond/Group</emphasis></entry>
+                  <entry><emphasis effect="bold">Binding Energy (eV)</emphasis></entry>
+                </row>
+                <row>
+                  <entry><emphasis effect="bold">C-C</emphasis></entry>
+                  <entry><emphasis effect="bold">284.0-286.0</emphasis></entry>
+                </row>
+                <row>
+                  <entry>C-C (sp<sup>2</sup>)</entry>
+                  <entry>284.3-284.6</entry>
+                </row>
+                <row>
+                  <entry>C-C (sp<sup>3</sup>)</entry>
+                  <entry>285.0-286.0</entry>
+                </row>
+                <row>
+                  <entry><emphasis effect="bold">C-N</emphasis></entry>
+                  <entry><emphasis effect="bold">285.2-288.4</emphasis></entry>
+                </row>
+                <row>
+                  <entry>C-NR<sub>2</sub> (amine)</entry>
+                  <entry>285.5-286.4</entry>
+                </row>
+                <row>
+                  <entry>O=C-NH (amide)</entry>
+                  <entry>287.9-288.6</entry>
+                </row>
+                <row>
+                  <entry>-C<emphasis effect="underline">=</emphasis>N (nitrile)</entry>
+                  <entry>266.3-266.8</entry>
+                </row>
+                <row>
+                  <entry><emphasis effect="bold">C-O</emphasis></entry>
+                  <entry><emphasis effect="bold">286.1-290.0</emphasis></entry>
+                </row>
+                <row>
+                  <entry>O=C-OH (carboxyl)</entry>
+                  <entry>288.0-289.4</entry>
+                </row>
+                <row>
+                  <entry>-C-O (epoxy)</entry>
+                  <entry>286.1-287.1</entry>
+                </row>
+                <row>
+                  <entry>-C-OH (hydroxyl)</entry>
+                  <entry>286.4-286.7</entry>
+                </row>
+                <row>
+                  <entry>-C-O-C- (ether)</entry>
+                  <entry>286.1-288.0</entry>
+                </row>
+                <row>
+                  <entry>-C=O (aldehyde/ketone)</entry>
+                  <entry>287.1-288.1</entry>
+                </row>
+                <row>
+                  <entry><emphasis effect="bold">C-F</emphasis></entry>
+                  <entry><emphasis effect="bold">287.0-293.4</emphasis></entry>
+                </row>
+                <row>
+                  <entry>-C-F (covalent)</entry>
+                  <entry>287.7-290.2</entry>
+                </row>
+                <row>
+                  <entry>-C-F (ionic)</entry>
+                  <entry>287.0-287.4</entry>
+                </row>
+                <row>
+                  <entry><emphasis effect="underline">C</emphasis>-C-F</entry>
+                  <entry>286.0-287.7</entry>
+                </row>
+                <row>
+                  <entry>C-F<sub>2</sub></entry>
+                  <entry>291.6-292.4</entry>
+                </row>
+                <row>
+                  <entry>C-F<sub>3</sub></entry>
+                  <entry>292.4-293.4</entry>
+                </row>
+                <row>
+                  <entry><emphasis effect="bold">C-S</emphasis></entry>
+                  <entry><emphasis effect="bold">285.2-287.5</emphasis></entry>
+                </row>
+                <row>
+                  <entry><emphasis effect="bold">C-Cl</emphasis></entry>
+                  <entry><emphasis effect="bold">287.0-287.2</emphasis></entry>
+                </row>
+              </tbody>
+            
+
+
+
+
+
+</tgroup><caption>Summary of selected C1s binding energies. </caption>
+</table>
+        </section>
+      </section>
+      <section id="id1163790643187">
+        <title>Conclusion</title>
+        <para id="id1163809949831">X-ray photoelectron spectroscopy is a facile and effective method for determining the elemental composition of a material’s surface. As a quantitative method, it gives the relative ratios of detectable elements on the surface of the material. Additional analysis can be done to further elucidate the surface structure. Hybridization, bonding, functionalities, and reaction progress are among the characteristics that can be inferred using XPS. The application of XPS to carbon nanomaterials provides much information about the material, particularly the first few atomic layers, which are most important for the properties and uses of carbon nanomaterials. </para>
+      </section>
+    </section>
+    <section id="id1163800465069">
+      <title>Bibliography</title>
+      
+      <list id="eip-133"><item>J. Bockris, <emphasis effect="italics">Modern Electrochemistry 2A</emphasis>, 2<sup>nd</sup> ed., Springer (2001). </item>
+<item>E. P. Dillon, C. A. Crouse, and A. R. Barron, <emphasis effect="italics">ACS Nano</emphasis>, 2008, <emphasis effect="bold">2</emphasis>, 156. </item>
+<item>Y. G. Gogotsi, and I. V. Uvarova, <emphasis effect="italics">Nanostructured materials and coatings for biomedical and sensor applications,</emphasis> Kluwer Academic Publishing (2003). </item>
+<item>F. Liang, J. M. Beach, P. K. Rai, W. H. Guo, R. H. Hauge, M. Pasquali, R. E. Smalley, and W. E. Billups,<emphasis effect="italics"> Chem. Mater.</emphasis>, 2006, <emphasis effect="bold">18</emphasis>, 1520. </item>
+<item>P. Merel, M. Tabbal, M. Chaker, S. Moisa, and J. Margot, <emphasis effect="italics">Appl. Surf. Sci.</emphasis>, 1998, <emphasis effect="bold">136</emphasis>, 105. </item>
+<item>T. Nakajima, <emphasis effect="italics">Graphite fluorides and carbon-fluorine compounds</emphasis>, CRC Press, Boca Raton (1991). </item>
+<item>I. Palhan, M. Crespin, H. Estrade-Szwarckopf, and B. Rousseau. <emphasis effect="italics">Chem. Phys. Lett.</emphasis>, 1989, <emphasis effect="bold">157</emphasis>, 321. </item>
+<item>A. Tressaud, F. Moguet, S. Flandrois, M. Chambon, C. Guimon, G. Nanse, E. Papirer, V. Gupta, and O. P. Bahl. <emphasis effect="italics">J. Phys. Chem. Solids</emphasis>, 1996, <emphasis effect="bold">57</emphasis>, 745. </item>
+<item>F. Y. Xie, W. G. Xie, J. Chen, X. Liu, D. Y. Lu, and W. H. Zhang, <emphasis effect="italics">J. Vac. Sci. Tech. B</emphasis>, 2008, <emphasis effect="bold">26</emphasis>, 102. </item>
+<item>C. M. Yang, H. Kanoh, K. Kaneko, M. Yudasaka, and S. Iijima, <emphasis effect="italics">J. Phys. Chem. B</emphasis>, 2002, <emphasis effect="bold">106</emphasis>, 8994. </item>
+</list>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </section>
+  </content>
+</document>

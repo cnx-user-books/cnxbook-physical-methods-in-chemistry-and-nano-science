@@ -1,0 +1,83 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Differential Scanning Calorimetry (DSC)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43548</md:content-id>
+  <md:title>Differential Scanning Calorimetry (DSC)</md:title>
+  <md:abstract>A summary of the history, background and science of differential scanning calorimetry.</md:abstract>
+  <md:uuid>f443169d-16c3-402f-9712-17a994953365</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1170472559319">
+      <title>Introduction</title>
+      <para id="import-auto-id1170484822472">Differential scanning calorimetry (DSC) is a technique used to measure the difference in the heat flow rate of a sample and a reference over a controlled temperature range. These measurements are used to create phase diagrams and gather thermoanalytical information such as transition temperatures and enthalpies.</para>
+      <section id="import-auto-id1170485525037"><title>History</title><para id="eip-666">DSC was developed in 1962 by Perkin-Elmer employees Emmett Watson and Michael O’Neill and was introduced at the Pittsburgh Conference on Analytical Chemistry and Applied Spectroscopy (<link target-id=" import-auto-id1170479043287"/>). The equipment for this technique was available to purchase beginning in 1963 and has evolved to control temperatures more accurately and take measurements more precisely, ensuring repeatability and high sensitivity. </para><figure id="import-auto-id1170479043287"><media id="import-auto-id3279158" alt=""><image mime-type="image/png" src="../../media/graphics1-7517.png" width="300" print-width="3in"/></media><caption>An excerpt from the original DSC patent.</caption></figure></section></section>
+    <section id="import-auto-id4134947">
+      <title>Theory</title>
+      <section id="import-auto-id1170472316288">
+        <title>Phase transitions</title>
+        <para id="import-auto-id1170472309297">Phase transitions refer to the transformation from one state of matter to another. Solids, liquids, and gasses are changed to other states as the thermodynamic system is altered, thereby affecting the sample and its properties. Measuring these transitions and determining the properties of the sample is important in many industrial settings and can be used to ensure purity and determine composition (such as with polymer ratios). Phase diagrams (<link target-id="import-auto-id1170477223128"/>) can be used to clearly demonstrate the transitions in graphical form, helping visualize the transition points and different states as the thermodynamic system is changed. </para><figure id="import-auto-id1170477223128"><media id="import-auto-id1170488912624" alt="">
+            <image mime-type="image/png" src="../../media/Picture 1-e120.png" width="350" print-width="3.5in"/>
+          </media>
+        <caption>An example of a typical phase diagram.</caption></figure></section>
+      <section id="import-auto-id1170487329975">
+        <title>Differential thermal analysis</title>
+        <para id="import-auto-id1170474280958">Prior to DSC, differential thermal analysis (DTA) was used to gather information about transition states of materials. In DTA, the sample and reference are heated simultaneously with the same amount of heat and the temperature of each is monitored independently. The difference between the sample temperature and the reference temperature gives information about the exothermic or endothermic transition occurring in the sample. This strategy was used as the foundation for DSC, which sought to measure the difference in energy needed to keep the temperatures the same instead of measure the difference in temperature from the same amount of energy.</para>
+      </section>
+      <section id="import-auto-id1170488910277">
+        <title>Differential scanning calorimeter</title>
+        <para id="import-auto-id8142940">Instead of measuring temperature changes as heat is applied as in DTA, DSC measures the amount of heat that is needed to increase the temperatures of the sample and reference across a temperature gradient. The sample and reference are kept at the same temperature as it changes across the gradient, and the differing amounts of heat required to keep the temperatures synchronized are measured. As the sample undergoes phase transitions, more or less heat is needed, which allows for phase diagrams to be created from the data. Additionally, specific heat, glass transition temperature, crystallization temperature, melting temperature, and oxidative/thermal stability, among other properties, can be measured using DSC.</para>
+      </section>
+    </section>
+    <section id="import-auto-id1170489058447">
+      <title>Applications</title>
+      <para id="import-auto-id1170471740514">DSC is often used in industrial manufacturing, ensuring sample purity and confirming compositional analysis. Also used in materials research, providing information about properties and composition of unknown materials can be determined. DSC has also been used in the food and pharmaceutical industries, providing characterization and enabling the fine-tuning of certain properties. The stability of proteins and folding/unfolding information can also be measured with DSC experiments.</para></section>
+    <section id="import-auto-id1170488347124">
+      <title>Instrumentation</title>
+      <section id="import-auto-id1170472560676">
+        <title>Equipment</title>
+        <para id="import-auto-id1170478138108">The sample and reference cells (also known as pans), each enclosing their respective materials, are contained in an insulted adiabatic chamber (<link target-id="import-auto-id1170476459688"/>). The cells can be made of a variety of materials, such as aluminum, copper, gold and platinum. The choice of which is dictated by  the necessary upper temperature limit. A variable heating element around each cell transfers heat to the sample, causing both cells’ temperature to rise in coordination with the other cell. A temperature monitor measures the temperatures of each cell and a microcontroller controls the variable heating elements and reports the differential power required for heating the sample versus the reference. A typical setup, including a computer for controlling software, is shown in <link target-id="import-auto-id1170471747324"/>.</para><figure id="import-auto-id1170476459688"><media id="import-auto-id1170488910258" alt="">
+            <image mime-type="image/png" src="../../media/Picture 41-3e4e.png" width="500" print-width="5in"/>
+          </media>
+        <caption>Diagram of basic DSC equipment.</caption></figure><figure id="import-auto-id1170471747324"><media id="import-auto-id1170471753986" alt="">
+            <image mime-type="image/png" src="../../media/Untitled-4e03.png" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Picture of a basic DSC setup in a laboratory.</caption></figure></section>
+      <section id="import-auto-id1170483290486">
+        <title>Modes of operations</title>
+        <para id="import-auto-id1170482048930">With advancement in DSC equipment, several different modes of operations now exist that enhance the applications of DSC. Scanning mode typically refers to conventional DSC, which uses a linear increase or decrease in temperature. An example of an additional mode often found in newer DSC equipment is an isothermal scan mode, which keeps temperature constant while the differential power is measured. This allows for stability studies at constant temperatures, particularly useful in shelf life studies for pharmaceutical drugs.</para>
+      </section>
+      <section id="import-auto-id3446932">
+        <title>Calibration</title>
+        <para id="import-auto-id1170493123128">As with practically all laboratory equipment, calibration is required. Calibration substances, typically pure metals such as indium or lead, are chosen that have clearly defined transition states to ensure that the measured transitions correlate to the literature values. </para></section>
+    </section>
+    <section id="import-auto-id1170483037729">
+      <title>Obtaining measurements</title>
+      <section id="import-auto-id1170474360979">
+        <title>Sample preparation</title>
+        <para id="import-auto-id1170484015561">Sample preparation mostly consists of determining the optimal weight to analyze. There needs to be enough of the sample to accurately represent the material, but the change in heat flow should typically be between 0.1 - 10 mW. The sample should be kept as thin as possible and cover as much of the base of the cell as possible. It is typically better to cut a slice of the sample rather than crush it into a thin layer. The correct reference material also needs to be determined in order to obtain useful data.</para></section>
+      <section id="import-auto-id1170487539244">
+        <title>DSC curves</title>
+        <para id="import-auto-id1170472390803">DSC curves (e.g., <link target-id="import-auto-id1170473638292"/>)  typically  consist of the heat flow plotted versus the temperature. These curves can be used to calculate the enthalpies of transitions, (ΔH), <link target-id="eip-853"/>, by integrating the peak of the state transition, where K is the calorimetric constant and A is the area under the curve. </para><equation id="eip-853"><media id="id201131XX_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Eq40.jpg" id=" id201131XX__onlineimage" width="500" print-width="4.5in"/>
+        </media>
+</equation><figure id="import-auto-id1170473638292"><media id="import-auto-id1170489857623" alt="">
+            <image mime-type="image/png" src="../../media/Screen Shot 2012-04-25 at 3.31.50 PM.png" width="350" print-width="3.5in"/>
+          </media>
+        <caption>An idealized DSC curve showing the shapes associated with particular phase transitions. </caption></figure></section>
+      <section id="import-auto-id3210684">
+        <title>Sources of error</title>
+        <para id="import-auto-id1170473518881">Common error sources apply, including user and balance errors and improper calibration. Incorrect choice of reference material and improper quantity of sample are frequent errors. Additionally, contamination and how the sample is loaded into the cell affect the DSC. </para>
+      </section>
+      </section>
+    <section id="import-auto-id1170472309222">
+      <title>Bibliography</title>
+      <list id="import-auto-id2143122" list-type="bulleted"><item>E. Watson, M. O'Neill, J. Justin, and N. Brenner, <emphasis effect="italics">Anal. Chem.</emphasis>, 1964, <emphasis effect="bold">36</emphasis><emphasis effect="italics">,</emphasis> 1233.</item>
+        <item>E. Watson and M. O’Neill, U.S. Patent 3,263,484 (1966).</item>
+        <item>G. Hohne, W. Hemminger, and H. Flammersheim, <emphasis effect="italics">Differential Scanning Calorimetry</emphasis>, 2<sup>nd</sup> Ed, Springer, New York, (2003).</item>
+        <item>V. Berstein and V. Egorov, <emphasis effect="italics">Differential Scanning Calorimetry of Polymers: Physics, Chemistry, Analysis, Technology</emphasis>, Ellis Horwood, New York, (1994).</item>
+        <item>J. Dean, <emphasis effect="italics">The Analytical Chemistry Handbook</emphasis>; McGraw Hill: New York, (1995).</item>
+        <item>E. Gmelin and St. M. Sarge, <emphasis effect="italics">Pure Appl. Chem.</emphasis> 1995,<emphasis effect="bold"> 67</emphasis>, 1789.</item>
+      </list></section>
+  </content>
+</document>

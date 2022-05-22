@@ -1,0 +1,1208 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Automotive Industry</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71633</md:content-id>
+  <md:title>Automotive Industry</md:title>
+  <md:abstract/>
+  <md:uuid>754f6078-dcb5-480f-8764-acd39e9a8c96</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-idm379820992">This module was written with the assistance of Hyoungjoo Kim and Matthew Perez</para><section id="import-auto-idm371471712">
+      <title>Introduction</title>
+      <para id="import-auto-idm435887600">On 18<sup>th</sup> October 2015 Michael Horn, CEO of Volkswagen (VW) Group of America, testified before Congress admitting that the company purposely designed their cars to cheat on emissions tests. The “defeat device” in Volkswagen’s diesel vehicles allowed alteration of their performance to conform to nitrogen oxides (NO<sub>x</sub>) emissions standards when being tested. Software installed in Volkswagen’s onboard computers (ECU) could detect when they were being tested under laboratory conditions as opposed to real world road conditions, and would alter the engine mapping to curtail NO<sub>x</sub> emissions under laboratory test conditions. Analytical chemistry was at the heart of both VW’s cheating and the 2014 West Virginia University (WVU) study that revealed the fraud. The defeat device was a program that instructed vehicle’s to decrease the emission of NO<sub>x</sub> by decreasing engine performance and by injecting excessive diesel exhaust fluid (DEF), containing urea (<link target-id="import-auto-idm372348400 "/>), into the exhaust. The urea reduces the NO<sub>x</sub> in the exhaust to produce CO<sub>2</sub>, nitrogen gas, and water vapor. </para><figure id="import-auto-idm372348400"><media id="import-auto-idm467331360" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 2-31db.jpg" width="150" print-width="1.5in"/>
+        </media>
+      <caption>Structure of urea used as a diesel exhaust fluid (DEF) additive to lower NO<sub>x</sub> emissions. </caption></figure><para id="import-auto-idm370156512">When WVU researchers tested Volkswagen’s light duty diesel vehicles’ emissions using portable emissions measurement systems, they found them to emit more than 20 times the EPA allowed level of NO<sub>x</sub>. The portable emissions measurement system loaded onto the tested vehicles relied on common analytical chemistry techniques such as IR spectroscopy and chemiluminescence detection (CLD) to analyze the pollutants CO and NO<sub>x</sub>. The use of these analytical techniques uncovered a multibillion dollar scandal.  </para>
+      <para id="import-auto-idm641319104">Volkswagen’s developers were cheating to comply with stricter EPA standards in accordance with the Clean Air Act. Cheating allowed their vehicles to attain better fuel economy and road performance, while still appearing to comply with the EPA’s NO<sub>x</sub> standards when tested. The EPA sued Volkswagen and in 2016, the latter was ordered to pay $14.7 billion as settlement to their customers and for environmental damages. The Volkswagen scandal is a prime example of the impact that analytical chemistry can have, and the variety of clients for analytical chemists in the automotive industry, especially when it comes to analyzing emissions. </para>
+      <para id="import-auto-idm364195744">The automotive industry uses analytical techniques to test the performance of automobiles during development, manufacture, and operation. Automobile companies want to maximize fuel efficiency, responsiveness, handling, and safety, in order to appeal to consumers. They also want to minimize costs, using less costly materials if possible while maintaining similar standards of performance and comfort. The regulatory sector is focused on ensuring that safety standards for vehicles are conformed to. </para>
+      <para id="import-auto-idm486253584">One of the most influential regulatory sectors that is involved with automobiles are environmental regulatory agencies. Led by the Environmental Protection Agency (EPA) in the United States, environmental regulatory agencies set policies and standards for all automobiles based on authority from legislation such as the Clean Air Act. In order to enforce these standards, the EPA and other agencies must translate these rules that are based on environmental and public health, into quantitative and testable scientific standards. Testing most of these standards involve devices based on analytical chemistry of varying complexity. Analytical chemistry has significant cross-disciplinary significance when determining the acceptable quantities of chemical toxins that vehicles can emit. Recently, a form of mass spectrometry has been applied to detecting black carbon soot and primary organic aerosols that are harmful to human health and are mostly a result of decomposition of lubricants rather than waste from the engine’s exhaust. </para>
+      <para id="import-auto-idm366149504">The same principles and methods of analytical chemistry are used by materials industries that supply automotive companies. The use of analytical chemistry in automobiles is not restricted to the production process. Every automobile on public roads contains a plethora of chemical sensors that monitor their own performance. Some of the most notable sensors in automobiles are O<sub>2</sub> sensors, which are both crucial in a car’s self-monitoring system, and its compliance with environmental standards. </para>
+    </section>
+    <section id="import-auto-idm402707712">
+      <title>Overview</title>
+      <para id="import-auto-idm463850512">There are a lot of chemicals used in the manufacture and operation of automobiles, they are an important part of certain components such as air-conditioning, engine, battery, lubricating fluids, and emission control. Automobiles are equipped to monitor their own performance. As an example, analytical chemistry is at the heart of the O<sub>2</sub> sensor (lambda sensor) that monitors the air-fuel equivalence ratio (denoted by λ). This sensor is crucial in ensuring the maximum efficiency of the engine. </para>
+      <para id="import-auto-idm618549152">The automobile has been often cited as a major cause of pollution and global warming. As part an effort to stop global warming, many countries set a permissible level for vehicle exhaust emissions. To resolve this issue, major automobile companies hire analytical chemists to control carbon emission of their products. </para>
+      <para id="import-auto-idm413819344">The primary pollutants in air include CO and oxides of nitrogen and sulfur. While these pollutants are produced naturally, their concentration levels in the atmosphere are exacerbated by emissions from vehicles. A major source of global warming is CO<sub>2</sub>, and it is released by the combustion of fossil fuels in the internal combustion engine. To control carbon emission, analytical chemists quantify how much CO<sub>2</sub> is emitted from the exhaust using various techniques. </para>
+      <para id="import-auto-idm455073872">Particulate matter (PM) is another concerning category of pollutants found in automobile emissions. These particle range from nanoparticles to those up to 2.5 μm in diameter and are a significant environmental health risk. Carbon soot particles are small, carcinogenic, and dynamic enough to enter human organs, and more recent studies indicates that they have a significant effect on climate change. </para>
+      <para id="import-auto-idm414489312">Particulate matter is commonly measured using a particle counter, which counts particles of a certain size. Detailed carbon soot particle analysis can be undertaken using soot particle aerosol mass spectrometer (SP-AMS). Nitrogen oxides (NO<sub>x</sub>) (including, NO, NO<sub>2</sub>, and N<sub>2</sub>O) are also harmful pollutants produced by automobiles. to the World Health Organization, reducing NO<sub>x</sub> emissions across the board could greatly improve human health. Oxides of nitrogen also combine with atmospheric oxygen to produce acid rain (<link target-id="eip-648"/>). Also a precursor to that produces acid rain (<link target-id="eip-778"/>), SO<sub>2</sub> is another component of automobile (especially diesel) emissions. The harmful effects of acid rain illustrate the importance of detecting NO<sub>x</sub> and SO<sub>2</sub> in automobile emissions. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-648"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi mathvariant="italic">NO</m:mi>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>O</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:msub>
+                <m:mi>H</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+            <m:mi>O</m:mi>
+            <m:mi>→</m:mi>
+            <m:mn>2</m:mn>
+            <m:mi>H</m:mi>
+            <m:msub>
+              <m:mrow>
+                <m:mi>N</m:mi>
+                <m:mi>O</m:mi>
+              </m:mrow>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{2NO} rsub {2} + {1} over {2} {O} rsub {2} + {H} rsub {2} O →  2H {N O} rsub {3}  </m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-778"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi mathvariant="italic">SO</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>O</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:msub>
+                <m:mi>H</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+            <m:mi>O</m:mi>
+            <m:mi>→</m:mi>
+            <m:msub>
+              <m:mi>H</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi mathvariant="italic">SO</m:mi>
+              <m:mn>4</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{SO} rsub {2} + {1} over {2} {O} rsub {2} + {H} rsub {2} O →  {H} rsub {2} {SO} rsub {4}  </m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-idm373248480">Nitrogen oxides were the chemicals that were emitted by VW’s light-duty diesel vehicles (model years 2009-2015) in up to 40 times the quantity allowed by the EPA. In order to measure NO<sub>x</sub> emissions, automotive companies and regulatory agencies must use a variety of devices, all of which are careful applications of techniques used by chemists. The most common technique is chemiluminescence of NO when reacted with ozone (O<sub>3</sub>); however, new techniques are needed in response to tighter regulations and a demand for measuring emissions at the roadside rather than in a laboratory.</para>
+    </section>
+    <section id="import-auto-idm341900832">
+      <title>Key chemicals and materials</title>
+      <para id="import-auto-idm434578560"><link target-id="import-auto-idm361709024"/> gives some of the range of chemicals are used in the automotive industry, their source and estimated annual production. The volumes of chemicals listed in <link target-id="import-auto-idm361709024"/> are large and it can be assumed that there must be quite a large amount of by-products of chemicals. Hence, it is important to detect those chemicals using various techniques.</para><table id="import-auto-idm361709024" summary="Selected commons chemicals used in the automotive industry.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Chemicals </emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Application</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Annual Production</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>1,1,1,2-tetrafluoroethane (<link target-id="import-auto-idm586441552"/>a)</entry>
+              <entry>Air-conditioning</entry>
+              <entry>175,000 tons</entry>
+            </row>
+            <row>
+              <entry>Ethylene glycol (<link target-id="import-auto-idm586441552"/>b), propylene glycol (<link target-id="import-auto-idm586441552"/>c)</entry>
+              <entry>Antifreeze</entry>
+              <entry>1.75  million tons </entry>
+            </row>
+            <row>
+              <entry>2,3,3,3-Tetrafluoropropene (<link target-id="import-auto-idm586441552"/>d)</entry>
+              <entry>Refrigerant</entry>
+              <entry>$800 million </entry>
+            </row>
+            <row>
+              <entry>Glycol-ether</entry>
+              <entry>Brake fluid</entry>
+              <entry>35500 tons</entry>
+            </row>
+            <row>
+              <entry>Duco</entry>
+              <entry>lacquer</entry>
+              <entry>5000 tons </entry>
+            </row>
+            <row>
+              <entry>Petroleum-based-hydrocarbon</entry>
+              <entry>Motor oil</entry>
+              <entry>542.71 billion liters (US consumption) </entry>
+            </row>
+            <row>
+              <entry>Methanol (CH<sub>3</sub>OH)</entry>
+              <entry>Windshield washer fluid</entry>
+              <entry>110 million tons</entry>
+            </row>
+            <row>
+              <entry>Lithium cobalt oxide (LiCoO<sub>2</sub>)</entry>
+              <entry>Lithium ion battery</entry>
+              <entry>124,000 tons</entry>
+            </row>
+            <row>
+              <entry>Zirconium dioxide (ZrO<sub>2</sub>)</entry>
+              <entry>O<sub>2</sub> sensors</entry>
+              <entry/>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Selected commons chemicals used in the automotive industry.</caption>
+</table><figure id="import-auto-idm586441552"><media id="import-auto-idm369176432" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 5-74a2.jpg" width="450" print-width="4.5in"/>
+        </media>
+      <caption>The chemical structure of (a) 1,1,1,2-tetrafluoroethane, (b) ethylene glycol, (c) propylene glycol, and (d) 2,3,3,3-tetrafluoropropene. </caption></figure></section>
+    <section id="import-auto-idm637726768">
+      <title>Challenges</title>
+      <para id="import-auto-idm639468704">There are many challenges that the automotive industry must meet, the most prevalent of which are the environmental challenges faced. In the early 1970, the rise of environmentalism brought out public doubts about the benefits of human activity for the planet. Curiosity about climate turned into anxious concern. Since then, researchers have found that the level of CO<sub>2</sub> in the atmosphere has doubled, and CO<sub>2</sub> is the major cause of climate change. With increasing worldwide demand for carbon emission control, the United States, ranked the second biggest CO<sub>2</sub> emitter globally, enacted the Clean Air Act (CAA) to regulate carbon emission. California has the right to adopt its own emission regulations, which are often more stringent than the federal rules. </para>
+      <para id="import-auto-idm615175872">To fulfill the standard, major automobile companies seek various methods to minimize carbon emission. Internally, they improve engine efficiency to lower the incomplete combustion in the engine. Analytical chemists use various techniques to quantify exact amount of particles emitted in the exhaust, and then they analyze what components comprise of those particles. </para>
+    </section>
+    <section id="import-auto-idm631196000">
+      <title>Regulations</title>
+      <para id="import-auto-idm486229760">Gasoline regulations are an area in which analytical chemistry plays a large role. Due to the developments of analytical methods governments have imposed legislations at federal and state levels. In the US, one of the more notable regulations in the automobile industry on the federal level is the Clean Air Act. This requires the EPA to monitor and regulate various aspects of automobiles such as the fuels they utilize, potential pollution to water, and emission products they might release. The EPA has put into effect different fuel standards such as limiting the amount of sulfur that is allowed in diesel fuel, constraining the amount allowable ethanol in fuel to 15 vol%, and setting the allowable gas volatility and Reid vapor pressure (vapor pressure measured at 37.8 °C (100 °F)) according to seasonal changes. Similarly, the EPA has regulated the concentration of different chemicals in automobile emissions. The EPA regularly monitors pollutants such as CO, NO<sub>2</sub> and particulate matter, as well as other air toxics, which are hazardous to the environment. Under the Clean Air Act, which is continuously updated, stricter and stricter regulations are imposed to limit the amount of these hazards which are produced from newer automobiles. </para>
+      <para id="import-auto-idm402340352">While federal regulations govern over all of the states, individual legislation has been put into effect by local government to further regulate fuel on a state level. Often times States will impose more rigorous regulations in order to meet certain air quality needs. For example the Texas Natural Resource Conservation Commission (TNRCC) lowered the Reid vapor pressure regulation to avoid vapor lock that often occurs with high vapor pressure fuels in high ambient heat. In another example, in 2000 the TNRCC put into effect regulations to quell the increasing use of methyl <emphasis effect="italics">tert</emphasis>-butyl ether (MTBE, <link target-id="import-auto-idm370051936"/>) in gasoline during the summer. Similarly, in 2009 Texas required that 2 vol% of diesel must be biodiesel of which renewable diesel could not meet more than 25% of the requirement. Generally, regulations are becoming stricter to create a more green future. On the other hand, in a state of emergency regulations are sometimes removed. For example on August 25<sup>th</sup> 2017, the EPA waived its reformulated gasoline (RFG) regulation for Houston, which allowed Houstonians to utilize gasoline that produces higher levels of smog and toxic pollutants. The reason for this during this time Houston had been hit by a hurricane and was having trouble accessing RFG so the EPA dropped the national regulation for the State of Texas while they endured the natural disaster.</para><figure id="import-auto-idm370051936"><media id="import-auto-idm361793232" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 6-23b8.jpg" width="125" print-width="1.25in"/>
+        </media>
+      <caption>The chemical structure of methyl <emphasis effect="italics">tert</emphasis>-butyl ether (MTBE).</caption></figure><para id="import-auto-idm609703120">While it may seem that the US heavily regulates its fuel and emission standards, its standards are quite lenient when compared with those observed on a global scale. For instance, taking CO<sub>2</sub> emissions for light vehicles (<link target-id="import-auto-idm372100640"/>) that the current and future US standards are far less regulated than that of the EU shows the US lags behind in tackling carbon emissions.</para><table id="import-auto-idm372100640" summary="USA and EU regulations for CO2 (g) emitted per km distance travelled.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Year of regulation</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">USA</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">EU</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>2015</entry>
+              <entry>155 gCO<sub>2</sub>/km</entry>
+              <entry>130 gCO<sub>2</sub>/km</entry>
+            </row>
+            <row>
+              <entry>2025</entry>
+              <entry>101 gCO<sub>2</sub>/km</entry>
+              <entry>95 gCO<sub>2</sub>/km</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>USA and EU regulations for CO<sub>2</sub> (g) emitted per km distance travelled. </caption>
+</table><para id="import-auto-idm633579648">The EU along with many other countries have put into effect carbon taxes to help reduce overall emissions. Employing a carbon tax reduces emissions twofold, for one it increases overall cost of energy, which reduces overall demand, and secondly it increases costs of carbon based fuels significantly more than that of gas and renewable energy to promote a switch to cleaner energy. The US’s inadequacy in carbon emission regulations in automotive and all sectors has led them to be one of the world's largest producers of CO<sub>2</sub>. In <link target-id="import-auto-idm273090112"/> the CO<sub>2</sub> emissions of various countries in 2015 are displayed, showing the United States to historically and undoubtedly be one of the largest producers of CO<sub>2</sub>, especially per capita (<link target-id="import-auto-idm617763552"/>).</para><figure id="import-auto-idm273090112"><media id="import-auto-idm331887472" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 9-bc47.jpg" width="500" print-width="5in"/>
+        </media>
+      <caption>Total carbon dioxide emissions (million metric tons) from top 20 countries in 2015. </caption></figure><figure id="import-auto-idm617763552"><media id="import-auto-idm617763424" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 13-2cde.jpg" width="500" print-width="5in"/>
+        </media>
+      <caption>Carbon dioxide emissions per capita from top 20 CO<sub>2</sub> emitting countries in 2015. </caption></figure><para id="import-auto-idm336943408">Automobile emissions regulations are important globally because the CO<sub>2</sub> produced in one country influences the global population as a whole. With increased CO<sub>2</sub> levels, the climate will continue to drastically change. That being said it is unfortunate to see that the countries with the strictest regulations, often time doing the least harm to humanity are still suffering at the expense of other countries whose regulations have not evolved to keep pace with the changing world. These regulations, some of which have been in effect for decades, are continually revised as newer analytical methods become available to better detect smaller quantities of chemicals. The regulations in the automobile industry extend well beyond the regulations of chemicals in fuel, and the allowable chemical emissions produced by automobiles. But nevertheless, as humanity realizes the damage they are causing to the earth and newer technology arises, the effect will be the same. With more accurate instrumentation and better analytical methods stricter regulations will continue to be imposed to ensure the safety of humanity and the environment.</para>
+    </section>
+    <section id="import-auto-idm636145840">
+      <title>Innovation needs</title>
+      <para id="import-auto-idm582110096">Roadside emissions testing is a frontier for analytical chemistry in the automotive regulatory sector. Roadside emissions testing allows for the emissions of vehicles to be monitored without bulky equipment like an onboard system and also without the possibility of cheating or inaccuracy that arises in a laboratory measurement. Yet, roadside emissions testing is more challenging than in a laboratory or even onboard testing because it requires accounting for a variety of factors. One way in which roadside emissions are being test is through a technique called dilution tube sampling. </para>
+      <para id="import-auto-idm370245328">Dilution tube sampling works by collecting exhaust emissions, and then replicating the cooling and diluting of emissions in the actual atmosphere. By accounting for outside factors such as the cooling of exhaust emissions, temperature, humidity, volume and stream of atmospheric air, dilution tube sampling has become an effective and reliable way of emissions detection. In fact, northern regions of Virginia are offering state-run roadside emissions detectors that drivers simply drive through, and then are notified of their status of emissions, and then billed for the service. </para>
+      <para id="import-auto-idm315852912">NO<sub>x</sub> emissions too are an important measurement concerning emission regulations of automobiles, as they are a harmful pollutant that contributes to the presences of hydroxyl radicals, secondary organic aerosols as well as acid rain (EQ). The standard method of detection of NO<sub>x</sub> is by chemiluminescence, yet there are a multitude of disadvantages. One disadvantage is the interference that arises from other nitrogen containing compounds. Furthermore, in light of the VW emissions scandal and tightening regulations, government agencies are looking for more reliable ways to test for the levels of NO<sub>x</sub> emitted. This calls for the introduction and enhancement of analytical techniques, and in the case of NO<sub>x</sub> detection, that has come in the form of laser based absorption spectroscopy.</para>
+      <para id="import-auto-idm594442992">Through the use of a continuous wave distributed-feedback quantum cascade laser and a continuous wave external cavity quantum cascade laser, there came about the ability to continuously and simultaneously measure both NO and NO<sub>2</sub>. The two quantum cascade lasers converge and are both transmitted through a multi-pass glass cell, and detected by a single mid-infrared detector, where data was acquired and then analyzed by computer. By using reference cells containing high concentrations of NO and NO<sub>2</sub> and setting the laser to the frequency of absorption of the two compounds, the two lasers were able to continuously detect NO and NO<sub>2</sub> in sample. </para>
+    </section>
+    <section id="import-auto-idm470982016">
+      <title>Key analytical techniques</title>
+      <para id="import-auto-idm613048064"><link target-id="eip-121"/> summarizes various analytical techniques used within the automotive industry or for emissions monitoring. </para><table id="eip-121" summary="A variety of types of analytical techniques are used to detect vehicle emissions.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Analytical technique</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Specific method</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Substances measured</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Mass spectrometry (<link url=" https://cnx.org/contents/uieDnVBC@24.1:kl4gTdhf@1/Principles-of-Mass-Spectrometry-and-Modern-Applications">MS</link>)</entry>
+              <entry>Soot particle aerosol mass spectrometer (SP-AMS) </entry>
+              <entry>Carbon particles from soot emissions</entry>
+            </row>
+            <row>
+              <entry>IR spectroscopy</entry>
+              <entry>Nondispersive infrared sensor (NDIR), fourier transform infrared (FTIR)</entry>
+              <entry>CO, CO<sub>2</sub>, NO<sub>x</sub></entry>
+            </row>
+            <row>
+              <entry>Chemiluminescence </entry>
+              <entry>Titration of NO with O<sub>3</sub>; detection of emitted light with photomultiplier tube</entry>
+              <entry>NO<sub>x</sub></entry>
+            </row>
+            <row>
+              <entry>Particle counting</entry>
+              <entry>Electrical particle counting</entry>
+              <entry>Soot nanoparticles</entry>
+            </row>
+            <row>
+              <entry>Electrochemical analysis</entry>
+              <entry>Lambda sensor using a ZrO<sub>2</sub> element with platinum electrodes, or conductive TiO<sub>2</sub></entry>
+              <entry>O<sub>2</sub>, air-fuel ratio (AFR)</entry>
+            </row>
+            <row>
+              <entry>Atomic spectrometry</entry>
+              <entry>Gas chromatography </entry>
+              <entry>NO<sub>x</sub>, SO<sub>2</sub></entry>
+            </row>
+            <row>
+              <entry>Elemental analysis</entry>
+              <entry>CHNX analysis; measuring mass fraction of carbon, and nitrogen</entry>
+              <entry>Carbon and nitrogen</entry>
+            </row>
+            <row>
+              <entry>Thermal analysis</entry>
+              <entry>Catalytic combustion</entry>
+              <entry>Carbon monoxide </entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+
+</tgroup><caption>A variety of types of analytical techniques are used to detect vehicle emissions.</caption>
+</table><para id="import-auto-idm620831184">In order to measure a variety of harmful emissions components, a range of analytical techniques are required. As shown in <link target-id="eip-121"/>, mass spectrometry and particle counting are preferred techniques for microparticle and nanoparticle detection, while IR spectroscopy and chemiluminescence are the most common techniques for detecting small molecule pollutants such as CO<sub>2</sub> and NO<sub>x</sub>. Other techniques, such as electrochemical analysis used in small devices are crucial for automobile function. Less commonly used techniques include atomic spectrometry, elemental analysis, and thermal analysis, for these same pollutants. </para><section id="import-auto-idm435084192">
+        <title>Mass spectrometry</title>
+        <para id="import-auto-idm347287152">To measure particulate patter (PM) mass concentrations and chemical compositions in the atmosphere and in emissions, soot particle-aerosol mass spectrometry (SP-AMS) is used. This method can be applied not only to climate change research but also to combustion exhaust monitoring and source characterization. Most of all, it can be applied to carbon black containing particle quantification and analysis. The reason why carbon black is measured is that it is a pollutant emitted from gas and diesel engine, and other sources that burn fossil fuel. The carbon comprises a significant portion of PM (particulate matter), and it is a major cause of air pollution. Therefore, to quantify how much black carbon is released from the exhaust is important for preventing air pollution.</para>
+        <para id="import-auto-idm428210272">Soot particle-aerosol mass spectrometry has various advantages. First, SP-AMS vaporizes black carbon particles using intracavity laser absorption (1064 nm) and analyzed using electron impact ion source and high resolution, time-of-flight mass spectrometry. Second, laser vaporization is selective for black carbon and metal containing particles. Third, simultaneous operation with laser and standard tungsten vaporizer allows for detection and characterization of all major submicron ambient particle types (excluding uncoated dust and sea salt particles). The SP-AMS instrument is a standard HR-ToF-AMS with an added intracavity laser vaporizer. The SP-AMS, like other AMS instruments, provides average mass spectrometric measurements of the ensemble of sampled aerosols rather than measurements on a particle-by-particle basis.</para>
+      </section>
+      <section id="import-auto-idm308503232">
+        <title>Electrochemical O<sub>2</sub> sensors (lambda sensors)</title>
+        <para id="import-auto-idm480684896">The main purpose of an automobile’s oxygen sensor is to monitor the engine’s air-fuel ratio (AFR), and hence the efficiency of combustion of the fuel within the engine, as well as the performance of the vehicle’s catalytic convertor. The AFR is defined by <link target-id="eip-31"/>, where m<sub>air</sub> = mass of air in engine, m<sub>fuel</sub> = mass of fuel in engine. A stoichiometric (ideal) air-fuel ratio is around 14.7:1.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-31"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mi mathvariant="italic">AFR</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mi mathvariant="italic">air</m:mi>
+                  </m:msub>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mi mathvariant="italic">fuel</m:mi>
+                  </m:msub>
+                </m:mfrac>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">AFR=  {{m} rsub {air}} over {{m} rsub {fuel}}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm355194784">Quantitative measurement of the exhaust O<sub>2</sub> concentration by the O<sub>2</sub> sensor relies on principles of electrochemical analysis to compare an air reference sample with the exhaust across a sensor element. O<sub>2 </sub>sensors are also called lambda sensors because they measure lambda (λ); a measure of how close the engine’s air-fuel ratio is to the stoichiometric ratio. Vehicle oxygen sensors often use zirconium dioxide (ZrO<sub>2</sub>) along with platinum electrodes to measure the partial pressure of O<sub>2</sub> electrochemically (<link target-id="import-auto-idm642209312"/>). The exhaust from the engine enters the sensor and comes in contact with the ZrO<sub>2</sub>. Housed inside the device is the reference air, drawn from outside of the vehicle. If the concentration of O<sub>2</sub> (and thus partial pressure of O<sub>2</sub>) is greater in the reference air, O<sup>2-</sup> is conducted across the ZrO<sub>2</sub> material into the exhaust (<link target-id="import-auto-idm340660496"/>). This creates a positive potential as measured across a conductive Pt electrode. This potential is related by the Nernst equation (<link target-id="eip-360"/>). In the case of O<sub>2</sub> sensors, this is applied as <link target-id="eip-395"/>, where PO<sub>2,ref</sub> = partial pressure of O<sub>2</sub> in the reference air, PO<sub>2,ex</sub> = partial pressure of O<sub>2</sub> in the exhaust (sample), E = voltage generated, E<sub>0</sub> = standard reduction potential of O<sub>2</sub> to O<sup>2-</sup>, R = gas constant, T = temperature, and F = Faraday’s constant. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-360"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>E</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>E</m:mi>
+                      <m:mn>0</m:mn>
+                    </m:msub>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mi mathvariant="italic">RT</m:mi>
+                      <m:mi mathvariant="italic">nF</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mi>ln</m:mi>
+                <m:mi>⁡</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mi mathvariant="italic">oxidized</m:mi>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mi mathvariant="italic">reduced</m:mi>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">E= {E} rsub {0} - {RT } over {nF} ln⁡( {{a} rsub {oxidized}} over {{a} rsub {reduced}} )</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-395"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>E</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>E</m:mi>
+                      <m:mn>0</m:mn>
+                    </m:msub>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:mi mathvariant="italic">RT</m:mi>
+                      <m:mi mathvariant="italic">nF</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mi>ln</m:mi>
+                <m:mi>⁡</m:mi>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi mathvariant="italic">PO</m:mi>
+                        <m:mrow>
+                          <m:mn>2,</m:mn>
+                          <m:mi mathvariant="italic">ex</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi mathvariant="italic">PO</m:mi>
+                        <m:mrow>
+                          <m:mn>2,</m:mn>
+                          <m:mi mathvariant="italic">ref</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">E= {E} rsub {0} - {RT } over {nF} ln⁡( {{PO} rsub {2,ex}} over {{PO} rsub {2,ref}} )</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><figure id="import-auto-idm642209312"><media id="import-auto-idm642209184" alt="">
+            <image mime-type="image/png" src="../../media/lam.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Cross section of a standard O<sub>2</sub> sensor using a ZrO<sub>2</sub> element and platinum electrodes. NGK Spark Plug Europe (<link url="https://www.ngk.de/en/products-technologies/lambda-sensors/lambda-sensor-technologies/zirconium-dioxide-lambda-sensor/"><emphasis effect="underline">https://www.ngk.de/en/products-technologies/lambda-sensors/lambda-sensor-technologies/zirconium-dioxide-lambda-sensor/</emphasis></link>). </caption></figure><figure id="import-auto-idm340660496"><media id="import-auto-idm340660368" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 14-a8ad.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Flow of O<sup>2-</sup> across the ZrO<sub>2</sub> element depends on exhaust O<sub>2</sub> concentration. A current in the Pt electrode is generated when O<sup>2-</sup> is conducted through the ZrO<sub>2 </sub>element. </caption></figure><para id="import-auto-idm372726704">The exhaust analyzed by a lambda sensor can either be directly from the engine or after the exhaust has passed through the catalytic convertor. Lambda sensors are used upstream (in the engine) of the catalytic convertor to monitor engine performance and AFR in engine. The AFR in the engine is important for a number of reasons. One is that a proper air-fuel ratio results in the most fuel efficiency and highest performance of an engine. </para>
+        <para id="import-auto-idm594444064">A rich AFR (&lt;14.7:1) indicates that the reaction mixture has excess hydrocarbon fuel. A lean AFR (&gt;14.7:1) has excess O<sub>2</sub>. Both rich and lean air-fuel ratios cause inefficiency (<link target-id="import-auto-idm644619360"/>). A rich AFR results in uncombusted fuel being emitted from the exhaust and an increase in black carbon soot particles in the exhaust due to incomplete combustion of the fuel. Excessive CO production is also the result of a rich mixture, as there is insufficient O<sub>2</sub> to produce O<sub>2</sub>. A lean AFR results an increase in the emission of other environmental pollutants such as NO<sub>x</sub> from the engine. Lean air mixtures result in higher temperatures, at which N<sub>2</sub> and O<sub>2</sub> react more readily to form NO<sub>x</sub>. </para><figure id="import-auto-idm644619360"><media id="import-auto-idm340266304" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 16-94ba.jpg" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Idealized efficiency and emissions of three major pollutants as a function of air-fuel ratio. </caption></figure><para id="eip-475">A second O<sub>2 </sub>sensor is also installed on all modern vehicles to monitor the performance of the vehicle’s catalytic convertor (<link target-id="import-auto-idm432573280"/>). Comparison between the pre-catalytic and post-catalytic O<sub>2</sub> sensor voltage readings indicated the amount of O<sub>2</sub> reacted in the catalytic convertor. O<sub>2</sub> reacts with hydrocarbons to form relatively benign by-products such as CO<sub>2</sub> and water. If the catalytic convertor is not functioning properly, then the concentrations of O<sub>2</sub> detected by each O<sub>2 </sub>sensor will be almost identical, and the voltages will be similar at each oxygen sensor. In modern vehicles, this similarity in voltage at each O<sub>2</sub> sensor will trigger the “check engine” light to appear on the driver’s dashboard as an alert. </para><figure id="import-auto-idm432573280"><media id="import-auto-idm432573152" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 15-cfdc.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Design of dual O<sub>2</sub> sensor system to monitor performance of a modern automobile's catalytic convertor. </caption></figure></section>
+      <section id="import-auto-idm370014000">
+        <title>Chemiluminiescence detection (CLD) NO<sub>x</sub> analyzers</title>
+        <para id="import-auto-idm451498240">In order to measure NO (nitric oxide), gas samples from vehicle exhausts are mixed with ozone (O<sub>3</sub>). The reaction of NO and O<sub>3</sub> produces light which can be measured when the photons emitted are detected by a photomultiplier in the reaction chamber. This is a kind of titration of the exhaust sample with O<sub>3</sub> to determine the concentration of NO. </para>
+        <para id="import-auto-idm373314704">Enhanced chemiluminescence analyzers have a NO<sub>x</sub> converter (<link target-id="import-auto-idm509870480"/>). The NO<sub>x</sub> converter consists of a hot catalyst (for example vitrified carbon) to convert all nitrogen oxides to NO, before sending the sample into the reaction chamber containing ozone. This allows the measurement of total NO<sub>x</sub> (NO + NO<sub>2</sub> + N<sub>2</sub>O<sub>5</sub>) in the sample rather than just NO. These chemiluminescence detectors (CLD) are the standard in measuring NO<sub>x</sub>, whether in the laboratory, in roadside testing, or in portable emissions measurement systems (PEMS).</para><figure id="import-auto-idm509870480"><media id="import-auto-idm509870352" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 17-6c7f.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>Schematic of standard NO<sub>x</sub> chemiluminescence detector (CLD).</caption></figure><para id="import-auto-idm416828048">When measuring vehicle emissions, the <emphasis effect="italics">sample</emphasis> comes from the vehicle’s exhaust. An ozone generator to the reaction chamber/tube, which is connected to a photomultiplier tube, supplies O<sub>3</sub> (<link target-id="import-auto-idm509870480"/>). After passing through the reaction tube, the exhaust continues through the ozone scrubber so that the instrument does not release O<sub>3 </sub>into the atmosphere. </para><para id="import-auto-idm372413680">Ozone supplied to the device reacts with nitrogen monoxide to produce a chemiluminescent excited state (<link target-id="eip-790"/>), that is quenched by any gaseous molecule present, and decays to ground state emitting light in the 600 - 875 nm range (<link target-id="eip-384"/>).</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-790"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi mathvariant="italic">NO</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>O</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msub>
+                </m:mrow>
+                <m:mi>→</m:mi>
+                <m:mi>N</m:mi>
+                <m:mrow>
+                  <m:msubsup>
+                    <m:mi>O</m:mi>
+                    <m:mn>2</m:mn>
+                    <m:mrow/>
+                  </m:msubsup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>O</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">NO +  {O} rsub {3}  → N {O} rsub {2} rsup {*}    +  {O} rsub {2}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-384"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mi>N</m:mi>
+                <m:msubsup>
+                  <m:mi>O</m:mi>
+                  <m:mn>2</m:mn>
+                  <m:mrow/>
+                </m:msubsup>
+                <m:mi>→</m:mi>
+                <m:mrow>
+                  <m:msup>
+                    <m:mrow>
+                      <m:mi>N</m:mi>
+                      <m:msub>
+                        <m:mi>O</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:msup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mi mathvariant="italic">hν</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">N {O} rsub {2} rsup {*}   →  {N {O} rsub {2}} ^ {}  +  hν</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm369053888">A photomultiplier tube (<link target-id="import-auto-idm509870480"/>) exposed to the sensor’s reaction mixture then detects this visible light. A current response is generated in the photomultiplier tube, which can be measured. The current response (in amperes) is a linear function of the amount of NO present in the sample, with increasing NO leading to increasing current from the photomultiplier tube (<link target-id="import-auto-idm373686816"/>). </para><figure id="import-auto-idm373686816"><media id="import-auto-idm373686688" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 18-4932.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Ideal example of current produced by the photomultiplier tube as a function of NO concentration in the reaction chamber. Adapted from A. Fontijn, A. J. Sabadell, and R. J. Ronco, <emphasis effect="italics">Analytical Chemistry</emphasis>, 1970, 42, 575.</caption></figure><para id="import-auto-idm377685088">Enhanced chemiluminescence detectors convert NO<sub>2</sub> to NO by passing the exhaust through high temperature catalysis before the exhaust reaches the ozone-containing chemiluminescence tube (<link target-id="eip-165"/>). The total concentration of NO detected after this reaction is then equal to the total concentration of NO<sub>x</sub> (NO + NO<sub>2</sub>) in the exhaust.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-165"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mtext>N</m:mtext>
+            <m:msub>
+              <m:mtext>O</m:mtext>
+              <m:msup>
+                <m:mtext>2</m:mtext>
+                <m:mtext/>
+              </m:msup>
+            </m:msub>
+            <m:mtext/>
+            <m:mi>→</m:mi>
+            <m:mtext> NO + ½</m:mtext>
+            <m:msub>
+              <m:mtext>O</m:mtext>
+              <m:msup>
+                <m:mtext>2</m:mtext>
+                <m:mtext/>
+              </m:msup>
+            </m:msub>
+            <m:mtext/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">"N" {"O"} rsub {{"2"} ^ {" "}} " " → " NO + ½" {"O"} rsub {{"2"} ^ {" "}} " "</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></section>
+      <section id="import-auto-idm489741712">
+        <title>Non-dispersive infrared (NDIR) CO<sub>2</sub> sensors</title>
+        <para id="import-auto-idm710282176">Non-dispersive infrared (NDIR) sensors are the most commonly used tool to CO<sub>2</sub> concentration. NDIR spectroscopy is used in a variety of laboratory and portable emissions measurement systems. Non-dispersive infrared (NDIR) CO<sub>2</sub> sensors work by passing IR radiation through the exhaust sample (<link target-id="import-auto-idm603171008"/>). NDIR is considered nondispersive because unlike other types of IR spectroscopy, NDIR waves are not dispersed or deformed before passing through the sample. In practice, these sensors work the same as a benchtop spectrophotometer, relying on Beer-Lambert’s law to calculate variations in gas concentration. The wavelength 4260 nm (2347.42 cm<sup>-1</sup>) is used, since CO<sub>2</sub> is the only common gas to absorb at that wavelength. NDIR can also be used to detect other emissions such as SO<sub>2</sub>. </para><figure id="import-auto-idm603171008"><media id="import-auto-idm603170880" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 19.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>Schematic of a non-dispersive infrared (NDIR) CO<sub>2</sub> sensor. </caption></figure></section>
+    </section>
+    <section id="import-auto-idm402487056">
+      <title>Conclusion and future directions</title>
+      <para id="import-auto-idm597794576">Analytical chemistry is clearly a critically important aspect of the automotive industry, especially with respect to the detection of emissions. Yet the automotive industry faces a series of challenges, the most prevalent of which being state-mandated regulations on emissions. These state regulations vary globally, two of the most notable being the Clean Air Act put into effect by the United State, and the regulations mandated by the European Union. Interesting, although the federal government of the U.S. has already puts fairly strict regulations on emissions standards, state governments tend to take it even further, with even stricter regulations. Lastly, the EU and many other nations have emissions standards much more rigorous than those of the United States. While the U.S. attempts to reduce its emissions, it still falls far behind in comparison to the intensity of the global effort to reduce emissions. </para>
+      <para id="import-auto-idm632493008">While these regulations pose serious challenges by which the automotive industry must concede, it also faces certain challenges to the field of analytical chemistry by which the field must fight to keep up with. As regulation standards become increasingly more demanding in both precision and reliability of emissions measurements, the field is pushed to produce innovative techniques to fit the increase in standards. One way in which this is being done is by roadside emission detectors, which are preferred in comparison with laboratory measurements as they are a more accurate depiction of how exhaust emissions actually impact the environment. Secondly is laser based absorption spectroscopy, which provide a more precise and comprehensive measurement of NO<sub>x</sub> emissions. </para>
+      <para id="import-auto-idm625468784">The future of analytical chemistry as is driven by the automotive industry seems limitless as state regulations only seem to be growing in demand for more precise and reliable instruments and techniques of detecting emissions from automobiles. This demand for a cleaner Earth itself is what drives the innovation of analytical chemical techniques to become even better, and drive the field into the future.</para>
+    </section>
+    <section id="import-auto-idm445474928">
+      <title>Exercises</title>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-idm367011680"><title>Numerical problems</title><exercise id="eip-189"><problem id="eip-180">
+  <para id="eip-190">A Ford Mustang GT manufactured in 2007 will produce an average of 281g of CO<sub>2 </sub>per kilometer driven. </para>
+<list id="eip-495" list-type="enumerated" number-style="lower-alpha"><item>If a CO<sub>2</sub> regulation was passed capping the maximum CO<sub>2</sub> production per vehicle in a year to 1300 kg, how many kilometers could one drive in a year? (Assume no CO<sub>2</sub> production when car is not moving). </item>
+          <item>If your job is 24 km away how many kg of CO<sub>2</sub> would you produce annually just driving to and from work? </item>
+          <item>If this regulation was put into effect could you travel to and from work every day (assuming 48 work weeks) without violating emission standards?</item>
+        </list>
+</problem>
+
+<solution id="eip-485">
+ 
+  
+        <list id="eip-993" list-type="enumerated" number-style="lower-alpha"><item> <equation id="eip-13"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mi mathvariant="italic">km</m:mi>
+                  <m:mrow>
+                    <m:mn>281</m:mn>
+                    <m:mi>g</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:msub>
+                      <m:mi>O</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mi>×</m:mi>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1300</m:mn>
+                    <m:mi mathvariant="italic">kg</m:mi>
+                  </m:mrow>
+                  <m:mi mathvariant="italic">year</m:mi>
+                </m:mfrac>
+                <m:mi>×</m:mi>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1000</m:mn>
+                      <m:mi>g</m:mi>
+                    </m:mrow>
+                    <m:mi mathvariant="italic">kg</m:mi>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>4626</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi mathvariant="italic">km</m:mi>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi mathvariant="italic">year</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{km} over {281 g C {O} rsub {2}}  ×  {1300 kg} over {year}  ×  {1000 g} over {kg}   =  4626 km/year  </m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation></item>
+<item> <equation id="eip-129"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>281</m:mn>
+                    <m:mi>g</m:mi>
+                    <m:mi>C</m:mi>
+                    <m:msub>
+                      <m:mi>O</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mi mathvariant="italic">km</m:mi>
+                </m:mfrac>
+                <m:mi>×</m:mi>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>24</m:mn>
+                    <m:mi mathvariant="italic">km</m:mi>
+                  </m:mrow>
+                  <m:mi mathvariant="italic">day</m:mi>
+                </m:mfrac>
+                <m:mi>×</m:mi>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mi mathvariant="italic">days</m:mi>
+                  </m:mrow>
+                  <m:mi mathvariant="italic">week</m:mi>
+                </m:mfrac>
+                <m:mi>×</m:mi>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>48</m:mn>
+                      <m:mi mathvariant="italic">work weeks</m:mi>
+                    </m:mrow>
+                    <m:mi mathvariant="italic">year</m:mi>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>1618</m:mn>
+                </m:mrow>
+                <m:mi mathvariant="italic">kg</m:mi>
+                <m:mi>C</m:mi>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>O</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                  <m:mo stretchy="false">/</m:mo>
+                  <m:mi mathvariant="italic">year</m:mi>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{281 g C {O} rsub {2}} over {km}  ×  {24 km} over {day}  ×  {5 days} over {week}   ×  {48 work weeks} over {year}   =  1618 kg C {O} rsub {2} /year  </m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation></item>
+
+
+<item><para id="import-auto-idm421487840">Even if the car was used only to go to and from work it would not meet the regulations of 1300 kg CO<sub>2</sub>/year. </para></item></list>
+
+ 
+       
+
+
+</solution>
+</exercise>
+        
+        
+
+
+        
+    
+
+
+
+
+
+<exercise id="eip-548"><problem id="eip-394">
+  <para id="eip-968">CO<sub>2</sub> absorbs with a peak wavelength of 4260 nm in the IR. Suppose a standard gas sample held at 1000.0 kPa with a CO<sub>2</sub> partial pressure of 100.00 kPa has an absorbance of 0.30 when at 4260 nm when measured by an NDIR instrument. What would be the maximum absorbance at 4260 nm of a sample collected from a car’s exhaust (and measured by the same NDIR instrument) at 1.00 atm than could indicate compliance with the EU’s maximum of 130 g of CO<sub>2</sub> emitted per km traveled? The car emits a total of 6500.0 L from its exhaust each kilometer it travels. Assume that CO<sub>2</sub> is the only species in either sample absorbing at 4260 nm, and that when [CO<sub>2</sub>] = 0, absorbance at 4260 nm is equal to 0. Assume temperature of 0 °C and ideal gas behavior for all gases.</para>
+</problem>
+
+<solution id="eip-108">
+  <para id="eip-88">Begin by using the given partial pressures to calculate the mole fraction of CO<sub>2</sub>.</para>
+<equation id="eip-545"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>χ</m:mi>
+                  <m:msub>
+                    <m:mi>o</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mi mathvariant="italic">kPa</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1000</m:mn>
+                    <m:mi mathvariant="italic">kPa</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mn>0.1</m:mn>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{χ} rsub {{o} rsub {2}} = {100 kPa} over {1000 kPa} =0.1</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm699901904">0.1 mole fraction means that in 1 L of gas, 0.1 L is CO<sub>2</sub>.</para>
+        
+        <equation id="eip-666"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>0.1</m:mn>
+                  <m:mi>L</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>22.4</m:mn>
+                  <m:mrow>
+                    <m:mi>L</m:mi>
+                    <m:mo stretchy="false">/</m:mo>
+                    <m:mi mathvariant="italic">mol</m:mi>
+                  </m:mrow>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>0.00446428571</m:mn>
+            </m:mrow>
+            <m:mtext/>
+            <m:mtext>mol</m:mtext>
+            <m:mtext/>
+            <m:msub>
+              <m:mtext>CO</m:mtext>
+              <m:mtext>2</m:mtext>
+            </m:msub>
+            <m:mtext> in 1 L of exhaust</m:mtext>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{0.1 L} over {22.4 L/mol} = 0.00446428571 " "  "mol"  " " {"CO"} rsub {"2"} " in 1 L of exhaust"</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-idm453743088">The standard is then determined to be 0.004464 M CO<sub>2</sub>.</para>
+        
+        <equation id="eip-38"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0.300</m:mn>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi mathvariant="italic">εb</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">[</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi mathvariant="italic">CO</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">]</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi mathvariant="italic">εb</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">[</m:mo>
+                  <m:mrow>
+                    <m:mn>0.0044642871</m:mn>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">]</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">A=0.300=εb left [{CO} rsub {2} right ] =εb left [0.0044642871 right ]</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm495190704">Solve for the product εb in Beer-Lambert’s law.</para>
+        
+        <equation id="eip-151"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi mathvariant="italic">εb</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>64.199979</m:mn>
+                </m:mrow>
+                <m:msup>
+                  <m:mi mathvariant="italic">mol</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mi>L</m:mi>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">εb=64.199979  {mol} ^ {-1}  L</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm310093728">Calculate allowable moles of 130 g to be emitted in 1 km.</para>
+        
+        <equation id="eip-415"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext/>
+                <m:mfrac>
+                  <m:mtext>130 g allowed</m:mtext>
+                  <m:mrow>
+                    <m:mtext>44.01 g C</m:mtext>
+                    <m:msub>
+                      <m:mtext>O</m:mtext>
+                      <m:mtext>2</m:mtext>
+                    </m:msub>
+                    <m:mtext>/</m:mtext>
+                    <m:mtext>mol</m:mtext>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mtext>=2.953874 </m:mtext>
+                <m:mtext>mol</m:mtext>
+                <m:msub>
+                  <m:mtext>CO</m:mtext>
+                  <m:mtext>2</m:mtext>
+                </m:msub>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">" " {"130 g allowed"} over {"44.01 g C" {"O"} rsub {"2"} "/"  "mol" } "=2.953874 "  "mol"    {"CO"} rsub {"2"}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm340672496">Calculate the maximum allowable concentration (molarity) of CO<sub>2 </sub>in the exhaust.</para>
+        
+        <equation id="eip-913"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mtext>[CO</m:mtext>
+                    <m:mtext>2</m:mtext>
+                  </m:msub>
+                  <m:mtext>]</m:mtext>
+                </m:mrow>
+                <m:mi mathvariant="italic">max</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>2.95</m:mn>
+                  <m:mi mathvariant="italic">mol</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>6500</m:mn>
+                  <m:mi>L</m:mi>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>0.0045444</m:mn>
+            </m:mrow>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{{"[CO"} rsub {"2"} "]"} rsub {max} = {2.95 mol} over {6500 L} =0.0045444 M</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-idm376587008">Use this concentration (molarity) and εb to calculate the maximum allowed absorbance.</para>
+        <para id="import-auto-idm376586752"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mtext>A</m:mtext>
+              <m:mtext>max </m:mtext>
+            </m:msub>
+            <m:mtext>= (</m:mtext>
+            <m:mtext>εb</m:mtext>
+            <m:mtext>)</m:mtext>
+            <m:mrow>
+              <m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mtext>[CO</m:mtext>
+                    <m:mtext>2</m:mtext>
+                  </m:msub>
+                  <m:mtext>]</m:mtext>
+                </m:mrow>
+                <m:mtext>max</m:mtext>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>64.199979</m:mn>
+                    <m:mfrac>
+                      <m:mi>L</m:mi>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>0.0045444</m:mn>
+                    <m:mfrac>
+                      <m:mi mathvariant="italic">mol</m:mi>
+                      <m:mi>L</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>0.29175038</m:mn>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{"A"} rsub {"max "} "= ("  "εb"  ")" {{"[CO"} rsub {"2"} "]"} rsub {"max"} =(64.199979  {L} over {mol}  )(0.0045444 {mol} over {L} )= 0.29175038</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+        <para id="import-auto-idm623784800">The final answer should be expressed as 0.292, conserving three significant figures.</para>
+</solution>
+</exercise>
+        
+        
+        
+
+
+        
+
+
+<exercise id="eip-450"><problem id="eip-309">
+  <para id="eip-622"><link target-id="eip-378"/> was used by West Virginia University researchers to determine the volumetric flow rate into a Pegasor Particle Sensor (PPS), where V<sub>sample</sub> = 1 L/min corrected to the conditions of 294.26 K and 14.696 psi and P<sub>dil</sub> is measured in psi (lbf/in<sup>2</sup>). If β<sub>0</sub> is 3.668 slpm, P<sub>dil </sub>is 22.0 psi, and the volumetric flow rate is measured to be 5.798 L/min at 294.26 K and 14.696 psi, what is coefficient β<sub>1</sub>? </para>
+<equation id="eip-378"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>V</m:mi>
+                  <m:mi mathvariant="italic">sample</m:mi>
+                </m:msub>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">[</m:mo>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">slpm</m:mi>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">]</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>β</m:mi>
+                    <m:mn>1</m:mn>
+                  </m:msub>
+                </m:mrow>
+                <m:mi>×</m:mi>
+                <m:msub>
+                  <m:mi>P</m:mi>
+                  <m:mi mathvariant="italic">dil</m:mi>
+                </m:msub>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">[</m:mo>
+                    <m:mrow>
+                      <m:mi mathvariant="italic">psi</m:mi>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">]</m:mo>
+                  </m:mrow>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>β</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{V} rsub {sample} left [slpm right ] =  {β} rsub {1}  ×  {P} rsub {dil} left [psi right ] +   {β} rsub {0}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+</problem>
+
+<solution id="eip-659">
+  
+   <equation id="eip-665"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mtext>β</m:mtext>
+              <m:mtext>1</m:mtext>
+            </m:msub>
+            <m:mtext>=</m:mtext>
+            <m:mfrac>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>(V</m:mtext>
+                  <m:mtext>sample</m:mtext>
+                </m:msub>
+                <m:mtext>-</m:mtext>
+                <m:msub>
+                  <m:mtext>β</m:mtext>
+                  <m:mtext>0</m:mtext>
+                </m:msub>
+                <m:mtext>)</m:mtext>
+              </m:mrow>
+              <m:msub>
+                <m:mtext>P</m:mtext>
+                <m:mtext>dil</m:mtext>
+              </m:msub>
+            </m:mfrac>
+            <m:mtext/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{"β"} rsub {"1"} "=" {{"(V"} rsub {"sample"} "-" {"β"} rsub {"0"} ")"} over {{"P"} rsub {"dil"   }} " "</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+        <equation id="eip-784"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mtext>β</m:mtext>
+                <m:mtext>1</m:mtext>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>5.978</m:mn>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mi>L</m:mi>
+                          <m:mi mathvariant="italic">min</m:mi>
+                        </m:mfrac>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>3.668</m:mn>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mi>L</m:mi>
+                        <m:mi mathvariant="italic">min</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>22</m:mn>
+                  <m:mfrac>
+                    <m:mtext>lbf</m:mtext>
+                    <m:msup>
+                      <m:mtext>in</m:mtext>
+                      <m:mtext>2</m:mtext>
+                    </m:msup>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+            <m:mtext/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{"β"} rsub {"1"} = {(5.978 {L} over {min} -3.668 {L} over {min} )} over {22   {"lbf"} over {{"in"} ^ {"2"}}} " "</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-441"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mtext>β</m:mtext>
+                <m:mtext>1</m:mtext>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>0.105 in</m:mn>
+            </m:mrow>
+            <m:msup>
+              <m:mrow/>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mrow>
+              <m:mi>L</m:mi>
+              <m:mo stretchy="false">/</m:mo>
+              <m:mi mathvariant="italic">lbf</m:mi>
+            </m:mrow>
+            <m:mi>.</m:mi>
+            <m:mtext>min</m:mtext>
+            <m:mtext/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{"β"} rsub {"1"} =0.105    {in} ^ {2} L/lbf.  "min" " "</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+</solution>
+</exercise>
+        
+        
+
+
+     
+
+
+
+
+
+<exercise id="eip-216"><problem id="eip-838">
+  <para id="eip-241">What is the air-fuel ratio (AFR) in an engine containing 1.67 kg of air and 1.00 mol of pure n-octane (C<sub>8</sub>H<sub>18</sub>)?</para>
+</problem>
+
+<solution id="eip-404">
+  <para id="eip-198">Air-fuel ratio equation is given by <link target-id="eip-31"/>. Use octane’s molar mass to find the mass in grams of the fuel.</para><equation id="eip-552"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>m</m:mtext>
+                  <m:mtext>fuel</m:mtext>
+                </m:msub>
+                <m:mtext>=1.00 </m:mtext>
+                <m:mtext>mol</m:mtext>
+                <m:mtext>∙</m:mtext>
+                <m:mfrac>
+                  <m:mtext>114.23 g octane</m:mtext>
+                  <m:mtext>mol</m:mtext>
+                </m:mfrac>
+                <m:mtext>=114.23 g octane</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">{"m"} rsub {"fuel"} "=1.00 "  "mol"  "∙" {"114.23 g octane"} over {"mol" } "=114.23 g octane"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-idm372460432">Convert mass of air to grams.</para>
+        
+        <equation id="eip-37"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mtext>m</m:mtext>
+              <m:mtext>air</m:mtext>
+            </m:msub>
+            <m:mtext>=1.67 kg∙</m:mtext>
+            <m:mfrac>
+              <m:mtext>1.67 kg</m:mtext>
+              <m:mtext>1000 g</m:mtext>
+            </m:mfrac>
+            <m:mtext>=1670 g air</m:mtext>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{"m"} rsub {"air"} "=1.67 kg∙" {"1.67 kg"} over {"1000 g"} "=1670 g air"</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-idm430294896">Calculate AFR and round to three significant figures.</para>
+        <equation id="eip-791"><m:math display="block">
+            <m:semantics>
+              <m:mrow>
+                <m:mtext>AFR=</m:mtext>
+                <m:mfrac>
+                  <m:mtext>1670 g air</m:mtext>
+                  <m:mtext>114.23 g octane</m:mtext>
+                </m:mfrac>
+                <m:mtext>=14.6</m:mtext>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">"AFR="   {"1670 g air"} over {"114.23 g octane"} "=14.6"</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+</solution>
+</exercise>
+        
+        </section><section id="import-auto-idm621726848">
+        <title>Thought provoking questions</title>
+        <list id="import-auto-idm638525776" list-type="enumerated" number-style="arabic">
+          <item>What are some challenges in measuring emissions at the roadside rather in a laboratory setting?</item>
+          <item>If automobile emissions standards weren't governmentally regulated would people willingly buy and install auto emission controls to reduce environmental damage? If so what percentage and demographic of the population would do so?</item>
+          <item>Laser spectroscopy can be used to detect NO<sub>x</sub> absorbance at very specific wavelengths. Laser rays are collimated, which means that the rays are parallel, and rays are also all of the same wavelength. If radiation waves are dispersed in spectroscopy, what would happen?  </item>
+          <item>Is there a potential danger to the increase in state-mandated regulation of carbon emission?</item>
+        </list>
+      </section>
+    </section>
+    <section id="import-auto-idm698386704">
+      <title>Bibliography</title>
+      <list id="import-auto-idm698386320" list-type="bulleted"><item>Australian government Department of Environment and Energy, <link url=" http://www.environment.gov.au/protection/publications/factsheet-sulfur-dioxide-so29" window="new"> http://www.environment.gov.au/protection/publications/factsheet-sulfur-dioxide-so29</link> (accessed November 30, 2017). </item>
+        <item>T. Bond, D. Streets., K. Yarber., D. Nelson, J. Woo, and Z. Kilmont, <emphasis effect="italics">J. Geophys. Res. Atmos.</emphasis>, 2004, <emphasis effect="bold">109</emphasis>, 1.</item>
+        <item>T. C. Bond, S. J. Doherty, D. W. Fahey, P. M. Forster, T. Berntsen, B. J. DeAngelo, M. G. Flanner, S. Ghan, B. Kärcher, D. Koch, S. Kinne, Y. Kondo, P. K. Quinn, M. C. Sarofim, M. G. Schultz, M. Schulz, C. Venkataraman, H. Zhang, S. Zhang, N. Bellouin, S. K. Guttikunda, P. K. Hopke, M. Z. Jacobson, J. W. Kaiser, Z. Klimont, U. Lohmann, J. P. Schwarz, D. Shindell, T. Storelvmo, S. G. Warren, and C. S. Zender, <emphasis effect="italics">J. Geophys. Res. Atmos.</emphasis>, 2013, <emphasis effect="bold">118</emphasis>, 5380. </item>
+        <item>W. Dockery, <emphasis effect="italics">Environ. Health Persp</emphasis>., 2001, <emphasis effect="bold">109</emphasis>, 483. </item>
+        <item>J. A. Driscoll, <emphasis effect="italics">J. Chem. Edu.</emphasis>, 1997, <emphasis effect="bold">74</emphasis>, 1424.</item>
+        <item>EPA Air Quality, https://www3.epa.gov/airquality/emissns.html (accessed October 17, 2017).</item>
+        <item>EPA Federal Gasoline Regulations, <link url=" https://www.epa.gov/gasoline-standards/federal-gasoline-regulations" window="new"> https://www.epa.gov/gasoline-standards/federal-gasoline-regulations</link> (accessed October 15, 2017).</item>
+        <item>EPA State Gasoline Standards, <link url=" https://www.epa.gov/gasoline-standards/state-gasoline-standards" window="new"> https://www.epa.gov/gasoline-standards/state-gasoline-standards</link> (accessed October 17, 2017).</item>
+        <item>EPA Install Automated Air/Fuel Ratio Controls, <link url=" https://www.epa.gov/sites/production/files/2016-06/documents/auto-air-fuel-ratio.pdf" window="new"> https://www.epa.gov/sites/production/files/2016-06/documents/auto-air-fuel-ratio.pdf</link> (accessed November 27, 2017).</item>
+        <item>EPA Learn About Volkswagen Violations, <link url=" https://www.epa.gov/vw/learn-about-volkswagen-violations" window="new"> https://www.epa.gov/vw/learn-about-volkswagen-violations</link> (accessed November 18, 2017).</item>
+        <item>R. J. Farrauto, <emphasis effect="italics">Catal. Today</emphasis>, 1999, <emphasis effect="bold">51</emphasis>, 351.</item>
+        <item>A. Fontijn, A. J. Sabadell, and Richard J. Ronco, <emphasis effect="italics">Anal. Chem.</emphasis>, 1970, <emphasis effect="bold">42</emphasis>, 575.</item>
+        <item>D. Gibson and C. MacGregor, <emphasis effect="italics">Sensor</emphasis>, 2013, <emphasis effect="bold">13</emphasis>, 7080.</item>
+        <item>G. Korotcenkov<emphasis effect="italics">, Handbook of Gas Sensor Materials: Properties, Advantages and Shortcomings for Applications Volume 1: Conventional Approaches</emphasis>, Springer, New York (2013). </item>
+        <item>T. B. Onasch, A. Trimborn, E. C. Fortner, J. T. Jayne, G. L. Kok., L. R. Williams, P. Davidovits, and D. R. Worsnop, <emphasis effect="italics">Aerosol Sci. Technol.</emphasis>, 2012, <emphasis effect="bold">46</emphasis>, 804.</item>
+        <item>Y. Otsuki, H. Nakamura, M.  Arai, and M. Xu, <emphasis effect="italics">Meas. Sci. Technol.</emphasis>, 2015, <emphasis effect="bold">26</emphasis>, 1. </item>
+        <item>Pennsylvania Department of Environmental Protection Inspection Manual (2000), <link url=" http://www.elibrary.dep.state.pa.us/dsweb/GetRendition/Document-50339/html#bmk2" window="new"> http://www.elibrary.dep.state.pa.us/dsweb/GetRendition/Document-50339/html#bmk2</link> (accessed November 30, 2017).</item>
+        <item>T. D. Rapson, <emphasis effect="italics">Trends Analyt. Chem.</emphasis>, 2013, <emphasis effect="bold">54</emphasis>, 65. </item>
+        <item>Texas Natural Resource Conservation Commission, <link url=" https://www.sunset.texas.gov/reviews-and-reports/agencies/texas-natural-resource-conservation-commission-tnrcc" window="new"> https://www.sunset.texas.gov/reviews-and-reports/agencies/texas-natural-resource-conservation-commission-tnrcc</link> (accessed October 17, 2017).</item>
+        <item>G. Thompson, D. Carder, M. Besch, A.Thiruvengadam, and H. Kappanna, Engines and Emissions, International Council on Clean Transportation (ICCT), <link url=" http://www.theicct.org/sites/default/files/publications/ICCTupdate_EU-95gram_jan2014.pdf" window="new"> http://www.theicct.org/sites/default/files/publications/ICCTupdate_EU-95gram_jan2014.pdf</link> (accessed October 20, 2017).</item>
+        <item>World Health Organization Regional Office for Europe, Review of evidence on health aspects of air pollution – REVIHAAP Project, <link url=" http://www.euro.who.int/__data/assets/pdf_file/0004/193108/REVIHAAP-Final-technical-report-final-version.pdf?ua=1" window="new"> http://www.euro.who.int/__data/assets/pdf_file/0004/193108/REVIHAAP-Final-technical-report-final-version.pdf?ua=1</link> (accessed November 29, 2017).</item>
+        <item>W. Wu, R. H.Chen, J. Y. Pu, and T. H. Lin, <emphasis effect="italics">Atmos.</emphasis><emphasis effect="italics">Environ</emphasis>., 2004, <emphasis effect="bold">38</emphasis>, 7093.</item>
+      </list></section>
+  </content>
+</document>

@@ -1,0 +1,52 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Experimental Characterization of Metal Nanoparticles by TEM</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71315</md:content-id>
+  <md:title>Experimental Characterization of Metal Nanoparticles by TEM</md:title>
+  <md:abstract/>
+  <md:uuid>062f6fd9-9761-481c-a6df-c27148a1cf52</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm742453056">
+      <title>The aim of the characterization experiment</title>
+      <para id="import-auto-idm243726448">The aim of this experiment is to observe the structure of metal nanoparticles in solution, which is usually named as <emphasis effect="italics">in-situ</emphasis> observation. As is known, the composition, structure and behavior of nanoparticles may be quite different when the solid-liquid interface exists or not. Thus, <emphasis effect="italics">in-situ</emphasis> observation is the most persuasive evidence to describe the tomography and characterization of nanoparticles.  </para></section>
+    <section id="import-auto-idm416518384">
+      <title>A brief description of the instrument and its working principle </title>
+      <para id="import-auto-idm304971712">Transmission electron microscopy (TEM) transmits an electron beam through a specimen to obtain the detail information. Nowadays the wavelength of electron beams could be smaller than 0.1 nm (accelerate voltage: &gt;200 kV), making it easy to identify nanometer scale distance or even smaller. Thus, TEM now has been widely used to characterize  the detailed structure of various materials in scientific research. For those beam sensitive materials e.g., 2D materials, depositing a protective layer before imaging is necessary. </para><para id="import-auto-idm247820032">As is shown in <link target-id="import-auto-idm208139776"/>, the structure of TEM is very similar to that of visible-light microscopy (VLM). Electron beam passes through a set of lenses and becomes parallel ‘light’, which transmits through the specimen and objective lens and forms a magnified image. However, as the electrons have a strong interaction with the specimen, it is necessary to make our samples very thin, otherwise, the results may be difficult to interpret. In addition, magnetic materials e.g., Fe<sub>3</sub>O<sub>4 </sub>are not allowed to be loaded in some TEM and they may interact with the magnetic field inside the TEM, giving poor images and probably contaminating the TEM. </para><figure id="import-auto-idm208139776"><media id="import-auto-idm439424048" alt="">
+          <image mime-type="image/jpg" src="../../media/Image1-95e4.jpg" width="500" print-width="5in"/>
+        </media>
+      <caption>Schematic of a typical TEM experiment. </caption></figure></section>
+    <section id="import-auto-idm409220672">
+      <title>Background </title>
+      <para id="import-auto-idm256105824">Nanoparticles like metal clusters own some unique properties. For example, due to the limited number of atoms, gold nanoclusters show great enhancement of the surface electric field, causing plasmon resonance absorption, which is critical for surface-enhanced Raman spectroscopy (SERS). Besides, the large surface area and unique electronic structure make nanoparticles very promising catalysts and nanomedicine. </para>
+    </section>
+    <section id="import-auto-idm263642256">
+      <title>Proposed data collection methods</title>
+      <para id="import-auto-idm643274080">Usually, the images are saved with CCD detectors, although some older TEMs still use film to record the signals. As-collected data could then be analyzed with powerful software such as Digital Micrograph. </para></section>
+    <section id="eip-929"><title>The actual operating procedure for the characterization experiment</title><list id="a" list-type="enumerated" number-style="arabic" class="stepwise"><item><emphasis effect="bold">Sample solution preparation.</emphasis> We will first dilute the solution of nanoparticles with solvent (Milli-Q water is usually used) and treat it with sonication. Make sure the samples are well dispersed without aggregation. </item>
+          <item><emphasis effect="bold">E-chip preparation.</emphasis> Here we take an E-chip produced by Protochips Inc. as an example. Before use, the protective layer should be removed by rinsing the liquid cell in acetone and ethanol solvents (about 2 min for each). Later on, the E-chip is cleaned with plasma cleaning (9:1 argon/oxygen mixture). </item>
+          <item><emphasis effect="bold">Chip loading.</emphasis> As-prepared E-chip was loaded onto a Poseidon 210 liquid fluid holder and fixed firmly with screws.</item>
+          <item><emphasis effect="bold">Preparation of TEM.</emphasis> The vacuum system should be turned on in advance. For some TEM instrument like JEOL 2100F, we have to add liquid nitrogen into the Dewar so as to keep the cold fingers cold.  </item>
+          <item><emphasis effect="bold">Insert the samples.</emphasis> The sample holder is inserted into the TEM after the pump of the sample chamber was turned on. After the light turns green, turn the holder counterclockwise and hold it as the vacuum sucks the holder in. </item>
+          <item><emphasis effect="bold">Injection of nanoparticle solution.</emphasis> The solution is injected into the sample holder with a syringe pump.</item>
+          <item>
+            <emphasis effect="bold">Turn on electron beam. </emphasis>
+          </item>
+          <item><emphasis effect="bold">Alignment.</emphasis> Move the electron beam to the center of the phosphor screen. Choose the right condense lenses and center the beam by rotating the dials in the lens. Adjust sample height and stigmation. Repeat this step several times.</item>
+          <item><emphasis effect="bold">Focus image.</emphasis> Find your samples at low magnification, increase the magnification and then condense the beam. Adjust the position of the objective lens until the diffraction rings disappear. Increase the magnification and repeat this process again. </item>
+          <item><emphasis effect="bold">Take pictures.</emphasis> Adjust the brightness to a proper value and find your samples. Set up the camera and open the screen. Take pictures.</item>
+          <item><emphasis effect="bold">Shut down.</emphasis> Close the screen, turn off the beam and the camera, take out the sample.  </item>
+        </list></section><section id="import-auto-idm209364656">
+      <title>Bibliography</title>
+      <list id="import-auto-idm415726432" list-type="bulleted">
+        <item>Z. Zeng, W. Zheng, and H. Zheng,<emphasis effect="italics"> Acc. Chem. Res.</emphasis>, 2017, <emphasis effect="bold">50</emphasis>, 1808.</item>
+        <item>K. W. Noh, Y. Liu, L. Sun and S. J. Dillon, <emphasis effect="italics">Ultramicroscopy</emphasis>, 2012, <emphasis effect="bold">116</emphasis>, 34.</item>
+        <item>D. B. Williams and C. B. Carter, <emphasis effect="italics">Transmission electron microscopy: a textbook for materials science.</emphasis> Springer Science, New York, 2nd edition (2009).</item>
+        <item>S. Eustis and M. A. El-Sayed, <emphasis effect="italics">Chem. Soc. Rev.</emphasis>, 2006, <emphasis effect="bold">35</emphasis>, 209.</item>
+        <item><link url="https://www.youtube.com/watch?v=zoSWBStFBrY"><emphasis effect="underline">https://www.youtube.com/watch?v=zoSWBStFBrY</emphasis></link>. Retrieved April 3, 2018.</item>
+        <item><link url="https://www.youtube.com/watch?v=j2A6KeWrqeM"><emphasis effect="underline">https://www.youtube.com/watch?v=j2A6KeWrqeM</emphasis></link>. Retrieved April 3, 2018. </item>
+      </list>
+    </section>
+  </content>
+</document>

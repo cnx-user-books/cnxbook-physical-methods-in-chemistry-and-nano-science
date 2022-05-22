@@ -1,0 +1,225 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>IR Sample Preparation: A Practical Guide</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43564</md:content-id>
+  <md:title>IR Sample Preparation: A Practical Guide</md:title>
+  <md:abstract>This guide covers some basic guidelines for preparing samples for IR analysis using a variety of techniques as well as some handy tables and a quick troubleshooting section.</md:abstract>
+  <md:uuid>bdd97983-beff-4aed-befe-7b050e5ea451</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165545974994"><title>Introduction</title><para id="import-auto-id1165545976506">Infrared spectroscopy is based on molecular vibrations caused by the oscillation of molecular dipoles. Bonds have characteristic vibrations depending on the atoms in the bond, the number of bonds and the orientation of those bonds with respect to the rest of the molecule. Thus, different molecules have specific spectra that can be collected for use in distinguishing products or identifying an unknown substance (to an extent.)</para>
+      <para id="import-auto-id1165546302757">Collecting spectra through this method goes about one of three general ways. Nujol mulls and pressed pellets are typically used for collecting spectra of solids, while thin-film cells are used for solution-phase IR spectroscopy. Spectra of gases can also be obtained but will not be discussed in this guide.</para>
+    </section><section id="import-auto-id1165555247745">
+      <title>Infrared optical materials and handling</title>
+      <para id="import-auto-id1165546064966">While it is all well and wonderful that substances can be characterized in this fashion one still has to be able to hold the substances inside of the instrument and properly prepare the samples. In an infrared spectrometer (<link target-id="import-auto-id1165546352301"/>) the sample to be analyzed is held in front of an infrared laser beam, in order to do this, the sample must be contained in something, consequently this means that the very container the sample is in will absorb some of the infrared beam.</para><figure id="import-auto-id1165546352301"><media id="import-auto-id1165548139358" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-5a6d.jpg" width="300" print-width="3in"/>
+        </media>
+        
+      <caption>An example of a modern benchtop FT-IR spectrometer (Varian Corp.)</caption></figure><para id="import-auto-id1165546322512">This is made somewhat complicated by the fact that all materials have some sort of vibration associated with them. Thus, if the sample holder has an optical window made of something that absorbs near where your sample does, the sample might not be distinguishable from the optical window of the sample holder. The range that is not blocked by a strong absorbance is known as a <emphasis effect="italics">window</emphasis>  (not to be confused with the optical materials of the cell.)</para><para id="import-auto-id1165545278314">Windows are an important factor to consider when choosing the method to perform an analysis, as seen in <link target-id="import-auto-id1165551220031"/> there are a number of different materials each with their own characteristic absorption spectra and chemical properties. Keep these factors in mind when performing analyses and precious sample will be saved. For most organic compounds NaCl works well though it is susceptible to attack from moisture. For metal coordination complexes KBr, or CsI typically work well due to their large windows. If money is not a problem then diamond or sapphire can be used for plates.</para><table id="import-auto-id1165551220031" summary="A table containing various IR optical materials with their transparent windows and solubilities.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Material</entry>
+              <entry>Transparent Ranges (cm<sup>-1</sup>)</entry>
+              <entry>Solubility</entry>
+              <entry>Notes</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>NaCl</entry>
+              <entry>40,000 – 625</entry>
+              <entry>H­<sub>2</sub>O</entry>
+              <entry>Easy to polish, hygroscopic</entry>
+            </row>
+            <row>
+              <entry>Silica glass</entry>
+              <entry>55,000 – 3,000</entry>
+              <entry>HF</entry>
+              <entry>Attacked by HF</entry>
+            </row>
+            <row>
+              <entry>Quartz</entry>
+              <entry>40,000 – 2,500</entry>
+              <entry>HF</entry>
+              <entry>Attacked by HF</entry>
+            </row>
+            <row>
+              <entry>Sapphire</entry>
+              <entry>20,000 – 1,780</entry>
+              <entry>-</entry>
+              <entry>Strong</entry>
+            </row>
+            <row>
+              <entry>Diamond</entry>
+              <entry>40,000 – 2,500 and 1,800 - 200</entry>
+              <entry>-</entry>
+              <entry>Very strong, expensive, hard, useless for pellets.</entry>
+            </row>
+            <row>
+              <entry>CaF<sub>2</sub></entry>
+              <entry>70,000 – 1,110</entry>
+              <entry>Acids</entry>
+              <entry>Attacked by acids, avoid ammonium salts.</entry>
+            </row>
+            <row>
+              <entry>BaF<sub>2</sub></entry>
+              <entry>65,000 – 700</entry>
+              <entry>-</entry>
+              <entry>Avoid ammonium salts</entry>
+            </row>
+            <row>
+              <entry>ZnSe</entry>
+              <entry>10,000 – 550</entry>
+              <entry>Acids</entry>
+              <entry>Brittle, attacked by acids</entry>
+            </row>
+            <row>
+              <entry>AgCl</entry>
+              <entry>25,000 – 400</entry>
+              <entry>-</entry>
+              <entry>Soft, sensitive to light.</entry>
+            </row>
+            <row>
+              <entry>KCl</entry>
+              <entry>40,000 – 500</entry>
+              <entry>H<sub>2</sub>O, Et<sub>2</sub>O, acetone</entry>
+              <entry> </entry>
+            </row>
+            <row>
+              <entry>KBr</entry>
+              <entry>40,000 – 400</entry>
+              <entry>H<sub>2</sub>O, EtOH</entry>
+              <entry>Hygroscopic, soft, easily polished, commonly used in making pellets.</entry>
+            </row>
+            <row>
+              <entry>CsBr</entry>
+              <entry>10,000 – 250</entry>
+              <entry>H<sub>2</sub>O, EtOH, acetone</entry>
+              <entry>Hygroscopic, soft.</entry>
+            </row>
+            <row>
+              <entry>CsI</entry>
+              <entry>10,000 – 200</entry>
+              <entry>H<sub>2</sub>O, EtOH, MeOH, acetone</entry>
+              <entry>Hygroscopic, soft.</entry>
+            </row>
+            <row>
+              <entry>Teflon</entry>
+              <entry>5,000 - 1,200, 1,200 – 900</entry>
+              <entry>-</entry>
+              <entry>Inert, disposable</entry>
+            </row>
+            <row>
+              <entry>Polyethylene</entry>
+              <entry>4,000 - 3,000, 2,800 - 1,460, 1,380 - 730, 720 - 30</entry>
+              <entry>-</entry>
+              <entry>Inert, disposable</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup><caption>Various IR-transparent materials and their solubilities and other notes. M. R. Derrick, D. Stulik, and J. M. Landry, in <emphasis effect="italics">Scientific Tools in Conservation: Infrared Spectroscopy in Conservation Science</emphasis>. Getty Conservation Institute (1999).</caption>
+</table><para id="import-auto-id4052338">Proper handling of these plates will ensure they have a long, useful life. Here follows a few simple pointers on how to handle plates:</para>
+      <list id="import-auto-id3622550" list-type="bulleted">
+        <item>Avoid contact with solvents that the plates are soluble in.</item>
+        <item>Keep the plates in a dessicator, the less water the better, even if the plates are insoluble to water.</item>
+        <item>Handle with gloves, clean gloves.</item>
+        <item>Avoid wiping the plates to prevent scratching.</item>
+      </list>
+      <para id="import-auto-id2206221">That said, these simple guidelines will likely reduce most damage that can occur to a plate by simply holding it other faults such as dropping the plate from a sufficient height can result in more serious damage.</para>
+    </section>
+    <section id="import-auto-id1165554981964"><title>Preparation of nujol mulls</title><para id="eip-860">A common method of preparing solid samples for IR analysis is mulling. The principle here is by grinding the particles to below the wavelength of incident radiation that will be passing through there should be limited scattering. To suspend those tiny particles, an oil, often referred to as Nujol is used. IR-transparent salt plates are used to hold the sample in front of the beam in order to acquire data. To prepare a sample for IR analysis using a salt plate, first decide what segment of the frequency band should be studied, refer to <link target-id="import-auto-id1165551220031"/> for the materials best suited for the sample. <link target-id="import-graphics-mortar-and-pestle"/> shows the materials needed for preparing a mull. </para><figure id="import-graphics-mortar-and-pestle"><media id="mp0" alt="Necessary materials for preparing a KBr plate with a Nujol mull">
+  <image mime-type="image/jpeg" src="../../media/IMG_9026.jpg" width="500" print-width="4in"/>
+ </media>
+<caption>In this photograph, the sample, ferrocene, two clean and polished KBr plates, an agate mortar and pestle, a mounting card and a spatula are displayed as the base minimum requirements for preparing a sample though a Nujol mull. Of course, a small bottle of mineral oil is also necessary.</caption></figure><para id="import-auto-id1165556191347">Preparing the mull is performed by taking a small portion of sample and adding approximately 10% of the sample volume worth of the oil and grinding this in an agate mortar and pestle as demonstrated in <link target-id="import-graphics-mp1"/>. The resulting mull should be transparent with no visible particles.</para><figure id="import-graphics-mp1"><media id="mp1" alt="Mulling ferrocene into mineral oil with a mortar and pestle.">
+  <image mime-type="image/jpeg" src="../../media/IMG_9040.jpg" width="500" print-width="4in"/>
+ </media>
+ 
+<caption>Mulling ferrocene into mineral oil with a mortar and pestle.</caption></figure><para id="import-auto-id1265043">Another method involves dissolving the solid in a solvent and allowing it to dry in the agate pestle. If using this method ensure that all of the solvent has evaporated since the solvent bands will appear in the spectrum. Some gentle heating may assist this process. This method creates very fine particles that are of a relatively consistent size. After addition of the oil further mixing (or grinding) may be necessary. </para>
+      <para id="eip-946">Plates should be stored in a desiccator to prevent erosion by atmospheric moisture and should appear roughly transparent. Some materials such as silicon will not, however. Gently rinse the plates with hexanes to wash any residual material off of the plates. Removing the plates from the desiccator and cleaning them should follow the preparation of the mull in order to maintain the integrity of the salt plates. Of course, if the plate is not soluble in water then it is still a good idea just to prevent the threat of mechanical trauma or a stray jet of acetone from a wash bottle.</para><para id="eip-819">Once the mull has been prepared, add a drop to one IR plate (<link target-id="import-auto-id2309393"/>), place the second plate on top of the drop and give it a quarter turn in order to evenly coat the plate surface as seen in <link target-id="import-graphics-mp3"/>. Place it into the spectrometer and acquire the desired data. </para><note id="eip-395">Always handle with gloves and preferably away from any sinks, faucets, or other sources of running or spraying water.</note><figure id="import-auto-id2309393"><media id="mp2" alt="The prepared mull from an agate mortar and pestle being applied to a polished KBr plate.">
+  <image mime-type="image/jpeg" src="../../media/IMG_9046.jpg" width="500" print-width="4in"/>
+ </media>
+ <caption>The prepared mull from an agate mortar and pestle being applied to a polished KBr plate.</caption></figure><figure id="import-graphics-mp3"><media id="mp3" alt="Sandwiched KBr plates with a Nujol mull of ferrocene.">
+  <image mime-type="image/jpeg" src="../../media/IMG_9050.jpg" height="500" print-width="3in"/>
+ </media>
+ 
+<caption>Sandwiched KBr plates with a Nujol mull of ferrocene.</caption></figure><note id="eip-618">Spectra acquired by this method will have strong C-H absorption bands throughout several ranges 3,000 – 2,800 cm<sup>-1</sup> and 1,500 – 1,300 cm<sup>-1</sup> and may obscure signal.</note>
+<para id="import-auto-id1623979">Cleaning the plate is performed as previously mentioned with hexanes or chloroform can easily be performed by rinsing and leaving them to dry in the hood. Place the salt plates back into the desiccator as soon as reasonably possible to prevent damage. It is highly advisable to polish the plates after use, no scratches, fogging, or pits should be visible on the face of the plate. Chips, so long as they don’t cross the center of the plate are survivable but not desired. The samples of damaged salt plates in <link target-id="import-auto-id1692499"/> show common problems associated with use or potentially mishandling. Clouding, and to an extent, scratches can be polished out with an iron rouge. Areas where the crystal lattice is disturbed below the surface are impossible to fix and chips cannot be reattached.</para><figure id="import-auto-id1692499"><media id="import-auto-id3772000" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-2949.jpg" width="500" print-width="5in"/>
+        </media>
+        
+      <caption>A series of plates indicating various forms of physical damage with a comparison to a good plate (Copyright: Colorado University-Boulder). </caption></figure></section><section id="import-auto-id4013473">
+      <title>Preparation of pellets</title><para id="import-auto-id4119381">In an alternate method, this technique is along the same lines of the nujol mull except instead of the suspending medium being mineral oil, the suspending medium is a salt. The solid is ground into a fine powder with an agate mortar and pestle with an amount of the suspending salt. Preparing pellets with diamond for the suspending agent is somewhat illadvised considering the great hardness of the substance. Generally speaking, an amount of KBr or CsI is used for this method since they are both soft salts. Two approaches can be used to prepare pellets, one is somewhat more expensive but both usually yield decent results.</para><para id="import-auto-id1165549670118">The first method is the use of a press. The salt is placed into a cylindrical holder and pressed together with a ram such as the one seen in (<link target-id="import-auto-id2212707"/>). Afterwards, the pellet, in the holder, is placed into the instrument and spectra acquired.</para><figure id="import-auto-id2212707"><media id="import-auto-id2336871" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-9607.jpg" width="200" print-width="2in"/>
+        </media>
+        
+      <caption>A large benchtop hydraulic press (Specac Inc.)</caption></figure><para id="import-auto-id1933358">An alternate, and cheaper method requires the use of a large hex nut with a 0.5 inch inner diameter, two bolts, and two wrenches such as the kit seen in <link target-id="import-auto-id1165557068910"/>. Step-by-step instructions for loading and using the press follows: </para><list id="import-auto-id3595376" list-type="enumerated" number-style="arabic"><item>Screw one of the bolts into the nut about half way.</item>
+<item>Place the salt pellet mixture into the other opening of the nut and level by tapping the assembly on a countertop.</item>
+<item>Screw in the second bolt and place the assembly on its side with the bolts parallel to the countertop. Place one of the wrenches on the bolt on the right side with the handle aiming towards yourself.</item>
+<item>Take the second wrench and place it on the other bolt so that it attaches with an angle from the table of about 45 degrees.</item>
+<item>The second bolt is tightened with a body weight and left to rest for several minutes. Afterwards, the bolts are removed, and the sample placed into the instrument.</item>
+      </list><figure id="import-auto-id1165557068910"><media id="import-auto-id2080797" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4-9576.jpg" width="200" print-width="2in"/>
+        </media>
+        
+      <caption>A simple pellet press with cell holder. (Cole-Parmer)</caption></figure><para id="eip-674">Some pellet presses also have a vacuum barb such as the one seen in (<link target-id="import-auto-id1165557068910"/>). If your pellet press has one of these, consider using it as it will help remove air from the salt pellet as it is pressed. This ensures a more uniform pellet and removes absorbances in the collected spectrum due to air trapped in the pellet.</para></section>
+    <section id="import-auto-id3942942"><title>Preparation of solution cells</title><para id="import-auto-id3874684">Solution cells (<link target-id="import-auto-id1165547212055"/>) are a handy way of acquiring infrared spectra of compounds in solution and is particularly handy for monitoring reactions.</para><figure id="import-auto-id1165547212055"><media id="import-auto-id4548269" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-5f8c.jpg" width="150" print-width="1.5in"/>
+          </media>
+          
+        <caption>A sealed solution cell with two injection ports and a schematic of its construction (Perkin-Elmer Inc.)</caption></figure><para id="eip-431">A thin-film cell consists of two salt plates with a very thin space in between them (<link target-id="import-auto-id2466652"/>). Two channels allow liquid to be injected and then subsequently removed. The windows on these cells can be made from a variety of IR optical materials. One particularly useful one for water-based solutions is CaF<sub>2</sub> as it is not soluble in water. </para><figure id="import-auto-id2466652"><media id="import-auto-id4090664" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6-0dd9.jpg" width="400" print-width="4in"/>
+          </media>
+          
+        <caption>A sealed solution cell with two injection ports and a schematic of its construction (Perkin-Elmer Inc.). </caption></figure><para id="import-auto-id1165556223421">Cleaning these cells can be performed by removing the solution, flushing with fresh solvent and gently removing the solvent by syringe. Do not blow air or nitrogen through the ports as this can cause mechanical deformation in the salt window if the pressure is high enough.</para>
+    </section><section id="import-auto-id1165552349823">
+      <title>Deuterated solvent effects</title><para id="import-auto-id1994075">One of the other aspects to solution-phase IR is that the solvent utilized in the cell has a characteristic absorption spectra. In some cases this can be alleviated by replacing the solvent with its deuterated sibling. The benefit here is that C-H bonds are now C-D bonds and have lower vibrational frequencies. Compiled in <link target-id="import-auto-id1165549414800"/>  is a set of common solvents.</para><figure id="import-auto-id1165549414800"><media id="import-auto-id2473283" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-cd4f.png" width="600" print-width="6in"/>
+        </media>
+        
+      <caption>IR transparencies of various solvents and their heavy counterparts. Adapted from N. L. McNiven and R. Court, <emphasis effect="italics">Appl. Spectrosc.</emphasis>, 1970, <emphasis effect="bold">24</emphasis>, 296.</caption></figure><para id="import-auto-id4512908">This effect has numerous benefits and is often applied to determining what vibrations correspond to what bond in a given molecular sample. This is often accomplished by using isotopically labeled “heavy” reagents such as ones that contain <sup>2</sup>H, <sup>15</sup>N, <sup>18</sup>O, or <sup>13</sup>C.</para>
+    </section>
+    <section id="import-auto-id4098144"><title>Basic troubleshooting</title><para id="import-auto-id1165549285066">There are numerous problems that can arise from improperly prepared samples, this section will go through some of the common problems and how to correct them. For this demonstration, spectra of ferrocene will be used. The molecular structure and a photograph of the brightly colored organometallic compound are shown in <link target-id="import-auto-id1165550082857"/> and <link target-id="import-auto-id1165550082857X"/>.
+
+</para><figure id="import-auto-id1165550082857"><media id="import-auto-id1640769" alt="">
+          <image mime-type="image/jpg" src="../../media/ferrocene.jpg" width="200" print-width="2in"/>
+        </media>
+      <caption>Structure of ferrocene (Fe(C<sub>5</sub>H<sub>5</sub>)<sub>2</sub>). </caption></figure>
+
+
+<figure id="import-auto-id1165550082857X"><media id="import-auto-id1640769X" alt="">
+          <image mime-type="image/jpg" src="../../media/powder.jpg" width="300" print-width="3in"/>
+        </media>
+      <caption>Image of ferrocene powder (Fe(C<sub>5</sub>H<sub>5</sub>)<sub>2</sub>). </caption></figure><para id="import-auto-id1165558593179"><link target-id="ferrocene-good"/> illustrates what a good sample of ferrocene looks like prepared in a KBr pellet. The peaks are well defined and sharp. No peak is flattened at 0% transmittance and Christiansen scattering is not evident in the baseline.</para><figure id="ferrocene-good"><media id="ferrocene-good-image" alt="A good spectrum of Ferrocene in a KBr Pellet">
+    <image mime-type="image/png" src="../../media/ferrocene-good-kbr.png" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A good spectrum of ferrocene in a KBr Pellet. Adapted from NIST Chemistry WebBook.</caption></figure><para id="import-auto-id1165551260705"><link target-id="ferrocene-overconcentrated"/> illustrates a sample with some peaks with intensities that are saturated and lose resolution making peak-picking difficult. In order to correct for this problem, scrape some of the sample off of the salt plate with a rubber spatula and reseat the opposite plate. By applying a thinner layer of sample one can improve the resolution of strongly absorbing vibrations.</para><figure id="ferrocene-overconcentrated"><media id="ferrocene-overconcentrated-image" alt="An overly concentrated sample of ferrocene in a KBr pellet">
+    <image mime-type="image/png" src="../../media/ferrocene-overconcentrated-kbr.png" width="500" print-width="4in"/>
+  </media>
+
+<caption>An overly concentrated sample of ferrocene in a KBr pellet. Adapted from NIST Chemistry WebBook. 
+  </caption></figure><para id="import-auto-id1165551138961"><link target-id="ferrocene-occulted-nujol"/> illustrates a sample in which too much mineral oil was added to the mull so that the C-H bonds are far more intense than the actual sample. This can be remedied by removing the sample from the plate, grinding more sample and adding a smaller amount of the mull to the plate. Another possible way of doing this is if the sample is insoluble in hexanes, add a little to the mull and wick away the hexane-oil mixture to leave a dry solid sample. Apply a small portion of oil and replate.</para><figure id="ferrocene-occulted-nujol"><media id="ferrocene-occulted-nujol-image" alt="An occulted spectrum of Ferrocene in a Nujol mull.">
+    <image mime-type="image/png" src="../../media/ferrocene-occulted-nujol.png" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A spectrum illustrating the problems of using Nujol, areas highlighted in orange are absorbances related to the addition of Nujol to a sample. Notice how in the 1500 wavenumber region the addition of the Nujol has partially occulted the absorbance by the ferrocene. Adapted from NIST Chemistry WebBook. </caption></figure><para id="import-auto-id3608788"><link target-id="ferrocene-christiansen-nujol"/> illustrates the result of particles being too large and scattering light. To remedy this, remove the mull and grind further or else use the solvent deposition technique described earlier.</para><figure id="ferrocene-christiansen-nujol"><media id="ferrocene-christiansen-nujol-image" alt="A sample exhibiting the Christiansen effect on Ferrocene in a Nujol mull.">
+    <image mime-type="image/png" src="../../media/ferrocene-christiansen-nujol.png" width="500" print-width="4in"/>
+  </media>
+
+<caption>A sample exhibiting the Christiansen effect on ferrocene in a Nujol mull. Orange boxes indicate Nujol occult ranges. Adapted from NIST Chemistry WebBook. </caption></figure></section><section id="import-auto-id4400835">
+      <title>Blbliography</title>
+      <list id="eip-583"><item>N. L. McNiven and R. Court, <emphasis effect="italics">Appl. Spectrosc.</emphasis>, 1970, <emphasis effect="bold">24</emphasis>, 296. 
+      </item>
+
+<item>M. R. Derrick, D. Stulik, and J. M. Landry, in <emphasis effect="italics">Scientific Tools in Conservation: Infrared Spectroscopy in Conservation Science</emphasis>. Getty Conservation Institute, Los Angeles (1999).</item>
+<item>D. L. Pavia, G. M. Lampman, and G. S. Kriz, in <emphasis effect="italics">Introduction to Spectroscopy: A Guide for Students of Organic Chemistry</emphasis>. Harcourt Brace College Publishers, Fort Worth (1996).</item></list></section>
+  </content>
+</document>

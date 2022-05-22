@@ -1,0 +1,243 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Circular Dichroism Spectroscopy and its Application for Determination of  Secondary Structure of Optically Active Species</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38277</md:content-id>
+  <md:title>Circular Dichroism Spectroscopy and its Application for Determination of  Secondary Structure of Optically Active Species</md:title>
+  <md:abstract>This module describes use of circular dichroism spectroscopy.</md:abstract>
+  <md:uuid>334b4223-4339-4d31-82e6-549b23df1741</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="id1169110687082"><title>Introduction</title><para id="id1169133396176">Circular dichroism (CD) spectroscopy is one of few structure assessmet methods that can be utilized as an alternative and amplification to many conventional analysis techniques with advatages such as rapid data collection and ease of use. Since most of the efforts and time spent in advancement of chemical sciences are devoted to elucidation and analysis of structure and composition of synthesized molecules or isolated natural products rather than their preparation, one should be aware of all the relevant techniques available and know which instrument can be employed as an alternative to any other technique.  </para>
+      <para id="id1169113830686">The aim of this module is to introduce CD technique and discuss what kind of information one can collect using CD. Additionally, the advantages of CD compared to other analysis techniques and its limitations will be shown.</para>
+      <section id="id1169137213041"><title>Optical activity</title><para id="id1169139388907">As CD spectroscopy can analyze only optically active species, it is convenient to start the module with a brief introduction of optical activity. In nature almost every life form is handed, meaning that there is certain degree of asymmetry, just like in our hands. One cannot superimpose right hand on the left because they are non-identical mirror images of one another. So are the chiral (handed) molecules, they exist as enantiomers, which mirror images of each other (<link target-id="handedness"/>). One interesting phenomena related to chiral molecules is their ability to rotate plane of polarized light. Optical activity property is used to determine specific rotation, [ <emphasis effect="bold">α </emphasis>]<sup>T</sup><sub>λ</sub>, of pure enantiomer. This feature is used in polarimetery to find the <emphasis effect="italics">enantiomeric excess</emphasis>,  (ee), present in sample.</para>
+
+
+<figure id="handedness"><media id="hand" alt="">
+			<image mime-type="image/jpeg" src="../../media/handedness.jpg" width="400" print-width="3in"/>
+		</media>
+		<caption>Schematic depiction of chirality/handedness of an amino acid. 
+  </caption></figure>      </section>
+      <section id="id4005292"><title>Circular dichroism</title><para id="id1169123254168">Circular dichroism (CD) spectroscopy is a powerful yet straightforward technique for examining different aspects of optically active organic and inorganic molecules. Circular dichroism has applications in variety of modern research fields ranging from biochemistry to inorganic chemistry. Such widespread use of the technique arises from its essential property of providing structural information that cannot be acquired by other means. One other laudable feature of CD is its being a quick, easy technique that makes analysis a matter of minutes. Nevertheless, just like all methods, CD has a number of limitations, which will be discussed while comparing CD to other analysis techniques.</para>
+        <para id="id1169124264966">CD spectroscopy and related techniques were considered as esoteric analysis techniques needed and accessible only to a small clandestine group of professionals. In order to make the reader more familiar with the technique, first of all, the principle of operation of CD and its several types, as well as related techniques will be shown. Afterwards, sample preparation and instrument use will be covered for protein secondary structure study case.</para>
+        <para id="id5260129">Depending on the light source used for generation of circularly polarized light, there are:</para>
+        <list id="eip-254">
+<item>Far UV CD, used to study secondary structure proteins. </item>
+
+<item>Near UV CD, used to investigate tertiary structure of proteins. </item>
+
+<item>Visible CD, used for monitoring metal ion protein interactions.</item>
+</list>
+
+
+      </section>
+      <section id="id1169135431619"><title>Principle of operation </title><para id="id1169114590108">In the CD spectrometer the sample is places in a cuvette and a beam of light is passed through the sample. The light (in the present context all electromagnetic waves will be refer to as light) coming from source is subjected to circular polarization, meaning that its plane of polarization is made to rotate either clockwise (right circular polarization) or anti-clockwise (left circular polarization) with time while propagating, see <link target-id="rotation"/>.</para>
+
+<figure id="rotation"><media id="rot" alt="">
+		<image mime-type="image/jpeg" src="../../media/figure 2-8935.jpg" width="400" print-width="3in"/>
+	</media>
+	<caption>Schematic representation of (a) right circularly polarized and (b) left circularly polarized light. Adapted from L. Que, <emphasis effect="italics">Physical Methods in Bioinorganic Chemistry – Spectroscopy and Magnetism</emphasis>, University Science Books, Sausalito (2000). </caption></figure>
+        <para id="id1169114397449">The sample is, firstly irradiated with left rotating polarized light, and the absorption is determined by <link target-id="eip-353"/>. A second irradiation is performed with right polarized light. Now, due to the intrinsic asymmetry of chiral molecules, they will interact with circularly polarized light differently according to the direction of rotation there is going to be a tendency to absorb more for one of rotation directions. The difference between absorption of left and right circularly polarized light is the data, which is obtained from <link target-id="eip-92"/>, where ε<sub>L</sub> and ε<sub>R</sub> are the molar extinction coefficients for left and right circularly polarized light, c is the molar concentration, l is the path length, the cuvette width (in cm). The difference in absorption can be related to difference in extinction, Δε, by <link target-id="eip-90"/>. 
+
+</para>
+        <equation id="eip-353"><media id="id20114_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq4-dc11.jpg" id="id22__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+        <equation id="eip-92"><media id="id20115_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq5-808c.jpg" id="id20115__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+        <equation id="eip-90"><media id="id20116_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq6-e242.jpg" id="id20116__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+        <para id="id1169143763642">Usually, due to historical reasons the CD is reported not only as difference in absorption or extinction coefficients but as degree of ellipticity, [θ]. The relationship between [θ] and Δε is given by <link target-id="eip-233"/>.</para>
+        <equation id="eip-233"><media id="id20117_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq7-187a.jpg" id="id20117__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+        <para id="id1169133580603">Since the absorption is monitored in a range of wavelengths, the output is a plot of [θ] versus wavelength or Δε versus wavelength. <link target-id="figure3"/> shows the CD spectrum of Δ–[Co(en)<sub>3</sub>]Cl<sub>3</sub>. </para>
+	<figure id="figure3"><media id="coen3" alt="">
+			<image mime-type="image/jpeg" src="../../media/coenarb.jpg" width="400" print-width="3in"/>
+		</media>
+		<caption>CD spectrum of Δ–[Co(en)<sub>3</sub>]Cl<sub>3</sub>. </caption></figure>
+      </section>
+    </section>
+    <section id="id1169111344467"><title>Related techniques</title><section id="id1169116271164">
+        <title>Magnetic circular dichroism</title>
+        <para id="id1169117033161">Magnetic circular dichroism (MCD) is a sister technique to CD, but there are several distinctions:</para>
+        <list id="id1169142173412" mark-suffix=")" list-type="bulleted" bullet-style="bullet"><item>MCD does not require the sample to possess intrinsic asymmetry (i.e., chirality/optical activity), because optical activity is induced by applying magnetic field parallel to light.</item>
+          <item>MCD and CD have different selection rules, thus information obtained from these two sister techniques is different. CD is good for assessing environment of the samples’ absorbing part while MCD is superior for obtaining detailed information about electronic structure of absorbing part.</item>
+        </list>
+        <para id="id1169109766132">MCD is powerful method for studying magnetic properties of materials and has recently been employed for analysis of iron-nitrogen compound, the strongest magnet known. Moreover, MCD and its variation, variable temperature MCD are complementary techniques to Mossbauer spectroscopy and electron paramagnetic resonance (EPR) spectroscopy. Hence, these techniques can give useful amplification to the chapter about Mossbauer and EPR spectroscopy.</para>
+      </section>
+      <section id="id1169141509464">
+        <title>Linear dichroism</title>
+        <para id="id1169126055690">Linear dicrosim (LD) is also a very closely related technique to CD in which the difference between absorbance of perpendicularly and parallelly polarized light is measured. In this technique the plane of polaliration of light does not rotate. LD is used to determine the orientation of absorbing parts in space.</para>
+      </section>
+    </section>
+    <section id="id1169128696357">
+      <title>Advantages and limitations of CD</title>
+      <para id="id1169115293160">Just like any other instrument CD has its strengths and limits. The comparison between CD and NMR shown in <link target-id="id1169134613572"/> gives a good sense of capabilities of CD. </para>
+      
+      <table id="id1169134613572" summary="A comparison of CD spectroscopy to NMR.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<tbody>
+		<row>
+			<entry><emphasis effect="bold">CD</emphasis></entry>
+			<entry><emphasis effect="bold">NMR</emphasis></entry>
+		</row>
+		<row>
+			<entry>Molecules of any size can be studied</entry>
+			<entry>There is size limitation</entry>
+		</row>
+		<row>
+			<entry>The experiments are quick to perform; single wavelength measurements require milliseconds. </entry>
+			<entry>This is not the case all of the time.</entry>
+		</row>
+		<row>
+			<entry>Unique sensitivity to asymmetry in sample’s structure. </entry>
+			<entry>Special conditions are required to differentiate between enantiomers.</entry>
+		</row>
+		<row>
+			<entry>Can work with very small concentrations, by lengthening the cuvette width until discernable absorption is achieved.</entry>
+			<entry>There is a limit to sensitivity of instrument.</entry>
+		</row>
+		<row>
+			<entry>Timescale is much shorter (UV) thus allowing to study dynamic systems and kinetics.</entry>
+			<entry>Timescale is long, use of radio waves gives average of all dynamic systems.</entry>
+		</row>
+		<row>
+			<entry>Only qualitative analysis of data is possible.</entry>
+			<entry>Quantitative data analysis can be performed to estimate chemical composition.</entry>
+		</row>
+		<row>
+			<entry>Does not provide atomic level structure analysis</entry>
+			<entry>Very powerful for atomic level analysis, providing essential information about chemical bonds in system.</entry>
+		</row>
+		<row>
+			<entry>The observed spectrum is not enough for claiming one and only possible structure</entry>
+			<entry>The NMR spectrum is key information for assigning a unique structure.</entry>
+		</row>
+	</tbody>
+
+
+
+</tgroup><caption>A comparison of CD spectroscopy to NMR spectroscopy.</caption>
+</table>
+    </section>
+    <section id="id1169110850576"><title>What kind of data is obtained from CD?</title><para id="id1169116642214">One effective way to demonstrate capabilities of CD spectroscopy is to cover the protein secondary structure study case, since CD spectroscopy is well-established technique for elucidation of secondary structure of proteins as well as any other macromolecules. By using CD one can estimate the degree of conformational order (what percent of the sample proteins is in α-helix and/or β-sheet conformation), see <link target-id="spec1"/>. </para>
+
+<figure id="spec1"><media id="figure4" alt="">
+		<image mime-type="image/jpeg" src="../../media/spectra1arb.jpg" width="400" print-width="4in"/>
+	</media>
+	<caption>CD spectra of samples with representative conformaitons. Adapted by permission from N. Greenfield, <emphasis effect="italics">Nat. Proto.</emphasis>, 2006, <emphasis effect="bold">1</emphasis>, 6. 
+
+		</caption></figure>
+
+
+
+      <para id="id1169145216945">Key points for visual estimation of secondary structure by looking at a CD spectrum:</para>
+      <list id="id1169141729796" list-type="bulleted">
+        <item>α-helical proteins have negative bands at 222 nm and 208 nm and a positive band at 193 nm. </item>
+        <item>β-helices have negative bands at 218 nm and positive bands at 195 nm. </item>
+        <item>Proteins lacking any ordered secondary structure will not have any peaks above 210 nm. </item>
+      </list>
+      <para id="id1169129522654">Since the CD spectra of proteins uniquely represent their conformation, CD can be used to monitor structural changes (due to complex formation, folding/unfolding, denaturation because of rise in temperature, denaturants, change in amino acid sequence/mutation, etc. ) in dynamic systems and to study kinetics of protein. In other words CD can be used to perform stability investigations and interaction modeling.</para>
+    </section>
+    <section id="id1169125505863"><title>CD instrument</title><para id="eip-560"><link target-id="CD"/> shows a typical CD instrument. </para>
+
+
+<figure id="CD"><media id="instrument" alt="">
+		<image mime-type="image/jpeg" src="../../media/CD instrument.jpg" width="450" print-width="4.5in"/>
+	</media>
+	<caption>A CD instrument.
+		</caption></figure>
+    </section>
+    <section id="id1169117483776">
+      <title>Protocol for collecting a CD spectrum</title>
+      <para id="id1169124023498">Described is a general procedure for data collection, options (time constant of instrument, wavelength interval, half-bandwidth) can be varied according to needs through the instrument controlling program. </para>
+      <section id="eip-368"><title>Sample preparation and starting the instrument </title><para id="eip-333">Most of proteins and peptides will require using buffers in order to prevent denaturation. Caution should be shown to avoid using any optically active buffers. Clear solutions are required. CD is taken in high transparency quartz cuvettes to ensure least interference. There are cuvettes available that have path-length ranging from 0.01 cm to 1 cm. Depending on UV activity of buffers used one should choose a cuvette with path-length (distance the beam of light passes through the sample) that compensates for UV absorbance of buffer. Solutions should be prepared according to cuvette that will be used, see <link target-id="eip-380"/>.</para>
+
+
+
+<table id="eip-380" summary="Choosing the appropriate cuvette based upon the sample concentration.">
+<tgroup cols="2"><tbody>
+		<row>
+			<entry><emphasis effect="bold">Cuvette path (cm)</emphasis></entry>
+			<entry><emphasis effect="bold">Concentration of sample (mg/mL)</emphasis></entry>
+		</row>
+	<row>
+			<entry>0.01 - 0.02</entry>
+			<entry>0.2 – 1.0</entry>
+		</row>
+		<row>
+			<entry>0.1</entry>
+			<entry>0.05 – 0.2</entry>
+		</row>
+	
+		<row>
+			<entry>1</entry>
+			<entry>0.005 – 0.01</entry>
+		</row>
+	</tbody>
+
+
+</tgroup><caption>Choosing the appropriate cuvette based upon the sample concentration.</caption>
+</table>
+
+
+
+<para id="eip-994">Besides, just like salts used to prepare pallets in FT-IR, the buffers in CD will show cutoffs at a certain point in low wavelength region, meaning that buffers start to absorb after certain wavelengh. The cutoff values for most of common buffers are known and can be found from manufacturer. Oxygen absorbs light below 200 nm. Therefore, in order to remove interference buffers should be prepared from distilled water or the water should be degassed before use. Another important point is to accurately determine concentration of sample, because concentration should be known for CD data analysis. Concentration of sample can be determined from extinction coefficients, if such are reported in literature also for protein samples quantitative amino acid analysis can be used. 
+
+</para><para id="eip-695">Many CD instrument come bundled with a sample compartment temperature control unit. This is very handy when doing stability and unfolding/denaturation studies of proteins. Check to make sure the heat sink is filled with water. Turn the temperature control unit on and set to chosen temperature.</para><para id="eip-465">UV source in CD is very powerful lamp and can generates large amounts of Ozone in its chamber. Ozone significantly reduces the life of the lamp. Therefore, oxygen should be removed before turning on the main lamp (otherwise it will be converted to ozone near lamp). For this purpose nitrogen gas is constantly flushed into lamp compartment. Let Nitrogen flush at least for 15 min. before turning on the lamp.</para></section>
+      
+      
+      
+      
+      
+      <section id="eip-172"><title>Collecting spectra for blank, water, buffer background, and sample</title><list id="eip-590" list-type="enumerated" number-style="arabic" class="stepwise"><item>Collect spectrum of air blank (<link target-id="spec2"/>). This will be essentially a line lying on <emphasis effect="italics">x</emphasis>–axis of spectrum, zero absorbance. </item>
+	<item>Fill the cuvette with water and take a spectrum.</item>
+	<item>Water droplets left in cuvette may change concentration of your sample, especially when working with dilute samples. Hence, it is important to thoroughly dry the cuvette. After drying the cuvette, collect spectrum of buffer of exactly same concentration as used for sample (<link target-id="spec2"/>). This is the step where buffer is confirmed to be suitable spectrum of the buffer and water should overlap within experimental error, except for low wavelength region where signal-to-noise ratio is low.</item>
+	<item>Clean the cuvette as described above and fill with sample solution. Collect the CD spectrum for three times for better accuracy (<link target-id="spec2"/>). For proteins multiple scans should overlap and not drift with time.</item>
+	</list>
+
+<figure id="spec2"><media id="figure5" alt="">
+		<image mime-type="image/jpeg" src="../../media/spectra 2.jpg" width="600" print-width="6in"/>
+	</media>
+	<caption>CD spectra of blank and water (left), buffer (center), and sample (right). Lysozyme in 10 mM sodium phosphate pH 7. Adapted by permission from N. Greenfield, <emphasis effect="italics">Nat. Protoc.</emphasis>, 2006, <emphasis effect="bold">1</emphasis>, 6. 
+
+		</caption></figure></section>
+      <section id="eip-245"><title>Data handling and analysis</title><para id="eip-518">After saving the data for both the spectra of the sample and blank is smoothed using built-in commands of controller software. The smoothed baseline is subtracted from the smoothed spectrum of the sample. The next step is to use software bundles which have algorithms for estimating secondary structure of proteins. Input the data into the software package of choice and process it. The output from algorithms will be the percentage of a particular secondary structure conformation in sample. The data shown in <link target-id="methods"/> lists commonly used methods and comparers them for several proteins. The estimated secondary structure is compared to X-ray data, and one can see that it is best to use several methods for best accuracy.</para>
+
+<figure id="methods"><media id="figure6" alt="">
+			<image mime-type="image/jpeg" src="../../media/methods.jpg" width="600" print-width="6in"/>
+		</media>
+		<caption>Comparison of secondary structure estimation methods. Adapted by permission from N. Greenfield, <emphasis effect="italics">Nat. Protoc.</emphasis>, 2006, <emphasis effect="bold">1</emphasis>, 6. 
+		</caption></figure>
+</section>
+      
+    </section>
+    <section id="id1169137990094">
+      <title>Conclusion</title>
+      <para id="id1169145278857">What advantages CD has over other analysis methods? CD spectroscopy is an excellent, rapid method for assessing the secondary structure of proteins and performing studies of dynamic systems like folding and binding of proteins. It worth noting that CD does not provide information about the position of those subunits with specific conformation. However, CD outrivals other techniques in rapid assessing of the structure of unknown protein samples and in monitoring structural changes of known proteins caused by ligation and complex formation, temperature change, mutations, denaturants. CD is also widely used to juxtapose fused proteins with wild type counterparts, because CD spectra can tell whether the fused protein retained the structure of wild type or underwent changes.</para>
+      
+      
+    </section>
+    
+    <section id="id1169139925605">
+      <title>Bibliography</title>
+      <list id="id1169115787302" list-type="bulleted"><item>L. Que, <emphasis effect="italics">Physical Methods in Bioinorganic Chemistry – Spectroscopy and Magnetism</emphasis>, University Science Books, Sausalito (2000). </item>
+	<item>J. P, Wang, J. Nian, L. Xiaoqi, X. Yunhao, and C. S. Hanke, <emphasis effect="italics">New J. Phys.</emphasis>, 2010, <emphasis effect="bold">12</emphasis>, 063032.</item>
+	<item>N. Greenfield, <emphasis effect="italics">Nat. Protoc.</emphasis>, 2006, <emphasis effect="bold">1</emphasis>, 6.</item>
+	<item>G. Holzwarth and P. Doty, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1965, <emphasis effect="bold">87</emphasis>, 218.</item>
+	<item>N. Greenfield and G.D. Fasman, <emphasis effect="italics">Biochemistry</emphasis>, 1969, <emphasis effect="bold">8</emphasis>, 4108.</item>
+	<item>P. Atkins and J. de Paula, <emphasis effect="italics">Elements of Physical Chemistry</emphasis>, 4th ed, Oxford University Press (2005). </item>
+	<item>M. Rutherfurd and M. Dunn, <emphasis effect="italics">Curr. Protoc. Protein Sci.</emphasis>, 2011, <emphasis effect="bold">63</emphasis>, 3.2.1.</item>
+</list>
+    </section>
+  </content>
+</document>

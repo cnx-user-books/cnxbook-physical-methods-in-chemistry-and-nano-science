@@ -1,0 +1,251 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Temperature-Programmed Desorption Mass Spectroscopy Applied in Surface Chemistry</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38319</md:content-id>
+  <md:title>Temperature-Programmed Desorption Mass Spectroscopy Applied in Surface Chemistry</md:title>
+  <md:abstract>TPD technique used to determine activation parameters for gas-solid interaction.</md:abstract>
+  <md:uuid>0762c4d1-b842-42f7-973c-861db04506db</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1165439345023"><title>Introduction</title><para id="id1165445907319">The temperature-programmed desorption (TPD) technique is often used to monitor surface interactions between adsorbed molecules and substrate surface. Utilizing the dependence on temperature is able to discriminate between processes with different activation parameters, such as activation energy, rate constant, reaction order and Arrhenius pre-exponential factorIn order to provide an example of the set-up and results from a TPD experiment we are going to use an ultra-high vacuum (UHV) chamber equipped with a quadrupole mass spectrometer to exemplify a typical surface gas-solid interaction and estimate several important kinetic parameters. </para>
+    </section>
+    <section id="id1165460228247"><title>Experimental system </title><section id="id1165438856683"><title>Ultra-high vacuum (UHV) chamber</title><para id="id1165440239045">When we start to set up an apparatus for a typical surface TPD experiment, we should first think about how we can generate an extremely clean environment for the solid substrate and gas adsorbents. Ultra-high vacuum (UHV) is the most basic requirement for surface chemistry experiments. UHV is defined as a vacuum regime lower than 10<sup>-9</sup> Torr. At such a low pressure the <emphasis effect="italics">mean free path</emphasis> of a gas molecule is approximately 40 Km, which means gas molecules will collide and react with sample substrate in the UHV chamber many times before colliding with each other, ensuring all interactions take place on the substrate surface. </para>
+
+        <para id="id7724658">Most of time UHV chambers require the use of unusual materials in construction and by heating the entire system to ~180 °C for several hours baking to remove moisture and other trace adsorbed gases around the wall of the chamber in order to reach the ultra-high vacuum environment. Also, outgas from the substrate surface and other bulk materials should be minimized by careful selection of materials with low vapor pressures, such as stainless steel, for everything inside the UHV chamber. Thus bulk metal crystals are chosen as substrates to study interactions between gas adsorbates and crystal surface itself. <link target-id="id1755926"/> shows a schematic of a TPD system, while <link target-id="id1165453795766"/> shows a typical TPD instrument equipped with a quadrupole MS spectrometer and a reflection absorption infrared spectrometer (RAIRS). </para>
+
+        <figure id="id1755926">
+          <media id="id1755926_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-f5b3.png" id="id1755926__onlineimage" width="300" print-width="3in"/>
+          </media>
+<caption>Schematic diagram of a TPD apparatus.</caption>
+        </figure>
+
+
+
+          <figure id="id1165453795766">
+            <media id="id1165453795766_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics1-9e0e.png" id="id1165453795766__onlineimage" width="600" print-width="5in"/>
+            </media>
+<caption>A typical TPD apparatus composed of a UHV chamber equipped with a serious of pumping systems, cooling system, sample dosing system as well as surface detection instruments including a quadrupole MS Spectrometer and a reflection absorption infra red spectrometer (RAIRS).</caption>
+          </figure>
+
+
+
+
+      </section>
+      <section id="id4731674"><title>Pumping system</title><para id="id1165445907226">There is no single pump that can operate all the way from atmospheric pressure to UHV. Instead, a series of different pumps are used, according to the appropriate pressure range for each pump. Pumps are commonly used to achieve UHV include:</para>
+        <list id="eip-464"><item>Turbomolecular pumps (turbo pumps). </item>
+<item>Ionic pumps. </item>
+<item>Titanium sublimation pumps.</item>
+<item>Non-evaporate mechanical pumps.</item>
+</list>
+
+
+
+        <para id="id1165440406754">UHV pressures are measured with an ion-gauge, either a hot filament or an inverted magnetron type. Finally, special seals and gaskets must be used between components in a UHV system to prevent even trace leakage. Nearly all such seals are all metal, with knife edges on both sides cutting into a soft (e.g., copper) gasket. This all-metal seal can maintain system pressures down to ~10<sup>-12</sup> Torr. </para>
+      </section>
+      <section id="id1165449983562"><title>Manipulator and bulk metal crystal</title><para id="id1165447756834">A UHV manipulator (or sample holder, see <link target-id="id1165453795766"/>) allows an object that is inside a vacuum chamber and under vacuum to be mechanically positioned. It may provide rotary motion, linear motion, or a combination of both. The manipulator may include features allowing additional control and testing of a sample, such as the ability to apply heat, cooling, voltage, or a magnetic field. Sample heating can be accomplished by thermal radiation. A filament is mounted close to the sample and resistively heated to high temperature. In order to simplify complexity from the interaction between substrate and adsorbates, surface chemistry labs often carry out TPD experiments by choosing a substrate with single crystal surface instead of polycrystalline or amorphous substrates (see <link target-id="id1755926"/>). </para>
+      
+
+</section>
+      <section id="id1165446381914">
+        <title>Pretreatment </title>
+        <para id="id1165440441001">Before selected gas molecules are dosed to the chamber for adsorption, substrates (metal crystals) need to be cleaned through argon plasma sputtering, followed by annealing at high temperature for surface reconstruction. After these pretreatments, the system is again cooled down to very low temperature (liquid N<sub>2</sub> temp), which facilitating gas molecules adsorbed on the substrate surface. Adsorption is a process in which a molecule becomes adsorbed onto a surface of another phase. It is distinguished from absorption, which is used when describing uptake into the bulk of a solid or liquid phase. </para>
+      </section>
+      <section id="id1165458318462"><title>Temperature-programmed desorption processes</title><para id="id1165446305236">After gas molecules adsorption, now we are going to release theses adsorbates back into gas phase by programmed-heating the sample holder. A mass spectrometer is set up for collecting these desorbed gas molecules, and then correlation between desorption temperature and fragmentation of desorbed gas molecules will show us certain important information. <link target-id="id1165446088635"/> shows a typical TPD experiment carried out by adsorbing CO onto Pd(111) surface, followed by programmed-heating to desorb the CO adsorbates. </para>
+        <figure id="id1165446088635"><media id="id1165446088635_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3arb-6b62.jpg" id="id1165446088635__onlineimage" width="400" print-width="4in"/>
+          </media>
+
+        <caption>MS spectrum taken from a TPD experiment that CO (<emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis> = 28) was first adsorbed on Pd(111) surface, followed by desorbing at a fixed heating rate. The desorption rate which is proportional to the MS signal reaches its maximum around 500 K. </caption></figure>
+
+      </section>
+    </section>
+    <section id="id1165440372430"><title>Theory of the TPD experiment</title><section id="id1165442614330">
+        <title>Langmuir isotherm </title>
+        <para id="id1165451510508">The Langmuir isotherm describes the dependence of the surface coverage of an adsorbed gas on the pressure of the gas above the surface at a fixed temperature. Langmuir isotherm is the simplest assumption, but it provides a useful insight into the pressure dependence of the extent of surface adsorption. It was Irving Langmuir who first studied the adsorption process quantitatively. In his proposed model, he supposed that molecules can adsorb only at specific sites on the surface, and that once a site is occupied by one molecule, it cannot adsorb a second molecule. The adsorption process can be represented as <link target-id="eip-425"/>, where A is the adsorbing molecule, S is the surface site, and A─S stands for an A molecule bound to the surface site.</para>
+        <equation id="eip-425"><media id="id5805376_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-9b4c.png" id="id5805376__onlineimage" width="100" print-width="1in"/>
+          </media>
+        </equation>
+        <para id="id1165452730660">In a similar way, it reverse desorption process can be represented as <link target-id="eip-495"/>. </para>
+        <equation id="eip-495"><media id="id1165451520755_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics5-9834.png" id="id1165451520755__onlineimage" width="100" print-width="1in"/>
+          </media>
+        </equation>
+        <para id="id3619717">According to the Langmuir model, we know that the adsorption rate should be proportional to <emphasis effect="italics">k</emphasis><emphasis effect="italics"><sub>a</sub></emphasis>[A](1-θ), where θ is the fraction of the surface sites covered by adsorbate A. The desorption rate is then proportional to <emphasis effect="italics">k</emphasis><sub>d</sub>θ. <emphasis effect="italics">k</emphasis><sub>a</sub> and <emphasis effect="italics">k</emphasis><sub>d</sub> are the rate constants for the adsorption and desorption. At equilibrium, the rates of these two processes are equal, <link target-id="eip-36"/> -  <link target-id="eip-474"/>. We can replace [A] by P, where P means the gas partial pressure, <link target-id="eip-299"/>. </para>
+        <equation id="eip-36"><media id="id201114_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq14b.jpg" id="id20114__onlineimage" width="500" print-width="4.5in"/>
+</media>
+
+</equation>
+        <equation id="eip-681"><media id="id1605054_media" alt=""><image mime-type="image/png" src="../../media/graphics6-2282.png" id="id1605054__onlineimage" width="80" print-width="0.8in"/></media>
+
+</equation><equation id="eip-338"><media id="id1165452188977_media" alt=""><image mime-type="image/png" src="../../media/graphics7-b468.png" id="id1165452188977__onlineimage" width="50" print-width="0.5in"/></media></equation>
+        <equation id="eip-474"><media id="id5169857_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics8-858a.png" id="id5169857__onlineimage" width="85" print-width="0.85in"/>
+          </media>
+        </equation>
+        
+        <equation id="eip-299"><media id="id1165439232863_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics9-201c.png" id="id1165439232863__onlineimage" width="70" print-width="0.7in"/>
+          </media> 
+        </equation>
+        <para id="eip-60">We can observe the equation above and know that if [A] or P is low enough so that K[A] or KP &lt;&lt; 1, then θ ~ K[A] or KP, which means that the surface coverage should increase linearly with [A] or P. On the contrary, if [A] or P is large enough so that K[A] or KP &gt;&gt; 1, then θ ~ 1. This behavior is shown in the plot of θ versus [A] or P in <link target-id="id1165445989020"/>. </para><figure id="id1165445989020"><media id="id1165445989020_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Figure10b.jpg" id="id1165445989020__onlineimage" width="300" print-width="3in"/>
+          </media>
+        <caption>Simulated Langmuir isotherms. Value of constant K (<emphasis effect="italics">k</emphasis><emphasis effect="italics"><sub>a</sub></emphasis>/<emphasis effect="italics">k</emphasis><emphasis effect="italics"><sub>d</sub></emphasis>) increases from blue, red, green and brown. </caption></figure>
+        
+        
+      </section>
+      <section id="id1165449979894"><title>Derivation of kinetic parameters based on TPD results</title><para id="id1165441975540">Here we are going to show how to use the TPD technique to estimate desorption energy, reaction energy, as well as Arrhenius pre-exponential factor. Let us assume that molecules are irreversibly adsorbed on the surface at some low temperature T<sub>0</sub>. The leak valve is closed, the valve to the pump is opened, and the “density” of product molecules is monitored with a mass spectrometer as the crystal is heated under programmed temperature <link target-id="eip-956"/>, where β is the heating rate (~10 °C/s). We know the desorption rate depends strongly on temperature, so when the temperature of the crystal reaches a high enough value so that the desorption rate is appreciable, the mass spectrometer will begin to record a rise in density. At higher temperatures, the surface will finally become depleted of desorbing molecules; therefore, the mass spectrometer signal will decrease. According to the shape and position of the peak in the mass signal, we can learn about the activation energy for desorption and the Arrhenius pre-exponential factor. </para>
+
+<equation id="eip-956"><media id="id201116_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq16-2053.jpg" id="id20116__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+        <section id="eip-981"><title>First-order process</title>
+
+
+
+<para id="id1165442531823">Consider a first-order desorption process <link target-id="eip-102"/>, with a rate constant <emphasis effect="italics">k</emphasis><sub>d</sub>, <link target-id="eip-300"/>, where A is Arrhenius pre-exponential factor. If θ is assumed to be the number of surface adsorbates per unit area, the desorption rate will be given by <link target-id="eip-707"/>. </para>
+
+
+
+<equation id="eip-102"><media id="id11654385xxx_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics11-9834.png" id="id11654385xxx__onlineimage" width="130" print-width="1.3in"/>
+          </media></equation><equation id="eip-300"><media id="id1165438536656_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics12-01a1.png" id="id1165438536656__onlineimage" width="130" print-width="1.3in"/>
+          </media></equation>
+
+
+
+
+
+
+
+       
+
+
+        
+        
+        <equation id="eip-707"><media id="id1165446431410_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics13-3631.png" id="id1165446431410__onlineimage" width="175" print-width="1.75in"/>
+          </media>
+</equation><para id="id1165438950875">Since we know the relationship between heat rate β and temperature on the crystal surface T, <link target-id="eip-926"/> and <link target-id="eip-0"/>. </para>
+        
+        
+        <equation id="eip-926"><media id="id1165452769238_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics14-fa69.png" id="id1165452769238__onlineimage" width="70" print-width="0.7in"/>
+            </media></equation><equation id="eip-0"><media id="id1165438315382_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics16-ad75.png" id="id1165438315382__onlineimage" width="50" print-width="0.5in"/>
+          </media>
+        </equation>
+        
+        <para id="id1165449704430">Multiplying by –dθ gives <link target-id="eip-311"/>, since <link target-id="eip-94"/> and <link target-id="eip-382"/>. A plot of the form of –dθ/dT versus T is shown in <link target-id="id1165454875702"/>. </para>
+        
+        <equation id="eip-311"><media id="id1165455194448_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics17-5794.png" id="id1165455194448__onlineimage" width="90" print-width="0.9in"/>
+          </media>
+        </equation>
+        <equation id="eip-94"><media id="id1165449737598_media" alt=""><image mime-type="image/png" src="../../media/graphics18-5c29.png" id="id1165449737598__onlineimage" width="190" print-width="1.9in"/></media></equation>
+        <equation id="eip-382"><media id="id1165450071882_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics19-4307.png" id="id1165450071882__onlineimage" width="140" print-width="1.4in"/>
+          </media>
+        </equation>
+        <figure id="id1165454875702"><media id="id1165454875702_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics20-b6de.png" id="id1165454875702__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>A simulated TPD experiment: Consider a first order reaction between adsorbates and surface. Values of T<sub>m</sub> keep constant as the initial coverage θ from 1.0 x 10<sup>13</sup> to 6.0 x 10<sup>13</sup> cm<sup>-2</sup>. E<sub>a</sub> = 30 KJ/mol; β = 1.5 °C/s; A = 1 x 10<sup>13</sup>. </caption></figure>
+        
+        <para id="id1165458275650">We notice that the T<sub>m</sub> (peak maximum) in <link target-id="id1165454875702"/> keeps constant with increasing θ, which means the value of T<sub>m</sub> does not depend on the initial coverage θ in the first-order desorption. If we want to use different desorption activation energy E<sub>a</sub> and see what happens in the corresponding desorption temperature T. We are able to see the T<sub>m</sub> values will increase with increasing E<sub>a</sub>. </para>
+        <para id="id1165446335822">At the peak of the mass signal, the increase in the desorption rate is matched by the decrease in surface concentration per unit area so that the change in dθ/dT with T is zero: <link target-id="eip-890"/> - <link target-id="eip-833"/>. Since <link target-id="eip-199"/>, then <link target-id="eip-887"/> and <link target-id="eip-484"/>.  </para>
+        
+        <equation id="eip-890"><media id="id6610765_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics21-4307.png" id="id6610765__onlineimage" width="135" print-width="1.35in"/>
+          </media>
+        </equation>
+        <equation id="eip-170"><media id="id1165455225381_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics22-10ce.png" id="id1165455225381__onlineimage" width="150" print-width="1.5in"/>
+          </media>
+        </equation>
+        <equation id="eip-833"><media id="id1165448792118_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics23-7afc.png" id="id1165448792118__onlineimage" width="100" print-width="1in"/>
+          </media>
+        </equation>
+        <equation id="eip-199"><media id="id1165442652928_media" alt=""><image mime-type="image/png" src="../../media/graphics24-5bd8.png" id="id1165442652928__onlineimage" width="150" print-width="1.5in"/></media></equation>
+        <equation id="eip-887"><media id="id1165446741671_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics25-4a47.png" id="id1165446741671__onlineimage" width="135" print-width="1.35in"/>
+          </media>
+        </equation>
+        <equation id="eip-484"><media id="id1165445156200_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics26-f31f.png" id="id1165445156200__onlineimage" width="185" print-width="1.85in"/>
+          </media>
+        </equation><para id="id4374557">This tells us if different heating rates β are used and the left-hand side of the above equation is plotted as a function of 1/T<sub>M</sub>, we can see that a straight line should be obtained whose slope is ΔE<sub>a</sub>/R and intercept is ln(ΔE<sub>a</sub>/RA). So we are able to obtain the activation energy to desorption ΔE<sub>a</sub> and Arrhenius pre-exponential factor A. </para>
+</section>
+
+        <section id="eip-540"><title>Second-order process</title><para id="id1165457745330">Now let consider a second-order desorption process <link target-id="eip-648"/>, with a rate constant k<sub>d</sub>. We can deduce the desorption kinetics as <link target-id="eip-258"/>. The result is different from the first-order reaction whose T<sub>m</sub> value does not depend upon the initial coverage, the temperature of the peak T<sub>m</sub> will decrease with increasing initial surface coverage. </para>
+        <equation id="eip-648"><media id="id1165444606654_media" alt=""><image mime-type="image/png" src="../../media/graphics27-e867.png" id="id1165444606654__onlineimage" width="115" print-width="1.15in"/></media>
+</equation>
+        <equation id="eip-258"><media id="id1165456074367_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics28-93c9.png" id="id1165456074367__onlineimage" width="150" print-width="1.5in"/>
+          </media>
+        </equation>
+
+
+
+          <figure id="id1165443818310"><media id="id1165443818310_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics29.png" id="id1165443818310__onlineimage" width="500" print-width="5in"/>
+            </media>
+          <caption>A simulated second-order TPD experiment: A second-order reaction between adsorbates and surface. Values of T<sub>m</sub> decrease as the initial coverage θ increases from 1.0 x 10<sup>13</sup> to 6.0 x 10<sup>13</sup> cm<sup>-2</sup>; E<sub>a</sub> = 30 KJ/mol; β = 1.5 °C/s; A = 1 x 10<sup>-1</sup>.</caption></figure>
+
+</section>
+
+   
+        <section id="eip-722"><title>Zero-order process</title>
+
+
+<para id="id1165438682075">The zero-order desorption kinetics relationship as <link target-id="eip-709"/>. Looking at desorption rate for the zero-order reaction (<link target-id="id1165443338396"/>), we can observe that the desorption rate does not depend on coverage and also implies that desorption rate increases exponentially with T. Also according to the plot of desorption rate versus T, we figure out the desorption rate rapid drop when all molecules have desorbed. Plus temperature of peak, T<sub>m</sub>, moves to higher T with increasing coverage θ. </para>
+        
+        <equation id="eip-709"><media id="id1165447190703_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics30.png" id="id1165447190703__onlineimage" width="140" print-width="1.4in"/>
+            </media></equation><figure id="id1165443338396"><media id="id1165443338396_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics31.png" id="id1165443338396__onlineimage" width="500" print-width="5in"/>
+          </media>
+        <caption>A simulated zero-order TPD experiment: A zero-order reaction between adsorbates and surface. Values of T<sub>m</sub> increase apparently as the initial coverage θ increases from 1.0 x 10<sup>13</sup> to 6.0 x 10<sup>13</sup> cm<sup>-2</sup>; E<sub>a</sub> = 30 KJ/mol; β = 1.5 °C/s; A = 1 x 10<sup>28</sup>.</caption></figure>
+        
+</section>
+      
+        
+      </section>
+      
+
+</section>
+    <section id="eip-471"><title>A typical example</title><para id="id1165444518793">A typical TPD spectra of D<sub>2</sub> from Rh(100) for different exposures in Langmuirs (L = 10<sup>-6</sup> Torr-sec) shows in <link target-id="id1165451626138"/>. First we figure out the desorption peaks from g to n show two different desorbing regions. The higher one can undoubtedly be ascribed to chemisorbed D<sub>2</sub> on Rh(100) surface, which means chemisorbed molecules need higher energy used to overcome their activation energy for desorption. The lower desorption region is then due to physisorbed D<sub>2</sub> with much lower desorption activation energy than chemisorbed D<sub>2</sub>. According to the TPD theory we learnt, we notice that the peak maximum shifts to lower temperature with increasing initial coverage, which means it should belong to a second-order reaction. If we have other information about heating rate β and each T<sub>m</sub> under corresponding initial surface coverage θ then we are able to calculate the desorption activation energy E<sub>a</sub> and Arrhenius pre-exponential factor A.</para>
+
+
+          <figure id="id1165451626138">
+            <media id="id1165451626138_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics32.png" id="id1165451626138__onlineimage" width="270" print-width="2.70in"/>
+            </media>
+<caption>TPD spectra of D<sub>2</sub> from Rh(100) for different exposures in L (1 Langmuir = 10<sup>-6</sup> Torr-s)<sup>6</sup>. </caption>
+          </figure>
+</section><section id="id1165443043251">
+      <title>Conclusion</title>
+      <para id="id1165445403958">Temperature-programmed desorption is an easy and straightforward technique especially useful to investigate gas-solid interaction. By changing one of parameters, such as coverage or heating rate, followed by running a serious of typical TPD experiments, it is possible to to obtain several important kinetic parameters (activation energy to desorption, reaction order, pre-exponential factor, etc). Based on the information, further mechanism of gas-solid interaction can be deduced.</para>
+    </section>
+    <section id="id1165447329736"><title>Bibliography</title><list id="eip-125"><item>M. N. Roger, An Introduction to Surface Chemistry, <link url="http://www.chem.qmul.ac.uk/surfaces/scc/">http://www.chem.qmul.ac.uk/surfaces/scc/</link></item>
+<item>P. L. Houston, <emphasis effect="italics">Chemical Kinetics and Reaction Dynamics,</emphasis> McGraw Hill, New York (2001).</item>
+<item>I. Langmuir, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1916, <emphasis effect="bold">38</emphasis>, 221.</item>
+<item>P. A. Redhead, <emphasis effect="italics">Vacuum</emphasis>, 1962, <emphasis effect="bold">12</emphasis>, 203.</item>
+<item>Y. Kim, H. C. Peebles, and J. M. White, <emphasis effect="italics">Surface Sci.</emphasis>, 1982, <emphasis effect="bold">114</emphasis>, 363. </item>
+</list>
+
+
+
+
+    </section>
+  </content>
+</document>

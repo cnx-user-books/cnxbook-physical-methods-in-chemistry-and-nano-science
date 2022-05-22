@@ -1,0 +1,86 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Mossbauer Analysis of Iron Oxide Nanoparticles</title>
+  <metadata>
+  <md:content-id>m22619</md:content-id><md:title>Mossbauer Analysis of Iron Oxide Nanoparticles</md:title>
+  <md:abstract>Methods for the analysis of iron oxide nanoparticles by Mossbauer spectroscopy</md:abstract>
+  <md:uuid>f2fcafde-3f2a-4f61-bfdb-4018c5f0096f</md:uuid>
+</metadata>
+
+<content>
+    <section id="id8471242">
+      <title>Spectra and formula calculations</title>
+      <para id="id9142893">Due to the potential applications of magnetite nanoparticles (Fe<sub>3</sub>O<sub>4</sub>, nMag) many methods have been devised for its synthesis. However, stoichiometric Fe<sub>3</sub>O<sub>4</sub> is not always achieved by different synthetic methods. B-site vacancies introduced into the cubic inverse spinel crystal structure of nMag result in nonstoichiometric iron oxide of the formula (Fe<sup>3+</sup>)<sub>A</sub>(Fe<sub>(1-3x)</sub><sup>2+</sup> Fe<sub>(1+2X)</sub><sup>3+</sup>Ø<sub>x</sub>)<sub>B</sub>O<sub>4</sub> where Ø represents B-site vacancy. The magnetic susceptibility which is key to most nMag applications decreases with increased B-site vacancy hence the extent of B-site vacancy is important. The very high sensitivity of the Mossbauer spectrum to the oxidation state and site occupancy of Fe<sup>3+</sup> in cubic inverse spinel iron oxides makes Mossbauer spectroscopy valuable for addressing the issues of whether or not the product of a synthetic method is actually nMag and the extent of B-site vacancy. </para>
+      <para id="id7916620">As with most analysis using multiple instrumental methods in conjunction is often helpful. This is exemplified by the use of XRD along with Mossbauer spectroscopy in the following analysis. <link target-id="id7099383"/> shows the XRD results and Mossbauer spectra “magnetite” samples prepared by a Fe<sup>2+</sup>/Fe<sup>3+</sup> co-precipitation (Mt025), hematite reduction by hydrogen (MtH2) and hematite reduction with coal(MtC). The XRD analysis shows MtH2 and MT025 exhibiting only magnetite peaks while MtC shows the presence of magnetite, maghemite, and hematite. This information becomes very useful when fitting peaks to the Mossbauer spectra because it gives a chemical basis for peak fitting parameters and helps to fit the peaks correctly.</para>
+      
+   
+        <figure id="id7099383"><media id="id7099383_media" alt="">
+            <image mime-type="image/png" src="../../media/Picture 3-03aa.png" id="id7099383__onlineimage" height="409" width="700"/>
+          </media>
+        <caption>Mossbauer spectra (left) and corresponding XRD spectra of iron oxide sample prepared by different methods. Adapted from A. L. Andrade, D. M. Souza, M. C. Pereira, J. D. Fabris, and R. Z. Domingues. <emphasis effect="italics"> J. Nanosci. Nanotechnol.</emphasis>, 2009, <emphasis effect="bold"> 9</emphasis>, 2081.  </caption></figure>
+  
+      
+      <para id="id4629606">Being that the iron occupies two local environments, the A-site and B site, and two species (Fe<sup>2+</sup> and Fe<sup>3+</sup>) occupy the B-site one might expect the spectrum to be a combination of 3 spectra, however delocalization of electrons or electron hopping between Fe<sup>2+</sup> and Fe<sup>3+</sup> in the B site causes the nuclei to sense an average valence in the B site thus the spectrum are fitted with two curves accordingly. This is most easily seen in the Mt025 spectrum. The two fitted curves correspond to Fe<sup>3+</sup> in the A-site and mixed valance Fe<sup>2.5+</sup> in the B-site. The isomer shift of the fitted curves can be used to determined which curve corresponds to which valence. The isomer shift relative to the top fitted curve is reported to be 0.661 and the bottom fitted curve is 0.274 relative to αFe thus the top fitted curve corresponds to less s-electron dense Fe<sup>2.5+</sup>. The magnetic splitting is quite apparent. In each of the spectra, six peaks are present due to magnetic splitting of the nuclear energy states as explained previously. Quadrupole splitting is not so apparent, but actually is present in the spectra. The three peaks to the left of the center of a spectrum should be spaced the same as those to the right due to magnetic splitting alone since the energy level spacing between sublevels is equal. This is not the case in the above spectra, because the higher energy I = 3/2 sublevels are split unevenly due to magnetic and quadrupole splitting interactions.</para>
+      <para id="id6977560">Once the peaks have been fitted appropriately, determination of the extent of B-site vacancy in (Fe<sup>3+</sup>)<sub>A</sub>(Fe<sub>(1-3x)</sub><sup>2+</sup> Fe<sub>(1+2X)</sub><sup>3+</sup>Ø<sub>x</sub>)<sub>B</sub>O<sub>4 </sub>is a relatively simple matter. All one has to due to determine the number of vacancies (x) is solve the equation: </para>
+      <para id="eip-1000"><media id="id9053598_media" alt=""><image mime-type="image/png" src="../../media/graphics1-d77f.png" id="id9053598__onlineimage" height="31" width="90"/></media> where RA<sub>B or A</sub> = relative area (<media id="id8913607_media" alt=""><image mime-type="image/png" src="../../media/graphics2-bea2.png" id="id8913607__onlineimage" height="32" width="118"/></media>) of the curve for the B or A site respectively</para>
+      <para id="id8359410">The reasoning for this equation is as follows. Taking into account that the mixed valance Fe<sup>2.5+</sup> curve is a result of paired interaction between Fe<sup>2+</sup> and Fe<sup>3+</sup> the nonstochiometric chemical formula is (Fe<sup>3+</sup>)<sub>A</sub>(Fe<sub>(1-3x)</sub><sup>2+</sup> Fe<sub>(1+2X)</sub><sup>3+</sup>Ø<sub>x</sub>)<sub>B</sub>O<sub>4</sub>. The relative intensity (or relative area) of the Fe-A and Fe-B curves is very sensitive to stoichiometry because vacancies in the B-site reduce the Fe-A curve and increase Fe-B curve intensities. This is due to the unpaired Fe<sub>5x</sub><sup>3+</sup> adding to the intensity of the Fe-A curve rather than the Fe-B curve. Since the relative area is directly proportional to the number of Fe contributing to the spectrum the ratio of the relative areas is equal to stoichiometric ratio of Fe<sup>2.5+</sup> to Fe<sup>3+</sup>, which yields the above formula.</para>
+      <para id="id9121143">Example Calculation:</para>
+      <para id="id7565988"> For MtH2 RA<sub>A</sub>/RA<sub>B</sub> = 1.89</para>
+      
+      
+      
+      
+      
+      <para id="id7234413">Plugging x into the nonstoichiometric iron oxide formula yeilds:</para>
+      <para id="eip-575"><media id="id7061985_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-66c1.png" id="id7061985__onlineimage" height="70" width="446"/>
+        </media></para><para id="id6034251">  (Fe<sup>3+</sup>)<sub>A</sub>(Fe<sub> 1.9572</sub><sup>2+</sup> Fe<sub>0.0356</sub><sup>3+</sup>)<sub>B</sub>O<sub>4</sub> (very close to stoichiometric)</para>
+      
+      <table id="id8205364" summary="Parameters and nonstoichiometric formulas for MtC, Mt025, and MtH2">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Sample</emphasis></entry>
+              <entry><emphasis effect="bold">RA<sub>B</sub>/RA<sub>A</sub></emphasis></entry>
+              <entry><emphasis effect="bold">X</emphasis> </entry>
+              <entry><emphasis effect="bold">Chemical formula</emphasis> </entry>
+            </row>
+            <row>
+              <entry>MtH2</entry>
+              <entry>1.89</entry>
+              <entry>0.007</entry>
+              <entry>(Fe<sup>3+</sup>)<sub>A</sub>(Fe<sub>0.979</sub><sup>2+</sup> Fe<sub>1.014</sub><sup>3+</sup>)<sub>B</sub>O<sub>4</sub></entry>
+            </row>
+            <row>
+              <entry>MtC</entry>
+              <entry>1.66</entry>
+              <entry>0.024</entry>
+              <entry>(Fe<sup>3+</sup>)<sub>A</sub>(Fe<sub>0.929</sub><sup>2+</sup> Fe<sub>1.048</sub><sup>3+</sup>)<sub>B</sub>O<sub>4</sub></entry>
+            </row>
+            <row>
+              <entry>Mt025</entry>
+              <entry>1.60</entry>
+              <entry>0.029</entry>
+              <entry>(Fe<sup>3+</sup>)<sub>A</sub>(Fe<sub>0.914</sub><sup>2+</sup> Fe<sub>1.057</sub><sup>3+</sup>)<sub>B</sub>O<sub>4</sub></entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Parameters and nonstoichiometric formulas for MtC, Mt025, and MtH2</caption>
+</table>
+      
+      
+      
+      
+      
+      
+    </section><section id="eip-955"><title>Bibliography</title><list id="eip-90"><item>F. C. Voogt, T. Fujii, P. J. M. Smulders, L. Niesen, M. A. James, and T. Hibma, <emphasis effect="italics">Phys. Rev. B</emphasis>, 1999, <emphasis effect="bold">60</emphasis>, 11193.</item>
+<item>A. L. Andrade, D. M. Souza, M. C. Pereira, J. D. Fabris, and R. Z. Domingues, <emphasis effect="italics">J. Nanosci. Nanotechnol.</emphasis>, 2009, <emphasis effect="bold">9</emphasis>, 2081.</item>
+<item>J. B. Yang, X. D. Zhou, W. B. Yelon, W. fJ. James, Q. Cai, K. V. Gopalakrishnan, S. K. Malik, X. C. Sun, and D. E. Nikles, <emphasis effect="italics">J. Appl. Phys.</emphasis>, 2004, <emphasis effect="bold">95</emphasis>, 7540. </item>
+<item>R.E. Vandenberghe, I. Nedkov, T. Merodiiska, and L. Slavov, <emphasis effect="italics">Hyperfine Interact.</emphasis> 2005, <emphasis effect="bold">165</emphasis>, 267.</item>
+
+ </list></section>
+  </content>
+</document>

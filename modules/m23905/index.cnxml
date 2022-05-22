@@ -1,0 +1,535 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Structures of Element and Compound Semiconductors</title>
+<metadata>
+  <md:content-id>m23905</md:content-id><md:title>Structures of Element and Compound Semiconductors</md:title>
+  <md:abstract/>
+  <md:uuid>c119deb0-8108-4585-aa6a-e7ea6996e6bd</md:uuid>
+</metadata>
+
+<content>
+  
+
+
+      <section id="eip-820"><title>Introduction</title><para id="eip-968">A single crystal of either an elemental (e.g., silicon) or compound (e.g., gallium arsenide) semiconductor forms the basis of almost all semiconductor devices. The ability to control the electronic and opto-electronic properties of these materials is based on an understanding of their structure. In addition, the metals and many of the insulators employed within a microelectronic device are also crystalline. </para></section><section id="id-900347232759">
+        <title>Group IV (14) elements </title>
+        <para id="id6800333">Each of the semiconducting phases of the group IV (14) elements, C (diamond), Si, Ge, and α-Sn, adopt the diamond cubic structure (<link target-id="id6798956"/>). Their lattice constants (<emphasis effect="italics">a</emphasis>, Å) and densities (ρ, g/cm<sup>3</sup>) are given in <link target-id="id6783219"/>. 
+</para>
+     
+
+   
+
+<figure id="id6798956"><media id="id9370549" alt=""><image src="../../media/graphics16-8567.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a diamond cubic lattice showing the two interpenetrating face-centered cubic lattices.</caption></figure>
+
+<table id="id6783219" summary="Lattice parameters and densities (measured at 298 K) for the diamond cubic forms of the group IV (14) elements.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Element</emphasis> </entry>
+                <entry><emphasis effect="bold">Lattice parameter, <emphasis effect="italics">a</emphasis> (Å)</emphasis></entry>
+                <entry><emphasis effect="bold">Density (g/cm<sup>3</sup>)</emphasis></entry>
+              </row>
+
+    
+              <row>
+                <entry>carbon (diamond)</entry>
+                <entry>3.56683(1)</entry>
+                <entry>3.51525</entry>
+              </row>
+              <row>
+                <entry>silicon</entry>
+                <entry>5.4310201(3)</entry>
+                <entry>2.319002</entry>
+              </row>
+              <row>
+                <entry>germanium</entry>
+                <entry>5.657906(1)</entry>
+                <entry>5.3234</entry>
+              </row>
+              <row>
+                <entry>tin (α-Sn)</entry>
+                <entry>6.4892(1)</entry>
+                <entry>7.285</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+</tgroup><caption>Lattice parameters and densities (measured at 298 K) for the diamond cubic forms of the group IV (14) elements.  </caption>
+</table>
+        <para id="id6783491">As would be expected the lattice parameter increase in the order C &lt; Si &lt; Ge &lt; α-Sn. Silicon and germanium form a continuous series of solid solutions with gradually varying parameters. It is worth noting the high degree of accuracy that the lattice parameters are known for high purity crystals of these elements. In addition, it is important to note the temperature at which structural measurements are made, since the lattice parameters are temperature dependent (<link target-id="id6783658"/>). The lattice constant (<emphasis effect="italics">a</emphasis>), in Å, for high purity silicon may be calculated for any temperature (T) over the temperature range 293 - 1073 K by the formula shown below. </para>
+        <para id="id6783524"><emphasis effect="italics">a</emphasis><sub>T</sub> = 5.4304 + 1.8138 X 10<sup>-5</sup> (T - 298.15 K) + 1.542 X 10<sup>-9</sup> (T – 298.15 K) 
+</para>
+        <figure id="id6783658"><media id="id10161837" alt=""><image src="../../media/graphics21-781b.png" mime-type="image/png" width="300" print-width="2.5in"/></media><caption>Temperature dependence of the lattice parameter for (a) Si and (b) Ge.</caption></figure>
+        <para id="id6783682">Even though the diamond cubic forms of Si and Ge are the only forms of direct interest to semiconductor devices, each exists in numerous crystalline high pressure and meta-stable forms. These are described along with their interconversions, in <link target-id="id6783692"/>. </para>
+        <table id="id6783692" summary="High pressure and metastable phases of silicon and germanium.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Phase</emphasis></entry>
+                <entry><emphasis effect="bold">Structure</emphasis></entry>
+                <entry><emphasis effect="bold">Remarks</emphasis></entry>
+              </row>
+              <row>
+                <entry>Si I</entry>
+                <entry>diamond cubic</entry>
+                <entry>stable at normal pressure</entry>
+              </row>
+              <row>
+                <entry>Si II</entry>
+                <entry>grey tin structure</entry>
+                <entry>formed from Si I or Si V above 14 GPa</entry>
+              </row>
+              <row>
+                <entry>Si III</entry>
+                <entry>cubic</entry>
+                <entry>metastable, formed from Si II above 10 GPa</entry>
+              </row>
+              <row>
+                <entry>Si IV</entry>
+                <entry>hexagonal</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>Si V</entry>
+                <entry>unidentified</entry>
+                <entry>stable above 34 GPa, formed from Si II above 16 GPa</entry>
+              </row>
+              <row>
+                <entry>Si VI</entry>
+                <entry>hexagonal close packed</entry>
+                <entry>stable above 45 GPa</entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>Ge I</entry>
+                <entry>diamond cubic</entry>
+                <entry>low-pressure phase</entry>
+              </row>
+              <row>
+                <entry>Ge II</entry>
+                <entry>β-tin structure</entry>
+                <entry>formed from Ge I above 10 GPa</entry>
+              </row>
+              <row>
+                <entry>Ge III</entry>
+                <entry>tetragonal</entry>
+                <entry>formed by quenching Ge II at low pressure</entry>
+              </row>
+              <row>
+                <entry>Ge IV</entry>
+                <entry>body centered cubic</entry>
+                <entry>formed by quenching Ge II to 1 atm at 200 K</entry>
+              </row>
+            </tbody>
+          
+
+
+</tgroup><caption>High pressure and metastable phases of silicon and germanium. </caption>
+</table>
+      </section>
+      <section id="id-292382015495">
+        <title>Group III-V (13-15) compounds </title>
+        <para id="id6784102">The stable phases for the arsenides, phosphides and antimonides of aluminum, gallium and indium all exhibit zinc blende structures (<link target-id="id6799244"/>). In contrast, the nitrides are found as wurtzite structures (e.g., <link target-id="id6799949"/>). The structure, lattice parameters, and densities of the III-V compounds are given in <link target-id="id6784135"/>. It is worth noting that contrary to expectation the lattice parameter of the gallium compounds is smaller than their aluminum homolog; for GaAs <emphasis effect="italics">a</emphasis> = 5.653 Å; AlAs <emphasis effect="italics">a</emphasis> = 5.660 Å. As with the group IV elements the lattice parameters are highly temperature dependent; however, additional variation arises from any deviation from absolute stoichiometry. These effects are shown in <link target-id="id6784822"/>. </para>
+
+
+        
+
+
+<figure id="id6799244"><media id="id6680545" alt=""><image src="../../media/graphics17-a537.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a zinc blende (ZnS) lattice. Zinc atoms are shown in green (small), sulfur atoms shown in red (large), and the dashed lines show the unit cell.</caption></figure>
+
+
+
+<figure id="id6799949"><media id="id13126578" alt=""><image src="../../media/graphics20-d845.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a wurtzite lattice. Zinc atoms are shown in green (small), sulfur atoms shown in red (large), and the dashed lines show the unit cell.</caption></figure>
+
+
+
+<table id="id6784135" summary="Lattice parameters and densities (measured at 298 K) for the III-V (13-15) compound semiconductors.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Compound</emphasis></entry>
+                <entry><emphasis effect="bold">Structure</emphasis></entry>
+                <entry><emphasis effect="bold">Lattice parameter (Å)</emphasis> </entry>
+                <entry><emphasis effect="bold">Density (g/cm<sup>3</sup>)</emphasis> </entry>
+              </row>
+             
+              <row>
+                <entry>AlN</entry>
+                <entry>wurtzite</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 3.11(1), c = 4.98(1)</entry>
+                <entry>3.255</entry>
+              </row>
+              <row>
+                <entry>AlP</entry>
+                <entry>zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 5.4635(4)</entry>
+                <entry>2.40(1)</entry>
+              </row>
+              <row>
+                <entry>AlAs</entry>
+                <entry>zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 5.660</entry>
+                <entry>3.760</entry>
+              </row>
+              <row>
+                <entry>AlSb</entry>
+                <entry>zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 6.1355(1)</entry>
+                <entry>4.26</entry>
+              </row>
+              <row>
+                <entry>GaN</entry>
+                <entry>wurtzite</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 3.190, c = 5.187</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry>GaP</entry>
+                <entry>zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 5.4505(2)</entry>
+                <entry>4.138</entry>
+              </row>
+              <row>
+                <entry>GaAs</entry>
+                <entry>zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 5.65325(2)</entry>
+                <entry>5.3176(3)</entry>
+              </row>
+              <row>
+                <entry>InN</entry>
+                <entry>wurtzite</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 3.5446, <emphasis effect="italics">c</emphasis> = 5.7034</entry>
+                <entry>6.81</entry>
+              </row>
+              <row>
+                <entry>InP</entry>
+                <entry>zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 5.868(1)</entry>
+                <entry>4.81</entry>
+              </row>
+              <row>
+                <entry>InAs</entry>
+                <entry>zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 6.0583</entry>
+                <entry>5.667</entry>
+              </row>
+              <row>
+                <entry>InSb</entry>
+                <entry>zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 6.47937</entry>
+                <entry>5.7747(4)</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+</tgroup><caption>Lattice parameters and densities (measured at 298 K) for the III-V (13-15) compound semiconductors. Estimated standard deviations given in parentheses.</caption>
+</table>
+        
+        <figure id="id6784822"><media id="id13074028" alt=""><image src="../../media/graphics22-9071.png" mime-type="image/png" width="350" print-width="2.75in"/></media><caption>Temperature dependence of the lattice parameter for stoichiometric GaAs and crystals with either Ga or As excess.</caption></figure>
+        <para id="id6784846">The homogeneity of structures of alloys for a wide range of solid solutions to be formed between III-V compounds in almost any combination. Two classes of ternary alloys are formed: III<sub>x</sub>-III<sub>1-x</sub>-V (e.g., Al<sub>x</sub>-Ga<sub>1-x</sub>-As) and III-V<sub>1-x</sub>-V<sub>x</sub> (e.g., Ga-As<sub>1-x</sub>-P<sub>x</sub>)
+. While quaternary alloys of the type III<sub>x</sub>-III<sub>1-x</sub>-V<sub>y</sub>-V<sub>1-y</sub> allow for the growth of materials with similar lattice parameters, but a broad range of band gaps. A very important ternary alloy, especially in optoelectronic applications, is Al<sub>x</sub>-Ga<sub>1-x</sub>-As and its lattice parameter (<emphasis effect="italics">a</emphasis>) is directly related to the composition (x). </para>
+        <para id="id6785289"><emphasis effect="italics">a</emphasis> = 5.6533 + 0.0078 x </para>
+        <para id="id6785310">Not all of the III-V compounds have well characterized high-pressure phases. however, in each case where a high-pressure phase is observed the coordination number of both the group III and group V element increases from four to six. Thus, AlP undergoes a zinc blende to rock salt transformation at high pressure above 170 kbar, while AlSb and GaAs form orthorhombic distorted rock salt structures above 77 and 172 kbar, respectively. An orthorhombic structure is proposed for the high-pressure form of InP (&gt;133 kbar). Indium arsenide (InAs) undergoes two-phase transformations. The zinc blende structure is converted to a rock salt structure above 77 kbar, which in turn forms a β-tin structure above 170 kbar. </para>
+      </section>
+      <section id="id-964020761454">
+        <title>Group II-VI (12-16) compounds </title>
+        <para id="id6785346">The structures of the II-VI compound semiconductors are less predictable than those of the III-V compounds (above), and while zinc blende structure exists for almost all of the compounds there is a stronger tendency towards the hexagonal wurtzite form. In several cases the zinc blende structure is observed under ambient conditions, but may be converted to the wurtzite form upon heating. In general the wurtzite form predominates with the smaller anions (e.g., oxides), while the zinc blende becomes the more stable phase for the larger anions (e.g., tellurides). One exception is mercury sulfide (HgS) that is the archetype for the trigonal cinnabar phase. <link target-id="id6785492"/> lists the stable phase of the chalcogenides of zinc, cadmium and mercury, along with their high temperature phases where applicable. Solid solutions of the II-VI compounds are not as easily formed as for the III-V compounds; however, two important examples are ZnS<sub>x</sub>Se<sub>1-x</sub> and Cd<sub>x</sub>Hg<sub>1-x</sub>Te. </para>
+        <table id="id6785492" summary="Lattice parameters and densities (measured at 298 K) for the II-VI (12-16) compound semiconductors.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Compound</emphasis></entry>
+                <entry><emphasis effect="bold">Structure</emphasis></entry>
+                <entry><emphasis effect="bold">Lattice parameter (Å)</emphasis></entry>
+                <entry><emphasis effect="bold">Density (g/cm<sup>3</sup>)</emphasis></entry>
+              </row>
+          
+              <row>
+                <entry>ZnS</entry>
+                <entry>zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 5.410</entry>
+                <entry>4.075</entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>wurtzite</entry>
+                <entry><emphasis effect="italics">a </emphasis>= 3.822, <emphasis effect="italics">c</emphasis> = 6.260</entry>
+                <entry>4.087</entry>
+              </row>
+              <row>
+                <entry>ZnSe</entry>
+                <entry>Zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 5.668</entry>
+                <entry>5.27</entry>
+              </row>
+              <row>
+                <entry>ZnTe</entry>
+                <entry>Zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 6.10</entry>
+                <entry>5.636</entry>
+              </row>
+              <row>
+                <entry>CdS</entry>
+                <entry>wurtzite</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 4.136, <emphasis effect="italics">c</emphasis> = 6.714</entry>
+                <entry>4.82</entry>
+              </row>
+              <row>
+                <entry>CdSe</entry>
+                <entry>wurtzite</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 4.300, <emphasis effect="italics">c</emphasis> = 7.011</entry>
+                <entry>5.81</entry>
+              </row>
+              <row>
+                <entry>CdTe</entry>
+                <entry>Zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 6.482</entry>
+                <entry>5.87</entry>
+              </row>
+              <row>
+                <entry>HgS</entry>
+                <entry>cinnabar</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 4.149, <emphasis effect="italics">c</emphasis> = 9.495</entry>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry>Zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 5.851</entry>
+                <entry>7.73</entry>
+              </row>
+              <row>
+                <entry>HgSe</entry>
+                <entry>Zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 6.085</entry>
+                <entry>8.25</entry>
+              </row>
+              <row>
+                <entry>HgTe</entry>
+                <entry>Zinc blende</entry>
+                <entry><emphasis effect="italics">a</emphasis> = 6.46</entry>
+                <entry>8.07</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+</tgroup><caption>Lattice parameters and densities (measured at 298 K) for the II-VI (12-16) compound semiconductors.</caption>
+</table>
+        
+        <para id="id6786138">The zinc chalcogenides all transform to a cesium chloride structure under high pressures, while the cadmium compounds all form rock salt high-pressure phases (<link target-id="id6799710"/>). Mercury selenide (HgSe) and mercury telluride (HgTe) convert to the mercury sulfide archetype structure, cinnabar, at high pressure. </para>
+
+
+<figure id="id6799710"><media id="id13074127" alt=""><image src="../../media/graphics19-c3aa.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a rock salt lattice. Sodium ions are shown in purple and chloride ions are shown in red.</caption></figure>
+
+
+      </section>
+      <section id="id-541957678356">
+        <title>I-III-VI<sub>2</sub> (11-13-16) compounds </title>
+        <para id="id6786161">Nearly all I-III-VI<sub>2</sub> compounds at room temperature adopt the chalcopyrite structure (<link target-id="id6799447"/>). The cell constants and densities are given in <link target-id="id6786342"/>. Although there are few reports of high temperature or high-pressure phases, AgInS<sub>2</sub> has been shown to exist as a high temperature orthorhombic polymorph (<emphasis effect="italics">a</emphasis>  = 6.954, <emphasis effect="italics">b</emphasis>  = 8.264, and <emphasis effect="italics">c</emphasis>  = 6.683 Å), and AgInTe<sub>2</sub> forms a cubic phase at high pressures. </para>
+       
+
+<figure id="id6799447"><media id="id13106412" alt=""><image src="../../media/graphics18-9a72.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>Unit cell structure of a chalcopyrite lattice. Copper atoms are shown in blue, iron atoms are shown in green and sulfur atoms are shown in yellow. The dashed lines show the unit cell.</caption></figure>
+
+<table id="id6786342" summary="Chalcopyrite lattice parameters and densities (measured at 298 K) for the I-III-VI compound semiconductors.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Compound</emphasis></entry>
+                <entry><emphasis effect="bold">Lattice parameter <emphasis effect="italics">a</emphasis> (Å)</emphasis> </entry>
+                <entry><emphasis effect="bold">Lattice parameter <emphasis effect="italics">c</emphasis> (Å)</emphasis> </entry>
+                <entry><emphasis effect="bold">Density (g.cm<sup>3</sup>)</emphasis></entry>
+              </row>
+            
+
+
+
+              <row>
+                <entry>CuAlS<sub>2</sub></entry>
+                <entry>5.32</entry>
+                <entry>10.430</entry>
+                <entry>3.45</entry>
+              </row>
+              <row>
+                <entry>CuAlSe<sub>2</sub></entry>
+                <entry>5.61</entry>
+                <entry>10.92</entry>
+                <entry>4.69</entry>
+              </row>
+              <row>
+                <entry>CuAlTe<sub>2</sub></entry>
+                <entry>5.96</entry>
+                <entry>11.77</entry>
+                <entry>5.47</entry>
+              </row>
+              <row>
+                <entry>CuGaS<sub>2</sub></entry>
+                <entry>5.35</entry>
+                <entry>10.46</entry>
+                <entry>4.38</entry>
+              </row>
+              <row>
+                <entry>CuGaSe<sub>2</sub></entry>
+                <entry>5.61</entry>
+                <entry>11.00</entry>
+                <entry>5.57</entry>
+              </row>
+              <row>
+                <entry>CuGaTe<sub>2</sub></entry>
+                <entry>6.00</entry>
+                <entry>11.93</entry>
+                <entry>5.95</entry>
+              </row>
+              <row>
+                <entry>CuInS<sub>2</sub></entry>
+                <entry>5.52</entry>
+                <entry>11.08</entry>
+                <entry>4.74</entry>
+              </row>
+              <row>
+                <entry>CuInSe<sub>2</sub></entry>
+                <entry>5.78</entry>
+                <entry>11.55</entry>
+                <entry>5.77</entry>
+              </row>
+              <row>
+                <entry>CuInTe<sub>2</sub></entry>
+                <entry>6.17</entry>
+                <entry>12.34</entry>
+                <entry>6.10</entry>
+              </row>
+              <row>
+                <entry>AgAlS<sub>2</sub></entry>
+                <entry>6.30</entry>
+                <entry>11.84</entry>
+                <entry>6.15</entry>
+              </row>
+              <row>
+                <entry>AgGaS<sub>2</sub></entry>
+                <entry>5.75</entry>
+                <entry>10.29</entry>
+                <entry>4.70</entry>
+              </row>
+              <row>
+                <entry>AgGaSe<sub>2</sub></entry>
+                <entry>5.98</entry>
+                <entry>10.88</entry>
+                <entry>5.70</entry>
+              </row>
+              <row>
+                <entry>AgGaTe<sub>2</sub></entry>
+                <entry>6.29</entry>
+                <entry>11.95</entry>
+                <entry>6.08</entry>
+              </row>
+              <row>
+                <entry>AgInS<sub>2</sub></entry>
+                <entry>5.82</entry>
+                <entry>11.17</entry>
+                <entry>4.97</entry>
+              </row>
+              <row>
+                <entry>AgInSe<sub>2</sub></entry>
+                <entry>6.095</entry>
+                <entry>11.69</entry>
+                <entry>5.82</entry>
+              </row>
+              <row>
+                <entry>AgInTe<sub>2</sub></entry>
+                <entry>6.43</entry>
+                <entry>12.59</entry>
+                <entry>6.96</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+</tgroup><caption>Chalcopyrite lattice parameters and densities (measured at 298 K) for the I-III-VI  compound semiconductors.  Lattice parameters for tetragonal cell. </caption>
+</table>
+        
+        <para id="id6787934">Of the I-III-VI<sub>2</sub> compounds, the copper indium chalcogenides (CuInE<sub>2</sub>) are certainly the most studied for their application in solar cells. One of the advantages of the copper indium chalcogenide compounds is the formation of solid solutions (alloys) of the formula CuInE<sub>2-x</sub>E'<sub>x</sub>, where the composition variable (x) varies from 0 to 2. The CuInS<sub>2-x</sub>Se<sub>x</sub> and CuInSe<sub>2-x</sub>Te<sub>x</sub> systems have also been examined, as has the CuGa<sub>y</sub>In<sub>1-y</sub>S<sub>2-x</sub>Se<sub>x</sub> quaternary system. As would be expected from a consideration of the relative ionic radii of the chalcogenides the lattice parameters of the CuInS<sub>2-x</sub>Se<sub>x</sub> alloy should increase with increased selenium content. Vergard's law requires the lattice constant for a linear solution of two semiconductors to vary linearly with composition (e.g., as is observed for Al<sub>x</sub>Ga<sub>1-x</sub>As), however, the variation of the tetragonal lattice constants (<emphasis effect="italics">a</emphasis> and <emphasis effect="italics">c</emphasis>) with composition for CuInS<sub>2-x</sub>S<sub>x</sub> are best described by the parabolic relationships. </para>
+        <para id="id6788529"><emphasis effect="italics"> a</emphasis> = 5.532 + 0.0801 x + 0.0260 x<sup>2</sup></para>
+        <para id="id6788594"><emphasis effect="italics"> c</emphasis> = 11.156 + 0.1204 x + 0.0611 x<sup>2</sup></para>
+        <para id="id6788662">A similar relationship is observed for the CuInSe<sub>2-x</sub>Te<sub>x</sub> alloys. </para>
+        <para id="id6788737"><emphasis effect="italics">a</emphasis> = 5.783 + 0.1560 x + 0.0212 x<sup>2</sup></para>
+        <para id="id6788801"><emphasis effect="italics">c</emphasis> = 11.628 + 0.3340 x + 0.0277 x<sup>2</sup></para>
+        <para id="id6788866">The large difference in ionic radii between S and Te (0.37 Å) prevents formation of solid solutions in the CuInS<sub>2-x</sub>Te<sub>x</sub> system, however, the single alloy CuInS<sub>1.5</sub>Te<sub>0.5</sub> has been reported. </para>
+      </section>
+ 
+ 
+<section id="id-310623551452">
+      <title>Orientation effects </title>
+      <para id="id6789020">Once single crystals of high purity silicon or gallium arsenide are produced they are cut into wafers such that the exposed face of these wafers is either the crystallographic {100} or {111} planes. The relative structure of these surfaces are important with respect to oxidation, etching and thin film growth. These processes are orientation-sensitive; that is, they depend on the direction in which the crystal slice is cut. </para>
+      <section id="id-377278656073">
+        <title>Atom density and dangling bonds </title>
+        <para id="id6789040">The principle planes in a crystal may be differentiated in a number of ways, however, the atom and/or bond density are useful in predicting much of the chemistry of semiconductor surfaces. Since both silicon and gallium arsenide are <emphasis effect="italics">fcc</emphasis> structures and the {100} and {111} are the only technologically relevant surfaces, discussions will be limited to <emphasis effect="italics">fcc</emphasis> {100} and {111}. </para>
+        <para id="id6789062">The atom density of a surface may be defined as the number of atoms per unit area. <link target-id="id6789446"/> shows a schematic view of the {111} and {100} planes in a <emphasis effect="italics">fcc</emphasis> lattice. The {111} plane consists of a hexagonal close packed array in which the crystal directions within the plane are oriented at 60° to each other. The hexagonal packing and the orientation of the crystal directions are indicated in <link target-id="id6789446"/>b as an overlaid hexagon. Given the intra-planar inter-atomic distance may be defined as a function of the lattice parameter, the area of this hexagon may be readily calculated. For example in the case of silicon, the hexagon has an area of 38.30 Å<sup>2</sup>. The number of atoms within the hexagon is three: the atom in the center plus 1/3 of each of the six atoms at the vertices of the hexagon (each of the atoms at the hexagons vertices is shared by three other adjacent hexagons). Thus, the atom density of the {111} plane is calculated to be 0.0783 Å<sup>-2</sup>. Similarly, the atom density of the {100} plane may be calculated. The {100} plane consists of a square array in which the crystal directions within the plane are oriented at 90° to each other. Since the square is coincident with one of the faces of the unit cell the area of the square may be readily calculated. For example in the case of silicon, the square has an area of 29.49 Å<sup>2</sup>. The number of atoms within the square is 2: the atom in the center plus 1/4 of each of the four atoms at the vertices of the square (each of the atoms at the corners of the square are shared by four other adjacent squares). Thus, the atom density of the {100} plane is calculated to be 0.0678 Å<sup>-2</sup>. While these values for the atom density are specific for silicon, their ratio is constant for all diamond cubic and zinc blende structures: {100}:{111} = 1:1.155. In general, the fewer dangling bonds the more stable a surface structure. </para>
+        
+        <figure id="id6789446"><media id="id13027029" alt=""><image src="../../media/graphics23-e3a6.png" mime-type="image/png" width="400" print-width="4in"/></media><caption>Schematic representation of the (111) and (100) faces of a face centered cubic (fcc) lattice showing the relationship between the close packed rows.</caption></figure>
+        <para id="id6789470">An atom inside a crystal of any material will have a coordination number (n) determined by the structure of the material. For example, all atoms within the bulk of a silicon crystal will be in a tetrahedral four-coordinate environment (n = 4). However, at the surface of a crystal the atoms will not make their full compliment of bonds. Each atom will therefore have less nearest neighbors than an atom within the bulk of the material. The missing bonds are commonly called dangling bonds. While this description is not particularly accurate it is, however, widely employed and as such will be used herein. The number of dangling bonds may be defined as the difference between the ideal coordination number (determined by the bulk crystal structure) and the actual coordination number as observed at the surface. </para>
+        <para id="id6789495"><link target-id="id6789536"/> shows a section of the {111} surfaces of a diamond cubic lattice viewed perpendicular to the {111} plane. The atoms within the bulk have a coordination number of four. In contrast, the atoms at the surface (e.g., the atom shown in blue in <link target-id="id6789536"/>) are each bonded to just three other atoms (the atoms shown in red in <link target-id="id6789536"/>), thus each surface atom has one dangling bond. As can be seen from <link target-id="id6789563"/>, which shows the atoms at the {100} surface viewed perpendicular to the {100} plane, each atom at the surface (e.g., the atom shown in blue in <link target-id="id6789563"/>) is only coordinated to two other atoms (the atoms shown in red in <link target-id="id6789563"/>), leaving two dangling bonds per atom. It should be noted that the same number of dangling bonds are found for the {111} and {100} planes of a zinc blende lattice. The ratio of dangling bonds for the {100} and {111} planes of all diamond cubic and zinc blende structures is {100}:{111} = 2:1. Furthermore, since the atom densities of each plane are known then the ratio of the dangling bond densities is determined to be: {100}:{111} = 1:0.577. </para>
+        <figure id="id6789536"><media id="id9530529" alt=""><image src="../../media/graphics24-4c79.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>A section of the {111} surfaces of a diamond cubic lattice viewed perpendicular to the {111} plane.</caption></figure>
+        <figure id="id6789563"><media id="id10627336" alt=""><image src="../../media/graphics25-8334.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>A section of the {100} surface of a diamond cubic lattice viewed perpendicular to the {100} plane.</caption></figure>
+      </section>
+      <section id="id-905979363201">
+        <title>Silicon </title>
+        <para id="id6789596">For silicon, the {111} planes are closer packed than the {100} planes. As a result, growth of a silicon crystal is therefore slowest in the &lt;111&gt; direction, since it requires laying down a close packed atomic layer upon another layer in its closest packed form. As a consequence &lt;111&gt; Si is the easiest to grow, and therefore the least expensive. </para>
+        <para id="id6789610">The dissolution or etching of a crystal is related to the number of broken bonds already present at the surface: the fewer bonds to be broken in order to remove an individual atom from a crystal, the easier it will be to dissolve the crystal. As a consequence of having only one dangling bond (requiring three bonds to be broken) etching silicon is slowest in the &lt;111&gt; direction. The electronic properties of a silicon wafer are also related to the number of dangling bonds. </para>
+        <para id="id6789628">Silicon microcircuits are generally formed on a single crystal wafer that is diced after fabrication by either sawing part way through the wafer thickness or scoring (scribing) the surface, and then physically breaking. The physical breakage of the wafer occurs along the natural cleavage planes, which in the case of silicon are the {111} planes. </para>
+      </section>
+      <section id="id-869021044717">
+        <title>Gallium arsenide </title>
+        <para id="id6789647">The zinc blende lattice observed for gallium arsenide results in additional considerations over that of silicon. Although the {100} plane of GaAs is structurally similar to that of silicon, two possibilities exist: a face consisting of either all gallium atoms or all arsenic atoms. In either case the surface atoms have two dangling bonds, and the properties of the face are independent of whether the face is gallium or arsenic. </para>
+        <para id="id6789660">The {111} plane also has the possibility of consisting of all gallium or all arsenic. However, unlike the {100} planes there is a significant difference between the two possibilities. <link target-id="id6799244"/> shows the gallium arsenide structure represented by two interpenetrating <emphasis effect="italics">fcc</emphasis> lattices. The [111] axis is vertical within the plane of the page. Although the structure consists of alternate layers of gallium and arsenic stacked along the [111] axis, the distance between the successive layers alternates between large and small. Assigning arsenic as the parent lattice the order of the layers in the [111] direction is As－Ga-As－Ga-As－Ga, while in the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mover><m:mtext>111</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle></m:mover></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ {"111"}  cSup { size 8{ -  -  - {}} }  right ]} {}</m:annotation></m:semantics></m:math> direction the layers are ordered, Ga-As-Ga－As-Ga－As (<link target-id="id6789969"/>). In silicon these two directions are of course identical. The surface of a crystal would be either arsenic, with three dangling bonds, or gallium, with one dangling bond. Clearly, the latter is energetically more favorable. Thus, the (111) plane shown in <link target-id="id6789969"/> is called the (111) Ga face. Conversely, the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mover><m:mtext>111</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle></m:mover></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ {"111"}  cSup { size 8{ -  -  - {}} }  right ]} {}</m:annotation></m:semantics></m:math> plane would be either gallium, with three dangling bonds, or arsenic, with one dangling bond. Again, the latter is energetically more favorable and the 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfenced open="[" close="]"><m:mover><m:mtext>111</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle></m:mover></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ {"111"}  cSup { size 8{ -  -  - {}} }  right ]} {}</m:annotation></m:semantics></m:math> plane is therefore called the (111) As face. </para>
+        <figure id="id6789969"><media id="id13128556" alt=""><image src="../../media/graphics26-2668.png" mime-type="image/png" width="250" print-width="2.5in"/></media><caption>The (111) Ga face of GaAs showing a surface layer containing gallium atoms (green) with one dangling bond per gallium and three bonds to the arsenic atoms (red) in the lower layer. </caption></figure>
+        <para id="id6789993">The (111) As is distinct from that of (111) Ga due to the difference in the number of electrons at the surface. As a consequence, the (111) As face etches more rapidly than the (111) Ga face. In addition, surface evaporation below 770 °C occurs more rapidly at the (111) As face. </para>
+      </section>
+    </section><section id="eip-371"><title>Bibliography</title><list id="eip-629"><item>M. Baublitz and A. L. Ruoff, <emphasis effect="italics">J. Appl. Phys.</emphasis>, 1982, <emphasis effect="bold">53</emphasis>, 6179. </item>
+<item>J. C. Jamieson, <emphasis effect="italics">Science</emphasis>, 1963, <emphasis effect="bold">139</emphasis>, 845. </item>
+
+<item>C. C. Landry, J. Lockwood, and A. R. Barron, <emphasis effect="italics">Chem. Mater.</emphasis>, 1995, <emphasis effect="bold">7</emphasis>, 699.</item>
+<item>M. Robbins, J. C. Phillips, and V. G. Lambrecht, <emphasis effect="italics">J. Phys. Chem. Solids</emphasis>, 1973, <emphasis effect="bold">34</emphasis>, 1205.</item>
+<item>D. Sridevi and K. V. Reddy, <emphasis effect="italics">Mat. Res. Bull.</emphasis>, 1985, <emphasis effect="bold">20</emphasis>, 929.</item>
+<item>Y. K. Vohra, S. T. Weir, and A. L. Ruoff, <emphasis effect="italics">Phys. Rev. B</emphasis>, 1985, <emphasis effect="bold">31</emphasis>, 7344. </item>
+<item>W. M. Yin and R. J. Paff, <emphasis effect="italics">J. Appl. Phys.</emphasis>, 1973, <emphasis effect="bold">45</emphasis>, 1456.</item>
+</list></section>
+
+
+
+
+</content>
+
+</document>

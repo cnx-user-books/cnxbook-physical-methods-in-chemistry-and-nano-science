@@ -1,0 +1,85 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Standard Operating Procedure for Quantification of Surface Ligands of Nanoparticle Using Thermogravimetric Analyzer</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71305</md:content-id>
+  <md:title>Standard Operating Procedure for Quantification of Surface Ligands of Nanoparticle Using Thermogravimetric Analyzer</md:title>
+  <md:abstract/>
+  <md:uuid>8a921903-1339-4288-a9d0-ae898b0e0866</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm244194752">
+      <title>Thermal gravimetric analysis theory </title>
+      <para id="import-auto-idm762849232">A thermal gravimetric analyzer (TGA) records the changes in weight as temperature increases under a controlled atmosphere. TGA’s main components are: micro-sensitive balance, furnace, sample chamber and a purge system as shown in <link target-id="import-auto-idm412461920"/>. Upon heating samples, thermal transitions are recorded to get a final pot of weight vs. temperature. Then the results are analyzed to assign the weight loss/gain to a certain chemical/physical change. </para><figure id="import-auto-idm412461920"><media id="import-auto-idm248255056" alt="">
+          <image mime-type="image/jpg" src="../../media/Image1-b682.jpg" width="450" print-width="4.5in"/>
+        </media>
+      <caption>The main components of a typical TGA instrument. Adapted from <emphasis effect="italics">Thermogravimetric Analyzers.</emphasis> Accessed 03,15, 2018. <link url="http://www.tainstruments.com/products/thermal-analysis/thermogravimetric-analysis/"><emphasis effect="underline">http://www.tainstruments.com/products/thermal-analysis/thermogravimetric-analysis/</emphasis></link>.</caption></figure></section>
+    <section id="import-auto-idm244263536">
+      <title>Application background </title>
+      <para id="import-auto-idm647338256">Nanoparticles can be functionalized with wide array of polymers to tune their properties. For examples, in coating application, nanoparticles’ surfaces are coated with hydrophobic ligands to prevent moisture migration to the metallic pipeline, extending the lifetime of the pipe. The same nanoparticles can be used for drug delivery application by using hydrophilic ligands to make the nanoparticles water soluble and biocompatible. Usually, nanoparticles focalization is done through ligand exchange, to get nanoparticles that are surrounded by organic polymers as shown in <link target-id="import-auto-idm243200752"/>. TGA is often employed in determination of surface coverage of organic ligands via heating the nanoparticles in air, decomposing the organic ligands without affecting the inorganic nanoparticle. Determination of surface coverage via TGA has an advantage over other microscopy techniques, such as transmission electron microscopy (TEM) because it is a straightforward method that requires no statistical refinement to get accurate results.</para><figure id="import-auto-idm243200752"><media id="import-auto-idm490208624" alt="">
+          <image mime-type="image/jpg" src="../../media/Image2-7def.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>Illustration of nanoparticles functionalization process. Adapted from E. Mansfield and K. Tyner, C. Poling, and J. Blacklock. <emphasis effect="italics">Anal. Chem.</emphasis>, 2014, <emphasis effect="bold">7</emphasis>, 1478.</caption></figure></section>
+    <section id="import-auto-idm438310240">
+      <title>Materials </title>
+      <list id="import-auto-idm428603600" list-type="bulleted"><item>Functionalized nanoparticles (nanoparticles with organic ligand on the surface). </item>
+        <item>Vacuum furnace to dry the sample from water and other hydrocarbons. </item>
+        <item>Thermal gravimetric analyzer to quantify the change in mass as temperature increase. The TGA much be connected to air supply. </item>
+        <item>Ceramic or platinum TGA pans. </item>
+        <item>Crucible tong. </item>
+        <item>Torch. </item>
+        <item>Tweezers. </item>
+        <item>Clean watch glass.</item>
+      </list></section>
+    <section id="import-auto-idm243266864">
+      <title>Data collection method</title>
+      <para id="import-auto-idm388003856">In the TGA software make sure to set the following parameters before starting the experimental procedure:</para><list id="import-auto-idm242973504" list-type="bulleted">
+        <item><emphasis effect="bold">Gas Selection.</emphasis> Select the experiment gas to be air. Make sure that the flow rate is around 40 mL/min for the balance and 60 mL/min for the furnace.</item>
+        <item><emphasis effect="bold">Setting the heating program. </emphasis>Set the TGA to heat the sample from room temperature to 100 °C at a rate of 10 °C/min. Hold the temperature at 100 °C for 30 min. Continue heating at a rate 10 °C per min up to 800 °C. </item>
+      </list>
+    </section>
+    <section id="import-auto-idm247204720">
+      <title>Data analysis</title>
+      <para id="import-auto-idm296796944">After analysis use the TGA software to calculate the following: </para><list id="import-auto-idm515851920" list-type="bulleted"><item>Weight loss from room temperature to 100 °C (<link target-id="import-auto-idm649109984"/>). This weight loss is attributed to the present of solvents/ moisture in the sample. </item>
+        <item>Weight loss from 100 °C to 800 °C (<link target-id="import-auto-idm649109984"/>). This weight loss is attributed to decomposition of organic ligand on the surface of nanoparticles.</item>
+      </list><figure id="import-auto-idm649109984"><media id="import-auto-idm504419424" alt="">
+          <image mime-type="image/jpg" src="../../media/Image3-0ffd.jpg" width="350" print-width="3.5in"/>
+        </media>
+      <caption>A typical TGA profile of functionalized nanoparticles. Adapted from E. Mansfield and K. Tyner, C. Poling, and J. Blacklock. <emphasis effect="italics">Anal. Chem.</emphasis>, 2014, <emphasis effect="bold">7</emphasis>, 1478.</caption></figure><section id="import-auto-idm642908208">
+        <title>Calculating surface coverage of the ligands on nanoparticles</title>
+        <list id="import-auto-idm448641056" list-type="enumerated" number-style="arabic" class="stepwise"><item>Calculate the average particle diameter and average surface area of one nanoparticles using TEM. The volume of one particle (nm<sup>3</sup>/particle) should be multiplied by the density (g/nm<sup>3</sup>) of the nanoparticles, then, divide by the surface area of one particle (nm<sup>2</sup>/particle). The final number is the inverse of the surface area of the nanoparticles in g/nm<sup>2</sup>.</item>
+          <item>The number of polymer chains in 1 gram of nanoparticles should be determined by dividing the weight loss (g) by the molecular weight (g/mole) of the polymer and multiply that by Avogadro’s number (chains/moles), then, divided by the weight at zero weight loss (g). The final number should have units of chains/gram</item>
+          <item>Multiply the number from step 1 by the number from step 2 to get total surface coverage in chains/nm<sup>2</sup>. </item>
+        </list></section>
+    </section>
+    <section id="import-auto-idm433928000">
+      <title>Experimental method  </title>
+      <list id="import-auto-idm487355472" list-type="enumerated" number-style="arabic" class="stepwise"><item>Dry the sample in a vacuum oven over night to remove all the solvents and impurities. This will turn the nanoparticles solution to a powder that we can load into the TGA pan.</item>
+        <item>Wash the TGA pan with water followed by methanol. </item>
+        <item>Turn on the torch carefully to get a thin cone of flame. </item>
+        <item>Use the crucible tongs to hold the pan in the center of the flame for a minute decomposing any residual from previous samples. </item>
+        <item>Set the pan to cool on a clean watch glass. </item>
+        <item>Using a tweezers, place the TGA pan in the sample chamber in the TGA instrument and tare the instrument.  </item>
+        <item>When the tare is over, scoop up around 10 mg of the nanoparticles and place them into the TGA pan. </item>
+        <item>Place back pan with the sample in it back in the TGA chamber.</item>
+        <item>On the instrument software, be sure to type the experiment and sample name. </item>
+        <item>Check the experimental method. Make sure it follows the parameters descripted in Data Collection Method. </item>
+        <item>Start the experiment.</item>
+      </list></section>
+    <section id="import-auto-idm312708592">
+      <title>Safety and precautions </title>
+      <list id="import-auto-idm644392032" list-type="bulleted">
+        <item>Ensure that the sample pan is made out of ceramic or platinum. Other types of sample pans may not handle the high temperature. </item>
+        <item>It is recommended to have a good ventilation system to suck all of the evolved gases out of the room. </item>
+      </list>
+    </section>
+    <section id="import-auto-idm251216800">
+      <title>Bibliography</title>
+      <list id="import-auto-idm737916096" list-type="bulleted"><item>E. Mansfield and K. Tyner, C. Poling, and J. Blacklock. <emphasis effect="italics">Anal. Chem.</emphasis>, 2014, <emphasis effect="bold">7</emphasis>, 1478.</item>
+        <item>G. Mabbott, 2016. Youtube. Jan 30. Accessed 3 15, 2018. https://www.youtube.com/watch?v=tjjpiHr6rSc.</item>
+        <item>L. Tong, E. Lu, J. Pichaandi, P. Cao, M. Nitz, and M. Winnik, <emphasis effect="italics">Chem. Mater.</emphasis>, 2015, <emphasis effect="bold">27</emphasis>, 4899.</item>
+
+        <item><emphasis effect="italics">Thermogravimetric Analyzers.</emphasis> Accessed 03,15, 2018. <link url="http://www.tainstruments.com/products/thermal-analysis/thermogravimetric-analysis/"><emphasis effect="underline">http://www.tainstruments.com/products/thermal-analysis/thermogravimetric-analysis/</emphasis></link>.</item>
+      </list></section>
+  </content>
+</document>

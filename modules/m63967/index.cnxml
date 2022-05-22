@@ -1,0 +1,453 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Chemical Exchange Saturation Transfer (CEST)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63967</md:content-id>
+  <md:title>Chemical Exchange Saturation Transfer (CEST)</md:title>
+  <md:abstract/>
+  <md:uuid>f7d9e2b9-a01e-4dca-b9ee-fa50e0bab27b</md:uuid>
+</metadata>
+
+<content>
+    <section id="eip-950"><title>Introduction</title><para id="eip-773">Paramagnetic chemical exchange saturation transfer (PARACEST) is a powerful analytical tool that can elucidate many physical properties of molecules and systems of interest both in vivo and in vitro through specific paramagnetic agents. Although a relatively new imaging technique, applications for PARACEST imaging are growing as new imaging agents are being developed with enhanced exchange properties. Current applications revolve around using these PARACEST agents for MRI imaging to enhance contrast. However, the fundamentals of PARACEST can be used to measure properties such as temperature, pH, and concentration of molecules and systems as we will discuss. PARACEST was developed in response to several imaging limitations presented by diamagnetic agents. PARACEST spectral data can be easily obtained using NMR Spectroscopy while imaging can be typically achieved with widely available clinical 1.5/4 T MRI scanners.</para></section><section id="eip-127"><title>History</title><para id="eip-822">Chemical exchange saturation transfer (CEST) is a phenomenon that has been around since the 1960s. It was first discovered by Forsén, pictured below in <link target-id="import-auto-idm242755984"> Figure 1 </link>, and Hoffman in 1963 and was termed magnetization transfer NMR. This technique was limited in its applications to studying rapid chemical exchange reactions. However in 2000, Balaban, pictured below in <link target-id="import-auto-idm226294688"> Figure 2 </link>, revisited this topic and discovered the application of this phenomenon for imaging purposes. He termed the phenomenon chemical exchange saturation transfer. From this seminal finding, Balaban elucidated techniques to modulate MRI contrasts to reflect the exchange for imaging purposes.</para>
+
+
+
+<figure id="import-auto-idm215584240"><media id="import-auto-idm242755984" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 1-4022.jpg" width="300" print-width="2in"/>
+        </media>
+      <caption>Swedish physical chemist Sture Forsén (1932-). </caption></figure><figure id="import-auto-idm226294688"><media id="import-auto-idm452704928" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 10-778f.jpg" width="300" print-width="2in"/>
+        </media>
+      <caption>American chemist and biologist Robert S Balaban</caption></figure><para id="import-auto-idm232290448">CEST imaging focuses on N-H, O-H, or S-H exchangeable protons. Observing these exchanges in diamagnetic molecules can be very challenging. Several models have been developed to overcome the challenges associated with imaging with clinical scanners. The focus of recent research has been to develop paramagnetic chemical exchange saturation transfer (PARACEST) agents. Typical PARACEST complexes are based on lanthanide atoms. Historically, these molecules were thought to be useless for chemical exchange due to their very fast water exchanges rates. However, recent works by Silvio Aime and Dean Sherry have shown modified lanthanide complexes that have very slow exchange rates that make it ideal for CEST imaging. In addition to slow exchange rates, these molecules have vastly different resonance frequencies which contributes to their enhanced contrast.
+    </para>
+
+
+</section><section xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-698"><title>Chemical exchange saturation transfer</title><section id="eip-491"><title>Saturation transfer</title><para id="eip-560">Chemical exchange is defined as the process of proton exchange with surrounding bulk water. Exchange can occur with non-water exchange sites but it has been shown that its’ contribution is negligible. As stated before, CEST imaging focuses on N-H, O-H, or S-H exchangeable protons. Molecularly every exchange proton has a very specific saturation frequency. Applying a radio-frequency pulse that is the same as the proton’s saturation frequency results in a net loss of longitudinal magnetization. Longitudinal magnetization exists by virtue of being in a magnet. All protons in a solution line up with the magnetic field either in a parallel or antiparallel manner. There is a net longitudinal magnetization at equilibrium as the antiparallel state is higher in energy. A 90° RF pulse sequence causes many of the parallel protons to move to the higher energy antiparallel state causing zero longitudinal magnetization. This nonequilibrium state is termed as saturation, where the same amount of nuclear spins is aligned against and with the magnetic field. These saturated protons are exchangeable and the surrounding bulk water participates in this exchange called chemical exchange saturation transfer.</para><para id="eip-918">This exchange can be visualized through spectral data. The saturated proton exchange with the surrounding bulk water causes the spectral signal from the bulk water to decrease due to decreased net longitudinal magnetization. This decrease can then be quantified and used to measure a wide variety of properties of a molecule or a solution. In the next sub-section, we will explore the quantification in more detail to provide a stronger conceptual understanding.
+    </para></section><section id="eip-975"><title>Two-system model</title><para id="import-auto-idm861940496">Derivations of the chemical exchange saturation transfer mathematical models arise fundamentally from an understanding of the Boltzmann equation, <link target-id="eip-650"/>. The Boltzmann equation 
+mathematically defines the distribution of spins of a molecule placed in a magnetic field. There are many complex models that are used to provide a better understanding of the phenomenon. However, we will stick with a two-system model to simplify the mathematics to focus on conceptual understanding. In this model, there are two systems: bulk water (alpha) and an agent pool (beta). When the agent pool is saturated with a radiofrequency pulse, we make two important assumptions. The first is that all the exchangeable protons are fully saturated and the second is that the saturation process does not affect the bulk water protons, which retain their characteristic longitudinal magnetization.
+    </para>
+
+<equation id="eip-650"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mfrac>
+                <m:msub>
+                  <m:mi>N</m:mi>
+                  <m:mrow>
+                    <m:mi mathvariant="italic">high</m:mi>
+                    <m:mi mathvariant="italic">energy</m:mi>
+                  </m:mrow>
+                </m:msub>
+                <m:msub>
+                  <m:mi>N</m:mi>
+                  <m:mrow>
+                    <m:mi mathvariant="italic">low</m:mi>
+                    <m:mi mathvariant="italic">energy</m:mi>
+                  </m:mrow>
+                </m:msub>
+              </m:mfrac>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mi>exp</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mo fence="true" stretchy="false">(</m:mo>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>∆</m:mi>
+                    </m:mrow>
+                    <m:mi>E</m:mi>
+                  </m:mrow>
+                  <m:mi mathvariant="italic">kT</m:mi>
+                </m:mfrac>
+              </m:mrow>
+              <m:mo fence="true" stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{{N} rsub {high energy}} over {{N} rsub {low energy}} = exp {( {-∆E} over {kT} )}</m:annotation>
+        </m:semantics>
+      </m:math></equation>
+
+<para id="import-auto-idm221796320">To quantify the following proton exchange we shall define the equilibrium proton concentration. The Boltzmann equation gives us the distribution of the spin states at equilibrium which is proportional to the proton concentration. As such, we shall label the two system’s equilibrium states as <m:math><m:semantics><m:msubsup><m:mi>M</m:mi><m:mi>α</m:mi><m:mn>0</m:mn></m:msubsup><m:annotation encoding="StarMath 5.0">{M} rsub {α} rsup {0}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:msubsup><m:mi>M</m:mi><m:mi>β</m:mi><m:mn>0</m:mn></m:msubsup><m:annotation encoding="StarMath 5.0">{M} rsub {β} rsup {0}</m:annotation></m:semantics></m:math>. Following saturation, the saturated protons of the bulk pool exchange with the agent pool at a rate <m:math><m:semantics><m:msub><m:mi>k</m:mi><m:mi>α</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{k} rsub {α}</m:annotation></m:semantics></m:math>. As such the decrease in longitudinal (Z) magnetization is given by <m:math><m:semantics><m:mrow><m:msub><m:mi>k</m:mi><m:mi>α</m:mi></m:msub><m:msubsup><m:mi>M</m:mi><m:mi>α</m:mi><m:mi>Z</m:mi></m:msubsup></m:mrow><m:annotation encoding="StarMath 5.0">{k} rsub {α} {M} rsub {α} rsup {Z}</m:annotation></m:semantics></m:math>. Furthermore, another effect that needs to be considered is the inherent relaxation of the protons which increase the Z magnetization back to equilibrium levels, <m:math><m:semantics><m:msubsup><m:mi>M</m:mi><m:mi>α</m:mi><m:mn>0</m:mn></m:msubsup><m:annotation encoding="StarMath 5.0">{M} rsub {α} rsup {0}</m:annotation></m:semantics></m:math> This can be estimated with the following <link target-id="eip-470"/> where <m:math><m:semantics><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn><m:mi>α</m:mi></m:mrow></m:msub><m:annotation encoding="StarMath 5.0">{T} rsub {1α}</m:annotation></m:semantics></m:math>is the longitudinal relaxation time for bulk water. Setting the two systems equal to represent equilibrium we get the following relationship <link target-id="eip-712"/> that can be manipulated mathematically to yield the generalized chemical exchange equation <link target-id="Figure6"/> where <m:math><m:semantics><m:mrow><m:msub><m:mi>τ</m:mi><m:mi>α</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:msub><m:mi>k</m:mi><m:mi>α</m:mi></m:msub><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow><m:annotation encoding="StarMath 5.0">{τ} rsub {α} = {{k} rsub {α}} ^ {-1}</m:annotation></m:semantics></m:math> and defined as lifetime of a proton in the system and c being the concentrations of protons in their respective system. [n] represents the number of exchangeable protons per CEST molecule. In terms of CEST calculations, the lower the ratio of Z the more prominent the CEST effect. A plot of this equation over a range of pulse frequencies results in what is called a Z-spectra also known as a CEST spectra, shown in <link target-id="Figure3"/>. This spectrum is then used to create CEST Images.
+    </para><equation id="eip-470"><m:math display="block">
+        <m:semantics>
+          <m:mfrac>
+            <m:mrow>
+              <m:msubsup>
+                <m:mi>M</m:mi>
+                <m:mi>α</m:mi>
+                <m:mn>0</m:mn>
+              </m:msubsup>
+              <m:mo stretchy="false">−</m:mo>
+              <m:msubsup>
+                <m:mi>M</m:mi>
+                <m:mi>α</m:mi>
+                <m:mi>Z</m:mi>
+              </m:msubsup>
+            </m:mrow>
+            <m:msub>
+              <m:mi>T</m:mi>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mi>α</m:mi>
+              </m:mrow>
+            </m:msub>
+          </m:mfrac>
+          <m:annotation encoding="StarMath 5.0">{{M} rsub {α} rsup {0} - {M} rsub {α} rsup {Z}} over {{T} rsub {1α}}</m:annotation>
+        </m:semantics>
+      </m:math></equation>
+
+<equation id="eip-712"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>k</m:mi>
+              <m:mi>α</m:mi>
+            </m:msub>
+            <m:mrow>
+              <m:msubsup>
+                <m:mi>M</m:mi>
+                <m:mi>α</m:mi>
+                <m:mi>Z</m:mi>
+              </m:msubsup>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:msubsup>
+                    <m:mi>M</m:mi>
+                    <m:mi>α</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:msubsup>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:msubsup>
+                    <m:mi>M</m:mi>
+                    <m:mi>α</m:mi>
+                    <m:mi>Z</m:mi>
+                  </m:msubsup>
+                </m:mrow>
+                <m:msub>
+                  <m:mi>T</m:mi>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mi>α</m:mi>
+                  </m:mrow>
+                </m:msub>
+              </m:mfrac>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">  {k} rsub {α} {M} rsub {α} rsup {Z} =  {{M} rsub {α} rsup {0} - {M} rsub {α} rsup {Z}} over {{T} rsub {1α}}  </m:annotation>
+        </m:semantics>
+      </m:math></equation>
+
+
+
+<equation id="Figure6"><media id="Figure6_media" alt="">
+<image mime-type="image/png" src="../../media/CEST Equation" id="Figure6__onlineimage" width="200" print-width="2 in"/>
+</media>
+</equation><figure id="Figure3"><media id="Figure3_media" alt="">
+<image mime-type="image/png" src="../../media/Saturation Spectra.png" id="Figure3__onlineimage" width="250" print-width="2.5 in"/>
+</media>
+<caption>Solute protons are saturated with a specific resonance frequency shown here as 8.25 ppm. This saturation is transferred to water at an exchange rate with unsaturated protons. After a brief period, this saturation effect becomes visible on the water signal as a decrease in proton signal. Z-spectrum is generated by measuring the normalized water saturation (S<sub>sat</sub>/S<sub>0</sub>) as a function of irradiation frequency. Adapted from P. C. M. Van Zijl and N. N. Yadav, <emphasis effect="italics">Magn. Reson. Med.</emphasis>, 2011, <emphasis effect="bold">65</emphasis>, 927.</caption></figure>
+
+</section><section id="eip-374"><title>Limitations of diamagnetic CEST imaging and two-system model</title><para id="import-auto-idm303336416">A CEST agent must have several properties to  maximize the CEST effect. Maximum CEST effect is observed when the residence lifetime of bulk water (<m:math><m:semantics><m:msub><m:mi>τ</m:mi><m:mi>α</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{τ} rsub {α}</m:annotation></m:semantics></m:math>) is as short as possible. This indirectly means that an effective CEST agent has a high exchange rate, <m:math><m:semantics><m:msub><m:mi>k</m:mi><m:mi>α</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{k} rsub {α}</m:annotation></m:semantics></m:math>. Furthermore, maximum effect is noted when the CEST agent concentration is high.
+    </para><para id="import-auto-idm215979840">In addition to these two properties, we need to consider the fact that the two-system model’s assumptions are almost never true. There is often a less than saturated system resulting in a decrease in the observed CEST effect. As a result, we need to consider the power of the saturation pulses, B<sub>1</sub>. The relationship between the <m:math><m:semantics><m:msub><m:mi>τ</m:mi><m:mi>α</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{τ} rsub {α}</m:annotation></m:semantics></m:math> and B<sub>1</sub> is shown in the below <link target-id="eip-177"/>. As such, an increase in saturation pulse power results in increase CEST effect. However, we cannot apply too much B<sub>1</sub> due to in vivo limitations. Furthermore, the ideal <m:math><m:semantics><m:msub><m:mi>τ</m:mi><m:mi>α</m:mi></m:msub><m:annotation encoding="StarMath 5.0">{τ} rsub {α}</m:annotation></m:semantics></m:math> can be calculated using the above relationship.
+    </para><equation id="eip-177"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>τ</m:mi>
+              <m:mi>α</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>π</m:mi>
+                <m:msub>
+                  <m:mi>B</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{τ} rsub {α} =  {1} over {2π {B} rsub {1}}</m:annotation>
+        </m:semantics>
+      </m:math></equation><para id="import-auto-idm462697712">Finally, another limitation that needs to be considered is the inherent only to diamagnetic CEST and provides an important distinction between CEST and PARACEST as we will soon discuss. We assumed with the two-system model that saturation with a radiofrequency pulse did not affect the surrounded bulk water Z-magnetization. However, this is large generalization that can only be made for PARACEST agents as we shall soon see. Diamagnetic species, whether endogenous or exogenous, have a chemical shift difference (Δω) between the exchangeable –NH or –OH groups and the bulk water of less than 5 ppm. This small shift difference is a major limitation. Selective saturation often lead to partial saturation of bulk water protons. This is a more important consideration where in-vivo water peak is very broad. As such, we need to maximize the shift difference between bulk water and the contrast agent.
+    </para>
+
+</section>
+
+</section>
+
+
+
+
+<section xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-637"><title>Paramagnetic chemical exchange saturation transfer</title><section id="eip-878"><title>Strengths of PARACEST</title><para id="eip-381">PARACEST addresses the two complications that arise with CEST. Application of a radiofrequency pulse close to the bulk water signal will result in some off-resonance saturation of the water. This essentially limits power which enhances CEST effect. Furthermore, a slow exchange condition less than the saturation frequency difference (Δω) means that a very slow exchange rate is required for diamagnetic CEST agents of this sort. Both problems can be alleviated by using an agent that has a larger chemical shift separation such as paramagnetic species. <link target-id="Figure7"/> shows the broad Δω of Eu<sup>3+</sup> complex.
+    </para><figure id="Figure7"><media id="Figure7_media" alt="">
+<image mime-type="image/png" src="../../media/CEST Spectra.png" id="Figure7__onlineimage" width="300" print-width="3.0 in"/>
+</media>
+<caption>Eu<sup>3+</sup> complex broadens the chemical shift leading to a larger saturation frequency difference that can easily be detected. Red spectral line represents EuDOTA-(glycine ethyl ester)<sub>4</sub>. Blue spectral line represents barbituric acid. Adapted from A. D. Sherry and M. Woods,  <emphasis effect="italics">Annu. Rev. Biomed. Eng.</emphasis>, 2008, <emphasis effect="bold">10</emphasis>, 391.
+    </caption></figure></section><section id="eip-593"><title>Selection of lanthanide species</title><para id="eip-47">Based on the criteria established in <link target-id="eip-78"/>, we see that only Eu<sup>3+</sup>, Tb<sup>3+</sup>, Dy<sup>3+</sup>, and Ho<sup>3+</sup> are effective lanthanide CEST agents at the most common MRI power level (1.5 T). However, given stronger field strengths the <link target-id="eip-888"/> suggests more CEST efficiency. With exception of Sm<sup>3+</sup>, all other lanthanide molecules have shifts far from water peak providing a large Δω that is desired of CEST agents. This table should be considered before design of a PARACEST experiment. Furthermore, this table eludes the relationship between power of the saturation pulse and the observed CEST effect. Referring to the following <link target-id="eip-935"/>, we see that for increased saturation pulse we notice increased CEST effect. In fact, varying B<sub>1</sub> levels changes saturation offset. The higher the B<sub>1</sub> frequency the higher the signal intensity of the saturation offset As such, it is important to select a proper saturation pulse before experimentation.
+    </para><table id="eip-888" summary="The chemical shifts and proton lifetime values for various lanthanide metals in a lanthanide DOTA-4AmCE complex.">
+<tgroup cols="6"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Complex</emphasis></entry>
+    <entry><emphasis effect="bold">τ<sub>m</sub> at 298 K (μs)</emphasis></entry>
+    <entry><emphasis effect="bold">δ <sup>1</sup>H (ppm)</emphasis></entry>
+    <entry><emphasis effect="bold">Δω.τ<sub>α</sub> at 1.5 T </emphasis></entry>
+    <entry><emphasis effect="bold">Δω.τ<sub>α</sub> at 4.7 T </emphasis></entry>
+    <entry><emphasis effect="bold">Δω.τ<sub>α</sub> at 11.75 T </emphasis></entry>
+  </row>
+  <row>
+    <entry>Pr<sup>3+</sup></entry>
+    <entry>20</entry>
+    <entry>-60</entry>
+    <entry>0.5</entry>
+    <entry>1.5</entry>
+    <entry>3.8</entry>
+  </row>
+  <row>
+    <entry>Nd<sup>3+</sup></entry>
+    <entry>80</entry>
+    <entry>-32</entry>
+    <entry>1.0</entry>
+    <entry>3.2</entry>
+    <entry>8.0</entry>
+  </row>
+  <row>
+    <entry>Sm<sup>3+</sup></entry>
+    <entry>320</entry>
+    <entry>-4</entry>
+    <entry>0.5</entry>
+    <entry>1.6</entry>
+    <entry>4.0</entry>
+  </row>
+  <row>
+    <entry>Eu<sup>3+</sup></entry>
+    <entry>382</entry>
+    <entry>50</entry>
+    <entry>7.7</entry>
+    <entry>24.0</entry>
+    <entry>60.0</entry>
+  </row>
+  <row>
+    <entry>Tb<sup>3+</sup></entry>
+    <entry>31</entry>
+    <entry>-600</entry>
+    <entry>7.5</entry>
+    <entry>23.4</entry>
+    <entry>58.5</entry>
+  </row>
+  <row>
+    <entry>Dy<sup>3+</sup></entry>
+    <entry>17</entry>
+    <entry>-720</entry>
+    <entry>4.9</entry>
+    <entry>15.4</entry>
+    <entry>38.5</entry>
+  </row>
+  <row>
+    <entry>Ho<sup>3+</sup></entry>
+    <entry>19</entry>
+    <entry>-360</entry>
+    <entry>2.8</entry>
+    <entry>8.6</entry>
+    <entry>21.5</entry>
+  </row>
+  <row>
+    <entry>Er<sup>3+</sup></entry>
+    <entry>9</entry>
+    <entry>200</entry>
+    <entry>0.7</entry>
+    <entry>2.3</entry>
+    <entry>5.7</entry>
+  </row>
+  <row>
+    <entry>Tm<sup>3+</sup></entry>
+    <entry>3</entry>
+    <entry>500</entry>
+    <entry>0.6</entry>
+    <entry>1.9</entry>
+    <entry>4.7</entry>
+  </row>
+  <row>
+    <entry>Yb<sup>3+</sup></entry>
+    <entry>3</entry>
+    <entry>200</entry>
+    <entry>0.2</entry>
+    <entry>0.5</entry>
+    <entry>1.9</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup><caption>The chemical shifts and proton lifetime values for various lanthanide metals in a lanthanide DOTA-4AmCE complex (<link target-id="import-auto-idm290096224"/>). </caption>
+</table><para id="import-auto-idm307757984">Based on the criteria established in <link target-id="eip-78"/>, we see that only Eu<sup>3+</sup>, Tb<sup>3+</sup>, Dy<sup>3+</sup>, and Ho<sup>3+</sup> are effective lanthanide CEST agents at the most common MRI power level (1.5 T). However, given stronger field strengths the <link target-id="eip-888"/> suggests more CEST efficiency. With exception of Sm<sup>3+</sup>, all other lanthanide molecules have shifts far from water peak providing a large Δω that is desired of CEST agents. This table should be considered before design of a PARACEST experiment. Furthermore, this table eludes the relationship between power of the saturation pulse and the observed CEST effect. Referring to the following <link target-id="eip-935"/>, we see that for increased saturation pulse we notice increased CEST effect. In fact, varying B<sub>1</sub> levels changes saturation offset. The higher the B<sub>1</sub> frequency the higher the signal intensity of the saturation offset As such, it is important to select a proper saturation pulse before experimentation.
+    </para><figure id="import-auto-idm290096224"><media id="import-auto-idm496327024" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-8ac4.png" width="200" print-width="2in"/>
+      </media>
+    <caption>Structure of lanthanide DOTA-4AmCE complex.</caption></figure><equation id="eip-78"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi>∆</m:mi>
+            <m:mi>ω</m:mi>
+            <m:mi>∙</m:mi>
+            <m:msub>
+              <m:mi>τ</m:mi>
+              <m:mi>α</m:mi>
+            </m:msub>
+            <m:mi>≥</m:mi>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">∆ω∙ {τ} rsub {α} ≥1</m:annotation>
+        </m:semantics>
+      </m:math></equation><equation id="eip-935"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>τ</m:mi>
+              <m:mi>α</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>π</m:mi>
+                <m:msub>
+                  <m:mi>B</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{τ} rsub {α} =  {1} over {2π {B} rsub {1}}</m:annotation>
+        </m:semantics>
+      </m:math></equation>
+
+   
+
+
+
+
+
+</section><section id="eip-685"><title>Running a PARACEST experiment</title>
+
+
+
+<para id="import-auto-idm514180608">Two types of experiments can be run to quantify PARACEST. The first produces quantifiable Z-spectral data and is typically run on 400 MHz spectrometers with a B1 power between 200-1000 KHz and an irradiation time between 2 and 6 seconds based on the lanthanide complex. Imaging experiments are typically performed on either clinical scanners are small bore MRI scanner at room temperature using a custom surface coil. Imaging experiments usually require the followings sequence of steps:
+    </para><list id="eip-88" list-type="enumerated" number-style="arabic" class="stepwise"><item>Bulk water spectra are collected from PARACEST using a 2 second presaturation pulse at a desired power level based on lanthanide complex.</item>
+
+<item>Following base scan, the saturation frequency is stepped between ±100 ppm (relative to the bulk water frequency at 0 ppm) in 1 ppm increments. The scanning frequency can be altered to include a wider scan if lanthanide complex has a larger chemical shift difference.</item>
+
+
+<item>Following collection of data, the bulk water signal is integrated using a Matlab program. The difference between the integrated signals measured at equivalent positive and negative saturation frequencies are plotted and subtracted using the following <link target-id="eip-398"/> and mapped to produce gradient images.</item>
+
+
+<item>To create a CEST Image the data set is first filtered to improve signal-to-noise ratio and normalized with phantom data by subtraction and color-coded.</item>
+
+
+<item>For data tools to perform CEST Imaging analysis. Please refer to the following links for free access to open source software tools: https://github.com/cest-sources/CEST_EVAL/  or  http://www.med.upenn.edu/cmroi/software-overview.html.</item>
+</list><equation id="eip-398"><m:math display="block">
+        <m:semantics>
+          <m:mfrac>
+            <m:mrow>
+              <m:msub>
+                <m:mi>S</m:mi>
+                <m:mrow>
+                  <m:mi mathvariant="italic">sat</m:mi>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="true">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>∆</m:mi>
+                        </m:mrow>
+                        <m:mi>ω</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="true">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:msub>
+              <m:mo stretchy="false">−</m:mo>
+              <m:msub>
+                <m:mi>S</m:mi>
+                <m:mrow>
+                  <m:mi mathvariant="italic">sat</m:mi>
+                  <m:mrow>
+                    <m:mo fence="true" stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>∆</m:mi>
+                        <m:mi>ω</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo fence="true" stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:msub>
+            </m:mrow>
+            <m:msub>
+              <m:mi>S</m:mi>
+              <m:mn>0</m:mn>
+            </m:msub>
+          </m:mfrac>
+          <m:annotation encoding="StarMath 5.0">{{S} rsub {sat  left (-∆ω right )} - {S} rsub {sat (∆ω)}} over {{S} rsub {0}}</m:annotation>
+        </m:semantics>
+      </m:math></equation></section>
+
+</section>
+
+
+
+
+<section id="eip-783"><title>Applications of PARACEST</title><section id="eip-114"><title>Temperature mapping</title><para id="import-auto-idm432239184">PARACEST imaging has shown to be a promising area of research in developing a noninvasive technique for temperature mapping. Sherry et. al shows a variable-temperature dependence of a lanthanide bound water molecule resonance frequency. They establish a linear correspondence over the range of 20-50 °C. Furthermore, they show a feasible analysis technique to locate the chemical shift (δ) of a lanthanide in images with high spatial resolution. By developing a plot of pixel intensity versus frequency offset they can individually identify temperature at each pixel and hence create a temperature map as shown in the <link target-id="Figure4"/>.
+    </para>
+
+<figure id="Figure4"><media id="Figure4_media" alt="">
+<image mime-type="image/png" src="../../media/Temperature.png" id="Figure4__onlineimage" width="200" print-width="2in"/>
+</media>
+<caption>Temperature map of a phantom containing 1 mL of 10 mM Eu in water at pH 7.0 in degrees Celsius. Adapted from S. Zhang, C. R. Malloy, and A. D.  Sherry, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2005, <emphasis effect="bold">127</emphasis>, 17572. </caption></figure>
+
+
+</section><section id="eip-794"><title>Zinc ion detection</title><para id="eip-538">Divalent zinc is an integral transition-metal that is prominent in many aqueous solutions and plays an important role in physiological systems. The ability to detect changes in sample concentrations of Zinc ions provides valuable information regarding a system’s. Developing specific ligands that coordinate with specific ions to enhance wate-rexchange characteristics can amplify CEST profile. In this paper, the authors develop a Eu(dotampy) sensor shown in  <link target-id="Figure5"/> for Zn ions. This authors theorize that the sensor coordinates with Zinc using its four pyridine donors in a square anti-prism manner as determined by NMR Spectroscopy by observing water exchange rates and by base catalysis by observing CEST sensitivity. Authors were unable to analyze coordination by X-ray crystallography. Following, determination of successful CEST profiles, the authors mapped in-vitro samples of varying concentrations of Zn and were successfully able to correlate image voxel intensity with Zn concentrations as shown in <link target-id="Figure8"/>. Furthermore, they were able to successfully demonstrate specificity of the sensor to Zn over Magnesium and Calcium. This application proves promising as a potential detection method for Zn ions in solutions with a range of concentrations between 5 nm to 0.12 μm. </para><figure id="Figure5"><media id="Figure5_media" alt="">
+<image mime-type="image/png" src="../../media/Eu(dotampy).png" id="Figure5__onlineimage" width="200" print-width="2in"/>
+</media>
+<caption>Structure of Eu(dotampy) where dotampy = 1,7-bis(N,N-bis(2-pyridylmethyl) aminoethylcarbamoylmethyl)-4,10-bis(butylcarbamoylmethyl)-1,4,7,10-tetraazacyclododecane. The four Pyridine rings are hypothesized to serve as coordinators with Zn leading to its CEST sensitivity and specificity.  </caption></figure>
+
+
+
+
+<figure id="Figure8"><media id=" Figure8_media" alt=""><image mime-type="image/jpg" src="../../media/Zinc Concentration" id="Figure8__onlineimage" width="300" print-width="3in"/></media><caption>CEST images of phantoms with varying concentrations of Zn in mM containing 20 mM of Eu(dotampy). The CEST images represent the intensity difference between saturation at 50 ppm and 25 ppm from bulk water. Adapted from R. Trokowski, J.  Ren, F. K. Kálmán, and  A. D.  Sherry, <emphasis effect="italics">Angew. Chemie., Int. Ed.</emphasis>, 2005, <emphasis effect="bold">44</emphasis>, 6920.</caption></figure>
+
+</section></section><section id="eip-318"><title>Bibliography</title><list id="eip-439"><item>S. Zhang, C. R. Malloy, and A. D.  Sherry, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2005, <emphasis effect="bold">127</emphasis>, 17572. </item>
+<item>A. D. Sherry and M. Woods,  <emphasis effect="italics">Annu. Rev. Biomed. Eng.</emphasis>, 2008, <emphasis effect="bold">10</emphasis>, 391.</item>
+<item>S. Forsén and  R. Hoffman,  <emphasis effect="italics">J. Chem. Phys.</emphasis>, 1963, <emphasis effect="bold">39</emphasis>, 2892.</item>
+<item>I. Hancu, W. T. Dixon, M. Woods, E. Vinogradov, A. D.  Sherry, and R. E.  Lenkinski, <emphasis effect="italics">Acta Radiol.</emphasis>, 2010, <emphasis effect="bold">51</emphasis>, 910.</item>
+<item>P. M. Winter, K. Cai, J. Chen, C. R. Adair, G. E. Kiefer, P. S. Athey, P. J. Gaffney, C. E. Buff,  J. D.  Robertson,  S. D. Caruthers, S. A. Wickline, and G. M. Lanza, <emphasis effect="italics">Magn Reson Med.</emphasis>, 2006, <emphasis effect="bold">56</emphasis>, 1384.</item>
+
+
+<item>S. Zhang, M. Merritt, D. E.  Woessner, and A. D. Sherry, 
+<emphasis effect="italics">Acc. Chem. Res.</emphasis>, 2003, <emphasis effect="bold">36</emphasis>, 783</item>
+
+<item>K. M. Ward, A. H.  Aletras, and R. S.  Balaban,  <emphasis effect="italics">J. Magn. Reson.</emphasis>, 2000, <emphasis effect="bold">143</emphasis>, 79.</item>
+<item>R. Trokowski, J.  Ren, F. K. Kálmán, and  A. D.  Sherry, <emphasis effect="italics">Angew. Chemie., Int. Ed.</emphasis>, 2005, <emphasis effect="bold">44</emphasis>, 6920.</item>
+<item>P. C. M. Van Zijl and N. N. Yadav, <emphasis effect="italics">Magn. Reson. Med.</emphasis>, 2011, <emphasis effect="bold">65</emphasis>, 927</item>
+
+</list></section>
+
+
+</content>
+</document>

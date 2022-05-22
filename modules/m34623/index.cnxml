@@ -1,0 +1,240 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Characteristic IR Vibrational Modes for Hydrocarbon Compounds</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34623</md:content-id>
+  <md:title>Characteristic IR Vibrational Modes for Hydrocarbon Compounds</md:title>
+  <md:abstract/>
+  <md:uuid>29be5aed-6152-4043-a959-64070fdc34c6</md:uuid>
+</metadata>
+
+<content>
+    <table id="id1168583493499" summary="Stretching and bending bands for alkanes.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Functional group</emphasis></entry>
+            <entry><emphasis effect="bold">Mode</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">Wavenumber range (cm<sup>-1</sup>)</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>CH<sub>3</sub></entry>
+            <entry>Asymmetric stretch</entry>
+            <entry>2962±10</entry>
+          </row>
+          <row>
+            <entry>CH<sub>3</sub></entry>
+            <entry>Symmetric stretch</entry>
+            <entry>2872±10</entry>
+          </row>
+          <row>
+            <entry>CH<sub>3</sub></entry>
+            <entry>Asymmetric bend</entry>
+            <entry>1460±10</entry>
+          </row>
+          <row>
+            <entry>CH<sub>3</sub></entry>
+            <entry>Symmetric bend (umbrella mode)</entry>
+            <entry>1375±10</entry>
+          </row>
+          <row>
+            <entry>CH<sub>2</sub></entry>
+            <entry>Asymmetric stretch</entry>
+            <entry>2926±10</entry>
+          </row>
+          <row>
+            <entry>CH<sub>2</sub></entry>
+            <entry>Symmetric stretch</entry>
+            <entry>2855±10</entry>
+          </row>
+          <row>
+            <entry>CH<sub>2</sub></entry>
+            <entry>Scissors</entry>
+            <entry>1455±10</entry>
+          </row>
+          <row>
+            <entry>CH<sub>2</sub></entry>
+            <entry>Rock</entry>
+            <entry>720±10</entry>
+          </row>
+          <row>
+            <entry>CH</entry>
+            <entry>Stretch</entry>
+            <entry>∼2900 (weak)</entry>
+          </row>
+          <row>
+            <entry>CH</entry>
+            <entry>Bend</entry>
+            <entry>∼1350 (weak)</entry>
+          </row>
+        </tbody>
+      
+
+</tgroup><caption>Stretching and bending bands for alkanes. </caption>
+</table>
+    
+    <table id="id2037515" summary="The stretching bands for alkenes.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Substitution</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">C-H stretch (cm<sup>-1</sup>)</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">C=C stretch (cm<sup>-1</sup>)</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">Out of plane bend (cm</emphasis>
+              <emphasis effect="bold">-1</emphasis>
+              <emphasis effect="bold">)</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>Vinyl </entry>
+            <entry>3090 – 3075</entry>
+            <entry>1660 - 1630</entry>
+            <entry>990±5, 910±5</entry>
+          </row>
+          <row>
+            <entry>Vinylidine </entry>
+            <entry>3090 – 3075</entry>
+            <entry>1660 - 1630</entry>
+            <entry>890±5</entry>
+          </row>
+          <row>
+            <entry><emphasis effect="italics">Cis</emphasis></entry>
+            <entry>3050 – 3000</entry>
+            <entry>1660 - 1630</entry>
+            <entry>690±10</entry>
+          </row>
+          <row>
+            <entry><emphasis effect="italics">Trans</emphasis></entry>
+            <entry>3050 – 3000</entry>
+            <entry>1680 - 1665</entry>
+            <entry>965±5</entry>
+          </row>
+          <row>
+            <entry>Tri-substituted</entry>
+            <entry>3050 – 3000</entry>
+            <entry>1680 - 1665</entry>
+            <entry>815±25</entry>
+          </row>
+          <row>
+            <entry>Tetra-substituted</entry>
+            <entry>-</entry>
+            <entry>1680 - 1665</entry>
+            <entry>-</entry>
+          </row>
+        </tbody>
+      
+
+</tgroup><caption>The stretching bands for alkenes. </caption>
+</table>
+    
+    <table id="id1168585410821" summary="The stretching bands for alkynes.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Substitution</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">C-H stretch (cm<sup>-1</sup>)</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">C≡C stretch (cm<sup>-1</sup>)</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">C-H wag (cm<sup>-1</sup>)</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>Mono-substituted </entry>
+            <entry>3350 – 3250</entry>
+            <entry>2140 – 2100</entry>
+            <entry>700 - 600</entry>
+          </row>
+          <row>
+            <entry>Di-substituted </entry>
+            <entry>-</entry>
+            <entry>2260 - 2190</entry>
+            <entry>-</entry>
+          </row>
+        </tbody>
+      
+
+</tgroup><caption>The stretching bands for alkynes. </caption>
+</table>
+    
+    <table id="id1168581384749" summary="Bands for mono- and di-substituted benzene rings.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Substitution</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">Out-of-plane C-H bending (cm<sup>-1</sup>)</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">Ring bend (cm<sup>-1</sup>)</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>Mono</entry>
+            <entry>770 – 710</entry>
+            <entry>690±10</entry>
+          </row>
+          <row>
+            <entry>Ortho</entry>
+            <entry>810 - 750</entry>
+            <entry>-</entry>
+          </row>
+          <row>
+            <entry>Meta</entry>
+            <entry>770 - 735</entry>
+            <entry>690±10</entry>
+          </row>
+          <row>
+            <entry>Para</entry>
+            <entry>860 – 790</entry>
+            <entry>-</entry>
+          </row>
+        </tbody>
+      
+</tgroup><caption>Bands for mono- and di-substituted benzene rings. </caption>
+</table>
+    
+    <table id="id1168595352288" summary="Bands for methyl groups bonded to benzene rings.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Vibration</emphasis></entry>
+            <entry>
+              <emphasis effect="bold">Wavenmber (cm<sup>-1</sup>)</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>CH<sub>3</sub> symmetric stretch</entry>
+            <entry>2925±5</entry>
+          </row>
+          <row>
+            <entry>CH<sub>3</sub> bend overtone</entry>
+            <entry>2865±5</entry>
+          </row>
+        </tbody>
+      
+</tgroup><caption>Bands for methyl groups bonded to benzene rings. </caption>
+</table>
+    
+  </content>
+</document>

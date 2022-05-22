@@ -1,0 +1,168 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Using 13-C NMR to Study Carbon Nanomaterials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46153</md:content-id>
+  <md:title>Using 13-C NMR to Study Carbon Nanomaterials</md:title>
+  <md:abstract/>
+  <md:uuid>9dc175cc-a6f9-44d4-9e52-df81338a127e</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1167764797766">
+      <title>Introduction</title>
+      <section id="import-auto-id1167764771958"><title>Carbon nanomaterial</title><para id="import-auto-id1167764792468">There are several types of carbon nanomaterial. Members of this family are graphene, single-walled carbon nanotubes (SWNT), multi-walled carbon nanotubes (MWNT), and fullerenes such as C<sub>60</sub>. Nano materials have been subject to various modification and functionalizations, and it has been of interest to develop methods that could observe these changes. Herein we discuss selected applications of <sup>13</sup>C NMR in studying graphene and SWNTs. In addition, a discussion of how <sup>13</sup>C NMR could be used to analyze a thin film of  amorphous carbon during a low-temperature annealing process will be presented. </para></section><section id="import-auto-id1167764784265">
+        <title><sup>13</sup>C NMR versus <sup>1</sup>H NMR</title>
+        <para id="import-auto-id1167764775903">Since carbon is found in any organic molecule  NMR that can analyze carbon could be very helpful,  unfortunately the major isotope, <sup>12</sup>C, is not NMR active. Fortunately, <sup>13</sup>C with a natural abundance of 1.1% is NMR active. This low natural abundance along with lower gyromagnetic ratio for <sup>13</sup>C causes  sensitivity to decrease. Due to this lower sensitivity, obtaining a <sup>13</sup>C NMR spectrum with a specific signal-to-noise ratio requires averaging more spectra than the number of spectra that would be required to average in order to get the same signal to noise ratio for a <sup>1</sup>H NMR spectrum. Although it has a lower sensitivity, it is still highly used as it discloses valuable information.</para><para id="import-auto-id1167764790382">Peaks in a <sup>1</sup>H NMR spectrum are split to <emphasis effect="italics">n + 1 </emphasis>peak, where <emphasis effect="italics">n</emphasis> is the number of hydrogen atoms on the adjacent carbon atom. The splitting pattern in <sup>13</sup>C NMR is different. First of all, C-C splitting is not observed, because the probability of having two adjacent <sup>13</sup>C is about 0.01%. Observed splitting patterns, which is due to the hydrogen atoms on the same carbon atom not on the adjacent carbon atom, is governed by the same <emphasis effect="italics">n + 1 </emphasis>rule.</para><para id="import-auto-id1167764763152">In <sup>1</sup>H NMR, the integral of the peaks are used for quantitative analysis, whereas this is problematic in <sup>13</sup>C NMR. The long relaxation process for carbon atoms takes longer comparing to that of hydrogen atoms, which also depends on the order of carbon (i.e., 1°, 2°, etc.). This causes the peak heights  to not be related to the quantity of the corresponding carbon atoms. </para><para id="import-auto-id1167764767549">Another difference between <sup>13</sup>C NMR and <sup>1</sup>H NMR is the chemical shift range. The range of the chemical shifts in a typical NMR represents the different between the minimum and maximum amount of electron density around that specific nucleus. Since hydrogen is surrounded by fewer electrons in comparison to carbon, the maximum change in the electron density for hydrogen is less than that for carbon. Thus, the range of chemical shift in <sup>1</sup>H NMR is narrower than that of <sup>13</sup>C NMR.</para></section>
+      <section id="import-auto-id1167764765169">
+        <title>Solid state NMR</title>
+        <para id="import-auto-id1167764775135"><sup>13</sup>C NMR spectra could also be recorded for solid samples. The peaks for solid samples are very broad because the sample, being solid, cannot have all anisotropic, or orientation-dependent, interactions canceled due to <emphasis effect="italics">rapid random tumbling</emphasis>. However, it is still possible to do high resolution solid state NMR by spinning the sample at 54.74° with respect to the applied magnetic field, which is called the <emphasis effect="italics">magic angle</emphasis>. In other words,  the sample  can be spun to artificially cancel the orientation-dependent interaction. In general, the spinning frequency has a considerable effect on the spectrum. </para></section>
+    </section>
+    <section id="import-auto-id1167764792224">
+      <title><sup>13</sup>C NMR of carbon nanotubes</title><para id="import-auto-id1167764791311">Single-walled carbon nanotubes contain sp<sup>2</sup> carbons. Derivatives of SWNTs contain sp<sup>3</sup> carbons in addition. There are several factors that affect the <sup>13</sup>C NMR spectrum of a SWNT sample, three of which will be reviewed in this module: <sup>13</sup>C percentage, diameter of the nanotube, and functionalization. </para><section id="import-auto-id1167764732575">
+        <title><sup>13</sup>C percentage</title>
+        <para id="import-auto-id1167764765699">For sp<sup>2</sup> carbons, there is a slight dependence of <sup>13</sup>C NMR peaks on the percentage of <sup>13</sup>C in the sample. Samples with lower <sup>13</sup>C percentage are slighted shifted downfield (higher ppm). Data are shown in <link target-id=" import-auto-id1167764732172"/>. Please note that these peaks are for the sp<sup>2</sup> carbons. </para><table id="import-auto-id1167764732172" summary="Effects of 13C percentage on the sp2 peak. Data from S. Hayashi, F. Hoshi, T. Ishikura, M. Yumura, and S. Ohshima, Carbon, 2003, 41, 3047.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>Sample</entry>
+                <entry>δ (ppm)</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>SWNTs(100%)</entry>
+                <entry>116±1</entry>
+              </row>
+              <row>
+                <entry>SWNTs(1%)</entry>
+                <entry>118±1</entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Effects of <sup>13</sup>C percentage on the sp<sup>2</sup> peak. Data from S. Hayashi, F. Hoshi, T. Ishikura, M. Yumura, and S. Ohshima, <emphasis effect="italics">Carbon</emphasis>, 2003, <emphasis effect="bold">41</emphasis>, 3047.</caption>
+</table></section>
+      <section id="import-auto-id1167775087501">
+        <title>Diameter of the nanotubes</title>
+        <para id="import-auto-id1167775578818">The peak position for SWNTs also depends on the diameter of the nanotubes. It has been reported that the chemical shift for sp<sup>2</sup> carbons decreases as the diameter of the nanotubes increases. <link target-id=" import-auto-id1167782799781"/> shows this correlation. Since the peak position depends on the diameter of nanotubes, the peak broadening can be related to the diameter distribution. In other words, the narrower the peak is, the smaller the diameter distribution of SWNTs is. This correlation is shown in <link target-id=" import-auto-id1167775118884"/>.</para><figure id="import-auto-id1167782799781"><media id="import-auto-id1167773740418" alt="">
+            <image mime-type="image/png" src="../../media/Picture 1-5ea1.png" width="200" print-width="2in"/>
+          </media>
+        <caption>Correlation between the chemical shift of the sp<sup>2</sup> carbon and the diameter of the nanotubes. The diameter of the nanotubes increases from F1 to F4. Image from C. Engtrakul, V. M. Irurzun, E. L. Gjersing, J. M. Holt, B. A. Larsen, D. E. Resasco, and J. L. Blackburn, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2012, <emphasis effect="bold">134</emphasis>, 4850. Copyright: American Chemical Society (2012).</caption></figure><figure id="import-auto-id1167775118884"><media id="import-auto-id1167768123929" alt="">
+            <image mime-type="image/png" src="../../media/Picture 2-3aec.png" width="250" print-width="2.5in"/>
+          </media>
+        <caption>Correlation between FWHM and the standard deviation of the diameter of nanotubes. Image from C. Engtrakul, V. M. Irurzun, E. L. Gjersing, J. M. Holt, B. A. Larsen, D. E. Resasco, and J. L. Blackburn, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2012, <emphasis effect="bold">134</emphasis>, 4850. Copyright: American Chemical Society (2012).</caption></figure></section>
+      <section id="import-auto-id1167772777644">
+        <title>Functionalization </title>
+        <para id="import-auto-id1167770459493">Solid stated <sup>13</sup>C NMR can also be used to analyze functionalized nanotubes. As a result of functionalizing SWNTs with groups containing a carbonyl group, a slight shift toward higher fields (lower ppm) for the sp<sup>2</sup> carbons is observed. This shift is explained by the perturbation applied to the electronic structure of the whole nanotube as a result of the modifications on only a fraction of the nanotube. At the same time, a new peak emerges at around 172 ppm, which is assigned to the carboxyl group of the substituent. The peak intensities could also be used to quantify the level of functionalization. <link target-id=" import-auto-id1167768368525"/> shows these changes, in which the substituents are –(CH<sub>2</sub>)<sub>3</sub>COOH, –(CH<sub>2</sub>)<sub>2</sub>COOH, and –(CH<sub>2</sub>)<sub>2</sub>CONH(CH<sub>2</sub>)<sub>2</sub>NH<sub>2</sub> for the spectra <link target-id=" import-auto-id1167768368525"/>b, <link target-id=" import-auto-id1167768368525"/>c, and <link target-id=" import-auto-id1167768368525"/>d, respectively. Note that the bond between the nanotube and the substituent is a C-C bond. Due to low sensitivity, the peak for the sp<sup>3</sup> carbons of the nanotube, which does not have a high quantity, is not detected.  There is a small peak around 35 ppm in <link target-id=" import-auto-id1167768368525"/>, can  be assigned to the aliphatic carbons of the substituent. </para><figure id="import-auto-id1167768368525"><media id="import-auto-id1167777083311" alt="">
+            <image mime-type="image/jpg" src="../../media/NMR.jpg" width="250" print-width="2in"/>
+          </media>
+        <caption><sup>13</sup>C NMR spectra for (a) pristine SWNT, (b) SWNT functionalized with –(CH<sub>2</sub>)<sub>3</sub>COOH, (c) SWNT functionalized with –(CH<sub>2</sub>)<sub>2</sub>COOH, and (d) SWNT functionalized with –(CH<sub>2</sub>)<sub>2</sub>CONH(CH<sub>2</sub>)<sub>2</sub>NH<sub>2</sub>. Image from H. Peng, L. B. Alemany, J. L. Margrave, and V. N. Khabashesku, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2003, <emphasis effect="bold">125</emphasis>, 15174. Copyright: American Chemical Society (2003).</caption></figure><para id="import-auto-id1167780565109">For substituents containing aliphatic carbons, a new peak around 35 ppm emerges, as was shown in <link target-id=" import-auto-id1167768368525"/>, which is due to the aliphatic carbons. Since the quantity for the substituent carbons is low, the peak cannot be detected. Small substituents on the sidewall of SWNTs can be chemically modified to contain more carbons, so the signal due to those carbons could be detected. This idea, as a strategy for enhancing the signal from the substituents, can be used to analyze certain types of sidewall modifications. For example, when Gly (–NH<sub>2</sub>CH<sub>2</sub>CO<sub>2</sub>H) was added to F-SWNTs (fluorinated SWNTs) to substitute the fluorine atoms, the <sup>13</sup>C NMR spectrum for the Gly-SWNTs was showing one peak for the sp<sup>2</sup> carbons. When the aliphatic substituent was changed to 6-aminohexanoic acid with five aliphatic carbons, the peak was detectable, and using 11-aminoundecanoic acid (ten aliphatic carbons) the peak intensity was in the order of the size of the peak for sp<sup>2</sup> carbons. In order to use <sup>13</sup>C NMR to enhance the substituent peak (for modification quantification purposes as an example), Gly-SWNTs was treated with 1-dodecanol to modify Gly to an amino ester. This modification resulted in enhancing the aliphatic carbon peak at around 30 ppm. Similar to the results in <link target-id=" import-auto-id1167768368525"/>, a peak at around 170 emerged which was assigned to the carbonyl carbon. The sp<sup>3</sup> carbon of the SWNTs, which was attached to nitrogen, produced a small peak at around 80 ppm, which is detected in a cross-polarization magic angle spinning (CP-MAS) experiment. </para><para id="import-auto-id1167772559319">F-SWNTs (fluorinated SWNTs) are reported to have a peak at around 90 ppm for the sp<sup>3</sup> carbon of nanotube that is attached to the fluorine. The results of this part are summarized in <link target-id=" import-auto-id1167768302972"/> (approximate values).</para><table id="import-auto-id1167768302972" summary="Chemical shift for different types of carbons in modified SWNTs. Note that the peak for the aliphatic carbons gets stronger if the amino acid is esterified. Data are obtained from three papers: 1) H. Peng, L. B. Alemany, J. L. Margrave, and V. N. Khabashesku, J. Am. Chem. Soc., 2003, 125, 15174. 2) L. Zeng, L. Alemany, C. Edwards, and A. Barron, Nano. Res., 2008, 1, 72. 3) L. B. Alemany, L. Zhang, L. Zeng, C. L. Edwards, and A. R. Barron, Chem. Mater., 2007, 19, 735.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>Group</entry>
+                <entry>δ (ppm)</entry>
+                <entry>Intensity</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>sp<sup>2</sup> carbons of SWNTs</entry>
+                <entry>120</entry>
+                <entry>Strong</entry>
+              </row>
+              <row>
+                <entry>–NH<sub>2</sub>(CH<sub>2</sub>)<sub>n</sub>CO<sub>2</sub>H (aliphatic carbon, n=1,5, 10)</entry>
+                <entry>20-40</entry>
+                <entry>Depends on ‘n’</entry>
+              </row>
+              <row>
+                <entry>–NH<sub>2</sub>(CH<sub>2</sub>)<sub>n</sub>CO<sub>2</sub>H (carboxyl carbon, n=1,5, 10)</entry>
+                <entry>170</entry>
+                <entry>Weak</entry>
+              </row>
+              <row>
+                <entry>sp<sup>3</sup> carbon attached to nitrogen </entry>
+                <entry>80 </entry>
+                <entry>Weak</entry>
+              </row>
+              <row>
+                <entry>sp<sup>3</sup> carbon attached to fluorine </entry>
+                <entry>90</entry>
+                <entry>Weak</entry>
+              </row>
+            </tbody>
+          
+
+</tgroup><caption>Chemical shift for different types of carbons in modified SWNTs. Note that the peak for the aliphatic carbons gets stronger if the amino acid is esterified. Data are obtained from:  H. Peng, L. B. Alemany, J. L. Margrave, and V. N. Khabashesku, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2003, <emphasis effect="bold">125</emphasis>, 15174; L. Zeng, L. Alemany, C. Edwards, and A. Barron, <emphasis effect="italics">Nano. Res.</emphasis>, 2008, <emphasis effect="bold">1</emphasis>, 72; L. B. Alemany, L. Zhang, L. Zeng, C. L. Edwards, and A. R. Barron, <emphasis effect="italics">Chem. Mater.</emphasis>, 2007, <emphasis effect="bold">19</emphasis>, 735.</caption>
+</table><para id="import-auto-id1167764778676">The peak intensities that are weak in <link target-id=" import-auto-id1167768302972"/> depend on the level of functionalization and for highly functionalized SWNTs, those peaks are not weak. The peak intensity for aliphatic carbons can be enhanced as the substituents get modified by attaching to other molecules with aliphatic carbons. Thus, the peak intensities can be used to quantify the level of functionalization. </para></section>
+    </section>
+    <section id="import-auto-id1167764771083">
+      <title><sup>13</sup>C NMR of functionalized graphene</title>
+      <para id="import-auto-id1167764765111">Graphene is a single layer of sp<sup>2</sup> carbons, which exhibits a benzene-like structure. Functionalization of graphene sheets results in converting some of the sp<sup>2</sup> carbons to sp<sup>3</sup>. The peak for the sp<sup>2</sup> carbons of graphene shows a peak at around 140 ppm. It has been reported that fluorinated graphene produces an sp<sup>3</sup> peak at around 82 ppm. It has also been reported for graphite oxide (GO), which contains –OH and epoxy substituents, to have peaks at around 60 and 70 ppm for the epoxy and the –OH substituents, respectively. There are chances for similar peaks to appear for graphene oxide. <link target-id=" import-auto-id1167764772466"/> summarizes these results. </para><table id="import-auto-id1167764772466" summary="Chemical shifts for functionalized graphene. Data are obtained from two papers: 1) M. Dubois, K. Guérin, J. P. Pinheiro, Z. Fawal, F. Masin, and A. Hamwi, Carbon, 2004, 42, 1931. 2) L. B. Casabianca, M. A. Shaibat, W. W. Cai, S. Park, R. Piner, R. S. Ruoff, and Y. Ishii, J. Am. Chem. Soc., 2010, 132, 5672.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>Type of carbon</entry>
+              <entry>δ (ppm)</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>sp<sup>2</sup></entry>
+              <entry>140</entry>
+            </row>
+            <row>
+              <entry>sp<sup>3</sup> attached to fluorine</entry>
+              <entry>80</entry>
+            </row>
+            <row>
+              <entry>sp<sup>3</sup> attached to –OH (for GO)</entry>
+              <entry>70</entry>
+            </row>
+            <row>
+              <entry>sp<sup>3</sup> attached to epoxide (for GO)</entry>
+              <entry>60</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup><caption>Chemical shifts for functionalized graphene. Data are obtained from: M. Dubois, K. Guérin, J. P. Pinheiro, Z. Fawal, F. Masin, and A. Hamwi, <emphasis effect="italics">Carbon</emphasis>, 2004, <emphasis effect="bold">42</emphasis>, 1931;  L. B. Casabianca, M. A. Shaibat, W. W. Cai, S. Park, R. Piner, R. S. Ruoff, and Y. Ishii, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2010, <emphasis effect="bold">132</emphasis>, 5672.</caption>
+</table></section>
+    <section id="import-auto-id1167764778752">
+      <title>Analyzing annealing process using <sup>13</sup>C NMR</title>
+      <para id="import-auto-id1167764772520"><sup>13</sup>C NMR spectroscopy has been used to study the effects of low-temperature annealing (at 650 °C) on thin films of amorphous carbon. The thin films were synthesized from a <sup>13</sup>C enriched carbon source (99%). There were two peaks in the <sup>13</sup>C NMR spectrum at about 69 and 142 ppm which were assigned to sp<sup>3</sup> and sp<sup>2</sup> carbons, respectively (<link target-id=" import-auto-id1167764797194"/>). The intensity of each peak was used to find the percentage of each type of hybridization in the whole sample, and the broadening of the peaks was used to estimate the distribution of different types of carbons in the sample. It was found that while the composition of the sample didn’t change during the annealing process (peak intensities didn’t  change, see <link target-id=" import-auto-id1167764797194"/>b), the  full width at half maximum (FWHM) did change (<link target-id=" import-auto-id1167764797194"/>a). The latter suggested that the structure became more ordered, i.e., the distribution of sp<sup>2</sup> and sp<sup>3</sup> carbons within the sample became more homogeneous. Thus, it was concluded that the sample turned into a more homogenous one in terms of the distribution of carbons with different hybridization, while the fraction of sp<sup>2</sup> and sp<sup>3</sup> carbons remained unchanged. </para><figure id="import-auto-id1167764797194"><media id="import-auto-id1167764790667" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-7ad1.png" width="500" print-width="5.8in"/>
+        </media>
+      <caption>a) Effect of the annealing process on the FWHM, which represents the change in the distribution of sp<sup>2</sup> and sp<sup>3</sup> carbons. b) Fractions of sp<sup>2</sup> and sp<sup>3</sup> carbon during the annealing process. Data are obtained from T. M. Alam, T. A. Friedmann, P. A. Schultz, and D. Sebastiani, <emphasis effect="italics">Phys. Rev. B.</emphasis>, 2003, <emphasis effect="bold">67</emphasis>, 245309.</caption></figure><para id="import-auto-id1167764766670">Aside from the reported results from the paper, it can be concluded that <sup>13</sup>C NMR is a good technique to study annealing, and possibly other similar processes, in real time, if the kinetics of the process is slow enough. For these purposes, the peak intensity and FWHM can be used to find or estimate the fraction and distribution of each type of carbon respectively. </para></section>
+    <section id="import-auto-id1167764765260">
+      <title>Summary</title><para id="import-auto-id1167764764591"><sup>13</sup>C NMR can reveal important information about the structure of SWNTs and graphene. <sup>13</sup>C NMR chemical shifts and FWHM can be used to estimate the diameter size and diameter distribution. Though there are  some limitations, it can be used to contain some information about the substituent type, as well as be used to quantify the level of functionalization. Modifications on the substituent can result in enhancing the substituent signal. Similar type of information can be achieved for graphene. It can also be employed to track changes during annealing and possibly during other modifications with similar time scales. Due to low natural abundance of <sup>13</sup>C it might be necessary to synthesize <sup>13</sup>C-enhanced samples in order to obtain suitable spectra with a sufficient signal-to-noise ratio. Similar principles could be used to follow the annealing process of carbon nano materials. C<sub>60</sub> will not be discussed herein.</para></section>
+    <section id="import-auto-id1167764732093">
+      <title>Bibliography</title>
+      <list id="eip-131"><item>T. M. Alam, T. A. Friedmann, P. A. Schultz, and D. Sebastiani, <emphasis effect="italics">Phys. Rev. B.</emphasis>, 2003, <emphasis effect="bold">67</emphasis>, 245309.</item>
+
+<item>L. B. Alemany, L. Zhang, L. Zeng, C. L. Edwards, and A. R. Barron, <emphasis effect="italics">Chem. Mater.</emphasis>, 2007, <emphasis effect="bold">19</emphasis>, 735.</item>
+
+
+<item>L. B. Casabianca, M. A. Shaibat, W. W. Cai, S. Park, R. Piner, R. S. Ruoff, and Y. Ishii, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2010, <emphasis effect="bold">132</emphasis>, 5672.</item>
+
+<item>M. Dubois, K. Guérin, J. P. Pinheiro, Z. Fawal, F. Masin, and A. Hamwi, <emphasis effect="italics">Carbon</emphasis>, 2004, <emphasis effect="bold">42</emphasis>, 1931.</item>
+
+<item>C. Engtrakul, V. M. Irurzun, E. L. Gjersing, J. M. Holt, B. A. Larsen, D. E. Resasco, and J. L. Blackburn, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2012, <emphasis effect="bold">134</emphasis>, 4850.</item>
+
+<item>S. Hayashi, F. Hoshi, T. Ishikura, M. Yumura, and S. Ohshima, <emphasis effect="italics">Carbon</emphasis>, 2003, <emphasis effect="bold">41</emphasis>, 3047.</item>
+
+
+<item>H. Peng, L. B. Alemany, J. L. Margrave, and V. N. Khabashesku, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2003, <emphasis effect="bold">125</emphasis>, 15174.</item>
+
+<item>L. Zeng, L. Alemany, C. Edwards, and A. Barron, <emphasis effect="italics">Nano. Res.</emphasis>, 2008, <emphasis effect="bold">1</emphasis>, 72.</item>
+
+
+
+</list></section>
+  </content>
+</document>

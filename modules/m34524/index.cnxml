@@ -1,0 +1,40 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Transmission Electron Microscopy Image for Multilayer-Nanomaterials</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34524</md:content-id>
+  <md:title>Transmission Electron Microscopy Image for Multilayer-Nanomaterials</md:title>
+  <md:abstract/>
+  <md:uuid>b3fd81ac-8e47-4874-8c74-d250f18439ee</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168946263468">Although, TEMs can only provide 2D analysis for a 3D specimen; magnifications of 300,000 times can be routinely obtained for many materials making it an ideal methodfor the study of nanomaterials. Besides from the TEM images, darker areas of the image show that the sample is thicker or denser in these areas, so we can observe the different components and structures of the specimen by the difference of color. For investigating multilayer-nanomaterials, a TEM is usually the first choice, because not only does it provide a high resolution image for nanomaterials but also it can distinguish each layer within a nanostructured material. </para>
+    <section id="id2212005">
+      <title>Observations of multilayer-nanomaterials</title>
+      <para id="id1168925536213">TEM was been used to analyze the depth-graded W/Si multilayer films. Multilayer films were grown on polished, 100 mm thick Si wafers by magnetron sputtering in argon gas. The individual tungsten and silicon layer thicknesses in periodic and depth-graded multilayers are adjusted by varying the computer-controlled rotational velocity of the substrate platen. The deposition times required to produce specific layer thicknesses were determined from detailed rate calibrations. Samples for TEM were prepared by focused ion beam milling at liquid N<sub>2</sub> temperature to prevent any beam heating which might result in re-crystallization and/or re-growth of any amorphous or fine grained polycrystalline layers in the film. </para>
+      <para id="id1168944679444">TEM measurements were made using a JEOL-4000 high-resolution transmission electron microscope operating at 400 keV; this instrument has a point-to-point resolution of 0.16 nm. Large area cross-sectional images of a depth-graded multilayer film obtained under medium magnification (~100 kX) were acquired at high resolution. A cross-sectional TEM image showed 150 layers W/Si film with the thickness of layers in the range of 3.33 ~ 29.6 nm (<link target-id="id1168921023866"/> shows a part of layers). The dark layers are tungsten and the light layers are silicon and they are separated by the thin amorphous W–Si interlayers (gray bands). By the high resolution of the TEM and the nature characteristics of the material, each layer can be distinguished clearly with their different darkness.</para>
+
+        <figure id="id1168921023866"><media id="id1168921023866_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics1-4fab.jpg" id="id1168921023866__onlineimage" width="300" print-width="3in"/>
+	</media>
+	<caption>Cross-sectional transmission electron micrograph of the top portion of a depth-graded W/Si multilayer structure. Selected bilayer indices and thicknesses are indicated. The tungsten (dark bands) and silicon (light bands) layers are separated by thin amorphous W–Si interlayers (gray bands). The topmost silicon layer is not completely visible in this image. Adapted from D. L. Windt, F. E. Christensen, W. W. Craig, C. Hailey, F. A. Harrison, M. Jimenez-Garate, R. Kalyanaraman, and P. H. Mao, <emphasis effect="italics">J. Appl. Phys.</emphasis>, 2000, <emphasis effect="bold">88</emphasis>, 460. </caption></figure>
+
+      
+      <para id="id1168931251192">Not all kinds of multilayer nanomaterials can be observed clearly under TEM. A materials consist of pc-Si:H multilayers were prepared by a photo-assisted chemical vapor deposition (photo-CVD) using a low-pressure mercury lamp as an UV light source to dissociate the gases. The pc-Si:H multilayer included low H<sub>2</sub>-diluted a-Si:H sublayers (SL’s) and highly H<sub>2</sub>-diluted a-Si:H sublayers (SH’s). Control of the CVD gas flow (H<sub>2</sub>|SiH<sub>4</sub>) under continuous UV irradiation resulted in the deposition of multilayer films layer by layer. </para>
+      <para id="id1168936396061">For a TEM measurement, a 20 nm thick undiluted a-Si:H film on a c-Si wafer before the deposition of multilayer to prevent from any epitaxial growth. <link target-id="id1168960801368"/> shows a cross-sectional TEM image of a six-cycled pc-Si:H multilayer specimen. The white dotted lines are used to emphasize the horizontal stripes, which have periodicity in the TEM image. As can be seen, there are no significant boundaries between SL and SH could be observed because all sublayers are prepared in H<sub>2</sub> gas. In order to get the more accurate thickness of each sublayer, other measurements might be necessary.</para>
+      
+      <figure id="id1168960801368"><media id="id1168960801368_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics2-6a6c.jpg" id="id1168960801368__onlineimage" width="300" print-width="3in"/>
+	</media>
+	<caption>Cross-sectional TEM image of a 6-cycled pc-Si:H multilayer. Before the multilayer deposition, a 20 nm thick a-Si:H was deposited on a c-Si substrate. Adapted from S. W. Kwon, J. Kwak, S. Y. Myong, and K. S. Lim, <emphasis effect="italics">J. Non-Cryst. Solid</emphasis>, 2006,<emphasis effect="bold"> 352</emphasis>, 1132.</caption></figure>
+      
+    </section>
+    <section id="id3589907">
+      <title>Bibliography</title>
+      <list id="id1168940497933" list-type="bulleted">
+        <item>D. L. Windt, F. E. Christensen, W. W. Craig, C. Hailey, F. A. Harrison, M. Jimenez-Garate, R. Kalyanaraman, and P. H. Mao, <emphasis effect="italics">J. Appl. Phys.</emphasis>, 2000, <emphasis effect="bold">88</emphasis>, 460.</item>
+        <item>S. W. Kwon, J. Kwak, S. Y. Myong, and K. S. Lim, <emphasis effect="italics">J. Non-Cryst. Solid</emphasis>, 2006,<emphasis effect="bold"> 352</emphasis>, 1132. </item>
+      </list>
+    </section>
+  </content>
+</document>

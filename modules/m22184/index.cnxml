@@ -1,0 +1,16 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Determining the Chemical Formula of Nonstoichiometric Iron Oxide Nanoparticles by Mossbauer Spectroscopy</title>
+  <metadata>
+  <md:content-id>m22184</md:content-id><md:title>Determining the Chemical Formula of Nonstoichiometric Iron Oxide Nanoparticles by Mossbauer Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>c342f4a2-c676-406e-b013-44cd0fff91fe</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1165458029206">
+      <title>Chemical formula determination</title>
+      <para id="id1165458736137"> Magnetite (Fe<sub>3</sub>O<sub>4</sub>) nanoparticles (n-Mag) are nanometer sized, superparamagnetic, have high saturation magnetization, high magnetic susceptibility, and low toxicity. These properties could be utilized for many possible applications; hence, n-Mag has attracted much attention in the scientific community. Some of the potential applications include drug delivery, hyperthermia agents, MRI contrast agents, cell labeling, and cell separation to name a few.</para>
+      <para id="id1165450934380">The crystal structure of n-Mag is cubic inverse spinel with Fe<sup>3+</sup> cations occupying the interstitial tetrahedral sites(A) and Fe<sup>3+</sup> along with Fe<sup>2+</sup> occupying the interstitial octahedral sites(B) of an FCC latticed of O<sup>2-</sup>. Including the site occupation and charge of Fe, the n-Mag chemical formula can be written (Fe<sup>3+</sup>)<sub>A</sub>(Fe<sup>2+</sup>Fe<sup>3+</sup>)<sub>B</sub>O<sub>4</sub>. Non-stoichiometric iron oxide results from B-site vacancies in the crystal structure. To maintain balanced charge and take into account the degree of B-site vacancies the iron oxide formula is written (Fe<sup>3+</sup>)<sub>A</sub>(Fe<sub>(1-3x)</sub><sup>2+</sup> Fe<sub>(1+2X)</sub><sup>3+</sup>Ø<sub>x</sub>)<sub>B</sub>O<sub>4</sub> where Ø represents B-site vacancy. The extent of B-site vacancy has a significant effect on the magnetic properties of iron oxide and in the synthesis of n-Mag stoichiometric iron oxide is not guaranteed; therefore, B-site vacancy warrants attention in iron oxide characterization, and can be addressed using Mossbauer spectroscopy.</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,21 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Synthesis of Magnetite Nanoparticles</title>
+  <metadata>
+  <md:content-id>m22167</md:content-id><md:title>Synthesis of Magnetite Nanoparticles</md:title>
+  <md:abstract/>
+  <md:uuid>3edb4bd0-c78a-432f-b64b-ed74bba8b0bc</md:uuid>
+</metadata>
+
+<content>
+
+
+      <para id="id1164663904761"> Numerous schemes have been devised to synthesize magnetite nanoparticles (nMag). The different methods of nMag synthesis can be generally grouped as aqueous or non-aqueous according to the solvents used. Two of the most widely used and explored methods for nMag synthesis are the aqueous co-precipitation method and the non-aqueous thermal decomposition method.</para>
+      <para id="id1164660133363">The co-precipitation method of nMag synthesis consists of precipitation of Fe<sub>3</sub>O<sub>4</sub> (nMag) by addition of a strong base to a solution of Fe<sup>2+</sup> and Fe<sup>3+</sup> salts in water. This method is very simple, inexpensive and produces highly crystalline nMag. The general size of nMag produced by co-precipitation is in the 15 to 50 nm range and can be controlled by reaction conditions, however a large size distribution of nanoparticles is produced by this method. Aggregation of particles is also observed with aqueous methods.</para>
+      <para id="id1164664052614">The thermal decomposition method consists of the high temperature thermal decomposition of an iron-oleate complex derived from an iron precursor in the presence of surfactant in a high boiling point organic solvent under an inert atmosphere. For the many variations of this synthetic method many different solvents and surfactants are used. However, in most every method nMag is formed through the thermal decomposition of an iron-oleate complex to form highly crystalline nMag in the 5 to 40 nm range with a very small size distribution. The size of nMag produced is a function of reaction temperature, the iron to surfactant ratio, and the reaction time, and various methods are used that achieve good size control by manipulation of these parameters. The nMag synthesized by organic methods is soluble in organic solvents because the nMag is stabilized by a surfactant surface coating with the polar head group of the surfactant attached to and the hydrophobic tail extending away from the nMag (<link target-id="id1164662539667"/>). An example of a thermal decomposition method is shown in <link target-id="id1164662539667"/>.</para>
+      <para id="id1164659930007"><figure id="id1164662539667"><media id="id1164662539667_media" alt=""><image mime-type="image/png" src="../../media/graphics1-d854.png" id="id1164662539667__onlineimage" height="164" width="649"/></media><caption>Top - The reaction equation for this method shows the iron precursor = iron oxo-hydrate, surfactant = oleic acid (OA), and solvent = 1-octadecene.  The intermediate iron-oleate complex which thermally decomposes to nMag is formed upon heating the reaction mixture to the 320 °C reaction temperature.  Bottom - TEM images showing size control by reaction time (time decreases left to right, constant molar ratio Fe:OA = 1:4 mol, and constant reaction temp T = 320 °C) and small size distribution of nMag.  Right - Cartoon of surfactant coated nMag.</caption></figure></para>
+   
+<section id="eip-796"><title>Bibliography</title><list id="eip-404"><item>A. Vioux, <emphasis effect="italics"> Chem. Mater.</emphasis> , 1997, <emphasis effect="bold">9</emphasis> , 2292.</item>
+
+</list></section>
+  </content>
+</document>

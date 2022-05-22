@@ -1,0 +1,107 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Fluorescence Correlation Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55523</md:content-id>
+  <md:title>Fluorescence Correlation Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>0fb462ce-3d4f-4dd5-8e83-1f2aa497422e</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164584869710">
+      <title>Introduction</title>
+      <para id="import-auto-id1164584865577">Florescence correlation spectroscopy (FCS) is an experimental technique that that measures fluctuations in fluorescence intensity caused by the Brownian motion of particles. Fluorescence is a form of luminescence that involves the emission of light by a substance that has absorbed light or other electromagnetic radiation. Brownian motion is the random motion of particles suspended in a fluid that results from collisions with other molecules or atoms in the fluid.  The initial experimental data is presented as intensity over time but statistical analysis of fluctuations makes it possible to determine various physical and photo-physical properties of molecules and systems. When combined with analysis models, FCS can be used to find diffusion coefficients, hydrodynamic radii, average concentrations, kinetic chemical reaction rates, and single-triplet state dynamics. Singlet and triplet states are related to electron spin. Electrons can have a spin of (+1/2) or (-1/2). For a system that exists in the singlet state, all spins are paired and the total spin for the system is ((-1/2) + (1/2)) or 0. When a system is in the triplet state, there exist two unpaired electrons with a total spin state of 1. </para>
+    </section>
+    <section id="import-auto-id1164584869377">
+      <title>History</title>
+      <para id="import-auto-id1164584871586">The first scientists to be credited with the application of fluorescence to signal-correlation techniques were Douglas Magde, Elliot L. Elson, and Walt W.Webb, therefore they are commonly referred to as the inventors of FCS. The technique was originally used to measure the diffusion and binding of ethidium bromide  (<link target-id="molecule"/>) onto double stranded DNA.</para><figure id="molecule"><media id="EB" alt="ethindium bromide">
+    <image mime-type="image/png" src="../../media/figure1.png" width="300" print-width="3in"/>
+  </media>
+  
+<caption>Structure of ethindium bromide, the molecule used in the first experiment involving FCS. 
+  </caption></figure><para id="import-auto-id1164577201427">Initially, the technique required high concentrations of fluorescent molecules and was very insensitive. Starting in 1993, large improvements in technology and the development of confocal microscopy and two-photon microscopy were made, allowing for great improvements in the signal to noise ratio and the ability to do single molecule detection. Recently, the applications of FCS have been extended to include the use of <emphasis effect="italics">Förster</emphasis> Resonance Energy Transfer (FRET), the cross-correlation between two fluorescent channels instead of auto correlation, and the use of laser scanning. Today, FCS is mostly used for biology and biophysics.</para></section>
+    <section id="import-auto-id1164584871355">
+      <title>Instrumentation</title>
+      <para id="import-auto-id1164584871142">A basic FCS setup (<link target-id="setup"/>) consists of a laser line that is reflected into a microscope objective by a dichroic mirror. The laser beam is focused on a sample that contains very dilute amounts of fluorescent particles so that only a few particles pass through the observed space at any given time. When particles cross the focal volume (the observed space) they fluoresce. This light is collected by the objective and passes through the dichroic mirror (collected light is red-shifted relative to excitation light), reaching the detector. It is essential to use a detector with high quantum efficiency (percentage of photons hitting the detector that produce charge carriers). Common types of detectors are a photo-multiplier tube (rarely used due to low quantum yield), an avalanche photodiode, and a super conducting nanowire single photo detector. The detector produces an electronic signal that can be stored as intensity over time or can be immediately auto correlated. It is common to use two detectors and cross- correlate their outputs leading to a cross-correlation function that is similar to the auto correlation function but is free from after-pulsing (when a photon emits two electronic pulses). As mentioned earlier, when combined with analysis models, FCS data can be used to find diffusion coefficients, hydrodynamic radii, average concentrations, kinetic chemical reaction rates, and single-triplet dynamics. </para><figure id="setup"><media id="basic" alt="FCS set-up">
+    <image mime-type="image/png" src="../../media/figure2.png" width="400" print-width="4in"/>
+  </media>
+  
+<caption>Basic FCS set-up. Close up of the objective reveals how particles in the sample move in and out of the observable range of the objective (particles move in and out of laser light in the observed volume)
+  </caption></figure></section>
+    <section id="import-auto-id1164584869387">
+      <title>Analysis</title>
+      <para id="import-auto-id1164584865275">When particles pass through the observed volume and fluoresce, they can be described mathematically as point spread functions, with the point of the source of the light being the center of the particle. A point spread function (PSF) is commonly described as an ellipsoid with measurements in the hundreds of nanometer range (although not always the case depending on the particle). With respect to confocal microscopy, the PSF is approximated well by a Gaussian, <link target-id="eip-615"/>, where I<sub>0</sub> is the peak intensity, r and z are radial and axial position, and w<sub>xy</sub> and w<sub>z</sub> are the radial and axial radii (with w<sub>z</sub> &gt; w<sub>xy</sub>).</para><equation id="eip-615"><media id="eq1" alt="equation 1">
+    <image mime-type="image/png" src="../../media/equation1.png" width="200" print-width="2in"/>
+  </media>
+  </equation><para id="import-auto-id1164584871559">This Gaussian is assumed with the auto-correlation with changes being applied to the equation when necessary (like the case of a triplet state, chemical relaxation, etc.). For a Gaussian PSF, the autocorrelation function is given by <link target-id="eip-928"/>, where <link target-id="eip-890"/> is the stochastic displacement in space of a fluorophore after time τ.
+
+</para><equation id="eip-928"><media id="eq2" alt="equation 2">
+    <image mime-type="image/png" src="../../media/equation2.png" width="300" print-width="3in"/>
+  </media>
+  
+</equation><equation id="eip-890"><media id="eq3" alt="equation 3">
+    <image mime-type="image/png" src="../../media/equation3.png" width="200" print-width="2in"/>
+  </media>
+  
+</equation><para id="import-auto-id1164584870102">The expression is valid if the average number of particles, N, is low and if dark states can be ignored. Because of this, FCS observes a small number of molecules (nanomolar and picomolar concentrations), in a small volume (~1μm<sup>3</sup>) and does not require physical separation processes, as information is determined using optics. After applying the chosen autocorrelation function, it becomes much easier to analyze the data and extract the desired information (<link target-id="figure3"/>).</para><figure id="figure3"><media id="spectra" alt="FCS auto-correlation spectra">
+    <image mime-type="image/png" src="../../media/figure4.png" width="500" print-width="4in"/>
+  </media>
+  
+<caption>Auto-correlated spectra of spherical 100 nm dye labeled agarose beads diffusing in water. Here it can be seen that after the autocorrelation function was applied to the raw data using mathematical software, the fluorescence exponential decay curve was derived for the sample. From this curve it is possible to calculate the average lifetime of the dye. </caption></figure></section>
+    <section id="import-auto-id1164584871478">
+      <title>Application</title>
+      <para id="import-auto-id1164584869842">FCS is often seen in the context of microscopy, being used in confocal microscopy and two-photon excitation microscopy. In both techniques, light is focused on a sample and fluorescence intensity fluctuations are measured and analyzed using temporal autocorrelation. The magnitude of the intensity of the fluorescence and the amount of fluctuation is related to the number of individual particles; there is an optimum measurement time when the particles are entering or exiting the observation volume. When too many particles occupy the observed space, the overall fluctuations are small relative to the total signal and are difficult to resolve. On the other hand, if the time between molecules passing through the observed space is too long, running an experiment could take an unreasonable amount of time. One of the applications of FCS is that it can be used to analyze the concentration of fluorescent molecules in solution. Here, FCS is used to analyze a very small space containing a small number of molecules and the motion of the fluorescence particles is observed. The fluorescence intensity fluctuates based on the number of particles present; therefore analysis can give the average number of particles present, the average diffusion time, concentration, and particle size. This is useful because it can be done in vivo, allowing for the practical study of various parts of the cell. FCS is also a common technique in photo-physics, as it can be used to study triplet state formation and photo-bleaching. State formation refers to the transition between a singlet and a triplet state while photo-bleaching is when a fluorophore is photo-chemically altered such that it permanently looses its ability to fluoresce. By far, the most popular application of FCS is its use in studying molecular binding and unbinding often, it is not a particular molecule that is of interest but, rather, the interaction of that molecule in a system. By dye labeling a particular molecule in a system, FCS can be used to determine the kinetics of binding and unbinding (particularly useful in the study of assays). </para></section>
+    <section id="import-auto-id1164584871465">
+      <title>Main advantages and limitations</title>
+      <table id="import-auto-id1164584869661" summary="Advantages and limitations of PCS.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Advantage</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Limitation</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Can be used in vivo</entry>
+              <entry>Can be noisy depending on the system </entry>
+            </row>
+            <row>
+              <entry>Very sensitive</entry>
+              <entry>Does not work if concentration of dye is too high</entry>
+            </row>
+            <row>
+              <entry>The same instrumentation can perform various kinds of experiments</entry>
+              <entry>Raw data does not say much, analysis models must be applied</entry>
+            </row>
+            <row>
+              <entry>Has been used in various studies, extensive work has been done to establish the technique</entry>
+              <entry>If system deviates substantially  from the ideal, analysis models can be difficult to apply (making corrections hard to calculate).</entry>
+            </row>
+            <row>
+              <entry>A large amount of information can be extracted from one set of data if proper analysis models are used.</entry>
+              <entry>It may require more calculations to approximate PSF, depending on the particle shape.</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup><caption>Advantages and limitations of PCS. </caption>
+</table></section>
+    <section id="import-auto-id1164584869839"><title>Bibliography</title><list id="eip-4"><item>D. Magde, E. Elson, and W. W. Webb, <emphasis effect="italics">Phys. Rev. Lett.</emphasis> , 1972, <emphasis effect="bold">29</emphasis>, 705. </item>
+<item>O. Krichevsky and G. Bonnet, <emphasis effect="italics">Rep. Prog. Phys.</emphasis>, 2002,<emphasis effect="bold"> 65</emphasis>, 251. </item>
+
+<item>S. Roy, R. Woolley, B.D. MacCraith, and C. McDonagh, <emphasis effect="italics">Langmuir.</emphasis>, 2010, <emphasis effect="bold">26</emphasis>, 13741. </item>
+
+<item>T. Hess, S. Huang, A. A. Heikal, and W.W. Webb, <emphasis effect="italics">Biochemistry.</emphasis>, 2002, <emphasis effect="bold">41</emphasis>, 697. </item>
+</list>
+
+
+
+    </section></content>
+</document>

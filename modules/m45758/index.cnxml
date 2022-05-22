@@ -1,0 +1,145 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>A Practical Guide to Using the Nanoscope Atomic Force Microscope</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45758</md:content-id>
+  <md:title>A Practical Guide to Using the Nanoscope Atomic Force Microscope</md:title>
+  <md:abstract>This guide was written with the intent of helping first time users or users who have not used atomic force microscopy in some time. It is not intended to replace formal training but is what it states a practical guide. In particular this guide was written for use on Digital Instrument Nanoscope IIIA Atomic Force Microscopes owed by William Marsh Rice University and maintained by the Shared Equipment Authority. For formal training please contact this organization. Due to the nature of research at Rice University this guide has particular use when dealing with nanoparticle imaging and as such deals with the analysis of nanoparticles on Mica surfaces.</md:abstract>
+  <md:uuid>31ce5355-a71c-44c3-927b-690853dd514b</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1169923965120">The following is intended as a guide for use of the Nanoscope AFM system within the Shared Equipment Authority at Rice University (<link url="http://sea.rice.edu/"><emphasis effect="underline">http://sea.rice.edu/</emphasis></link>). However, it can be adapted for similar AFM instruments. </para>
+    <note id="eip-67">Please familiarize yourself with the Figures. All relevant parts of the AFM setup are shown. </note><section id="import-auto-id1169925181258">
+      <title>Initial setup</title>
+      
+      <list id="import-auto-id1169925733266" list-type="enumerated" number-style="arabic" class="stepwise"><item>Sign in.</item>
+        <item>Turn on each component shown in <link target-id="import-auto-id1169930720723"/>. <list id="import-auto-id1169930761658" list-type="enumerated" number-style="arabic"><item>The controller that powers the scope (the switch is at the back of the box).</item><item>The camera monitor. </item><item>The white light source.</item></list></item>
+        <item>Select imaging mode using the mode selector switch is located on the left hand side of the atomic force microscope (AFM) base (<link target-id="import-auto-id1169939079591"/>), there are three modes: <list id="import-auto-id1169927758170" list-type="enumerated" number-style="arabic"><item>Scanning tunneling microscopy (STM). </item><item>Atomic force microscopy/lateral force microscopy (AFM/LFM).</item><item>Tapping mode atomic force microscopy (TM-AFM). </item></list></item>
+      </list><figure id="import-auto-id1169930720723"><media id="import-auto-id1169939166756" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-531f.png" width="400" print-width="4in"/>
+        </media>
+      <caption>Schematic representation of the AFM computer, light source, camera set-up, and sample puck.  </caption></figure><figure id="import-auto-id1169939079591"><media id="import-auto-id1169924944570" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-074e.png" width="400" print-width="4in"/>
+        </media>
+      <caption>Schematic representation of the AFM. </caption></figure></section>
+    <section id="import-auto-id1169926464110">
+      <title>Sample preparation </title>
+      <para id="import-auto-id1169926868197">Most particulate samples are imaged by immobilizing them onto mica sheet, which is fixed to a metal puck (FIGURE 1). Samples that are in a solvent are easily deposited. To make a sample holder a sheet of Mica is punched out and stuck to double-sided carbon tape on a metal puck. In order to ensure a pristine surface, the mica sheet is cleaved by removing the top sheet with Scotch™ tape to reveal a pristine layer underneath. The sample can be spin coated onto the mica or air dried. </para>
+      <para id="import-auto-id1169939041120">The spin coat method;</para><list id="eip-790"><item>Use double-sided carbon sticky tape to secure the puck on the spin coater.</item>
+<item>Load the sample by drop casting the sample solution onto the mica surface.</item>
+<item>The sample must be dry to ensure that the tip remains clean.</item>
+
+
+
+
+
+</list></section>
+    <section id="import-auto-id1169926702220">
+      <section id="import-auto-id8315144">
+        <title>Puck mounting</title>
+        <list id="import-auto-id1169926294471" list-type="enumerated" number-style="arabic" class="stepwise"><item>Place the sample puck in the magnetic sample holder, and center the sample.</item>
+          <item>Verify that the AFM head is sufficiently raised to clear the sample with the probe. The sample plane is lower than the plane defined by the three balls. The sample should sit below the nubs. Use the lever on the right side of the J-scanner to adjust the height. (N.B. the labels up and down refer to the tip. “Tip up” moves the sample holder down to safety, and tip down moves the sample up. Use caution when moving the sample up.)</item>
+          <item>Select the appropriate cantilever for the desired imaging mode. The tips are fragile and expensive (<emphasis effect="italics">ca.</emphasis> $20 per tip) so handle with care.<list id="import-auto-id1169926352432" list-type="bulleted" bullet-style="bullet"><item>Contact AFM use a silicon nitride tip (NP).</item><item>Tapping AFM use a silicon tip (TESP). </item></list></item>
+        </list></section>
+      <section id="import-auto-id1169930914735">
+        <title>Tip mounting and alignment </title>
+        <list id="eip-444" list-type="enumerated" number-style="arabic" class="stepwise"><item>Mount a tip using the appropriate fine tweezers. Use the tweezers carefully to avoid possible misalignment. Work on a white surface (a piece of paper or a paper towel) so that the cantilever can be easily seen. The delicate part of the tip the cantilever is located at the beveled end and should not be handled at that end (shown in <link target-id="import-auto-id1169924847013"/>). The tips are stored on a tacky gel tape. Use care, as dropping the tip will break the cantilever. Think carefully about how you approach the tip with the tweezers. Generally gripping it from the side is the best option. Once the tip is being held by the tweezers it needs to be placed in the tip holder clamp. With one hand holding the tweezers, use the other hand to open the clip by pressing down on the whole holder while it is lying on a flat hard surface. Once the clip is raised by downward pressure insert the tip (<link target-id="import-auto-id1169926245572"/>a). Make sure the tip is seated firmly and that the back end is in contact with the end of the probe groove, there is a circular hole in the clamp. When the clamp holds the tip the hole should look like a half moon, with half filled with the back straight end of the tip. The groove is larger than the tip, so try to put the tip in the same place each time you replace it to improve reproducibility.</item>
+<item>Carefully place the tip holder onto the three nubs to gently hold it in place. Bring the holder in at angle to avoid scraping it against the sample (<link target-id="import-auto-id1169926245572"/>b).</item>
+<item>Tighten the clamping screw located on the back of the AFM head to secure the cantilever holder and to guarantee electrical contact. The screw is on the back of the laser head, at the center.</item>
+<item>Find the cantilever on the video display. Move the translational stage to find it.</item>
+<item>Adjust the focusing knob of the optical microscope (located above AFM head) to focus on the cantilever tip. Tightening the focus knob moves the camera up. Focus on the dark blob on the right hand side of the screen as that is the cantilever.</item>
+<item>Focus on the top mica surface, being careful not to focus on the bottom surface between the top of the double-sided carbon tape and the mica surface. Generally you will see a bubble trapped between the carbon tape and the mica surface. If you are focused on the top surface you can frequently see the reflection of the tip on the mica surface. The real focus is half way between the two cantilever focus points.</item>
+<item>Slowly lower the tip down to the surface, if the camera is focused properly onto the surface the cantilever tip will gradually come into view. Keep lowering until the two tips images converge into one. Please note that you can crash the tip into the surface if you go past this point. This is damaging to the tip and may not be possible to obtain an image if it happens, and the tip may have to be replaced. You will know if this happens when looking at the cantilever tip if it goes from black to bright white. At this point the tip is in contact with the surface and turns white as it is not reflecting light back into the photo-diode , but instead into the camera.</item>
+<item>Find the laser spot, it the spot is not visible on the camera screen look at the cantilever holder and see if it was visible. It helps to lower the brightness of the white light, use the translational stage again to search for it.</item>
+<item>Once the laser spot has been located use the X and Y laser adjustment knobs to align the laser spot roughly onto the tip of the cantilever.</item>
+<item>Maximize the sum signal using the photo-detector mirror lever located on the back of the head and the laser X and Y translation. As long as the sum signal value is above 3.6 V, the instrument will work, but keep adjusting the X and Y directions of the laser until the sum signal is as high as possible.</item>
+<item>To ensure that the laser is centered on the photodiode, zero the detector signals using the mirror adjustment knobs located on the top and back of the head. The knob on the top of the head adjusts TMAFM mode, and the knob at the rear of the head adjusts AFM/LFM mode. The range is -9.9 V to 9.9 V in both modes. The number will change slowly at the extremes of the range and quickly around 0 V. Ideally, the zeroed signal should be between ±0.1 V. Do this first in TMAFM mode, then switch to AFM/LFM mode and try to zero the detector.  Flip back and forth between the two modes a few times (adjusting each time) until the value in both modes is as close to 0 V as possible.  It will fluctuate during the experiment. If there is steady drift, you can adjust it during the experiment. If the number won’t settle down, the laser could be at a bad position on the cantilever. Move the laser spot and repeat (<link target-id="import-auto-id2723112"/>). Always end this step in TMAFM mode.</item>
+<item>Focus again on the sample surface.</item>
+<item>The sample surface can still be moved with respect to the camera via the sample stage. In choosing a place to image nanoparticles, avoid anything that you can see on the sample surface. The scale on the screen is 18 µm per cm.</item></list><figure id="import-auto-id1169924847013"><media id="import-auto-id1169927266962" alt="">
+            <image mime-type="image/png" src="../../media/Picture 22-73e7.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Schematic views of the AFM tip. </caption></figure><figure id="import-auto-id1169926245572"><media id="import-auto-id1169926760144" alt="">
+            <image mime-type="image/png" src="../../media/Picture 16-2e8b.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Schematic view of (a) the tip holder and (b) the tip holder location in the AFM. </caption></figure><figure id="import-auto-id2723112"><media id="import-auto-id1169926281866" alt="">
+            <image mime-type="image/png" src="../../media/Picture 14-038a.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Schematic of the laser set-up. </caption></figure></section>
+    </section>
+    <section id="import-auto-id1169930650039">
+      <title>Tip tuning </title>
+      <list id="import-auto-id1169925025512" list-type="enumerated" number-style="arabic" class="stepwise"><item>Log onto computer.</item>
+        <item>The software is called Nanoscope. Close the version dialog box. Typically the screen on the left will allow adjustment of software parameters, and the screen on the right will show the data. </item>
+        <item>On the adjustment screen, the two icons are to adjust the microscope (a picture of a microscope) and to perform data analysis (a picture of a rainbow). Click the microscope icon.</item>
+        <item>Under the microscope pull down menu, choose profile and select tapping AFM. Don’t use another users profile. Use the “tapping” AFM.</item>
+        <item>Before beginning tapping mode, the cantilever must be tuned to ensure correct operation. Each tip has its own resonance frequency. The cantilever can be blindly auto-tuned or manually tuned. However the auto-tuning scheme can drive the amplitude so high as to damage the tip.</item>
+      </list><section id="import-auto-id1169938854415">
+        <title>Auto-tuning</title>
+        <list id="import-auto-id1169927032789" list-type="enumerated" number-style="arabic" class="stepwise"><item>Click on the cantilever tune icon.</item>
+          <item>Click the auto-tune button. The computer will enter the tuning procedure, automatically entering such parameters as set point and drive amplitude. If tuned correctly, the drive frequency will be approximately 300 Hz.</item>
+        </list></section>
+      <section id="import-auto-id1169925169430">
+        <title>Manually tuning</title>
+        <list id="import-auto-id1169930837689" list-type="enumerated" number-style="arabic" class="stepwise"><item>Click on the cantilever tune icon.</item>
+          <item>Select manual tuning under the sweep controls menu.</item>
+          <item>The plot is of amplitude (white) and phase (yellow) versus frequency. The sweep width is the X-range. The central frequency is the driving frequency which should be between 270-310 Hz. Typically the initial plot will not show any peaks, and the X and Y settings will need to be adjusted in order to see the resonance plot.</item>
+          <item>Widen the spectral window to about 100 Hz. The 270 – 310 Hz window where the driving frequency will be set needs to be visible.</item>
+          <item>To zoom in use the green line (this software is not click and drag!):<list id="import-auto-id1169938168919" list-type="bulleted" bullet-style="bullet"><item>Left click separation.</item><item>Left click position.</item><item>Right click to do something.</item><item>Right click to clear lines.</item></list></item>
+          <item>If a peak is clipped, change the drive amplitude. Ideally this will be between 15 and 20 mV, and should be below 500 mV. If a white line is not visible (there should be a white line along the bottom of the graph), the drive amplitude must be increased.</item>
+          <item>Ideally the peak will have a regular shape and only small shoulders. If there is a lot of noise, re-install the tip and things could improve. (Be careful as the auto-tuning scheme can drive the amplitude so high as to damage the tip.)</item>
+          <item>At this point, auto-tuning is okay. We can see that the parameters are reasonable. To continue the manual process, continue following these steps.</item>
+          <item>Adjust the drive amplitude so that the peak is at 2.0 V.</item>
+          <item>Amplitude set point while tuning corresponds to the vertical off set. If it is set to 0, the green line is 0.</item>
+          <item>Position the drive frequency not at the center of the peak, but instead at 5% toward the low energy (left) of the peak value. This offset is about <sup>4</sup>/<sub>10</sub><sup>th</sup> of a division. Right click three times to execute this change. This accounts for the damping that occurs when the tip approaches the sample surface.</item>
+          <item>Left monitor - channel 2 dialogue box - click zero phase.</item>
+        </list></section>
+    </section>
+    <section id="import-auto-id1169927771384">
+      <title>Image acquisition </title>
+      <list id="import-auto-id1169925172968" list-type="enumerated" number-style="arabic" class="stepwise"><item>Click the eyeball icon for image mode.</item>
+        <item>Parameter adjustments.<list id="import-auto-id1169926502615" list-type="bulleted" bullet-style="bullet"><item>Other controls.</item><item>Microscope mode: tapping. </item><item>Z-limit max height: 5.064 µm. This can be reduced if limited in Z-resolution. </item><item>Color table: 2.</item><item>Engage set point: 1.00.</item><item>Serial number of this scanner (double check since this has the factory parameter and is different from the other AFM). </item><item>Parameter update retract; disabled.</item></list></item>
+        <item>Scan controls:<list id="import-auto-id8750318" list-type="bulleted" bullet-style="bullet"><item>Scan size: 2 µm. Be careful when changing this value – it will automatically go between µm and nm (reasonable values are from 200 nm to 100 µm). </item><item>Aspect ratio: 1 to 1.</item><item>X and Y offset: 0.</item><item>Scan angle (like scan rotation): raster on the diagonal.</item><item>Scan rate: 1.97 Hz is fast, and 100 Hz is slow.</item></list></item>
+        <item>Feedback control:<list id="import-auto-id1169926629622" list-type="bulleted" bullet-style="bullet"><item>SPM: amplitude.</item><item>Integral gain: 0.5 (this parameter and the next parameter may be changed to improve image). </item><item>Proportional gain: 0.7.</item><item>Amplitude set point: 1 V.</item><item>Drive frequency: from tuning.</item><item>Drive amplitude: from tuning.</item></list></item>
+        <item>Once all parameters are set, click engage (icon with green arrow down) to start engaging cantilever to sample surface and to begin image acquisition. The bottom of the screen should be “tip secured”. When the tip reaches the surface it automatically begins imaging.</item>
+        <item>If the amplitude set point is high, the cantilever moves far away from the surface, since the oscillation is damped as it approaches. While in free oscillation (set amplitude set point to 3), adjust drive amplitude so that the output voltage (seen on the scope) is 2 V. Big changes in this value while an experiment is running indicate that something is on the tip. Once the output voltage is at 2 V, bring the amplitude set point back down to a value that puts the z outer position line white and in the center of the bar on the software (1 V is very close).</item>
+        <item>Select channel 1 data type – height. Select channel 2 data type - amplitude. Amplitude looks like a 3D image and is an excellent visualization tool or for a presentation. However the real data is the height data.</item>
+        <item>Bring the tip down (begin with amplitude set point to 2). The goal is to tap hard enough to get a good image, but not so hard as to damage the surface of the tip. Set to 3 clicks bellow jus touching by further lowering amplitude set point with 3 left arrow clicks on the keyboard. The tip Z-center position scale on the right hand screen shows the extension on the piezo scanner. When the tip is properly adjusted, expect this value to be near the center.</item>
+        <item>Select view/scope mode (the scope icon). Check to see if trace and retrace are tracking each other. If so, the lines should look the same, but they probably will not overlap each other vertically or horizontally. If they are tracking well, then your tip is scanning the sample surface and you may return to view/image mode (the image icon). If they are not tracking well, adjust the scan rate, gains, and/or set point to improve the tracking. If tracing and retrace look completely different, you may need to decrease the set point to improve the tracking. If trace and retrace look completely different, you may need to decrease the set point one or two clicks with the left arrow key until they start having common features in both directions. Then reduce the scan rate: a reasonable value for scan sizes of 1-3 µm would be 2 Hz. Next try increasing the integral gain. As you increase the integral gain, the tracking should improve, although you will reach a value beyond which the noise will increase as the feedback loop starts to oscillate. If this happens, reduce gains, if trace and retrace still do not track satisfactorily, reduce the set point again. Once the tip is tracking the surface, choose view/image mode.</item>
+        <item>Integral gain controls the amount of integrated error signal used in the feedback calculation. The higher this parameter is set, the better the tip will track the same topography. However, if it is set too high, noise due to feedback oscillation will be introduced into the scan.</item>
+        <item>Proportional gain controls the amount of proportional arrow signal used in the feedback calculation.</item>
+        <item>Once amplitude set point is adjusted with the phase data, change channel 2 to amplitude. The data scale can be changed (it is the same as for display as it does not affect the data). In the amplitude image, lowering the voltage increases the contrast.</item>
+        <item>Move small amounts on the image surface with X and Y offset to avoid large, uninteresting objects. For example, setting the Y offset to -2 will remove features at the bottom of the image, thus shifting the image up. Changing it to -3 will then move the image one more unit up. Make sure you are using µm and not nm if you expect to see a real change.</item>
+        <item>To move further, disengage the tip (click the red up arrow icon so that the tip moves up 25 µm and secures). Move upper translational stage to keep the tip in view in the light camera. Re-engage the tip.</item>
+        <item>If the shadow in the image is drawn out, the amplitude set point should be lowered even further. The area on the image that is being drawn is controlled by the frame pull-down menu (and the up and down arrows). Lower the set point and redraw the same neighborhood to see if there is improvement. The proportional and integral gain can also be adjusted.</item>
+        <item>The frame window allows you to restart from the top, bottom, or a particular line.</item>
+        <item>Another way to adjust the amplitude set point value is to click on signal scope to ensure trace and retrace overlap. To stop Y rastering, slow scan axis.</item>
+        <item>To take a better image, increase the number of lines (512 is max), decrease the speed (1 Hz), and lower the amplitude set point. The resolution is about 10 nm in the X and Y directions due to the size of the tip. The resolution in the Z direction is less than 1 nm.</item>
+        <item>Changing the scan size allows us to zoom in on features. You can zoom in on a center point by using zoom in box (left clicking to toggle between box position and size), or you can manually enter a scan size on the left hand screen.</item>
+        <item>Click on capture (the camera icon) to grab images. To speed things up, restart the scan at an edge to grab a new image after making any changes in the scan and feedback parameters. When parameters are changed, the capture option will toggle to “ next”. There is a forced capture option, which allows you to collect an image even if parameters have been switched during the capture. It is not completely reliable.</item>
+        <item>To change the file name, select capture filename under the capture menu. The file will be saved in the<emphasis effect="bold"/><emphasis effect="italics">!</emphasis><emphasis effect="bold"/>directory which is <emphasis effect="italics">d:\capture</emphasis>. To save the picture, under the utility pull-down menu select TIFF export. The zip drive is <emphasis effect="italics">G:</emphasis>.</item>
+      </list></section>
+    <section id="import-auto-id1169926332699">
+      <title>Image analysis</title>
+      <list id="import-auto-id4057280" list-type="enumerated" number-style="arabic" class="stepwise"><item>Analysis involves flattening the image and measuring various particle dimensions, click the spectrum button.</item>
+        <item>Select the height data (image pull-down menu, select left or right image). The new icons in the “analysis” menu are:<list id="import-auto-id1169924987414" list-type="bulleted" bullet-style="bullet"><item>Thumbnails.</item><item>Top view. </item><item>Side view. </item><item>Section analysis. </item><item>Roughness. </item><item>Rolling pin (flattening). </item><item>Plane auto-fit. </item></list></item>
+        <item>To remove the bands (striping) in the image, select the rolling pin. The order of flattening is the order of the baseline correction. A raw offset is 0 order, a straight sloping line is order 1. Typically a second order correction is chosen to remove “scanner bow” which are the dark troughs on the image plane.</item>
+        <item>To remove more shadows, draw exclusion boxes over large objects and then re-flatten. Be sure to save the file under a new name. The default is t overwrite it.</item>
+        <item>In section analysis, use the multiple cursor option to measure a particle in all dimensions. Select fixed cursor. You can save pictures of this information, but things must be written down! There is also a particle analysis menu.</item>
+        <item>Disengage the cantilever and make sure that the cantilever is in secure mode before you move the cantilever to the other spots or change to another sample.</item>
+        <item>Loosen the clamp to remove the tip and holder.</item>
+        <item>Remove the tip and replace it onto the gel sticky tape using the fine tweezers.</item>
+        <item>Recover the sample with tweezers.</item>
+        <item>Close the program.</item>
+        <item>Log out of the instrument.</item>
+        <item>After the experiment, turn off the monitor and the power of the light source. Leave the controller on.</item>
+        <item>Sign out in the log book.</item>
+      </list></section>
+    <section id="import-auto-id1169926299755">
+      <title>Bibliography</title>
+      <list id="import-auto-id7761149" list-type="bulleted">
+        <item>R. Thaner and A. R. Barron, <emphasis effect="italics">Atomic Force Microscopy</emphasis>, Connexions Web site. <link document="m34664" version="1.1"><emphasis effect="underline">http://cnx.org/content/m34664/1.1/</emphasis></link>, Jun 29, 2010.</item>
+        <item>L. Zeng and A. R. Barron, <emphasis effect="italics">Characterization of Covalently Functionalized Single-Walled Carbon Nanotubes</emphasis>, Connexions Web site. <link document="m22299" version="1.4"><emphasis effect="underline">http://cnx.org/content/m22299/1.4/</emphasis></link>, Jan  7, 2010. </item>
+      </list>
+    </section>
+  </content>
+</document>

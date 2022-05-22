@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Photoluminescence Spectroscopy and its Applications</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38357</md:content-id>
+  <md:title>Photoluminescence Spectroscopy and its Applications</md:title>
+  <md:abstract/>
+  <md:uuid>81bb0311-98ee-4cfc-b3c8-0eab6aeace37</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1169012555467">
+      <title>Introduction</title>
+      <section id="id1169004326077">
+        <title>What is photoluminescence</title>
+        <para id="id1169009117862">Photoluminescence spectroscopy is a contactless, nondestructive method of probing the electronic structure of materials. Light is directed onto a sample, where it is absorbed and imparts excess energy into the material in a process called <emphasis effect="italics">photo-excitation</emphasis>. One way this excess energy can be dissipated by the sample is through the emission of light, or <emphasis effect="italics">luminescence</emphasis>. In the case of photo-excitation, this luminescence is called <emphasis effect="italics">photoluminescence</emphasis>. </para>
+        <para id="id1168992858131">Photo-excitation causes electrons within a material to move into permissible excited states. When these electrons return to their equilibrium states, the excess energy is released and may include the emission of light (a radiative process) or may not (a nonradiative process). The energy of the emitted light (photoluminescence) relates to the difference in energy levels between the two electron states involved in the transition between the excited state and the equilibrium state. The quantity of the emitted light is related to the relative contribution of the radiative process.</para>
+      </section>
+      <section id="id1168982137877"><title>The importance of photoluminescence</title><para id="id1169011436781">In most photoluminescent systems chromophore aggregation generally quenches light emission via aggregation-caused quenching (ACQ). This means that it is necessary to use and study fluorophores in dilute solutions or as isolated molecules. This in turn results in poor sensitivity of devices employing fluorescence, e.g., biosensors and bioassays. However, there have recently been examples reported in which luminogen aggregation played a constructive, instead of destructive role in the light-emitting process. This aggregated-induced emission (AIE) is of great potential significance in particular with regard to solid state devices. Photoluminescence spectroscopy provides a good method for the study of luminescent properties of a fluorophore.</para>
+      </section>
+      <section id="id1169015169540"><title>Forms of photoluminescence</title><section id="id1168979098096">
+          <title>Resonant radiation</title>
+          <para id="id1168982971141">In resonant radiation, a photon of a particular wavelength is absorbed and an equivalent photon is immediately emitted, through which no significant internal energy transitions of the chemical substrate between absorption and emission are involved and the process is usually of an order of 10 nanoseconds.</para>
+        </section>
+
+
+        <section id="id1169019039084">
+          <title>Fluorescence</title>
+          <para id="id1169025589619">When the chemical substrate undergoes internal energy transitions before relaxing to its ground state by emitting photons, some of the absorbed energy is dissipated so that the emitted light photons are of lower energy than those absorbed. One of such most familiar phenomenon is fluorescence, which has a short lifetime (10<sup>-8 </sup>to 10<sup>-4 </sup>s).</para>
+        </section>
+        <section id="id1944301">
+          <title>Phosphorescence</title>
+          <para id="id1168989233709">Phosphorescence is a radiational transition, in which the absorbed energy undergoes intersystem crossing into a state with a different spin multiplicity. The lifetime of phosphorescence is usually from 10<sup>-4</sup> - 10<sup>-2</sup> s, much longer than that of Fluorescence. Therefore, phosphorescence is even rarer than fluorescence, since a molecule in the triplet state has a good chance of undergoing intersystem crossing to ground state before phosphorescence can occur.</para>
+        </section>
+      </section>
+      <section id="id1169025403038"><title>Relation between absorption and emission spectra</title><para id="id1169001396240">Fluorescence and phosphorescence come at lower energy than absorption (the excitation energy). As shown in <link target-id=" id6051233"/>, in absorption, wavelength λ<sub>0</sub> corresponds to a transition from the ground vibrational level of S<sub>0</sub> to the lowest vibrational level of S<sub>1</sub>. After absorption, the vibrationally excited S<sub>1</sub> molecule relaxes back to the lowest vibrational level of S<sub>1</sub> prior to emitting any radiation. The highest energy transition comes at wavelength λ<sub>0</sub>, with a series of peaks following at longer wavelength. The absorption and emission spectra will have an approximate mirror image relation if the spacings between vibrational levels are roughly equal and if the transition probabilities are similar. The λ<sub>0 </sub>transitions in <link target-id="id1169023573258"/> do not exactly overlap. As shown in <link target-id="id6051233"/>, a molecule absorbing radiation is initially in its electronic ground state, S<sub>0</sub>. This molecule possesses a certain geometry and solvation. As the electronic transition is faster than the vibrational motion of atoms or the translational motion of solvent molecules, when radiation is first absorbed, the excited S<sub>1</sub> molecule still possesses its S<sub>0</sub> geometry and solvation. Shortly after excitation, the geometry and solvation change to their most favorable values for S<sub>1</sub> state. This rearrangement lowers the energy of excited molecule. When an S<sub>1</sub> molecule fluoresces, it returns to the S<sub>0</sub> state with S<sub>1</sub> geometry and solvation. This unstable configuration must have a higher energy than that of an S<sub>0</sub> molecule with S<sub>0</sub> geometry and solvation. The net effect in <link target-id="id6051233"/> is that the λ<sub>0 </sub>emission energy is less than the λ<sub>0 </sub>excitation energy.</para>
+
+
+        
+        <figure id="id6051233"><media id="id6051233_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics2-a15f.jpg" id="id6051233__onlineimage" width="400" print-width="4in"/>
+	</media>
+	<caption>Energy-level diagram showing why structure is seen in the absorption and emission spectra and why the spectra are roughly mirror images of each other. Adapted from D. C. Harris, <emphasis effect="italics">Quantitative Chemical Analysis, </emphasis>7<sup>th</sup> Ed, W. H. Freeman and Company, New York (2006).</caption></figure>
+        
+              <figure id="id1169023573258"><media id="id1169023573258_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics1-fdb5.jpg" id="id1169023573258__onlineimage" width="350" print-width="3.5in"/>
+	</media>
+	<caption>Excitation and emission spectra of anthracene that have the same mirror image relation at the absorption and emission spectra. Adapted from C. M. Byron and T. C. Werner, <emphasis effect="italics">J. Chem. Ed.</emphasis>, 1991, <emphasis effect="bold">68</emphasis>, 433.</caption></figure>
+</section>
+    </section>
+    <section id="id1168993390530"><title>Instrumentation</title><para id="id1168989412445">A schematic of an emission experiment is given in <link target-id="id1169006525324"/>. An excitation wavelength is selected by one monochromator, and luminescence is observed through a second monochromator, usually positioned at 90° to the incident light to minimize the intensity of scattered light reaching the dector. If the excitation wavelength is fixed and the emitted radiation is scanned, an emission spectrum is produced. </para>
+
+
+<figure id="id1169006525324"><media id="id1169006525324_media" alt=""><image mime-type="image/jpg" src="../../media/graphics3-f59f.jpg" id="id1169006525324__onlineimage" width="400" print-width="4in"/></media><caption>Essentials of a luminescence experiment. The samle is irradiated at one wavelength and emission is observed over a range of wavelengths. The excitation monochromator selects the excitation wavelength and the emission monochromator selects one wavelength at a time to observe. Adapted from D. C. Harris, <emphasis effect="italics">Quantitative Chemical Analysis, </emphasis>7<sup>th</sup> Edition, W. H. Freeman and Company, New York, (2006).</caption></figure>
+      
+    </section>
+    <section id="id1168992453979">
+      <title>Relationship to UV-visible spectroscopy</title>
+      <para id="id1169018717772">Ultraviolet-visible (UV-vis) spectroscopy or ultraviolet-visible spectrophotometry refers to absorption spectroscopy or reflectance spectroscopy in the untraviolet-visible spectral region. The absorption or reflectance in the visible range directly affects the perceived color of the chemicals involved. In the UV-vis spectrum, an absorbance versus wavelength graph results and it measures transitions from the ground state to excited state, while photoluminescence deals with transitions from the excited state to the ground state. </para>
+      <para id="id1169009694600">An excitation spectrum is a graph of emission intensity versus excitation wavelength. An excitation spectrum looks very much like an absorption spectrum. The greater the absorbance is at the excitation wavelength, the more molecules are promoted to the excited state and the more emission will be observed.</para>
+      <para id="id1169004342680">By running an UV-vis absorption spectrum, the wavelength at which the molecule absorbs energy most and is excited to a large extent can be obtained. Using such value as the excitation wavelength can thus provide a more intense emission at a red-shifted wavelength, which is usually within twice of the excitation wavelength.</para>
+    </section>
+    <section id="id1168983165732"><title>Applications</title><section id="id1168991696671">
+        <title>Detection of ACQ or AIE properties</title>
+        <para id="id1169025509784">Aggregation-caused quenching (ACQ) of light emission is a general phenomenon for many aromatic compounds that fluorescence is weakened with an increase in its solution concentration and even condensed phase. Such effect, however, comes into play in the solid state, which has prevented many lead luminogens identified by the laboratory solution-screening process from finding real-world applications in an engineering robust form.</para>
+        <para id="id1168987919322">Aggregation-induced emission (AIE), on the other hand, is a novel phenomenon that aggregation plays a constructive, instead of destructive role in the light-emitting process, which is exactly opposite to the  ACQ effect.</para>
+
+      <section id="id1169005554604"><title>A case study</title><para id="id1169017341877">From the photoluminescence spectra of hexaphenylsilole (HPS, <link target-id=" id1168990887468FL1"/>) shown in <link target-id=" id1168990887468sec"/>, it can be seen that as the water (bad solvent) fraction increases, the emission intensity of HPS increases. For BODIPY derivative (<link target-id=" id1168990887468FL2"/>) in <link target-id=" id8884887sec"/>, it shows that the PL intensity peaks at 0 water content resulted from intramolecular rotation or twisting, known as <emphasis effect="italics">twisted intramolecular charge transfer</emphasis> (TICT).  </para>
+
+
+
+          <figure id="id1168990887468FL1"><media id="id1168990887468FL1_media" alt="">
+		<image mime-type="image/jpg" src="../../media/FigFL1.jpg" id="id1168990887468FL1__onlineimage" width="175" print-width="1.75in"/>
+	</media>
+	<caption>The structure of hexaphenylsilole (HPS).</caption></figure>
+      
+
+        <figure id="id1168990887468sec"><media id="id1168990887468sec_media" alt="">
+		<image mime-type="image/jpg" src="../../media/Student6.jpg" id="id1168990887468sec__onlineimage" width="350" print-width="3.5in"/>
+	</media>
+	<caption>PL spectra of HPS solutions in acetonitrile/water mixtures. Adapted from Y. Hong, J. W. Y. Lam, and B. Z. Tang, <emphasis effect="italics">Chem. Commun.,</emphasis> 2009, 4332. Copyright: The Royal Society of Chemistry (2009).</caption></figure>
+
+
+
+
+          <figure id="id1168990887468FL2"><media id="id1168990887468FL2_media" alt="">
+		<image mime-type="image/jpg" src="../../media/FigFL2.jpg" id="id1168990887468FL2__onlineimage" width="300" print-width="3in"/>
+	</media>
+	<caption>The structure of a triphenylamine–boradiazaindacene (BODIPY) derivative.</caption></figure>
+  
+
+
+
+        <figure id="id8884887sec"><media id="id8884887sec_media" alt="">
+		<image mime-type="image/jpg" src="../../media/Student4.jpg" id="id8884887sec__onlineimage" width="350" print-width="3.5in"/>
+	</media>
+	<caption>PL spectra of BODIPY derivative in THF/water mixtures. Adapted from Y. Hong, J. W. Y. Lam, and B. Z. Tang, <emphasis effect="italics">Chem. Commun.,</emphasis> 2009, 4332. Copyright: The Royal Society of Chemistry (2009).</caption></figure>
+ 
+
+
+
+
+
+        <para id="eip-278">The emission color of an AIE luminogen is scarcely affected by solvent polarity, whereas that of a TICT luminogen typically bathochromically shifts with increasing solvent polarity. In <link target-id="id1168991922092"/>, however, it shows different patterns of emission under different excitation wavelengths. At the excitation wavelength of 372 nm, which is corresponding to the BODIPY group, the emission intensity increases as water fraction increases. However, it decreases at the excitation wavelength of 530 nm, which is corresponding to the TPE group. The presence of two emissions in this compound is due to the presence of two independent groups in the compound with AIE and ACQ properties, respectively.</para>
+
+
+        <figure id="id1168991922092"><media id="id1168991922092_media" alt="">
+		<image mime-type="image/jpg" src="../../media/Student3.jpg" id="id1168991922092__onlineimage" width="350" print-width="3.5in"/>
+	</media>
+	<caption>PL spectra of compound containing AIE and ACQ groups in THF/water mixtures at the excitation wavelength of 329 nm. Adapted from Y. Hong, J. W. Y. Lam, and B. Z. Tang, <emphasis effect="italics">Chem. Commun.,</emphasis> 2009, 4332. Copyright: The Royal Society of Chemistry (2009). </caption></figure>
+ 
+
+        
+
+
+
+
+              </section>
+        
+  
+
+    
+
+        <section id="id1169021942591"><title>Detection of luminescence with respect to molarity</title>
+
+<para id="id1169015078806"><link target-id=" id1168990735431"/> shows the photoluminescence spectroscopy of a BODIPY-TPE derivative of different concentrations. At the excitation wavelength of 329 nm, as the molarity increases, the emission intensity decreases. Such compounds whose PL emission intensity enhances at low concentration can be a good chemo-sensor for the detection of the presence of compounds with low quantity. </para>
+
+
+<figure id="id1168990735431"><media id="id1168990735431_media" alt=""><image mime-type="image/png" src="../../media/graphics7-e4b7.png" id="id1168990735431__onlineimage" width="350" print-width="3.5in"/></media>
+	<caption>PL spectra of a BODIPY derivative solution in different concentrations in THF at excitation wavelength of 329 nm.  </caption></figure>
+          
+        </section>
+      </section>
+      <section id="id1168981824490"><title>Other applications</title><para id="id1168982123607">Apart from the detection of light emission patterns, photoluminescence spectroscopy is of great significance in other fields of analysis, especially semiconductors. </para>
+        <section id="id1169004914102">
+          <title>Band gap determination </title>
+          <para id="id1168991667347">Band gap is the energy difference between states in the conduction and valence bands, of the radiative transition in semiconductors. The spectral distribution of PL from a semiconductor can be analyzed to nondestructively determine the electronic band gap. This provides a means to quantify the elemental composition of compound semiconductor and is a vitally important material parameter influencing solar cell device efficiency.</para>
+        </section>
+        <section id="id1168997050494">
+          <title>Impurity levels and defect detection </title>
+          <para id="id1168984265226">Radiative transitions in semiconductors involve localized defect levels. The photoluminescence energy associated with these levels can be used to identify specific defects, and the amount of photoluminescence can be used to determine their concentration. The PL spectrum at low sample temperatures often reveals spectral peaks associated with impurities contained within the host material. Fourier transform photoluminescence microspectroscopy, which is of high sensitivity, provides the potential to identify extremely low concentrations of intentional and unintentional impurities that can strongly affect material quality and device performance.</para>
+        </section>
+        <section id="id1168996642676">
+          <title>Recombination mechanisms</title>
+          <para id="id1169011918395">The return to equilibrium, known as “recombination”, can involve both radiative and nonradiative processes. The quantity of PL emitted from a material is directly related to the relative amount of radiative and nonradiative recombination rates. Nonradiative rates are typically associated with impurities and the amount of photoluminescence and its dependence on the level of photo-excitation and temperature are directly related to the dominant recombination process. Thus, analysis of photoluminescence can qualitatively monitor changes in material quality as a function of growth and processing conditions and help understand the underlying physics of the recombination mechanism.</para>
+        </section>
+        <section id="id1168991441618">
+          <title>Surface structure and excited states</title>
+          <para id="id1168993586367">The widely used conventional methods such as XRD, IR and Raman spectroscopy, are very often not sensitive enough for supported oxide catalysts with low metal oxide concentrations. Photoluminescence, however, is very sensitive to surface effects or adsorbed species of semiconductor particles and thus can be used as a probe of electron-hole surface processes.</para>
+        </section>
+      </section>
+    </section>
+    <section id="id1168983703985">
+      <title>Limitations of photoluminescence spectroscopy</title>
+      <para id="id1169000843378">Very low concentrations of optical centers can be detected using photoluminescence, but it is not generally a quantitative technique. The main scientific limitation of photoluminescence is that many optical centers may have multiple excited states, which are not populated at low temperature.</para>
+      <para id="id1168996616592">The disappearance of luminescence signal is another limitation of photoluminescence spectroscopy. For example, in the characterization of photoluminescence centers of silicon no sharp-line photoluminescence from 969 meV centers was observed when they had captured self-interstitials.</para>
+    </section>
+    <section id="id1168984316455"><title>Bibliography</title><list id="eip-794">
+
+
+
+<item>Y. Hong, J. W. Y. Lam, and B. Z. Tang, <emphasis effect="italics">Chem. Commun.</emphasis>, 2009, 4332.</item>
+<item>
+M. Anpo, M. Kondo, S. Coluccia, C. Louis, and M. Che, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1989, <emphasis effect="bold">111</emphasis>, 8791.</item>
+
+<item>N. S. Sariciftci, <emphasis effect="italics">Primary Photoexcitations In Conjugated Polymers Molecular Exciton Versus Semiconductor Band Model</emphasis>, World Scientific Publishing Company, Singapore (1997).</item>
+<item>D. C. Harris, <emphasis effect="italics">Quantitative Chemical Analysis</emphasis>, 7<sup>th</sup> Ed, W. H. Freeman and Company, New York (2006).</item>
+<item>G. Davies, <emphasis effect="italics">Phys. Rep.</emphasis>, 1989, <emphasis effect="bold">176</emphasis>, 83. </item>
+
+
+
+</list>
+
+
+
+
+
+
+    </section>
+  </content>
+</document>

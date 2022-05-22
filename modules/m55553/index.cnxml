@@ -1,0 +1,96 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Electron-Nuclear Double Resonance Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55553</md:content-id>
+  <md:title>Electron-Nuclear Double Resonance Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>50468c64-cf44-4102-970f-439ebc2eb73b</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1168861184175"><title>Introduction</title><para id="import-auto-id1168858306759">Electron nuclear double resonance (ENDOR) uses magnetic resonance to simplify the <link url="http://cnx.org/contents/7cc9e808-c99b-4cd6-9284-949303c856a1@3" window="new"> electron paramagnetic resonance</link> (EPR) spectra of paramagnetic species (one which contains an unpaired electron). It is very powerful and advanced and it works by probing the environment of these species. ENDOR was invented in 1956 by George Feher (<link target-id="eip-id1170041426872"/>). </para><figure id="eip-id1170041426872"><media id="George_Feher" alt="George Feher">
+	   
+  <image mime-type="feher/jpeg" src="../../media/feher.jpg" width="300" print-width="2.5in"/>
+		 
+</media><caption>American biophysicist George Feher (1924-).</caption></figure></section><section id="import-auto-id1168858237304">
+      <title>ENDOR: NMR spectroscopy on an EPR spectrometer </title>
+      <para id="import-auto-id1168857921144">A transition’s metal electron spin can interact with the nuclear spins of ligands through dipolar contact interactions. This causes shifts in the nuclear magnetic resonance (NMR) Spectrum lines caused by the ligand nuclei. The NMR technique uses these dipolar interactions, as they correspond to the nuclear spin’s relative position to the metal atom, to give information about the nuclear coordinates. However, a paramagnetic species (one that contains unpaired electrons) complicates the NMR spectrum by broadening the lines considerably. </para>
+      <para id="import-auto-id6602636">EPR is a technique used to study paramagnetic compounds. However, EPR has its limitations as it offers low resolution that result in line broadening and line splitting. This is partly due to the electron spins coupling to surrounding nuclear spins. However, this coupling are important to understand a paramagnetic compound and determine the coordinates of its ligands. While neither NMR or EPR can be used to study these coupling interaction, one can use both techniques simultaneously, which is the concept behind ENDOR. An ENDOR experiment is a double resonance experiment in which NMR resonances are detected using intensity changes of an EPR line that is irradiated simultaneously. An important difference is that the NRM portion of an ENDOR experiment uses microwaves rather than radiofrequencies, which results in an enhancement of the sensitivity by several orders of magnitude. </para>
+    </section>
+    <section id="import-auto-id6829769">
+      <title>Theory</title>
+      <para id="import-auto-id6384509">The ENDOR technique involves monitoring the effects of EPR transitions of a simultaneously driven NMR transition, which allows for the detection of the NMR absorption with much greater sensitivity than EPR. In order to illustrate the ENDOR system, a two-spin system is used. This involves a magnetic field (B<sub>o</sub>) interacting with one electron (S = 1/2) and one proton (I = 1/2). </para><section id="import-auto-id8980838">
+        <title>Hamiltonian equation</title><para id="import-auto-id1168857837542">The Hamiltonian equation for a two-spin system is described by <link target-id="eip-832"/> . The equation lists four terms: the electron Zeeman interaction (EZ), the nuclear Zeeman interaction (NZ), the hyperfine interaction (HFS), respectively.  The EZ relates to the interaction the spin of the electron and the magnetic field applied. The NZ describes the interaction of the proton’s magnetic moment and the magnetic field. The HSF is the interaction of the coupling that occurs between spin of the electron and the nuclear spin of the proton. ENDOR spectra contain information on all three terms of the Hamiltonian. </para><equation id="eip-832"><media id="Equation_1" alt="Equation 1.">
+
+<image mime-type="image/jpeg" src="../../media/Eq1-de05.jpg" width="500" print-width="4in"/>
+
+</media></equation></section>
+      <section id="import-auto-id1168860861299"><title>Selection rules</title><para id="import-auto-id6405467"><link target-id="eip-832"/>  can be further expanded to <link target-id="eip-270"/> . <emphasis effect="italics">g</emphasis><emphasis effect="italics">n</emphasis> is the nuclear g-factor, which characterizes the magnetic moment of the nucleus. <emphasis effect="italics">S</emphasis> and <emphasis effect="italics">I</emphasis> are the vector operators for the spins of the electron and nucleus, respectively. <emphasis effect="italics">μ</emphasis><emphasis effect="italics">B</emphasis> is the Bohr magneton (9.274 x 10<sup>-24</sup> JT<sup>-1</sup>). <emphasis effect="italics">μ</emphasis><emphasis effect="italics">n</emphasis> is the nuclear magneton (5.05 x 10<sup>-27</sup> JT<sup>-1</sup>). <emphasis effect="italics">h</emphasis> is the Plank constant (6.626 x 10<sup>-34</sup> J s). <emphasis effect="italics">g</emphasis> and <emphasis effect="italics">A</emphasis> are the g and hyperfine tensors. <link target-id="eip-270"/>   becomes <link target-id="eip-124"/>  by assuming only isotropic interactions and the magnetic filed aligned along the Z-axis. In <link target-id="eip-124"/> , <emphasis effect="italics">g</emphasis> is the isotropic g-factor and <emphasis effect="italics">a</emphasis> is the isotropic hyperfine constant. </para><equation id="eip-270"><media id="Equation_2" alt="Equation 2.">
+
+<image mime-type="image/jpeg" src="../../media/Eq2-98ea.jpg" width="500" print-width="4in"/>
+
+</media></equation><equation id="eip-124"><media id="Equation_3" alt="Equation 3.">
+
+<image mime-type="image/jpeg" src="../../media/Eq3-8f73.jpg" width="500" print-width="4in"/>
+
+</media></equation><para id="import-auto-id1168857893426">The energy levels for the two spin systems can be calculated by ignoring second order terms in the high filed approximation by <link target-id="eip-602"/> . This equation can be used to express the four possible energy levels of the two-spin system (S = 1/2, I = 1/2) in <link target-id="eip-658"/> -  <link target-id="eip-821"/>. </para><equation id="eip-602"><media id="Equation_4" alt="Equation 4.">
+
+<image mime-type="image/jpeg" src="../../media/Eq4-46aa.jpg" width="450" print-width="4in"/>
+
+</media></equation><equation id="eip-658"><media id="Equation_5a" alt="Equation 5a.">
+
+<image mime-type="image/jpeg" src="../../media/Eq5-e34e.jpg" width="500" print-width="4in"/>
+
+</media></equation><equation id="eip-891"><media id="Equation_5b" alt="Equation 5b.">
+
+<image mime-type="image/jpeg" src="../../media/Eq6-86b0.jpg" width="500" print-width="4in"/>
+
+</media></equation><equation id="eip-537"><media id="Equation_5c" alt="Equation 5c.">
+
+<image mime-type="image/jpeg" src="../../media/Eq7-4b91.jpg" width="500" print-width="4in"/>
+
+</media></equation><equation id="eip-821"><media id="Equation_5d" alt="Equation 5d.">
+
+<image mime-type="image/jpeg" src="../../media/Eq8-7fea.jpg" width="500" print-width="4in"/>
+
+</media></equation><para id="import-auto-id1168860760579">We can apply the EPR selection rules to these energy levels (<emphasis effect="italics">ΔM</emphasis><emphasis effect="italics">I</emphasis><emphasis effect="italics"> = 0</emphasis> and <emphasis effect="italics">ΔM</emphasis><emphasis effect="italics">S</emphasis><emphasis effect="italics"> = ±1</emphasis>) to find the two possible resonance transitions that can occur, shown in <link target-id="eip-527"/>  and <link target-id="eip-615"/>. These equations can be further simplified by expressing them in frequency  units, where <emphasis effect="italics">ν</emphasis><emphasis effect="italics">e</emphasis><emphasis effect="italics"> = gμ</emphasis><emphasis effect="italics">n</emphasis><emphasis effect="italics">B</emphasis><emphasis effect="italics">0</emphasis><emphasis effect="italics">/h</emphasis> to derive <link target-id="eip-806"/>, which defines the EPR transitions (<link target-id="eip-id1166789351938"/>). In the spectrum this would give two absorption peaks that are separated by the isotropic hyperfine splitting, <emphasis effect="italics">a (<link target-id="eip-id1166792854027"/>). </emphasis></para><equation id="eip-527"><media id="Equation_6a" alt="Equation 6a.">
+
+<image mime-type="image/jpeg" src="../../media/Eq9-f7b8.jpg" width="500" print-width="4in"/>
+
+</media></equation><equation id="eip-615"><media id="Equation_6b" alt="Equation 6b.">
+
+<image mime-type="image/jpeg" src="../../media/Eq10-ca6d.jpg" width="500" print-width="4in"/>
+
+</media></equation><equation id="eip-806"><media id="Equation_7" alt="Equation 7.">
+
+<image mime-type="image/jpeg" src="../../media/Eq11-6766.jpg" width="500" print-width="4in"/>
+
+</media></equation><figure id="eip-id1166789351938"><media id="figure_2" alt="Figure 2.">
+	   
+  <image mime-type="figure 2/png" src="../../media/figure 2.png" width="400" print-width="3in"/>
+		 
+</media><caption>Energy level diagram for a two spin system (<emphasis effect="italics">S</emphasis> =<sup>1</sup>/<sub>2</sub> and <emphasis effect="italics">I</emphasis> = <sup>1</sup>/<sub>2</sub>) in high magnetic field illustrating the electron Zeeman, nuclear Zeeman and hyperfine splittings. <emphasis effect="italics">a </emphasis>is the isotropic hyperfine coupling (where <emphasis effect="italics">a</emphasis>&gt;0 and |a/2|&lt;ν<sub>n</sub>). The two EPR transitions (labeled 1 and 2) obey the selection rules <emphasis effect="italics">ΔM</emphasis><emphasis effect="italics">S</emphasis><emphasis effect="italics"> = ±1, ΔM</emphasis><emphasis effect="italics">I</emphasis><emphasis effect="italics"> = 0, </emphasis>while the two NMR transitions (1 and 2) obey the selection rules<emphasis effect="italics"> ΔM</emphasis><emphasis effect="italics">I</emphasis><emphasis effect="italics"> = ±1, ΔM</emphasis><emphasis effect="italics">S</emphasis><emphasis effect="italics"> = 0. </emphasis></caption></figure><figure id="eip-id1166792854027"><media id="Figure_3" alt="Figure 3.">
+	   
+  <image mime-type="figure 3/png" src="../../media/figure 3.png" width="400" print-width="3in"/>
+		 
+</media><caption>Energy level diagram for a two spin system (S = <sup>1</sup>/<sub>2</sub> and I = <sup>1</sup>/<sub>2</sub>) in a high magnetic field for the two cases where (a) <emphasis effect="italics">a</emphasis>&gt;0 and <emphasis effect="italics">a/2</emphasis>&lt;ν<sub>n</sub> and (b) <emphasis effect="italics">a</emphasis>&gt;0 and <emphasis effect="italics">a/2</emphasis>&gt;ν<sub>n</sub>. The frequency of the two resulting ENDOR lines are given by <emphasis effect="italics">ν</emphasis><emphasis effect="italics">NMR</emphasis><emphasis effect="italics"> = |ν</emphasis><emphasis effect="italics">n±</emphasis><emphasis effect="italics">a/2|</emphasis> in (a) and <emphasis effect="italics">ν</emphasis><emphasis effect="italics">NMR</emphasis><emphasis effect="italics"> = |a/2±ν</emphasis><emphasis effect="italics">n</emphasis><emphasis effect="italics">|</emphasis> in (b).</caption></figure></section></section>
+    <section id="import-auto-id1168861081028"><title>Applications</title><para id="import-auto-id1168858306110">ENDOR has advantages in both organic and inorganic paramagnetic species as it is helpful in characterizing their structure in both solution and in the solid state. First, it enhances the resolution gained in organic radicals in solution. In ENDOR, each  group of equivalent nuclei contributes only 2 lines to the spectrum, and nonequivalent nuclei cause only an additive increase as opposed to a multiplicative increase like in EPR. For example, the radical cation 9,10-dimethilanthracene (<link target-id="eip-id1163852812355"/>) would produce 175 lines in an EPR spectrum because the spectra would include 3 sets of inequivalent protons. However ENDOR produces only three pairs of lines (1 for each set of equivalent nuclei), which can be used to find the hyperfine couplings. This is also shown in (<link target-id="eip-id1163852812355"/>).</para><figure id="eip-id1163852812355"><media id="Figure_4" alt="Figure 4.">
+	   
+  <image mime-type="figure 4/png" src="../../media/figure 4-70b2.png" width="700" print-width="6in"/>
+		 
+</media><caption>EPR spectrum and corresponding <sup>1</sup>H ENDOR spectrum of the radical cation of 9,10-dimethulanthracene in fluid solution. </caption></figure><para id="import-auto-id9096746">ENDOR can also be used to obtain structural information from the powder EPR spectra of metal complexes. ENDOR spectroscopy can be used to obtain the electron nuclear hyperfine interaction tensor, which is the most sensitive probe for structure determination. A magnetic filed that assumes all possible orientations with respect to the molecular frame is applied to the randomly oriented molecules. The resonances from this are superimposed on each other and make up the powder EPR spectrum. ENDOR measurements are made at a selected field position in the EPR spectrum, which only contain that subset of molecules that have orientations that contribute to the EPR intensity at the chosen value of the observing field. By selected EPR turning points at magnetic filed values that correspond to defined molecular orientations, a “single crystal like” ENDOR spectra is obtained. This is also called a “orientation selective” ENDOR experiment which can use simulation of the data to obtain the principal components of the magnetic tensors for each interacting nucleus. This information can then be used to provide structural information about the distance and spatial orientation of the remote nucleus. This can be especially interesting since a three dimensional structure for a paramagnetic system where a single crystal cannot be prepared can be obtained. </para>
+    </section><section id="import-auto-id1168855485913"><title>Bibliography</title><list id="eip-767"><item>F.E. Mabbs, <emphasis effect="italics">Chem. Soc. Rev</emphasis>., 1993, <emphasis effect="bold">22</emphasis>, 5.</item>
+
+
+<item>G. Feher, <emphasis effect="italics">Phys. Rev</emphasis>., 1956, <emphasis effect="bold">103</emphasis>, 3.</item>
+
+
+<item>D. M. Murphy and R. D. Farley, <emphasis effect="italics">Chem. Soc. Rev</emphasis>., 2006, <emphasis effect="bold">35</emphasis>, 3.</item>
+
+
+<item>R. S. Eachu and M. T. Olm, <emphasis effect="italics">Science</emphasis>, 1985, <emphasis effect="bold">230</emphasis>, 268.</item>
+
+<item>F. Gerson, <emphasis effect="italics">Acc. Chem. Res.</emphasis>, 1994, <emphasis effect="bold">27</emphasis>, 63.</item>
+
+</list></section></content>
+</document>

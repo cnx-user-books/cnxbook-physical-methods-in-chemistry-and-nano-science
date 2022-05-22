@@ -1,0 +1,151 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>General Principles of Two-Dimensional Nuclear Magnetic Resonance Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50232</md:content-id>
+  <md:title>General Principles of Two-Dimensional Nuclear Magnetic Resonance Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>add303c1-cd70-420d-9f7a-ee8648ebc1c1</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164317078532">
+      <title>History </title>
+      <para id="import-auto-id1164317051018">Jean Jeener (<link target-id="import-auto-id1164317235183"/>) from the Université Libre de Bruxelles first proposed 2D NMR in 1971. In 1975 Walter P. Aue, Enrico Bartholdi, and Richard R. Ernst (<link target-id="import-auto-id1164317229765"/>) first used Jeener’s ideas of 2D NMR to produce 2D spectra, which they published in their paper “Two-dimensional spectroscopy, application to nuclear magnetic resonance”. Since this first publication, 2D NMR has increasing been utilized for structure determination and elucidation of natural products, protein structure, polymers, and inorganic compounds. With the improvement of computer hardware and stronger magnets, newly developed 2D NMR techniques can easily become routine procedures. In 1991 Richard R. Ernst won the Nobel Prize in Chemistry for his contributions to Fourier Transform NMR. Looking back on the development of NMR techniques, it is amazing that 2D NMR took so long to be developed considering the large number of similarities that it has with the simpler 1D experiments. </para><figure id="import-auto-id1164317235183"><media id="import-auto-id1164317076108" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 2-cc5b.jpg" width="250" print-width="2in"/>
+        </media>
+      <caption>Belgian physical chemist and physicist Jean L. C. Jeener (1931-).</caption></figure><figure id="import-auto-id1164317229765"><media id="import-auto-id1164317214183" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 1-7c78.jpg" width="250" print-width="2in"/>
+        </media>
+      <caption>Swiss physical chemist and Nobel Laureate Richard R. Ernst (1933-). </caption></figure></section>
+    <section id="import-auto-id1164317238539">
+      <title>Why do we need 2D NMR?</title>
+      <para id="import-auto-id1164316996931">2D NMR was developed in order to address two major issues with 1D NMR. The first issue is the limited scope of a 1D spectrum. A 2D NMR spectrum can be used to resolve peaks in a 1D spectrum and remove any overlap present. With a 1D spectrum, this is typically performed using an NMR with higher field strength, but there is a limit to the resolution of peaks that can be obtained. This is especially important for large molecules that result in numerous peaks as well as for molecules that have similar structural motifs in the same molecule. The second major issue addressed is the need for more information. This could include structural or stereochemical information. Usually to overcome this problem, 1D NMR spectra are obtained studying specific nuclei present in the molecule (for example, this could include fluorine or phosphorus). Of course this task is limited to only nuclei that have active spin states/spin states other than zero and it requires the use of specialized NMR probes.</para><para id="import-auto-id1164317116594">2D NMR can address both of these issues in several different ways. The following four techniques are just few of the methods that can be used for this task. The use of J-resolved spectroscopy is used to resolve highly overlapping resonances, usually seen as complex multiplicative splitting patterns. Homonuclear correlation spectroscopy can identify spin-coupled pairs of nuclei that overlap in 1D spectra. Heteronuclear shift-correlation spectroscopy can identify all directly bonded carbon-proton pairs, or other combinations of nuclei pairs. Lastly, <emphasis effect="bold">N</emphasis>uclear <emphasis effect="bold">O</emphasis>verhauser <emphasis effect="bold">E</emphasis>ffect (NOE) interactions can be used to obtain information about through-space interactions (rather than through-bond). This technique is often used to determine stereochemistry or protein/peptide interactions. </para></section>
+    <section id="import-auto-id1164317035908">
+      <title>One-dimensional versus two-dimensional NMR</title>
+      <section id="import-auto-id1164317012028">
+        <title>Similarities</title>
+        <para id="import-auto-id1164317146593">The concept of 2D NMR can be considered as an extension of the concept of 1D NMR. As such there are many similarities between the two. Since the acquisition of a 2D spectrum is almost always preceded by the acquisition of a 1D spectrum, the standard used for reference (TMS) and the solvent used (typically CDCl<sub>3</sub> or other deuterated solvent) are the same for both experiments. Furthermore, 2D NMR is most often used to reveal any obscurity in a 1D spectrum (whether that is peak overlap, splitting overlap, or something else), so the nuclei studied are the same. Most often these are <sup>1</sup>H and <sup>13</sup>C, but other nuclei could also be studied.</para></section>
+      <section id="import-auto-id1164317176809">
+        <title>Differences</title>
+        <para id="import-auto-id1164317177643">Since 2D NMR is a more complicated experiment than 1D NMR, there are also some differences between the two. One of the differences is in the complexity of the data obtained. A 2D spectrum often results from a change in pulse time; therefore, it is important to set up the experiment correctly in order to obtain meaningful information. Another difference arises from the fact that one spectrum is 1D while the other is 2D. As such interpreting a 2D spectrum requires a much greater understanding of the experiment parameters. For example, one 2D experiment might investigate the specific coupling of two protons or carbons, rather than focusing on the molecule as a whole (which is generally the target of a 1D experiment). The specific pulse sequence used is often very helpful in interpreting the information obtained. The software used for 1D spectra is not always compatible with 2D spectra. This is due to the fact that a 2D spectrum requires more complex processing, and the 2D spectra generated often look quite different than 1D spectra. Some software that is commonly used to interpret 2D spectra is either Sparky or Bruker’s TopSpin. Lastly the NMR instrument used to obtain a 2D spectrum typically generates a much larger magnetic field (700-1000 MHz). Due to the increased cost of buying and maintaining such an instrument, 2D NMR is usually reserved for rather complex molecules. </para></section>
+    </section>
+    <section id="import-auto-id1164317234106">
+      <title>The rotating frame and Fourier transform</title>
+      <para id="import-auto-id1164317070399">One of the central ideas that is associated with 2D NMR is the rotating frame, because it helps to visualize the changes that take place in dimensions. Our ordinary “laboratory” frame consists of three axes (the Cartesian <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, and <emphasis effect="italics">z</emphasis>). This frame can be visualized if one pictures the corner of a room. The intersections of the floor and the walls are the <emphasis effect="italics">x</emphasis> and the <emphasis effect="italics">y</emphasis> dimensions, while the intersection of the walls is the <emphasis effect="italics">z</emphasis> axis. This is usually considered the “fixed frame.” When an NMR experiment is carried out, the frame still consists of the Cartesian coordinate system, but the <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> coordinates rotate around the <emphasis effect="italics">z</emphasis> axis. The speed with which the <emphasis effect="italics">x</emphasis>-<emphasis effect="italics">y</emphasis> coordinate system rotates is directly dependent on the frequency of the NMR instrument.</para><para id="import-auto-id1164317249969">When any NMR experiment is carried out, a majority of the spin states of the nucleus of interest line up with one of these three coordinates (which we can pick to be <emphasis effect="italics">z</emphasis>). Once an equilibrium of this alignment is achieved, a magnetic pulse can be exerted at a certain angle to the <emphasis effect="italics">z</emphasis> axis (usually 90° or 180°) which temporarily disrupts the equilibrium alignment of the nuclei. As the pulse is removed, the nuclei are allowed to relax back to this equilibrium alignment with the magnetic field of the instrument. When this relaxation takes place, the progression of the nuclei back to the equilibrium orientation is detected by a computer as a <emphasis effect="bold">f</emphasis>ree <emphasis effect="bold">i</emphasis>nduction <emphasis effect="bold">d</emphasis>ecay (FID). When a sample has different nuclei or the same nucleus in different environments, different FID can be recorded for each individual relaxation to the equilibrium position. The FIDs of all of the individual nuclei can be recorded and superimposed. The complex FID signal obtained can be converted to a recording of the NMR spectrum obtained by a <emphasis effect="bold">F</emphasis>ourier <emphasis effect="bold">t</emphasis>ransform(FT). The FT is a complex mathematical concept that can be described by <link target-id="eip-207"/>, where ω is the angular frequency. </para><equation id="eip-207"><media id="import-auto-id1164317139350" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 4-efa3.jpg" height="53" width="101" print-width="1.0 in"/>
+        </media></equation><para id="import-auto-id1164317201550">This concept of the FT is similar for both 1D and 2D NMR. In 2D NMR a FID is obtained in one dimension first, then through the application of a pulse a FID can be obtained in a second dimension. Both FIDs can be converted to a series of NMR spectra through a Fourier transform, resulting in a spectrum that can be interpreted. The coupling of the two FID's in 2D NMR usually reveals a lot more information about the specific connectivity between two atoms. </para></section>
+    <section id="import-auto-id1164317058699">
+      <title>Four phases and pulse sequence of 2D NMR</title>
+      <para id="import-auto-id1164317251283">There are four general stages or time periods that are present for any 2D NMR experiment. These are preparation, evolution, mixing, and detection. A general schematic representation is seen in <link target-id="import-auto-id1164317191031"/>. The preparation period defines the system at the first time phase. The evolution period allows the nuclei to precess (or move relative to the magnetic field). The mixing period introduces a change in the way the spectra is obtained. The detection period records the FID. In obtaining a spectrum, the pulse sequence is the most important factor that determines what data will be obtained. In general 2D experiments are a combination of 1D experiments collected by varying the timing and pulsing.</para><figure id="import-auto-id1164317191031"><media id="import-auto-id1164317133488" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-b5ee.png" width="450" print-width="4.5in"/>
+        </media>
+      <caption>Visual representation of the general pulse scheme of any 2D NMR Experiment</caption></figure><section id="import-auto-id1164317214102">
+        <title>Preparation</title>
+        <para id="import-auto-id1164317134560">This is the first step in any 2D NMR experiment. It is a way to start all experiments from the same state. This state is typically either thermal equilibrium, obeying Boltzmann statistics, or it could be a state where the spins of one nucleus are randomized in orientation and the spins of another nucleus are in thermal equilibrium. At the end of the preparation period, the magnetizations are usually placed perpendicular, or at a specific angle, to the magnetic field axis. This phase creates magnetizations in the <emphasis effect="italics">x</emphasis>-<emphasis effect="italics">y</emphasis> plane. </para></section>
+      <section id="import-auto-id1164317078812">
+        <title>Evolution</title>
+        <para id="import-auto-id1164317142720">The nuclei are then allowed to precess around the direction of the magnetic field. This concept is very similar to the precession of a top in the gravitational field of the Earth. In this phase of the experiment, the rates at which different nuclei precess, as shown in <link target-id="import-auto-id1164317201662"/> determine how the nuclei are reacting based on their environment. The magnetizations that are created at the end of the preparation step are allowed to evolve or change for a certain amount of time (t<sub>1</sub>) in the environment defined by the magnetic and <emphasis effect="bold">r</emphasis>adio <emphasis effect="bold">f</emphasis>requency (RF) fields. In this phase, the chemical shifts of the nuclei are measured similarly to a 1D experiment, by letting the nucleus magnetization rotate in the <emphasis effect="italics">x</emphasis>-<emphasis effect="italics">y</emphasis> plane. This experiment is carried out a large number of times, and then the recorded FID is used to determine the chemical shifts. </para><figure id="import-auto-id1164317201662"><media id="import-auto-id1164317241167" alt="">
+            <image mime-type="image/jpg" src="../../media/precession-mine.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>Visual representation of the precession of an object.</caption></figure></section>
+      <section id="import-auto-id1164317177076">
+        <title>Mixing</title>
+        <para id="import-auto-id1164317112355">Once the evolution period is over, the nuclear magnetization is distributed among the spins. The spins are allowed to communicate for a fixed period of time. This typically occurs using either magnetic pulses and/or variation in the time periods. The magnetic pulses typically consist of a change in the rotating frame of reference relative to the original "fixed frame" that was introduced in the preparation period, as seen in <link target-id="import-auto-id1164317115890"/>. Experiments that only use time periods are often tailored to look at the effect of the RF field intensity. Using either the bonds connecting the different nuclei (J-coupling) or using the small space between them (NOE interaction), the magnetization is allowed to move from one nucleus to another. Depending on the exact experiment performed, these changes in magnetizations are going to differ based on what information is desired. This is the step in the experiment that determines exactly what new information would be obtained by the experiment. Depending on which chemical interactions require suppression and which need to be intensified to reveal new information, the specific "mixing technique" can be adjusted for the experiment. </para><figure id="import-auto-id1164317115890"><media id="import-auto-id1164317078504" alt="">
+            <image mime-type="image/png" src="../../media/90 degree pulse.jpg" width="204" print-width="2in"/>
+          </media>
+        <caption>Demonstration of a specific (90°) change in the frame of reference during mixing.</caption></figure></section>
+      <section id="import-auto-id1164317162753">
+        <title>Detection</title>
+        <para id="import-auto-id1164317165648">This is always the last period of the experiment, and it is the recording of the FID of the second nucleus studied. This phase records the second acquisition time (t<sub>2</sub>) resulting in a spectrum, similar to the first spectrum, but typically with differences in intensity and phase. These differences can give us information about the exact chemical and magnetic environment of the nuclei that are present. The two different Fourier transforms are used to generate the 2D spectrum, which consists of two frequency dimensions. These two frequencies are independent of each other, but when plotted on a single spectrum the frequency of the signal obtained in time t<sub>1</sub> has been converted in another coherence affected by the frequency in time t<sub>2</sub>. While the first dimension represents the chemical shifts of the nucleus in question, the second dimension reveals new information. The overall spectrum, <link target-id="eip-464"/>, is the result of a matrix in the two frequency domains obtained during the experiment. </para><figure id="eip-464"><media id="import-auto-id1164317078501" alt="">
+            <image mime-type="image/png" src="../../media/2D Spectrum1.jpg" width="300" print-width="3in"/>
+          </media><caption>Simple representation of a 2D spectrum, reflecting the result of two Fourier transforms.</caption></figure></section>
+
+      <section id="import-auto-id1164317185156">
+        <title>Pulse variation</title>
+        <para id="import-auto-id1164317239819">As mentioned earlier, the pulse sequence and the mixing period are some of the most important factors that determine the type of spectrum that will be identified. Depending on whether the magnetization is transferred through a J-coupling or NOE interaction, different information and spectra can be obtained. Furthermore, depending on the experimental setup, the mixing period could transfer magnetization either through a single J-coupling or through several J-couplings for nuclei that are connected together. Similarly NOE interactions can also be controlled to specific distances. Two types of NOE interactions can be observed, positive and negative. When the rate at which fluctuation occurs in the transverse plane of a fluctuating magnetic field matches the frequency of double quantum transition, a positive NOE is observed. When the fluctuation is slower, a negative NOE is produced. </para></section>
+    </section>
+    <section id="import-auto-id1164317164259">
+      <title>Obtaining a spectrum</title>
+      <section id="import-auto-id1164317217861">
+        <title>Sample preparation</title>
+        <para id="import-auto-id1164317147910">Sample preparation for 2D NMR is essentially the same as that for 1D NMR. Particular caution should be exercised to use clean and dry sample tubes and use only deuterated solvents. The amount of sample used should be anywhere between 15 and 25 mg although with sufficient time even smaller quantities may be used. The filling height of the solvent should be about 4 cm. The solution must be clear and homogenous. Any participate needs to be filtered off prior to obtaining the spectra. </para></section>
+      <section id="import-auto-id1164317251095">
+        <title>The actual experiment and important acquisition parameters </title><para id="import-auto-id1164317135889">The acquisition of a 2D spectrum will vary from instrument to instrument, but the process is virtually identical to obtaining a <sup>13</sup>C spectrum. It is important to obtain a 1D spectrum (especially <sup>1</sup>H) before proceeding to obtain a 2D spectrum. The acquisition range should be adjusted based on the 1D spectrum to minimize instrument time. Depending on the specific type of 2D experiment (such as COSY or NOESY) several parameters need to be adjusted. The following 6 steps can followed to obtain almost any 2D NMR spectrum.</para><list id="eip-102" list-type="enumerated" number-style="arabic"><item>Login to the computer system.</item>
+<item>Change the sample.</item>
+<item>Lock and shim the magnet.</item>
+<item>Setup parameters and run the experiment. Use the 1D spectra already obtained to adjust experiment settings, paying special attention to important acquisition parameters.</item>
+<item>Process the obtained data and print the spectrum.</item>
+<item>Exit and logout.</item></list><para id="import-auto-id1164317137167">The parameters listed in <link target-id="import-auto-id1164317206008"/> should be given special attention, as they can significantly affect the quality of the spectra obtained.</para><table id="import-auto-id1164317206008" summary="This table gives a summary of some of the most important acquisition parameters.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>Parameter </entry>
+                <entry>Description</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Acquisition Time (AQ) </entry>
+                <entry>Data points (TD) x dwell time (DW)</entry>
+              </row>
+              <row>
+                <entry>Dwell Time </entry>
+                <entry>1/spectral width (SW)</entry>
+              </row>
+              <row>
+                <entry>Digital Resolution </entry>
+                <entry>1/AQ</entry>
+              </row>
+<row>
+                <entry>Number of Scans </entry>
+                <entry>Multiples of 8/16</entry>
+              </row>
+              <row>
+                <entry>TD1 </entry>
+                <entry>Number of data points in the first time domain (~128-512)</entry>
+              </row>
+              <row>
+                <entry>SW1 </entry>
+                <entry>Spectral Width in the first (direct) dimension</entry>
+              </row>
+              <row>
+                <entry>TD2 </entry>
+                <entry>Number of data points in the second time domain (~2048-4096)</entry>
+              </row>
+              <row>
+                <entry>SW2 </entry>
+                <entry>Spectral Width in the second (indirect) dimension</entry>
+              </row>
+
+            </tbody>
+          
+
+
+
+
+
+
+</tgroup><caption>Some of the most important parameters for obtaining a 2D spectrum and their meaning. </caption>
+</table></section>
+      <section id="import-auto-id1164317210670">
+        <title>After obtaining a spectrum and analysis</title>
+        <para id="import-auto-id1164317063005">After a 2D spectrum has successfully been obtained, depending on the type of spectrum (COSY, NOESY, INEPT), it might need to be phased. Phasing is the adjustment of the spectrum so that all of the peaks across the spectrum are in the absorptive mode (pointing either up or down). With 2D spectra, phasing is done in both frequency dimensions. This can either be done automatically by a software program (for simple 2D spectra with no cluster signals) or manually by the user (for more complex 2D spectra). Sometimes, phasing can be done with the program that is used to obtain the spectrum. Afterwards the spectrum could either be printed out or further analyzed. One example of further analysis is integrating parts of the spectrum. This could give the user meaningful information about the relative ratio of different types of nuclei (and even quantify the ratios between two diasteriomeric molecules). </para></section>
+    </section>
+    <section id="import-auto-id1164317127748">
+      <title>Conclusion</title>
+      <para id="import-auto-id1164317213714">Two-dimensional NMR is increasingly becoming a routine method for analyzing complex molecules, whether they are inorganic compounds, organic natural products, proteins, or polymers. A basic understanding of 2D NMR can make it significantly easier to analyze complex molecules and provide further confirmation for results obtained by other methods. The variation in pulse sequences provides chemists the opportunity to analyze a large diversity of compounds. The increase in the magnetic strength of NMR machines has allowed 2D NMR to be more often used even for simpler molecules. Furthermore, higher dimension techniques have also been introduced, and they are slowly being integrated into the repertoire of chemists. These are essentially simple extensions of the ideas of 2D NMR.</para></section>
+    <section id="import-auto-id1164317075720">
+      <title>Bibliography</title>
+      <list id="import-auto-id1164317074929" list-type="bulleted">
+        <item>G. Bodenhausen and D. J. Ruben, <emphasis effect="italics">Chem. Phys. Lett.</emphasis>, 1980, <emphasis effect="bold">69</emphasis>, 185.</item>
+        <item>C. Bonhomme, C. Gervais, and D. Laurencin, <emphasis effect="italics">Prog. Nucl. Mag. Res. Sp.</emphasis>, 2014, <emphasis effect="bold">77</emphasis>, 1.</item>
+        <item>W. S. Brey, <emphasis effect="italics">Pulse Methods in 1D and 2D Liquid-phase NMR</emphasis>, 1<sup>st</sup> Ed, Academic Press Inc., San Diego (1988).</item>
+        <item>W. R. Croasmun and R. M. K. Carlson, <emphasis effect="italics">Two-dimensional NMR Spectroscopy: Applications for Chemists and Biochemists</emphasis>, 1<sup>st</sup> Ed, VCH, New York (1987).</item>
+        <item>H. Friebolin, <emphasis effect="italics">Basic One- and Two-dimensional NMR Spectroscopy</emphasis>, 2<sup>nd</sup> Ed, Wiley-VCH, Weinheim (2005).</item>
+        <item>T. Parella and J. F. Espinosa, <emphasis effect="italics">Prog. Nucl. Mag. Res. Sp.</emphasis>, 2013, <emphasis effect="bold">73</emphasis>, 17.</item>
+        <item>U. Weber and T. Herbert, <emphasis effect="italics">NMR Spectroscopy: Modern Spectral Analysis</emphasis>, 1<sup>st</sup> Ed, Wiley-VCH, Weinheim (1998).</item>
+      </list>
+    </section>
+  </content>
+</document>

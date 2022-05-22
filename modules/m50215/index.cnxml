@@ -1,0 +1,251 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Viscosity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50215</md:content-id>
+  <md:title>Viscosity</md:title>
+  <md:abstract>This module discusses how viscosity is characterized.</md:abstract>
+  <md:uuid>2d571bb2-44b5-4e3e-b9de-06f01604d5c1</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id6701542"><title>Introduction</title><para id="import-auto-id8702847">All liquids have a natural internal resistance to flow termed viscosity. Viscosity is the result of frictional interactions within a given liquid and is commonly expressed in two different ways. </para>
+      <section id="import-auto-id8983856"><title>Dynamic viscosity</title><para id="import-auto-id2453677">The first is dynamic viscosity, also known as absolute viscosity, which measures a fluid’s resistance to flow. In precise terms, dynamic viscosity is the tangential force per unit area necessary to move one plane past another at unit velocity at unit distance apart. As one plane moves past another in a fluid, a velocity gradient is established between the two layers (<link target-id="import-auto-id8745795"/>). Viscosity can be thought of as a drag coefficient proportional to this gradient.</para>
+
+          <figure id="import-auto-id8745795"><media id="import-auto-id8747885" alt="">
+              <image mime-type="image/jpg" src="../../media/Figure1-84df.jpg" width="450" print-width="4.5in"/>
+            </media>
+          <caption>Fluid dynamics as one plane moves relative to a stationary plane through a liquid.  The moving plane has area A and requires force F to overcome the fluid’s internal resistance.</caption></figure><para id="import-auto-id5982513">The force necessary to move a plane of area A<emphasis effect="bold"/> past another in a fluid is given by <link target-id="import-auto-id8852395"/> where V is the velocity of the liquid, Y is the separation between planes, and η is the dynamic viscosity. </para>
+
+          <equation id="import-auto-id8852395"><media id="import-auto-id8851663" alt="">
+              <image mime-type="image/png" src="../../media/eq1-5830.jpg" height="30" width="60"/>
+            </media>
+          </equation>
+
+        <para id="import-auto-id2212139">V/Y also represents the velocity gradient (sometimes referred to as shear rate).  Force over area is equal to τ, the shear stress, so the equation simplifies to <link target-id="import-auto-id5761086"/>. </para>
+          <equation id="import-auto-id5761086"><media id="import-auto-id6740207" alt="">
+              <image mime-type="image/png" src="../../media/eq2-cc5d.jpg" height="30" width="48"/>
+            </media>
+          </equation>
+        <para id="import-auto-id6844502">For situations where V does not vary linearly with the separation between plates, the differential formula based on Newton’s equations is given in <link target-id="import-auto-id1149684"/>.</para>
+
+          <equation id="import-auto-id1149684">
+            <media id="import-auto-id6425578" alt="">
+              <image mime-type="image/png" src="../../media/eq3-9413.jpg" height="31" width="55"/>
+            </media>
+          </equation>
+
+      </section><section id="import-auto-id8470704"><title>Kinematic viscosity</title><para id="import-auto-id8413807">Kinematic viscosity, the other type of viscosity, requires knowledge of the density, ρ, and is given by <link target-id="import-auto-id7429317"/>, where ν<emphasis effect="bold"/> is the kinematic viscosity and η is the dynamic viscosity.</para><equation id="import-auto-id7429317">
+          <media id="import-auto-id6018813" alt="">
+            <image mime-type="image/png" src="../../media/eq4-3bd4.jpg" height="39" width="39"/>
+          </media>
+        </equation>
+        </section><section id="eip-608"><title>Units of viscosity</title><para id="eip-250">Viscosity is commonly expressed in Stokes, Poise, Saybolt Universal Seconds, degree Engler, and SI units.  </para><section id="eip-838"><title>Dynamic viscosity</title><para id="eip-865">The SI units for dynamic (absolute) viscosity is given in units of N·S/m<sup>2</sup>, Pa·S, or kg/(m·s), where N stands for Newton and Pa for Pascal. Poise are metric units expressed as dyne·s/cm<sup>2</sup> or g/(m·s). They are related to the SI unit by g/(m·s) = 1/10 Pa·S.  100 centipoise, the centipoise (cP) being the most used unit of viscosity, is equal to one Poise.
+</para><para id="eip-174"><link target-id="eip-550"/> shows the interconversion factors for dynamic viscosity. <link target-id="eip-762"/> lists the dynamic viscosities of several liquids at various temperatures in centipoise. The effect of the temperature on viscosity is clearly evidenced in the drastic drop in viscosity of water as the temperature is increased from near ambient to 60 degrees Celsius.  Ketchup has a viscosity of 1000 cP at 30 degrees Celsius or more than 1000 times that of water at the same temperature!</para><table id="eip-550" summary="Tthe interconversion factors for dynamic viscosity.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <thead>
+              <row>
+                <entry>Unit</entry>
+                <entry>Pa*S</entry>
+                <entry>dyne·s/cm<sup>2</sup> or g/(m·s) (Poise)</entry>
+                <entry>Centipoise (cP)</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Pa*S</entry>
+                <entry>1</entry>
+                <entry>10</entry>
+                <entry>1000</entry>
+              </row>
+              <row>
+                <entry>dyne·s/cm<sup>2</sup> or g/(m·s) (Poise)</entry>
+                <entry>0.1</entry>
+                <entry>1</entry>
+                <entry>100</entry>
+              </row>
+              <row>
+                <entry>Centipoise (cP)</entry>
+                <entry>0.001</entry>
+                <entry>0.01</entry>
+                <entry>1</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+</tgroup><caption>The interconversion factors for dynamic viscosity. </caption>
+</table><table id="eip-762" summary="Viscosities of Common Liquids (*at 0% evaporation volume).">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <thead>
+              <row>
+                <entry>Liquid</entry>
+                <entry>η (cP)</entry>
+                <entry>Temperature(°C)</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Water</entry>
+                <entry>0.89</entry>
+                <entry>25</entry>
+  </row>
+              <row>
+                <entry>Water</entry>
+                <entry>0.47</entry>
+                <entry>60</entry>
+  </row>
+              <row>
+                <entry>Milk</entry>
+                <entry>2.0</entry>
+                <entry>18</entry>
+  </row>
+              <row>
+    <entry>Olive Oil</entry>
+    <entry>107.5</entry>
+    <entry>20</entry>
+  </row>
+  <row>
+    <entry>Toothpaste</entry>
+    <entry>70,000-100,000</entry>
+    <entry>18</entry>
+  </row>
+  <row>
+    <entry>Ketchup</entry>
+    <entry>1000</entry>
+    <entry>30</entry>
+  </row>
+  <row>
+    <entry>Custard</entry>
+    <entry>1,500</entry>
+    <entry>85-90</entry>
+  </row>
+  <row>
+    <entry>Crude Oil (WTI)*</entry>
+    <entry>7</entry>
+    <entry>15</entry>
+  </row>
+</tbody>
+          
+
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Viscosities of common liquids (*at 0% evaporation volume). 
+</caption>
+</table></section><section id="eip-551"><title>Kinematic viscosity</title><para id="eip-646">The CGS unit for kinematic viscosity is the Stoke which is equal to 10<sup>-4 </sup>m<sup>2</sup>/s. Dividing by 100 yields the more commonly used centistoke. The SI unit for viscosity is m<sup>2</sup>/s. The Saybolt Universal second is commonly used in the oilfield for petroleum products represents the time required to efflux 60 milliliters from a Saybolt Universal viscometer at a fixed temperature according to ASTM D-88. The Engler scale is often used in Britain and quantifies the viscosity of a given liquid in comparison to water in an Engler viscometer for 200cm<sup>3</sup> of each liquid at a set temperature.</para></section></section></section><section id="import-auto-id8462007">
+      <title>Newtonian versus  non-Newtonian fluids</title>
+      <para id="import-auto-id3455665">One of the invaluable applications of the determination of viscosity is identifying a given liquid as Newtonian or non-Newtonian in nature. </para>
+      <list id="import-auto-id8137236" list-type="bulleted">
+        <item>Newtonian liquids are those whose viscosities remain constant for all values of applied shear stress. </item>
+        <item><emphasis effect="italics">Non-Newtonian</emphasis> liquids are those liquids whose viscosities vary with applied shear stress and/or time. </item>
+      </list>
+      <para id="import-auto-id6999602">Moreover,  non-Newtonian liquids can be further subdivided into classes by their viscous behavior with shear stress: </para>
+      <list id="import-auto-id7921961" list-type="bulleted">
+        <item>Pseudoplastic fluids whose viscosity decreases with increasing shear rate</item>
+        <item>Dilatants in which the viscosity increases with shear rate. </item>
+        <item>Bingham plastic fluids, which require some force threshold be surpassed to begin to flow and which thereafter flow proportionally to increasing shear stress.</item>
+      </list>
+    </section>
+    <section id="import-auto-id6410033">
+      <title>Measuring viscosity</title>
+      <para id="import-auto-id5897403"><emphasis effect="italics">Viscometers</emphasis> are used to measure viscosity. There are seven different classes of viscometer:</para>
+      <list id="import-auto-id7685837" list-type="enumerated" number-style="arabic">
+        <item>Capillary viscometers. </item>
+        <item>Orifice viscometers. </item>
+        <item>High temperature high shear rate viscometers. </item>
+        <item>Rotational viscometers. </item>
+        <item>Falling ball viscometers. </item>
+        <item>Vibrational viscometers. </item>
+        <item>Ultrasonic Viscometers. </item>
+      </list>
+      <section id="import-auto-id6731380"><title>Capillary viscometers</title><para id="import-auto-id3607860">Capillary viscometers are the most widely used viscometers when working with Newtonian fluids and measure the flow rate through a narrow, usually glass tube. In some capillary viscometers, an external force is required to move the liquid through the capillary; in this case, the pressure difference across the length of the capillary is used to obtain the viscosity coefficient. </para><para id="import-auto-id7302930">Capillary viscometers require a liquid reservoir, a capillary of known dimensions, a pressure controller, a flow meter, and a thermostat be present.  These viscometers include, Modified Ostwald viscometers, Suspended-level viscometers, and Reverse-flow viscometers and measure <emphasis effect="italics">kinematic </emphasis>viscosity.</para>
+        <para id="import-auto-id3468755">The equation governing this type of viscometry is the Pouisille law (<link target-id="import-auto-id6949296"/>), where Q is the overall flowrate, ΔP, the pressure difference, <emphasis effect="italics">a</emphasis><emphasis effect="italics"/>, the internal radius of the tube, η, the dynamic viscosity, and <emphasis effect="italics">l</emphasis> the path length of the fluid.</para>
+        <equation id="import-auto-id6949296">
+          <media id="import-auto-id8902030" alt="">
+            <image mime-type="image/png" src="../../media/eq5-9a53.jpg" height="45" width="78"/>
+          </media>
+        </equation>
+        <para id="import-auto-id8889249">Here, Q is equal to V/t; the volume of the liquid measured over the course of the experiment divided by the time required for it to move through the capillary where V is volume and t is time. </para>
+        <para id="import-auto-id3775230">For gravity-type capillary viscometers, those relying on gravity to move the liquid through the tube rather than an applied force, <link target-id="import-auto-id8900595"/> is used to find viscosity, obtained by substituting the relation <link target-id="import-auto-id6034679"/> with the experimental values, where P is pressure, ρ is density, g is the gravitational constant, and h is the height of the column.</para>
+        <equation id="import-auto-id6034679"><media id="import-auto-id8983033" alt="">
+            <image mime-type="image/png" src="../../media/eq6-7f25.jpg" height="23" width="162"/>
+          </media>
+        </equation>
+        <equation id="import-auto-id8900595">
+          <media id="import-auto-id8831496" alt="">
+            <image mime-type="image/png" src="../../media/eq7-877a.jpg" height="42" width="93"/>
+          </media>
+        </equation>
+        <para id="import-auto-id2469846">An example of a capillary viscometer (Ostwald viscometer) is shown in <link target-id="import-auto-id8701055"/>. </para><figure id="import-auto-id8701055"><media id="import-auto-id8465552" alt="">
+            <image mime-type="image/jpg" src="../../media/Figure2.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>The capillary, submerged in an isothermal bath, is filled until the liquid lies at Mark 3.  The liquid is then drawn up through the opposite side of the tube.  The time it takes for the liquid to travel from Mark 2 to Mark 1 is used to compute the viscosity.</caption></figure></section><section id="import-auto-id8983140">
+        <title>Orifice viscometers</title>
+        <para id="import-auto-id8983549">Commonly found in the oil industry, orifice viscometers consist of a reservoir, an orifice, and a receiver. These viscometers report viscosity in units of efflux time as the measurement consists of measuring the time it takes for a given liquid to travel from the orifice to the receiver. These instruments are not accurate as the set-up does not ensure that the pressure on the liquid remains constant and there is energy lost to friction at the orifice.  The most common types of these viscometer include Redwood, Engler, Saybolt, and Ford cup viscometers. A Saybolt viscometer is represented in <link target-id="import-auto-id8521302"/>.</para><figure id="import-auto-id8521302"><media id="import-auto-id8660700" alt="">
+            <image mime-type="image/jpg" src="../../media/Figure3-5a22.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>The time it takes for a 60 mL collection flask to fill is used to determine the viscosity in Saybolt units.  </caption></figure></section>
+      <section id="import-auto-id5151856">
+        <title>High temperature, high shear rate viscometers</title>
+        <para id="import-auto-id2766300">These viscometers, also known as cylinder-piston type viscometers are employed when viscosities above 1000 poise, need to be determined, especially of  non-Newtonian fluids.  In a typical set-up, fluid in a cylindrical reservoir is displaced by a piston. As the pressure varies, this type of viscometry is well-suited for determining the viscosities over varying shear rates, ideal for characterizing fluids whose primary environment is a high temperature, high shear rate environment, e.g., motor oil.  A typical cylinder-piston type viscometer is shown in <link target-id="import-auto-id2546238"/>.</para><figure id="import-auto-id2546238"><media id="import-auto-id8367074" alt="">
+            <image mime-type="image/jpg" src="../../media/Figure4.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>A typical cylinder-piston type viscometer. </caption></figure></section>
+      <section id="import-auto-id7590892">
+        <title>Rotational viscometers</title>
+        <para id="import-auto-id3600045">Well-suited for non-Newtonian fluids, rotational viscometers measure the rate at which a solid rotates in a viscous medium. Since the rate of rotation is controlled, the amount of force necessary to spin the solid can be used to calculate the viscosity.  They are advantageous in that a wide range of shear stresses and temperatures and be sampled across. Common rotational viscometers include: the coaxial-cylinder viscometer, cone and plate viscometer, and coni-cylinder viscometer. A cone and plate viscometer is shown in <link target-id="import-auto-id8900169"/>. </para><figure id="import-auto-id8900169"><media id="import-auto-id7695802" alt="">
+            <image mime-type="image/jpg" src="../../media/Figure5-ad3a.jpg" width="350" print-width="3.5in"/>
+          </media>
+        <caption>A cone is spun by a rotor in a liquid paste along a plate.  The response of the rotation of the cone is measured, thereby determining viscosity.</caption></figure></section>
+      <section id="import-auto-id3469127"><title>Falling ball viscometer</title><para id="import-auto-id8356078">This type of viscometer relies on the terminal velocity achieved by a balling falling through the viscous liquid whose viscosity is being measured. A sphere is the simplest object to be used because its velocity can be determined by rearranging Stokes’ law (<link target-id="import-auto-id8519400"/>) to <link target-id="import-auto-id8505196"/>, where r is the sphere’s radius, η the dynamic viscosity, <emphasis effect="italics">v</emphasis> the terminal velocity of the sphere, σ the density of the sphere, ρ the density of the liquid, and <emphasis effect="italics">g </emphasis>the gravitational constant</para><equation id="import-auto-id8519400"><media id="import-auto-id3469105" alt="">
+            <image mime-type="image/png" src="../../media/eq8-fc8e.jpg" height="40" width="163"/>
+          </media>
+        </equation>
+
+
+          <equation id="import-auto-id8505196"><media id="import-auto-id7108937" alt="">
+              <image mime-type="image/png" src="../../media/eq9-1b14.jpg" height="55" width="123"/>
+            </media>
+          </equation>
+
+
+        <para id="import-auto-id5184103">A typical falling ball viscometric apparatus is shown in <link target-id="import-auto-id7554233"/>.</para><figure id="import-auto-id7554233"><media id="import-auto-id8472588" alt="">
+            <image mime-type="image/jpg" src="../../media/Figure6-3cbd.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>The time taken for the falling ball to pass from mark 1 to mark 2 is used to obtain viscosity measurements.</caption></figure></section><section id="import-auto-id8761982">
+        <title>Vibrational viscometers</title>
+        <para id="import-auto-id8901670">Often used in industry, these viscometers are attached to fluid production processes where a constant viscosity quality of the product is desired.  Viscosity is measured by the damping of an electrochemical resonator immersed in the liquid to be tested. The resonator is either a cantilever, oscillating beam, or a tuning fork. The power needed to keep the oscillator oscillating at a given frequency, the decay time after stopping the oscillation, or by observing the difference when waveforms are varied are respective ways in which this type of viscometer works.  A typical vibrational viscometer is shown in <link target-id="import-auto-id6441772"/>.</para><figure id="import-auto-id6441772"><media id="import-auto-id8380170" alt="">
+            <image mime-type="image/jpg" src="../../media/Figure7.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>A resonator produces vibrations in the liquid whose viscosity is to be tested.  An external sensor detects the vibrations with time, characterizing the material’s viscosity in realtime. </caption></figure></section>
+      <section id="import-auto-id1562652">
+        <title>Ultrasonic viscometers</title>
+        <para id="import-auto-id7678367">This type of viscometer is most like vibrational viscometers in that it is obtaining viscosity information by exposing a liquid to an oscillating system.  These measurements are  continuous and instantaneous.  Both ultrasonic and vibrational viscometers are commonly found on liquid production lines and constantly monitor the viscosity.</para>
+      </section>
+    </section>
+    <section id="import-auto-id6887992"><title>Bibliography</title><list id="import-auto-id5888404" list-type="bulleted">
+        <item>D.S. Viswanath, T.K. Gosh, D.H.L. Prasad, N.V.K. Dutt, K.Y. Rani.<emphasis effect="italics"> Viscosity of Liquids : Theory, Estimation, Experiment, and Data,</emphasis> Springer, 1st edn., 2007.</item>
+        <item>C.W. Macosko, <emphasis effect="italics">Rheology : principles, measurements, and applications,</emphasis> Wiley-VCH, New Jersey, 1st edn., 1994.</item>
+        <item>F.A. Morrison, <emphasis effect="italics">Understanding Rheology, </emphasis>Oxford University Press, New York, 1<sup>st</sup> edn., 2001.</item>
+        <item>The Physics Hypertextbook,  http://physics.info/viscosity/, ( accessed January, 2014).</item>
+        <item><emphasis effect="italics">Spring Handbook for Experimental Fluid Mechanics, </emphasis>Ed. C. Tropea, A.L. Yarin, J.F. Foss, Springer, 1<sup>st</sup> edn., 2007.</item>
+      </list>
+    </section></content>
+</document>

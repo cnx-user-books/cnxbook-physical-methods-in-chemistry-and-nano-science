@@ -1,0 +1,215 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Principles of Gas Chromatography</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50228</md:content-id>
+  <md:title>Principles of Gas Chromatography</md:title>
+  <md:abstract/>
+  <md:uuid>c546aeb3-6fb1-47e6-85a5-c49babf2c7d6</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165400260785"><title>Introduction</title><para id="import-auto-id1165399243829">Archer J.P. Martin (<link target-id="import-auto-id1165399246431"/>) and Anthony T. James (<link target-id="import-auto-id1165401577529"/>) introduced liquid–gas partition chromatography in 1950 at the meeting of the Biochemical Society held in London, a few months before submitting three fundamental papers to the <emphasis effect="italics">Biochemical Journal</emphasis>. It was this work that provided the foundation for the development of gas chromatography. In fact, Martin envisioned gas chromatography almost ten years before, while working with R. L. M. Synge (<link target-id="import-auto-id1165397151299"/>) on partition chromatography. Martin and Synge, who were awarded the chemistry Nobel prize in 1941, suggested that separation of volatile compounds could be achieved by using a vapor as the mobile phase instead of a liquid.</para><figure id="import-auto-id1165399246431"><media id="import-auto-id1165409824110" alt="">
+          <image mime-type="image/jpg" src="../../media/Archer_John_Porter_Martin_Nobel.jpg" width="300" print-width="2in"/></media>
+      <caption>British chemist Archer J. P. Martin, FRS (1910-2002) shared the Nobel Prize in 1952 for partition chromatography. </caption></figure><figure id="import-auto-id1165401577529"><media id="import-auto-id1165399703292" alt="">
+          <image mime-type="image/jpg" src="../../media/Anthony James.jpg" width="300" print-width="2in"/></media>
+      <caption>British chemist Anthony T. James (1922-2006). </caption></figure><figure id="import-auto-id1165397151299"><media id="import-auto-id1165410117848" alt="">
+          <image mime-type="image/jpg" src="../../media/Richard_Laurence_Millington_Synge.jpg" width="300" print-width="2in"/></media>
+      <caption>British biochemist Richard L. M. Synge, FRS (1914-1994) shared the Nobel Prize in 1952 for partition chromatography. </caption></figure><para id="import-auto-id1165398803189">Gas chromatography quickly gained general acceptance because it was introduced at the time when improved analytical controls were required in the petrochemical industries, and new techniques were needed in order to overcome the limitations of old laboratory methods. Nowadays, gas chromatography is a mature technique, widely used worldwide for the analysis of almost every type of organic compound, even those that are not volatile in their original state but can be converted to volatile derivatives.</para>
+    </section><section id="import-auto-id1165399683971">
+      <title>The chromatographic process</title>
+      <para id="import-auto-id1165400246992">Gas chromatography is a separation technique in which the components of a sample partition between two phases: </para>
+      <list id="import-auto-id1165395351314" list-type="enumerated" number-style="arabic">
+        <item>The stationary phase.  </item>
+        <item>The mobile gas phase. </item>
+      </list>
+      <para id="import-auto-id1165399948981">According to the state of the stationary phase, gas chromatography can be classified in gas-solid chromatography (GSC), where the stationary phase is a solid, and gas-liquid chromatography (GLC) that uses a liquid as stationary phase. GLC is to a great extent more widely used than GSC.</para>
+      <para id="import-auto-id1165399970699">During a GC separation, the sample is vaporized and carried by the mobile gas phase (i.e., the carrier gas) through the column. Separation of the different components is achieved based on their relative vapor pressure and affinities for the stationary phase. The affinity of a substance towards the stationary phase can be described in chemical terms as an equilibrium constant called the distribution constant K<sub>c</sub>, also known as the partition coefficient, <link target-id="eip-232"/>, where [A]<sub>s</sub> is the concentration of compound A in the stationary phase and [A]<sub>m</sub> is the concentration of compound A in the stationary phase. </para><equation id="eip-232"><media id="import-auto-id1165400263220X" alt="">
+            <image mime-type="image/jpg" src="../../media/Eq.jpg" width="380" print-width="3.8in"/>
+          </media></equation><para id="import-auto-id1165398403075">The distribution constant (K<sub>c</sub>) controls the movement of the different compounds through the column, therefore differences in the distribution constant allow for the chromatographic separation. <link target-id="id1165395356853"/> shows a schematic representation of the chromatographic process. K<sub>c</sub> is temperature dependent, and also depends on the chemical nature of the stationary phase. Thus, temperature can be used as a way to improve the separation of different compounds through the column, or a different stationary phase. </para><figure id="import-auto-id1165395121340"><media id="import-auto-id1165395356853" alt="">
+          <image mime-type="image/jpg" src="../../media/image0001b.jpg" width="400" print-width="4in"/></media>
+      <caption>Schematic representation of the chromatographic process. Adapted from Harold M. McNair, James M. Miller, <emphasis effect="italics">Basic Gas Chromatography</emphasis>, John Wiley &amp; Sons, New York,1998. Reproduced courtesy of John Wiley &amp; Sons, Inc.</caption></figure><section id="import-auto-id1165398455308">
+        <title>A typical chromatogram</title>
+        <para id="import-auto-id1165399990994"><link target-id="import-auto-id1165400226808"/> shows a chromatogram of the analysis of residual methanol in biodiesel, which is one of the required properties that must be measured to ensure the quality of the product at the time and place of delivery.</para><figure id="import-auto-id1165400226808"><media id="import-auto-id1165410054397" alt="">
+            <image mime-type="image/jpg" src="../../media/1c.jpg" width="450" print-width="4.5in"/>
+          </media>
+        <caption>Chromatogram of the analysis of methanol in B100 biodiesel, following EN 14110 methodology. Reproduced courtesy of PerkinElmer Inc. (http://www.perkinelmer.com/)</caption></figure><para id="import-auto-id1165395146093">Chromatogram (<link target-id="import-auto-id1165400226808"/>a) shows a standard solution of methanol with 2-propanol as the internal standard. From the figure it can be seen that methanol has a higher affinity for the mobile phase (lower K<sub>c</sub>) than 2-propanol (iso-propanol), and therefore elutes first. Chromatograms (<link target-id="import-auto-id1165400226808"/>b and c) show two samples of biodiesel, one with methanol (<link target-id="import-auto-id1165400226808"/>b) and another with no methanol detection. The internal standard was added to both samples for quantitation purposes. </para></section>
+    </section>
+    <section id="import-auto-id1165409675523">
+      <title>Instrument overview</title>
+      <section id="import-auto-id1165401034649"><title>Components of a gas chromatograph system</title><para id="import-auto-id1165407030725"><link target-id="import-auto-id1165400022317"/> shows a schematic diagram of the components of a typical gas chromatograph, while <link target-id="import-auto-id1165400220493"/> shows a photograph of a typical gas chromatograph coupled to a mass spectrometer (GC/MS).</para><figure id="import-auto-id1165400022317"><media id="import-auto-id1165399951266" alt="">
+            <image mime-type="image/png" src="../../media/Gas_chromatograph.png" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Schematic diagram of the components of a typical gas chromatograph. Adapted from http://en.wikipedia.org/wiki/Gas_chromatography</caption></figure><figure id="import-auto-id1165400220493"><media id="import-auto-id1165399206245" alt="">
+            <image mime-type="image/jpg" src="../../media/Clarus Perkin Elmer.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Image of a Perkin Elmer Clarus SQ 8S GC/MS. Reproduced courtesy of PerkinElmer Inc. (<link url="http://www.perkinelmer.com/">http://www.perkinelmer.com/</link>). </caption></figure><section id="eip-292"><title>Carrier gas</title>
+
+<para id="import-auto-id1165398405773">The role of the carrier gas -GC mobile phase- is to carry the sample molecules along the column while they are not dissolved in or adsorbed on the stationary phase.  The carrier gas is inert and does not interact with the sample, and thus  GC separation's selectivity can be attributed to the stationary phase alone. However, the choice of carrier gas is important to maintain high efficiency. The effect of different carrier gases on column efficiency is represented by the van Deemter (packed columns) and the Golay equation (capillary columns). The van Deemter equation, <link target-id="eip-396"/>, describes the three  main effects  that contribute to band broadening in packed columns and, as a consequence, to a reduced efficiency in the separation process.</para><equation id="eip-396"><media id="import-auto-id1165400263220" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-3745.png" width="120" print-width="1.2in"/>
+          </media>
+        </equation><para id="import-auto-id1165411995657">These three factors are: </para>
+        <list id="import-auto-id1165400004506" list-type="enumerated" number-style="arabic">
+          <item>the eddy diffusion (the A-term), which results from the fact that in packed columns spaces between particles along the column are not uniform. Therefore, some molecules take longer pathways than others, and there are also variations in the velocity of the mobile phase. </item>
+          <item>the longitudinal molecular diffusion (the B-term) which is a consequence of having  regions with different analyte concentrations.</item>
+          <item>the mass transfer in the stationary liquid phase (the C-term)</item>
+        </list>
+        <para id="import-auto-id1165402891895">The broadening is described in terms of the height equivalent to a theoretical plate, HEPT, as a function of the average linear gas velocity, <emphasis effect="italics">u</emphasis>. A small HEPT value indicates a narrow peak and a higher efficiency.</para>
+        <para id="import-auto-id1165403398958">Since capillary columns do not have any packing, the Golay equation, <link target-id="eip-907"/>, does not have an A-term. The Golay equation has 2 C-terms, one for mass transfer in then stationary phase (C<sub>s</sub>) and one for mass transfer in the mobile phase (C<sub>M</sub>).</para><equation id="eip-907"><media id="import-auto-id1165400213970" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-3011.png" width="140" print-width="1.4in"/>
+          </media>
+        </equation><para id="import-auto-id1165406921286"> High purity hydrogen, helium and nitrogen are commonly used for gas chromatography. Also, depending on the type of detector used, different gases are preferred.</para>
+
+
+</section>
+
+<section id="import-auto-id1165402395627">
+          <title>Injector </title>
+          <para id="import-auto-id1165407219846">This is the place where the sample is volatilized and quantitatively introduced into the carrier gas stream. Usually a syringe is used for injecting the sample into the injection port. Samples can be injected manually or automatically with mechanical devices that are often placed on top of the gas chromatograph: the auto-samplers.</para>
+        </section>
+        <section id="import-auto-id1165408900941">
+          <title>Column </title>
+          <para id="import-auto-id1165398391468">The gas chromatographic column may be considered the heart of the GC system, where the separation of sample components takes place. Columns are classified as either packed or capillary columns. A general comparison of packed and capillary columns is shown in <link target-id="eip-351"/>. Images of packed columns are shown in <link target-id="import-auto-id1165395152247"/> and <link target-id="import-auto-id1165398402886"/>. </para><table id="eip-351" summary="Table 1 shows a summary of the differences between a packed and a capillary column">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Column type</emphasis></entry>
+    <entry><emphasis effect="bold">Packed column</emphasis></entry>
+    <entry><emphasis effect="bold">Capillary column</emphasis></entry>
+  </row>
+  <row>
+    <entry>History</entry>
+    <entry>First type of GC column used</entry>
+    <entry>Modern technology. Today most GC applications are developed using capillary columns</entry>
+  </row>
+  <row>
+    <entry>Composition</entry>
+    <entry>Packed with silica particles onto which the stationary phase is coated.  </entry>
+    <entry>Not packed with particulate material. Made of chemically treated fused silica covered with thin, uniform liquid phase films.</entry>
+  </row>
+  <row>
+    <entry>Efficiency</entry>
+    <entry>Low</entry>
+    <entry>High</entry>
+  </row>
+  <row>
+    <entry>Outside diameter</entry>
+    <entry>2-4 mm</entry>
+    <entry>0.4 mm</entry>
+  </row>
+  <row>
+    <entry>Column length</entry>
+    <entry>2-4 meters</entry>
+    <entry>15-60 meters</entry>
+  </row>
+  <row>
+    <entry>Advantages</entry>
+    <entry>Lower cost, larger samples</entry>
+    <entry>Faster, better for complex mixtures</entry>
+  </row>
+</tbody>
+
+
+</tgroup><caption>A summary of the differences between a packed and a capillary column. </caption>
+</table><figure id="import-auto-id1165395152247"><media id="import-auto-id1165399004523" alt="">
+              <image mime-type="image/jpg" src="../../media/Fig_2_11_Columns.jpg" width="200" print-width="2in"/>
+            </media>
+          <caption>A typical capillary GC column. Adapted from F. M. Dunnivant and J. W. Ginsbach, <emphasis effect="italics">Gas Chromatography, Liquid Chromatography, Capillary Electrophoresis – Mass Spectrometry. A Basic Introduction</emphasis>, Copyright Dunnivant &amp; Ginsbach (2008). </caption></figure><figure id="import-auto-id1165398402886"><media id="import-auto-id1165400846302" alt="">
+              <image mime-type="image/jpg" src="../../media/packed column.jpg" width="200" print-width="2in"/>
+            </media>
+          <caption>A Glass Packed GC Column. Adapted from F. M. Dunnivant and J. W. Ginsbach, <emphasis effect="italics">Gas Chromatography, Liquid Chromatography, Capillary Electrophoresis – Mass Spectrometry. A Basic Introduction</emphasis>, Copyright Dunnivant &amp; Ginsbach (2008). </caption></figure><para id="import-auto-id1165399021585">Since most common applications employed nowadays use capillary columns, we will focus on this type of columns. To define a capillary column, four parameters must be specified:</para>
+          <list id="import-auto-id1165398549838" list-type="enumerated" number-style="arabic"><item>The stationary phase is the parameter that will determine the final resolution obtained, and will influence other selection parameters. Changing the stationary phase is the most powerful way to alter selectivity in GC analysis.</item>
+            <item>The length is related to the overall efficiency of the column and to overall analysis time. A longer column will increase the peak efficiency and the quality of the separation, but it will also increase analysis time. One of the classical trade-offs in gas chromatography (GC) separations lies between speed of analysis and peak resolution.</item>
+            <item>The column internal diameter (ID) can influence column efficiency (and therefore resolution) and also column capacity. By decreasing the column internal diameter, better separations can be achieved, but column overload and peak broadening may become an issue.</item>
+            <item>The sample capacity of the column will also depend on film thickness. Moreover, the retention of sample components will be affected by the thickness of the film, and therefore its retention time. A shorter run time and higher resolution can be achieved using thin films, however these films offer lower capacity.</item>
+          </list></section>
+        <section id="import-auto-id1165404278232">
+          <title>Detector </title>
+          <para id="import-auto-id1165399819063">The detector senses a physicochemical property of the analyte and provides a response which is amplified and converted into an electronic signal to produce a chromatogram. Most of the detectors used in GC were invented specifically for this technique, except for the thermal conductivity detector (TCD) and the mass spectrometer. In total, approximately 60 detectors have been used in GC. Detectors that exhibit an enhanced response to certain analyte types are known as "selective detectors". </para><para id="import-auto-id1165399216307">During the last 10 years there had been an increasing use of GC in combination with mass spectrometry (MS). The mass spectrometer has become a standard detector that allows for lower detection limits and does not require the separation of all components present in the sample. Mass spectroscopy is one of the types of detection that provides the most information with only micrograms of sample. Qualitative identification of unknown compounds as well as quantitative analysis of samples is possible using GC-MS. When GC is coupled to a mass spectrometer, the compounds that elute from the GC column are ionized by using electrons (EI, electron ionization) or a chemical reagent (CI, chemical ionization). Charged fragments are focused and accelerated into a mass analyzer: typically a quadrupole mass analyzer. Fragments with different mass to charge ratios will generate different signals, so any compound that produces ions within the mass range of the mass analyzer will be detected.  Detection limits of 1-10 ng or even lower values (e.g., 10 pg) can be achieved selecting the appropriate scanning mode. </para></section>
+      </section></section>
+    <section id="import-auto-id1165402564198">
+      <title>Sample preparation techniques</title>
+      <section id="import-auto-id1165405888402">
+        <title>Derivatization</title>
+        <para id="import-auto-id1165398409190">Gas chromatography is primarily used for the analysis of thermally stable volatile compounds. However, when dealing with non-volatile samples, chemical reactions can be performed on the sample to increase the volatility of the compounds. Compounds that contain functional groups such as OH, NH, CO<sub>2</sub>H, and SH are difficult to analyze by GC because they are not sufficiently volatile, can be too strongly attracted to the stationary phase or are thermally unstable. Most common derivatization reactions used for GC can be divided into three types:  </para><list id="import-auto-id1165395140051" list-type="enumerated" number-style="arabic">
+          <item>Silylation. </item>
+          <item>Acylation. </item>
+          <item>Alkylation &amp; Esterification. </item>
+        </list>
+        <para id="import-auto-id1165399012963">Samples are derivatized before being analyzed to:</para><list id="eip-705"><item>Increase volatility and decrease polarity of the compound</item>
+<item>Reduce thermal degradation</item>
+<item>Increase sensitivity by incorporating functional groups that lead to higher detector signals</item>
+<item>Improve separation and reduce tailing </item>
+
+        </list>
+        </section>
+    </section>
+    <section id="import-auto-id1165399358380">
+      <title>Advantages and disadvantages</title>
+      <para id="import-auto-id6442349">GC is the premier analytical technique for the separation of volatile compounds. Several features such as speed of analysis, ease of operation, excellent quantitative results, and moderate costs had helped GC to become one of the most popular techniques worldwide.</para>
+      <section id="import-auto-id1165398514075">
+        <title>Advantages of GC</title>
+        <list id="import-auto-id1165395354446" list-type="bulleted">
+          <item>Due to its high efficiency, GC allows the separation of the components of complex mixtures in a reasonable time. </item>
+          <item>Accurate quantitation  (usually sharp reproducible peaks are obtained)</item>
+          <item>Mature technique with many applications notes available for users.</item>
+          <item>Multiple detectors with high sensitivity (ppb) are available, which can also be used in series with a mass spectrometer since MS is a non-destructive technique.</item>
+        </list>
+      </section>
+      <section id="import-auto-id1165400212961">
+        <title>Disadvantages of GC</title>
+        <list id="import-auto-id1165394152991" list-type="bulleted">
+          <item>Limited to thermally stable and volatile compounds.</item>
+          <item>Most GC detectors are destructive, except for MS.</item>
+        </list>
+      </section>
+    </section>
+    <section id="import-auto-id1165398410671">
+      <title>Gas chromatography versus high performance liquid chromatography (HPLC)</title>
+      <para id="import-auto-id1165401904927"> Unlike gas chromatography, which is unsuitable for nonvolatile and thermally fragile molecules, liquid chromatography can safely separate a very wide range of organic compounds, from small-molecule drug metabolites to peptides and proteins.  </para>
+      <table id="eip-238" summary="Table 2 shows the relative advantages and disadvantages of GC versus HPLC.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">GC</emphasis></entry>
+    <entry><emphasis effect="bold">HPLC</emphasis></entry>
+  </row>
+  <row>
+    <entry>Sample must be volatile or derivatized previous to GC analysis</entry>
+    <entry>Volatility is not important, however solubility in the mobile phase becomes critical for the analysis.</entry>
+  </row>
+  <row>
+    <entry>Most analytes have a molecular weight (MW) below 500 Da (due to volatility issues)</entry>
+    <entry>There is no upper molecular weight limit as far as the sample can be dissolved in the appropriate mobile phase</entry>
+  </row>
+  <row>
+    <entry>Can be coupled to MS. Several mass spectral libraries are available if using electron ionization (e.g., <link url="http://chemdata.nist.gov/">http://chemdata.nist.gov/</link>)</entry>
+    <entry>Methods must be adapted before using an MS detector (non-volatile buffers cannot be used)</entry>
+  </row>
+  <row>
+    <entry>Can be coupled to several detectors depending on the application</entry>
+    <entry>For some detectors the solvent must be an issue. When changing detectors some methods will require prior modification</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup><caption>Relative advantages and disadvantages of GC versus HPLC. </caption>
+</table></section>
+    <section id="import-auto-id1165398614181">
+      <title>Bibliography </title>
+      <list id="import-auto-id1165400536345" list-type="bulleted"><item>E. F. Barry,<emphasis effect="italics"> Columns for gas chromatography: performance and selection</emphasis>, Wiley-Interscience, Hoboken, NJ (2007)</item>
+<item>L. S. Ettre, <emphasis effect="italics">LCGC</emphasis>, 2001, <emphasis effect="bold">19</emphasis>, 120.</item>
+<item>D. Filmore, <link url="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CCoQFjAA&amp;url=http%3A%2F%2Fpubs.acs.org%2Fsubscribe%2Farchive%2Ftcaw%2F12%2Fi05%2Fpdf%2F503business.pdf&amp;ei=Od8OU4yBD5TpkAeS-4D4Bg&amp;usg=AFQjCNGIpFz2cTemq66hYT8IqXQEjYo1Uw&amp;sig2=NhBa6KyjYU0mObiMmNQkwA">Industry Facts &amp; Figures - American Chemical Society Publications</link>. GC: Mature and moving forward. May, 2003.</item>
+<item>R. L. Grob and E. F. Barry, <emphasis effect="italics">Modern practice of gas chromatography</emphasis>, 4<sup>th</sup> edition,  Wiley-Interscience, Hoboken, N.J.(2004)</item>
+<item>J. V. Hinshaw, <emphasis effect="italics">LCG</emphasis>, 2013, <emphasis effect="bold">31</emphasis>, 932.</item>
+        <item>A.T. James, <emphasis effect="italics">Biochem. J.</emphasis>, 1952, <emphasis effect="bold">52</emphasis>, 242.</item>
+<item>A. T. James and A. J. P. Martin, <emphasis effect="italics">Biochem. J.</emphasis>, 1952, <emphasis effect="bold">50</emphasis>, 679.</item>
+<item>A. T. James, A. J. P. Martin, and G. H. Smith, <emphasis effect="italics">Biochem. J.</emphasis>, 1952, <emphasis effect="bold">52</emphasis>, 238.</item>
+
+<item>A. J. P. Martin and R. L. M Synge, <emphasis effect="italics">Biochem. J.</emphasis>, 1941, <emphasis effect="bold">35</emphasis>, 1358.</item>
+  <item>G. McMahon, <emphasis effect="italics">Analytical Instrumentation: A Guide to Laboratory, Portable and Miniaturized Instruments</emphasis>, 1<sup>st</sup> edition, Wiley, Hoboken, N.J (2007)</item>
+<item>H. M. McNair, <emphasis effect="italics">Basic gas chromatography</emphasis>, Wiley, New York (1998)</item>
+  <item>http://www.chromatographyonline.com/</item>
+
+<item>Sigma Aldrich Brochure. Derivatization reagents for selective response and detection in complex matrices. 2011,Sigma-Aldrich Co. Available through <link url="http://www.sigmaaldrich.com/"><emphasis effect="underline">http://www.sigmaaldrich.com</emphasis></link></item>
+</list></section>
+  </content>
+</document>

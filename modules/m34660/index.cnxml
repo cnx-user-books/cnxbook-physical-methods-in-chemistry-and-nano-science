@@ -1,0 +1,299 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Fourier Transform Infrared Spectroscopy of Metal Ligand Complexes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34660</md:content-id>
+  <md:title>Fourier Transform Infrared Spectroscopy of Metal Ligand Complexes</md:title>
+  <md:abstract/>
+  <md:uuid>ea860b6a-2e90-4e46-a040-f24de03bbd4c</md:uuid>
+</metadata>
+
+<content>
+    <section id="id6227746">
+      <title>Introduction </title>
+      <para id="id6227752">The infrared (IR) range of the electromagnetic spectrum is usually divided into three regions: </para>
+      <list id="id6227757" list-type="bulleted" bullet-style="bullet"><item>The far-infrared is always used for rotational spectroscopy, with wavenumber range 400 – 10 cm<sup>−1</sup> and lower energy. </item>
+	<item>The mid-infrared is suitable for a detection of the fundamental vibrations and associated rotational-vibrational structure with the frequency range approximately 4000 – 400 cm<sup>−1</sup>.</item>
+	<item>The near-Infrared with higher energy and wave number range 14000 – 4000 cm<sup>−1</sup>, can excite overtone or higher harmonic vibrations.</item>
+</list>
+      <para id="id6227817">For classical light material interaction theory, if a molecule can interact with an electromagnetic field and absorb a photon of certain frequency, the transient dipole of molecular functional group must oscillate at that frequency. Correspondingly, this transition dipole moment must be a non-zero value, however, some special vibration can be IR inactive for the stretching motion of a homonuclear diatomic molecule and vibrations do not affect the molecule’s dipole moment (e.g., N<sub>2</sub>).</para>
+    </section>
+    <section id="id6227842">
+      <title>Mechanistic description of the vibrations of polyatomic molecules </title>
+      <para id="id6227848">A molecule can vibrate in many ways, and each way is called a "vibrational mode". If a molecule has N atoms, linear molecules have 3N-5 degrees of vibrational modes whereas nonlinear molecules have 3N-6 degrees of vibrational modes. Take H<sub>2</sub>O for example; a single molecule of H<sub>2</sub>O has O-H bending mode (<link target-id="id6227878"/>a), antisymmetric stretching mode (<link target-id="id6227878"/>b),  and symmetric stretching mode (<link target-id="id6227878"/>c).</para>
+      <figure id="id6227878"><media id="id6227878_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics1-674b.jpg" id="id6227878__onlineimage" height="126" width="536"/>
+	</media>
+	<caption>Three types of hydroxy vibration modes. (a) bending mode; (b) antisymmetric stretching mode; (c) symmetric stretching mode.</caption></figure>
+      
+      <para id="id6227904">If a diatomic molecule has a harmonic vibration with the energy, <link target-id="eip-243"/>, where n+<sup>1</sup>/<sub>2</sub> with n = 0, 1, 2 ...). The motion of the atoms can be determined by the force equation, <link target-id="eip-633"/>, where k is the force constant). The vibration frequency can be described by <link target-id="eip-514"/>. In which <emphasis effect="italics">m</emphasis> is actually the reduced mass (m<sub>red</sub> or μ), which is  determined from the mass m<sub>1</sub> and m<sub>2</sub> of the two atoms, <link target-id="eip-611"/>.</para><equation id="eip-243"><media id="id55450_media" alt=""><image mime-type="image/jpg" src="../../media/Eq50-abd9.jpg" id="id55450__onlineimage" width="500" print-width="4.5in"/></media></equation><equation id="eip-633"><media id="id55449_media" alt=""><image mime-type="image/jpg" src="../../media/Eq49-3405.jpg" id="id55449__onlineimage" width="500" print-width="4.5in"/></media></equation><equation id="eip-514"><media id="id55452_media" alt=""><image mime-type="image/jpg" src="../../media/Eq52-1891.jpg" id="id55452__onlineimage" width="500" print-width="4.5in"/></media></equation><equation id="eip-611"><media id="id55451_media" alt=""><image mime-type="image/jpg" src="../../media/Eq51-d952.jpg" id="id55451__onlineimage" width="500" print-width="4.5in"/></media></equation>
+    </section>
+    <section id="id6227993">
+      <title>Principle of absorption bands </title>
+      <para id="id6227999">In IR spectrum, absorption information is generally presented in the form of both wavenumber and absorption intensity or percent transmittance. The spectrum is generally showing wavenumber (cm<sup>-1</sup>) as the x-axis and absorption intensity or percent transmittance as the y-axis.</para>
+      <para id="id6228016">Transmittance, "T", is the ratio of radiant power transmitted by the sample (I) to the radiant power incident on the sample (I<sub>0</sub>). Absorbance (A) is the logarithm to the base 10 of the reciprocal of the transmittance (T). The absorption intensity of molecule vibration can be determined by the Lambert-Beer Law, <link target-id="eip-751"/>. In this equation, the transmittance spectra ranges from 0 to 100%, and it can provide clear contrast between intensities of strong and weak bands.<emphasis effect="italics"/> Absorbance ranges from infinity to zero. The absorption of molecules can be determined by several components. In the absorption equation, <emphasis effect="italics">ε</emphasis> is called molar extinction coefficient, which is related to the molecule behavior itself, mainly the transition dipole moment, <emphasis effect="italics">c</emphasis> is the concentration of the sample, and <emphasis effect="italics">l</emphasis> is the sample length. Line width can be determined by the interaction with surroundings.</para><equation id="eip-751"><media id="id55453_media" alt=""><image mime-type="image/jpg" src="../../media/Eq53-447c.jpg" id="id55453__onlineimage" width="500" print-width="4.5in"/></media></equation>
+    </section>
+    <section id="id6228131"><title>The infrared spectrometer</title><para id="id6228168">As shown in <link target-id="id6228140"/>, there are mainly four parts for fourier transform infrared spectrometer (FTIR): </para>
+      <list id="id6228177" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Light source.</emphasis> Infrared energy is emitted from a glowing black-body source as continuous radiations. </item>
+	<item><emphasis effect="bold">Interferometer.</emphasis> It contains the interferometer, the beam splitter, the fixed mirror and the moving mirror. The beam splitter<emphasis effect="bold"/>takes the incoming infrared beam and divides it into two optical beams. One beam reflects off the fixed mirror. The other beam reflects off of the moving mirror which moves a very short distance. After the divided beams are reflected from the two mirrors, they meet each other again at the beam splitter. Therefore, an interference pattern is generated by the changes in the relative position of the moving mirror to the fixed mirror. The resulting beam then passes through the sample and is eventually focused on the detector. </item>
+	<item><emphasis effect="bold">Sample compartment.</emphasis> It is the place where the beam is transmitted through the sample. In the sample compartment, specific frequencies of energy are absorbed.<emphasis effect="bold"/></item>
+	<item><emphasis effect="bold">Detector. </emphasis>The beam finally passes to the detector for final measurement. The two most popular detectors for a FTIR spectrometer are deuterated triglycine sulfate (pyroelectric detector) and mercury cadmium telluride (photon or quantum detector). The measured signal is sent to the computer where the Fourier transformation takes place. </item>
+</list>
+    
+
+
+      <figure id="id6228140"><media id="id6228140_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics2-ef4d.jpg" id="id6228140__onlineimage" width="400" print-width="4in"/>
+	</media>
+	<caption>The main components of a fourier transform infrared (FTIR) spectrometer.</caption></figure></section>
+    <section id="id6228254">
+      <title>A typical application: the detection of metal ligand complexes </title>
+      <section id="id6228260">
+        <title>Some general absorption peaks for common types of functional groups</title>
+        <para id="id6228266">It is well known that all molecules chemicals have distinct absorption regions in the IR spectrum. <link target-id="id6228590"/> shows the absorption frequencies of common types of functional groups. For systematic evaluation, the IR spectrum is commonly divided into some sub-regions. </para>
+        
+        
+        <list id="eip-287"><item>In the region of 4000 - 2000 cm<sup>–1</sup>, the appearance of absorption bands usually comes from stretching vibrations between hydrogen and other atoms. The O-H and N-H stretching frequencies range from 3700 - 3000 cm<sup>–1</sup>. If hydrogen bond forms between O-H and other group, it generally caused peak line shape broadening and shifting to lower frequencies. The C-H stretching bands occur in the region of 3300 - 2800 cm<sup>–1</sup>. The acetylenic C-H exhibits strong absorption at around 3300 cm<sup>–1</sup>. Alkene and aromatic C-H stretch vibrations absorb at 3200-3000 cm<sup>–1</sup>. Generally, asymmetric vibrational stretch frequency of alkene C-H is around 3150 cm<sup>-1</sup>, and symmetric vibrational stretch frequency is between 3100 cm<sup>-1</sup> and 3000 cm<sup>-1</sup>. The saturated aliphatic C-H stretching bands range from 3000 - 2850 cm<sup>–1</sup>, with absorption intensities that are proportional to the number of C-H bonds. Aldehydes often show two sharp C-H stretching absorption bands at 2900 - 2700 cm<sup>–1</sup>. However, in water solution, C-H vibrational stretch is much lower than in non-polar solution. It means that the strong polarity solution can greatly reduce the transition dipole moment of C-H vibration. </item>
+<item>Furthermore, the stretching vibrations frequencies between hydrogen and other heteroatoms are between 2600 - 2000cm<sup>-1</sup>, for example, S-H at 2600 - 2550 cm<sup>–1</sup>, P-H at 2440 - 2275 cm<sup>–1</sup>, Si-H at 2250 - 2100 cm<sup>–1</sup>. </item>
+<item>The absorption bands at the 2300 - 1850 cm<sup>–1</sup> region usually present only from triple bonds, such as C≡C at 2260 - 2100 cm<sup>–1</sup>, C≡N at 2260 - 2000 cm<sup>–1</sup>, diazonium salts –N≡N at approximately 2260 cm<sup>–1</sup>, allenes C=C=C at 2000 - 1900 cm<sup>–1</sup>. The peaks of these groups are all have strong absorption intensities. The 1950 - 1450 cm<sup>–1</sup> region stands for double-bonded functional groups vibrational stretching. </item>
+<item>Most carbonyl C=O stretching bands range from 1870 - 1550 cm<sup>–1</sup>, and the peak intensities are from mean to strong. Conjugation, ring size, hydrogen bonding, and steric and electronic effects can lead to significant shifts in absorption frequencies. Furthermore, if carbonyl links with electron-withdrawing group, such as acid chlorides and acid anhydrides, it would give rise to IR bands at 1850 - 1750 cm<sup>–1</sup>. Ketones usually display stretching bands at 1715 cm<sup>-1</sup>. </item>
+<item>None conjugated aliphatic C=C and C=N have absorption bands at 1690 - 1620 cm<sup>–1</sup>. Besides, around 1430 and 1370cm<sup>-1</sup>, there are two identical peaks presenting C-H bending. </item>
+<item>The region from 1300 - 910 cm<sup>–1</sup> always includes the contributions from skeleton C-O and C-C vibrational stretches, giving additional molecular structural information correlated with higher frequency areas. For example, ethyl acetate not only shows its carbonyl stretch at 1750 - 1735 cm<sup>–1</sup>, but also exhibits its identical absorption peaks at 1300 - 1000 cm<sup>–1</sup> from the skeleton vibration of C-O and C-C stretches.</item>
+
+
+
+
+</list><table id="id6228590" summary="The typical frequencies of functional groups.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<colspec colnum="3" colname="c3"/>
+	<tbody>
+		<row>
+			<entry><emphasis effect="bold">Group</emphasis></entry>
+			<entry>
+				<emphasis effect="bold">Frequency (cm<sup>-1</sup>)</emphasis>
+			</entry>
+			<entry><emphasis effect="bold">Strength appearance</emphasis></entry>
+		</row>
+		<row>
+			<entry>C-H stretch </entry>
+			<entry>2850 - 3400</entry>
+			<entry>Strong in nonpolar solventWeak in polar solvent</entry>
+		</row>
+		<row>
+			<entry>O-H stretchN-H stretch</entry>
+			<entry>3200 - 3700</entry>
+			<entry>Broad in solvent</entry>
+		</row>
+		<row>
+			<entry>C≡N stretch R-N=C=S stretch</entry>
+			<entry>2050 - 2300</entry>
+			<entry>Medium or strong</entry>
+		</row>
+		<row>
+			<entry>C≡O stretch (bound with metal)</entry>
+			<entry>around 2000</entry>
+			<entry>Medium or strong</entry>
+		</row>
+		<row>
+			<entry>C≡C stretch</entry>
+			<entry>2100 - 2260</entry>
+			<entry>Weak</entry>
+		</row>
+		<row>
+			<entry>C=O stretch</entry>
+			<entry><emphasis effect="italics">ca</emphasis> 1715 (ketone), <emphasis effect="italics">ca</emphasis> 1650 (amides)</entry>
+			<entry>Strong</entry>
+		</row>
+		<row>
+			<entry>C=C stretch</entry>
+			<entry>1450 - 1700</entry>
+			<entry>Weak to strong</entry>
+		</row>
+		<row>
+			<entry>C-H bend</entry>
+			<entry>1260 - 1470</entry>
+			<entry>Strong</entry>
+		</row>
+		<row>
+			<entry>C-O stretch</entry>
+			<entry>1040 - 1300</entry>
+			<entry>Medium or strong</entry>
+		</row>
+	</tbody>
+
+
+</tgroup><caption>The typical frequencies of functional groups. </caption>
+</table>
+        
+      </section>
+      <section id="id6228973"><title>General introduction of metal ligand complex</title><para id="id6228979">The metal electrons fill into the molecular orbital of ligands (CN, CO, etc.) to form complex compound. As shown in <link target-id="id6228999"/>, a simple molecular orbital diagram for CO can be used to explain the binding mechanism. </para>
+        <figure id="id6228999"><media id="id6228999_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics3-a82d.jpg" id="id6228999__onlineimage" width="350" print-width="3.5in"/>
+	</media>
+	<caption>Molecular orbital diagram for carbon monoxide (CO). </caption></figure>
+        
+        <para id="id6229024">The CO and metal can bind with three ways: </para>
+        <list id="eip-578"><item>Donation of a pair of electrons from the C-O σ* orbital into an empty metal  orbital (<link target-id="id6229077"/>a). </item>
+<item>Donation from a metal d orbital into the C-O π* orbital to form a M-to-CO π-back bond (<link target-id="id6229077"/>b). </item>
+<item>Under some conditions  a pair of carbon π electron can donate into an empty metal d-orbital. </item></list>
+        
+        
+
+          <figure id="id6229077"><media id="id6229077_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics4-454b.jpg" id="id6229077__onlineimage" width="350" print-width="3.5in"/>
+	</media>
+<caption>Main binding interaction types between metal and CO. (a) CO-to-metal σ bond; (b) M-to-CO π-back bond.</caption></figure>
+
+        
+      </section>
+      <section id="id6229104">
+        <title>Some factors to influence the band shifts and strength </title>
+        <para id="id6229110">Herein, we mainly consider two properties: ligand stretch frequency and their absorption intensity. Take the ligand CO for example again. The frequency shift of the carbonyl peaks in the IR mainly depends on the bonding mode of the CO (terminal or bridging) and electron density on the metal. The intensity and peak numbers of the carbonyl bands depends on some factors: CO ligands numbers, geometry of the metal ligand complex and fermi resonance. </para>
+        <section id="id6229121">
+          <title>Effect on electron density on metal</title>
+          <para id="id6229127">As shown in <link target-id="id6229168"/>, a greater charge on the metal center result in the CO stretches vibration frequency decreasing. For example, [Ag(CO)]<sup>+</sup><sup/>show higher frequency of CO than free CO, which indicates a strengthening of the CO bond. σ donation removes electron density from the nonbonding HOMO of CO. From <link target-id="id6228999"/>, it is clear that the HOMO has a small amount of anti-bonding property, so removal of an electron actually increases (slightly) the CO bond strength. Therefore, the effect of charge and electronegativity depends on the amount of metal to CO π-back bonding and the CO IR stretching frequency.</para>
+          
+          <table id="id6229168" summary="Different types of ligands frequencies of different electron density on a metal center.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<colspec colnum="3" colname="c3"/>
+	<tbody>
+		<row>
+			<entry>
+				<emphasis effect="italics"><emphasis effect="bold">d<sup>x</sup></emphasis></emphasis>
+			</entry>
+			<entry>
+				<emphasis effect="bond">Complex</emphasis>
+			</entry>
+			<entry>
+				<emphasis effect="bold">νCO stretch frequency </emphasis>
+				<emphasis effect="bold">(cm<sup>-1</sup>)</emphasis>
+			</entry>
+		</row>
+		<row>
+			<entry/>
+			<entry>free CO</entry>
+			<entry>2143</entry>
+		</row>
+		<row>
+			<entry>
+				<emphasis effect="italics">d</emphasis><sup>10</sup>
+			</entry>
+			<entry>[Ag(CO)]<sup>+</sup></entry>
+			<entry>2204</entry>
+		</row>
+		<row>
+			<entry>
+				<emphasis effect="italics">d</emphasis><sup>10</sup>
+			</entry>
+			<entry>Ni(CO)<sub>4</sub></entry>
+			<entry>2060</entry>
+		</row>
+		<row>
+			<entry>
+				<emphasis effect="italics">d</emphasis><sup>10</sup>
+			</entry>
+			<entry>[Co(CO)<sub>4</sub>]<sup>-</sup></entry>
+			<entry>1890</entry>
+		</row>
+		<row>
+			<entry>
+				<emphasis effect="italics">d</emphasis><sup>6</sup>
+			</entry>
+			<entry>[Mn(CO)<sub>6</sub>]<sup>+</sup></entry>
+			<entry>2090</entry>
+		</row>
+		<row>
+			<entry>
+				<emphasis effect="italics">d</emphasis><sup>6</sup>
+			</entry>
+			<entry>Cr(CO)<sub>6</sub></entry>
+			<entry>2000</entry>
+		</row>
+		<row>
+			<entry>
+				<emphasis effect="italics">d</emphasis><sup>6</sup>
+			</entry>
+			<entry>[V(CO)<sub>6</sub>]<sup>-</sup></entry>
+			<entry>1860</entry>
+		</row>
+	</tbody>
+
+
+</tgroup><caption>Different types of ligands frequencies of different electron density on a metal center.</caption>
+</table><para id="eip-781">If the electron density on a metal center is increasing, more π-back bonding to the CO ligand(s) will also increase, as shown in <link target-id="id6229168"/>. It means more electron density would enter into the empty carbonyl π* orbital and weaken the C-O bond. Therefore, it makes the M-CO bond strength increasing and more double-bond-like (M=C=O). </para>
+          
+        </section>
+        <section id="id6229555"><title>Ligand donation effect</title><para id="id6229562">Some cases, as shown in <link target-id="id6229659"/>, different ligands would bind with same metal at the same metal-ligand complex. For example, if different electron density groups bind with Mo(CO)<sub>3</sub> as the same form, as shown in <link target-id="id6229631"/>, the CO vibrational frequencies would depend on the ligand donation effect. Compared with the PPh<sub>3</sub> group, CO stretching frequency which the complex binds the PF<sub>3 </sub>group (2090, 2055 cm<sup>-1</sup>) is higher. It indicates that the absolute amount of electron density on that metal may have certain effect on the ability of the ligands on a metal to donate electron density to the metal center. Hence, it may be explained by the Ligand donation effect. Ligands that are <emphasis effect="italics">trans</emphasis> to a carbonyl can have a large effect on the ability of the CO ligand to effectively π-backbond to the metal. For example, two <emphasis effect="italics">trans</emphasis> π-backbonding ligands will partially compete for the same d-orbital electron density, weakening each other’s net M-L π-backbonding. If the <emphasis effect="italics">trans</emphasis> ligand is a π-donating ligand, the free metal to CO π-backbonding can increase the M-CO bond strength (more M=C=O character). It is well known that pyridine and amines are not those strong π-donors. However, they are even worse π-backbonding ligands. So the CO is actually easy for π-back donation without any competition. Therefore, it naturally reduces the CO IR stretching frequencies in metal carbonyl complexes for the ligand donation effect.</para>
+
+    <table id="id6229659" summary="Different types of ligands effect on the frequency shift.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<tbody>
+		<row>
+			<entry><emphasis effect="bold">Metal Ligand Complex</emphasis></entry>
+			<entry>
+				<emphasis effect="bold">CO stretch frequency (cm<sup>-1</sup>)</emphasis>
+			</entry>
+		</row>
+		<row>
+			<entry>Mo(CO)<sub>3</sub>(PF<sub>3</sub>)<sub>3</sub>
+			</entry>
+			<entry>2090, 2055</entry>
+		</row>
+		<row>
+			<entry>Mo(CO)<sub>3</sub>[P(OMe)<sub>3</sub>]<sub>3</sub>
+			</entry>
+			<entry>1977, 1888</entry>
+		</row>
+		<row>
+			<entry>Mo(CO)<sub>3</sub>(PPh<sub>3</sub>)<sub>3</sub>
+			</entry>
+			<entry>1934, 1835</entry>
+		</row>
+		<row>
+			<entry>Mo(CO)<sub>3</sub>(NCCH<sub>3</sub>)<sub>3</sub></entry>
+			<entry>1915, 1783</entry>
+		</row>
+		<row>
+			<entry>Mo(CO)<sub>3</sub>(pyridine)<sub>3</sub>
+			</entry>
+			<entry>1888, 1746</entry>
+		</row>
+	</tbody>
+
+
+</tgroup><caption>The effect of different types of ligands on the frequency of the carbonyl ligand. </caption>
+</table>
+
+          <figure id="id6229631"><media id="id6229631_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics5-d461.jpg" id="id6229631__onlineimage" width="300" print-width="3in"/>
+	</media>
+<caption>Schematic representation of competitive back-donation from a transition metal to multiple π-acceptor ligands</caption></figure>
+          
+      
+          
+        </section>
+        <section id="id6229948">
+          <title>Geometry effects</title>
+          <para id="id6229954">Some cases, metal-ligand complex can form not only terminal but also bridging geometry. As shown in <link target-id="id6230005"/>, in the compound Fe<sub>2</sub>(CO)<sub>7</sub>(dipy), CO can act as a bridging ligand. Evidence for a bridging mode of coordination can be easily obtained through IR spectroscopy. All the metal atoms bridged by a carbonyl can donate electron density into the π* orbital of the CO and weaken the CO bond, lowering vibration frequency of CO. In this example, the CO frequency in terminal is around 2080 cm<sup>-1</sup>, and in bridge, it shifts to around 1850 cm<sup>-1</sup>. </para>
+          <figure id="id6230005"><media id="id6230005_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics6-0890.jpg" id="id6230005__onlineimage" width="200" print-width="2in"/>
+            </media>
+          <caption>The structure of Fe<sub>2</sub>(CO)<sub>7</sub>(dipy). </caption></figure>
+          
+        </section>
+      </section>
+    </section>
+    <section id="id6230057">
+      <title>Bibliography</title>
+      <list id="id6230063" list-type="bulleted"><item><emphasis effect="italics">Introduction of </emphasis><emphasis effect="italics">Fourier Transform Infrared Spectrometry</emphasis>, Thermo Nicolet Corporation (2001).</item>
+        <item>C. P. S. Hsu, <emphasis effect="italics">Handbook of Instrumental Techniques for Analytical Chemistry</emphasis>. Prentice-Hall, NJ (1997). </item>
+        <item>B. E. Douglas, D. H. McDaniel, and J. J. Alexander, <emphasis effect="italics">Concepts and Models of Inorganic Chemistry</emphasis>, 3rd Ed., John Wiley &amp; Sons, Winchester (1994).</item>
+        <item>A. F. Cotton and M. J. Troup, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1974, <emphasis effect="bold">96</emphasis>, 1233.</item>
+        <item>K. Nakamoto. <emphasis effect="italics">Infrared and Raman Spectra of Inorganic and Coordination Compounds</emphasis>, 3<sup>rd</sup> ed., Wiley, New York (1978).</item>
+      </list>
+      
+    </section>
+  </content>
+</document>

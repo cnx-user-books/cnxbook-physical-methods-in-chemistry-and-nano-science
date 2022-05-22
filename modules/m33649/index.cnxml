@@ -1,0 +1,403 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Determination of Sublimation Enthalpy and Vapor Pressure for Inorganic and Metal-Organic Compounds by Thermogravimetric Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33649</md:content-id>
+  <md:title>Determination of Sublimation Enthalpy and Vapor Pressure for Inorganic and Metal-Organic Compounds by Thermogravimetric Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>b6c2282c-045f-4029-b8aa-34dd45e4eaa9</md:uuid>
+</metadata>
+<content>
+    <section id="id1166848553557">
+      <title>Introduction</title>
+      <para id="id1166850686627">Metal compounds and complexes are invaluable precursors for the chemical vapor deposition (CVD) of metal and non-metal thin films. In general, the precursor compounds are chosen on the basis of their relative volatility and their ability to decompose to the desired material under a suitable temperature regime. Unfortunately, many readily obtainable (commercially available) compounds are not of sufficient volatility to make them suitable for CVD applications. Thus, a <emphasis effect="italics">prediction</emphasis> of the volatility of a metal-organic compounds as a function of its ligand identity and molecular structure would be desirable in order to determine the suitability of such compounds as CVD precursors. Equally important would be a method to determine the vapor pressure of a potential CVD precursor as well as its optimum temperature of sublimation. </para>
+
+      <para id="id1166850660017">It has been observed that for organic compounds it was determined that a rough proportionality exists between a compound’s melting point and sublimation enthalpy; however, significant deviation is observed for inorganic compounds. </para>
+      <para id="id1166857276710">Enthalpies of sublimation for metal-organic compounds have been previously determined through a variety of methods, most commonly from vapor pressure measurements using complex experimental systems such as Knudsen effusion, temperature drop microcalorimetry and, more recently, differential scanning calorimetry (DSC). However, the measured values are highly dependent on the experimental procedure utilized. For example, the reported sublimation enthalpy of Al(acac)<sub>3</sub> (<link target-id="id1166861581587"/>a, where M = Al, n = 3) varies from 47.3 to 126 kJ/mol. </para>
+
+        <figure id="id1166861581587"><media id="id1166861581587_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Fig28.jpg" id="id1166861581587__onlineimage" width="400" print-width="4in"/>
+          </media>
+
+        <caption>Structure of a typical metal β-diketonate complex. (a) acetylacetonate (acac); (b) trifluoro acetylacetonate (tfac), and (c) hexafluoroacetylacetonate (hfac). </caption></figure>
+
+
+
+      <para id="id1166855694660">Thermogravimetric analysis offers a simple and reproducible method for the determination of the vapor pressure of a potential CVD precursor as well as its enthalpy of sublimation.</para>
+
+    </section>
+    <section id="id1166847535418">
+      <title>Determination of sublimation enthalpy</title>
+      <para id="id1166849154002">The enthalpy of sublimation is a quantitative measure of the volatility of a particular solid. This information is useful when considering the feasibility of a particular precursor for CVD applications. An ideal sublimation process involves no compound decomposition and only results in a solid-gas phase change, i.e., <link target-id="eip-1"/>. </para>
+
+<equation id="eip-1"><media id="id1_media" alt="">
+<image mime-type="image/jpg" src="../../media/graphics2-a651.jpg" id="id1__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+      <para id="id1166851163438">Since phase changes are thermodynamic processes following zero-order kinetics, the evaporation rate or rate of mass loss by sublimation (m<sub>sub</sub>), at a constant temperature (T), is constant at a given temperature, <link target-id="eip-2"/>. Therefore, the m<sub>sub</sub> values may be directly determined from the linear mass loss of the TGA data in isothermal regions.</para>
+
+<equation id="eip-2"><media id="id2_media" alt="">
+<image mime-type="image/jpg" src="../../media/graphics3-14b4.jpg" id="id2__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+      <para id="id1166848061082">The thermogravimetric and differential thermal analysis of the compound under study is performed to determine the temperature of sublimation and thermal events such as melting. <link target-id="id1166848057586"/> shows a typical TG/DTA plot for a gallium chalcogenide cubane compound (<link target-id="id8340234"/>). </para>
+
+      <figure id="id1166848057586"><media id="id1166848057586_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics4-68f3.jpg" id="id1166848057586__onlineimage" width="400" print-width="3in"/>
+        </media>
+
+      <caption>A typical thermogravimetric/differential thermal analysis (TG/DTA) analysis of [(EtMe<sub>2</sub>C)GaSe]<sub>4</sub>, whose structure is shown in <link target-id="id8340234"/>. Adapted from E. G. Gillan, S. G. Bott, and A. R. Barron, <emphasis effect="italics">Chem. Mater., </emphasis>1997, <emphasis effect="bold">9</emphasis>, 3, 796. </caption></figure>
+
+
+
+
+      <figure id="id8340234">
+        <media id="id8340234_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics5-aae9.jpg" id="id8340234__onlineimage" width="150" print-width="1.5in"/>
+        </media>
+<caption>Structure of gallium chalcogenide cubane compound, where E = S, Se, and R = CMe<sub>3</sub>, CMe<sub>2</sub>Et, CEt<sub>2</sub>Me, CEt<sub>3</sub>. </caption>
+      </figure>
+
+
+
+
+      <section id="id1166858918397">
+        <title>Data collection</title>
+        <para id="id1166860254496">In a typical experiment 5 - 10 mg of sample is used with a heating rate of ca. 5 °C/min up to under either a 200-300 mL/min inert (N<sub>2</sub> or Ar) gas flow or a dynamic vacuum (<emphasis effect="italics">ca</emphasis>. 0.2 Torr if using a typical vacuum pump). The argon flow rate was set to 90.0 mL/min and was carefully monitored to ensure a steady flow rate during runs and an identical flow rate from one set of data to the next. </para>
+
+        <para id="id7068285">Once the temperature range is defined, the TGA is run with a preprogrammed temperature profile (<link target-id="id1166849982825"/>). It has been found that sufficient data can be obtained if each isothermal mass loss is monitored over a period (between 7 and 10 minutes is found to be sufficient) before moving to the next temperature plateau. In all cases it is important to confirm that the mass loss at a given temperature is linear. If it is not, this can be due to either (a) temperature stabilization had not occurred and so longer times should be spent at each isotherm, or (b) decomposition is occurring along with sublimation, and lower temperature ranges must be used. The slope of each mass drop is measured and used to calculate sublimation enthalpies as discussed below. </para>
+
+        <figure id="id1166849982825"><media id="id1166849982825_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6-261d.jpg" id="id1166849982825__onlineimage" width="400" print-width="3in"/>
+          </media>
+
+        <caption>A typical temperature profile for determination of isothermal mass loss rate. </caption></figure>
+
+
+
+        <para id="id1166850632813">As an illustrative example, <link target-id="id1166853419366"/> displays the data for the mass loss of Cr(acac)<sub>3</sub> (<link target-id="id1166861581587"/>a, where M = Cr, n = 3) at three isothermal regions under a constant argon flow. Each isothermal data set should exhibit a linear relation. As expected for an endothermal phase change, the linear slope, equal to m<sub>sub</sub>, increases with increasing temperature. </para>
+
+
+          <figure id="id1166853419366"><media id="id1166853419366_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics7-cc1e.jpg" id="id1166853419366__onlineimage" width="400" print-width="3in"/>
+            </media>
+
+          <caption>Plot of TGA results for Cr(acac)<sub>3</sub> performed at different isothermal regions. Adapted from B. D. Fahlman and A. R. Barron, <emphasis effect="italics">Adv. Mater. Optics Electron</emphasis>., 2000, <emphasis effect="bold">10</emphasis>, 223. </caption></figure>
+
+
+
+
+
+        
+
+
+        <note id="eip-975">Samples of iron acetylacetonate (<link target-id="id1166861581587"/>a, where M = Fe, n = 3) may be used as a calibration standard through ΔH<sub>sub</sub> determinations before each day of use. If the measured value of the sublimation enthalpy for Fe(acac)<sub>3</sub> is found to differ from the literature value by more than 5%, the sample is re-analyzed and the flow rates are optimized until an appropriate value is obtained. Only after such a calibration is optimized should other complexes be analyzed. It is important to note that while small amounts (&lt; 10%) of involatile impurities will not interfere with the ΔH<sub>sub</sub> analysis, competitively volatile impurities will produce higher apparent sublimation rates. </note><para id="id1166860341355">It is important to discuss at this point the various factors that must be controlled in order to obtain meaningful (useful) m<sub>sub</sub> data from TGA data. </para><list id="eip-273" list-type="enumerated" number-style="arabic"><item>The sublimation rate is independent of the amount of material used but may exhibit some dependence on the flow rate of an inert carrier gas, since this will affect the equilibrium concentration of the cubane in the vapor phase. While little variation was observed we decided that for consistency m<sub>sub</sub> values should be derived from vacuum experiments only. </item>
+<item>The surface area of the solid in a given experiment should remain approximately constant; otherwise the sublimation rate (i.e., mass/time) at different temperatures cannot be compared, since as the relative surface area of a given crystallite decreases during the experiment the apparent sublimation rate will also decrease. To minimize this problem, data was taken over a small temperature ranges (<emphasis effect="italics">ca</emphasis>. 30 °C), and overall sublimation was kept low (<emphasis effect="italics">ca</emphasis>. 25% mass loss representing a surface area change of less than 15%). In experiments where significant surface area changes occurred the values of m<sub>sub</sub> deviated significantly from linearity on a log(m<sub>sub</sub>) versus 1/T plot. </item>
+<item>The compound being analyzed must not decompose to any significant degree, because the mass changes due to decomposition will cause a reduction in the apparent m<sub>sub</sub> value, producing erroneous results. With a simultaneous TG/DTA system it is possible to observe exothermic events if decomposition occurs, however the clearest indication is shown by the mass loss versus time curves which are no longer linear but exhibit exponential decays characteristic of first or second order decomposition processes.</item></list>
+      </section>
+
+      <section id="id1166852102985">
+        <title>Data analysis</title>
+        <para id="id1166860543993">The basis of analyzing isothermal TGA data involves using the Clausius-Clapeyron relation between vapor pressure (p) and temperature (T), <link target-id="eip-3"/>, where ∆H<sub>sub</sub> is the enthalpy of sublimation and R is the gas constant (8.314 J/K.mol).</para>
+
+<equation id="eip-3"><media id="id3_media" alt="">
+<image mime-type="image/jpg" src="../../media/graphics8-735e.jpg" id="id3__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+        <para id="id1166848450977">Since msub data are obtained from TGA data, it is necessary to utilize the Langmuir equation, <link target-id="eip-4"/>, that relates the vapor pressure of a solid with its sublimation rate.</para>
+
+
+<equation id="eip-4"><media id="id4_media" alt="">
+<image mime-type="image/jpg" src="../../media/graphics9-d1e8.jpg" id="id4__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+        <para id="id1166854161494">After integrating <link target-id="eip-3"/> in log form, substituting in <link target-id="eip-4"/>, and consolidating the constants, one obtains the useful equality, <link target-id="eip-5"/>. </para>
+
+<equation id="eip-5"><media id="id5_media" alt="">
+<image mime-type="image/jpg" src="../../media/graphics10-aef4.jpg" id="id5__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+
+        <para id="id1166859084650">Hence, the linear slope of a log(m<sub>sub</sub>T<sup>1/2</sup>) versus 1/T plot yields ΔH<sub>sub</sub>. An example of a typical plot and the corresponding ΔH<sub>sub</sub> value is shown in <link target-id="id1166848951530"/>. In addition, the y intercept of such a plot provides a value for T<sub>sub</sub>, the calculated sublimation temperature at atmospheric pressure. </para>
+
+        <figure id="id1166848951530"><media id="id1166848951530_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics11-f984.jpg" id="id1166848951530__onlineimage" width="400" print-width="3in"/>
+          </media>
+
+        <caption>Plot of log(m<sub>sub</sub>T<sup>1/2</sup>) versus 1/T and the determination of the ΔH<sub>sub</sub> (112.6 kJ/mol) for Fe(acac)<sub>3</sub> (R<sup>2</sup> = 0.9989). Adapted from B. D. Fahlman and A. R. Barron, <emphasis effect="italics">Adv. Mater. Optics Electron</emphasis>., 2000, <emphasis effect="bold">10</emphasis>, 223.</caption></figure>
+
+
+
+
+        <para id="id1166848704381"><link target-id="id1166847775740"/> lists the typical results using the TGA method for a variety of metal <emphasis effect="italics">β</emphasis>-diketonates, while <link target-id="id1166852428463"/> lists similar values obtained for gallium chalcogenide cubane compounds. </para>
+
+
+        <table id="id1166847775740" summary="Selected thermodynamic data for metal beta diketonate compounds determined from thermogravimetric analysis.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Compound</emphasis></entry>
+                <entry>
+                  <emphasis effect="bold">ΔH<sub>sub</sub> (kJ/mol)</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">ΔS<sub>sub</sub> (J/K.mol)</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">T<sub>sub</sub> calc. (°C)</emphasis>
+                </entry>
+                <entry><emphasis effect="bold">Calculated vapor pressure @ 150 °C (Torr)</emphasis></entry>
+              </row>
+              <row>
+                <entry>Al(acac)<sub>3</sub></entry>
+                <entry>93</entry>
+                <entry>220</entry>
+                <entry>150</entry>
+                <entry>3.261</entry>
+              </row>
+              <row>
+                <entry>Al(tfac)<sub>3</sub></entry>
+                <entry>74</entry>
+                <entry>192</entry>
+                <entry>111</entry>
+                <entry>9.715</entry>
+              </row>
+              <row>
+                <entry>Al(hfac)<sub>3</sub></entry>
+                <entry>52</entry>
+                <entry>152</entry>
+                <entry>70</entry>
+                <entry>29.120</entry>
+              </row>
+        
+              <row>
+                <entry>Cr(acac)<sub>3</sub></entry>
+                <entry>91</entry>
+                <entry>216</entry>
+                <entry>148</entry>
+                <entry>3.328</entry>
+              </row>
+              <row>
+                <entry>Cr(tfac)<sub>3</sub></entry>
+                <entry>71</entry>
+                <entry>186</entry>
+                <entry>109</entry>
+                <entry>9.910</entry>
+              </row>
+              <row>
+                <entry>Cr(hfac)<sub>3</sub></entry>
+                <entry>46</entry>
+                <entry>134</entry>
+                <entry>69</entry>
+                <entry>29.511</entry>
+              </row>
+        
+              <row>
+                <entry>Fe(acac)<sub>3</sub></entry>
+                <entry>112</entry>
+                <entry>259</entry>
+                <entry>161</entry>
+                <entry>2.781</entry>
+              </row>
+              <row>
+                <entry>Fe(tfac)<sub>3</sub></entry>
+                <entry>96</entry>
+                <entry>243</entry>
+                <entry>121</entry>
+                <entry>8.340</entry>
+              </row>
+              <row>
+                <entry>Fe(hfac)<sub>3</sub></entry>
+                <entry>60</entry>
+                <entry>169</entry>
+                <entry>81</entry>
+                <entry>25.021</entry>
+              </row>
+      
+              <row>
+                <entry>Co(acac)<sub>3</sub></entry>
+                <entry>138</entry>
+                <entry>311</entry>
+                <entry>170</entry>
+                <entry>1.059</entry>
+              </row>
+              <row>
+                <entry>Co(tfac)<sub>3</sub></entry>
+                <entry>119</entry>
+                <entry>295</entry>
+                <entry>131</entry>
+                <entry>3.319</entry>
+              </row>
+              <row>
+                <entry>Co(hfac)<sub>3</sub></entry>
+                <entry>73</entry>
+                <entry>200</entry>
+                <entry>90</entry>
+                <entry>9.132</entry>
+              </row>
+</tbody>
+          
+
+
+</tgroup><caption>Selected thermodynamic data for metal β-diketonate compounds determined from thermogravimetric analysis. Data from B. D. Fahlman and A. R. Barron, <emphasis effect="italics">Adv. Mater. Optics Electron</emphasis>., 2000, <emphasis effect="bold">10</emphasis>, 223.</caption>
+</table>
+
+
+
+
+        <table id="id1166852428463" summary="Selected thermodynamic data for gallium chalcogenide cubane compounds determined from thermogravimetric analysis.">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry><emphasis effect="bold">Compound</emphasis></entry>
+                <entry>
+                  <emphasis effect="bold">∆H<sub>sub</sub> (kJ/mol)</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">∆S<sub>sub</sub> (J/K. mol)</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">T<sub>sub</sub> calc. (°C)</emphasis>
+                </entry>
+                <entry><emphasis effect="bold">Calculated vapor pressure @ 150 °C (Torr)</emphasis> </entry>
+              </row>
+              <row>
+                <entry>[(Me<sub>3</sub>C)GaS]<sub>4</sub></entry>
+                <entry>110</entry>
+                <entry>300</entry>
+                <entry>94</entry>
+                <entry>22.75</entry>
+              </row>
+              <row>
+                <entry>[(EtMe<sub>2</sub>C)GaS]<sub>4</sub></entry>
+                <entry>124</entry>
+                <entry>330</entry>
+                <entry>102</entry>
+                <entry>18.89</entry>
+              </row>
+              <row>
+                <entry>[(Et<sub>2</sub>MeC)GaS]<sub>4</sub></entry>
+                <entry>137</entry>
+                <entry>339</entry>
+                <entry>131</entry>
+                <entry>1.173</entry>
+              </row>
+              <row>
+                <entry>[(Et<sub>3</sub>C)GaS]<sub>4</sub></entry>
+                <entry>149</entry>
+                <entry>333</entry>
+                <entry>175</entry>
+                <entry>0.018</entry>
+              </row>
+              <row>
+                <entry>[(Me<sub>3</sub>C)GaSe)]<sub>4</sub></entry>
+                <entry>119</entry>
+                <entry>305</entry>
+                <entry>116</entry>
+                <entry>3.668</entry>
+              </row>
+              <row>
+                <entry>[(EtMe<sub>2</sub>C)GaSe]<sub>4</sub></entry>
+                <entry>137</entry>
+                <entry>344</entry>
+                <entry>124</entry>
+                <entry>2.562</entry>
+              </row>
+              <row>
+                <entry>[(Et<sub>2</sub>MeC)GaSe]<sub>4</sub></entry>
+                <entry>147</entry>
+                <entry>359</entry>
+                <entry>136</entry>
+                <entry>0.815</entry>
+              </row>
+              <row>
+                <entry>[(Et<sub>3</sub>C)GaSe]<sub>4</sub></entry>
+                <entry>156</entry>
+                <entry>339</entry>
+                <entry>189</entry>
+                <entry>0.005</entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>Selected thermodynamic data for gallium chalcogenide cubane compounds determined from thermogravimetric analysis. Data from E. G. Gillan, S. G. Bott, and A. R. Barron, <emphasis effect="italics">Chem. Mater., </emphasis>1997, <emphasis effect="bold">9</emphasis>, 3, 796. </caption>
+</table>
+
+
+
+        <para id="id858904">A common method used to enhance precursor volatility and corresponding efficacy for CVD applications is to incorporate partially (<link target-id="id1166861581587"/>b) or fully (<link target-id="id1166861581587"/>c) fluorinated ligands. As may be seen from <link target-id="id1166847775740"/> this substitution does results in significant decrease in the ΔH<sub>sub</sub>, and thus increased volatility. The observed enhancement in volatility may be rationalized either by an increased amount of intermolecular repulsion due to the additional lone pairs or that the reduced polarizability of fluorine (relative to hydrogen) causes fluorinated ligands to have less intermolecular attractive interactions. </para>
+
+      </section>
+      
+
+
+
+    </section>
+    <section id="id1166857929923">
+      <title>Determination of sublimation entropy</title>
+      <para id="id1166854768887">The entropy of sublimation is readily calculated from the ΔH<sub>sub</sub> and the calculated T<sub>sub</sub> data, <link target-id="eip-6"/>. </para>
+
+<equation id="eip-6"><media id="id6_media" alt="">
+<image mime-type="image/jpg" src="../../media/graphics12-4fa1.jpg" id="id6__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+      <para id="id8207920"><link target-id="id1166847775740"/> and <link target-id="id1166852428463"/> show typical values for metal β-diketonate compounds and gallium chalcogenide cubane compounds, respectively. The range observed for gallium chalcogenide cubane compounds (ΔS<sub>sub</sub> = 330 ±20 J/K.mol) is slightly larger than values reported for the metal β-diketonates compounds (ΔS<sub>sub</sub> = 130 - 330 J/K.mol) and organic compounds (100 - 200 J/K.mol), as would be expected for a transformation giving translational and internal degrees of freedom. For any particular chalcogenide, i.e., [(R)GaS]<sub>4</sub>, the lowest ΔS<sub>sub</sub> are observed for the Me<sub>3</sub>C derivatives, and the largest ΔS<sub>sub</sub> for the Et<sub>2</sub>MeC derivatives, see <link target-id="id1166852428463"/>. This is in line with the relative increase in the modes of freedom for the alkyl groups in the absence of crystal packing forces. </para>
+
+
+    </section>
+    <section id="id5071782">
+      <title>Determination of vapor pressure</title>
+      <para id="id4709827">While the sublimation temperature is an important parameter to determine the suitability of a potential precursor compounds for CVD, it is often preferable to express a compound's volatility in terms of its vapor pressure. However, while it is relatively straightforward to determine the vapor pressure of a liquid or gas, measurements of solids are difficult (e.g., use of the isoteniscopic method) and few laboratories are equipped to perform such experiments. Given that TGA apparatus are increasingly accessible, it would therefore be desirable to have a simple method for vapor pressure determination that can be accomplished on a TGA. </para>
+
+      <para id="id1166848836789">Substitution of <link target-id="eip-2"/> into <link target-id="eip-4"/> allows for the calculation of the vapor pressure (p) as a function of temperature (T). For example, <link target-id="id1166851311214"/> shows the calculated temperature dependence of the vapor pressure for [(Me<sub>3</sub>C)GaS]<sub>4</sub>. The calculated vapor pressures at 150 °C for metal β-diketonates compounds and gallium chalcogenide cubane compounds are given in <link target-id="id1166847775740"/> and <link target-id="id1166852428463"/>. </para>
+
+
+      <figure id="id1166851311214"><media id="id1166851311214_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics13-9d3a.jpg" id="id1166851311214__onlineimage" width="400" print-width="3in"/>
+        </media>
+
+      <caption>A plot of calculated vapor pressure (Torr) against temperature (K) for [(Me<sub>3</sub>C)GaS]<sub>4</sub>. Adapted from E. G. Gillan, S. G. Bott, and A. R. Barron, <emphasis effect="italics">Chem. Mater., </emphasis>1997, <emphasis effect="bold">9</emphasis>, 3, 796. </caption></figure>
+
+
+      <para id="id1166855690374">The TGA approach to show reasonable agreement with previous measurements. For example, while the value calculated for Fe(acac)<sub>3</sub> (2.78 Torr @ 113 °C) is slightly higher than that measured directly by the isoteniscopic method (0.53 Torr @ 113 °C); however, it should be noted that measurements using the sublimation bulb method obtained values much lower (8 x 10<sup>-3</sup> Torr @ 113 °C). The TGA method offers a suitable alternative to conventional (direct) measurements of vapor pressure. </para>
+
+    </section>
+    <section id="id1166851158326">
+      <title>Bibliography</title>
+      <list id="id1166852860055" list-type="bulleted">
+        <item>P. W. Atkins, <emphasis effect="italics">Physical Chemistry, </emphasis>5th ed., W. H. Freeman, New York (1994).</item>
+        <item>G. Beech and R. M. Lintonbon, <emphasis effect="italics">Thermochim. Acta, </emphasis>1971, <emphasis effect="bold">3</emphasis>, 97.</item>
+        <item>B. D. Fahlman and A. R. Barron, <emphasis effect="italics">Adv. Mater. Optics Electron</emphasis>., 2000, <emphasis effect="bold">10</emphasis>, 223. </item>
+        <item>E. G. Gillan, S. G. Bott, and A. R. Barron, <emphasis effect="italics">Chem. Mater., </emphasis>1997, <emphasis effect="bold">9</emphasis>, 3, 796. </item>
+        <item>J. O. Hill and J. P. Murray, <emphasis effect="italics">Rev. Inorg. Chem., </emphasis>1993, <emphasis effect="bold">13</emphasis>, 125. </item>
+        <item>J. P. Murray, K. J. Cavell and J. O. Hill, <emphasis effect="italics">Thermochim. Acta, </emphasis>1980, <emphasis effect="bold">36</emphasis>, 97.</item>
+        <item>M. A. V. Ribeiro da Silva and M. L. C. C. H. Ferrao, <emphasis effect="italics">J. Chem. Thermodyn., </emphasis>1994, <emphasis effect="bold">26</emphasis>, 315.</item>
+        <item>R. Sabbah, D. Tabet, S. Belaadi, <emphasis effect="italics">Thermochim. Acta, </emphasis>1994, <emphasis effect="bold">247</emphasis>, 193.</item>
+        <item>L. A. Torres-Gomez, G. Barreiro-Rodriquez, and A. Galarza-Mondragon, <emphasis effect="italics">Thermochim. Acta, </emphasis>1988, <emphasis effect="bold">124</emphasis>, 229. </item>
+      </list>
+    </section>
+  </content>
+</document>

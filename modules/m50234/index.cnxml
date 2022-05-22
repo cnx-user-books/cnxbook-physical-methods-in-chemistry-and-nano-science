@@ -1,0 +1,135 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Dynamic Mechanical Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50234</md:content-id>
+  <md:title>Dynamic Mechanical Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>65a787ea-d9bf-487b-b748-e005fa9c476d</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id8444115">
+      <title>Introduction</title>
+      <para id="import-auto-id1168729292098">Dynamic mechanical analysis (DMA), also known as forced oscillatory measurements and dynamic rheology, is a basic tool used to measure the viscoelastic properties of materials (particularly polymers). To do so, DMA instrument applies an oscillating force to a material and measures its response; from such experiments, the viscosity (the tendency to flow) and stiffness of the sample can be calculated. These viscoelastic properties can be related to temperature, time, or frequency. As a result, DMA can also provide information on the transitions of materials and characterize bulk properties that are important to material performance.  DMA can be applied to determine the glass transition of polymers or the response of a material to application and removal of a load, as a few common examples. The usefulness of DMA comes from its ability to mimic operating conditions of the material, which allows researchers to predict how the material will perform.</para></section>
+    <section id="import-auto-id1168733104775">
+      <title>A brief history</title>
+      <para id="import-auto-id8458464">Oscillatory experiments have appeared in published literature since the early 1900s and began with rudimentary experimental setups to analyze the deformation of metals. In an initial study, the material in question was hung from a support, and torsional strain was applied using a turntable. Early instruments of the 1950s from manufacturers Weissenberg and Rheovibron exclusively measured torsional stress, where force is applied in a twisting motion. </para>
+      <para id="import-auto-id1168732734378">Due to its usefulness in determining polymer molecular structure and stiffness, DMA became more popular in parallel with the increasing research on polymers. The method became integral in the analysis of polymer properties by 1961. In 1966, the revolutionary torsional braid analysis was developed; because this technique used a fine glass substrate imbued with the material of analysis, scientists were no longer limited to materials that could provide their own support. Using torsional braid analysis, the transition temperatures of polymers could be determined through temperature programming. Within two decades, commercial instruments became more accessible, and the technique became less specialized. In the early 1980s, one of the first DMAs using axial geometries (linear rather than torsional force) was introduced. </para>
+      <para id="import-auto-id1168729997610">Since the 1980s, DMA has become much more user-friendly, faster, and less costly due to competition between vendors. Additionally, the developments in computer technology have allowed easier and more efficient data processing. Today, DMA is offered by most vendors, and the modern instrument is detailed in the <emphasis effect="italics">Instrumentation</emphasis> section.</para>
+    </section>
+    <section id="import-auto-id1168733779497">
+      <title>Basic principles of DMA</title>
+      <para id="import-auto-id1168730249559">DMA is based on two important concepts of stress and strain. Stress (σ) provides a measure of force (<emphasis effect="italics">F</emphasis>) applied to area (<emphasis effect="italics">A</emphasis>), <link target-id="eip-560"/>.</para><equation id="eip-560">σ = F/A</equation><para id="import-auto-id1168730043034">Stress to a material causes strain (γ), the deformation of the sample. Strain can be calculated by dividing the change in sample dimensions (∆<emphasis effect="italics">Y</emphasis>) by the sample’s original dimensions (<emphasis effect="italics">Y</emphasis>) (<link target-id="eip-810">Eq. 2</link>). This value is often given as a percentage of strain.</para><equation id="eip-810">γ = ∆Y/Y</equation><para id="import-auto-id1168730079090">The modulus (<emphasis effect="italics">E</emphasis>), a measure of stiffness, can be calculated from the slope of the stress-strain plot, <link target-id="fsvs"/>, as displayed in <link target-id="eip-954"/>. This modulus is dependent on temperature and applied stress. The change of this modulus as a function of a specified variable is key to DMA and determination of viscoelastic properties.  Viscoelastic materials such as polymers display both elastic properties characteristic of solid materials and viscous properties characteristic of liquids; as a result, the viscoelastic properties are often a compromise between the two extremes. Ideal elastic properties can be related to Hooke’s spring, while viscous behavior is often modeled using a dashpot, or a motion-resisting damper.</para><equation id="eip-954">E = σ/γ</equation><figure id="fsvs"><media id="msvs" alt="">
+    <image mime-type="image/png" src="../../media/fig1.fw.png" width="350" print-width="3in"/>
+  </media>
+  
+<caption>An example of a typical stress versus strain plot.
+  </caption></figure><section id="import-auto-id1168733638782">
+        <title>Creep-recovery</title>
+        <para id="import-auto-id1168729313458">Creep-recovery testing is not a true dynamic analysis because the applied stress or strain is held constant; however, most modern DMA instruments have the ability to run this analysis. Creep-recovery tests the deformation of a material that occurs when load applied and removed. In the “creep” portion of this analysis, the material is placed under immediate, constant stress until the sample equilibrates. “Recovery” then measures the stress relaxation after the stress is removed. The stress and strain are measured as functions of time. From this method of analysis, equilibrium values for viscosity, modulus, and compliance (willingness of materials to deform; inverse of modulus) can be determined; however, such calculations are beyond the scope of this review. </para>
+        <para id="import-auto-id7860169">Creep-recovery tests are useful in testing materials under anticipated operation conditions and long test times. As an example, multiple creep-recovery cycles can be applied to a sample to determine the behavior and change in properties of a material after several cycles of stress.</para>
+      </section>
+      <section id="import-auto-id1168727957000">
+        <title>Dynamic testing</title>
+        <para id="import-auto-id1168731973509">DMA instruments apply sinusoidally oscillating stress to samples and causes sinusoidal deformation. The relationship between the oscillating stress and strain becomes important in determining viscoelastic properties of the material. To begin, the stress applied can be described by a sine function where σ<sub>o</sub> is the maximum stress applied, ω is the frequency of applied stress, and <emphasis effect="italics">t</emphasis> is time. Stress and strain can be expressed with the following <link target-id="eip-651"/>.</para><equation id="eip-651"><media id="eq4mi" alt=""><image mime-type="image/png" src="../../media/eq4.fw.png" id=" eq4" width="200" print-width="2in"/></media>
+</equation><para id="import-auto-id7953168">The strain of a system undergoing sinusoidally oscillating stress is also sinuisoidal, but the phase difference between strain and stress is entirely dependent on the balance between viscous and elastic properties of the material in question. For ideal elastic systems, the strain and stress are completely in phase, and the phase angle (δ) is equal to 0. For viscous systems, the applied stress leads the strain by 90<sup>o</sup>. The phase angle of viscoelastic materials is somewhere in between (<link target-id="1168732250807">Figure 2</link>). </para><figure id="import-auto-id1168732250807"><media id="import-auto-id1168730044615" alt="">
+            <image mime-type="image/png" src="../../media/fig2 final 140423.fw.png" width="700" print-width="5in"/>
+          </media>
+        <caption>Applied sinusoidal stress versus time (above) aligned with measured stress versus time (below). (a) The applied stress and measured strain are in phase for an ideal elastic material. (b) The stress and strain are 90<sup>o</sup> out of phase for a purely viscous material. (c) Viscoelastic materials have a phase lag less than 90<sup>o</sup>. Image adapted from M. Sepe, <emphasis effect="italics">Dynamic Mechanical Analysis for Plastics Engineering</emphasis>, Plastics Design Library: Norwich, NY (1998).</caption></figure><para id="import-auto-id6595678">In essence, the phase angle between the stress and strain tells us a great deal about the viscoelasticity of the material. For one, a small phase angle indicates that the material is highly elastic; a large phase angle indicates the material is highly viscous. Furthermore, separating the properties of modulus, viscosity, compliance, or strain into two separate terms allows the analysis of the elasticity or the viscosity of a material. The elastic response of the material is analogous to storage of energy in a spring, while the viscosity of material can be thought of as the source of energy loss.</para>
+        <para id="import-auto-id1168730274173">A few key viscoelastic terms can be calculated from dynamic analysis; their equations and significance are detailed in <link target-id="1168730339797">Table 1</link>. </para><table id="import-auto-id1168730339797" summary="Key viscoelastic terms that can be calculated with DMA.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>
+                  
+                    <emphasis effect="bold">Term</emphasis>
+
+                </entry>
+                <entry>
+
+                    <emphasis effect="bold">Equation</emphasis>
+
+                </entry>
+                <entry>
+
+                    <emphasis effect="bold">Significance</emphasis>
+
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Complex modulus (<emphasis effect="italics">E</emphasis>*)</entry>
+                <entry><emphasis effect="italics">E* = E’ + iE”</emphasis></entry>
+                <entry>Overall modulus representing stiffness of material; combined elastic and viscous components</entry>
+              </row>
+              <row>
+                <entry>Elastic modulus (<emphasis effect="italics">E’</emphasis>)</entry>
+                <entry><emphasis effect="italics">E’ </emphasis>= <emphasis effect="italics">(</emphasis>σ<sub>o</sub>/γ<sub>o</sub>)<emphasis effect="italics">cosδ</emphasis></entry>
+                <entry>Storage modulus; measures stored energy and represents elastic portion</entry>
+              </row>
+              <row>
+                <entry>Viscous modulus (<emphasis effect="italics">E”</emphasis>)</entry>
+                <entry><emphasis effect="italics">E” </emphasis>= <emphasis effect="italics">(</emphasis>σ<sub>o</sub>/γ<sub>o</sub>)<emphasis effect="italics">sinδ</emphasis></entry>
+                <entry>Loss modulus; contribution of viscous component on polymer that flows under stress</entry>
+              </row>
+              <row>
+                <entry>Loss tangent (<emphasis effect="italics">tan</emphasis>δ)</entry>
+                <entry><emphasis effect="italics">Tan</emphasis>δ = <emphasis effect="italics">E”/E’</emphasis></entry>
+                <entry>Damping or index of viscoelasticity; compares viscous and elastic moduli</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+</tgroup><caption>Key viscoelastic terms that can be calculated with DMA.</caption>
+</table></section>
+      <section id="import-auto-id1168732358774">
+        <title>Types of dynamic experiments</title>
+        <para id="import-auto-id1168730058366">A temperature sweep is the most common DMA test used on solid materials. In this experiment, the frequency and amplitude of oscillating stress is held constant while the temperature is increased. The temperature can be raised in a stepwise fashion, where the sample temperature is increased by larger intervals (e.g., 5 <sup>o</sup>C) and allowed to equilibrate before measurements are taken. Continuous heating routines can also be used (1-2<sup> o</sup>C/minute). Typically, the results of temperature sweeps are displayed as storage and loss moduli as well as tan delta as a function of temperature. For polymers, these results are highly indicative of polymer structure. An example of a thermal sweep of a polymer is detailed later in this module. </para>
+        <para id="import-auto-id1168729952230">In time scans, the temperature of the sample is held constant, and properties are measured as functions of time, gas changes, or other parameters. This experiment is commonly used when studying curing of thermosets, materials that change chemically upon heating. Data is presented graphically using modulus as a function of time; curing profiles can be derived from this information.</para>
+        <para id="import-auto-id1168727979237">Frequency scans test a range of frequencies at a constant temperature to analyze the effect of change in frequency on temperature-driven changes in material. This type of experiment is typically run on fluids or polymer melts. The results of frequency scans are displayed as modulus and viscosity as functions of log frequency. </para>
+      </section>
+    </section>
+    <section id="import-auto-id9152380">
+      <title>Instrumentation</title>
+      <para id="import-auto-id1168731158706">The most common instrument for DMA is the forced resonance analyzer, which is ideal for measuring material response to temperature sweeps. The analyzer controls deformation, temperature, sample geometry, and sample environment. </para>
+      <para id="import-auto-id1168733560396"><link target-id="1168732685093">Figure 3</link> displays the important components of the DMA, including the motor and driveshaft used to apply torsional stress as well as the linear variable differential transformer (LVDT) used to measure linear displacement. The carriage contains the sample and is typically enveloped by a furnace and heat sink.</para><figure id="import-auto-id1168732685093"><media id="import-auto-id1168730404990" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-1c68.png" height="228" width="261"/>
+        </media>
+      <caption>General schematic of DMA analyzer.</caption></figure><para id="import-auto-id1168731969506">The DMA should be ideally selected to analyze the material at hand. The DMA can be either stress or strain controlled: strain-controlled analyzers move the probe a certain distance and measure the stress applied; strain-controlled analyzers provide a constant deformation of the sample (<link target-id="8612117">Figure 4</link>). Although the two techniques are nearly equivalent when the stress-strain plot (<link target-id="fsvs">Figure 1</link>) is linear, stress-controlled analyzers provide more accurate results. </para><figure id="import-auto-id8612117"><media id="import-auto-id1168732938454" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-4953.png" width="500" print-width="5in"/>
+        </media>
+      <caption>Types of DMA. (a) Axially applied stress. (b) Torsionally applied stress. (c) Stress-controlled analyzer uses set movements. (d) Deformation is regulated in strain-controlled analyzers. Figure adapted from M. Sepe, <emphasis effect="italics">Dynamic Mechanical Analysis for Plastics Engineering</emphasis>, Plastics Design Library: Norwich, NY (1998).</caption></figure><para id="import-auto-id1168731979083">DMA analyzers can also apply stress or strain in two manners—axial and torsional deformation (<link target-id="8612117">Figure 4</link>). Axial deformation applies a linear force to the sample and is typically used for solid and semisolid materials to test flex, tensile strength, and compression. Torsional analyzers apply force in a twisting motion; this type of analysis is used for liquids and polymer melts but can also be applied to solids. Although both types of analyzers have wide analysis range and can be used for similar samples, the axial instrument should not be used for fluid samples with viscosities below 500 Pa-s, and torsional analyzers cannot handle materials with high modulus.</para><para id="import-auto-id1168731980404">Different fixtures can be used to hold the samples in place and should be chosen according to the type of samples analyzed. The sample geometry affects both stress and strain and must be factored into the modulus calculations through a geometry factor. The fixture systems are specific to the type of stress application. Axial analyzers have a greater number of fixture options; one of the most commonly used fixtures is extension/tensile geometry used for thin films or fibers. In this method, the sample is held both vertically and lengthwise by top and bottom clamps, and stress is applied upwards (<link target-id="extension">Figure 5</link>). </para><figure id="extension"><media id="extensionfig" alt="">
+    <image mime-type="image/jpg" src="../../media/dynamic set up.jpg" width="400" print-width="3in"/>
+  </media>
+  
+<caption>Axial analyzer with DMA instrument (left) and axial analyzer with extension/tensile geometry (right).
+  </caption></figure><para id="import-auto-id1168730295157">For torsional analyzers, the simplest geometry is the use of parallel plates. The plates are separated by a distance determined by the viscosity of the sample. Because the movement of the sample depends on its radius from the center of the plate, the stress applied is uneven; the measured strain is an average value. </para>
+    </section>
+    <section id="import-auto-id1168731790106"><title>DMA of the glass transition of polymers</title><para id="import-auto-id1168730055290">As the temperature of a polymer increases, the material goes through a number of minor transitions (<emphasis effect="italics">T</emphasis>γ and <emphasis effect="italics">T</emphasis><sub>β</sub>) due to expansion; at these transitions, the modulus also undergoes changes. The glass transition of polymers (<emphasis effect="italics">T</emphasis><sub>g</sub>) occurs with the abrupt change of physical properties within 140-160 <sup>o</sup>C; at some temperature within this range, the storage (elastic) modulus of the polymer drops dramatically. As the temperature rises above the glass transition point, the material loses its structure and becomes rubbery before finally melting. The idealized modulus transition is pictured in <link target-id="id1168727719777">Figure 6</link>.</para><figure id="import-auto-id1168727982788"><media id="import-auto-id1168727719777" alt="">
+          <image mime-type="image/png" src="../../media/Figure-6.gif" width="500" print-width="5in"/>
+        </media>
+      <caption>Ideal storage modulus transitions of viscoelastic polymers. Adapted from K. P. Menard, <emphasis effect="italics">Dynamic Mechanical Analysis: A Practical Introduction</emphasis>, 2nd ed., CRC Press: Boca Raton, FL (2008).</caption></figure><para id="import-auto-id1168731981024">The glass transition temperature can be determined using either the storage modulus, complex modulus, or tan δ (vs temperature) depending on context and instrument; because these methods result in such a range of values (<link target-id="1168730368859">Figure 7</link>), the method of calculation should be noted. When using the storage modulus, the temperature at which <emphasis effect="italics">E’</emphasis> begins to decline is used as the <emphasis effect="italics">T</emphasis><sub>g</sub>. Tan δ and loss modulus <emphasis effect="italics">E”</emphasis> show peaks at the glass transition; either onset or peak values can be used in determining <emphasis effect="italics">T</emphasis><emphasis effect="italics">g</emphasis>. These different methods of measurement are depicted graphically in <link target-id="1168730368859">Figure 7</link>.</para><figure id="import-auto-id1168730368859"><media id="import-auto-id1168731511520" alt="">
+            <image mime-type="image/png" src="../../media/Fig 8 Tain.PNG" width="400" print-width="4in"/>
+          </media>
+        <caption>Different industrial methods of calculating glass transition temperature (<emphasis effect="italics">T</emphasis><emphasis effect="italics">g</emphasis>).  Copyright 2014, TA Instruments. Used with permission.</caption></figure></section><section id="import-auto-id1168731129132">
+      <title>Advantages and limitations of DMA</title>
+      <para id="import-auto-id1168732375334">Dynamic mechanical analysis is an essential analytical technique for determining the viscoelastic properties of polymers. Unlike many comparable methods, DMA can provide information on major and minor transitions of materials; it is also more sensitive to changes after the glass transition temperature of polymers. Due to its use of oscillating stress, this method is able to quickly scan and calculate the modulus for a range of temperatures. As a result, it is the only technique that can determine the basic structure of a polymer system while providing data on the modulus as a function of temperature. Finally, the environment of DMA tests can be controlled to mimic real-world operating conditions, so this analytical method is able to accurately predict the performance of materials in use.</para>
+      <para id="import-auto-id1168729189074">DMA does possess limitations that lead to calculation inaccuracies. The modulus value is very dependent on sample dimensions, which means large inaccuracies are introduced if dimensional measurements of samples are slightly inaccurate. Additionally, overcoming the inertia of the instrument used to apply oscillating stress converts mechanical energy to heat and changes the temperature of the sample. Since maintaining exact temperatures is important in temperature scans, this also introduces inaccuracies. Because data processing of DMA is largely automated, the final source of measurement uncertainty comes from computer error. </para>
+    </section>
+    <section id="import-auto-id1168733323280">
+      <title>Bibliography</title>
+      <list id="import-auto-id1168730080114" list-type="bulleted"><item>K. P Menard, <emphasis effect="italics">Dynamic Mechanical Analysis: A Practical Introduction</emphasis>, 2nd ed., CRC Press: Boca Raton, FL (2008).</item>
+        <item>M. A. Meyer and K. K. Chawla, <emphasis effect="italics">Mechanical Properties of materials</emphasis>, 2nd. ed., Cambridge University Press: New York (2009).</item>
+        <item>G. Rotter and H. Ishida, <emphasis effect="italics">Macromolecules</emphasis>, 1992, <emphasis effect="bold">25</emphasis>, 2170.</item>
+<item>E. I. Rivin, <emphasis effect="italics">Stiffness and Damping in Mechanical Design</emphasis>, Marcel Dekker: New York (1999).</item>
+        <item>M. Sepe, <emphasis effect="italics">Dynamic Mechanical Analysis for Plastics Engineering</emphasis>, Plastics Design Library: Norwich, NY (1998).</item>
+        <item>R. J. Young, <emphasis effect="italics">Introduction to Polymers,</emphasis> 3rd ed., CRC Press: Boca Raton, FL (2011).</item>
+      </list></section>
+  </content>
+</document>

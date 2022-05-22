@@ -1,0 +1,177 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>XPS Determination of Metal Oxidation State</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m66998</md:content-id>
+  <md:title>XPS Determination of Metal Oxidation State</md:title>
+  <md:abstract/>
+  <md:uuid>3d2671c5-21df-41fb-91e3-7bb3441ff60c</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm1408997072">
+      <title>Introduction</title>
+      <para id="import-auto-idm1350463312">As discussed in <link url="https://cnx.org/contents/uieDnVBC@23.1:DocvnWPK@1/XPS-Analysis-of-Modified-Surfa" window="new">XPS Analysis of Modified Surfaces</link>; X-ray photoelectron spectroscopy is a very useful surface analysis technique especially for metals. X-rays are absorbed by the atoms, and a single K shell electron is emitted. The binding energy of the electron is dependent on the environment and oxidation state of the atom.</para><para id="import-auto-idm1155913888">Compared to a ground state metal atom, a K shell electron from an oxidized metal will experience a greater coulombic interaction with the core. This will cause it to have a higher binding energy, as more energy is needed to emit the electron. The change in binding energy, the chemical shift, can be used to determine the oxidation state of the metal.</para>
+      <para id="import-auto-idm1191090272">Different core levels in XPS can be analyzed. The nomenclature of core levels in XPS is nl<sub>j</sub>; n is the principal quantum number, l is the orbital angular quantum number (s orbital l = 0, p orbital l = 1, d orbital l = 2), and j is the total angular momentum quantum number given by l+s (where s is spin quantum number, ±½). So a Fe 2p<sub>3/2</sub> peak, for example, is looking at the 2p core of iron where the total angular momentum is 3/2.  </para><para id="import-auto-idm296143408">All orbitals, besides s, will give rise to a doublet due to spin-orbit splitting. When a p, d, or f level electron is removed by the XPS process, there will be coupling between the unpaired spin and orbital angular momentum. This results in two peaks whose ratios will vary depending on the orbital level. Spin-orbital splitting does not occur for s because the s orbital has zero orbital angular momentum.</para>
+      <para id="import-auto-idm1193266224">An example of binding energies of different transition metals along with their oxidized forms is given in  <link target-id="import-auto-idm1181521024"/>. Notice for each metal the general trend of increasing binding energy with oxidation state.</para><table id="import-auto-idm1181521024" summary="Binding energies first row transition metals">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Species</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Metal oxidation state</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">2p<sub>3/2</sub> binding energy (eV)</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Sc</entry>
+              <entry>0</entry>
+              <entry>398.3</entry>
+            </row>
+            <row>
+              <entry>Sc<sub>2</sub>O<sub>3</sub></entry>
+              <entry>3+</entry>
+              <entry>401.9</entry>
+            </row>
+            <row>
+              <entry>V</entry>
+              <entry>0</entry>
+              <entry>512.3</entry>
+            </row>
+            <row>
+              <entry>V<sub>2</sub>O<sub>3</sub></entry>
+              <entry>3+</entry>
+              <entry>515.8</entry>
+            </row>
+            <row>
+              <entry>VO<sub>2</sub></entry>
+              <entry>4+</entry>
+              <entry>516.3</entry>
+            </row>
+            <row>
+              <entry>V<sub>2</sub>O<sub>5</sub></entry>
+              <entry>5+</entry>
+              <entry>517.6</entry>
+            </row>
+            <row>
+              <entry>Mn</entry>
+              <entry>0</entry>
+              <entry>639.0</entry>
+            </row>
+            <row>
+              <entry>MnO</entry>
+              <entry>2+</entry>
+              <entry>640.5</entry>
+            </row>
+            <row>
+              <entry>MnO<sub>2</sub></entry>
+              <entry>4+</entry>
+              <entry>642.2</entry>
+            </row>
+            <row>
+              <entry>Fe</entry>
+              <entry>0</entry>
+              <entry>707.1</entry>
+            </row>
+            <row>
+              <entry>FeO</entry>
+              <entry>2+</entry>
+              <entry>709.6</entry>
+            </row>
+            <row>
+              <entry>Fe<sub>2</sub>O<sub>3</sub></entry>
+              <entry>3+</entry>
+              <entry>711.3</entry>
+            </row>
+            <row>
+              <entry>Co</entry>
+              <entry>0</entry>
+              <entry>778.3</entry>
+            </row>
+            <row>
+              <entry>CoO</entry>
+              <entry>2+</entry>
+              <entry>780.2</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup><caption>2p<sub>3/2</sub> XPS binding energies of various first row transition metals and their oxides. </caption>
+</table></section>
+    <section id="import-auto-idm1302917904"><title>Analysis</title><section id="import-auto-idm1356032640">
+        <title>Sample preparation and spectral treatment</title>
+        <para id="import-auto-idm302178880">Sample handling/preparation is important. Remember the principle garbage in, garbage out; if you put in a garbage sample you will get out garbage data. When determining metal oxidation states, it is important to remember that residual water and atmospheric oxygen can cause unwanted oxidation giving wrong results. To prevent this, solvent distillation/degassing and sample annealing may be helpful. Samples may also be cleaned in-situ with argon. 
+
+</para><para id="import-auto-idm1419151136">It is also important to keep in mind that XPS uses a high powdered vacuum. As such, the sample cannot be a loose powder; powder will destroy the high vacuum and potentially contaminate both the vacuum chamber and future samples. If the sample of interest is a powder, it will need to be processed. There is no universally accepted technique for handling powders, but a popular techniques include pressing into iridium foil or dissolving it in a suitable solvent then casting it on a silicon wafer. Another technique involves using sticky carbon tape, though this is probably not appropriate for carbon containing samples as residual carbon from the tape can show up.
+</para><para id="import-auto-idm1383119136">Like most instrumental techniques, the data will need to be processed once the XPS spectra is obtained. Along with subtracting background spectra, peaks from XPS are usually a merger of several smaller peaks, as shown in <link target-id="import-auto-idm292335376">Figure</link>, so deconvolution is necessary. This is referred to as peak-fitting, and can be done with the software package present with the XPS. </para><figure id="import-auto-idm292335376"><media id="import-auto-idm1163216352" alt="">
+            <image mime-type="image/png" src="../../media/Picture 1-81a0.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Mo 3d XPS spectra of surface cleaned molybdenum crystals before (top solid line) and after (bottom dashed lines). Adapted from N. V. Alov, <emphasis effect="italics">J. Anal. Chem.</emphasis>, 2005, <emphasis effect="bold">60</emphasis>, 431. </caption></figure></section>
+      <section id="import-auto-idm1383044912"><title>Determination of oxidation states from chemical shifts</title><para id="import-auto-idm1411686720">As explained in the introduction, changes in oxidation state will result in a shift in binding energy. <link target-id="iron-xps"/> shows a high resolution Fe 2p<sub>3/2</sub> XPS of a mixture of iron oxide powder with FeO (Fe<sup>2+</sup>) and Fe<sub>2</sub>O<sub>3</sub> (Fe<sup>3+</sup>). The change in oxidation state of the iron results in a shift in binding energy to higher levels. </para><figure id="iron-xps"><media id="xpsiron" alt="">
+            <image mime-type="image/png" src="../../media/Picture 3-d9cb.png" width="300" print-width="3in"/>
+          </media>
+        <caption>High resolution Fe 2p<sub>3/2</sub> XPS of mixed iron oxide powder. Adapted from K. Wright and A. R. Barron, <emphasis effect="italics">C</emphasis>, 2017, <emphasis effect="bold">3</emphasis>, 17. </caption></figure><para id="eip-437">To determine oxidation states from the peaks, reference compounds of the metal with known oxidation states can be prepared and run to compare too. In the case of an unknown vanadium oxide for example, spectra of known vanadium oxides can be taken and binding energies compared to the unknown. Along with determining the different oxidation states present, integration of the peaks can determine the relative amounts of each oxidation state.</para><para id="eip-425">Extensive work has been done on XPS of various metal complexes, so binding energies can be compared to literature values. The <emphasis effect="italics">National Institute of Standards and Technology</emphasis> (NIST) has an <link url="http://srdata.nist.gov/xps" window="new">XPS database</link> that can be used.</para></section></section><section id="import-auto-idm1394392240"><title>Limitations</title><para id="import-auto-idm1402754752">Unfortunately, there are some limitations with determining the oxidation state. While the binding energy is dependent on the oxidation state of the metal, it is also dependent on the chemical environment. So while the binding energy will generally increase with oxidation states, some compounds with the same metal but different oxidation states may have overlapping binding energy. An example is shown in <link target-id="import-auto-idm1389842672"/>, where FeSO<sub>4</sub> (Fe<sup>2+</sup>) has a higher 2p<sub>3/2 </sub>binding energy than Fe<sub>2</sub>O<sub>3</sub> (Fe<sup>3+</sup>). </para><table id="import-auto-idm1389842672" summary="Different FE XPS binding energies">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Species</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Fe oxidation state</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Fe 2p<sub> 3/2 </sub> binding energy (eV)</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Fe</entry>
+              <entry>0</entry>
+              <entry>706.3</entry>
+            </row>
+            <row>
+              <entry>FeO</entry>
+              <entry>2+</entry>
+              <entry>709.1</entry>
+            </row>
+            <row>
+              <entry>FeSO<sub>4</sub></entry>
+              <entry>2+</entry>
+              <entry>711.0</entry>
+            </row>
+            <row>
+              <entry>Fe<sub>2</sub>O<sub>3</sub></entry>
+              <entry>3+</entry>
+              <entry>710.6</entry>
+            </row>
+          </tbody>
+        
+
+
+</tgroup><caption>Fe 2p<sub>3/2 </sub>XPS binding energy for various iron species. </caption>
+</table><para id="import-auto-idm1341840720">Another thing to keep in mind is complex splitting. Some compounds will have multiplet splitting, where a core level for a single compound will appear as multiple peaks. An example is Cr<sub>2</sub>O<sub>3 </sub>2p<sub>3/2</sub>, which appears as multiple peaks (<link target-id="multiplet"/>). Multiple peaks could also appear due to “charge transfer satellites”, from the sudden creation of a core hole due to the XPS process.</para><figure id="multiplet"><media id="complexpeak" alt="">
+            <image mime-type="image/png" src="../../media/Picture 4-d466.png" width="300" print-width="3in"/>
+          </media>
+        <caption>High resolution Cr 2p<sub>3/2</sub> XPS peak for Cr<sub>2</sub>O<sub>3</sub> showing an example of complex splitting. Adapted from K. Wright and A. R. Barron, <emphasis effect="italics">C</emphasis>, 2017, <emphasis effect="bold">3</emphasis>, 17. </caption></figure></section><section id="eip-917"><title>Summary</title><para id="eip-751">Despite its limitations, XPS is a powerful tool for determining metal oxidation states. By proper sample handling and understanding what species could be present in your sample, incorrect analysis due to oxygen contamination and complex splitting can be avoided. There are a wide variety of uses for this technique, such determining oxide composition in thin oxide films and determining carbon nanotube metal sandwich complexes.
+</para></section><section id="eip-114"><title>Bibliography</title><list id="eip-985"><item>K. Wright and A. R. Barron, <emphasis effect="italics">C</emphasis>, 2017, <emphasis effect="bold">3</emphasis>, 17. </item>
+<item>M. Descostes, F. Mercier, N. Thromat, C. Beaucaire, and M. Gautier-Soyer, <emphasis effect="italics">Appl. Surf. Sci.</emphasis>, 2000, <emphasis effect="bold">165</emphasis>, 288.  </item>
+<item>N. V. Alov, <emphasis effect="italics">J. Anal. Chem.</emphasis>, 2005, <emphasis effect="bold">60</emphasis>, 431. </item>
+<item>NIST X-ray Photoelectron Spectroscopy Database, Version 4.1, http://srdata.nist.gov/xps, (accessed March 2018).</item>
+<item>V. Gomez, S. Irusta, O. B.  Lawal, W.  Adams,  R. H. Hauge, C. W.  Dunnill, and  A. R.  Barron, <emphasis effect="italics">RSC Adv.</emphasis>, 2016, <emphasis effect="bold">6</emphasis>, 11895. </item>
+
+<item>N. S.  McIntyre and D. G.  Zetaruk, <emphasis effect="italics">Anal. Chem.</emphasis>, 1977, <emphasis effect="bold">49</emphasis>, 1521. </item></list></section>
+  </content>
+</document>

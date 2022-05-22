@@ -1,0 +1,351 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Molecular Weight of Polymers</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43550</md:content-id>
+  <md:title>Molecular Weight of Polymers</md:title>
+  <md:abstract/>
+  <md:uuid>ecbec83e-aab4-43bc-a26f-38af1328886d</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1169687316765"><title>Introduction</title><para id="import-auto-id1169690152098">Knowledge of the molecular weight of polymers is very important because the physical properties of macromolecules are affected by their molecular weight. For example, shown in <link target-id="import-auto-id1169676614566"/> the interrelation between molecular weight and strength for a typical polymer.  </para><figure id="import-auto-id1169676614566"><media id="import-auto-id1169676077243" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig1-ad79.jpg" width="300" print-width="3in"/>
+        </media>
+      <caption>Dependence of mechanical strength on polymer molecular weight. Adapted from G. Odian, <emphasis effect="italics">Principles of Polymerization,</emphasis> 4<sup>th</sup> edition, Willey-Interscience, New York (2004). </caption></figure><para id="import-auto-id1169674261755">The melting point of polymers are also slightly depend on their molecular weight.  (<link target-id="import-auto-id1169667861108"/>) shows relationship between molecular weight and melting temperatures of polyethylene (<link target-id="idPOLY1"/>). Most linear polyethylenes have melting temperatures near 140 °C. The approach to the theoretical asymptote, that is a line whose distance to a given curve tends to zero, indicative that a theoretical polyethylene of infinite molecular weight (i.e., M = ∞) would have a melting point of 145 °C. </para><figure id="import-auto-id1169667861108"><media id="import-auto-id1169680445053" alt="">
+          <image mime-type="image/jpg" src="../../media/Fig2-93f4.jpg" width="275" print-width="2.75in"/>
+        </media>
+      <caption>The molecular weight-melting temperature relationship for the alkane series. Adapted from L. H. Sperling, <emphasis effect="italics">Introduction to physical polymer science,</emphasis> 4<sup>th</sup> edition, Wiley-Interscience, New York (2005). </caption></figure><figure id="idPOLY1"><media id="id55poly1_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Fig3-b25b.jpg" id=" id55poly1__onlineimage" width="100" print-width="1in"/>
+          </media>
+
+<caption>Structure of polyethylene. </caption></figure><para id="import-auto-id1169674275849">There are several ways to calculate molecular weight of polymers like number average of molecular weight, weight average of molecular weight, Z-average molecular weight, viscosity average molecular weight, and distribution of molecular weight.</para></section><section id="import-auto-id1169682139489">
+      <title>Molecular weight of polymers</title>
+      <section id="import-auto-id1169670227453">
+        <title> Number average of molecular weight (M<sub>n</sub>)</title>
+        <para id="import-auto-id1169670235208">Number average of molecular weight is measured to determine number of particles. Number average of molecular weight is the total weight of polymer, <link target-id="eip-951"/>, divided by the number of polymer molecules, <link target-id="eip-660"/>.  The number average molecular weight (M<sub>n</sub>) is given by <link target-id="eip-290"/>, where M<sub>i</sub> is molecular weight of a molecule of oligomer n, and N<sub>i</sub> is number of molecules of that molecular weight.</para><equation id="eip-951"><media id="id2YYY_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq14-ca7d.jpg" id="id2YYY__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-660"><media id="id2YYYY_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq13-e49f.jpg" id="id2YYYY__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-290"><media id="id2YYYYY_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq12-60df.jpg" id="id2YYYYY__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><example id="eip-218"><para id="eip-815">Consider a polymer sample comprising of 5 moles of polymer molecules having molecular weight of 40.000 g/mol and 15 moles of polymer molecules having molecular weight of 30.000 g/mol.</para><equation id="eip-622"><media id="id2YYYYZY_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq19-55e3.jpg" id="id2YYYYZY__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-4"><media id="id2YYYYZZ_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq16-ee9a.jpg" id="id2YYYYZZ__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-638"><media id="id2YYYYZZA_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq20-88ab.jpg" id="id2YYYYZZA__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation></example></section>
+      <section id="import-auto-id1169676999693">
+        <title>Weight average of molecular weight (M<sub>w</sub>)</title>
+        <para id="import-auto-id1169666857443">Weight average of molecular weight (M<sub>w</sub>) is measured to determine the mass of particles. M<sub>w</sub> defined as  <link target-id="eip-158"/>, where M<sub>i</sub> is molecular weight of a molecule of oligomer n, and N<sub>i</sub> is number of molecules of that molecular weight.</para><equation id="eip-158"><media id="id2YYYYZZB_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq21-692f.jpg" id="id2YYYYZZB__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><example id="eip-9"><para id="eip-740">Consider the polymer described in <link target-id="eip-218"/>. </para><equation id="eip-298"><media id="id2YYYYZZCB_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq22-58d6.jpg" id="id2YYYYZZCB__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-687"><media id="id2YYYYZZDB_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq25-9575.jpg" id="id2YYYYZZDB__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation></example><exercise id="eip-337"><problem id="eip-364">
+  <para id="eip-862">Calculate the M<sub>W</sub> for a polymer sample comprising of 9 moles of polymer molecules having molecular weight of 30.000 g/mol and 5 moles of polymer molecules having molecular weight of 50.000 g/mol.
+
+
+</para></problem>
+
+<solution id="eip-440">
+  <para id="eip-627"><media id="id2YYYYZZCD_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq27-6171.jpg" id="id2YYYYZZCD__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</para></solution>
+</exercise></section>
+      <section id="import-auto-id1169672367778">
+        <title>Z-average molecular weight (M<sub>z</sub>)</title><para id="import-auto-id1169674998185">The Z-average molecular weight (M<sub>z</sub>) is measured in some sedimentation equilibrium experiments. M<sub>z</sub> isn’t common technique for molecular weight of polymers. The molar mass depends on size and mass of the molecules. The ultra centrifugation techniques employ to determine M<sub>z</sub>. M<sub>z</sub> emphasizes large particles and it defines the EQ, where M<sub>i</sub> is molecular weight and N<sub>i</sub> is number of molecules.  </para><equation id="eip-507"><media id="id2YYYYZZDD_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq28-f4e8.jpg" id="id2YYYYZZDD__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><example id="eip-797"><para id="eip-694">
+Consider the polymer described in <link target-id="eip-218"/>. 
+</para><equation id="eip-703"><media id="id2YYYYZZEE_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq29-0ead.jpg" id="id2YYYYZZEE__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-353"><media id="id2YYYYZZEF_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq32-89d4.jpg" id="id2YYYYZZEF__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-741"><media id="id2YYYYZZEFF_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq31-63e9.jpg" id="id2YYYYZZEFF__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+</example><exercise id="eip-593"><problem id="eip-123">
+  <para id="eip-242">Calculate the M<sub>Z</sub> for a polymer sample comprising of 10 moles of polymer molecules having molecular weight of 20.000 g/mol and 2 moles of polymer molecules having molecular weight of 25,000 g/mol.
+
+</para></problem>
+
+<solution id="eip-637">
+  <para id="eip-597"><media id="id2YYYYZZEGG_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq33.jpg" id="id2YYYYZZEGG__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</para></solution>
+</exercise></section>
+      <section id="import-auto-id1169670202812">
+        <title>Viscosity average molecular weight (M<sub>v</sub>)</title>
+        <para id="import-auto-id1169674202334">One of the ways to measure the average molecular weight of polymers is viscosity of solution. Viscosity of a polymer depend on concentration and molecular weight of polymers. Viscosity techniques is common since it is experimentally simple. Viscosity average molecular weight defines as <link target-id="eip-415"/>, where M<sub>i</sub> is molecular weight and N<sub>i</sub> is number of molecules, a is a constant which depend on the polymer-solvent in the viscosity experiments. When a is equal 1, M<sub>v</sub> is equal to the weight average molecular weight, if it isn’t equal 1 it is between weight average molecular weight and the number average molecular weight. </para><equation id="eip-415"><media id="id2YYYYZZEGH_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq34.jpg" id="id2YYYYZZEGH__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation></section>
+      <section id="import-auto-id1169668967477"><title>Distribution of molecular weight</title><para id="import-auto-id1169679143441">Molecular weight distribution is one of the important characteristic of polymer because it affects polymer properties. A typical molecular distribution of polymers show in <link target-id="import-auto-id1169670076614"/>..  There are various molecular weight in the range of curve. The distribution of sizes in a polymer sample isn’t totally defined by its central tendency.  The width and shape of distribution must be known. It is always true that the various range molecular weight is <link target-id="eip-714"/>.  The equality is occurring when all polymer in the sample have the same molecular weight.<sub/></para><equation id="eip-714"><media id="id2YYYYZZEGHH_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq35-416b.jpg" id="id2YYYYZZEGHH__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><figure id="import-auto-id1169670076614"><media id="import-auto-id1169670232902" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics17.jpg" width="400" print-width="4in"/>
+            </media>
+          <caption>A schematic plot of a distribution of molecular weights along with the rankings of the various average molecular weights. Adapted from J. A. Nairn, Oregon State University (2003).  </caption></figure></section></section>
+    <section id="import-auto-id1169673789340">
+      <title>Molecular weight analysis of polymers</title>
+      <section id="import-auto-id1169670236521"><title>Gel permeation chromatography (GPC)</title><para id="import-auto-id1169668948266">Gel permeation chromatography is also called size exclusion chromatography. It is widely used method to determine high molecular weight distribution. In this technique, substances separate according to their molecule size. Firstly, large molecules begin to elute then smaller molecules are eluted <link target-id="import-auto-id1169666946927"/>. The sample is injected into the mobile phase then the mobile phase enters into the columns. Retention time is the length of time that a particular fraction remains in the column. As shown in <link target-id="import-auto-id1169666946927"/>, while the mobile phase passes through the porous particles, the area between large molecules and small molecules is getting increase. GPC gives a full molecular distribution, but its cost is high.</para>
+
+        
+
+          <figure id="import-auto-id1169666946927"><media id="image3b" alt=" ">
+    <image mime-type="image/jpeg" src="../../media/image3b.jpg" width="400" print-width="4in"/>
+  </media><caption>Solvent flow through column. Adapted from A. M. Striegel, W. W. Yau, J. J. Kirkland, and D. D. Bly. <emphasis effect="italics">Modern Size-Exclusion Liquid Chromatography- Practice of Gel Permeation and Gel Filtration Chromatography,</emphasis> 2<sup>nd</sup> Edition. Hoboken. N.J. (2009).</caption></figure><para id="eip-41">According to basic theory of GPC, the basic quantity measured in chromatography is the retention volume, <link target-id="eip-685"/>, where V<sub>0</sub> is mobile phase volume and V<sub>p</sub> is the volume of a stationary phase. K is a distribution coefficient related to the size and types of the molecules. </para><equation id="eip-685"><media id="id2YYYYZZHH_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq36.jpg" id="id2YYYYZZHH__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1169670311732">The essential features of gel permeation chromatography are shown in <link target-id="import-auto-id1169671221801"/>. Solvent leaves the solvent supply, then solvent is pumped through a filter. The desired amount of flow through the sample column is adjusted by sample control valves and the reference flow is adjusted that the flow through the reference and flow through the sample column reach the dedector in common front. The reference column is used to remove any slight impurities in the solvent. In order to determine the amount of sample, a detector is located at the end of the column. Also, detectors may be used to continuously verify the molecular weight of species eluting from the column. The flow of solvent volume is as well monitored to provide a means of characterizing the molecular size of the eluting species.</para><figure id="import-auto-id1169671221801"><media id="import-auto-id1169676178924" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 2-1b1e.jpg" width="500" print-width="5in"/>
+          </media>
+        <caption>Schematic of gel permeation chromatography system.</caption></figure>
+
+
+<para id="import-auto-id1169671424384">As an example, consider the block copolymer of ethylene glycol (PEG, <link target-id="import-auto-id1169670570956"/>) and poly(lactide) (PLA, <link target-id="import-auto-id1169669157987"/>), i.e., <link target-id="import-auto-id1169667900071"/>. In the first step starting with a sample of PEG with a M<sub>n</sub> of 5,700 g/mol. After polymerization, the molecular weight increased because of the progress of lactide polymerization initiated from end of PEG chain.  Varying composition of PEG-PLA shown in <link target-id="import-auto-id1169666685278"/> can be detected by GPC (<link target-id="import-auto-id1169670570956"/>).</para><figure id="import-auto-id1169670203777"><media id="import-auto-id1169667885814" alt=""><image mime-type="image/jpg" src="../../media/Fig4-8563.jpg" width="150" print-width="1.5in"/></media><caption>The structure of polyethyleneglycol (PEG).</caption></figure><figure id="import-auto-id1169669157987"><media id="import-auto-id1169667830361" alt="">
+            <image mime-type="image/jpg" src="../../media/Fig5-a2f2.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>The ring-opening polymerization of lactide to polylactide. </caption></figure><figure id="import-auto-id1169667900071"><media id="import-auto-id1169685055810" alt=""><image mime-type="image/jpg" src="../../media/Fig6-05b8.jpg" width="235" print-width="2.35in"/></media><caption>The structure of PEG-PLA block copolymer.</caption></figure><figure id="import-auto-id1169670570956"><media id="import-auto-id1169672798386" alt="">
+            <image mime-type="image/jpg" src="../../media/Fig7-8b6f.jpg" width="225" print-width="2.25in"/>
+          </media>
+        <caption>Gel permeation chromatogram of (a) PEG (M<sub>W</sub> = 5,700 g/mol) and (b) PEG-PLA block copolymer (M<sub>W</sub> = 11,000 g/mol). Adapted from K. Yasugi, Y. Nagasaki, M. Kato, K. Kataoka, <emphasis effect="italics">J. Control. Release,</emphasis> 1999, <emphasis effect="bold">62, </emphasis> 89.</caption></figure><table id="import-auto-id1169666685278" summary="Characteristics of PEG-PLA block copolymer with varying composition.">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <thead>
+              <row>
+                <entry>
+
+                    <emphasis effect="bold">Polymer</emphasis>
+
+                </entry>
+                <entry>
+                  <emphasis effect="bold">M<sub>n</sub> of PEG</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">M<sub>w</sub>/M<sub>n</sub></emphasis>
+                  <emphasis effect="bold"> of PEG</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">M<sub>n</sub></emphasis>
+                  <emphasis effect="bold"> of PLA</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">M<sub>w</sub></emphasis>
+                  <emphasis effect="bold">/M<sub>n</sub></emphasis>
+                  <emphasis effect="bold"> of block copolymer</emphasis>
+                </entry>
+                <entry>
+
+                    <emphasis effect="bold">Weight ratio of PLA to PEG</emphasis>
+
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                    PEG-PLA(41-12)
+                </entry>
+                <entry>4100</entry>
+                <entry>1.05</entry>
+                <entry>1200</entry>
+                <entry>1.05</entry>
+                <entry>0.29</entry>
+              </row>
+              <row>
+                <entry>
+                PEG-PLA(60-30)
+                </entry>
+                <entry>6000</entry>
+                <entry>1.03</entry>
+                <entry>3000</entry>
+                <entry>1.08</entry>
+                <entry>0.50</entry>
+              </row>
+              <row>
+                <entry>
+                   PEG-PLA(57-54)             
+                </entry>
+                <entry>5700</entry>
+                <entry>1.03</entry>
+                <entry>5400</entry>
+                <entry>1.08</entry>
+                <entry>0.95</entry>
+              </row>
+              <row>
+                <entry>
+                 
+            PEG-PLA(61-78)
+                 
+                </entry>
+                <entry>6100</entry>
+                <entry>1.03</entry>
+                <entry>7800</entry>
+                <entry>1.11</entry>
+                <entry>1.28</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Characteristics of PEG-PLA block copolymer with varying composition. Adapted from K. Yasugi, Y. Nagasaki, M. Kato, and K. Kataoka, <emphasis effect="italics">J. Control Release,</emphasis> 1999, <emphasis effect="bold">62</emphasis>, 89.</caption>
+</table></section><section id="import-auto-id1169680401914">
+        <title> Light-scattering</title>
+        <para id="import-auto-id1169676814506">One of the most used methods to characterize the molecular weight is light scattering method. When polarizable particles are placed in the oscillating electric field of a beam of light, the light scattering occurs. Light scattering method depends on the light, when the light is passing through polymer solution, it is measure by loses energy because of absorption, conversion to heat and scattering. The intensity of scattered light relies on the concentration, size and polarizability that is proportionality constant which depends on the molecular weight. <link target-id="import-auto-id1169680575440"/> shows light scattering off a particle in solution.</para><figure id="import-auto-id1169680575440"><media id="import-auto-id1169676889985" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 3-8246.jpg" width="500" print-width="5in"/>
+          </media>
+        <caption>Modes of scattering of light in solution.</caption></figure><para id="import-auto-id1169674318617">A schematic laser light-scattering is shown in <link target-id="import-auto-id1169687941041"/>.  A major problem of light scattering is to prepare perfectly clear solutions. This problem is usually accomplished  by ultra-centrifugation.  A solution should be as possible as clear and dust free to determine absolute molecular weight of polymer.  The advantages of this method, it doesn’t need calibration to obtain absolute molecular weight and it can give information about shape and M<sub>w</sub> information. Also, it can be performed rapidly with less amount of sample and absolute determinations of the molecular weight can be measured. The weaknesses of the method is high price and most times it requires difficult clarification of the solutions.</para><figure id="import-auto-id1169687941041"><media id="import-auto-id1169685152262" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 5-e537.jpg" width="500" print-width="5in"/>
+          </media>
+       <caption>Schematic representation of light scattering. Adapted from J. A. Nairn, polymer characterization, <emphasis effect="italics">Material science and engineering 5473,</emphasis> spring 2003.</caption></figure><para id="import-auto-id1169672305174">The weight average molecular weight value of scattering polymers in solution related to their light scattering properties that define by <link target-id="eip-460"/>, where K is the wave vector, that defined by <link target-id="eip-134"/>. C is solution concentration, R(θ) is the reduced Rayleigh ratio, P(θ) the particle scattering function,  θ is the scattering angle, A is the osmotic virial coefficients, where n<sub>0</sub> solvent refractive index, λ the light wavelength and N<sub>a</sub> Avagadro’s number.  The particle scattering function is given by <link target-id="eip-601"/>, where R<sub>z</sub> is the radius of gyration.  </para><equation id="eip-460"><media id="id37_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq37.jpg" id="id37__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-134"><media id="id2YYYYZZ38_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq38.jpg" id="id2YYYYZZ38__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><equation id="eip-601"><media id="id2YYYYZZ39_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq39.jpg" id="id2YYYYZZ39__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation><para id="import-auto-id1169667899590">Weight average molecular weight of a polymer is found from extrapolation of data in the form of a Zimm plot (<link target-id="import-auto-id1169676656483"/>). Experiments are performed at several angles and at least at 4 different concentrations.  The straight line extrapolations provides M<sub>w</sub>.</para><figure id="import-auto-id1169676656483"><media id="import-auto-id1169681687628" alt="">
+            <image mime-type="image/jpg" src="../../media/Fig8-e2d1.jpg" width="350" print-width="3.5in"/>
+          </media>
+<caption>A typical Zimm plot of light scattering data. Adapted from M. P. Stevens, <emphasis effect="italics">Polymer Chemistry an Introduction</emphasis>, 3<sup>rd</sup> edition, Oxford University Press, Oxford (1999). </caption></figure></section>
+      <section id="import-auto-id1169670238472"><title>X-ray scattering</title><para id="import-auto-id1169670238193">X-rays are a form of electromagnetic wave with wavelengths between 0.001 nm and 0.2 nm. X-ray scattering is particularly used for semicrystalline polymers which includes thermoplastics, thermoplastic elastomers, and liquid crystalline polymers. Two types of X-ray scattering are used for polymer studies: </para><list id="eip-359" list-type="enumerated" number-style="arabic"><item>Wide-angle X-ray scattering (WAXS) which is used to study orientation of the crystals and the packing of the chains. </item>
+<item>Small-angle X-ray scattering (SAXS) which is used to study the electron density fluctuations that occur over larger distances as a result of structural inhomogeneities. </item>
+
+
+
+
+</list><para id="eip-347">Schematic representation of X-ray scattering shows in <link target-id="import-auto-id1169683492341"/>. </para><figure id="import-auto-id1169683492341"><media id="import-auto-id1169680263467" alt="">
+              <image mime-type="image/jpg" src="../../media/Picture 6-0d50.jpg" width="500" print-width="5in"/>
+            </media>
+          <caption>Schematic diagram of X-ray scattering. Adapted from B. Chu, and B. S. Hsiao,  <emphasis effect="italics">Chem. Rev.</emphasis> 2001,<emphasis effect="bold">101</emphasis>, 1727.</caption></figure><para id="import-auto-id1169670214683">At least two SAXS curves are required to determine the molecular weight of a polymer. The SAXS procedure to determine the molecular weight of polymer sample in monomeric or multimeric state solution requires the following conditions.</para><list id="import-auto-id1169681589378" list-type="enumerated" number-style="lower-alpha"><item>The system should be monodispersed.</item>
+          <item>The solution should be dilute enough to avoid spatial correlation effects.</item>
+          <item>The solution should be isotropic.</item>
+          <item>The polymer should be homogeneous. </item>
+        </list></section><section id="import-auto-id1169684839983"><title>Osmometer</title><para id="import-auto-id1169670589077">Osmometry  is applied to determine number average of molecular weight (M<sub>n</sub>). There are two types of osmometer: </para><list id="eip-769" list-type="enumerated" number-style="arabic"><item>Vapor pressure osmometry (VPO). </item>
+<item>Membrane osmometry. </item>
+</list><para id="import-auto-id1169667850688">Vapor pressure osmometry measures vapor pressure indirectly by measuring the change in temperature of a polymer solution on dilution by solvent vapor and is generally useful for polymers with M<sub>n</sub> below 10,000–40,000 g/mol. When molecular weight is more than that limit, the quantity being measured becomes very small to detect. A typical vapor osmometry shows in the <link target-id="import-auto-id1169685924373"/>. Vapor pressure is very sensitive because of this reason it is measured indirectly by using thermistors to measure voltage changes caused by changes in termperature.</para>
+
+          <figure id="import-auto-id1169685924373"><media id="import-auto-id1169670214880" alt="">
+              <image mime-type="image/jpg" src="../../media/Picture 13-d3db.jpg" width="350" print-width="3.5in"/>
+            </media>
+          <caption>Schematic vapor pressure osmometry. Adapted from <link url="http://www.gallay.com.au/node/186">
+            <emphasis effect="underline">http://www.gallay.com.au/node/186</emphasis></link></caption></figure><para id="import-auto-id1169680532882">Membrane osmometry is absolute technique to determine M<sub>n </sub>(<link target-id="import-auto-id1169681365079"/>). The solvent is separated from the polymer solution with semipermeable membrane that is strongly held between the two chambers. One chamber is sealed by a valve with a transducer attached to a thin stainless steel diaphragm which permits the measurement of pressure in the chamber continuously. Membrane osmometry is useful to determine M<sub>n</sub> about 20,000-30,000 g/mol and less than 500,000 g/mol. When M<sub>n </sub>of polymer sample more than 500,000 g/mol, the osmotic pressure of polymer solution becomes very small to measure absolute number average of molecular weight. In this technique, there are problems with membrane leakage and symmetry. The advantages of this technique is that it doesn’t require calibration and it gives an absolute value of M<sub>n</sub> for polymer samples.</para><figure id="import-auto-id1169681365079"><media id="import-auto-id1169667848935" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 14-8bae.jpg" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Schematic representative of membrane osmometry. Adapted from <link url="http://www.flickr.com/photos/mitopencourseware/3327963527/"><emphasis effect="underline">http://www.flickr.com/photos/mitopencourseware/3327963527/</emphasis></link>.</caption></figure></section></section>
+    <section id="import-auto-id1169670105044">
+      <title>Summary </title>
+      <para id="import-auto-id1169681678913">Properties of polymers depend on their molecular weight.  There are different kind of molecular weight and each can be measured by different techniques. The summary of these techniques and molecular weight is shown in the <link target-id="import-auto-id1169668272677"/>. </para><table id="import-auto-id1169668272677" summary="Summary of techniques of molecular weight of polymers.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+
+                  <emphasis effect="bold">Method</emphasis>
+              </entry>
+              <entry>
+                  <emphasis effect="bold">Type of molecular  weight</emphasis>
+              </entry>
+              <entry>
+                  <emphasis effect="bold">Range of application</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Light scattering </entry>
+              <entry>M<sub>w</sub></entry>
+              <entry>
+
+∞
+              </entry>
+            </row>
+            <row>
+              <entry>Membrane osmometry </entry>
+              <entry>M<sub>n</sub></entry>
+              <entry>10<sup>4</sup>-10<sup>6 </sup></entry>
+            </row>
+            <row>
+              <entry>Vapor phase osmometry</entry>
+              <entry>M<sub>n</sub></entry>
+              <entry>40,000 </entry>
+            </row>
+            <row>
+              <entry>X-ray scattering</entry>
+              <entry>M<sub>w, n, z</sub></entry>
+              <entry>10<sup>2 </sup>to </entry>
+            </row>
+          </tbody>
+        
+
+
+
+
+
+</tgroup><caption>Summary of techniques of molecular weight of polymers.</caption>
+</table></section><section id="eip-362"><title>Bibliography</title><list id="eip-541"><item>G. Odian, <emphasis effect="italics">Principle of Polymerization</emphasis>, 4<sup>th</sup> edition, Willey Intersicence, New York (2004).</item>
+        <item>M. P. Stevens, <emphasis effect="italics">Polymer Chemistry an Introduction</emphasis>, 3<sup>rd</sup> Edition, 
+Oxford University Press, Oxford (1998).</item>
+        <item>T. Tanaka, <emphasis effect="italics">Experimental Methods in Polymer Science</emphasis>, Academic Press, New York (1999).</item>
+        <item> L. H. Sperling, <emphasis effect="italics">Introduction to physical polymer science,</emphasis>  4<sup>th</sup> edition, Wiley-Interscience, New York (2006).</item>
+        <item>R. W. Nunes, J. R. Martin, and J. F. Johnson, <emphasis effect="italics">Poly. Eng. Sci.,</emphasis> 1982, <emphasis effect="bold">22,</emphasis> 4.</item>
+        <item>A. Horta and M. A. Pastoriza, <emphasis effect="italics">J. Chem. Educ.</emphasis>, 2007, <emphasis effect="bold">84</emphasis>, 7. </item>
+        <item> K. Yasugi, Y. Nagasaki, M. Kato, and K. Kataoka, <emphasis effect="italics">J. Control. Release</emphasis>, 1999, <emphasis effect="bold">62</emphasis>, 89.</item>
+        <item>B. Chu and B. S. Hsiao, <emphasis effect="italics">Chem. Rev.</emphasis>, 2001, <emphasis effect="bold">101</emphasis>, 1727.</item>
+        <item> V. E. Eskin, <emphasis effect="italics">Sov. Phys. Ups.</emphasis>, 1964, <emphasis effect="bold">7</emphasis>, 2.</item>
+        <item>B. H. Bersted, <emphasis effect="italics">J. Appl. Polym. Sci.</emphasis>, 1973, <emphasis effect="bold">17</emphasis>, 1415.</item>
+        <item>A. H. Compton,  <emphasis effect="italics">Physics</emphasis>, 1925,  <emphasis effect="bold">11</emphasis>, 303</item>
+        <item>  C. H. Hsu, P. M. Peacock, R. B. Flippen,  S. K. Manohar,  and  A. G. MacDiarmid, <emphasis effect="italics">Synth. Met.</emphasis>, 1993, <emphasis effect="bold">60</emphasis>, 233. </item>
+        <item>
+          <link url="http://www.gallay.com.au/node/186">
+            <emphasis effect="underline">http://www.gallay.com.au/node/186</emphasis>
+          </link>
+        </item>
+        <item>
+          <link url="http://www.flickr.com/photos/mitopencourseware/3327963527/">
+            <emphasis effect="underline">http://www.flickr.com/photos/mitopencourseware/3327963527/</emphasis>
+          </link>
+        </item>
+</list></section>
+  </content>
+</document>

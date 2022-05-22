@@ -1,0 +1,310 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Optical Characterization of Group 12-16 (II-VI) Semiconductor Nanoparticles by Fluorescence Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34656</md:content-id>
+  <md:title>Optical Characterization of Group 12-16 (II-VI) Semiconductor Nanoparticles by Fluorescence Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>8113f0d3-f78d-493d-a13c-c2ece0a43940</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171720398392">Group 12-16 semiconductor nanocrystals when exposed to light of a particular energy absorb light to excite electrons from the ground state to the excited state, resulting in the formation of an electron-hole pair (also known as excitons). The excited electrons relax back to the ground state, mainly through radiative emission of energy in the form of photons. </para>
+    <para id="id1171712652175">Quantum dots (QD) refer to nanocrystals of semiconductor materials where the size of the particles is comparable to the natural characteristic separation of an electron-hole pair, otherwise known as the exciton Bohr radius of the material. In quantum dots, the phenomenon of emission of photons associated with the transition of electrons from the excited state to the ground state is called fluorescence.</para>
+
+
+    <section id="id555555555">
+
+      <title>Fluorescence spectroscopy</title>
+
+
+
+
+    <para id="id1171722032995">Emission spectroscopy, in general, refers to a characterization technique that measures the emission of radiation by a material that has been excited. Fluorescence spectroscopy is one type of emission spectroscopy which records the intensity of light radiated from the material as a function of wavelength. It is a nondestructive characterization technique.</para>
+
+    
+    
+    <para id="id1171698356410">After an electron is excited from the ground state, it needs to relax back to the ground state. This relaxation or loss of energy to return to the ground state, can be achieved by a combination of non-radiative decay (loss of energy through heat) and radiative decay (loss of energy through light). Non-radiative decay by vibrational modes typically occurs between energy levels that are close to each other. Radiative decay by the emission of light occurs when the energy levels are far apart like in the case of the band gap. This is because loss of energy through vibrational modes across the band gap can result in breaking the bonds of the crystal. This phenomenon is shown in <link target-id="id1171696603046"/>.</para>
+
+
+
+
+      <figure id="id1171696603046"><media id="id1171696603046_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Object 13c.jpg" id="id1171696603046__onlineimage" width="450" print-width="4.5in"/>
+        </media>
+
+      <caption>Emission of luminescence photon for Group 12-16 semiconductor quantum dot.</caption></figure>
+
+
+    <para id="id1171696545641">The band gap of Group 12-16 semiconductors is in the UV-visible region. Thus, the wavelength of the emitted light as a result of radiative decay is also in the visible region, resulting in fascinating fluorescence properties.</para>
+
+
+
+    <para id="id1171697090323">A fluorimeter is a device that records the fluorescence intensity as a function of wavelength. The fluorescence quantum yield can then be calculated by the ratio of photons absorbed to photons emitted by the system. The quantum yield gives the probability of the excited state getting relaxed via fluorescence rather than by any other non-radiative decay.</para>
+
+</section>
+
+    <section id="id1171711558030">
+      <title>Difference between fluorescence and phosphorescence</title>
+      <para id="id1171704726322">Photoluminescence is the emission of light from any material due to the loss of energy from excited state to ground state. There are two main types of luminescence – fluorescence and phosphorescence. Fluorescence is a fast decay process, where the emission rate is around 10<sup>8 </sup>s<sup>-1 </sup>and the lifetime is around 10<sup>-9</sup> - 10<sup>-7</sup> s. Fluorescence occurs when the excited state electron has an opposite spin compared to the ground state electrons. From the laws of quantum mechanics, this is an allowed transition, and occurs rapidly by emission of a photon. Fluorescence disappears as soon as the exciting light source is removed.</para>
+      <para id="id1171713517291">Phosphorescence is the emission of light, in which the excited state electron has the same spin orientation as the ground state electron. This transition is a forbidden one and hence the emission rates are slow (10<sup>3</sup> - 10<sup>0</sup> s<sup>-1</sup>). So the phosphorescence lifetimes are longer, typically seconds to several minutes, while the excited phosphors slowly returned to the ground state. Phosphorescence is still seen, even after the exciting light source is removed. Group 12-16 semiconductor quantum dots exhibit fluorescence properties when excited with ultraviolet light.</para>
+      
+    </section>
+
+
+
+    <section id="id1171698223023"><title>Instrumentation</title><para id="id1171696828130">The working schematic for the fluorometer is shown in <link target-id="id1171695135771"/>.</para>
+
+
+        <figure id="id1171695135771"><media id="id1171695135771_media" alt="">
+            <image mime-type="image/png" src="../../media/Object 16.png" id="id1171695135771__onlineimage" width="400" print-width="4in"/>
+          </media>
+
+        <caption>Schematic of fluorometer. </caption></figure>
+
+
+
+
+
+
+      <section id="id8184885">
+        <title>The light source</title>
+        <para id="id1171697263060">The excitation energy is provided by a light source that can emit wavelengths of light over the ultraviolet and the visible range. Different light sources can be used as excitation sources such as lasers, xenon arcs and mercury-vapor lamps. The choice of the light source depends on the sample. A laser source emits light of a high irradiance at a very narrow wavelength interval. This makes the need for the filter unnecessary, but the wavelength of the laser cannot be altered significantly. The mercury vapor lamp is a discrete line source. The xenon arc has a continuous emission spectrum between the ranges of 300 - 800 nm.</para>
+      </section>
+      <section id="id1171700670654">
+        <title>The diffraction grating and primary filter</title>
+        <para id="id1171694679981">The diffraction grating splits the incoming light source into its component wavelengths (<link target-id="id1171695135771"/>). The monochromator can then be adjusted to choose with wavelengths to pass through. Following the primary filter, specific wavelengths of light are irradiated onto the sample</para>
+      </section>
+      <section id="id1171696948447">
+        <title>Sample cell and sample preparation</title>
+        <para id="id1976255">A proportion of the light from the primary filter is absorbed by the sample. After the sample gets excited, the fluorescent substance returns to the ground state, by emitting a longer wavelength of light in all directions (<link target-id="id1171695135771"/>). Some of this light passes through a secondary filter. For liquid samples, a square cross section tube sealed at one end and all four sides clear, is used as a sample cell. The choice of cuvette depends on three factors: </para>
+        
+        <list id="id1171697204757" list-type="enumerated" number-style="arabic"><item><emphasis effect="bold">Type of solvent - </emphasis>For aqueous samples, specially designed rectangular quartz, glass or plastic cuvettes are used. For organic samples glass and quartz cuvettes are used.</item>
+          <item><emphasis effect="bold">Excitation wavelength</emphasis> – Depending on the size and thus, bandgap of the Group 12-16 semiconductor nanoparticles, different excitation wavelengths of light are used. Depending on the excitation wavelength, different materials are used (<link target-id="eip-659"/>). <table id="eip-659" summary="Cuvette materials and their wavelengths.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Cuvette</emphasis></entry>
+    <entry><emphasis effect="bold">Wavelength (nm)</emphasis></entry>
+  </row>
+  <row>
+    <entry>Visible only glass</entry>
+    <entry>380 - 780</entry>
+  </row>
+  <row>
+    <entry>Visible only plastic</entry>
+    <entry>380 - 780</entry>
+  </row>
+  <row>
+    <entry>UV plastic</entry>
+    <entry>220 - 780</entry>
+  </row>
+  <row>
+    <entry>Quartz</entry>
+    <entry>200 - 900</entry>
+  </row>
+</tbody>
+
+</tgroup><caption>Cuvette materials and their wavelengths. </caption>
+</table></item>
+          <item><emphasis effect="bold">Cost</emphasis> – Plastic cuvettes are the least expensive and can be discarded after use. Though quartz cuvettes have the maximum utility, they are the most expensive, and need to reused. Generally, disposable plastic cuvettes are used when speed is more important than high accuracy.</item>
+        </list>
+
+        <figure id="id1171700801546">
+          <media id="id1171700801546_media" alt="">
+            <image mime-type="image/png" src="../../media/Object 6.png" id="id1171700801546__onlineimage" width="75" print-width="0.75in"/>
+          </media>
+<caption>A typical cuvette for fluorescence spectroscopy. </caption>
+        </figure>
+
+
+
+
+
+        
+        
+        <para id="eip-368">The cuvettes have a 1 cm path length for the light (<link target-id="id1171700801546"/>). The best cuvettes need to be very clear and have no impurities that might affect the spectroscopic reading. Defects on the cuvette, such as scratches, can scatter light and hence should be avoided. Since the specifications of a cuvette are the same for both, the UV-visible spectrophotometer and fluorimeter, the same cuvette that is used to measure absorbance can be used to measure the fluorescence. For Group 12-16 semiconductor nanoparticles preparted in organic solvents, the clear four sided quartz cuvette is used. The sample solution should be dilute (absorbance &lt;1 au), to avoid very high signal from the sample to burn out the detector. The solvent used to disperse the nanoparticles should not absorb at the excitation wavelength. 
+</para>
+
+
+      </section>
+
+
+<section id="id1171704807348">
+          <title>Secondary filter </title>
+          <para id="id1171701488172">The secondary filter is placed at a 90° angle (<link target-id="id1171695135771"/>) to the original light path to minimize the risk of transmitted or reflected incident light reaching the detector. Also this minimizes the amount of stray light, and results in a better signal-to-noise ratio. From the secondary filter, wavelengths specific to the sample are passed onto the detector.</para>
+        </section>
+
+
+        <section id="id1171716923377">
+          <title>Detector</title>
+          <para id="id1171706513402">The detector can either be single-channeled or multichanneled (<link target-id="id1171695135771"/>). The single-channeled detector can only detect the intensity of one wavelength at a time, while the multichanneled detects the intensity at all wavelengths simultaneously, making the emission monochromator or filter unnecessary. The different types of detectors have both advantages and disadvantages.</para>
+        </section>
+
+
+
+
+
+      <section id="id1171701507790">
+        <title>Output</title>
+        <para id="id1171697610473">The output is the form of a plot of intensity of emitted light as a function of wavelength as shown in <link target-id="id1171704749015"/>. </para>
+
+
+        <figure id="id1171704749015"><media id="id1171704749015_media" alt="">
+            <image mime-type="image/png" src="../../media/Object 5.png" id="id1171704749015__onlineimage" width="300" print-width="3in"/>
+          </media>
+
+        <caption>Emission spectra of CdSe quantum dot.</caption></figure>
+
+
+      </section>
+    </section>
+    <section id="id1171694740785">
+      <title>Analysis of data</title>
+      <para id="id1171713552544">The data obtained from fluorimeter is a plot of fluorescence intensity as a function of wavelength. Quantitative and qualitative data can be obtained by analysing this information.</para>
+      <section id="id1171702229729">
+
+        <title>Quantitative information</title>
+
+        <para id="id1171697905844">From the fluorescence intensity versus wavelength data, the quantum yield (Φ<sub>F</sub>) of the sample can be determined. Quantum yield is a measure of the ratio of the photons absorbed with respect to the photons emitted. It is important for the application of Group 12-16 semiconductor quantum dots using their fluorescence properties, for e.g., bio-markers.</para>
+
+        <para id="id1171701997186">The most well-known method for recording quantum yield is the comparative method which involves the use of well characterized standard solutions. If a test sample and a standard sample have similar absorbance values at the same excitation wavelength, it can be assumed that the number of photons being absorbed by both the samples is the same. This means that a ratio of the integrated fluorescence intensities of the test and standard sample measured at the same excitation wavelength will give a ratio of quantum yields. Since the quantum yield of the standard solution is known, the quantum yield for the unknown sample can be calculated.</para>
+        
+
+        <para id="id1171698864875">A plot of integrated fluorescence intensity versus absorbance at the excitation wavelength is shown in <link target-id="id1171702437130"/>. The slope of the graphs shown in <link target-id="id1171702437130"/> are proportional to the quantum yield of the different samples. Quantum yield is then calculated using <link target-id="id1171697184189"/>, where subscripts ST denotes standard sample and X denotes the test sample; QY is the quantum yield; RI is the refractive index of the solvent.</para>
+
+
+
+        <figure id="id1171702437130">
+          <media id="id1171702437130_media" alt="">
+            <image mime-type="image/png" src="../../media/Object 7.png" id="id1171702437130__onlineimage" width="450" print-width="4.5in"/>
+          </media>
+<caption>Integrated fluoresncene intensity as a function of absorbance. </caption>
+        </figure>
+
+
+
+
+        
+        <equation id="id1171697184189"><media id="id5540_media" alt=""><image mime-type="image/jpg" src="../../media/Eq20-36b5.jpg" id="id5540__onlineimage" width="450" print-width="4in"/></media></equation>
+        <para id="id1171706447265">Take the example of <link target-id="id1171702437130"/>. If the same solvent is used in both the sample and the standard solution, the ratio of quantum yields of the sample to the standard is given by <link target-id="id1171698147882"/>. If the quantum yield of the standard is known to 0.95, then the quantum yield of the test sample is 0.523 or 52.3%.</para>
+        <equation id="id1171698147882"><media id="id5539_media" alt=""><image mime-type="image/jpg" src="../../media/Eq19-e73b.jpg" id="id5539__onlineimage" width="450" print-width="4in"/></media></equation>
+        
+        
+        <para id="id1171695464975">The assumption used in the comparative method is valid only in the Beer-Lambert law linear regime. Beer-Lambert law states that absorbance is directly proportional to the path length of light travelled within the sample, and concentration of the sample. The factors that affect the quantum yield measurements are the following: </para>
+        <list id="id1171709202461" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Concentration</emphasis> – Low concentrations should be used (absorbance &lt; 0.2 a.u.) to avoid effects such as self quenching.</item>
+          <item><emphasis effect="bold">Solvent</emphasis> – It is important to take into account the solvents used for the test and standard solutions. If the solvents used for both are the same then the comparison is trivial. However, if the solvents in the test and standard solutions are different, this difference needs to be accounted for. This is done by incorporating the solvent refractive indices in the ratio calculation.</item>
+          <item><emphasis effect="bold">Standard samples</emphasis> – The standard samples should be characterized thoroughly. In addition, the standard sample used should absorb at the excitation wavelength of the test sample. </item>
+          <item><emphasis effect="bold">Sample preparation</emphasis> – It is important that the cuvettes used are clean, scratch free and clear on all four sides. The solvents used must be of spectroscopic grade and should not absorb in the wavelength range.</item>
+          <item><emphasis effect="bold">Slit width</emphasis> – The slit widths for all measurements must be kept constant.</item>
+        </list>
+        
+        <para id="id1171700572387">The quantum yield of the Group 12-16 semiconductor nanoparticles are affected by many factors such as the following.</para>
+        <list id="id1171695139655" list-type="bulleted" bullet-style="bullet"><item><emphasis effect="bold">Surface defects</emphasis> – The surface defects of semiconductor quantum dots occur in the form of unsatisfied valencies. Thus resulting in unwanted recombinations. These unwanted recombinations reduce the loss of energy through radiative decay, and thus reducing the fluorescence.</item>
+          <item><emphasis effect="bold">Surface ligands</emphasis> – If the surface ligand coverage is a 100%, there is a smaller chance of surface recombinations to occur.</item>
+          <item><emphasis effect="bold">Solvent polarity</emphasis> – If the solvent and the ligand have similar solvent polarities, the nanoparticles are more dispersed, reducing the loss of electrons through recombinations.</item>
+        </list>
+      </section>
+
+
+
+      <section id="id1171699286376">
+        <title>Qualitative Information </title>
+        <para id="id1171694792015">Apart from quantum yield information, the relationship between intensity of fluorescence emission and wavelength, other useful qualitative information such as size distribution, shape of the particle and presence of surface defects can be obtained.</para>
+        
+
+
+
+        <para id="eip-320">As shown in <link target-id="id1171695412667"/>, the shape of the plot of intensity versus wavelength is a Gaussian distribution. In <link target-id="id1171695412667"/>, the full width at half maximum (FWHM) is given by the difference between the two extreme values of the wavelength at which the photoluminescence intensity is equal to half its maximum value. From the full width half max (FWHM) of the fluorescence intensity Gaussian distribution, it is possible to determine qualitatively the size distribution of the sample. For a Group 12-16 quantum dot sample if the FWHM is greater than 30, the system is very polydisperse and has a large size distribution. It is desirable for all practical applications for the FWHM to be lesser than 30. </para><figure id="id1171695412667">
+          <media id="id1171695412667_media" alt="">
+            <image mime-type="image/png" src="../../media/Object 8-7623.png" id="id1171695412667__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+<caption>Emission spectra of CdSe QDs showing the full width half maximum (FWHM). </caption>
+        </figure>
+
+
+
+
+
+
+        
+        
+        <para id="eip-76">From the FWHM of the emission spectra, it is also possible to qualitatively get an idea if the particles are spherical or shaped. During the synthesis of the shaped particles, the thickness of the rod or the arm of the tetrapod does not vary among the different particles, as much as the length of the rods or arms changes. The thickness of the arm or rod is responsible for the quantum effects in shaped particles. In the case of quantum dots, the particle is quantum confined in all dimensions. Thus, any size distribution during the synthesis of quantum dots greatly affects the emission spectra. As a result the FWHM of rods and tetrapods is much smaller as compared to a quantum dot. Hence, qualitatively it is possible to differentiate between quantum dots and other shaped particles.</para><para id="eip-449">Another indication of branched structures is the decrease in the intensity of fluorescence peaks. Quantum dots have very high fluorescence values as compared to branched particles, since they are quantum confined in all dimensions as compared to just 1 or 2 dimensions in the case of branched particles.</para>
+        
+      </section>
+    </section>
+    <section id="id1171712732824">
+      <title>Fluorescence spectra of different Group 12-16 semiconductor nanoparticles</title>
+      <para id="id1171698692247">The emission spectra of all Group 12-16 semiconductor nanoparticles are Gaussian curves as shown in <link target-id=" id1171704749015"/> and <link target-id="id1171695412667"/>. The only difference between them is the band gap energy, and hence each of the Group 12-16 semiconductor nanoparticles fluoresce over different ranges of wavelengths</para>
+
+
+
+      <section id="id1171711434542">
+        <title>Cadmium selenide</title>
+        <para id="id1171707276018">Since its bulk band gap (1.74 eV, 712 nm) falls in the visible region cadmium Selenide (CdSe) is used in various applications such as solar cells, light emitting diodes, etc. Size evolving emission spectra of cadmium selenide is shown in <link target-id="id1171699515305"/>. Different sized CdSe particles have different colored fluorescence spectra. Since cadmium and selenide are known carcinogens and being nanoparticles are easily absorbed into the human body, there is some concern regarding these particles. However, CdSe coated with ZnS can overcome all the harmful biological effects, making cadmium selenide nanoparticles one of the most popular 12-16 semiconductor nanoparticle.</para>
+
+
+        <figure id="id1171699515305"><media id="id1171699515305_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Object 2b.jpg" id="id1171699515305__onlineimage" width="300" print-width="3in"/>
+          </media>
+
+        <caption>Size evolving CdSe emission spectra. Adapted from http://www.physics.mq.edu.au.</caption></figure>
+
+
+       <para id="id1171696461642">A combination of the absorbance and emission spectra is shown in <link target-id="id1171720733128"/> for four different sized particles emitting green, yellow, orange, and red fluorescence.</para>
+
+
+
+        <figure id="id1171720733128">
+          <media id="id1171720733128_media" alt="">
+            <image mime-type="image/png" src="../../media/Object 9.png" id="id1171720733128__onlineimage" width="450" print-width="4.5in"/>
+          </media>
+<caption>Absorption and emission spectra of CdSe quantum dots. Adapted from G. Schmid, <emphasis effect="italics">Nanoparticles: From Theory to Application</emphasis>, Wiley-VCH, Weinham (2004).</caption>
+        </figure>
+
+      </section>
+
+
+      <section id="id1171693717565">
+        <title>Cadmium telluride</title>
+        <para id="id1171703862128">Cadmium Telluride (CdTe) has a band gap of 1.44 eV and thus absorbs in the infra red region. The size evolving CdTe emission spectra is shown in <link target-id="id1171715352055"/>. </para>
+
+
+        <figure id="id1171715352055"><media id="id1171715352055_media" alt="">
+            <image mime-type="image/png" src="../../media/Object 10.png" id="id1171715352055__onlineimage" width="300" print-width="3in"/>
+          </media>
+
+        <caption>Size evolution spectra of CdTe quantum dots. </caption></figure>
+
+
+      </section>
+      <section id="id1171713756331">
+
+
+        <title>Adding shells to QDs</title>
+        <para id="id1171713543112">Capping a core quantum dot with a semiconductor material with a wider bandgap than the core, reduces the nonradiative recombination and results in brighter fluorescence emission. Quantum yields are affected by the presences of free surface charges, surface defects and crystal defects, which results in unwanted recombinations. The addition of a shell reduces the nonradiative transitions and majority of the electrons relax radiatively to the valence band. In addition, the shell also overcomes some of the surface defects.</para>
+
+        <para id="id1171697946621">For the CdSe-core/ZnS-shell systems exhibit much higher quantum yield as compared to core CdSe quantum dots as seen in <link target-id="id1171694855539"/>.</para>
+
+
+        <figure id="id1171694855539">
+          <media id="id1171694855539_media" alt="">
+            <image mime-type="image/png" src="../../media/Object 11.png" id="id1171694855539__onlineimage" width="200" print-width="2in"/>
+          </media>
+<caption>Emission spectra of core CdSe only and CdSe-core/ZnS-shell. </caption>
+        </figure>
+
+      </section>
+    </section>
+
+
+
+    <section id="id1171719737248">
+      <title>Bibliography</title>
+      <list id="id1171712480895" list-type="bulleted" bullet-style="bullet"><item>A. T. R. Williams, S. A. Winfield, and J. N. Miller, <emphasis effect="italics">Analyst</emphasis>, 1983, <emphasis effect="bold">108</emphasis>, 1067<emphasis effect="italics">.</emphasis></item>
+        <item>G. Schmid, <emphasis effect="italics">Nanoparticles: From Theory to Application</emphasis>, Wiley-VCH, Weinham, (2004).</item>
+        <item>J. Y. Hariba, <emphasis effect="italics">A Guide to Recording Fluorescence Quantum Yield</emphasis>, Jobin Yvon Hariba Limited, Stanmore (2003).</item>
+        <item>C. Qing Zhu, P. Wang, X. Wang, and Y. Li, <emphasis effect="italics"/><emphasis effect="italics">Nanoscale Res. Lett.</emphasis>., 2008, <emphasis effect="bold">3</emphasis>, 213.</item>
+
+      </list>
+    </section>
+  </content>
+</document>

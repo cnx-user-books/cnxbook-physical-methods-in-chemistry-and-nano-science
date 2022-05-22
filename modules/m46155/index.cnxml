@@ -1,0 +1,158 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Nanoparticle Deposition Studies Using a Quartz Crystal Microbalance</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46155</md:content-id>
+  <md:title>Nanoparticle Deposition Studies Using a Quartz Crystal Microbalance</md:title>
+  <md:abstract>An introduction to QCM-D techonology and it use in the study of deposition of nanoparticles.</md:abstract>
+  <md:uuid>98214038-bde6-438f-9487-f338e202dcc8</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165859924520">
+      <title>Overview</title><para id="import-auto-id1165865919704">The working principle of a quartz crystal microbalance with dissipation  (QCM-D) module is the utilization of the resonance properties of some piezoelectric of materials.   A piezoelectric material is a material that exhibits an electrical field when a mechanical strain is applied. This phenomenon is also observed  in the contrary where an applied electrical field produce a mechanical strain in the material. The material used is α-SiO<sub>2</sub> that produces a very stable and constant frequency. The direction and magnitude of the mechanical strain is directly dependent of the direction of the applied electrical field and the inherent physical properties of the crystal. </para><para id="import-auto-id1165871111571">A special crystal cut is used, called AT-cut, which is obtain as wafers of the crystal of about 0.1 to 0.3 mm in width and 1 cm in diameter. The AT-cut is obtained when the wafer is cut at 35.25° of the main crystallographic axis of  SiO<sub>2</sub>. This special cut allows only one vibration mode, the shear mode, to be accessed and thus exploited for analytical purposes. When a electrical field is applied to the crystal wafer via metal electrodes, that are vapor-deposited in the surface, a mechanical shear is produced and maintained as long as the electrical field is applied. Since this electric field can be controlled by opening and closing an electrical circuit, a resonance within the crystal is formed (<link target-id="import-auto-id1165870064723"/>).  </para><figure id="import-auto-id1165870064723"><media id="import-auto-id1165871100535" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-523d.png" width="500" print-width="5in"/>
+        </media>
+      <caption>Schematic representation of the piezoelectric material: (a) a baseline is obtained by running the sensor without any flow or sample; (b) sample is starting to flow into the sensor; (c) sample deposited in the sensor change the frequency.</caption></figure><para id="import-auto-id2228126">Since the frequency of the resonance is dependent of the characteristics of the crystal, an increase of mass, for example when the sample is loaded into the sensor would change the frequency change. This relation <link target-id="eip-820"/> was obtained by Sauerbrey in 1959, where Δm (ng.cm<sup>-2</sup>) is the areal mass, C (17.7 ngcm<sup>-2</sup>Hz<sup>-1</sup>) is the  vibrational constant (shear, effective area, etc.), n in Hz is the  resonant overtone, and Δf is the  change in frequency. The dependence of the change in the frequency can be related directly to the change in mass deposited in the sensor only when three conditions are met and assumed:</para><list id="import-auto-id1165867983097" list-type="enumerated" number-style="arabic"><item>The mass deposited is small compared to the mass of the sensor.</item>
+        <item>It is rigid enough so that it vibrates with the sensor and does not suffer deformation.</item>
+        <item>The mass is evenly distributed among the surface of the sensor.</item>
+      </list><equation id="eip-820"><media id="import-auto-id1165871024165" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-909b.png" width="100" print-width="1in"/>
+        </media>
+      </equation><para id="import-auto-id1165871555161">An important incorporation in recent equipment is the use of the dissipation factor. The inclusion of the dissipation faster takes into account the weakening of the frequency as it travels along the newly deposited mass. In a rigid layer the frequency is usually constant and travels through the newly formed mass without interruption, thus, the dissipation is not  important. On the other hand, when the deposited material has a soft consistency the dissipation of the frequency is increased. This effect can be monitored and related directly to the nature of the mass deposited. </para><para id="import-auto-id1165859923716">The applications of the QCM-D ranges from the deposition of nanoparticles into a surface, from the interaction of proteins within certain substrates. It can also monitors the bacterial amount of products when feed with different molecules, as the flexibility of the sensors into what can be deposited in them include nanoparticle, special functionalization or even cell and bacterias!</para>
+      </section>
+    <section id="import-auto-id1165865700503"><title>Experimental planning</title><para id="import-auto-id1165872663624">In order to use  QCM-D for studing the interaction of nanoparticles with a specific surface several steps must be followed. For demonstration purposes the following procedure will describe the use of a Q-Sense E4 with autosampler from Biolin Scientific. A summary is shown below as a quick guide to follow, but further details will be explained: </para><list id="import-auto-id1165850074718" list-type="enumerated" number-style="arabic">
+        <item>Surface election and cleaning according with the manufacturer recommendations.  </item>
+        <item>Sample preparation including having the correct dilutions and enough sample for the running experiment. </item>
+        <item>Equipment cleaning and set up of the correct parameters for the experiment. </item>
+        <item>Data acquisition.</item>
+        <item>Data interpretation. </item>
+      </list>
+      
+      <section id="eip-234"><title>Surface election</title>
+
+
+<para id="import-auto-id1165865857856">The decision of what surface of the the sensor to use is the most important decision to make fore each study.  Biolin has a large library of available coatings ranging from different compositions of pure elements and oxides (<link target-id="import-auto-id1165863967500"/>) to specific binding proteins. It is important to take into account the different chemistries of the sensors and the results we are looking for. For example studying a protein with high sulfur content on a gold sensor can lead to a false deposition results, as gold and sulfur have a high affinity to form bonds. For the purpose of this example, a gold coated sensor will be used in the remainder of the discussion. </para><figure id="import-auto-id1165863967500"><media id="import-auto-id1165865816799" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-1c61.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>From left to right, silica (SiO<sub>2</sub>), gold (Au), and iron oxide (Fe<sub>2</sub>O<sub>3</sub>) coated sensors. Each one is 1 cm in diameter.</caption></figure></section>
+
+
+   
+
+
+   
+      <section id="eip-269"><title>Sensor cleaning</title>
+
+<para id="import-auto-id1165861555412">Since  QCM-D relies on the amount of mass that is deposited into the surface of the sensor, a thorough cleaning is needed to ensure there is no contaminants on the surface that can lead to errors in the measurement. The procedure the manufacturer established to clean a gold sensor is as follows: </para><list id="import-auto-id1165875923118" list-type="enumerated" number-style="arabic" class="stepwise"><item>Put the sensor in the UV/ozone chamber for 10 minutes </item>
+        <item>Prepare 10 mL of a 5:1:1 solution of hydrogen peroxide:ammonia:water</item>
+        <item>Submerge in this solution at 75 °C for 5 minutes. </item>
+        <item>Rinse with copious amount of milliQ water.</item>
+        <item>Dry with inert gas.</item>
+        <item>Put the sensor in the UV/ozone chamber for 10 minutes as shown in <link target-id="import-auto-id1165859679494"/>.</item>
+      </list><figure id="import-auto-id1165859679494"><media id="import-auto-id1165859925134" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 53.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>Gold sensors in loader of the UV/ozone chamber in the final step of the cleaning process. </caption></figure><para id="import-auto-id1165865827482">Once the sensors are clean, extreme caution should be taken to avoid contamination of the surface. The sensors can be loaded in the flow chamber of the equipment making sure  that the T-mark of the sensor matches the T mark of the chamber in order to make sure the electrodes are in constant contact. The correct position is shown in <link target-id="import-auto-id1165862982834"/>. </para><figure id="import-auto-id1165862982834"><media id="import-auto-id1165867980603" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 55.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>Correct position of the sensor in the chamber. </caption></figure></section>
+
+
+
+
+
+      <section id="eip-255"><title>Sample preparation</title>
+
+<para id="import-auto-id1165862549024">As the top range of mass that can be detected is merely micrograms, solutions must be prepared accordingly. For a typical run, a buffer solution is needed  in which the deposition will be studied as well as, the sample itself and a solution of 2% of sodium dodecylsulfate [CH<sub>3</sub>(CH<sub>2</sub>)<sub>10</sub>CH<sub>2</sub>OSO<sub>3</sub>Na, SDS]. For this example we will be using nanoparticles of magnetic iron oxide (nMag)  coated with PAMS, and as a buffer 8% NaCl in DI water. </para><list id="import-auto-id1165847497645" list-type="bulleted" bullet-style="bullet"><item>For the nanoparticles sample it is necessary to make sure the final concentration of the nanoparticles will not exceed 1 mM. </item>
+        <item>For the buffer solution, it is enough to dissolve 8 g of NaCl in DI water.</item>
+        <item>For the SDS solution, 2 g of SDS should be dissolved very slowly in approximate 200 mL of DI water, then 100 mL aliquots of DI water is added until the volume is 1 L. This is in order to avoid the formation of bubbles and foam in the solution.</item>
+      </list></section>
+
+ 
+   
+      <section id="eip-564"><title>Instrument preparation</title>
+<para id="import-auto-id1165874924904">Due to the sensitivity of the equipment, it is  important to rinse and clean the tubing before loading any sample or performing any experiments. To rinse the tubing and the chambers,  use a solution of 2% of SDS. For this purpose, a cycle in the autosampler equipment is program with the steps shown in <link target-id="eip-12"/>. </para><table id="eip-12" summary="Summary of cleaning processes.">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Step</emphasis></entry>
+    <entry><emphasis effect="bold">Duration (min)</emphasis></entry>
+    <entry><emphasis effect="bold">Speed (μL/min)</emphasis></entry>
+    <entry><emphasis effect="bold">Volume (mL)</emphasis></entry>
+  </row>
+   <row>
+    <entry>DI water (1:2)</entry>
+    <entry>10</entry>
+    <entry>100</entry>
+    <entry>1</entry>
+  </row>
+  <row>
+    <entry>SDS (1:1)</entry>
+    <entry>20</entry>
+    <entry>300</entry>
+    <entry>6</entry>
+  </row>
+  <row>
+    <entry>DI water (1:2)</entry>
+    <entry>10</entry>
+    <entry>100</entry>
+    <entry>1</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup><caption>Summary of cleaning processes. </caption>
+</table><para id="import-auto-id1165869492023">Once the equipment is cleaned, it is ready to perform an experiment, a second program in the autosampler is loaded with the  parameters shown in <link target-id="eip-764"/>. </para><table id="eip-764" summary="Experimental set-up.">
+<tgroup cols="4"><tbody>
+  <row>
+   <entry><emphasis effect="bold">Step</emphasis></entry>
+    <entry><emphasis effect="bold">Duration (min)</emphasis></entry>
+    <entry><emphasis effect="bold">Speed (μL/min)</emphasis></entry>
+    <entry><emphasis effect="bold">Volume (mL)</emphasis></entry>
+  </row>
+
+  <row>
+    <entry>Buffer (1:3)</entry>
+    <entry>7</entry>
+    <entry>100</entry>
+    <entry>0.7</entry>
+  </row>
+  <row>
+    <entry>Nanoparticles (1:4)</entry>
+    <entry>30</entry>
+    <entry>100</entry>
+    <entry>3.0</entry>
+  </row>
+
+</tbody>
+
+
+</tgroup><caption>Experimental set-up. </caption>
+</table><para id="eip-827">The purpose of flowing the buffer in the beginning is to provide a background signal to take into account when running the samples. Usually a small quantity of the sample is loaded into the sensor at a very slow flow rate in order to let the deposition take place. </para></section>
+
+     
+      <section id="eip-793"><title>Data acquisition</title>
+<para id="import-auto-id1165871097408">Example data obtained with the above parameters is shown in <link target-id="import-auto-id1165876087427"/>. The blue squares depict the change in the frequency.  As the experiment continues, the frequency decreases as more mass is deposited. On the other hand, shown as the red squares, the dissipation  increases, describing the increase of both the height and certain loss of the rigidity in the layer from the top of the sensor. To illustrate the different steps of the experiment, each section has been color coded. The blue part of the data obtained corresponds to the flow of the buffer, while the yellow part corresponds to the deposition equilibrium of the nanoparticles onto the gold surface. After certain length of time equilibrium is reached and there is no further change. Once equilibrium indicates no change for about five minutes, it is safe to say the deposition will not change. </para><figure id="import-auto-id1165876087427"><media id="import-auto-id1165876295011" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-efa1.png" width="500" print-width="4in"/>
+        </media>
+      <caption>Data of deposition of nMag in a gold surface. </caption></figure></section>
+
+
+      
+      <section id="eip-975"><title>Instrument clean-up</title><para id="eip-380">As a measure preventive care for the equipment, the same cleaning procedure should be followed as what was done before loading the sample.  Use of a 2% solution of SDS helps to ensure the equipment remains as clean as possible. </para></section>
+    </section><section id="import-auto-id1165867736450">
+      <title>Data modeling</title><para id="import-auto-id1165871009754">Once the data has been obtained, QTools (software that is available in the software suit of the equipment) can be used to convert the change in the frequency to areal mass, via the Sauerbrey equation, <link target-id="eip-820"/>. The correspondent graph of areal mass is shown in <link target-id="import-auto-id1165867688467"/>. From this graph we can observe how the mass is increasing as the nMag is deposited in the surface of the sensor. The blue section again illustrates the part of the experiment where only buffer was been flown to the chamber. The yellow part illustrates the deposition, while the green part shows no change in the mass after a period of time, which indicates the deposition is finished. The conversion from areal mass to mass is a simple process, as gold sensors come with a definite area of 1 cm<sup>2</sup>, but a more accurate measure should be taken when using functionalized sensors. </para><figure id="import-auto-id1165867688467"><media id="import-auto-id1165876296809" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-a1f1.png" width="450" print-width="4in"/>
+        </media>
+      <caption>Areal mass of deposition of nMag into gold surface. </caption></figure><para id="import-auto-id1165858098364">It is important to take into account the limitations of the Saubery equation, because the equation accounts for a uniform layer on top of the surface of the sensor. Deviations due to clusters of material deposited in one place or the formation of partial multilayers in the sensor cannot be calculated through this model. Further characterization of the surface should be done to have a more accurate model of the phenomena.  </para></section>
+    <section id="import-auto-id1165862942527">
+      <title>Bibliography</title><list id="eip-952"><item>Biolin Scientific, <emphasis effect="italics">Cleaning and Immobilization Protocols</emphasis> (2004). </item>
+<item>F. Hook, <emphasis effect="italics">Development of a Novel QCM Technique for Protein Adsorption Studies</emphasis>, Chalmers University (1997).</item>
+
+<item>C. Ziez, <emphasis effect="italics">Theoretical and Experimental Analysis on Nanoparticle-Nanoparticle and Nanoparticle-Surface Interactions and their Role in Defining their Stability and Mobility</emphasis>, Rice University (2013). </item>
+
+
+
+</list></section>
+  </content>
+</document>

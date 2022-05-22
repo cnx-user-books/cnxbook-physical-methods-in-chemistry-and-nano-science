@@ -1,0 +1,151 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>TEM Imaging of Carbon Nanomaterials</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m22963</md:content-id>
+  <md:title>TEM Imaging of Carbon Nanomaterials</md:title>
+  <md:abstract>Transmission electron microscope (TEM) is a powerful tool to investigate the lattice structure and defects on materials directly. It can easily get to atomic spacial resolution. It has been used to characterize carbon materials for a long time, from C60, carbon nanotubes (single-wall carbon nanotube and multi-wall carbon nanotube), to graphene, which is single layer graphite. Many techniques based on TEM make it more useful to image the carbon nanomaterials in both bright field and dark field .</md:abstract>
+  <md:uuid>2cb88e51-3639-419c-9899-4f45b0f53f94</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://cnx.org/GroupWorkspaces/wg1270/module.2009-01-29.5768476107/1.JPG" strength="3">cnt</link>
+      <link url="http://cnx.org/GroupWorkspaces/wg1270/module.2009-01-29.5768476107/graphics3.png/view" strength="3">Figure 3</link>
+    </link-group>
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/GroupWorkspaces/wg1270/module.2009-01-29.5768476107/TEM%20setup.jpg/view" strength="3">Figure 1</link>
+      <link url="http://cnx.org/GroupWorkspaces/wg1270/module.2009-01-29.5768476107/graphics2.png/view" strength="3">Figure 2</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    
+    <section id="id9539094">
+      <title>Introduction to TEM</title>
+      <para id="id9539100">Transmission electron microscopy (TEM) is a form of microscopy that uses an high energy electron beam (rather than optical light). A beam of electrons is transmitted through an ultra thin specimen, interacting with the specimen as it passes through. The image (formed from the interaction of the electrons with the sample) is magnified and focused onto an imaging device, such as a photographic film, a fluorescent screen,or detected by a CCD camera. In order to let the electrons pass through the specimen, the specimen has to be ultra thin, usually thinner than 10 nm. </para>
+      <para id="id9550829">The resolution of TEM is significantly higher than light microscopes. This is because the electron has a much smaller de Broglie wavelength than visible light (wavelength of 400~700 nm). Theoretically, the maximum resolution, d, has been limited by λ, the wavelength of the detecting source (light or electrons) and NA, the numerical aperture of the system.</para>
+ 
+
+
+
+<equation id="eip-225"><media id="id225_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq25-193c.jpg" id="id225__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+      <para id="id9680052">For high speed electrons (in TEM, electron velocity is close to the speed of light, c, so that the special theory of relativity has to be considered), the λ<sub>e</sub>:</para>
+
+<equation id="eip-226"><media id="id226_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq26-5fd0.jpg" id="id226__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+      <para id="id9715436">According to this formula, if we increase the energy of the detecting source, its wavelength will decrease, and we can get higher resolution. Today, the energy of electrons used can easily get to 200 keV, sometimes as high as 1 MeV, which means the resolution is good enough to investigate structure in sub-nanometer scale. Because the electrons is focused by several electrostatic and electromagnetic lenses, like the problems optical camera usually have, the image resolution is also limited by aberration, especially the spherical aberration called C<sub>s</sub>. Equipped with a new generation of aberration correctors, transmission electron aberration-corrected microscope (TEAM) can overcome spherical aberration and get to half angstrom resolution. </para>
+      <para id="id9574417">Although TEAM can easily get to atomic resolution, the first TEM invented by Ruska in April 1932 could hardly compete with optical microscope, with only 3.6×4.8 = 14.4 magnification. The primary problem was the electron irradiation damage to sample in poor vacuum system. After World War II, Ruska resumed his work in developing high resolution TEM. Finally, this work brought him the Nobel Prize in physics 1986.  Since then, the general structure of TEM hasn’t changed too much as shown in <link target-id="id9032199"/>. The basic components in TEM are: electron gun, condenser system, objective lens (most important len in TEM which determines the final resolution), diffraction lens, projective lenses (all lens are inside the equipment column, between apertures), image recording system (used to be negative films, now is CCD cameras) and vacuum system.
+
+</para>
+      <figure id="id9032199"><media id="id9032199_media" alt="">
+          <image mime-type="image/jpg" src="../../media/TEM setup.jpg" id="id9032199__onlineimage" width="700" print-width="4.5in"/>
+        </media>
+      <caption>Position of the basic components in a TEM.</caption></figure>
+    </section>
+    
+    <section id="id9199145">
+      <title>The family of carbon allotropes and carbon nanomaterials</title>
+      <para id="id9206021">Common carbon allotropes include diamond, graphite, amorphrous C (a-C), fullerene (also known as buckyball), carbon nanotube (CNT, including single wall CNT and multi wall CNT), graphene. Most of them are chemically inert and have been found in nature. We can also define carbon as sp<sup>2 </sup>carbon (which is graphite), sp<sup>3</sup> carbon (which is diamond) or hybrids of sp<sup>2</sup> and sp<sup>3</sup> carbon. As shown in <link target-id="id9069517"/>, (a) is the structure of diamond, (b) is the structure of graphite, (c) graphene is a single sheet of graphite, (d) is amorphous carbon, (e) is C<sub>60</sub>, and (f) is single wall nanotube. As for carbon nanomaterials, fullerene, CNT and graphene are the three most well investigated, due to their unique properties in both mechanics and electronics. Under TEM, these carbon nanomaterials will display three different projected images.
+
+</para>
+
+
+        <figure id="id9069517"><media id="id9069517_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics2-e95e.png" id="id9069517__onlineimage" width="550" print-width="5in"/>
+          </media>
+        <caption>Six allotropes of carbon: a) diamond, b) graphite, c) graphene, d) amorphous carbon, e) C<sub>60</sub> (Buckminsterfullerene or buckyball),  f) single-wall carbon nanotube or buckytube.  </caption></figure>
+  </section>
+ 
+
+
+
+     
+
+
+<section id="id9705548">
+        <title>Atomic structure of carbon nanomaterials under TEM</title>
+        <para id="id9705556">All carbon naomaterials can be investigated under TEM. Howerver, because of their difference in structure and shape, specific parts should be focused in order to obtain their atomic structure.</para>
+        <para id="id9230115">For C<sub>60</sub>, which has a diameter of only 1 nm, it is relatively difficult to suspend a sample over a lacey carbon grid (a common kind of TEM grid usually used for nanoparticles). Even if the C<sub>60</sub> sits on a thin a-C film, it also has some focus problems since the surface profile variation might be larger than 1 nm. One way to solve this problem is to encapsulate the C<sub>60</sub> into single wall CNTs, which is known as nano peapods. This method has two benefits:</para>
+        <list id="eip-374" list-type="enumerated" number-style="arabic"><item>CNT helps focus on C<sub>60</sub>. Single wall is aligned in a long distance (relative to C<sub>60</sub>). Once it is suspended on lacey carbon film, it is much easier to focus on it. Therefore, the C<sub>60</sub> inside can also be caught by minor focus changes. </item>
+<item>The CNT can protect C<sub>60</sub> from electron irradiation. Intense high energy electrons can permanently change the structure of the CNT. For C<sub>60</sub>, which is more reactive than CNTs, it can not survive after exposing to high dose fast electrons.</item>
+</list>
+        
+        <para id="id8974678">In studying CNT cages, C<sub>92</sub> is observed as a small circle inside the walls of the CNT. While a majority of electron energy is absorbed by the CNT, the sample is still not irradiation-proof. Thus, as is seen in <link target-id="id9676478"/>, after a 123 s exposure, defects can be generated and two C<sub>92 </sub>fused into one new larger fullerene.
+
+</para>
+        <figure id="id9676478"><media id="id9676478_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics3-6db3.png" id="id9676478__onlineimage" width="546" print-width="4in"/>
+          </media>
+        <caption>C<sub>92</sub> encapsulated in SWNTs under different electron irradiation time. Courtesy of Dr. Kazutomo SUENAGA, adapted from K. Urita, Y. Sato, K. Suenaga, A. Gloter, A. Hasimoto, M. Ishida, T. Shimada, T. Shinohara, S. Iijima, <emphasis effect="italics">Nano Lett.</emphasis>, 2004, <emphasis effect="bold"> 4</emphasis>, 2451.  Copyright American Chemical Society (2004). </caption></figure>
+        <para id="id9198169">Although, the discovery of C<sub>60</sub> was first confirmed by mass spectra rather than TEM. When it came to the discovery of CNTs, mass spectra was no longer useful because CNTs shows no individual peak in mass spectra since any sample contains a range of CNTs with different lengths and diameters. On the other hand, HRTEM can provide a clear image evidence of their existence. An example is shown in <link target-id="id9700506"/>.
+
+</para>
+
+
+        
+
+
+          <figure id="id9700506"><media id="id9700506_media" alt="">
+          <image mime-type="image/jpeg" src="../../media/1.JPG" id="id9700506__onlineimage" width="520" print-width="4.5in"/>
+        </media>
+      <caption>TEM images of SWNT and DWCNTs. Parallel dark lines corresponds to (002) lattice image of graphite. (a) and (b) SWNTs have 1 layer graphene sheet, diameter 3.2 nm. (c) DWCNT, diameter 4.0 nm.</caption></figure>
+     
+
+        <para id="id9703082">Graphene is a planar fullerene sheet. Until recently, Raman, AFM and optical microscopy (graphene on 300 nm SiO<sub>2</sub> wafer) were the most convenient methods to characterize samples. However, in order to confirm graphene’s atomic structure and determine the difference between mono-layer and bi-layer, TEM is still a good option. In <link target-id="id8975582"/>, a monolayer suspended graphene is observed with its atomic structure clearly shown. Inset is the FFT of the TEM image, which can be used as a filter to get an optimized structure image. High angle annular dark field (HAADF) image usually gives better contrast for different particles on it. It is also sensitive with changes of thickness, which allows a determination of the number of graphene layers. 
+
+</para>
+        <figure id="id8975582"><media id="id8975582_media" alt="">
+            <image mime-type="image/jpg" src="../../media/TEM HR.jpg" id="id8975582__onlineimage" width="550" print-width="5in"/>
+          </media>
+        <caption>HRTEM of monolayer graphene. (a) Bright filed. (b) High Angle Annular Dark Field. Courtesy of Dr M. H. Gass, adapted from M. H. Gass, U. Bangert, A. L. Bleloch, P. Wang, R. R. Nair, and A. K. Geim, <emphasis effect="italics">Nature Nanotechnol.</emphasis>, 2008, <emphasis effect="bold"> 3</emphasis>, 676.</caption></figure>
+      </section>
+  
+    
+
+
+<section id="id9034860">
+      <title>Graphene stacking and edges direction</title>
+      <para id="eip-323">Like the situation in CNT, TEM image is a projected image. Therefore, even with exact count of edge lines, it is not possible to conclude that a sample is a single layer graphene or multi-layer. If folding graphene has AA stacking (one layer is superposed on the other), with a projected direction of [001], one image could not tell the thickness of graphene. In order to distinguish such a bilayer of graphene from a single layer of graphene, a series of tilting experiment must be done. Different stacking structures of graphene are shown in <link target-id="id9550233"/>a.
+
+
+</para><para id="id8937403">Theoretically, graphene has the potential for interesting edge effects. Based upon its sp<sup>2</sup> structure, its edge can be either that of a zigzag or armchair configuration. Each of these possess different electronic properties similar to that observed for CNTs. For both research and potential application, it is important to control the growth or cutting of graphene with one specific edge. But before testing its electronic properties, all the edges have to be identified, either by directly imaging with STM or by TEM. Detailed information of graphene edges can be obtained with HRTEM, simulated with fast fourier transform (FFT). In <link target-id="id9550233"/>b, armchair directions are marked with red arrow respectively. A clear model in <link target-id="id9550233"/>c shows a 30 degree angle between zigzag edge and armchair edge. </para>
+      
+      <figure id="id9550233"><media id="id9550233_media" alt="">
+          <image mime-type="image/jpg" src="../../media/g edge.jpg" id="id9550233__onlineimage" width="550" print-width="4.5in"/>
+        </media>
+      <caption>(a) Graphene stacking structure; (b) HRTEM image of graphene edges: zigzag and armchain (inset is FFT); (c) graphene edge model, a 30° angle between zigzag and armchair direction.</caption></figure>
+    </section>
+    <section id="id8981389">
+      <title>Bibliography</title>
+      <list id="eip-6"><item>K. Urita, Y. Sato, K. Suenaga, A. Gloter, A. Hasimoto, M. Ishida, T. Shimada, T. Shinohara, and S. Iijima, <emphasis effect="italics">Nano Lett.</emphasis>, 2004, <emphasis effect="bold"> 4</emphasis>, 2451.</item>
+<item>H. W. Kroto, J. R. Heath, S. C. O'Brien, R. F. Curl, and R. E. Smalley, <emphasis effect="italics">Nature</emphasis>, 1985, <emphasis effect="bold"> 318</emphasis>, 162.</item>
+<item>S. Iijima, <emphasis effect="italics">Nature</emphasis>, 1991, <emphasis effect="bold"> 354</emphasis>, 56.</item>
+<item>M. H. Gass, U. Bangert, A. L. Bleloch, P. Wang, R. R. Nair, and A. K. Geim, <emphasis effect="italics">Nature Nanotechnol.</emphasis>, 2008, <emphasis effect="bold"> 3</emphasis>, 676.</item>
+<item>L. Zheng and S. Iijima, <emphasis effect="italics">Phys. Rev. Lett.</emphasis>, 2009, <emphasis effect="bold"> 102</emphasis>, 015501.</item>
+<item>J. Campos-Delgado, J. M. Romo-Herrera, X. Jia, D. A. Cullen, H. Muramatsu, Y. A. Kim, T. Hayashi, Z. Ren, D. J. Smith, Y. Okuno, T. Ohba, H. Kanoh, K. Kaneko, M. Endo, H. Terrones, M. S. Dresselhaus, and M. Terrones, <emphasis effect="italics">Nano Lett.</emphasis>, 2008, <emphasis effect="bold"> 8</emphasis>, 2773.</item>
+
+
+ </list>
+      
+      
+      
+      
+      
+      
+      
+    </section>
+  </content>
+</document>

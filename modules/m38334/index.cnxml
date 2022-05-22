@@ -1,0 +1,170 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>ESI-QTOF-MS Coupled to HPLC and its Application for Food Safety</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38334</md:content-id>
+  <md:title>ESI-QTOF-MS Coupled to HPLC and its Application for Food Safety</md:title>
+  <md:abstract>ESI-QTOF-MS has very high resolution and HPLC is being widely used to seperate different molecules. And it is not that easy to determine the target molecules in food for the complex matrix. By using ESI-QTOF-MS coupled to HPLC, we can reduce the matrix effect and increase the sensitivity a lot. So it is a very useful technique. This module will be helpful to the people detecting toxic molecules in food. And those who study some molecules in biological samples will also feel it is useful.</md:abstract>
+  <md:uuid>80c8ab60-d296-4c07-a5b1-cbc4607ce3a8</md:uuid>
+</metadata>
+
+<content>
+    <section id="eip-246"><title>Introduction</title><para id="id1166469893441">High-performance liquid chromatography (HPLC) is a very powerful separation method widely used in environmental science, pharmaceutical industry, biological and chemical research and other fields. Generally, it can be used to purify, identify and/or quantify one or several components in a mixture simultaneously.</para>
+    <para id="id1166474542648">Mass spectrometry (MS) is a detection technique by measuring mass-to-charge ratio of ionic species. The procedure consists of different steps. First, a sample is injected in the instrument and then evaporated. Second, species in the sample are charged by certain ionized methods, such as electron ionization (EI), electrospray ionization (ESI), chemical ionization (CI), matrix-assisted laser desorption/ionization (MALDI). Finally, the ionic species wil be analyzed depending on their mass-to-charge ratio (<emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis>) in the analyzer, such as quadrupole, time-of-flight (TOF), ion trap and fourier transform ion cyclotron resonance.</para>
+    <para id="id8845924">The mass spectrometric identification is widely used together with chromatographic separation. The most common ones are gas chromatography-mass spectrometry (GC-MS) and liquid chromatography-mass spectrometry (LC-MS). Because of the high sensitivity, selectivity and relatively low price of GC-MS, it has very wide applications in drug detection, environmental analysis and so forth. For those organic chemistry research groups, it is also a daily-used and convenient equipment. However, GC-MS is ineffective if the molecules have high boiling point and/or will be decomposed at high temperature.</para>
+    <para id="id1166472008168">In this module, we will mainly talk about liquid chromatography and electrospray ionization quadrupole time-of-flight mass spectrometry (LC/ESI-QTOF-MS). As mentioned above, the LC has an efficient capacity of separation and MS has a high sensitivity and strong ability of structural characterization. Furthermore, TOF-MS, has several distinctive properties on top of regular MS, including fast acquisition rates, high accuracy in mass measurements and a large mass range. The combination of LC and ESI-TOF-MS allow us to obtain a powerful in the quantitative and qualitative analysis of molecules in complex matrices by reducing the matrix interferences. It may play an important role in the area of food safety.</para>
+
+</section>
+
+
+
+    <section id="eip-780"><title>How it works</title><para id="id1166477746530">Generally, LC-MS has four components, including an autosampler, HPLC, ionization source and mass spectrometer, as shown in <link target-id="id5059873"/>. Here we need to pay attention to the interface of HPLC and MS so that they can be suitable to each other and be connected. There are specified separation column for HPLC-MS, whose inner diameter (I.D.) is usually 2.0 mm. And the flow rate, which is 0.05 - 0.2 mL/min, is slower than typical HPLC. For the mobile phase, we use the combination of water and methanol and/acetonitrile. And because ions will inhibit the signals in MS, if we want to modify to mobile phase, the modifier should be volatile, such as HCO<sub>2</sub>H, CH<sub>3</sub>CO<sub>2</sub>H, [NH<sub>4</sub>][HCO<sub>2</sub>] and [NH<sub>4</sub>][CH<sub>3</sub>CO<sub>2</sub>].</para>
+    
+<figure id="id5059873"><media id="id5059873_media" alt="">
+    <image mime-type="image/jpg" src="../../media/graphics1-7990.jpg" id="id5059873__onlineimage" width="500" print-width="5in"/>
+  </media>
+  
+<caption>The component of a HPCL-MS system. Adapted from W. A . Korfmacher, <emphasis effect="italics">Drug Discov. Today</emphasis>, 2005, <emphasis effect="bold">10</emphasis>, 1357.
+  </caption></figure>
+    
+    <para id="id1166470317690">As the interface between HPLC and MS, the ionization source is also important. There are many types and ESI and atmospheric pressure chemical ionization (APCI) are the most common ones. Both of them are working at atmospheric pressure, high voltage and high temperature. In ESI, the column eluent as nebulized in high voltage field (3 - 5 kV). Then there will be very small charged droplet. Finally individual ions formed in this process and goes into mass spectrometer.</para>
+</section>
+
+
+
+    <section id="eip-488"><title>Comparison of ESI-QTOF-MS and other mass spectrometer methods</title><para id="id7108062">There are many types of mass spectrometers which can connect with the HPLC. One of the most widely-used MS systems is single quadrupole mass spectrometer, whichis not very expensive, shown in <link target-id="id1166469949978"/>. This system has two modes. One mode is <emphasis effect="italics">total ion monitoring</emphasis> (TIM) mode which can provide the total ion chromatograph. The other is <emphasis effect="italics">selected ion monitoring</emphasis> (SIM) mode, in which the user can choose to monitor some specific ions, and the latter’s sensitivity is much higher than the former’s. Further, the mass resolution of the single quadrupole mass spectrometer is 1 Da and its largest detection mass range is 30 - 3000 Da.</para>
+
+    <figure id="id1166469949978"><media id="id1166469949978_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics2-fcc6.jpg" id="id1166469949978__onlineimage" width="400" print-width="4in"/>
+	</media>
+	<caption>Single quadrupole mass spectrometer. Adapted from W. A. Korfmacher, <emphasis effect="italics">Using Mass Spectrometry for Drug Metabolism Studies</emphasis>, 1<sup>st</sup> Edition, Taylor &amp; Francis, Abingdon (2004).</caption></figure>
+    
+    <para id="id1166469976640">The second MS system is the triple quadrupole MS-MS system, shown in <link target-id="id5225698"/>. Using this system, people can select the some ions, called parent ions, and use another electron beam to collide them again to get the fragment ions, called daughter ions. In other words, there are two steps to select the target molecules. So it reduces the matrix effect a lot. This system is very useful in the analysis of biological samples because biological samples always have very complex matrix;  however, the mass resolution is still 1 Da.</para>
+
+    <figure id="id5225698"><media id="id5225698_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics3-b9ac.jpg" id="id5225698__onlineimage" width="500" print-width="5in"/>
+	</media>
+	<caption>Triple quadrupole mass spectrometer. Adapted from W. A. Korfmacher, <emphasis effect="italics">Using Mass Spectrometry for Drug Metabolism Studies</emphasis>, 1<sup>st</sup> Edition, Taylor &amp; Francis, Abingdon (2004).</caption></figure>
+    
+    <para id="id1166484601331">The third system is  time-of-flight (TOF) MS, shown in <link target-id="id1166486925796"/>, which can provide a higher mass resolution spectrum, 3 to 4 decimals of Da. Furthermore, it can detect a very large range of mass at a very fast speed. The largest detection mass range is 20 - 10000 Da. But the price of this kind of MS is very high. The last technique is a hybrid mass spectrometer, Q-TOF MS, which combines a single quadrupole MS and a TOF MS. Using this MS, we can get high resolution chromatograph and we also can use the MS-MS system to identify the target molecules. </para>
+
+    <figure id="id1166486925796"><media id="id1166486925796_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics4-e647.jpg" id="id1166486925796__onlineimage" width="400" print-width="4in"/>
+	</media>
+<caption>Time-of-flight mass spectrometer. Adapted from W. A. Korfmacher, <emphasis effect="italics">Using Mass Spectrometry for Drug Metabolism Studies</emphasis>, 1st Edition, Taylor &amp; Francis, 2004.</caption></figure>
+</section>
+
+
+
+
+
+
+
+    <section id="eip-399"><title>Application of LC/ESI-QTOF-MS in the detection of quinolones in edible animal food</title><para id="id1166477494476">Quinolones are a family of common antibacterial veterinary medicine which can inhibit DNA-gyrase in bacterial cells. However, the residues of quinolone in edible animal products may be directly toxic or cause resistant pathogens in humans. Therefore, sensitive methods are required to monitor such residues possibly present in different animal-producing food, such as eggs, chicken, milk and fish. The molecular structures of eight quinolones, ciprofloxacin (CIP), anofloxacin methanesulphonate (DAN), enrofloxacin (ENR), difloxacin (DIF), sarafloxacin (SARA), oxolinic, acid (OXO), flumequine (FLU), ofloxacin (OFL), are shown in <link target-id="id2272986"/>.</para>
+
+<figure id="id2272986"><media id="id2272986_media" alt="">
+    <image mime-type="image/jpg" src="../../media/graphics5-4ff1.jpg" id="id2272986__onlineimage" width="500" print-width="5in"/>
+  </media>
+  <caption>The molecular structure of eight quinolones. Adapted from M. M. Zheng, G. D. Ruan, and Y. Q. Feng, <emphasis effect="italics">J. Chromatogr. A</emphasis>, 2009, <emphasis effect="bold">1216</emphasis>, 7510.
+  </caption></figure>
+ 
+
+
+    <para id="id1166469674087">LC-MS is a common detection approach in the field of food safety. But because of the complex matrix of the samples, it is always difficult to detect those target molecules of low concentration by using single quadrupole MS. The following gives an example of the application of LC/ESI-QTOF-MS. </para>
+
+
+    <para id="id1646716">Using  a quaternary pump system, a Q-TOF-MS system, a C18 column (250 mm × 2.0 mm I.D., 5 µm) with a  flow rate of 0.2 mL/min, and a  mixture of solvents as the mobile phase comprising of 0.3% formic acid solution and acetonitrile. The gradient phofile for mobile phase is shown in <link target-id="id6166834"/>. Since at acidic pH condition, the quinolones carried a positive charge, all mass spectra were acquired in the positive ion mode and summarizing 30,000 single spectra in the mass range of 100-500 Da.</para>
+
+
+    <table id="id6166834" summary="An example of a gradient phofile for a mobile phase.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+	<colspec colnum="2" colname="c2"/>
+	<colspec colnum="3" colname="c3"/>
+	<tbody>
+		<row>
+			<entry><emphasis effect="bold">Time (min)</emphasis></entry>
+			<entry>
+				<emphasis effect="bold">Volume % of formic acid solution</emphasis>
+			</entry>
+			<entry>
+				<emphasis effect="bold">Volume % of acetonitrile</emphasis>
+			</entry>
+		</row>
+		<row>
+			<entry>0</entry>
+			<entry>80</entry>
+			<entry>20</entry>
+		</row>
+		<row>
+			<entry>12</entry>
+			<entry>65</entry>
+			<entry>35</entry>
+		</row>
+		<row>
+			<entry>15</entry>
+			<entry>20</entry>
+			<entry>80</entry>
+		</row>
+		<row>
+			<entry>20</entry>
+			<entry>15</entry>
+			<entry>85</entry>
+		</row>
+		<row>
+			<entry>30</entry>
+			<entry>15</entry>
+			<entry>85</entry>
+		</row>
+		<row>
+			<entry>30.01</entry>
+			<entry>80</entry>
+			<entry>20</entry>
+		</row>
+	</tbody>
+
+
+</tgroup><caption>The gradient phofile for mobile phase.</caption>
+</table>
+    
+    <para id="id2355910">The optimal ionization source working parameters were as follows: capillary voltage 4.5 kV; ion energy of quadrupole 5 eV/z; dry temperature 200 °C; nebulizer 1.2 bar; dry gas 6.0 L/min. During the experiments, HCO<sub>2</sub>Na (62 Da) was used to externally calibrate the instrument. Because of the high mass accuracy of the TOF mass spectrometer, it can extremely reduce the matrix effects. Three different chromatographs are shown in <link target-id="id1166486220024"/>. The top one is the total ion chromatograph at the window range of 400 Da. It’s impossible to distinguish the target molecules in this chromatograph. The middle one is at one Da resolution, which is the resolution of single quadrupole mass spectrometer. In this chromatograph, some of the molecules can be identified. But noise intensity is still very high and there are several peaks of impurities with similar mass-to-charge ratios in the chromatograph. The bottom one is at 0.01 Da resolution. It clearly shows the peaks of eight quinolones with very high signal to noise ratio. In other words, due to the fast acquisition rates and high mass accuracy, LC/TOF-MS can significantly reduce the matrix effects.</para>
+
+
+    <figure id="id1166486220024"><media id="id1166486220024_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics6-bf0d.png" id="id1166486220024__onlineimage" width="600" print-width="5in"/>
+	</media>
+	<caption>Different chromatographs of 4 ng/g eight quinolones spiked in fish samples at different mass resolutions. Peaks: 1 = OFL; 2 = CIP; 3 =DAN; 4 = ENR; 5 = SARA; 6 = DIF; 7 =OXO; 8 = FLU. Adapted from M. M. Zheng, G. D. Ruan, and Y. Q. Feng, <emphasis effect="italics">J. Chromatogr. A</emphasis>, 2009, <emphasis effect="bold">1216</emphasis>, 7510.</caption></figure>
+    
+    
+    <para id="eip-144">The quadrupole MS can be used to further confirm the target molecules. <link target-id="id5281749"/> shows the chromatograms obtained in the confirmation of CIP (17.1 ng/g) in a positive milk sample and ENR (7.5 ng/g) in a positive fish sample. The chromatographs of parent ions are shown on the left side. On the right side, they are the characteristic daughter ion mass spectra of CIP and ENR.</para>
+
+<figure id="id5281749"><media id="id5281749_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics7-8d44.png" id="id5281749__onlineimage" width="600" print-width="5in"/>
+	</media>
+	<caption>Chromatograms obtained in the confirmation of CIP (17.1 ng/g) in positive milk sample and ENR (7.5 ng/g) in positive fish sample. Adapted from M. M. Zheng, G. D. Ruan, and Y. Q. Feng, <emphasis effect="italics">J. Chromatogr. A</emphasis>, 2009, <emphasis effect="bold">1216</emphasis>, 7510.</caption></figure>
+  
+
+</section>
+
+
+
+  
+    
+<section id="eip-505"><title>Drawbacks of LC/Q-TOF-MS</title>
+<para id="id2051609">Some of the drawbacks of LC/Q-TOF-MS are its high costs of purchase and maintenance. It is hard to apply this method in daily detection in the area of environmental protection and food safety. </para>
+    <para id="id1166471993696">In order to reduce the matrix effect and improve the detection sensitivity, people may use some sample preparation methods, such as liquid-liquid extraction (LLE), solid-phase extraction (SPE), distillation. But these methods would consume large amount of samples, organic solvent, time and efforts. Nowadays, there appear some new sample preparation methods. For example, people may use online microdialysis, supercritical fluid extraction (SFE) and pressurized liquid extraction. In the method mentioned in the Application part, we use online in-tube solid-phase microextraction (SPME), which is an excellent sample preparation technique with the features of small sample volume, simplicity solventless extraction and easy automation.</para>
+
+</section>
+
+    <section id="eip-896"><title>Bibliography</title>
+
+
+
+    <list id="id1166479320144" list-type="bulleted"><item>M. S. Lee and E. H. Kerns, <emphasis effect="italics">Mass Spec. Rev.</emphasis>, 1999, <emphasis effect="bold">18</emphasis>, 187.</item>
+      <item>W. A. Korfmacher, <emphasis effect="italics">Drug Discov. Today</emphasis>, 2005, <emphasis effect="bold">10</emphasis>, 1357.</item>
+      <item>W. A. Korfmacher, <emphasis effect="italics">Using Mass Spectrometry for Drug Metabolism Studies</emphasis>, 1<sup>st</sup> Edition, Taylor &amp; Francis, Abingdon (2004).</item>
+      <item>C. Zwiener and F. H. Frimmel, <emphasis effect="italics">Anal. Bioanal. Chem.</emphasis>, 2004, <emphasis effect="bold">378</emphasis>, 851.</item>
+      <item>M. M. Zheng, G. D. Ruan, and Y. Q. Feng, <emphasis effect="italics">J. Chromatogr. A</emphasis>, 2009, <emphasis effect="bold">1216</emphasis>, 7510.</item>
+    </list>
+
+</section>
+  </content>
+</document>

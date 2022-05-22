@@ -1,0 +1,711 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>A Practical Introduction to X-ray Absorption Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38333</md:content-id>
+  <md:title>A Practical Introduction to X-ray Absorption Spectroscopy</md:title>
+  <md:abstract>The use of X-ray Absorption Spectroscopy (XAS) is needed when an experiment require the speciation and the atomic configuration of an element in a compound or specific material. Because of the information it provides, XAS is used for several disciplines, as chemistry, physics, biology, materials science, environmental science, mineralogy, etc. The data analysis could be really complex, it involves spectrum theoretically modeling and a further comparison with the real spectra; but using standards for comparison can simplified the analysis. However, a challenging is the experiment design for itself, mainly when the technique is not well known. For that reason, this module pretend gives an introduction about the basic principles in which XAS is based as well as a preparation sample guide.</md:abstract>
+  <md:uuid>7b32cf49-8b29-4f83-8b4e-5a0aa14f128e</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1172459957216">
+      <title>Introduction</title>
+      <para id="id1172471830011">X-ray absorption spectroscopy (XAS) is a technique that uses synchrotron radiation to provide information about the electronic, structural, and magnetic properties of certain elements in materials. This information is obtained when X-rays are absorbed by an atom at energies near and above the core level binding energies of that atom. Therefore, a brief description about X-rays, synchrotron radiation and X-ray absorption is provided prior to a description of sample preparation for powdered materials. </para>
+
+
+
+      <section id="id1172449799970"><title>X-rays and synchrotron radiation</title>
+
+<para id="id1172454389729">X-rays were discovered by the Wilhelm Röntgen in 1895 (<link target-id="id1172449813048 "/>). They are a form of electromagnetic radiation, in the same manner as visible light but with a very short wavelength, around 0.25 - 25 Å. As electromagnetic radiation, X-rays have a specific energy. The characteristic range is defined by <emphasis effect="italics">soft</emphasis> versus <emphasis effect="italics">hard</emphasis> X-rays. <emphasis effect="italics">Soft</emphasis> X-rays cover the range from hundreds of eV to a few KeV, and the <emphasis effect="italics">hard</emphasis> X-rays have an energy range from a few KeV up to around 100 KeV. </para>
+
+        <figure id="id1172449813048"><media id="id1172449813048_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-f561.jpg" id="id1172449813048__onlineimage" width="300" print-width="2in"/>
+          </media>
+        <caption>German physicist Wilhelm Conrad Röntgen (1845 –1923) who received the first Nobel Prize in Physics in 1901 for the production and use of X-rays.</caption></figure>
+
+        
+        <para id="id1172457603480">X-rays are commonly produced by X-ray tubes, when high-speed electrons strike a metal target. The electrons are accelerated by a high voltage towards the metal target; X-rays are produced when the electrons collide with the nuclei of the metal target.  </para>
+
+
+        <para id="id1172449651788">Synchrotron radiation is generated when particles are moving at really high velocities and are deflected along a curved trajectory by a magnetic field. The charged particles are first accelerated by a linear accelerator (LINAC) (<link target-id="id1172450263074 "/>); then, they are accelerated in a booster ring that injects the particles moving almost at the speed of light into the storage ring. There, the particles are accelerated toward the center of the ring each time their trajectory is changed so that they travel in a closed loop. X-rays with a broad spectrum of energies are generated and emitted tangential to the storage ring. Beamlines are placed tangential to the storage ring to use the intense X-ray beams at a wavelength that can be selected varying the set up of the beamlines. Those are well suited for XAS measurements because the X-ray energies produced span 1000 eV or more as needed for an XAS spectrum. </para>
+
+
+          <figure id="id1172450263074"><media id="id1172450263074_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics2-45b6.png" id="id1172450263074__onlineimage" width="400" print-width="4in"/>
+            </media>
+          <caption>Scheme of a synchrotron and the particle trajectory inside it. Adapted from S. D. Kelly, D. Hesterberg, and B. Ravel in <emphasis effect="italics">Methods of Soil Analysis: Part 5, Mineralogical Methods</emphasis>, Ed. A. L. Urely and R. Drees, Soil Science Society of America Book Series, Madison (2008).</caption></figure>
+
+        
+      </section>
+      <section id="id1172461547798"><title>X-ray absorption </title><para id="id1172447404314">Light is absorbed by matter through the photoelectric effect. It is observed when an X-ray photon is absorbed by an electron in a strongly bound core level (such as the 1<emphasis effect="italics">s</emphasis> or 2<emphasis effect="italics">p</emphasis> level) of an atom (<link target-id="id1172460904794 "/>). In order for a particular electronic core level to participate in the absorption, the binding energy of this core level must be less than the energy of the incident X-ray. If the binding energy is greater than the energy of the X-ray, the bound electron will not be perturbed and will not absorb the X-ray. If the binding energy of the electron is less than that of the X-ray, the electron may be removed from its quantum level. In this case, the X-ray is absorbed and any energy in excess of the electronic binding energy is given as kinetic energy to a photo-electron that is ejected from the atom. </para>
+
+
+          <figure id="id1172460904794"><media id="id1172460904794_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics3-8914.png" id="id1172460904794__onlineimage" width="200" print-width="2in"/>
+            </media>
+          <caption>A schematic representation of the photoelectric effect when a photon with the right energy hits an electron, it is expelled.</caption></figure>
+
+        
+        
+
+        <para id="id1172454280696">When X-ray absorption is discussed, the primary concern is about the absorption coefficient, <emphasis effect="italics">µ</emphasis>, which gives the probability that X-rays will be absorbed according to Beer’s Law, <link target-id="eip-234 "/>, where <emphasis effect="italics">I</emphasis><sub>0</sub> is the X-ray intensity incident on a sample, <emphasis effect="italics">t</emphasis> is the sample thickness, and <emphasis effect="italics">I </emphasis>is the intensity transmitted through the sample.</para>
+
+        <equation id="eip-234"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>I</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mi>e</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi fontstyle="italic">μt</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{I=I rSub { size 8{0} } e rSup { size 8{ - μt} } } {}</m:annotation>
+            </m:semantics>
+          </m:math></equation>
+
+
+        
+        <para id="id1172451518407">The absorption coefﬁcient, <emphasis effect="italics">µ</emphasis><emphasis effect="italics"><sub>E</sub></emphasis>, is a smooth function of energy, with a value that depends on the sample density <emphasis effect="italics">ρ</emphasis>, the atomic number <emphasis effect="italics">Z</emphasis>, atomic mass <emphasis effect="italics">A</emphasis>, and the X-ray energy <emphasis effect="italics">E</emphasis> roughly as, <link target-id="eip-469"/>. </para>
+        <equation id="eip-469"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>E</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">≈</m:mo>
+                        <m:mfrac>
+                          <m:msup>
+                            <m:mi fontstyle="italic">ρZ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>4</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>AE</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{E} }  approx  {  {ρZ rSup { size 8{4} } }  over  { ital "AE" rSup { size 8{3} } } } } {}</m:annotation>
+              </m:semantics>
+            </m:math></equation>
+        
+        <para id="id1172474204014">When the incident X-ray has energy equal to that of the binding energy of a core-level electron, there is a sharp rise in absorption: an absorption edge corresponding to the promotion of this core level to the continuum. For XAS, the main concern is the intensity of <emphasis effect="italics">µ</emphasis>, as a function of energy, near and at energies just above these absorption edges. An XAS measurement is simply a measure of the energy dependence of <emphasis effect="italics">µ</emphasis> at and above the binding energy of a known core level of a known atomic species. Since every atom has core-level electrons with well-deﬁned binding energies, the element to probe can be selected by tuning the X-ray energy to an appropriate absorption edge. These absorption edge energies are well-known. Because the element of interest is chosen in the experiment, XAS is element-speciﬁc.</para>
+      </section>
+    </section>
+
+
+
+
+    <section id="id1172446942818">
+      <title>X-ray absorption fine structure</title>
+      <para id="id1172457994640">X-ray absorption fine structure (XAFS) spectroscopy, also named X-ray absorption spectroscopy, is a technique that can be applied for a wide variety of disciplines because the measurements can be performed on solids, gasses, or liquids, including moist or dry soils, glasses, films, membranes, suspensions or pastes, and aqueous solutions. Despites its broad adaptability with the kind of material used, there are samples which limits the quality of an XAFS spectrum. Because of that, the sample requirements and sample preparation is reviewed in this section as well the experiment design which are vital factors in the collection of good data for further analysis. </para>
+
+
+      <section id="id7484983">
+        <title>Experiment design</title>
+        <para id="id1172462765825">The main information can be obtained using XAFS spectra consist in small changes in the absorption coefficient (<emphasis effect="italics">E</emphasis>), which can be measured directly in a transmission mode or indirectly using a fluorescence mode. Therefore, a good signal to noise ratio is required (better than 10<sup>3</sup>). In order to obtain this signal to noise ratio, an intense beam is required (on the order 10<sup>10</sup> photons/second or better), with the energy bandwidth of 1 eV or less, and the capability of scanning the energy of the incident beam over a range of about 1 KeV above the edge in a time range of seconds or few minutes. As a result, synchrotron radiation is preferred further than other kind of X-ray sources previously mentioned. </para>
+        <section id="id1172463644622">
+
+
+          <title>Beamline setup</title>
+          <para id="id1172449800006">Despite the setup of a synchrotron beamline is mostly done by the assistance of specialist beamline scientists, nevertheless, it is useful to understand the system behind the measurement. The main components of a XAFS beamline, shown in <link target-id="id1172450331534 "/>, are as follows: </para>
+
+
+          <list id="id1172459965726" list-type="bulleted">
+<item>A harmonic rejection mirror to reduce the harmonic content of the X-ray beam. </item>
+                        <item>A monochromator to choose the X-ray energy. </item>
+            <item>A series of slits which defines the X-ray profile. </item>
+            <item>A sample positioning stage. </item>
+
+            <item>The detectors, which can be a single ionization detector or a group of detectors to measure the X-ray intensity. </item>
+          </list>
+
+
+
+          <figure id="id1172450331534"><media id="id1172450331534_media" alt="">
+              <image mime-type="image/png" src="../../media/graphics4-288b.png" id="id1172450331534__onlineimage" width="500" print-width="5in"/>
+            </media>
+          <caption>Schematic of the basic components of a XAFS beamline. </caption></figure>
+
+
+          
+          <para id="id1172449675834">Slits are used to define the X-ray beam profile and to block unwanted X-rays. Slits can be used to increase the energy resolution of the X-ray incident on the sample at the expense of some loss in X-ray intensity. They are either fixed or adjustable slits. Fixed slits have a pre-cut opening of heights between 0.2 and 1.0 mm and a width of some centimeters. Adjustable slits use metal plates that move independently to define each edge of the X-ray beam. </para>
+          <section id="id1172454013412">
+
+
+            <title>Monochromator</title>
+            <para id="id1172454064260">The monochromator is used to select the X-ray energy incident on the sample. There are two main kinds of X-ray monochromators: </para>
+            <list id="id1172450529071" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>The double-crystal monochromator, which consists of two parallel crystals. </item>
+              <item>The channel-cut monochromator, which is a single crystal with a slot cut nearly through it. </item>
+            </list>
+            <para id="id1172468155598">Most monochromator crystals are made of silicon or germanium and are cut and polished such that a particular atomic plane of the crystal is parallel to the surface of the crystal as Si(111), Si(311), or Ge(111). The energy of X-rays diffracted by the crystal is controlled by rotating the crystals in the white beam.</para>
+          </section>
+          <section id="id1172450568249">
+            <title>Harmonic rejection mirrors </title>
+            <para id="id1172463608336">The harmonic X-ray intensity needs to be reduced, as these X-rays will adversely affect the XAS measurement. A common method for removing harmonic X-rays is using a harmonic rejection mirror. This mirror is usually made of Si for low energies, Rh for X-ray energies below the Rh absorption edge at 23 keV, or Pt for higher X-ray energies. The mirror is placed at a grazing angle in the beam such that the X-rays with fundamental energy are reflected toward the sample, while the harmonic X-rays are not. </para>
+          </section>
+          <section id="id1172449578713">
+
+
+            <title>Detectors</title>
+            <para id="id1172450335967">Most X-ray absorption measurements use ionization detectors. These contain two parallel plates separated by a gas-filled space that the X-rays travel through. Some of the X-rays ionize the gas particles. A voltage bias applied to the parallel plates separates the gas ions, creating a current. The applied voltage should give a linear detector response for a given change in the incident X-ray intensity. There are also other kinds as fluorescence and electron yield detectors. </para>
+          </section>
+        </section>
+        <section id="id1172450283040">
+          <title>Transmission and fluorescence modes </title>
+          <para id="id1172462477819">X-ray Absorption measurements can be performed in several modes: transmission, fluorescence and electron yield; where the two first are the most common. The choice of the most appropriate mode to use in one experiment is a crucial decision. </para>
+          <para id="id1172449958169">The transmission mode is the most used because it only implies the measure of the X-ray flux before and after the beam passes the sample. Therefore, the adsorption coefficient is defined as <link target-id="eip-875 "/>. Transmission experiments are standard for hard X-rays, because the use of soft X-rays implies the use the samples thinner than 1 μm<emphasis effect="italics">.</emphasis> Also, this mode should be used for concentrated samples. The sample should have the right thickness and be uniform and free of pinholes. </para>
+
+          <equation id="eip-875"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>μ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>E</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>ln</m:mtext>
+                        </m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>I</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mi>I</m:mi>
+                          </m:mfrac>
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{E} } ="ln" left ( {  {I rSub { size 8{0} } }  over  {I} }  right )} {}</m:annotation>
+              </m:semantics>
+            </m:math></equation>
+          
+          <para id="id1172454292553">The fluorescence mode measures the incident flux <emphasis effect="italics">I</emphasis><sub>0</sub> and the fluorescence X-rays <emphasis effect="italics">I</emphasis><emphasis effect="italics"><sub>f</sub></emphasis><emphasis effect="italics"/>that are emitted following the X-ray absorption event. Usually the fluorescent detector is placed at 90° to the incident beam in the horizontal plane, with the sample at an angles, commonly 45°, with respect to the beam, because in that position there is not interference generated because of the initial X-ray flux (<emphasis effect="italics">I</emphasis><sub>0</sub>). The use of fluorescence mode is preferred for thicker samples or lower concentrations, even ppm concentrations or lower. For a highly concentrated sample, the fluorescence X-rays are reabsorbed by the absorber atoms in the sample, causing an attenuation of the fluorescence signal, it effect is named as <emphasis effect="italics">self-absorption</emphasis> and is one of the most important concerns in the use of this mode.</para>
+        </section>
+      </section>
+      </section>
+
+
+
+
+
+
+<section id="id1172469364318">
+        <title>Sample preparation for XAS </title>
+        <section id="id1172474190882">
+          <title>Sample requirements</title>
+          <section id="id1172467736607">
+            <title>Uniformity</title>
+            <para id="id1172463601709">The samples should have a uniform distribution of the absorber atom, and have the correct absorption for the measurement. The X-ray beam typically probes a millimeter-size portion of the sample. This volume should be representative of the entire sample. </para>
+          </section>
+          <section id="id1172479061597">
+            <title>Thickness. </title>
+            <para id="id1172450292587">For transmission mode samples, the thickness of the sample is really important. It supposes to be a sample with a given thickness, <emphasis effect="italics">t</emphasis>, where the total adsorption of the atoms is less than 2.5 adsorption lengths, <emphasis effect="italics">µ</emphasis><emphasis effect="italics">E</emphasis><emphasis effect="italics">t</emphasis> ≈ 2.5; and the partial absorption due to the absorber atoms is around one absorption length<emphasis effect="italics"> ∆ µ</emphasis><emphasis effect="italics">E</emphasis><emphasis effect="italics">t</emphasis> ≈ 1, which corresponds to the step edge.</para>
+            <para id="id1172467826364">The thickness to give <emphasis effect="italics">∆ µ</emphasis><emphasis effect="italics">E</emphasis><emphasis effect="italics">t</emphasis> = 1 is as <link target-id="id1172450790349 "/>. where ρ is the compound density, <emphasis effect="italics">n</emphasis> is the elemental stoichiometry, <emphasis effect="italics">M</emphasis> is the atomic mass, σ<emphasis effect="italics">E</emphasis> is the adsorption cross-section in barns/atom (1 barn = 10<sup>-24</sup> cm<sup>2</sup>) tabulated in McMaster tables, and <emphasis effect="italics">E</emphasis><emphasis effect="italics">+</emphasis><emphasis effect="italics"/>and <emphasis effect="italics">E</emphasis><emphasis effect="italics">-</emphasis> are the just above and below the energy edge. This calculation can be accomplished using the free download software HEPHAESTUS. </para>
+
+
+            <equation id="id1172450790349">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>t</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mi fontstyle="italic">Δμ</m:mi>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>66</m:mtext>
+                              <m:mrow>
+                                <m:munder>
+                                  <m:mo stretchy="false">∑</m:mo>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>i</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:munder>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>n</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>i</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:msub>
+                                    <m:mi>M</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>i</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>ρ</m:mi>
+                              <m:mrow>
+                                <m:munder>
+                                  <m:mo stretchy="false">∑</m:mo>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>i</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:munder>
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>n</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>i</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mfenced open="[" close="]">
+                                    <m:mrow>
+                                      <m:msub>
+                                        <m:mi>σ</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mi>i</m:mi>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msub>
+                                      <m:mrow>
+                                        <m:mfenced open="(" close=")">
+                                          <m:msub>
+                                            <m:mi>E</m:mi>
+                                            <m:mstyle fontsize="8pt">
+                                              <m:mrow>
+                                                <m:mrow>
+                                                  <m:mo stretchy="false">+</m:mo>
+                                                  <m:mrow/>
+                                                </m:mrow>
+                                              </m:mrow>
+                                            </m:mstyle>
+                                          </m:msub>
+                                        </m:mfenced>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:msub>
+                                          <m:mi>σ</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mi>i</m:mi>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msub>
+                                      </m:mrow>
+                                      <m:mfenced open="(" close=")">
+                                        <m:msub>
+                                          <m:mi>E</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mrow>
+                                                <m:mo stretchy="false">−</m:mo>
+                                                <m:mrow/>
+                                              </m:mrow>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msub>
+                                      </m:mfenced>
+                                    </m:mrow>
+                                  </m:mfenced>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{t= {  {1}  over  {Δμ} } = {  {1 "." "66" Sum cSub { size 8{i} }  {n rSub { size 8{i} } M rSub { size 8{i} } } }  over  {ρ Sum cSub { size 8{i} }  {n rSub { size 8{i} }  left [σ rSub { size 8{i} }  left (E rSub { size 8{+{}} }  right ) - σ rSub { size 8{i} }  left (E rSub { size 8{ - {}} }  right ) right ]} } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </equation>
+   
+          </section>
+          <section id="id1172460482766">
+
+            <title>Total X-ray adsorption. </title>
+            <para id="id1172454473971">For non-concentrate samples, the total X-ray adsorption of the sample is the most important. It should be related to the area concentration of the sample (ρ<emphasis effect="italics">t</emphasis>, in g/cm<sup>2</sup>). The area concentration of the sample multiplied by the difference of the mass adsorption coefficient (<emphasis effect="italics">∆µ</emphasis><emphasis effect="italics">E</emphasis><emphasis effect="italics">/ρ</emphasis>)<emphasis effect="italics"/>give the edge step, where a desired value to obtain a good measure is a edge step equal to one,<emphasis effect="italics"> (∆µ</emphasis><emphasis effect="italics">E</emphasis>/ρ)ρ<emphasis effect="italics">t</emphasis> ≈ 1. </para>
+            <para id="id1172464068382">The difference of the mass adsorption coefficient is given by <link target-id="eip-918 "/>, where (<emphasis effect="italics">µ</emphasis><emphasis effect="italics">E</emphasis>/ρ)<emphasis effect="italics">i</emphasis><emphasis effect="italics"/>is the mass adsorption coefficient just above (E+) and below (E-) of the edge energy and <emphasis effect="italics">f</emphasis><emphasis effect="italics">i</emphasis> is the mass fraction of the element <emphasis effect="italics">i</emphasis>. Multiplying the area concentration, ρ<emphasis effect="italics">t,</emphasis> for the cross-sectional area of the sample holder, amount of sample needed is known.</para>
+            <equation id="eip-918"><m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mfrac>
+                              <m:msub>
+                                <m:mi fontstyle="italic">Δμ</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>E</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mi>ρ</m:mi>
+                            </m:mfrac>
+                          </m:mfenced>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">∑</m:mo>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>f</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>i</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msub>
+                              <m:mfenced open="[" close="]">
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mfenced open="(" close=")">
+                                      <m:mfrac>
+                                        <m:msub>
+                                          <m:mi fontstyle="italic">Δμ</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mi>E</m:mi>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msub>
+                                        <m:mi>ρ</m:mi>
+                                      </m:mfrac>
+                                    </m:mfenced>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mrow>
+                                          <m:mi>i</m:mi>
+                                          <m:mi>,</m:mi>
+                                          <m:mfenced open="(" close=")">
+                                            <m:msub>
+                                              <m:mi>E</m:mi>
+                                              <m:mstyle fontsize="6pt">
+                                                <m:mrow>
+                                                  <m:mrow>
+                                                    <m:mo stretchy="false">+</m:mo>
+                                                    <m:mrow/>
+                                                  </m:mrow>
+                                                </m:mrow>
+                                              </m:mstyle>
+                                            </m:msub>
+                                          </m:mfenced>
+                                        </m:mrow>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msub>
+                                    <m:mfenced open="(" close=")">
+                                      <m:mfrac>
+                                        <m:msub>
+                                          <m:mi fontstyle="italic">Δμ</m:mi>
+                                          <m:mi>E</m:mi>
+                                        </m:msub>
+                                        <m:mstyle fontsize="12pt">
+                                          <m:mrow>
+                                            <m:mi>ρ</m:mi>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:mfrac>
+                                    </m:mfenced>
+                                    <m:mrow>
+                                      <m:mi>i</m:mi>
+                                      <m:mi>,</m:mi>
+                                      <m:mfenced open="(" close=")">
+                                        <m:msub>
+                                          <m:mi>E</m:mi>
+                                          <m:mstyle fontsize="6pt">
+                                            <m:mrow>
+                                              <m:mrow>
+                                                <m:mo stretchy="false">−</m:mo>
+                                                <m:mrow/>
+                                              </m:mrow>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msub>
+                                      </m:mfenced>
+                                    </m:mrow>
+                                  </m:msub>
+                                </m:mrow>
+                              </m:mfenced>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {Δμ rSub { size 8{E} } }  over  {ρ} }  right )= Sum {f rSub { size 8{i} }  left [ left ( {  {Δμ rSub { size 8{E} } }  over  {ρ} }  right ) rSub { size 8{i, left (E rSub { size 6{+{}} }  right )} }  -  left ( {  {Δμ rSub {E} }  over  { size 12{ρ} } }  right ) rSub {i, left (E rSub { size 6{ - {}} }  right )}  right ]} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </equation>
+            
+          </section>
+        </section>
+        <section id="id1172454155218">
+
+
+          <title>Sample preparation</title>
+          <para id="id5068770">As was described in last section, there are diluted solid samples, which can be prepared onto big substrates or concentrate solid samples which have to be prepared in <emphasis effect="italics">thin films</emphasis>. Both methods are following described. </para>
+          <para id="id1172450700418">Liquid and gases samples can also be measured, but the preparation of those kind of sample is not discussed in this paper because it depends in the specific requirements of each sample. Several designs can be used as long they avoid the escape of the sample and the material used as container does not absorb radiation at the energies used for the measure. </para>
+          <section id="id1172450944039"><title>Method 1</title><list id="id1172467938136" list-type="enumerated" number-style="arabic" class="stepwise"><item>The materials needed are showed in <link target-id="id1172460992411 "/>: Kapton tape and film, a thin spatula, tweezers, scissors, weigh paper, mortar and pestle, and a sample holder. The sample holder can be made from several materials, as polypropylene, polycarbonate or Teflon. 
+
+            <figure id="id1172460992411"><media id="id1172460992411_media" alt="">
+                <image mime-type="image/jpg" src="../../media/Figure 5-c909.jpg" id="id1172460992411__onlineimage" width="300" print-width="3in"/>
+              </media>
+            <caption>Several tools are needed for the sample preparation using Method 1.</caption></figure>
+  
+
+</item>
+
+
+
+<item> Two small squares of Kapton film are cut. One of them is placed onto the hole of the sample holder as shown <link target-id="id1172450801339 "/>a. A piece of Kapton tape is placed onto the sample holder trying to minimize any air burble onto the surface and keeping the film as was previously placed <link target-id="id1172450801339 "/>b. A side of the sample holder is now sealed in order to fill the hole (<link target-id="id1172449756674 "/>). 
+
+            
+            <figure id="id1172450801339"><media id="id1172450801339_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics6-ba30.jpg" id="id1172450801339__onlineimage" width="500" print-width="5in"/>
+              </media>
+            <caption>Preparing one face of the sample holder by (a) positioning a small piece of Kapton film onto the hole, which is held in place by Kapton tape (b).</caption></figure>
+            
+
+              <figure id="id1172449756674"><media id="id1172449756674_media" alt="">
+                  <image mime-type="image/jpg" src="../../media/graphics7-c848.jpg" id="id1172449756674__onlineimage" width="300" print-width="3in"/>
+                </media>
+              <caption>The side of the sample holder is closed.</caption></figure>
+
+
+
+</item>
+
+
+
+
+
+<item>Before fill the sample holder, make sure your sample is a fine powder. Use the mortar to grind the sample (<link target-id="id1172446927453 "/>). 
+
+            
+            <figure id="id1172446927453"><media id="id1172446927453_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics8-e93a.jpg" id="id1172446927453__onlineimage" width="300" print-width="3in"/>
+              </media>
+            <caption>The sample is ground to be sure the grain size of the sample is homogeneous and small enough.</caption></figure>
+            
+
+</item>
+
+
+
+
+
+<item>Fill the hole with the powder. Make sure you have extra powder onto the hole (<link target-id="id1172449679344 "/>a). With the spatula press the powder. The sample has to be as compact as possible (<link target-id="id1172449679344 "/>b). 
+
+            
+            <figure id="id1172449679344"><media id="id1172449679344_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics9-7c95.jpg" id="id1172449679344__onlineimage" width="500" print-width="5in"/>
+              </media>
+            <caption>The sample holder is filled by (a) adding extra powder onto the hole then (b) compacting the sample with the spatula.</caption></figure>
+
+</item>
+
+
+
+
+            
+<item>Clean the surface of the slide. Repeat the step 2. Your sample loaded in the sample holder should look as <link target-id="id1172448123120 "/>. 
+
+          
+
+
+            
+            
+            
+            <figure id="id1172448123120"><media id="id1172448123120_media" alt="">
+                <image mime-type="image/jpg" src="../../media/Figure 10-0be2.jpg" id="id1172448123120__onlineimage" width="300" print-width="3in"/>
+              </media>
+            <caption>Sample loaded and sealed into the sample holder.</caption></figure>
+            
+          </item></list>
+</section>
+          <section id="id1172472149909"><title>Method 2 </title><list id="id1172451783630" list-type="enumerated" number-style="arabic" class="stepwise"><item>The materials needed are showed in <link target-id="id5018356 "/>: Kapton tape, tweezers, scissors, weigh paper, mortar and pestle, tape and aluminum foil. 
+
+            <figure id="id5018356"><media id="id5018356_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics11-8159.jpg" id="id5018356__onlineimage" width="300" print-width="3in"/>
+              </media>
+            <caption>Several utensils are needed for the sample preparation using Method 2.</caption></figure>
+ 
+</item>
+
+
+
+
+
+            
+<item>Aluminum foil is placed as the work-area base. Kapton tape is place from one corner to the opposite one as shown <link target-id="id1172449697182 "/>. Tape is put onto the extremes to fix it. In this case yellow tape was used in order to show where the tape should be placed but is better use Scotch invisible tape for the following steps. 
+
+
+              <figure id="id1172449697182"><media id="id1172449697182_media" alt="">
+                  <image mime-type="image/jpg" src="../../media/Figure 12-ad36.jpg" id="id1172449697182__onlineimage" width="300" print-width="3in"/>
+                </media>
+              <caption>Preparation of the work-area.</caption></figure>
+
+
+
+</item>
+
+
+
+            
+<item>The weigh paper is placed under the Kapton tape in one of the extremes. Sample is added onto that Kapton tape extreme (<link target-id="id1172463652102 "/>). The function of the weigh paper is further recuperation of extra sample. 
+
+            <figure id="id1172463652102"><media id="id1172463652102_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics13-3bde.jpg" id="id1172463652102__onlineimage" width="300" print-width="3in"/>
+              </media>
+            <caption>Add the sample onto an extreme of the Kapton tape.</caption></figure>
+            
+
+</item>
+
+
+
+            
+<item> With one finger, the sample is dispersed along the Kapton tape, always in the same direction and taking care that the weigh paper is under the tape area is being used (<link target-id="id1172454273656 "/>a). The finger should be slid several times making pressure in order to have a homogeneous and complete cover film (<link target-id="id1172454273656 "/>b). 
+
+            
+            <figure id="id1172454273656"><media id="id1172454273656_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics14-4263.jpg" id="id1172454273656__onlineimage" width="500" print-width="5in"/>
+              </media>
+            <caption>Making a thin film with a solid sample by (a) dispersing the solid along the Kapton tape and (b) repeated sliding several times to obtain a homogeneous film.</caption></figure>
+            
+
+
+</item>
+
+
+
+
+<item>The final sample covered Kapton tape should look like <link target-id="id1172474531259 "/>. Cut the extremes in order to a further manipulation of the film. 
+            
+            
+            <figure id="id1172474531259"><media id="id1172474531259_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics15-6a08.jpg" id="id1172474531259__onlineimage" width="500" print-width="5in"/>
+              </media>
+            <caption>A complete thin film.</caption></figure>
+            
+
+
+</item>
+
+
+
+
+
+<item>Using the tweezers, fold the film taking care that is well aligned and there fold is complete plane. <link target-id="id1172450581036 "/>a shows the first folding, generating a 2 layers film. <link target-id="id1172450581036 "/>b and <link target-id="id1172450581036 "/>c shows the second and third folding, obtaining a 4 and 8 layers film. Sometimes a 4 layers film is good enough. You always can fold again to obtain bigger signal intensity. 
+        
+            
+            
+            <figure id="id1172450581036"><media id="id1172450581036_media" alt="">
+                <image mime-type="image/jpg" src="../../media/graphics16-ecf6.jpg" id="id1172450581036__onlineimage" width="500" print-width="5in"/>
+              </media>
+            <caption>Folding of the thin film simple once results in a two layer film (a) and after a second and third folding four and eight layers films are obtained (b and c, respectively).</caption></figure>
+          
+
+</item>
+</list></section>
+        </section>
+
+    </section>
+    <section id="id1172463749382">
+      <title>Bibliography</title>
+      <list id="id1172451515953" list-type="bulleted">
+        <item>B. D. Cullity and S. R. Stock. <emphasis effect="italics">Elements of X-ray Diffraction</emphasis>, Prentice Hall, Upper Saddle River (2001). </item>
+        <item>F. Hippert, E. Geissler, J. L. Hodeau, E. Lelièvre-Berna, and J. R. Regnard. <emphasis effect="italics">Neutron and X-ray Spectroscopy</emphasis>, Springer, Dordrecht (2006). </item>
+        <item>G. Bunker. <emphasis effect="italics">Introduction to XAFS: A practical guide to X-ray Absorption Fine Structure Spectroscopy</emphasis>, Cambridge University Press, Cambridge (2010). </item>
+        <item>S. D. Kelly, D. Hesterberg, and B. Ravel in <emphasis effect="italics">Methods of Soil Analysis: Part 5, Mineralogical Methods</emphasis>, Ed. A. L. Urely and R. Drees, Soil Science Society of America Book Series, Madison (2008).</item>
+      </list>
+      
+    </section>
+  </content>
+</document>

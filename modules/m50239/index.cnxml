@@ -1,0 +1,212 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Attenuated Total Reflectance-Fourier Transform Infrared Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50239</md:content-id>
+  <md:title>Attenuated Total Reflectance-Fourier Transform Infrared Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>1051014e-cbb8-45a7-a744-29dcad4cb522</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164222331979">
+      <title>Introduction</title>
+      <para id="import-auto-id1164219024875">Attenuated total reflectance-Fourier transform infrared spectroscopy (ATR-FTIR) is a physical method of compositional analysis that builds upon traditional transmission FTIR spectroscopy to minimize sample preparation and optimize reproducibility. Condensed phase samples of relatively low refractive index are placed in close contact with a crystal of high refractive index and the infrared (IR) absorption spectrum of the sample can be collected. Based on total internal reflection, the absorption spectra of ATR resemble those of transmission FTIR. To learn more about transmission IR spectroscopy (FTIR) please refer to the module <link document="m34660"><emphasis effect="underline">Fourier Transform Infrared Spectroscopy of Metal Ligand Complexes</emphasis></link>. </para><para id="import-auto-id1164232942812">First publicly proposed in 1959 by Jacques Fahrenfort from the Royal Dutch Shell laboratories in Amsterdam, ATR IR spectroscopy was described as a technique to effectively measure weakly absorbing condensed phase materials. In Fahrenfort's first article describing the technique, published in 1961, he used a hemicylindrical ATR crystal  (see Experimental Conditions) to produce single-reflection ATR (<link target-id="fahrenfort"/>). ATR IR spectroscopy was slow to become accepted as a method of characterization due to concerns about its quantitative effectiveness and reproducibility. The main concern being the sample and ATR crystal contact necessary to achieve decent spectral contrast. In the late 1980’s FTIR spectrometers began improving due to an increased dynamic range, signal to noise ratio, and faster computers. As a result ATR-FTIR also started gaining traction as an efficient spectroscopic technique. These days ATR accessories are often manufactured to work in conjunction with most FTIR spectrometers, as can be seen in <link target-id="import-auto-id1164227438147"/>.</para><figure id="fahrenfort"><media id="id116_media" alt=""><image mime-type="image/jpeg" src="../../media/fahrenfort.jpg" id="id117__onlineimage" width="300" print-width="3in"/>
+</media>
+<caption>The first ATR Infrared Spectrometer designed by Jacques Fahrenfort featuring a hemicylindrical ATR crystal. Reproduced from J. Fahrenfort, <emphasis effect="italics">Spectrochim. Acta</emphasis>, 1961, <emphasis effect="bold">17</emphasis>, 698. Copyright: Elsevier (1961). </caption></figure><figure id="import-auto-id1164227438147"><media id="import-auto-id1164230099969" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 5-bf23.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>An ATR attachment on an FTIR spectrometer.</caption></figure></section>
+    <section id="import-auto-id1164227919183"><title>Total internal reflection</title><para id="import-auto-id1164219382596">For additional information on light waves and their properties please refer to the module on <link document="m22326"><emphasis effect="underline">Vertical Scanning Interferometry (VSI)</emphasis></link>. </para><para id="import-auto-id7520804">When considering light propagating across an interface between two materials with different indices of refraction, the angle of refraction can be given by Snell’s law, <link target-id="eip-829"/>, where <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub><emphasis effect="italics"/> refer to the refractive indices of the two materials.</para><equation id="eip-829"><media id="import-auto-id1164221009803" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-f58d.png" width="100" print-width="1in"/>
+        </media></equation><para id="import-auto-id1164229846369">When the incident medium has a higher refractive index than that of the transmitted medium, there will be a critical angle of incidence, <link target-id="eip-461"/>, where none of the incident light will be transmitted.</para><equation id="eip-461"><media id="import-auto-id1164229845504" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-89ee.png" width="73" print-width="0.7in"/>
+        </media>
+      </equation><para id="import-auto-id1164221002256">The reflectance of the interface is total and whenever light is incident from a higher refractive index medium onto a lower refractive index medium, the reflection is deemed internal (as opposed to external in the opposite scenario). Total internal reflectance experiences no losses, or no transmitted light (<link target-id="eip-id1163935815441"/>).</para><figure id="eip-id1163935815441"><media id="import-auto-id1164223457175" alt=""><image mime-type="image/jpg" src="../../media/tir1.jpg" width="400" print-width="4in"/></media><caption>At the interface between two materials with different indices of refraction, (a) when the angle of incident light, θ<sub>1</sub>, is below the critical angle, θ<sub>c</sub>, both reflection and transmission occur, and (b) when the angle of incident light exceeds the critical angle, total internal reflection (TIR) occurs, spawning an evanescent wave at the interface. Adapted from M. Schnippering, S. R. T. Neil, S. R. Mackenzie, and P. R. Unwin, <emphasis effect="italics">Chem. Soc. Rev.</emphasis>, 2011, <emphasis effect="bold">40</emphasis>, 207. Copyright: Royal Society of Chemistry (2011). </caption></figure><para id="import-auto-id1164232223475">Supercritical internal reflection refers to angles of incidence above the critical angle of incidence allowing total internal reflectance. It is in this angular regime where only incident and reflected waves will be present. The transmitted wave is confined to the interface where its amplitude is at a maximum and will damp exponentially into the lower refractive index medium as a function of distance. This wave is referred to as the evanescent wave and it extends only a very short distance beyond the interface.</para>
+      <para id="import-auto-id1164219392443">To apply total internal reflection to the experimental setup in ATR, consider <emphasis effect="italics">n</emphasis><sub>2 </sub>to be the internal reflectance element or ATR crystal (the blue trapezoid in <link target-id="eip-569"/>) where <emphasis effect="italics">n</emphasis><sub>2 </sub>is the material with the higher index of refraction. This should be a material that is fully transparent to the incident infrared radiation to give a real value for the refractive index. The ATR crystal must also have a high index of refraction to allow total internal reflection with many samples that have an index of refraction <emphasis effect="italics">n</emphasis><sub>1</sub>, where <emphasis effect="italics">n</emphasis><sub>1</sub>&lt;<emphasis effect="italics">n</emphasis><sub>2</sub>. </para><figure id="eip-569"><media id="import-auto-id1164223457173" alt=""><image mime-type="image/jpg" src="../../media/Total internal reflection.jpg" width="450" print-width="4.5in"/></media><caption>The ATR crystal shown in blue, within which the incident IR light shown in red is totally reflecting. Above the crystal the evanescent wave is emitted and penetrates the sample.</caption></figure><para id="import-auto-id1164221863932">We can consider the sample to be absorbing in the infrared. Electromagnetic energy will pass through the crystal/sample interface and propagate into the sample via the evanescent wave. This energy loss must be compensated with the incident IR light. Thus, total reflectance is no longer occurring and the reflection inside the crystal is attenuated. If a sample does not absorb, the reflectance at the interface shows no attenuation. Therefore if the IR light at a particular frequency does not reach the detector, the sample must have absorbed it.  </para><para id="eip-925">The penetration depth of the evanescent wave within the sample is on the order of 1µm. The expression of the penetration depth is given in <link target-id="eip-812"/> and is dependent upon the wavelength and angle of incident light as well as the refractive indices of the ATR crystal and sample. The effective path length is the product of the depth of penetration of the evanescent wave and the number of points that the IR light reflects at the interface between the crystal and sample. This path length is equivalent to the path length of a sample in a traditional transmission FTIR setup.
+</para><equation id="eip-812"><media id="id812_media" alt="">
+<image mime-type="image/png" src="../../media/graphics3-cfea.png" id="id723_onlineimage" width="200" print-width="2in"/>
+</media></equation></section><section id="import-auto-id1164230817764"><title>Experimental conditions</title><section id="eip-636"><title>Refractive indices of ATR crystal and sample</title><para id="eip-854">Typically an ATR attachment can be used with a traditional FTIR where the beam of incident IR light enters a horizontally positioned crystal with a high refractive index in the range of 1.5 to 4, as can be seen in <link target-id="import-auto-id1164232713550"/>. This refractive index should be greater than that of the sample. Generally, samples will consist of organic compounds, inorganic compounds, and polymers which have refractive indices below 2 and can readily be found on a database. </para>
+
+
+<table id="import-auto-id1164232713550" summary="A summary of popular ATR crystals. Data obtained from F. M. Mirabella, Internal reflection spectroscopy: Theory and applications, 15, Marcel Dekker, Inc., New York (1993).">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <thead>
+            <row>
+              <entry>
+                
+                  <emphasis effect="bold">Material</emphasis>
+                
+              </entry>
+              <entry>
+                
+                  <emphasis effect="bold">Refractive index (RI)</emphasis>
+                
+              </entry>
+              <entry>
+                <emphasis effect="bold">Spectral range (cm<sup>-1</sup>)</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Zinc Selenide (ZnSe)</entry>
+              <entry>2.4</entry>
+              <entry>20000-650</entry>
+            </row>
+            <row>
+              <entry>Germanium (Ge)</entry>
+              <entry>4</entry>
+              <entry>5500-870</entry>
+            </row>
+            <row>
+              <entry>Sapphire (Al<sub>2</sub>O<sub>3</sub>)</entry>
+              <entry>1.74</entry>
+              <entry>50000-2000</entry>
+            </row>
+            <row>
+              <entry>Diamond (C)</entry>
+              <entry>2.4</entry>
+              <entry>45000-2500 and 1650-200</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup><caption>A summary of popular ATR crystals. Data obtained from F. M. Mirabella, <emphasis effect="italics">Internal reflection spectroscopy: Theory and applications</emphasis>, 15, Marcel Dekker, Inc., New York (1993). </caption>
+</table></section><section id="eip-391"><title>Single and multiple reflection crystals</title><para id="eip-915">Multiple reflection ATR was initially more popular than single reflection ATR because of the weak absorbances associated with single reflection ATR. More reflections increased the evanescent wave interaction with the sample, which was believed to increase the signal to noise ratio of the spectrum. When IR spectrometers developed better spectral contrast, single reflection ATR became more popular. The number of reflections and spectral contrast increases with the length of the crystal and decreases with the angle of incidence as well as thickness. Within multiple reflection crystals some of the light is transmitted and some is reflected as the light exits the crystal, resulting in some of the light going back through the crystal for a round trip. Therefore, light exiting the ATR crystal contains components that experienced different number of reflections at the crystal-sample interface.</para></section><section id="eip-827"><title>Angle of incidence</title><para id="eip-670">It was more common in earlier instruments to allow selection of the incident angle, sometimes offering selection between 30°, 45°, and 60°. In all cases for total internal reflection to hold, the angle of incidence must exceed the critical angle and ideally complement the angle of the crystal edge so that the light enters at a normal angle of incidence. These days 45° is the standard angle on most ATR-FTIR setups.
+</para></section>
+
+<section id="eip-901"><title>ATR crystal shape</title><para id="eip-347">
+
+For the most part ATR crystals will have a trapezoidal shape as shown in <link target-id="eip-569"/>. This shape facilitates sample preparation and handling on the crystal surface by enabling the optical setup to be placed below the crystal. However, different crystal shapes (<link target-id="eip-672"/>) may be used for particular purposes, whether it is to achieve multiple reflections or reduce the spot size. For example, a hemispherical crystal may be used in a microsampling experiment in which the beam diameter can be reduced at no expense to the light intensity. This allows appropriate measurement of a small sample without compromising the quality of the resulting spectral features.
+</para>
+
+
+<figure id="eip-672"><media id="id81_media" alt=""><image mime-type="image/jpeg" src="../../media/crystalshapes.jpg" id="id7234__onlineimage" width="300" print-width="3.5in"/>
+</media>
+<caption>An assortment of ATR crystal shapes: a)triangular, b)hemispherical, c)parallelogram, d) trapezoidal, e) pentagonal, f)cylindrical. Adapted from F. M. Mirabella, <emphasis effect="italics">Internal reflection spectroscopy: Theory and applications</emphasis>, 15, Marcel Dekker, Inc., New York (1993).</caption></figure></section>
+
+
+<section id="eip-375"><title>Crystal-sample contact</title><para id="eip-343">Because the path length of the evanescent wave is confined to the interface between the ATR crystal and sample, the sample should make firm contact with the ATR crystal (<link target-id="import-auto-id1164234621951"/>). The sample sits atop the crystal and intimate contact can be ensured by applying pressure above the sample. However, one must be mindful of the ATR crystal hardness. Too much pressure may distort the crystal and affect the reproducibility of the resulting spectrum. 
+</para>
+
+<figure id="import-auto-id1164234621951"><media id="import-auto-id1164235829067" alt=""><image mime-type="image/jpg" src="../../media/Picture 12-024e.jpg" width="400" print-width="3in"/></media><caption>A close-up image of an ATR accessory attached to a Nexus 670 FTIR.</caption></figure></section>
+
+
+<section id="eip-713"><title>Wavelength dependency</title><para id="eip-648">
+
+The wavelength effect expressed in <link target-id="eip-812"/> shows an increase in penetration depth at increased wavelength. In terms of wavenumbers the relationship becomes inverse. At 4000 cm<sup>-1</sup> penetration of the sample is 10x less than penetration at 400 cm<sup>-1</sup> meaning the intensity of the peaks may appear higher at lower wavenumbers in the absorbance spectrum compared to the spectral features in a transmission FTIR spectrum (if an automated correction to the ATR setup is not already in place).
+
+</para></section></section><section id="import-auto-id1164229034434">
+      <title>Selecting an ATR crystal</title><para id="import-auto-id1164235441437">ATR functions effectively on the condition that the refractive index of the crystal is of a higher refractive index than the sample. Several crystals are available for use and it is important to select an appropriate option for any given experiment (<link target-id="import-auto-id1164232713550"/>). When selecting a material, it is important to consider reactivity, temperature, toxicity, solubility, and hardness. </para>
+
+
+
+
+
+
+
+
+
+
+<para id="eip-74">The first ATR crystals in use were KRS-5, a mixture of thallium bromide and iodide, and silver halides. These materials are not listed in the table because they are not in use any longer. While cost-effective, they are not practical due to their light sensitivity, softness, and relatively low refractive indices. In addition KRS-5 is terribly toxic and dissolves on contact with many solvents, including water.</para><para id="import-auto-id1164222481691">At present diamond is a favorable option for its hardness, inertness and wide spectral range, but may not be a financially viable option for some experiments. ZnSe and germanium are the most common crystal materials. ZnSe is reasonably priced, has significant mechanical strength and a long endurance. However, the surface will become etched with exposure to chemicals on either extreme of the pH scale. With a strong acid ZnSe will react to form toxic hydrogen selenide gas. ZnSe is also prone to oxidation and care must be taken to avoid the formation of an IR absorbing layer of SeO<sub>2</sub>. Germanium has a higher refractive index, which reduces the depth of penetration to 1 µm and may be preferable to ZnSe in applications involving intense sample absorptions or for use with samples that produce strong background absorptions. Sapphire is physically robust with a wide spectral range, but has a relatively low refractive index in terms of ATR crystals, meaning it may not be able to test as many samples as another crystal might.</para></section>
+    <section id="import-auto-id1164236492589">
+      <title>Sample versatility</title>
+      <section id="eip-929"><title>Solids</title><para id="eip-350">
+
+The versatility of ATR is reflected in the various forms and phases that a sample can assume. Solid samples need not be compressed into a pellet, dispersed into a mull or dissolve in a solution. A ground solid sample is simply pressed to the surface of the ATR crystal. For hard samples that may present a challenge to grind into a fine solid, the total area in contact with the crystal may be compromised unless small ATR crystals with exceptional durability are used (e.g., 2 mm diamond). Loss of contact with the crystal would result in decreased signal intensity because the evanescent wave may not penetrate the sample effectively. The inherently short path length of ATR due to the short penetration depth (0.5-5 µm) enables surface-modified solid samples to be readily characterized with ATR.
+</para><para id="eip-373">Powdered samples are often tedious to prepare for analysis with transmission spectroscopy because they typically require being made into a KBr pellet to and ensuring the powdered sample is ground up sufficiently to reduce scattering. However, powdered samples require no sample preparation when taking the ATR spectra. This is advantageous in terms of time and effort, but also means the sample can easily be recovered after analysis.</para></section><section id="eip-95"><title>Liquids</title><para id="eip-17">
+
+The advantage of using ATR to analyze liquid samples becomes apparent when short effective path lengths are required. The spectral reproducibility of liquid samples is certain as long as the entire length of the crystal is in contact with the liquid sample, ensuring the evanescent wave is interacting with the sample at the points of reflection, and the thickness of the liquid sample exceeds the penetration depth. A small path length may be necessary for aqueous solutions in order to reduce the absorbance of water. 
+</para></section></section>
+    <section id="import-auto-id1164232162413">
+      <title>Sample preparation</title><para id="import-auto-id1164233394676">ATR-FTIR has been used in fields spanning forensic analysis to pharmaceutical applications and even art preservation. Due to its ease of use and accessibility ATR can be used to determine the purity of a compound. With only a minimal amount of sample this researcher is able to collect a quick analysis of her sample and determine whether it has been adequately purified or requires further processing. As can be seen in <link target-id="import-auto-id1164223448530"/>, the sample size is minute and requires no preparation. The sample is placed in close contact with the ATR crystal by turning a knob that will apply pressure to the sample (<link target-id="import-auto-id3007419"/>).</para><figure id="import-auto-id1164223448530"><media id="import-auto-id1164219390028" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 7-9e65.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>Photograph of a small sample size is being placed on the ATR crystal.</caption></figure><figure id="import-auto-id3007419"><media id="import-auto-id1164234439818" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 13-3b7b.jpg" width="400" print-width="3in"/>
+        </media>
+      <caption>Turning the knob applies pressure to the sample, ensuring good contact with the ATR crystal.</caption></figure><para id="eip-538">ATR has an added advantage in that it inherently encloses the optical path of the IR beam. In a transmission FTIR, atmospheric compounds are constantly exposed to the IR beam and can present significant interference with the sample measurement. Of course the transmission FTIR can be purged in a dry environment, but sample measurement may become cumbersome. In an ATR measurement, however, light from the spectrometer is constantly in contact with the sample and exposure to the environment is reduced to a minimum.  </para></section>
+    <section id="import-auto-id1164227931102"><title>Application to inorganic chemistry</title><para id="import-auto-id1164229034454">One exciting application of ATR is in the study of classical works of art. In the study of fragments of a piece of artwork, where samples are scarce and one-of-a-kind, ATR is a suitable method of characterization because it requires only a small sample size. Determining the compounds present in art enables proper preservation and historical insight into the pieces.  </para>
+      <para id="import-auto-id1164229989553">In a study examining several paint samples from a various origins, a micro-ATR was employed for analysis. This study used a silicon crystal with a refractive index of 2.4 and a reduced beam size. Going beyond a simple surface analysis, this study explored the localization of various organic and inorganic compounds in the samples by performing a stratigraphic analysis. The researchers did so by embedding the samples in both KBr and a polyester resins. Two embedding techniques were compared to observe cross-sections of the samples. The mapping of the samples took approximately 1-3 hours which may seem quite laborious to some, but considering the precious nature of the sample, the wait time was acceptable to the researchers.</para><para id="eip-965">The optical microscope picture (<link target-id="import-auto-id1164230825917"/>) shows a sample of a blue painted area from the robe of a 14<sup>th</sup> century Italian polychrome statue of a Madonna. The spectra shown in <link target-id="import-auto-id1164221358970"/> were acquired from the different layers pictured in the box marked in <link target-id="import-auto-id1164230825917"/>. All spectra were collected from the cross-sectioned sample and the false-color map on each spectrum indicates the location of each of these compounds within the embedded sample. The spectra correspond to the inorganic compounds listed in <link target-id="import-auto-id1164235009659"/>, which also highlights characteristic vibrational bands.</para><figure id="import-auto-id1164230825917"><media id="import-auto-id1164228760584" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 9-9d6b.jpg" width="300" print-width="3in"/>
+        </media>
+      <caption>A paint sample from which four inorganic compounds were identified by ATR spectroscopy. The numbers indicate different layers in the sample, composed of different inorganic compounds. The boxed area shows the region within which ATR mapping occurred. Reproduced from R. Mazzeo, E. Joseph, S. Prati, and A. Millemaggi. <emphasis effect="italics">Anal. Chim. Acta</emphasis>, 2007, <emphasis effect="bold">599</emphasis>, 107. Copyright: Elsevier (2007). </caption></figure>
+
+<figure id="import-auto-id1164221358970"><media id="import-auto-id1164233206997" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 8-2384.jpg" width="500" print-width="5in"/>
+        </media>
+      <caption>Spectra of the inorganic compounds identified in the paint sample pictured in <link target-id="import-auto-id1164230825917"/>. Each spectrum a-e corresponds to (a) Azurite. (Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub>), (b) Silicate based blue pigment, (c) Lead white. (2PbCO<sub>3</sub>·Pb(OH)<sub>2</sub>), (d) Bole. (A natural ferruginous aluminum silicate red pigment), and (e) Gypsum. (CaSO<sub>4</sub>·2H<sub>2</sub>O). The characteristic vibrational transitions for each compound can be seen in <link target-id="import-auto-id1164235009659"/>. Alongside each spectrum is a false color image showing the location of each compound within the boxed region of <link target-id="import-auto-id1164230825917"/>. The images are labelled with the layer that corresponds to its location in the paint sample. Reproduced from R. Mazzeo, E. Joseph, S. Prati, and A. Millemaggi. <emphasis effect="italics">Anal. Chim. Acta</emphasis>, 2007, <emphasis effect="bold">599</emphasis>, 107. Copyright: Elsevier (2007). </caption></figure><table id="import-auto-id1164235009659" summary="This table shows the inorganic compounds identified in the paint sample, with selected spectral absorption bands as well as their attribution. The mineral names listed are azurite, silicate-based blue pigments, white lead, bole, and gypsum.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <thead>
+              <row>
+                <entry>
+                  
+                    <emphasis effect="bold">Compound</emphasis>
+                 
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Selected spectral bands (cm<sup>-1</sup></emphasis>
+                  <emphasis effect="bold">)</emphasis>
+                </entry>
+                <entry>
+                  
+                    <emphasis effect="bold">Assignment</emphasis>
+                  
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub> (Azurite)</entry>
+                <entry>1493</entry>
+                <entry>CO<sub>3</sub><sup>2-</sup> asymmetric stretch</entry>
+              </row>
+              <row>
+                <entry>Silicate based blue pigments</entry>
+                <entry>1035</entry>
+                <entry>Si-O stretching</entry>
+              </row>
+              <row>
+                <entry>2PbCO<sub>3</sub>·Pb(OH)<sub>2 </sub>(White lead)</entry>
+                <entry>1399</entry>
+                <entry>CO<sub>3</sub><sup>2-</sup> asymmetric stretch</entry>
+              </row>
+              <row>
+                <entry>A natural ferruginous aluminum silicate red pigment (Bole)</entry>
+                <entry>3697</entry>
+                <entry>OH stretching</entry>
+              </row>
+              <row>
+                <entry>CaSO<sub>4</sub>·2H<sub>2</sub>O (Gypsum)</entry>
+                <entry>1109</entry>
+                <entry>SO<sub>4</sub><sup>2- </sup>asymmetric stretch</entry>
+              </row>
+            </tbody>
+          
+
+
+
+
+
+
+
+
+
+</tgroup><caption>This table shows the inorganic compounds identified in the paint sample shown in <link target-id="import-auto-id1164230825917"/>. Data from R. Mazzeo, E. Joseph, S. Prati, and A. Millemaggi. <emphasis effect="italics">Anal. Chim. Acta</emphasis>, 2007, <emphasis effect="bold">599</emphasis>, 107.</caption>
+</table><para id="import-auto-id1164238850441">The deep blue layer 3 corresponds to azurite and the light blue paint layer 2 to a mixture of silicate based blue pigments and white lead. Although beyond the ATR crystal’s spatial resolution limit of 20 µm, the absorption of bole was detected by the characteristic triple absorption bands of 3697, 3651, and 3619 cm<sup>-1</sup> as seen in spectrum d of <link target-id="import-auto-id1164221358970"/>. The white layer 0 was identified as gypsum. </para><para id="import-auto-id1164223540680">To identify the binding material, the KBr embedded sample proved to be more effective than the polyester resin. This was due in part to the overwhelming IR absorbance of gypsum in the same spectral range (1700-1600 cm<sup>-1</sup>) as a characteristic stretch of the binding as well as some contaminant absorption due to the polyester embedding resin.</para>
+      <para id="import-auto-id1164228764156">To spatially locate specific pigments and binding media, ATR mapping was performed on the area highlighted with a box in <link target-id="import-auto-id1164230825917"/>. The false color images alongside each spectrum in <link target-id="import-auto-id1164221358970"/> indicate the relative presence of the compound corresponding to each spectrum in the boxed area. ATR mapping was achieved by taking 108 spectra across the 220x160 µm area and selecting for each identified compound by its characteristic vibrational band.</para></section><section id="import-auto-id1164232233087">
+      <title>Bibliography </title>
+      <list id="import-auto-id1164234553628" list-type="bulleted"><item>J. Fahrenfort, <emphasis effect="italics">Spectrochim. Acta</emphasis>, 1961, <emphasis effect="bold">17</emphasis>, 698.</item>
+        <item>R. Mazzeo, E. Joseph, S. Prati, and A. Millemaggi. <emphasis effect="italics">Anal. Chim. Acta</emphasis>, 2007, <emphasis effect="bold">599</emphasis>, 107.</item>
+        <item>M. Milosevic, <emphasis effect="italics">Internal reflection and ATR spectroscopy</emphasis>, John Wiley &amp; Sons, Inc., Hoboken (2012). </item>
+        <item>F. M. Mirabella, <emphasis effect="italics">Internal reflection spectroscopy: Theory and applications</emphasis>, 15, Marcel Dekker, Inc., New York (1993). </item>
+        <item>PerkinElmer Life and Analytical Sciences. N.p.: PerkinElmer Life and Analytical Sciences, n.d. <emphasis effect="italics">FT-IR Spectroscopy Attenuated Total Reflectance (ATR)</emphasis>. PerkinElmer, Inc., 2005. Web. Feb. 2014.</item>
+        <item>M. Schnippering, S. R. T. Neil, S. R. Mackenzie, and P. R. Unwin, <emphasis effect="italics">Chem. Soc. Rev.</emphasis>, 2011, <emphasis effect="bold">40</emphasis>, 207.</item></list></section>
+  </content>
+</document>

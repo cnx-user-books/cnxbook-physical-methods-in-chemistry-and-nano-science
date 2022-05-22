@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>XPS Analysis of Modified Surfaces</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34527</md:content-id>
+  <md:title>XPS Analysis of Modified Surfaces</md:title>
+  <md:abstract/>
+  <md:uuid>0e872f9d-63ca-4cb3-b29a-e24e1e0d1127</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1171173984137">
+      <title>Introduction</title>
+      <para id="id1171177946774">X-Ray photoelectron spectroscopy (XPS), also known as electron spectroscopy for chemical analysis (ESCA), is one of the most widely used surface techniques in materials science and chemistry. It allows the determination of atomic composition of the sample in a non-destructive manner, as well as other chemical information, such as binding constants, oxidation states and speciation. The sample under study is subjected to irradiation by a high energy X-ray source. The X-rays penetrate only 5 – 20 Å into the sample, allowing for surface specific, rather than bulk chemical, analysis. As an atom absorbs the X-rays, the energy of the X-ray will cause a K-shell electron to be ejected, as illustrated by <link target-id="id1171179460608"/>. The K-shell is the lowest energy shell of the atom. The ejected electron has a kinetic energy (KE) that is related to the energy of the incident beam (hν), the electron binding energy (BE), and the work function of the spectrometer (φ) (<link target-id="eip-38"/>). Thus, the binding energy of the electron can be calculated.</para>
+<figure id="id1171179460608"><media id="id1171179460608_media" alt=""><image mime-type="image/jpg" src="../../media/graphics1-c474.jpg" id="id1171179460608__onlineimage" width="300" print-width="3in"/></media><caption>Excitation of an electron from an atom's K-shell.</caption></figure>
+      
+       
+
+<equation id="eip-38"><media id="id38_media" alt=""><image mime-type="image/jpg" src="../../media/EqL1.jpg" id="id38__onlineimage" width="500" print-width="4.5in"/></media></equation>
+
+
+
+      <para id="id1171180589473"><link target-id="id1171167558279"/> shows the binding energy of the ejected electron, and the orbital from which the electron is ejected, which is characteristic of each element. The number of electrons detected with a specific binding energy is proportional to the number of corresponding atoms in the sample. This then provides the percent of each atom in the sample.</para>
+      <table id="id1171167558279" summary="Binding energies for select elements in their elemental forms. The left column lists various elements and the shell from which the excited electron escapes. The right column lists the according energies in electron volts.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Element</emphasis></entry>
+              <entry><emphasis effect="bold">Binding energy (eV)</emphasis></entry>
+            </row>
+            <row>
+              <entry>Carbon (C) (1s)</entry>
+              <entry>284.5 - 285.1</entry>
+            </row>
+            <row>
+              <entry>Nitrogen (N) (1s)</entry>
+              <entry>396.1 - 400.5</entry>
+            </row>
+            <row>
+              <entry>Oxygen (O) (1s)</entry>
+              <entry>526.2 - 533.5</entry>
+            </row>
+            <row>
+              <entry>Silicon (Si) (2p)</entry>
+              <entry>98.8 - 99.5</entry>
+            </row>
+            <row>
+              <entry>Sulfur (S) (2p<sub>3/2</sub>)</entry>
+              <entry>164.0 - 164.3</entry>
+            </row>
+            <row>
+              <entry>Iron (Fe) (2p<sub>3/2</sub>)</entry>
+              <entry>706.8 - 707.2</entry>
+            </row>
+            <row>
+              <entry>Gold (Au) (4f<sub>7/2</sub>)</entry>
+              <entry>83.8 - 84.2</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup><caption>Binding energies for select elements in their elemental forms. </caption>
+</table>
+      
+      <para id="id1171187600342">The chemical environment and oxidation state of the atom can be determined through the shifts of the peaks within the range expected (<link target-id="id1941513"/>). If the electrons are shielded then it is easier, or requires less energy, to remove them from the atom, i.e., the binding energy is low. The corresponding peaks will shift to a lower energy in the expected range. If the core electrons are not shielded as much, such as the atom being in a high oxidation state, then just the opposite occurs. Similar effects occur with electronegative or electropositive elements in the chemical environment of the atom in question. By synthesizing compounds with known structures, patterns can be formed by using XPS and structures of unknown compounds can be determined. </para>
+      <table id="id1941513" summary="Binding energies of electrons in various compounds.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Compound</emphasis></entry>
+              <entry><emphasis effect="bold">Binding energy (eV)</emphasis></entry>
+            </row>
+            <row>
+              <entry>COH (C 1s)</entry>
+              <entry>286.01 – 286.8</entry>
+            </row>
+            <row>
+              <entry>CHF (C 1s)</entry>
+              <entry>287.5 – 290.2</entry>
+            </row>
+            <row>
+              <entry>Nitride (N 1s)</entry>
+              <entry>396.2 – 398.3</entry>
+            </row>
+            <row>
+              <entry>Fe<sub>2</sub>O<sub>3 </sub>(from O, 1s)</entry>
+              <entry>529.5 – 530.2</entry>
+            </row>
+            <row>
+              <entry>Fe<sub>2</sub>O<sub>3</sub> (from Fe, 2p<sub>3/2</sub>)</entry>
+              <entry>710.7 – 710.9</entry>
+            </row>
+            <row>
+              <entry>FeO (from Fe, 2p<sub>3/2</sub>)</entry>
+              <entry>709.1 – 709.5</entry>
+            </row>
+            <row>
+              <entry>SiO<sub>2</sub> (from O, 1s)</entry>
+              <entry>532.5 – 533.3</entry>
+            </row>
+            <row>
+              <entry>SiO<sub>2</sub> (from Si, 2p)</entry>
+              <entry>103.2 – 103.9</entry>
+            </row>
+          </tbody>
+        
+
+
+
+</tgroup><caption>Binding energies of electrons in various compounds.</caption>
+</table>
+      
+      
+      <para id="id1171181615750">Sample preparation is important for XPS. Although the technique was originally developed for use with thin, flat films, XPS can be used with powders. In order to use XPS with powders, a different method of sample preparation is required. One of the more common methods is to press the powder into a high purity indium foil. A different approach is to dissolve the powder in a quickly evaporating solvent, if possible, which can then be drop-casted onto a substrate. Using sticky carbon tape to adhere the powder to a disc or pressing the sample into a tablet are an option as well. Each of these sample preparations are designed to make the powder compact, as powder not attached to the substrate will contaminate the vacuum chamber. The sample also needs to be completely dry. If it is not, solvent present in the sample can destroy the necessary high vacuum and contaminate the machine, affecting the data of the current and future samples.</para>
+      
+    </section>
+    <section id="id8437197">
+      <title>Analyzing functionalized surfaces</title>
+      <section id="id1171165380476">
+        <title>Depth Profiling</title>
+        <para id="id1171182397970">When analyzing a sample (<link target-id="id1171178386811"/> a) by XPS, questions often arise that deal with layers of the sample. For example, is the sample homogenous, with a consistent composition throughout, or layered, with certain elements or components residing in specific places in the sample? (<link target-id="id1171178386811"/> b,c). A simple way to determine the answer to this question is to perform a depth analysis. By sputtering away the sample, data can be collected at different depths within the sample. It should be noted that sputtering is a destructive process. Within the XPS instrument, the sample is subjected to an Ar<sup>+</sup> ion beam that etches the surface. This creates a hole in the surface, allowing the X-rays to hit layers that would not have otherwise been analyzed. However, it should be realized that different surfaces and layers may be etched at different rates, meaning the same amount of etching does not occur during the same amount of time, depending on the element or compound currently being sputtered.</para>
+
+<figure id="id1171178386811"><media id="id1171178386811_media" alt=""><image mime-type="image/jpg" src="../../media/graphics3-f671.jpg" id="id1171178386811__onlineimage" width="500" print-width="5in"/></media><caption>Schematic representation of analysis of (a) an homogeneous sample, as compared to (b) an homogeneous layers in a sample, and (c) an inhomogeneous layers in a sample.</caption></figure>
+
+        
+        
+        <para id="id1171181292286">It is important to note that hydrocarbons sputter very easily and can contaminate the high vacuum of the XPS instrument and thus later samples. They can also migrate to a recently sputtered (and hence unfunctionalized) surface after a short amount of time, so it is imperative to sputter and take a measurement quickly, otherwise the sputtering may appear to have had no effect.</para>
+      </section>
+      <section id="id1171174848434">
+        <title>Functionalized Films</title>
+        <para id="id1171178361916">When running XPS, it is important that the sample is prepared correctly. If it is not, there is a high chance of ruining not only data acquisition, but the instrument as well. With organic functionalization, it is very important to ensure the surface functional group (or as is the case with many functionalized nanoparticles, the surfactant) is immobile on the surface of the substrate. If it is removed easily in the vacuum chamber, it not only will give erroneous data, but it will contaminate the machine, which may then contaminate future samples. This is particularly important when studying thiol functionalization of gold samples, as thiol groups bond strongly with the gold. If there is any loose thiol group contaminating the machine, the thiol will attach itself to any gold sample subsequently placed in the instrument, providing erroneous data. Fortunately, with the above exception, preparing samples that have been functionalized is not much different than standard preparation procedures. However, methods for analysis may have to be modified in order to obtain good, consistent data.</para>
+        <para id="id1171163278557">A common method for the analysis of surface modified material is angle resolved X-ray photoelectron spectroscopy (ARXPS). ARXPS is a non-destructive alternative to sputtering, as it relies upon using a series of small angles to analyze the top layer of the sample, giving a better picture of the surface than standard XPS. ARXPS allows for the analysis of the topmost layer of atoms to be analyzed, as opposed to standard XPS, which will analyze a few layers of atoms into the sample, as illustrated in <link target-id="id1171192627500"/>. ARXPS is often used to analyze surface contaminations, such as oxidation, and surface modification or passivation. Though the methodology and limitations are beyond the scope of this module, it is important to remember that, like normal XPS, ARXPS assumes homogeneous layers are present in samples, which can give erroneous data, should the layers be heterogeneous. 
+
+</para>
+
+<figure id="id1171192627500"><media id="id1171192627500_media" alt=""><image mime-type="image/jpg" src="../../media/graphics4-1fd6.jpg" id="id1171192627500__onlineimage" width="500" print-width="5in"/></media><caption>Schematic representation of (a) a standard XPS analysis and (b) ARXPS on a multilayer sample.</caption></figure>
+
+        
+        
+      </section>
+    </section>
+    <section id="id1171167575309">
+      <title>Limitations of XPS</title>
+      <para id="id7622063">There are many limitations to XPS that are not based on the samples or preparation, but on the machine itself. One such limitation is that XPS cannot detect hydrogen or helium. This, of course, leads to a ratio of elements in the sample that is not entirely accurate, as there is always some amount of hydrogen. It is a common fallacy to assume the percent of atoms obtained from XPS data are completely accurate due to this presence of undetected hydrogen (<link target-id="id1171167558279"/>). </para>
+      <para id="id1171185306514">It is possible to indirectly measure the amount of hydrogen in a sample using XPS, but it is not very accurate and has to be done in a roundabout, often time consuming manner. If the sample contains hydrogen with a partial positive charge (i.e. OH), the sample can be washed in sodium naphthalenide (C<sub>10</sub>H<sub>8</sub>Na). This replaces this hydrogen with sodium, which can then be measured. The sodium to oxygen ratio that is obtained infers the hydrogen to oxygen ratio, assuming that all the hydrogen atoms have reacted.</para>
+      <para id="id7864154">XPS can only give an average measurement, as the electrons lower down in the sample will lose more energy as they pass other atoms while the electrons on the surface retain their original kinetic energy. The electrons from lower layers can also undergo inelastic or elastic scattering, seen in <link target-id="id1171176343367"/>. This scattering may have a significant impact on data at higher angles of emission. The beam itself is also relatively wide, with the smallest width ranging from 10 – 200 μm, lending to the observed average composition inside the beam area. Due to this, XPS cannot differentiate sections of elements if the sections are smaller than the size of the beam.
+
+</para>
+
+<figure id="id1171176343367"><media id="id1171176343367_media" alt=""><image mime-type="image/jpg" src="../../media/graphics5-8119.jpg" id="id1171176343367__onlineimage" width="350" print-width="3.5in"/> </media><caption>Schematic representation of (a) no scattering, (b) inelastic scattering, and (c) elastic scattering.</caption></figure>
+
+      
+      <para id="id1171187268552">Sample reaction or degredation are important considerations. Caution should be exercised when analyzing polymers, as they are often chemically active and X-rays will provide energy to start degrading the polymer, altering the properties of the sample. One method found to help overcome this particular limitation is to use angle-resolved X-ray photoelectron spectroscopy (ARXPS). XPS can often reduce certain metal salts, such as Cu<sup>2+</sup>. This reduction will give peaks that indicate a certain set of properties or chemical environments when it could be completely different. It needs to be understood that charges can build up on the surface of the sample due to a number of reasons, specifically due to the loss of electrons during the XPS experiment. The charge on the surface will interact with the electrons escaping from the sample, affecting the data obtained. If the charge collecting is positive, the electrons that have been knocked off will be attracted to the charge, slowing the electrons. The detector will pick up a lower kinetic energy of the electrons, and thus calculate a different binding energy than the one expected, giving peaks which could be labeled with an incorrect oxidation state or chemical environment. To overcome this, the spectra must be charge referenced by one of the following methods: using the naturally occurring graphite peak as a reference, sputtering with gold and using the gold peak as a reference or flooding the sample with the ion gun and waiting until the desired peak stops shifting.</para>
+      
+      <section id="id1171189143108">
+        <title>Limitations with surfactants and sputtering</title>
+        <para id="id1171180729256">While it is known that sputtering is destructive, there are a few other limitations that are not often considered. As mentioned above, the beam of X-rays is relatively large, giving an average composition in the analysis. Sputtering has the same limitation. If the surfactant or layers are not homogeneous, then when the sputtering is finished and detection begins, the analysis will show a homogeneous section, due to the size of both the beam and sputtered area, while it is actually separate sections of elements. </para>
+        <para id="id7636943">The chemistry of the compounds can be changed with sputtering, as it removes atoms that were bonded, changing the oxidation state of a metal or the hybridization of a non-metal. It can also introduce charges if the sample is non-conducting or supported on a non-conducting surface.</para>
+      </section>
+    </section>
+    <section id="id1171180569655">
+      <title>Bibliography</title>
+      <list id="id1171179167988" list-type="bulleted"><item>A. W. Apblett, A. C. Warren, and A. R. Barron, <emphasis effect="italics">Chem. Mater.</emphasis>, 1992, <emphasis effect="bold">4</emphasis>, 167. </item>
+
+        <item>A. Herrera-Gomez, J. T. Grant, P. J. Cumpson, M. Jenko, F. S. Aguirre-Tostado, C. R. Brundle, T. Conrad, G. Conti, C. S. Fadley, J. Fulghum, K. Kobayashi, L. Kövér, H. Nohira, R. L. Opila, S. Oswald, R. W. Paynter, R. M. Wallace, W. S. M. Werner, and J. Wolstenhome. <emphasis effect="italics">Surf. Interface Anal.</emphasis>, 2009, <emphasis effect="bold">41</emphasis>, 840.</item>
+
+        <item>C. C. Landry, J. A. Davis, A. W. Apblett, and A. R. Barron. <emphasis effect="italics">J. Mater. Chem.</emphasis>, 1993, <emphasis effect="bold">3</emphasis>, 597.</item>
+
+<item>S. F. Mao, Z. M. Zhang, K. Tokesi, A. Csik, J. Toth, R. J. Bereczky, and Z. J. Ding. <emphasis effect="italics">Surf. Interface Anal.</emphasis>, 2008, <emphasis effect="bold">40</emphasis>, 728.</item>
+
+        <item>J. F. Moulden, W. F. Stickle, P. E. Sobol, and K. D. Bumben. <emphasis effect="italics">Handbook of X-ray Photoelectron Spectroscopy</emphasis>, Physical Electronics Inc. (1995).</item>
+
+<item>J. P. Sibilia. <emphasis effect="italics">Materials Characterization and Chemical Analysis</emphasis>, 2<sup>nd</sup> edn., Wiley–VCH (1996).</item>
+</list>
+    </section>
+  </content>
+</document>

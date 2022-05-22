@@ -1,0 +1,1569 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Dynamic Light Scattering</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50236</md:content-id>
+  <md:title>Dynamic Light Scattering</md:title>
+  <md:abstract/>
+  <md:uuid>3fc98dad-934d-45e6-a19f-c0a1cf440d43</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1172782919409">
+      <title>Introduction </title>
+      <para id="import-auto-id1172772857421">Dynamic light scattering (DLS), which is also known as photon correlation spectroscopy (PCS) or quasi-elastic light scattering (QLS), is a spectroscopy method used in the fields of chemistry, biochemistry, and physics to determine the size distribution of particles (polymers, proteins, colloids, etc.) in solution or suspension. In the DLS experiment, normally a laser provides the monochromatic incident light, which impinges onto a solution with small particles in Brownian motion. And then through the Rayleigh scattering process, particles whose sizes are sufficiently small compared to the wavelength of the incident light will diffract the incident light in all direction with different wavelengths and intensities as a function of time. Since the scattering pattern of the light is highly correlated to the size distribution of the analyzed particles, the size-related information of the sample could be then acquired by mathematically processing the spectral characteristics of the scattered light.</para><para id="import-auto-id1172783981300">Herein a brief introduction of basic theories of DLS will be demonstrated, followed by descriptions and guidance  on the instrument itself and the sample preparation and measurement process. Finally, data analysis of the DLS measurement, and the applications of DLS as well as the comparison against other size-determine techniques will be shown and summarized. </para></section>
+    <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1172762154266"><title>Theory</title><para id="import-auto-id1172785938319">The theory of DLS can be introduced utilizing a model system of spherical particles in solution. According to the Rayleigh scattering (<link target-id="import-auto-id1172770441036"/>), when a sample of particles with diameter smaller than the wavelength of the incident light, each particle will diffract the incident light in all directions, while the intensity <emphasis effect="italics">I</emphasis> is determined by <link target-id="eip-74"/>, where <emphasis effect="italics">I</emphasis><sub>0</sub> and <emphasis effect="italics">λ</emphasis> is the intensity and wavelength of the unpolarized incident light, <emphasis effect="italics">R</emphasis> is the distance to the particle, <emphasis effect="italics">θ</emphasis> is the scattering angel, <emphasis effect="italics">n</emphasis> is the refractive index of the particle, and <emphasis effect="italics">r</emphasis> is the radius of the particle.</para><figure id="import-auto-id1172770441036"><media id="import-auto-id1172766571940" alt="">
+		<image mime-type="image/png" src="../../media/graphics1-8cf5.png" width="400" print-width="4in"/>
+	</media>
+	<caption>Scheme of Rayleigh scattering.</caption></figure><equation id="eip-74"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>I</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mtext>cos</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mi>θ</m:mi>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mn>2R</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mfrac>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
+                    <m:mn>2π</m:mn>
+                    <m:mi>λ</m:mi>
+                  </m:mfrac>
+                  <m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>n</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>n</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:msup>
+                    <m:mi>r</m:mi>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{I=I rSub { size 8{0} }  {  {1+"cos" rSup { size 8{2} } θ}  over  {2R rSup { size 8{2} } } }  \(  {  {2π}  over  {λ} }  \)  rSup { size 8{4} }  \(  {  {n rSup { size 8{2} }  - 1}  over  {n rSup { size 8{2} } +2} }  \)  rSup { size 8{2} } r rSup { size 8{6} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+     </equation>
+
+
+<para id="import-auto-id1172791476493">If that diffracted light is projected as an image onto a screen, it will generate a “speckle" pattern (<link target-id="import-auto-id1172777749265"/>); the dark areas represent regions where the diffracted light from the particles arrives out of phase interfering destructively and the bright area represent regions where the diffracted light arrives in phase interfering constructively.</para>
+
+<figure id="import-auto-id1172777749265"><media id="import-auto-id1172765822524" alt="">
+		<image mime-type="image/png" src="../../media/graphics2-5c26.png" width="400" print-width="4in"/>
+	</media>
+	<caption>Typical speckle pattern. J. W. Goodman, <emphasis effect="italics">J. Opt. Soc. Am.</emphasis>, 1976, <emphasis effect="bold">66</emphasis>, 1145. Copyright: Optical Society of America (1976).</caption></figure><para id="import-auto-id1172785913361">In practice, particle samples are normally not stationary but moving randomly due to collisions with solvent molecules as described by the Brownian motion, <link target-id="eq2"/>, where <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi fontstyle="italic">Δx</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { \( Δx \)  rSup { size 8{2} } }} } {}</m:annotation></m:semantics></m:math> is the mean squared displacement in time <emphasis effect="italics">t</emphasis>, and <emphasis effect="italics">D</emphasis> is the diffusion constant, which is related to the hydrodynamic radius <emphasis effect="italics">a</emphasis> of the particle according to the Stokes-Einstein equation, <link target-id="eq3"/>, where <emphasis effect="italics">k</emphasis><emphasis effect="italics">B</emphasis> is Boltzmann constant, <emphasis effect="italics">T</emphasis> is the temperature, and <emphasis effect="italics">μ</emphasis> is viscosity of the solution. Importantly, for a system undergoing Brownian motion, small particles should diffuse faster than large ones. </para>
+
+<equation id="eq2"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mover accent="true">
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi fontstyle="italic">Dx</m:mi>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo>¯</m:mo>
+                    </m:mover>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>Δt</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {overline  { \( Δx \)  rSup { size 8{2} } }} =2 ital "Dt"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+
+<equation id="eq3">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>D</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>k</m:mi>
+                        <m:mrow>
+                          <m:mi>B</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mi>T</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>πμ</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mi>a</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{D= {  {k rSub { size 8{B} } T}  over  {6 ital "πμ"a} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+
+
+<para id="import-auto-id1172785927872">As a result of the Brownian motion, the distance between particles is constantly changing and this results in a Doppler shift between the frequency of the incident light and the frequency of the scattered light. Since the distance between particles also affects the phase overlap/interfering of the diffracted light, the brightness and darkness of the spots in the “speckle” pattern will in turn fluctuate in intensity as a function of time when the particles change position with respect to each other. Then, as the rate of these intensity fluctuations depends on how fast the particles are moving (smaller particles diffuse faster), information about the size distribution of particles in the solution could be acquired by processing the fluctuations of the intensity of scattered light. <link target-id="import-auto-id1172768960757"/> shows the hypothetical fluctuation of scattering intensity of larger particles and smaller particles.</para><figure id="import-auto-id1172768960757"><media id="import-auto-id1172762374389" alt="">
+		<image mime-type="image/png" src="../../media/graphics3-0344.png" width="400" print-width="4in"/>
+	</media>
+	
+<caption>Hypothetical fluctuation of scattering intensity of larger particles and smaller particles.</caption></figure><para id="import-auto-id1172777512617">In order to mathematically process the fluctuation of intensity, there are several principles/terms to be understood. First, the intensity correlation function is used to describe the rate of change in scattering intensity by comparing the intensity <emphasis effect="italics">I</emphasis>(<emphasis effect="italics">t</emphasis>) at time <emphasis effect="italics">t</emphasis> to the intensity <emphasis effect="italics">I</emphasis>(<emphasis effect="italics">t </emphasis>+ <emphasis effect="italics">τ</emphasis>) at a later time (<emphasis effect="italics">t</emphasis> + τ), and is quantified and normalized by <link target-id="simpleaddmhml"/> and <link target-id="simpleadml"/>, where braces indicate averaging over <emphasis effect="italics">t</emphasis>.</para>
+
+
+
+
+<equation id="simpleaddmhml">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>G</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>τ</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">〈</m:mo>
+                      <m:mrow>
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>t</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mi>I</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>τ</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">〉</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{2} }  \( τ \) = langle I \( t \) I \( t+τ \)  rangle } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+
+<equation id="simpleadml">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>g</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>τ</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo stretchy="false">〈</m:mo>
+                        <m:mrow>
+                          <m:mi>I</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mi>I</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mi>t</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mi>τ</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">〉</m:mo>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="false">〈</m:mo>
+                          <m:mrow>
+                            <m:mi>I</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>t</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mo stretchy="false">〉</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{2} }  \( τ \) = {  { langle I \( t \) I \( t+τ \)  rangle }  over  { langle I \( t \)  rangle  rSup { size 8{2} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+
+<para id="import-auto-id1172777715472">Second, since it is not possible to know how each particle moves from the fluctuation, the electric field correlation function is instead used to correlate the motion of the particles relative to each other, and is defined by <link target-id="simpleaddmathl"/> and <link target-id="simpll"/>, where <emphasis effect="italics">E</emphasis>(<emphasis effect="italics">t</emphasis>) and <emphasis effect="italics">E</emphasis>(<emphasis effect="italics">t</emphasis> + <emphasis effect="italics">τ</emphasis>) are the scattered electric fields at times <emphasis effect="italics">t</emphasis> and <emphasis effect="italics">t</emphasis> + <emphasis effect="italics">τ</emphasis>.</para>
+
+
+<equation id="simpleaddmathl">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>G</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>τ</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">〈</m:mo>
+                      <m:mrow>
+                        <m:mi>E</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>t</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:msup>
+                          <m:mi>E</m:mi>
+                          <m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>τ</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">〉</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{1} }  \( τ \) = langle E \( t \) E rSup { size 8{*} }  \( t+τ \)  rangle } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+<equation id="simpll">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>g</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>τ</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo stretchy="false">〈</m:mo>
+                        <m:mrow>
+                          <m:mi>E</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:msup>
+                            <m:mi>E</m:mi>
+                            <m:mrow>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mi>t</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mi>τ</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">〉</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">〈</m:mo>
+                        <m:mrow>
+                          <m:mi>E</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:msup>
+                            <m:mi>E</m:mi>
+                            <m:mrow>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">〉</m:mo>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{1} }  \( τ \) = {  { langle E \( t \) E rSup { size 8{*} }  \( t+τ \)  rangle }  over  { langle E \( t \) E rSup { size 8{*} }  \( t \)  rangle } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+<para id="import-auto-id1172762185077">For a monodisperse system undergoing Brownian motion, <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) will decay exponentially with a decay rate Γ which is related by Brownian motion to the diffusivity by <link target-id="simaddmathml"/>, <link target-id="sdmathml"/>, and <link target-id="simpleadl"/>, where <emphasis effect="italics">q</emphasis> is the magnitude of the scattering wave vector and <emphasis effect="italics">q</emphasis><sup>2</sup> reflects the distance the particle travels, <emphasis effect="italics">n </emphasis>is the refraction index of the solution, and <emphasis effect="italics">θ </emphasis>is angle at which the detector is located.</para>
+
+
+<equation id="simaddmathml">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>g</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>τ</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mi>e</m:mi>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi fontstyle="italic">Γτ</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{1} }  \( τ \) =e rSup { size 8{ - Γτ} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+<equation id="sdmathml">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>Γ</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Dq</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{Γ= -  ital "Dq" rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+    </equation>  
+
+
+
+<equation id="simpleadl">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>q</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>4πn</m:mn>
+                      <m:mi>λ</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mtext>sin</m:mtext>
+                  <m:mfrac>
+                    <m:mi>θ</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{q= {  {4πn}  over  {λ} } "sin" {  {θ}  over  {2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+<para id="import-auto-id1172764871561">For a polydisperse system however, <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) can no longer be represented as a single exponential decay and must be represented as a intensity-weighed integral over a distribution of decay rates <emphasis effect="italics">G</emphasis>(Γ) by <link target-id="simplsdmathml"/>, where <emphasis effect="italics">G</emphasis>(Γ) is normalized, <link target-id="simpleathml"/>. </para>
+
+<equation id="simplsdmathml">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>g</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>τ</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∞</m:mo>
+                        </m:mrow>
+                      </m:msubsup>
+                      <m:mrow>
+                        <m:mi>G</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>Γ</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi fontstyle="italic">Γτ</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mi fontstyle="italic">dΓ</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{1} }  \( τ \) = Int rSub { size 8{0} }  rSup { size 8{ infinity } }  {G \( Γ \) e rSup { size 8{ - Γτ} } dΓ} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+<equation id="simpleathml">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msubsup>
+                      <m:mo stretchy="false">∫</m:mo>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∞</m:mo>
+                      </m:mrow>
+                    </m:msubsup>
+                    <m:mrow>
+                      <m:mi>G</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>Γ</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi fontstyle="italic">dΓ</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ Int rSub { size 8{0} }  rSup { size 8{ infinity } }  {G \( Γ \) dΓ} =1} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+
+<para id="import-auto-id1172776701180">Third, the two correlation functions above can be equated using the Seigert relationship based on the principles of Gaussian random processes (which the scattering light usually is), and can be expressed as <link target-id="simplddmathml"/>, where β is a factor that depends on the experimental geometry, and <emphasis effect="italics">B </emphasis>is the long-time value of <emphasis effect="italics">g</emphasis><sub>2</sub>(<emphasis effect="italics">τ</emphasis>), which is referred to as the baseline and is normally equal to 1. <link target-id="import-auto-id1172779322492"/> shows the decay of <emphasis effect="italics">g</emphasis><sub>2</sub>(<emphasis effect="italics">τ</emphasis>) for small size sample and large size sample.</para>
+
+<equation id="simplddmathml">
+<m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>g</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>τ</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>β</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">[</m:mo>
+                  <m:msub>
+                    <m:mi>g</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>τ</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:msup>
+                    <m:mo stretchy="false">]</m:mo>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{2} }  \( τ \) =B+β \[ g rSub { size 8{1} }  \( τ \)  \]  rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+
+
+<figure id="import-auto-id1172779322492"><media id="import-auto-id1172769971553" alt="">
+		<image mime-type="image/png" src="../../media/graphics4-e195.png" width="450" print-width="4.5in"/>
+	</media>
+	
+<caption>Decay of <emphasis effect="italics">g</emphasis><sub>2</sub>(<emphasis effect="italics">τ</emphasis>) for small size sample and large size sample. Malvern Instruments Ltd., Zetasizer Nano Series User Manual, 2004. Copyright: Malvern Instruments Ltd. (2004).</caption></figure><para id="import-auto-id2239009">When determining the size of particles in solution using DLS, <emphasis effect="italics">g</emphasis><sub>2</sub>(<emphasis effect="italics">τ</emphasis>) is calculated based on the time-dependent scattering intensity, and is converted through the Seigert relationship to <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) which usually is an exponential decay or a sum of exponential decays. The decay rate Γ is then mathematically determined (will be discussed in section ) from the <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) curve, and the value of diffusion constant <emphasis effect="italics">D</emphasis> and hydrodynamic radius <emphasis effect="italics">a</emphasis> can be easily calculated afterwards. </para></section><section id="import-auto-id1172785927495">
+      <title>Experimental </title>
+      <section id="import-auto-id2368512">
+        <title>Instrument of DLS </title>
+        <para id="import-auto-id2516403">In a typical DLS experiment, light from a laser passes through a polarizer to define the polarization of the incident beam and then shines on the scattering medium. When the sizes of the analyzed particles are sufficiently small compared to the wavelength of the incident light, the incident light will scatters in all directions known as the Rayleigh scattering. The scattered light then passes through an analyzer, which selects a given polarization and finally enters a detector, where the position of the detector defines the scattering angle <emphasis effect="italics">θ</emphasis>. In addition, the intersection of the incident beam and the beam intercepted by the detector defines a scattering region of volume <emphasis effect="italics">V</emphasis>. As for the detector used in these experiments, a phototube is normally used whose dc output is proportional to the intensity of the scattered light beam. <link target-id="import-auto-id1172785243764"/> shows a schematic representation of the light-scattering experiment.</para><figure id="import-auto-id1172785243764"><media id="import-auto-id1172785921117" alt="">
+		<image mime-type="image/png" src="../../media/graphics5-9f43.png" width="500" print-width="5in"/>
+	</media>
+	
+<caption>A schematic representation of the light-scattering experiment. B. J. Berne and R. Pecora, <emphasis effect="italics">Dynamic Light Scattering: With Applications to Chemistry, Biology, and Physics</emphasis>, Dover, Mineola, NY (2000). Copyright: Dover Publications (2000).</caption></figure><para id="import-auto-id1172765557781">In modern DLS experiments, the scattered light spectral distribution is also measured. In these cases, a photomultiplier is the main detector, but the pre- and postphotomultiplier systems differ depending on the frequency change of the scattered light. The three different methods used are <emphasis effect="italics">filter</emphasis> (f &gt; 1 MHz), <emphasis effect="italics">homodyne</emphasis> (f &gt; 10 GHz), and<emphasis effect="italics"> heterodyne methods</emphasis> (f &lt; 1 MHz), as schematically illustrated in <link target-id="import-auto-id2015477"/>. Note that that homodyne and heterodyne methods use no monochromator of “filter” between the scattering cell and the photomultiplier, and optical mixing techniques are used for <emphasis effect="italics">heterodyne</emphasis> method. <emphasis effect="bold"/>shows the schematic illustration of the various techniques used in light-scattering experiments.</para><figure id="import-auto-id2015477"><media id="import-auto-id1782211" alt="">
+		<image mime-type="image/png" src="../../media/graphics6-c680.png" height="270" width="453" print-width="4 in"/>
+	</media>
+	
+<caption>Schematic illustration of the various techniques used in light-scattering experiments: (a) filter methods; (b) homodyne; (c) heterodyne. B. J. Berne and R. Pecora, <emphasis effect="italics">Dynamic Light Scattering: With Applications to Chemistry, Biology, and Physics</emphasis>, Dover, Mineola, NY (2000). Copyright: Dover Publications (2000).</caption></figure><para id="import-auto-id1172777334722">As for an actual DLS instrument, take the Zetasizer Nano (Malvern Instruments Ltd.)  as an example (<link target-id="import-auto-id1172762111164"/>), it actually looks like nothing other than a big box, with components of power supply, optical unit (light source and detector), computer connection, sample holder, and accessories. The detailed procedure of how to use the DLS instrument will be introduced afterwards.</para><figure id="import-auto-id1172762111164"><media id="import-auto-id2433295" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics7-4488.jpg" width="400" print-width="3in"/>
+	</media>
+	
+<caption>Photo of a DLS instrument at Rice University (Zetasizer Nano, Malvern Instruments Ltd.). </caption></figure></section>
+      <section id="import-auto-id1172769715528">
+        <title>Sample preparation</title>
+        <para id="import-auto-id1172795136326">Although different DLS instruments may have different analysis ranges, we are usually looking at particles with a size range of nm to μm in solution. For several kinds of samples, DLS can give results with rather high confidence, such as monodisperse suspensions of unaggregated nanoparticles that have radius &gt; 20 nm, or polydisperse nanoparticle solutions or stable solutions of aggregated nanoparticles that have radius in the 100 - 300 nm range with a polydispersity index of 0.3 or below. For other more challenging samples such as solutions containing large aggregates, bimodal solutions, very dilute samples, very small nanoparticles, heterogeneous samples, or unknown samples, the results given by DLS could not be really reliable, and one must be aware of the strengths and weaknesses of this analytical technique.</para>
+        <para id="import-auto-id1172777984674">Then, for the sample preparation procedure, one important question is how much materials should be submit, or what is the optimal concentration of the solution. Generally, when doing the DLS measurement, it is important to submit enough amount of material in order to obtain sufficient signal, but if the sample is overly concentrated, then light scattered by one particle might be again scattered by another (known as multiple scattering), and make the data processing less accurate. An ideal sample submission for DLS analysis has a volume of 1 – 2 mL and is sufficiently concentrated as to have strong color hues, or opaqueness/turbidity in the case of a white or black sample. Alternatively, 100 - 200 μL of highly concentrated sample can be diluted to 1 mL or analyzed in a low-volume microcuvette. </para>
+        <para id="import-auto-id2736948">In order to get high quality DLS data, there are also other issues to be concerned with. First is to minimize particulate contaminants, as it is common for a single particle contaminant to scatter a million times more than a suspended nanoparticle, by using ultra high purity water or solvents, extensively rinsing pipettes and containers, and sealing sample tightly. Second is to filter the sample through a 0.2 or 0.45 μm filter to get away of the visible particulates within the sample solution. Third is to avoid probe sonication to prevent the particulates ejected from the sonication tip, and use the bath sonication in stead.</para></section>
+      <section id="import-auto-id1172786073445">
+        <title>Measurement</title>
+        <para id="import-auto-id1172776702310">Now that the sample is readily prepared and put into the sample holder of the instrument, the next step is to actually do the DLS measurement. Generally the DLS instrument will be provided with software that can help you to do the measurement rather easily, but it is still worthwhile to understand the important parameters used during the measurement.</para>
+        <para id="import-auto-id2031022">Firstly, the laser light source with an appropriate wavelength should be selected. As for the Zetasizer Nano series (Malvern Instruments Ltd.), either a 633 nm “red” laser or a 532 nm “green” laser is available. One should keep in mind that the 633 nm laser is least suitable for blue samples, while the 532 nm laser is least suitable for red samples, since otherwise the sample will just absorb a large portion of the incident light.</para>
+        <para id="import-auto-id2025904">Then, for the measurement itself, one has to select the appropriate stabilization time and the duration time. Normally, longer striation/duration time can results in more stable signal with less noises, but the time cost should also be considered. Another important parameter is the temperature of the sample, as many DLS instruments are equipped with the temperature-controllable sample holders, one can actually measure the size distribution of the data at different temperature, and get extra information about the thermal stability of the sample analyzed. </para>
+        <para id="import-auto-id2724493">Next, as is used in the calculation of particle size from the light scattering data, the viscosity and refraction index of the solution are also needed. Normally, for solutions with low concentration, the viscosity and refraction index of the solvent/water could be used as an approximation.</para>
+        <para id="import-auto-id2060132">Finally, to get data with better reliability, the DLS measurement on the same sample will normally be conducted multiple times, which can help eliminate unexpected results and also provide additional error bar of the size distribution data.</para>
+      </section>
+    </section>
+    <section id="import-auto-id1172762595183">
+      <title>Data analysis</title>
+      <para id="import-auto-id1172764858695">Although size distribution data could be readily acquired from the software of the DLS instrument, it is still worthwhile to know about the details about the data analysis process.</para>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2763304"><title>Cumulant method</title><para id="import-auto-id1172786896907">As is mentioned in <link target-id="import-auto-id1172762154266"/>, the decay rate Γ is mathematically determined from the <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) curve; if the sample solution is monodispersed, <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) could be regard as a single exponential decay function <emphasis effect="italics">e</emphasis><sup>-Γ</sup><emphasis effect="italics">τ</emphasis>, and the decay rate Γ can be in turn easily calculated. However, in most of the practical cases, the sample solution is always polydispersed, <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) will be the sum of many single exponential decay functions with different decay rates, and then it becomes significantly difficult to conduct the fitting process. </para><para id="import-auto-id2564882">There are however, a few methods developed to meet this mathematic challenge: linear fit and cumulant expansion for mono-modal distribution, exponential sampling and CONTIN regularization for non-monomodal distribution. Among all these approaches, cumulant expansion is most common method and will be illustrated in detail in this section.  </para>
+        <para id="import-auto-id1172777200513">Generally, the cumulant expansion method is based on two relations: one between <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) and the moment-generating function of the distribution, and one between the logarithm of <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) and the cumulant-generating function of the distribution. </para><para id="import-auto-id1172765814625">To start with, the form of <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) is equivalent to the definition of the moment-generating function <emphasis effect="italics">M</emphasis>(-<emphasis effect="italics">τ</emphasis>, Γ) of the distribution <emphasis effect="italics">G</emphasis>(Γ), <link target-id="simplsaddmathml"/>. </para>
+
+<equation id="simplsaddmathml">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>g</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∞</m:mo>
+                            </m:mrow>
+                          </m:msubsup>
+                          <m:mrow>
+                            <m:mi>G</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>Γ</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mi fontstyle="italic">Γτ</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mi fontstyle="italic">dΓ</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>M</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>τ</m:mi>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mi>Γ</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{g rSub { size 8{1} }  \( τ \) = Int rSub { size 8{0} }  rSup { size 8{ infinity } }  {G \( Γ \) e rSup { size 8{ - Γτ} } dΓ} =M \(  - τ,Γ \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<para id="import-auto-id1172777124988">The <emphasis effect="italics">m</emphasis>th moment of the distribution <emphasis effect="italics">m</emphasis><emphasis effect="italics">m</emphasis>(Γ) is given by the <emphasis effect="italics">m</emphasis>th derivative of <emphasis effect="italics">M</emphasis>(-<emphasis effect="italics">τ</emphasis>, Γ) with respect to <emphasis effect="italics">τ</emphasis>, <link target-id="simpleaaddmathml"/>. </para>
+
+<equation id="simpleaaddmathml">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>m</m:mi>
+                      <m:mrow>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>Γ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mo stretchy="false">∫</m:mo>
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">∞</m:mo>
+                          </m:mrow>
+                        </m:msubsup>
+                        <m:mrow>
+                          <m:mi>G</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>Γ</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:msup>
+                            <m:mi>Γ</m:mi>
+                            <m:mrow>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi fontstyle="italic">Γτ</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mi fontstyle="italic">dΓ</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>τ</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{m} }  \( Γ \) = Int rSub { size 8{0} }  rSup { size 8{ infinity } }  {G \( Γ \) Γ rSup { size 8{m} } e rSup { size 8{ - Γτ} } dΓ}  \lline  rSub { size 8{ - τ=0} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<para id="import-auto-id2378852">Similarly, the logarithm of <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) is equivalent to the definition of the cumulant-generating function<emphasis effect="italics"> K</emphasis>(-<emphasis effect="italics">τ</emphasis>, Γ), EQ, and the <emphasis effect="italics">m</emphasis>th cumulant of the distribution <emphasis effect="italics">k</emphasis><emphasis effect="italics">m</emphasis>(Γ) is given by the <emphasis effect="italics">m</emphasis>th derivative of <emphasis effect="italics">K</emphasis>(-<emphasis effect="italics">τ</emphasis>, Γ) with respect to <emphasis effect="italics">τ</emphasis>, <link target-id="simapleaddmathml"/> and <link target-id="simpleaddmathmal"/>. </para>
+
+<equation id="simapleaddmathml">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>ln</m:mtext>
+                    <m:msub>
+                      <m:mi>g</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>ln</m:mtext>
+                    </m:mrow>
+                    <m:mi>M</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>τ</m:mi>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mi>Γ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>K</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>τ</m:mi>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mi>Γ</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{"ln"g rSub { size 8{1} }  \( τ \) ="ln"M \(  - τ,Γ \) =K \(  - τ,Γ \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<equation id="simpleaddmathmal">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>k</m:mi>
+                      <m:mrow>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>Γ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>d</m:mi>
+                            <m:mrow>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mi>K</m:mi>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>τ</m:mi>
+                          </m:mrow>
+                          <m:mi>,</m:mi>
+                          <m:mi>Γ</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>τ</m:mi>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mrow>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mo stretchy="false">∣</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>τ</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{k rSub { size 8{m} }  \( Γ \) = {  {d rSup { size 8{m} } K \(  - τ,Γ \) }  over  {d \(  - τ \)  rSup { size 8{m} } } }  \lline  rSub { size 8{ - τ=0} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<para id="import-auto-id1172777358658">By making use of that the cumulants, except for the first, are invariant under a change of origin, the <emphasis effect="italics">k</emphasis><emphasis effect="italics">m</emphasis>(Γ) could be rewritten in terms of the moments about the mean as <link target-id="simpleaddmaaathml"/>, <link target-id="simpleadadmathml"/>, <link target-id="simpaaaleaddmathml"/>, and <link target-id="simpleaddmathmaal"/>, where μ<emphasis effect="italics">m</emphasis> are the moments about the mean, defined as given in <link target-id="simpleadaaadmathml"/>.</para>
+
+
+<equation id="simpleaddmaaathml">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>k</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mo stretchy="false">∫</m:mo>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">∞</m:mo>
+                            </m:mrow>
+                          </m:msubsup>
+                          <m:mrow>
+                            <m:mi>G</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>Γ</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi fontstyle="italic">ΓdΓ</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>Γ</m:mi>
+                        <m:mo>¯</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{k rSub { size 8{1} }  \( τ \) = Int rSub { size 8{0} }  rSup { size 8{ infinity } }  {G \( Γ \) ΓdΓ} = {overline  {Γ}} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+
+<equation id="simpleadadmathml">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>k</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{k rSub { size 8{2} }  \( τ \) =μ rSub { size 8{2} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<equation id="simpaaaleaddmathml">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>k</m:mi>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{k rSub { size 8{3} }  \( τ \) =μ rSub { size 8{3} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+       </equation>
+
+
+<equation id="simpleaddmathmaal">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>k</m:mi>
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+                          <m:mrow>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msubsup>
+                          <m:mn>3μ</m:mn>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msubsup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">⋯</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{k rSub { size 8{4} }  \( τ \) =μ rSub { size 8{4} }  - 3μ rSub { size 8{2} }  rSup { size 8{2} }  dotsaxis } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<equation id="simpleadaaadmathml">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>μ</m:mi>
+                      <m:mrow>
+                        <m:mi>m</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mo stretchy="false">∫</m:mo>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∞</m:mo>
+                        </m:mrow>
+                      </m:msubsup>
+                      <m:mrow>
+                        <m:mi>G</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>Γ</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>Γ</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mover accent="true">
+                            <m:mi>Γ</m:mi>
+                            <m:mo>¯</m:mo>
+                          </m:mover>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mi>m</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mi fontstyle="italic">dΓ</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{m} } = Int rSub { size 8{0} }  rSup { size 8{ infinity } }  {G \( Γ \)  \( Γ -  {overline  {Γ}}  \)  rSup { size 8{m} } dΓ} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<para id="import-auto-id2083171">Based on the Taylor expansion of <emphasis effect="italics">K</emphasis>(-<emphasis effect="italics">τ</emphasis>, Γ) about <emphasis effect="italics">τ </emphasis>= 0, the logarithm of <emphasis effect="italics">g</emphasis><sub>1</sub>(<emphasis effect="italics">τ</emphasis>) is given as <link target-id="simplaeaddmathmaal"/>. </para>
+
+
+<equation id="simplaeaddmathmaal">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>ln</m:mtext>
+                    <m:msub>
+                      <m:mi>g</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>K</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>τ</m:mi>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mi>Γ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mover accent="true">
+                          <m:mi>Γ</m:mi>
+                          <m:mo>¯</m:mo>
+                        </m:mover>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>τ</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>k</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mi>!</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>τ</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>k</m:mi>
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mi>!</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>τ</m:mi>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>k</m:mi>
+                          <m:mrow>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                          <m:mi>!</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mi>τ</m:mi>
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">⋯</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{"ln"g rSub { size 8{1} }  \( τ \) =K \(  - τ,Γ \) = -  {overline  {Γ}} τ+ {  {k rSub { size 8{2} } }  over  {2!} } τ rSup { size 8{2} }  -  {  {k rSub { size 8{3} } }  over  {3!} } τ rSup { size 8{3} } + {  {k rSub { size 8{4} } }  over  {4!} } τ rSup { size 8{4} }  dotsaxis } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<para id="import-auto-id1172795006151">Importantly, if look back at the Seigert relationship in the logarithmic form, <link target-id="asimpleaddmathml"/>. </para>
+
+<equation id="asimpleaddmathml">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>ln</m:mtext>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msub>
+                      <m:mi>g</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>B</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>ln</m:mtext>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>β</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mtext>ln</m:mtext>
+                    <m:msub>
+                      <m:mi>g</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{"ln" \( g rSub { size 8{2} }  \( τ \)  - B \) ="ln"β+2"ln"g rSub { size 8{1} }  \( τ \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<para id="import-auto-id1830656">The measured data of <emphasis effect="italics">g</emphasis><sub>2</sub>(<emphasis effect="italics">τ</emphasis>) could be fitted with the parameters of <emphasis effect="italics">k</emphasis><emphasis effect="italics">m</emphasis> using the relationship of <link target-id="simpleaddmaaaaathml"/>, where <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>Γ</m:mi><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {Γ}} } {}</m:annotation></m:semantics></m:math> (<emphasis effect="italics">k</emphasis><sub>1</sub>), <emphasis effect="italics">k</emphasis><sub>2</sub>, and <emphasis effect="italics"> k</emphasis><sub>3</sub> describes the average, variance, and skewness (or asymmetry) of the decay rates of the distribution, and polydispersity index <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>k</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msup><m:mover accent="true"><m:mi>Γ</m:mi><m:mo>¯</m:mo></m:mover><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ= {  {k rSub { size 8{2} } }  over  { {overline  {Γ}}  rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> is used to indicate the width of the distribution. And parameters beyond <emphasis effect="italics">k</emphasis><sub>3</sub> are seldom used to prevent overfitting the data. Finally, the size distribution can be easily calculated from the decay rate distribution as described in <link target-id="import-auto-id1172762154266"/>. <link target-id="import-auto-id1172769802497"/> shows an example of data fitting using the cumulant method.</para>
+
+
+<equation id="simpleaddmaaaaathml">
+<m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>ln</m:mtext>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msub>
+                      <m:mi>g</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>τ</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mi>B</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>ln</m:mtext>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>β</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mover accent="true">
+                        <m:mi>Γ</m:mi>
+                        <m:mo>¯</m:mo>
+                      </m:mover>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>τ</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>k</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mi>!</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>τ</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>k</m:mi>
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mi>!</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mi>τ</m:mi>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">⋯</m:mo>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{"ln" \( g rSub { size 8{2} }  \( τ \)  - B \) ="ln"β+2 \(  -  {overline  {Γ}} τ+ {  {k rSub { size 8{2} } }  over  {2!} } τ rSup { size 8{2} }  -  {  {k rSub { size 8{3} } }  over  {3!} } τ rSup { size 8{3} }  dotsaxis  \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+
+<figure id="import-auto-id1172769802497"><media id="import-auto-id1172780117635" alt="">
+		<image mime-type="image/png" src="../../media/graphics8-0553.png" width="400" print-width="4in"/>
+	</media>
+	
+<caption>Sample data taken for POPC vesicles formed by extrusion through polycarbonate membranes. The curve through the data is a fit of EQ to the data. The dashed curve shows the weighted residuals: the difference of the fit from the data divided by the uncertainty in each point. B. J. Frisken, <emphasis effect="italics">Appl. Optics</emphasis>, 2001, <emphasis effect="bold">40</emphasis>, 4087. Copyright: Optical Society of America (2001).</caption></figure><para id="import-auto-id1172786088089">When using the cumulant expansion method however, one should keep in mind that it is only suitable for monomodal distributions (Gaussian-like distribution centered about the mean), and for non-monomodal distributions, other methods like exponential sampling and CONTIN regularization should be applied instead.</para>
+      </section><section id="import-auto-id1172763842129">
+        <title>Three index of size distribution </title>
+        <para id="import-auto-id1172786484577">Now that the size distribution is able to be acquired from the fluctuation data of the scattered light using cumulant expansion or other methods, it is worthwhile to understand the three kinds of distribution index usually used in size analysis: number weighted distribution, volume weighted distribution, and intensity weighted distribution.</para>
+        <para id="import-auto-id1838131">First of all, based on all the theories discussed above, it should be clear that the size distribution given by DLS experiments is the intensity weighted distribution, as it is always the intensity of the scattering that is being analyzed. So for intensity weighted distribution, the contribution of each particle is related to the intensity of light scattered by that particle. For example, using Rayleigh approximation, the relative contribution for very small particles will be proportional to <emphasis effect="italics">a</emphasis><sup>6</sup>.</para>
+        <para id="import-auto-id1172781655418">For number weighted distribution, given by image analysis as an example, each particle is given equal weighting irrespective of its size, which means proportional to <emphasis effect="italics">a</emphasis><sup>0</sup>. This index is most useful where the absolute number of particles is important, or where high resolution (particle by particle) is required.</para>
+        <para id="import-auto-id1172769759361">For volume weighted distribution, given by laser diffraction as an example, the contribution of each particle is related to the volume of that particle, which is proportional to <emphasis effect="italics">a</emphasis><sup>3</sup>. This is often extremely useful from a commercial perspective as the distribution represents the composition of the sample in terms of its volume/mass, and therefore its potential money value.</para>
+        <para id="import-auto-id1172799592161">When comparing particle size data for the same sample represented using different distribution index, it is important to know that the results could be very different from number weighted distribution to intensity weighted distribution. This is clearly illustrated in the example below (<link target-id="import-auto-id1172781003005"/>), for a sample consisting of equal numbers of particles with diameters of 5 nm and 50 nm. The number weighted distribution gives equal weighting to both types of particles, emphasizing the presence of the finer 5 nm particles, whereas the intensity weighted distribution has a signal one million times higher for the coarser 50 nm particles. The volume weighted distribution is intermediate between the two. </para><figure id="import-auto-id1172781003005"><media id="import-auto-id1172763233835" alt="">
+		<image mime-type="image/png" src="../../media/graphics9-524c.png" width="500" print-width="5in"/>
+	</media>
+	
+<caption>Example of number, volume and intensity weighted particle size distributions for the same sample. Malvern Instruments Ltd., A Basic Guide to Particle Characterization, 2012. Copyright: Malvern Instrument Ltd. (2012).</caption></figure><para id="import-auto-id1172783301261">Furthermore, based on the different orders of correlation between the particle contribution and the particle size <emphasis effect="italics">a</emphasis>, it is possible to convert particle size data from one type of distribution to another type of distribution, and that is also why the DLS software can also give size distributions in three different forms (number, volume, and intensity), where the first two kinds are actually deducted from the raw data of intensity weighted distribution. </para>
+      </section>
+    </section>
+    <section id="import-auto-id1172798626419">
+      <title>An example of an application</title><para id="import-auto-id1172781536831">As the DLS method could be used in many areas towards size distribution such as polymers, proteins, metal nanoparticles, or carbon nanomaterials, here gives an example about the application of DLS in size-controlled synthesis of monodisperse gold nanoparticles. </para>
+      <para id="import-auto-id1172780662954">The size and size distribution of gold particles are controlled by subtle variation of the structure of the polymer, which is used to stabilize the gold nanoparticles during the reaction. These variations include monomer type, polymer molecular weight, end-group hydrophobicity, end-group denticity, and polymer concentration; a total number of 88 different trials have been conducted based on these variations. By using the DLS method, the authors are able to determine the gold particle size distribution for all these trials rather easily, and the correlation between polymer structure and particle size can also be plotted without further processing the data. Although other sizing techniques such as UV-V spectroscopy and TEM are also used in this paper, it is the DLS measurement that provides a much easier and reliable approach towards the size distribution analysis. </para>
+    </section>
+    <section id="import-auto-id1172770789848">
+      <title>Comparison with TEM and AFM</title>
+      <para id="import-auto-id1172770255029">Since DLS is not the only method available to determine the size distribution of particles, it is also necessary to compare DLS with the other common-used general sizing techniques, especially TEM and AFM. </para>
+      <para id="import-auto-id1172786973974">First of all, it has to be made clear that both TEM and AFM measure particles that are deposited on a substrate (Cu grid for TEM, mica for AFM), while DLS measures particles that are dispersed in a solution. In this way, DLS will be measuring the bulk phase properties and give a more comprehensive information about the size distribution of the sample. And for AFM or TEM, it is very common that a relatively small sampling area is analyzed, and the size distribution on the sampling area may not be the same as the size distribution of the original sample depending on how the particles are deposited. </para>
+      <para id="import-auto-id1172786535744">On the other hand however, for DLS, the calculating process is highly dependent on the mathematical and physical assumptions and models, which is, monomodal distribution (cumulant method) and spherical shape for the particles, the results could be inaccurate when analyzing non-monomodal distributions or non-spherical particles. Yet, since the size determining process for AFM or TEM is nothing more than measuring the size from the image and then using the statistic, these two methods can provide much more reliable data when dealing with “irregular” samples.</para>
+      <para id="import-auto-id1172768743683">Another important issue to consider is the time cost and complication of size measurement. Generally speaking, the DLS measurement should be a much easier technique, which requires less operation time and also cheaper equipment. And it could be really troublesome to analysis the size distribution data coming out from TEM or AFM images without specially programmed software.</para>
+      <para id="import-auto-id2100241">In addition, there are some special issues to consider when choosing size analysis techniques. For example, if the originally sample is already on a substrate (synthesized by the CVD method), or the particles could not be stably dispersed within solution, apparently the DLS method is not suitable. Also, when the particles tend to have a similar imaging contrast against the substrate (carbon nanomaterials on TEM grid), or tend to self-assemble and aggregate on the surface of the substrate, the DLS approach might be a better choice. </para>
+      <para id="import-auto-id1172766544041">In general research work however, the best way to do size distribution analysis is to combine these analyzing methods, and get complimentary information from different aspects. One thing to keep in mind, since the DLS actually measures the hydrodynamic radius of the particles, the size from DLS measurement is always larger than the size from AFM or TEM measurement. As a conclusion, the comparison between DLS and AFM/TEM is shown in <link target-id="eip-192"/>.</para><table id="eip-192" summary="Comparison between DLS, AFM and TEM.">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry/>
+    <entry><emphasis effect="bold">DLS</emphasis></entry>
+    <entry><emphasis effect="bold">AFM/TEM</emphasis></entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Sample preparation</emphasis></entry>
+    <entry>Solution</entry>
+    <entry>Substrate</entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Measurement</emphasis></entry>
+    <entry>Easy</entry>
+    <entry>Difficult</entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Sampling</emphasis></entry>
+    <entry>Bulk</entry>
+    <entry>Small area</entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Shape of particles</emphasis></entry>
+    <entry>Sphere</entry>
+    <entry>No requirement</entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Polydispersity</emphasis></entry>
+    <entry>Low</entry>
+    <entry>No requirement</entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Size range</emphasis></entry>
+    <entry>nm to um</entry>
+    <entry>nm to um</entry>
+  </row>
+  <row>
+    <entry><emphasis effect="bold">Size info.</emphasis></entry>
+    <entry>Hydrodynamic radius</entry>
+    <entry>Physical size</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+</tgroup><caption>Comparison between DLS, AFM and TEM.</caption>
+</table></section>
+    <section id="import-auto-id1172780098429">
+      <title>Conclusion</title>
+      <para id="import-auto-id1172786966838">In general, relying on the fluctuating Rayleigh scattering of small particles that randomly moves in solution, DLS is a very useful and rapid technique used in the size distribution of particles in the fields of physics, chemistry, and bio-chemistry, especially for monomodally dispersed spherical particles, and by combining with other techniques such as AFM and TEM, a comprehensive understanding of the size distribution of the analyte can be readily acquired. </para>
+    </section>
+    <section id="import-auto-id1172765547969">
+      <title>Bibliography</title>
+      <list id="import-auto-id1172764674432" list-type="bulleted"><item>B. J. Berne and R. Pecora, <emphasis effect="italics">Dynamic Light Scattering: With Applications to Chemistry, Biology, and Physics</emphasis>; John Wiley &amp; Sons, Inc., New York (2000).</item>
+        <item>Malvern Instruments Ltd., <emphasis effect="italics">Zetasizer Nano Series User Manual</emphasis>, 2004.</item>
+        <item>B. J. Frisken, <emphasis effect="italics">Appl. Optics</emphasis>, 2001, <emphasis effect="bold">40</emphasis>, 4087.</item>
+        <item>D. E. Koppel, <emphasis effect="italics">J. Chem. Phys.</emphasis>, 1972, <emphasis effect="bold">57</emphasis>, 4814.</item>
+        <item>Malvern Instruments Ltd., <emphasis effect="italics">A Basic Guide to Particle Characterization</emphasis>, 2012.</item>
+        <item>Z. Wang, B. Tan, I. Hussain, N. Schaeffer, M. F. Wyatt, M. Brust, and A. I. Cooper, <emphasis effect="italics">Langmuir</emphasis>, 2006, <emphasis effect="bold">23</emphasis>, 885.</item>
+        <item>C. M. Hoo, N. Starostin, P. West, and M. L. Mecartney, <emphasis effect="italics">J.  Nanopart. Res.</emphasis>, 2008,<emphasis effect="bold"> 10</emphasis>, 89.</item>
+        <item>R. F. Domingos, M. A. Baalousha, Y. Ju-Nam, M. M. Reid, N. Tufenkji, J. R. Lead, G. G. Leppard, and K. J. Wilkinson, <emphasis effect="italics">Environ. Sci. Technol.</emphasis>, 2009, <emphasis effect="bold">43</emphasis>, 7277.</item>
+      </list></section>
+  </content>
+</document>

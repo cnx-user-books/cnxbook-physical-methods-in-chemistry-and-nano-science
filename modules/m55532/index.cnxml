@@ -1,0 +1,104 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Finding a Representative Lithology</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55532</md:content-id>
+  <md:title>Finding a Representative Lithology</md:title>
+  <md:abstract/>
+  <md:uuid>98a47d17-7bdb-435a-a547-ce34abdbbac2</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1167899735703"><title>From sediment to sample</title><para id="import-auto-id1167900562447">Sample sediments are typically sent in a large plastic bag inside a brown paper bag labeled with the company or organization name, drill site name and number, and the depth the sediment was taken (in meters). 
+      </para>
+      <para id="import-auto-id1167899730794">The first step in determining a lithology is to prepare a sample from your bulk sediment. To do this, you will need to crush some of the bulk rocks of your sediment into finer grains (<link target-id="Hammer"/>). You will need a hard surface, a hammer or mallet, and your sediment. An improvised container such as the cardboard one shown in <link target-id="Hammer"/> may be useful in containing fragments that try to escape the hard surface during vigorous hammering. Remove the plastic sediment bag from the brown mailer bag. Empty approximately 10-20 g of bulk sediment onto the hard surface. Repeatedly strike the larger rock sized portions of the sediment until the larger units are broken into grains that are approximately the size of a grain of rice. 
+      
+      </para><figure id="Hammer"><media id="Crush" alt="Crushing">
+    <image mime-type="image/jpeg" src="../../media/Figure 1-60a4.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A hammer and hard surface for crushing. The makeshift cardboard shield on the left can be placed around the hard surface to control fragmentation.  
+  </caption></figure><note id="eip-398">Some samples will give off oily or noxious odors when crushed. This is because of trapped hydrocarbons or sulfurous compounds and is normal. The next step in the process, washing, will take care of these impurities and the smell.</note>
+
+
+<para id="eip-960">Once the sample has been appropriately crushed on the macro scale, a micro uniformity in grain size can be achieved through the use of a pulverizing micro mill machine such as the Planetary Mills Pulverisette 7 in <link target-id="micro"/>. 
+      </para><figure id="micro"><media id="mill" alt="milling">
+    <image mime-type="image/jpeg" src="../../media/Figure 2.jpg" width="300" print-width="2in"/>
+  </media>
+  
+<caption>A Pullsette micro mill, milling cup removed. The mill is set to 520 rotations per minute and a five minute run time. 
+  </caption></figure><para id="import-auto-id1167915047096">To use the mill, load your crushed sample into the milling cup (<link target-id="cup"/>) along with milling stones of 15 mm diameter. Set your rotational speed and time using the machine interface. A speed of 500-600 rpm and mill time of 3-5 minutes is suggested. Using higher speeds or longer times can result in loss of sample as dust. Load the milling cup into the mill and press start; make sure to lower the mill hood. Once the mill has completed its cycle, retrieve the sample and dump it into a plastic cup labelled with the drill site name and depth in order to prepare it for washing. Be sure to wash and dry the mill cup and mill stones between samples if multiple samples are being tested. 
+      </para><figure id="cup"><media id="millcup" alt="cupping">
+    <image mime-type="image/jpeg" src="../../media/Figure 3.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A milling cup with mill stones and the crushed sample before milling.
+        </caption></figure></section><section id="import-auto-id1167919757521"><title>Washing the sample</title><para id="import-auto-id1167912374071">If your sample is dirty, as in contaminated with hydrocarbons such as crude oil, it will need to be washed. To wash your sample you will need your sample cup, a washbasin, a spoon, a 150-300 µm sieve, household dish detergent, and a porcelain ramekin if a drying oven is available (<link target-id="washd"/>). </para><figure id="washd"><media id="wash" alt="washing">
+    <image mime-type="image/jpeg" src="../../media/Figure 4.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A washbasin, with detergent in a squirt bottle and the sample in a cup for washing (sieve not pictured).
+        </caption></figure><para id="import-auto-id1167900566551">Take your sample cup to the wash basin and fill the cup halfway with water, adding a squirt of dish detergent. Vigorously stir the cup with the spoon for 20 seconds, ensuring each grain is coated with the detergent water. Pour your sample into the sieve and turn on the faucet. Run water over the sample to allow the detergent and dust particles to wash through the sieve. Continue to wash the sample this way until all the detergent is washed from the sample. Once clean, empty the sieve onto a surface to leave to dry overnight, or into a ramekin if a drying oven is available. Place ramekin into drying oven set to at least 100 °C for a minimum of 2 hours to allow thorough drying (<link target-id="oven"/>). Once dry, the sample is ready to be picked.
+      
+      </para><figure id="oven"><media id="dry" alt="drying">
+    <image mime-type="image/jpeg" src="../../media/Figure 5-e1a0.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A drying oven with temperature set above the temperature of evaporation for water at 105 °C.
+      
+        </caption></figure></section><section id="import-auto-id1167912235076"><title>Picking the sample</title><para id="import-auto-id1167926492996">Picking the sample is arguably the most important step in determining the lithology (<link target-id="pick"/>). During this step you will create a sample uniformity to eliminate random minerals, macro contaminates such as wood, and dropstones that dropped into your sediment depth when the sediment was drilled. You will also be able to get a general judgment as to the lithology after picking, though further analysis is needed if chemical composition is desired. Remove sample from drying oven. Take a piece of weighing paper and weigh out 5-10 g of sample. Use a light microscope to determine whether most of the sample is either silt, clay, silty-clay, or sand.
+      
+      </para><list id="import-auto-id1167900660848" list-type="bulleted"><item>
+          Clay grains will have a gray coloration with large flat sub-surfaces and less angulation. Clay will easily deform under pressure from forceps.
+        </item>
+        <item>
+          Silt grains will be darker than clay and will have specks that shine when the grain is rotated. Texture is long pieces with jagged edges. Silt is harder in consistency. 
+        </item>
+        <item>
+         Silty clay is a heterogenous mixture (half and half mixture) of the above. 
+        </item>
+        <item>
+       Sand is defined as larger grain size, lighter and varied coloration, and many crystalline substructures. Sand is hard to deform with the forceps. 
+        </item>
+      </list><figure id="pick"><media id="picking" alt="pickings">
+    <image mime-type="image/jpeg" src="../../media/Figure 6.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A light microscope being used to 'pick' the sample. The sample is being separated according to the dominant lithology in preparation for chemical analysis.
+        </caption></figure></section><section id="import-auto-id1167900187595"><title>Pelleting the sample</title><para id="import-auto-id1167898964452">To prepare your sample for X-ray fluorescence (XRF)  analysis you will need to prepare a sample pellet. To pellet your sample you will need a mortar and pestle, pellet binder such as Cerox, a scapula to remove binder, a micro scale, a pellet press with housing, and a pellet tin cup. Measure out and pour 2-4 g of sample into your mortar. Measure out and add 50% of your sample weight of pellet binder. For example, if your sample weight was 2 g, add 1 g of binder. Grind the sample into a fine, uniform powder, ensuring that all of the binder is thoroughly mixed with the sample (<link target-id="motra"/>). 
+      
+      </para><figure id="motra"><media id="motara" alt="andpestle">
+    <image mime-type="image/jpeg" src="../../media/Figure 7.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A mortar and pestle being used to grind the sample to a powder for pelleting in the pellet press. A binding agent (Cereox) is also added using the scapula.
+  </caption></figure><para id="import-auto-id1167902241848">Drop a sample of tin foil into the press housing. Pour sample into the tin foil, and then gently tap the housing against a hard surface two to three times to ensure sample settles into the tin. Place the top press disk into the channel. Place the press housing into the press, oriented directly under the pressing arm. Crank the lever on the press until the pressure gauge reads 15 tons (<link target-id="pellet"/>). Wait for one minute, then twist the pressure release valve and remove the press housing from the press. Reverse the press and apply the removal cap to the bottom of the press. Place the housing into the press bottom side up and manually apply pressure by turning the crank on top of the press until the sample pops out of the housing. Retrieve the pelleted sample (<link target-id="pelleatd"/>). The pelleted sample is now ready for X-ray fluorescence analysis (XRF).
+      
+      </para><figure id="pellet"><media id="press" alt="depressing">
+    <image mime-type="image/jpeg" src="../../media/Figure 8.jpg" width="300" print-width="2in"/>
+  </media>
+  
+<caption>A pellet press being pressurized to 15 tons.
+  </caption></figure><figure id="pelleatd"><media id="complete" alt="pelletget">
+    <image mime-type="image/jpeg" src="../../media/Figure 9.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A completed pellet after pressing.
+  </caption></figure></section><section id="import-auto-id1167915178868"><title>XRF analysis</title><para id="import-auto-id1167926089687">Place the sample pellet into the XRF (<link target-id="cute-dog"/> and <link target-id="patrmonus"/>) and close the XRF hood. The XRF obtain the spectrum from the associated computer. 
+      </para><figure id="cute-dog"><media id="dogpic" alt="A dog sitting on a bed">
+    <image mime-type="image/jpeg" src="../../media/Figure 10-3eb8.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>A Spectro XEPOS X-Ray fluorescence spectrometer.  
+  </caption></figure><figure id="patrmonus"><media id="expectro" alt="specto">
+    <image mime-type="image/jpeg" src="../../media/Figure 11.jpg" width="500" print-width="4in"/>
+  </media>
+  
+<caption>The inside of the spectrometer where the sample pellets are placed for analysis.   
+  </caption></figure><para id="import-auto-id1167903221403">The XRF spectrum is a plot of energy and intensity. The software equipped with the XRF will be pre-programmed to recognize the characteristic energies associated with the X-ray emissions of the elements. The XRF functions by shooting a beam of high energy photons that are absorbed by the atoms of the sample. The inner shell electrons of sample atoms are ejected. This leaves the atom in an excited state, with a vacancy in the inner shell. Outer shell electrons then fall into the vacancy, emitting photons with energy equal to the energy difference between these two energy levels. Each element has a unique set of energy levels, therefore each element emits a pattern of X-rays characteristic of that element. The intensity of these characteristic X-rays increases with the concentration of the corresponding element leading to higher counts and higher peaks on the spectrum (<link target-id="sepctrum"/>). </para><figure id="sepctrum"><media id="agates" alt="shaggyddooogle">
+    <image mime-type="image/jpeg" src="../../media/Figure 12-9d31.jpg" width="500" print-width="5in"/>
+  </media>
+<caption>The XRF spectrum showing the chemical composition of the sample.
+  </caption></figure></section><section id="import-auto-id1167918095608"><title>Bibliography</title><list id="eip-87"><item>http://www.usbr.gov/pmts/geology/geolman/chap04.pdf</item>
+<item>http://petrowiki.org/Lithology_and_rock_type_determination</item>
+<item>E. H. Williams, <emphasis effect="italics">A manual of Lithology: Treating of the Principles of the Science with a Special Reference to Megascopic Analysis</emphasis>, Inman Press (2008). </item></list></section></content>
+</document>

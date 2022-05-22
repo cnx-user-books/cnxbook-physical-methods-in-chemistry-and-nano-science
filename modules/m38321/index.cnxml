@@ -1,0 +1,234 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Application of Fluorescence Spectroscopy in the Mercury Ion Detection</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38321</md:content-id>
+  <md:title>The Application of Fluorescence Spectroscopy in the Mercury Ion Detection</md:title>
+  <md:abstract>Mercury ion, one of the most toxic metal ions, is wildly distributed in the environment. It can accumulate in human bodies and endanger human health. Therefore, to detect mercury ion becomes important and necessary.
+      Fluorescence chemosensor is becoming more and more popular due to its easy use, low cost and high efficiency. In this paper, relevant knowledge about fluorescence spectroscopy and chemosensor will be introduced, and examples of its application in the detection of mercury ion will also be covered.</md:abstract>
+  <md:uuid>422b0076-5576-48ee-a400-8445b1b8102c</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1167585637954">
+      <title>Mercury in the environment </title>
+      <para id="id1167587114877">Mercury pollution has become a global problem and seriously endangers human health. Inorganic mercury can be easily released into the environment through a variety of anthropogenic sources, such as the coal mining, solid waste incineration, fossil fuel combustion, and chemical manufacturing. It can also be released through the nonanthropogenic sources in the form of forest fires, volcanic emissions, and oceanic emission.</para>
+      <para id="id1167587195888">Mercury can be easily transported into the atmosphere as the form of the mercury vapor. The atmospheric deposition of mercury ions leads to the accumulation on plants, in topsoil, in water, and in underwater sediments. Some prokaryotes living in the sediments can convert the inorganic mercury into methylmercury, which can enter food chain and finally is ingested by human.</para>
+      <para id="id1167587392059">Mercury seriously endangers people’s health. One example is that many people died due to exposure to methylmercury through seafood consumption in Minamata, Japan. Exposure in the organic mercury causes a serious of neurological problems, such as prenatal brain damage, cognitive and motion disorders, vision and hearing loss, and even death. Moreover, inorganic mercury also targets the renal epithelial cells of the kidney, which results in tubular necrosis and proteinuria.</para>
+      <para id="id1167595353535">The crisis of mercury in the environment and biological system compel people to carry out related work to confront the challenge. To design and implement new mercury detection tools will ultimately aid these endeavors. Therefore, in this paper, we will mainly introduce fluorescence molecular sensor, which is becoming more and more important in mercury detection due to its easy use, low cost and high efficiency.</para>
+    </section>
+    <section id="id1167618765817">
+      <title>Introduction of fluorescence molecular sensors</title>
+      <para id="id1167604629390">Fluorescence molecular sensor, one type of fluorescence molecular probe, can be fast, reversible response in the recognition process. There are four factors, selectivity, sensitivity, in-situ detection, and real time, that are generally used to evaluate the performance of the sensor. In this paper, four fundamental principles for design fluorescence molecular sensors are introduced.</para>
+      <section id="id1167587113668"><title>Photoinduced electron transfer (PET)</title><para id="id1167594502674">Photoinduced electron transfer is the most popular principle in the design of fluorescence molecular sensors. The characteristic structure of PET sensors includes three parts as shown in <link target-id="id1167599716538"/>: </para>
+        <list id="id1167585638056" list-type="bulleted">
+          <item>The fluorophore absorbs the light and emits fluorescence signal. </item>
+          <item>The receptor selectively interacts with the guest. </item>
+          <item>A spacer connects the fluorophore and receptor together to form an integral system and successfully, effectively transfers the recognition information from receptor to fluorophore.</item>
+        </list>
+
+
+
+          <figure id="id1167599716538"><media id="id1167599716538_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphicsarb.jpg" id="id1167599716538__onlineimage" width="500" print-width="5in"/>
+	</media>
+	
+<caption>The general view of the principle of PET fluorescence molecular sensor.
+  </caption></figure>
+
+
+        <para id="id1167596178944">In the PET sensors, photoinduced electron transfer makes the transfer of recognition information to fluorescence signal between receptor and fluorophore come true. <link target-id="id1167599716538"/> shows the detailed process of how PET works in the fluorescence molecular sensor. The receptor could provide the electron to the vacated electoral orbital of the excited fluorophore. The excited electron in the fluorophore could not come back the original orbital, resulting in the quenching of fluorescence emission. The coordination of receptor and guest decreased the electron donor ability of receptor reduced or even disrupted the PET process, then leading to the enhancement of intensity of fluorescence emission. Therefore, the sensors had weak or no fluorescence emission before the coordination. However, the intensity of fluorescence emission would increase rapidly after the coordination of receptor and gust.</para>
+        
+      </section>
+      <section id="id1167596259484">
+        <title>Intramolecular charge transfer (ICT)</title>
+        <para id="id1167589016486">Intramolecular charge transfer (ICT) is also named photoinduced charge transfer. The characteristic structure of ICT sensors includes only the fluorophore and recognition group, but no spacer. The recognition group directly binds to the fluorophore. The electron withdrawing or electron donating substituents on the recognition group plays an important role in the recognition. When the recognition happens, the coordination between the recognition group and guest affects the electron density in the fluorophore, resulting in the change of fluorescence emission in the form of blue shift or red shift. </para>
+      </section>
+      <section id="id1167593213856">
+        <title>Excimer </title>
+        <para id="id1167587443088">When the two fluorophores are in the proper distance, an intermolecular excimer can be formed between the excited state and ground state. The fluorescence emission of the excimer is different with the monomer and mainly in the form of new, broad, strong, and long wavelength emission without fine structures. The proper distance determines the formation of excimer, therefore modulation of the distance between the two fluorophores becomes crucial in the design of the sensors based on this mechanism. The fluorophores have long lifetime in the singlet state to be easily forming the excimers. They are often used in such sensors.</para>
+      </section>
+      <section id="id1167587743042"><title>Fluorescence resonance energy transfer (FRET)</title><para id="id1167600235612">FRET is a popular principle in the design of the fluorescence molecular sensor. In one system, there are two different fluorophores, in which one acts as a donor of excited state energy to the receptor of the other. As shown in <link target-id=" id1167596182300 "/>, the receptor accepts the energy from the excited state of the donor and gives the fluorescence emission, while the donor will return back to the electronic ground state.  There are three factors affecting the performance of FRET. They are the distance between the donor and the acceptor, the proper orientation between the donor emission dipole moment and acceptor absorption moment, and the extent of spectral overlap between the donor emission and acceptor absorption spectrum (<link target-id=" id1167587506024"/>). </para>
+
+        <figure id="id1167596182300"><media id="id1167596182300_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics2arb.jpg" id="id1167596182300__onlineimage" width="400" print-width="4in"/>
+	</media>
+	<caption>A schematic fluorescence resonance energy transfer system.
+  </caption></figure>
+        
+        
+        <figure id="id1167587506024"><media id="id1167587506024_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3arb-9271.jpg" id="id1167587506024__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>Diagram showing the spectral overlap for fluorescence resonance energy transfer system.</caption></figure>
+        
+      </section>
+    </section>
+    <section id="id1167618770473"><title>Introduction of fluorescence spectroscopy </title><section id="id1167618765850"><title>Fluorescence</title><para id="id1167589030615">Fluorescence is a process involving the emission of light from any substance in the excited states. Generally speaking, fluorescence is the emission of electromagnetic radiation (light) by the substance absorbed the different wavelength radiation. Its absorption and emission is illustrated in the Jablonski diagram (<link target-id="id1167589093456"/>), a fluorophore is excited to higher electronic and vibrational state from ground state after excitation. The excited molecules can relax to lower vibrational state due to the vibrational relaxation and, then further retune to the ground state in the form of fluorescence emission. </para>
+
+
+          <figure id="id1167589093456"><media id="id1167589093456_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics4arb.jpg" id="id1167589093456__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Jablonski diagram of fluorescence. </caption></figure>
+
+
+        
+        
+      </section>
+      <section id="id1167596920487"><title>Instrumentation </title><para id="id1167587743325">Most spectrofluorometers can record both excitation and emission spectra. They mainly consists of four parts: light sources, monochromators, optical filters and detector (<link target-id="idSpec2"/>).</para>
+
+<figure id="idSpec2">
+<media id="idSpec_media" alt="">
+        <image mime-type="image/jpg" src="../../media/Spec-7c3f.jpg" id="idSpec__onlineimage" width="400" print-width="4in"/>
+      </media>
+<caption>Schematic representation of a fluorescence spectrometer. </caption>
+</figure>
+
+
+
+
+      <section id="id1167608594608">
+        <title>Light sources</title>
+        <para id="id1167587748111">Light sources that can emit wavelength of light over the ultraviolet and the visible range can provide the excitation energy. There are different light sources, including arc and incandescent xenon lamps, high-pressure mercury (Hg) lamps, Xe-Hg arc lamps, low pressure Hg and Hg-Ar lamps, pulsed xenon lamps, quartz-tungsten halogen (QTH) lamps, LED light sources, etc. The proper light source is chosen based on the application.</para>
+      </section>
+      <section id="id1167596216246">
+        <title>Monochromators</title>
+        <para id="id1167587195856">Prisms and diffraction gratings are two mainly used types of monocharomators, which help to get the experimentally needed chromatic light with a wavelength range of 10 nm. Typically, the monocharomators are evaluated based on dispersion, efficiency, stray light level and resolution.</para>
+      </section>
+      <section id="id1167587667812">
+        <title>Optical filters</title>
+        <para id="id1167596233696">Optical filters are used in addition to monochromators in order to further purifying the light. There are two kinds of optical filters. The first one is the colored filter, which is the most traditional filter and is also divided into two catagories: monochromatic filter and long-pass filter. The other one is thin film filter that is the supplement for the former one in the application and being gradually instead of colored filter. </para>
+      </section>
+      <section id="id1167587124173">
+        <title>Detector</title>
+        <para id="id1167587015079">An InGaAs array is the standard detector used in many spectrofluorometers. It can provide rapid and robust spectral characterization in the near-IR.</para>
+      </section>
+          </section>
+</section>
+    <section id="id1167587712312">
+      <title>Applications </title>
+      <section id="id1167594198906"><title>PET fluorescence sensor</title><para id="id1167594451634">As a PET sensor 2-{5-[(2-{[<emphasis effect="italics">bis</emphasis>-(2-ethylsulfanyl-ethyl)-amino]-methyl}-phenylamino)-methyl]-2-chloro-6-hydroxy-3-oxo-3H-xanthen-9-yl}-benzoic acid (MS1) (<link target-id="id1167585211212"/>) shows good selectivity for mercury ions in buffer solution (pH = 7, 50 mM PIPES, 100 mM KCl). From <link target-id="id1167585239054"/>, it is clear that, upon the increase of the concentration of Hg<sup>2+</sup> ions, the coordination between the sensor and Hg<sup>2+</sup> ions disrupted the PET process, leading to the increase of the intensity of fluorescence emission with slight red shift to 528 nm. Sensor MS1 also showed good selectivity for Hg<sup>2+</sup> ions over other cations of interest as shown in the right bars in <link target-id="id1167587256020"/>; moreover, it had good resistance to the interference from other cations when detected Hg<sup>2+</sup> ions in the mixture solution excluding Cu<sup>2+</sup> ions as shown in the dark bars in the <link target-id="id1167587256020"/>.</para>
+
+
+          <figure id="id1167585211212"><media id="id1167585211212_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics5-bff8.jpg" id="id1167585211212__onlineimage" width="300" print-width="3in"/>
+            </media>
+
+          <caption>Structure of the PET fluorescence sensor 2-{5-[(2-{[<emphasis effect="italics">bis</emphasis>-(2-ethylsulfanyl-ethyl)-amino]-methyl}-phenylamino)-methyl]-2-chloro-6-hydroxy-3-oxo-3H-xanthen-9-yl}-benzoic acid.</caption></figure>
+
+
+
+
+        <figure id="id1167585239054"><media id="id1167585239054_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6-6b7c.jpg" id="id1167585239054__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+
+        <caption>Fluorescence spectra of sensor MS1 (1 µM) upon addition of Hg<sup>2+</sup> (0 - 3 µM) in buffer solution (pH = 7, 50 mM PIPES, 100 mM KCl) with an excitation of 500 nm. </caption></figure>
+
+
+
+        <figure id="id1167587256020">
+          <media id="id1167587256020_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics7-bdca.jpg" id="id1167587256020__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+<caption>The selectivity of MS1 for Hg<sup>2+</sup> ions in the presence of other cations of interest. The light bars represent the emission of MS1 in the presence of 67 equiv of the interested cations. The dark bars represent the change in integrated emission that occurs upon subsequent addition of 67 equiv of Hg<sup>2+</sup> to the mixed solution. </caption>
+        </figure>
+
+      </section>
+      <section id="id1167601122264"><title>ICT fluorescence sensor</title><para id="id1167587737753">2,2',2'',2'''-(3-(benzo[d]thiazol-2-yl)-2-oxo-2-H-chromene-6,7-diyl) <emphasis effect="italics">bis</emphasis>(azanetriyl)tetrakis(N-(2-hydroxyethyl)acetamide) (RMS) (<link target-id="id1167587175542"/>) has been shown to be an ICT fluorescence sensor. From <link target-id="id1167587188769"/>, it is clear that, with the gradual increase of the concentration of Hg<sup>2+</sup> ions, fluorescence emission spectra revealed a significant blue shift, which was about 100-nm emission band shift from 567 to 475 nm in the presence of 40 equiv of Hg<sup>2+</sup> ions. The fluorescence change came from the coexistence of two electron-rich aniline nitrogen atoms in the electron-donating receptor moiety, which prevented Hg<sup>2+</sup> ions ejection from them simultaneously in the excited ICT fluorophore. Sensor RMS also showed good selectivity over other cations of interest. As shown in <link target-id="id1167585341865"/>, it is easy to find that only Hg<sup>2+</sup> ions can modulate the fluorescence of RMS in a neutral buffered water solution.</para>
+
+        <figure id="id1167587175542"><media id="id1167587175542_media" alt="">
+            <image mime-type="image/jpg" src="../../media/RMS.jpg" id="id1167587175542__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+
+        <caption>Structure of the ICT fluorescence sensor 2,2',2'',2'''-(3-(benzo[d]thiazol-2-yl)-2-oxo-2-H-chromene-6,7-diyl)<emphasis effect="italics">bis</emphasis>(azanetriyl) tetrakis(N-(2-hydroxyethyl)acetamide) (RMS).</caption></figure>
+
+
+
+
+
+
+
+          <figure id="id1167587188769"><media id="id1167587188769_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics9-ab59.jpg" id="id1167587188769__onlineimage" width="350" print-width="3.5in"/>
+            </media>
+
+          <caption>Fluorescence spectra of RMS (5 µM) upon addition of Hg<sup>2+</sup> (0 µM to 200 µM) in 0.05 M phosphate-buffered water solution (pH 7.5) with an excitation of 390 nm.</caption></figure>
+
+
+
+
+        <figure id="id1167585341865"><media id="id1167585341865_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics10arb.jpg" id="id1167585341865__onlineimage" width="500" print-width="5in"/>
+          </media>
+
+        <caption>Fluorescence response of 10 µM RMS in the presence of 20 equiv of different cations of interest at the same condition: control (0), Cd<sup>2+</sup> (1), Hg<sup>2+</sup> (2), Fe<sup>3+</sup> (3), Zn<sup>2+</sup> (4), Ag<sup>+</sup> (5), Co<sup>2+</sup> (6), Cu<sup>2+</sup> (7), Ni<sup>2+</sup> (8), and Pb<sup>2+</sup> (9). </caption></figure>
+
+      </section>
+      <section id="id1167618770580"><title>Excimer fluorescence sensor</title><para id="id1167587340855">The (NE,N'E)-2,2'-(ethane-1,2-diyl-<emphasis effect="italics">bis</emphasis>(oxy))<emphasis effect="italics">bis</emphasis>(N-(pyren-4-ylmethylene)aniline) (BA) (<link target-id="id1167596168011"/>) is the excimer fluorescence sensor. As shown in <link target-id="id1167599947322"/>, when BA existed without mercury ions in the mixture of HEPES-CH<sub>3</sub>CN (80:20, v/v, pH 7.2), it only had the weak monomer fluorescence emission. Upon the increase of the concentration of mercury ions in the solution of BA, a strong excimer fluorescence emission at 462 nm appeared and increased with the change of the concentration of mercury ions. From <link target-id="id1167604441326"/>, it is clear that BA showed good selectivity for mercury ions. Moreover, it had good resistance to the interference when detecting mercury ions in the mixture solution.</para>
+
+        <figure id="id1167596168011"><media id="id1167596168011_media" alt="">
+            <image mime-type="image/jpg" src="../../media/BA.jpg" id="id1167596168011__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+
+        <caption>Structure of the excimer fluorescence sensor (NE,N'E)-2,2'-(ethane-1,2-diyl-<emphasis effect="italics">bis</emphasis>(oxy))<emphasis effect="italics">bis</emphasis>(N-(pyren-4-ylmethylene) aniline) (BA).</caption></figure>
+
+
+        <figure id="id1167599947322">
+          <media id="id1167599947322_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics12-f728.jpg" id="id1167599947322__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+<caption>Fluorescence spectra of BA (1 µM) upon addition of Hg<sup>2+</sup> (0 µM to 10 µM) in the mixture of HEPES-CH<sub>3</sub>CN (80:20, v/v, pH 7.2) with an excitation of 365 nm. </caption>
+        </figure>
+
+
+
+          <figure id="id1167604441326">
+            <media id="id1167604441326_media" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics13-e3f3.jpg" id="id1167604441326__onlineimage" width="350" print-width="3.5in"/>
+            </media>
+<caption>Fluorescence response of BA (1 µM) with 10 equiv of other cations of interest in the same condition. Bars represent the final (F) over the initial (F<sub>0</sub>) integrated emission. The red bars represent the addition of the competing metal ion to a 1 µM solution of BA. The blue bars represent the change of the emission that occurs upon the subsequent addition of 10 µM Hg<sup>2+</sup> to the above solution.</caption>
+          </figure>
+
+
+      </section>
+      <section id="id1167585264134"><title>FRET fluorescence sensor</title><para id="id1167595263729">The calix[4]arene derivative bearing two pyrene and rhodamine fluorophores (CPR) (<link target-id="id1167618765897"/>) is a characteristic FRET fluorescence sensor. Fluorescence titration experiment of CPR (10.0 μM) with Hg<sup>2+</sup> ions was carried out in CHCl<sub>3</sub>/CH<sub>3</sub>CN (50:50, v/v) with an excitation of 343 nm. As shown in <link target-id="id1167596336132"/>, upon gradual increase the concentration of Hg<sup>2+</sup> ions in the solution of CPR, the increased fluorescence emission of the ring-opened rhodamine at 576 nm was observed with a concomitantly declining excimer emission of pyrene at 470 nm. Moreover, an isosbestic point centered at 550 nm appeared. This change in the fluorescence emission demonstrated that an energy from the pyrene excimer transferred to rhodamine, resulting from the trigger of Hg<sup>2+</sup> ions. <link target-id="id1167596032602"/> showed that CPR had good resistance to other cations of interest when detected Hg<sup>2+</sup> ions, though Pb<sup>2+</sup> ions had little interference in this process.</para>
+
+
+          <figure id="id1167618765897"><media id="id1167618765897_media" alt="">
+              <image mime-type="image/jpg" src="../../media/CPR.jpg" id="id1167618765897__onlineimage" width="400" print-width="4in"/>
+            </media>
+
+          <caption>Structure of the FRET fluorescence sensor calix[4]arene derivative (CPR) bearing two pyrene and rhodamine fluorophores.</caption></figure>
+
+
+
+        <figure id="id1167596336132"><media id="id1167596336132_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics15-2d31.jpg" id="id1167596336132__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+
+        <caption>Fluorescence spectra of CPR (10.0 μM) in CHCl<sub>3</sub>/CH<sub>3</sub>CN (50:50, v/v) upon addition of different concentrations of Hg(ClO<sub>4</sub>)<sub>2</sub> (0 μM to 30 μM). </caption></figure>
+
+
+
+
+        <figure id="id1167596032602"><media id="id1167596032602_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics16-b978.jpg" id="id1167596032602__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>Competition experiment of 10.0 μM CPR at 576 nm with 10 equiv of other cations of interest in the presence of Hg<sup>2+</sup> (3 equiv) in the same condition. F<sub>0</sub> and F denote the fluorescence intensity of CPR and Hg<sup>2+</sup> ions and the interested metal ions in the presence of CPR and Hg<sup>2+</sup> ions.</caption></figure>
+        
+      </section>
+    </section>
+    <section id="id1167587901176">
+      <title>Bibliography</title>
+      <list id="id1167602267905" list-type="bulleted"><item>E. M. Nolan and S. J. Lippard, <emphasis effect="italics">Chem. Rev.</emphasis>, 2008, <emphasis effect="bold">108</emphasis>, 3443.</item>
+        <item>J. S. Kim and D. T. Quang, <emphasis effect="italics">Chem. Rev.</emphasis>, 2007, <emphasis effect="bold">107</emphasis>, 3780.</item>
+        <item>E. M. Nolan and S. J. Lippard, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 2003, <emphasis effect="bold">125</emphasis>, 14270.</item>
+        <item>J. B. Wang, X. H. Qian, and J. G. Cui, <emphasis effect="italics">J. Org. Chem.</emphasis>, 2006, <emphasis effect="bold">71</emphasis>, 4308.</item>
+        <item>Y. H. Lee, M. H. Lee, J. F. Zhang, and J. S. Kim, <emphasis effect="italics">J. Org. Chem.</emphasis>, 2010, <emphasis effect="bold">75</emphasis>, 7159.</item>
+        <item>Y. Zhou, C. Y. Zhu, X. S. Gao, X. Y. You, and C. Yao, <emphasis effect="italics">Org. Lett.</emphasis>, 2010, <emphasis effect="bold">12</emphasis>, 2566.</item>
+        <item>J. R. Lakowicz, <emphasis effect="italics">Principles of Fluorescence Spectroscopy</emphasis>, 3<sup>rd</sup> Edition, Springer (2006).</item>
+      </list>
+    </section>
+  </content>
+</document>

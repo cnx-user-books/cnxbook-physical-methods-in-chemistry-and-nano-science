@@ -1,0 +1,1436 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Oil and Gas Industry</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71635</md:content-id>
+  <md:title>Oil and Gas Industry</md:title>
+  <md:abstract/>
+  <md:uuid>1568aa89-eef3-43db-b6c1-e506ebd29799</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-627">This module was created with the assistance of John Komoll, Leo Onor, and Mekedlawit Setegne. </para><section id="import-auto-idm700522128"><title>Introduction </title><para id="import-auto-idm496865632">Fossil fuels come from dead plant and animal matter that were naturally buried under ancient waterways and land masses. Over the course of millions of years, the decaying biomass is subjected to extreme heat and pressure leaving behind trapped hydrocarbons (natural gas, crude oil, and kerogen).  These hydrocarbons provide rich fuel sources that most modern technology depends upon. Due to the prehistoric pattern of ancient waterways and land masses, natural oil deposits were formed in various geological locations. This leads to some countries having disproportionately larger deposits of oil than others giving those countries major political and economical advantages. For example, Venezuela is estimated to have the largest deposit of oil with 300 billion barrels, followed by Saudi Arabia with 260 billion barrels while the US comes in 10<sup>th</sup> place with 40 billion barrels. On the other hand, Japan has only 40 million barrels and, therefore, is largely dependent on foreign sources.</para>
+      <para id="import-auto-idm330445408">Crude oil, or unrefined oil, is a mixture of volatile hydrocarbons that must be separated and treated to meet the quality and safety standards needed for consumers. When extracting and processing crude oil, oil companies are concerned with three stages of operation aptly named based on the “distance” from the source of oil: </para><list id="eip-721"><item><emphasis effect="italics">upstream</emphasis> (uses analytical techniques to find possible trapped oil deposits and analyzes sedimentary profiles to determine the most efficient extraction method), </item>
+<item><emphasis effect="italics">midstream</emphasis> (focuses on cost-effective ways of safely transporting crude oil that, often times, contains corrosive chemicals),</item>
+<item><emphasis effect="italics">downstream</emphasis> (deals with separation and purification of crude oil using techniques, such as fractional distillation and cracking).</item>
+
+
+</list><para id="eip-810">The upstream sector of the oil and gas industry is primarily concerned with searching for crude oil or natural gas, and with bringing it to the surface once it is discovered. To find underground reservoirs that contain oil and gas, companies in the industry have developed advanced techniques to predict the locations of these reservoirs and visualize their sizes and geological properties. Using geophysical imaging technology, scientists elucidate where the reservoirs are and how valuable their contents may be. They then prepare an exploration plan to more precisely identify the size and contents of the reservoir. Exploration of offshore drilling sites in the USA is regulated by the Bureau of Ocean Energy Management. This agency was created by the US Department of the Interior to put environmental safeguards in place, while overseeing the management of offshore resources. Once a reservoir is identified and a well is drilled, oil and gas companies go to great lengths to optimize the recovery factor, or fraction of oil extracted, from the wells, thus maximizing profit. Some unconventional methods of extracting oil and gas include fracking, or high pressure hydraulic fracturing, which is used to free natural gas from the shale rock it is deposited within.</para><para id="eip-410">Once the crude oil and gas has been collected, it must be refined into usable molecules in the midstream sector. Large hydrocarbon chains are broken up into smaller, more usable molecules in a process called <emphasis effect="italics">cracking</emphasis>. Thermal cracking uses high pressures and temperatures, while catalytic cracking uses catalysts, to cleave carbon-carbon bonds and generate lighter oil fractions for separation. Oil refining often generates large volumes of hazardous waste, including benzene, heavy metals, hydrogen sulfide, acid gases, mercury, and dioxin, which cause environmental concerns that have still not been completely alleviated by the industry.</para><para id="eip-696">The downstream sector consists of determining the value of refined oil and gas fractions and selling them as finished products to other industries. Perhaps the most important downstream product is gasoline, which is used as a fuel in most internal combustion engines. Because of its widespread use, the contents of gasoline are strictly regulated by the EPA to safeguard our air quality. Not all gasoline is created equal, and the performance of a specific fraction of gasoline is rated by its octane level. Natural gas is another fossil fuel consisting primarily of methane, which is used mostly for the generation of electricity, as well as for generating heat in homes. Natural gas can provide energy at a higher efficiency than most fuel sources. Chemical products derived from oil and gas, which are not fuels, are generally referred to as petrochemicals. These can come in the form of detergents, fertilizers, medicines, paints, plastics, and even explosives. The large variety of uses for these petrochemicals, as well as the widespread use of fossil fuels, makes the oil and gas industry an industry of great importance to our society.</para></section><section id="eip-567"><title>Materials in the oil and gas industry</title><para id="eip-923">Crude oil and petroleum found underground will always consist of a mixture of different hydrocarbons that vary in size (i.e., M<sub>W</sub>) and arrangement (i.e., linear, branched, aromatic). Furthermore, the specific mixture of hydrocarbons obtained (and thus the crude oil’s density) is also largely dependent on the source the oil was obtained from. Crude oil is classified by the American Petroleum Institute (API) and the SARA (saturate, aromatic, resin and asphaltene) analysis, which are based on physical and chemical characteristics, respectively. <link target-id="eip-780 "/> provides a summary of both methods. Depending on impurities, crude oil can additionally be classified as sweet crude (&lt;0.42% sulfur) or sour crude (&gt;0.50% sulfur, often with other impurities like carbon dioxide).</para><table id="eip-780" summary="Classification of crude oil">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Classification type</emphasis></entry>
+    <entry><emphasis effect="bold">Method</emphasis></entry>
+    <entry><emphasis effect="bold">Types</emphasis></entry>
+  </row>
+  <row>
+    <entry>API gravity (physical)</entry>
+    <entry>Measure density of oil in comparison to water (higher density corresponds to lower API gravity)</entry>
+    <entry>
+
+<list id="eip-697"><item>Light crude: API 31.1</item>
+<item>Medium crude: API 22.3 – 31.1</item>
+<item>Heavy crude: API &lt;22.3</item>
+<item>Extra heavy crude: API &lt;10</item></list>
+</entry>
+  </row>
+  <row>
+    <entry>SARA (chemical)</entry>
+    <entry>Measure polarizability and polarity of oil</entry>
+    <entry>
+
+
+<list id="eip-275"><item>S (saturate): nonpolar, contains linear, branched, and cyclic saturated hydrocarbons</item>
+<item>A (aromatic): polarizable, contain aromatic rings</item>
+<item>R (resin): have polar substituents, miscible with heptane and pentane</item>
+<item>A (asphaltenes): have polar substituents, insoluble in heptane and pentane</item></list>
+
+</entry>
+  </row>
+</tbody>
+
+</tgroup><caption>Classification of crude oil. </caption>
+</table>
+
+
+
+
+
+<para id="eip-170">When processing crude oil, a wide variety of materials and chemicals are used in various stages of the process, a few of which are listed in <link target-id="eip-87"/>.</para><table id="eip-87" summary="Materials used in the oil industry.">
+<tgroup cols="3"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Material</emphasis></entry>
+    <entry><emphasis effect="bold">Description</emphasis></entry>
+    <entry><emphasis effect="bold">Common use</emphasis></entry>
+  </row>
+  <row>
+    <entry>Metals</entry>
+    <entry>Metals are used in all parts of the oil/gas industry, from pipelines and drilling bits to storage tanks and processing equipment. Metals should be chosen such that they have the appropriate resistivity to stress, corrosion, or heat.</entry>
+    <entry><list id="eip-896"><item>Steel, often carbon steel, is used that has good corrosion resistance and is thus used in most parts of production and processing. Steel alloys sometimes contain titanium or chromium to increase strength.</item>
+<item>Nickel alloys used in valves and piping above wellheads (“Christmas tree”).</item>
+<item>Copper is often used in valves and heat transfer applications due to cold-resistant properties.</item></list></entry>
+  </row>
+  <row>
+    <entry>Oil and water-based fluids/muds</entry>
+    <entry>When drilling into the Earth, fluids called “muds” are used to control pressure, which stabilizes rock and facilitates carrying of cuttings to surface.</entry>
+    <entry><list id="eip-37"><item>Water-based muds (WBM) use water as the  continuous phase, allowing for a cheaper alternative, but it can cause instability in shales.</item>
+<item>Oil-based muds (OBM) provide good stability and lubrication, but more expensive and potentially environmentally harmful.</item>
+<item>Air can sometimes be useful in drilling boreholes, but is weak in supporting boreholes and preventing fluids from entering.</item></list></entry>
+  </row>
+  <row>
+    <entry>Proppants</entry>
+    <entry>Proppants are sand-like materials suspended in water or other fluids.</entry>
+    <entry>Proppants are very useful in hydraulic fracking to keep fissures open. Choice of size, geometry, and weight can lead to improved conductivity, crush resistance, and acid solubility.</entry>
+  </row>
+  <row>
+    <entry>Fluid catalytic cracking material</entry>
+    <entry>In the fluid catalytic cracking (FCC) process, certain materials can be used to assist conversion of crude oil to refined products.</entry>
+    <entry>When larger hydrocarbons are broken down into smaller ones, the catalytic fluid reaction becomes more important. It is critical that the catalyst be able to withstand impact, temperature, pressure, and actions of potentially poisonous metals.</entry>
+  </row>
+  <row>
+    <entry>Liquefied natural gas (LPG)</entry>
+    <entry>LPG can be produced by cooling natural gas to -162 °C at atmospheric pressure, decreasing its volume by a factor of around 600.</entry>
+    <entry>LPG is very useful in transportation of natural gas across long distances or across deepwater from remote locations. However, LPG operations are expensive to run due to the maintenance of cryogenic tanks.</entry>
+  </row>
+</tbody>
+
+
+</tgroup><caption>Materials used in the oil industry.</caption>
+</table><para id="eip-691">Analytical chemistry is vital in each step of the production process, because being familiar with appropriate materials (examples in <link target-id="import-auto-idm458720688 "/>) is important in effectively and safely producing oil. This article attempts to present a bird’s eye view of analytical chemistry in the context of the oil and gas sector, with an emphasis on the upstream aspect of this sector.</para>
+
+<table id="import-auto-idm458720688" summary="The use and production of materials encountered in the oil industry.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Materials and chemicals</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Annual global production </emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Major companies and groups</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Purpose/application in the oil industry </emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>HCl</entry>
+              <entry>2,800 tons</entry>
+              <entry>Dow Chemical, BASF, Bayer Corp, Oxychem</entry>
+              <entry>Used in hydraulic fracking as a corrosive agent to dissolve porous sedimentary rocks</entry>
+            </row>
+            <row>
+              <entry>Modified sands</entry>
+              <entry>45 million tons (2017)</entry>
+              <entry>CARBO Ceramics, High Crush LP, Emerge Energy Services, US Silica </entry>
+              <entry>Used in hydraulic fracking as a proppants to hold cracks open, allowing drainage of trapped natural gas and oil</entry>
+            </row>
+            <row>
+              <entry>Asphaltenes</entry>
+              <entry>82.76 million barrels/day<sup>a</sup></entry>
+              <entry>United States, Russia, OPEC</entry>
+              <entry>Abundant crude oil component used to determine what analytical methods are needed</entry>
+            </row>
+            <row>
+              <entry>Paraffin wax</entry>
+              <entry>82.76 million barrels/day<sup>a</sup></entry>
+              <entry>United States, Russia, OPEC</entry>
+              <entry>Dense portion of crude oil that must be precipitated out before further analysis </entry>
+            </row>
+            <row>
+              <entry>Naphthenes</entry>
+              <entry>82.76 million barrels/day<sup>a</sup></entry>
+              <entry>United States, Russia, OPEC</entry>
+              <entry>Cyclic paraffins that impact the density and type of crude oil</entry>
+            </row>
+            <row>
+              <entry>Polyaromatic hydrocarbons</entry>
+              <entry>82.76 million barrels/day<sup>a</sup></entry>
+              <entry>United States, Russia, OPEC</entry>
+              <entry>Crude oil components that can serve as biomarkers </entry>
+            </row>
+            <row>
+              <entry>H<sub>2</sub>S</entry>
+              <entry>9.6 million tons (2000)</entry>
+              <entry>Bechtel, Intertek</entry>
+              <entry>Found in crude oil and natural gas deposits. A common, unwanted corrosive chemical at high concentration. </entry>
+            </row>
+            <row>
+              <entry>Glass beads</entry>
+              <entry>-</entry>
+              <entry>-</entry>
+              <entry>Improves separation in fractional distillation technique by enhancing evaporation and condensation</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>The use and production of materials encountered in the oil industry. <sup>a</sup>Quantity refers to total amount of crude oil produced globally.</caption>
+</table></section><section id="import-auto-idm466597824">
+      <title>Needs and challenges of the industry</title><para id="import-auto-idm604840160">In the US the oil industry is dominated by the multinational oil giants such as Exxon, Shell, and BP. Internationally, OPEC, an organization of 15 major oil-exporting countries, heavily influences the world’s market. All of these companies and countries are driven by profit. Among other factors, such as consumer habits and governmental regulations, profit margin is largely increased by lowering cost of production.</para>
+      <para id="import-auto-idm960307408">The cost of production is dependent on many factors including methods of extraction/production, regulations and taxes, quantity of available oil to be extracted, etc. For example, Saudi Arabia is able to produce a barrel of oil for only $10 per barrel due to the country’s choice of regulations, taxes, and, of course, rich oil reserves. On the other hand, the US’s cost of production is about $23 per barrel, but recent estimates put it at above $60. High production cost becomes a major problem when the market price of oil drops. For instance, the market price of a barrel of oil in the US plummeted to $25 toward the end of 2015 causing a loss of hundreds of thousands of industry-related jobs and cuts in R&amp;D fundings. </para>
+      <para id="import-auto-idm458645088">The main challenge facing the oil and gas industry is not a scientific one; instead, it is the political (and intertwined economic) aspect of the oil industry that is most complicated. Oil, in some cases, is power. The price of oil in the consumer market fluctuates constantly due to the actions of OPEC members and other oil giants around the world fluctuations that can be a response to political events, new discoveries of domestic oil, or otherwise non-scientific reasons. Therefore, it is the job of the scientist to ensure that oil extraction and purification continues in an efficient, environmentally-friendly manner, even through the political instability of the present. </para>
+      <para id="import-auto-idm593524640">In order to continue drilling in the United States, the oil industry must adhere to several environmental regulations that have the overall effect of raising the cost of oil production. These laws and restrictions are divided into three main groups: laws regarding pollution, laws regarding waste, and laws regarding overall safety regulations related to the oil and gas industry. An overview of some of the critical federal laws governing the oil and gas industry in the United States can be seen in <link target-id="import-auto-idm282241360"/>. </para><table id="import-auto-idm282241360" summary="US federal oil and gas regulations.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Law</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Regulation</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Oil Protection Act (OPA)</entry>
+              <entry>Mandates that companies meet relatively strict standards when it comes to the prevention and response to oil spills and other forms of pollution.</entry>
+            </row>
+            <row>
+              <entry>Federal Clean Air Act (FCAA)</entry>
+              <entry>Regulates the amount of waste, and type of waste, that oil companies can release into the atmosphere as gas during the refining or extraction processes.</entry>
+            </row>
+            <row>
+              <entry>Clean Water Act (CWA)</entry>
+              <entry>Prohibits the contamination of drinking water tables or rivers, streams, ponds, or lakes by drilling processes.</entry>
+            </row>
+            <row>
+              <entry>Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA)</entry>
+              <entry>Firmly places responsibility and legal liability for oil and gas spill cleanup in the hands of oil and gas companies.</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>US federal oil and gas regulations. </caption>
+</table><para id="eip-413">One of the greatest challenges of the oil and gas industry is environmental impact. It is not an unknown fact that oil and gas byproducts have tremendous effects on the environment, and as a result more and more regulations on environmental impact are being put out. An example is the Clean Air Act (<link target-id="eip-710"/>). Other than the Clean Air Act, there has been a move towards carbon tax, which is when industries must pay a fee on the burning of carbon-based fuels. Its job is to act as a monetary disincentive that can motivate a switch to clean energy. Another form of regulation of environmental impact is carbon sequestration, which involves finding some way to capture CO<sub>2</sub> gas as a solid or liquid form to be trapped in oceans or in geological structures, preventing it from being emitted. Such plans will require heavy planning and risk management, as well as analytical methods to keep track how much CO<sub>2</sub> there is and monitor potential leakages or distributions. Oil companies are actively trying to curb their emissions and reduce their footprint in order to meet various requirements, but it is also necessary to have accurate real time monitoring on the release of CO<sub>2</sub> that can keep the industry accountable.</para><table id="eip-710" summary="Clean Air Act standards and guidelines for the oil and natural gas industry">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry><emphasis effect="bold">Regulations</emphasis></entry>
+    <entry><emphasis effect="bold">Regulation/guideline type</emphasis> </entry>
+  </row>
+  <row>
+    <entry>Natural gas transmission and storage facilities</entry>
+    <entry>National Emission Standards for Hazardous Air Pollutants (NESHAP)</entry>
+  </row>
+  <row>
+    <entry>Oil and natural gas production facilities</entry>
+    <entry>NESHAP</entry>
+  </row>
+  <row>
+    <entry>Crude oil and natural gas production, transmission and distribution</entry>
+    <entry>New Source Performance Standards (NSPS)</entry>
+  </row>
+  <row>
+    <entry>Crude oil and natural gas facilities</entry>
+    <entry>NSPS</entry>
+  </row>
+  <row>
+    <entry>Sulfur dioxide (SO<sub>2</sub>) emissions from onshore natural gas processing</entry>
+    <entry>NSPS</entry>
+  </row>
+  <row>
+    <entry>Equipment leaks of volatile organic compounds (VOC) from onshore natural gas processing plants</entry>
+    <entry>NSPS</entry>
+  </row>
+  <row>
+    <entry>Control of volatile organic compound equipment leaks from natural gas/gasoline processing plants (1983)</entry>
+    <entry>Control Techniques Guidelines (CTG)</entry>
+  </row>
+</tbody>
+</tgroup><caption>Clean Air Act standards and guidelines for the oil and natural gas industry.</caption>
+</table></section>
+    <section id="import-auto-idm602070032"><title>Key analytical techniques </title><para id="eip-478">Oil and gas mixtures are comprised of hundreds, if not thousands of different components, with each of these components reacting and behaving in a multitude of unique ways. In order to classify this abundance of compounds, an equally abundant number of analytical methods have been devised to help us understand the chemicals that we drill for every day. Many analytical methods focus on physical distinctions between molecules. The ability to identify molecules and their quantity is one of the most valuable techniques in all of analytical chemistry. Properties such as density, viscosity, and boiling point are some of the most accessible methods of classifying components in mixtures; however, in the majority of cases, complex oil and gas mixtures cannot easily be separated into their constituent components. As a result, more precise techniques must be used to help analyze oil. The most popular options are spectroscopy and chromatography, two techniques that are used in research all over the world.</para><para id="eip-761">One example of spectroscopy usage in oil and gas is to analyze asphaltene (<link target-id="import-auto-idm395172400 "/>) content in crude oil. Asphaltenes are molecular substances consisting of hydrocarbons. If left undisturbed, asphaltenes form solids that have a tendency to clog pipes, damage equipment, and introduce themselves into processes that they do not belong in. In order to predict the precipitation of asphaltenes in crude oil, researchers have devised a method of determining the onset of solid formation. The “indirect method” is a technique that involves conducting UV-visible spectroscopy on a sample of crude oil. By comparing the absorbance of light and the age of crude oil, researchers are able to correlate the aggregation time of asphaltenes to the quantity of asphaltenes. The indirect method is one of the many techniques used to help researchers design and maintain oil and gas flows, and it would not be possible without the help of spectroscopy.</para><figure id="import-auto-idm395172400"><media id="import-auto-idm378951664" alt="">
+        <image mime-type="image/jpg" src="../../media/asp.jpg" width="300" print-width="3in"/>
+      </media>
+    <caption>The idealized structure of asphaltene showing the types of functional groups that are present in a real sample. </caption></figure><para id="eip-550">Chromatography is an integral part of the oil and gas industry as well. During a process known as visbreaking, long hydrocarbon chains are “cracked” into smaller chains, allowing for the production of more valuable types of oil. In order to classify the contents of “visbroken” oil, researchers use thin-layer chromatography (TLC). Thin-layer chromatography is performed on a thin plate, which is coated with a thin adsorbent (the stationary phase). Once a mixture is introduced to its surface, capillary action draws the liquid upwards, allowing for separation. By using TLC in conjunction with densitometry, one is able to identify the contents of visbroken oil.</para><para id="import-auto-idm239385824">In the not-so-distant past, the methodology associated with reservoir exploration and subsequent crude oil extraction had been dominated by geochemists due to their advanced knowledge of topography and sediment analysis. However, over the past decades, the field of analytical chemistry has seen some revolutionary advancements that have brought new methods to the forefront of the industry. <link target-id="import-auto-idm482885040"/> briefly describes eight analytical techniques used for exploration/extraction, separation, and analysis of oil. </para><table id="import-auto-idm482885040" summary="List of common key techniques and their function for analyzing crude oil.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Method</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Purpose/application of technique</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Downhole fluid analysis (DFA)</entry>
+              <entry>Allows for <emphasis effect="italics">in situ</emphasis> analysis of reservoir samples to determine composition of oil column</entry>
+            </row>
+            <row>
+              <entry>2D gas chromatography (2D <link url=" https://cnx.org/contents/uieDnVBC@23.1:xUaus2-x@2/Principles-of-Gas-Chromatography" window="new">GC</link>)</entry>
+              <entry>Gives enhanced peak capacity, sensitivity, and resolution due to multiple separation dimensions</entry>
+            </row>
+            <row>
+              <entry>High-performance liquid chromatography (<link url=" https://cnx.org/contents/uieDnVBC@23.1:hBnzUHCR@4/High-Performance-Liquid-chromatography" window="new">HPLC</link>)</entry>
+              <entry>Assists in determination and separation of the main structural components of crude oil</entry>
+            </row>
+            <row>
+              <entry>Fourier-transform ion cyclotron resonance mass spectrometry (FT-ICR <link url=" https://cnx.org/contents/uieDnVBC@23.1:kl4gTdhf@1/Principles-of-Mass-Spectrometry-and-Modern-Applications" window="new">MS</link>)</entry>
+              <entry>Detects the compositional complexity of the acidic/basic species like N-containing compounds at the molecular level</entry>
+            </row>
+            <row>
+              <entry>Inductively coupled plasma mass spectrometry (<link url=" https://cnx.org/contents/uieDnVBC@23.1:ZGkCfm7y@1/ICP-MS-for-Trace-Metal-Analysis" window="new">ICP-MS</link>)</entry>
+              <entry>Determines the concentration of metallic elements and organometallic species in a sample</entry>
+            </row>
+            <row>
+              <entry>Ion mobility mass spectrometry (IM-<link url=" https://cnx.org/contents/uieDnVBC@23.1:kl4gTdhf@1/Principles-of-Mass-Spectrometry-and-Modern-Applications" window="new">MS</link>)</entry>
+              <entry>Separates compounds based on their structural characteristics and charge state</entry>
+            </row>
+            <row>
+              <entry>Small angle X-ray scattering (SAXS)</entry>
+              <entry>Utilizes electron density differences and X-ray beams to collect structural information</entry>
+            </row>
+            <row>
+              <entry>Liquid crystal analysis</entry>
+              <entry>Useful for freezing point determination and fine-tuning partition methods</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>List of common key techniques and their function for analyzing crude oil. </caption>
+</table><section id="import-auto-idm662943984">
+        <title>Extraction methods</title>
+        <para id="import-auto-idm518484048">The first and possibly most vital step for any oil company is to decide where they are going to drill and why. The importance of this decision on location will determine the productivity, profit, and expenditure for the company. For this reason, much thought is placed on oil analysis before any drilling has even begun. Analytical chemists have brought a variety of techniques to this field; however, one of the most simple yet most effective is the downhole fluid analysis, or DFA, method. The process itself is very simple, a probe is sent down into the earth and is brought up with a vertical sample nearly 700 ft in length containing a variety of sediment and layers. With this column, a variety of information can be determined, especially with respect to biodegradation: by comparing various DFA samples from around the world, a company can predict the quality of the crude oil, compare compounds that are usually indicative of increased levels of biodegradation, and paint a picture of the oil’s molecular components. By coupling this technique with other, more analysis-focused methods, an even greater pool of information can be obtained to gain a more holistic, predictive image of the crude oil that is going to be extracted from the potential reservoir.  </para>
+      </section>
+      <section id="import-auto-idm365890736">
+        <title>Separation Methods </title>
+        <para id="import-auto-idm449747696">Since crude oil is a complex mixture containing some compounds that cannot be analyzed by higher-end analytical methods such as mass spectrometry and liquid crystal analysis, separation must be used to eliminate certain molecules from crude oil before further analysis can be conducted. One manner of removing impurities is by precipitating out wax of lengthy carbon chains called paraffin wax that is too dense and not volatile enough for use in gas chromatography (GC). Another method of separation that has seen advances tailored toward the oil industry is multidimensional gas chromatography. When a single column does not offer the separation or resolution desired among a variety of crude-oil components, several columns, each with a unique stationary phase, are used in conjunction in order to isolate compounds from oil based off of different physical properties. Paired with flame ionization detection, multidimensional GC is so sensitive that miniscule amounts of matter can be detected in situations such as dilute-sample analysis of oil following oceanic oil spills. </para>
+        <para id="import-auto-idm289812800">If multidimensional GC is still insufficient in separating out compounds, high-performance liquid chromatography (HPLC) can serve as a precursor to GC. A novel method of HPLC uses a silver-modified stationary phase to separate saturated hydrocarbons from unsaturated ones. Another HPLC approach uses a hypercrosslinked stationary phase formed from alkyl bonds between aromatic residues of stationary-phase molecules; this hypercrosslinked structure has been found ideal for separation of polyaromatic hydrocarbons as well as for separation of different nitrogen-containing aromatic compounds such as pyrrole and pyridine.</para>
+      </section>
+      <section id="import-auto-idm677368896">
+        <title>Molecular-level analysis methods</title>
+        <para id="import-auto-idm481889792">Subsequent analysis of the separated components is the next key step in the process. The main and most efficient method so far has proven to be FT-ICR coupled with MS. Using this method, incredible resolution of complex molecules can be attained due to a complex mechanism: by measuring the frequency of ion “packets” created by the machine, researchers are able to pinpoint a fairly precise range of weights for asphaltenes (350 - 1050 Da), something that previous methods of analysis would not have been able to determine with such high accuracy. </para><para id="eip-679">Even more sensitive is the ICP-MS method which uses extremely high temperatures to ionize almost everything in a sample. Using this technique, researchers are now able to accurately determine the concentrations of a variety of metallic elements and organometallics in their samples to ensure no water waste contains harmful pollutants. For more structural analysis, methods like ion mobility mass spectrometry (IM-MS) can be implemented which use a carbon nanopowder to separate compounds based not only on mass/charge ratios, but also structural features like having linear, branched, or condensed 3D shapes. </para><para id="eip-351">Finally, if an even more detailed characterization is needed, methods like small angle X-ray scattering (SAXS) and/or liquid crystal analysis can be used to discover crucial information about specific components of crude oil, specifically asphaltenes. With this additional data, future methods can be tailor-made for samples of crude oil from specific regions of the world that share common structural characteristics to increase cost-effectiveness and thereby profitability for the industry. </para></section>
+    </section><section id="import-auto-idm700290368">
+      <title>Conclusions and future directions</title>
+      <para id="import-auto-idm583277440">With an expanding market for oil and an accelerated need to quickly locate and characterize deposits of crude oil around the world, the work of analytical chemistry in the realm of oil and gas is becoming more paramount as time progresses and is constantly seeing novel opportunities for improvement. Throughout the last century, chemists working with oil have established a reliable system of first carrying out preliminary sample assessment through downhole fluid analysis, then separating large classes of crude oil components from each other using gas and high-performance liquid chromatographies, and finally implementing specific analytical tools such as mass spectrometry and inductively coupled plasma in order to characterize oil based off of structural details and varying levels of nitrogenous and organometallic molecules.  In response to harsher regulations and safety standards placed on the processing and handling of petroleum, the oil industry will have to continue to enhance the detection range of its analytical instruments in coming years so that minute quantities of carcinogens, poisons, and other harmful chemicals can be identified in drilling wastes or before petroleum products are certified for quality and / or are approved for commercial use. </para>
+      <para id="import-auto-idm436753936">As demand for oil and gas continues to grow, the industry must rise to meet new challenges in production. New sources of fuel and new methods to find these sources have created an industry that is dynamic and ever-changing. Existing technology is effective but has proven to be inefficient and redundant with severe limitations in terms of adaptability and user-friendliness. Therefore, it is extremely important that new technology of the kind discussed above is developed in the short term in order to meet the projections of oil production, and in the long term, it is important that we shift toward improving the efficacy of extraction and utilization oil resources, given that they are not renewable. As the world becomes more environmentally conscious, it will be extremely important for the oil &amp; gas industry to also become more mindful of the environment and analytical techniques such as those discussed in this article will go a long way in attaining related goals.</para>
+    </section>
+    <section id="import-auto-idm519987984">
+      <title>Exercises </title>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-idm282880416"><title>Numerical questions </title><exercise id="eip-519"><problem id="eip-178">
+  <para id="eip-158">Analytical chemists rely heavily on peak areas and calibration curves to determine various concentrations of a variety of compounds. Let’s say a petroleum engineer is trying to determine the concentration of a particular asphaltene in a crude oil sample. After passing through FT-ICR MS, a linear regression model was calculated:</para>
+      
+        <equation id="eip-690">y = 100.92x + 0.3562. </equation>
+
+<para id="import-auto-idm474592320">The asphaltene peak had an area of 327. If the sample has been diluted from 10 mL to 25 mL with a purity of 98.6%, what is the actual amount of asphaltene present?</para>
+
+
+</problem>
+
+<solution id="eip-326">
+  <para id="eip-113">First step, use the regression model and input the peak area given in the problem: </para>
+   
+        <equation id="eip-182">327 = 100.92x + 0.3562</equation>
+        <equation id="eip-532">x = 3.2367 </equation><para id="import-auto-idm539283856">Next, find the dilution factor (25/10 = 2.5) and the multiplier (1/0.986 = 1.014). Multiplying all three values will convert the interpolated results into the actual mass of asphaltene in the sample, based on the peak area: </para>
+        
+        <equation id="eip-820">(3.2367 units)(2.5)(1.014) = 8.2050 mass units  </equation>
+
+</solution>
+</exercise>
+
+  
+
+        
+     
+
+
+<exercise id="eip-77"><problem id="eip-860">
+  <para id="eip-917">For X-ray scattering analysis, Bragg’s Law (<link target-id="eip-348"/>) is an essential equation to help chemists analyze data obtained from the diffraction method, where λ = the wavelength of the light, θ = the angle of incidence, and d = interplanar distance between atomic layers of the sample.</para>
+<equation id="eip-348">2d sin(θ) = nλ</equation>
+        <para id="import-auto-idm696905392">Assuming n = 1 for constructive interference, calculate the interplanar distance of a liquid crystal asphaltene sample given that the X-ray beam with a wavelength of 1.54 Å strikes the solid with a incidence angle of 38.3°.</para>
+</problem>
+
+<solution id="eip-916">
+  <para id="eip-282">
+This question can be solved by inputting the values given for each variable of the Bragg’s equation and solving for the interplanar distance (d). With some rearranging, the formula can be rewritten to solve for the interplanar distance of the crystal:
+  </para>
+       <equation id="eip-988">nλ/2 sin(θ) = d</equation>
+        <equation id="eip-707">(1 × 1.54)/2 sin(38.3) = 1.24 Å</equation>
+
+</solution>
+</exercise>
+       
+ 
+
+
+
+
+        
+ 
+
+
+<exercise id="eip-488"><problem id="eip-14">
+  <para id="eip-107">The Kovats Retention Index is a crucial value used by researchers which relates the retention time of a solute to the retention times of linear alkanes. Due to the immense amount of hydrocarbons in a singular sample of crude oil, it is extremely important to convert retention times into system-independent constants, which can be used for future analysis of similar compounds. The equation to calculate the retention index (I) is given below where N is the number of carbon atoms in larger alkane and n is the number of carbon atoms in smaller alkane (<link target-id="eip-572"/>). </para>
+ <equation id="eip-572"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>I</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>100</m:mn>
+            </m:mrow>
+            <m:mi>×</m:mi>
+            <m:mrow>
+              <m:mo fence="true" stretchy="true">[</m:mo>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>N</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>n</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>log</m:mi>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo fence="true" stretchy="true">(</m:mo>
+                          <m:mrow>
+                            <m:msubsup>
+                              <m:mi>t</m:mi>
+                              <m:mrow>
+                                <m:mi>r</m:mi>
+                                <m:mrow>
+                                  <m:mo fence="true" stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:mi mathvariant="italic">unknown</m:mi>
+                                  </m:mrow>
+                                  <m:mo fence="true" stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mi>'</m:mi>
+                            </m:msubsup>
+                          </m:mrow>
+                          <m:mo fence="true" stretchy="true">)</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>log</m:mi>
+                      </m:mrow>
+                      <m:mi>⁡</m:mi>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mi>t</m:mi>
+                            <m:mrow>
+                              <m:mi>r</m:mi>
+                              <m:mrow>
+                                <m:mo fence="true" stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                                <m:mo fence="true" stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mi>'</m:mi>
+                          </m:msubsup>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>log</m:mi>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo fence="true" stretchy="true">(</m:mo>
+                          <m:mrow>
+                            <m:msubsup>
+                              <m:mi>t</m:mi>
+                              <m:mrow>
+                                <m:mi>r</m:mi>
+                                <m:mrow>
+                                  <m:mo fence="true" stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mi>N</m:mi>
+                                      <m:mi>'</m:mi>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:mo fence="true" stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mi>'</m:mi>
+                            </m:msubsup>
+                          </m:mrow>
+                          <m:mo fence="true" stretchy="true">)</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>log</m:mi>
+                      </m:mrow>
+                      <m:mi>⁡</m:mi>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mi>t</m:mi>
+                            <m:mrow>
+                              <m:mi>r</m:mi>
+                              <m:mrow>
+                                <m:mo fence="true" stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                                <m:mo fence="true" stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mi>'</m:mi>
+                          </m:msubsup>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mo fence="true" stretchy="true">]</m:mo>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">I=100 × left [n+(N-n) {log {left ({t} rsub {r(unknown)} rsup {'} right )} -log⁡( {t} rsub {r(n)} rsup {'} )} over {log {left ({t} rsub {r( {N} ^ {'} )} rsup {'} right )} -log⁡( {t} rsub {r(n)} rsup {'} )} right ]</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+
+<para id="import-auto-idm504536064">Suppose researchers ran an initial GC and obtained the following retention times for methane, hexane, and decane: 0.5, 12.3, and 18.5 minutes respectively. An unknown alkane has a retention time of 14.7; what is the retention index for the unknown?</para>
+</problem>
+
+<solution id="eip-85">
+  <para id="eip-617">This question requires previous knowledge regarding nomenclature of organic compounds and understanding that retention time for methane will be used to calculate the adjusted retention times for the other molecules. Hexane contains 6 carbons while decane contains 10, meaning the variable N will refer to decane and the variable n will refer to hexane. The adjusted retention time for hexane, decane, and the unknown compound are 11.8, 18.0, and 14.2, respectively. To solve for I, the values are plugged into:</para>
+<equation id="eip-418"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>I</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>100</m:mn>
+            </m:mrow>
+            <m:mi>×</m:mi>
+            <m:mrow>
+              <m:mo fence="true" stretchy="true">[</m:mo>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mrow>
+                      <m:mo fence="true" stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>10</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo fence="true" stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>log</m:mi>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo fence="true" stretchy="true">(</m:mo>
+                          <m:mrow>
+                            <m:mn>14.2</m:mn>
+                          </m:mrow>
+                          <m:mo fence="true" stretchy="true">)</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>log</m:mi>
+                      </m:mrow>
+                      <m:mi>⁡</m:mi>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mn>11.8</m:mn>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>log</m:mi>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo fence="true" stretchy="true">(</m:mo>
+                          <m:mrow>
+                            <m:mn>18.0</m:mn>
+                          </m:mrow>
+                          <m:mo fence="true" stretchy="true">)</m:mo>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>log</m:mi>
+                      </m:mrow>
+                      <m:mi>⁡</m:mi>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mn>11.8</m:mn>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mo fence="true" stretchy="true">]</m:mo>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">I=100 × left [6 +( 10 - 6 ) {log {left (14.2 right )} -log⁡( 11.8 )} over {log {left (18.0 right )} -log⁡( 11.8 )} right ]</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-idm488294624">After solving the equation, the retention index for the unknown compound = 775. </para>
+</solution>
+</exercise>
+       
+
+
+
+        
+        <exercise id="eip-548"><problem id="eip-633">
+  <para id="eip-622">As mentioned in the paper, calculating the concentration of metal in water waste has proven to be a key issue for oil companies; therefore, multiple methods have been developed to assess the efficiency of this calculation. The metal-complexing ligand (EDTA, <link target-id="import-auto-idm753435408XCZ1ZC"/>) is one of the more popular choices when trying to determine the concentration of metal in a sample. A very helpful piece of information for researchers is the complexometric titration curve, which plots the p(Metal) vs. the volume of EDTA added. Given that β<sub>4 </sub>equals 8 x 10<sup>-6</sup>, calculate the pFe of a mixture when 40 mL of 0.001 M EDTA has been added to a 60 mL solution of 0.001 M Fe<sup>2+</sup>. This pFe will correspond to one point along the titration curve for iron and EDTA.</para>
+  <figure id="import-auto-idm753435408XCZ1ZC"><media id="import-auto-idm574037904XCZ1ZC" alt="">
+            <image mime-type="image/jpg" src="../../media/EDTA.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>Structure of ethylenediaminetetraacetic acid (EDTA). </caption></figure></problem>
+
+<solution id="eip-726">
+  <para id="eip-891">To solve this question, two main equations need to be known. The first relates the total concentration of the species that has not complexed with EDTA to the volume of the solutions; the second relates the effective stability constant to the concentration of the metal ion in the sample: </para>
+
+<equation id="eip-481"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>C</m:mi>
+              <m:mi mathvariant="italic">Fe</m:mi>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>V</m:mi>
+                      <m:mi>R</m:mi>
+                    </m:msub>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>M</m:mi>
+                        <m:mi>R</m:mi>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mi>T</m:mi>
+                      </m:msub>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>M</m:mi>
+                      <m:mi>T</m:mi>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>V</m:mi>
+                      <m:mi>R</m:mi>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>V</m:mi>
+                      <m:mi>T</m:mi>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{C} rsub {Fe}  =  {( {V} rsub {R} {M} rsub {R}  -  {V} rsub {T} {M} rsub {T} )} over {( {V} rsub {R}  +  {V} rsub {T} ) }</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-143"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>C</m:mi>
+                <m:mi mathvariant="italic">Fe</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">[</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="true">(</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>60</m:mn>
+                            <m:mi>×</m:mi>
+                            <m:mn>0.001</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="true">)</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mrow>
+                        <m:mo fence="true" stretchy="true">(</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>40</m:mn>
+                            <m:mi>×</m:mi>
+                            <m:mn>0.001</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo fence="true" stretchy="true">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">]</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>60</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>40</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mi>x</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mrow>
+                <m:mo stretchy="false">−</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:msup>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{C} rsub {Fe}  = {[ left (60 × 0.001 right ) - left (40 × 0.001 right ) ]} over {(60+40)}  = 2 x  {10} ^ {-4}     M</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-545"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>C</m:mi>
+                <m:mi mathvariant="italic">Fe</m:mi>
+              </m:msub>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+            <m:mi>x</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mrow>
+                <m:mo stretchy="false">−</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:msup>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{C} rsub {Fe}  = 2 x  {10} ^ {-4}   M</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-423">Thus, </para><equation id="eip-737"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mi>β</m:mi>
+              <m:mn>4</m:mn>
+            </m:msub>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">[</m:mo>
+                <m:mrow>
+                  <m:mi mathvariant="italic">Fe</m:mi>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">]</m:mo>
+              </m:mrow>
+              <m:msub>
+                <m:mi>C</m:mi>
+                <m:mi mathvariant="italic">Fe</m:mi>
+              </m:msub>
+            </m:mfrac>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{β} rsub {4}  =  {[Fe ]} over {{C} rsub {Fe}}  </m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-940">Rearrange to: </para><equation id="eip-552"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:msub>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">[</m:mo>
+                  <m:mrow>
+                    <m:mi mathvariant="italic">Fe</m:mi>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">]</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mi>β</m:mi>
+              </m:mrow>
+              <m:mn>4</m:mn>
+            </m:msub>
+            <m:mi>×</m:mi>
+            <m:msub>
+              <m:mi>C</m:mi>
+              <m:mi mathvariant="italic">Fe</m:mi>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{[ Fe ]  =  β} rsub {4}  ×  {C} rsub {Fe}  </m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-301"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">[</m:mo>
+                <m:mrow>
+                  <m:mi mathvariant="italic">Fe</m:mi>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">]</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                    <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:mi>×</m:mi>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>1.6</m:mn>
+            </m:mrow>
+            <m:mi>×</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mrow>
+                <m:mo stretchy="false">−</m:mo>
+                <m:mn>9</m:mn>
+              </m:mrow>
+            </m:msup>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">  left [Fe right ] = left (8  ×   {10} ^ {-6} right )   ×  left (2  ×   {10} ^ {-4} right ) = 1.6  ×   {10} ^ {-9}  M</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-352">β<sub>4</sub> × C<sub>Fe</sub> = [Fe<sup>2+</sup>] = 8 x 10<sup>-6</sup> × 2 x 10<sup>-4</sup> = 1.6 x 10<sup>-9</sup> M. </para><para id="eip-815">Finally, convert the molar concentration into the pFe, where the -log(Fe<sup>2+</sup>) will be calculated: </para><equation id="eip-899"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mo stretchy="false">−</m:mo>
+              <m:mi>log</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>1.6</m:mn>
+                    <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>9</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="false">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>8.80</m:mn>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">-log(1.6  ×     {10} ^ {-9} ) = 8.80</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+
+
+
+
+</solution>
+
+
+</exercise>
+
+
+
+
+<exercise id="eip-855"><problem id="eip-177">
+  <para id="eip-941">A reaction that occurs in most combustion tanks includes the combustion of octane, a hydrocarbon representative of most gasoline products (<link target-id="eip-160"/>). Given that the density of gasoline is around 0.75 kg/L, what is the mass of oxygen (kg) that is needed to react with 30 L of gasoline?</para><equation id="eip-160"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:msub>
+              <m:mi>C</m:mi>
+              <m:mn>8</m:mn>
+            </m:msub>
+            <m:mrow>
+              <m:msub>
+                <m:mi>H</m:mi>
+                <m:mn>18</m:mn>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mn>25</m:mn>
+            </m:mrow>
+            <m:msub>
+              <m:mi>O</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mi>→</m:mi>
+            <m:mn>16</m:mn>
+            <m:mrow>
+              <m:msub>
+                <m:mi mathvariant="italic">CO</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mn>18</m:mn>
+            </m:mrow>
+            <m:msub>
+              <m:mi>H</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mi>O</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">2  {C} rsub {8} {H} rsub {18}  + 25  {O} rsub {2} → 16  {CO} rsub {2}  + 18  {H} rsub {2} O</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+</problem>
+
+<solution id="eip-972">
+  <para id="eip-333">The molecular weight of C<sub>8</sub>H<sub>18</sub> = 114.22 g/mol. We proceed to convert liters of gas to moles of gas, and then use stoichiometric relations to obtain the O<sub>2</sub> required to react fully with all the gas.</para>
+<equation id="eip-795"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mn>30</m:mn>
+            <m:mi>L</m:mi>
+            <m:msub>
+              <m:mi>C</m:mi>
+              <m:mn>8</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>H</m:mi>
+              <m:mn>18</m:mn>
+            </m:msub>
+            <m:mi>×</m:mi>
+            <m:mrow>
+              <m:mo fence="true" stretchy="true">(</m:mo>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>0.75</m:mn>
+                    <m:mi mathvariant="italic">kg</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mi>L</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:mo fence="true" stretchy="true">)</m:mo>
+            </m:mrow>
+            <m:mi>×</m:mi>
+            <m:mrow>
+              <m:mo fence="true" stretchy="true">(</m:mo>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1000</m:mn>
+                    <m:mi>g</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mi mathvariant="italic">kg</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:mo fence="true" stretchy="true">)</m:mo>
+            </m:mrow>
+            <m:mi>×</m:mi>
+            <m:mrow>
+              <m:mo fence="true" stretchy="true">(</m:mo>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mi mathvariant="italic">mol</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>114.22</m:mn>
+                    <m:mi>g</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:mo fence="true" stretchy="true">)</m:mo>
+            </m:mrow>
+            <m:mi>×</m:mi>
+            <m:mrow>
+              <m:mo fence="true" stretchy="true">(</m:mo>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>25</m:mn>
+                    <m:mi mathvariant="italic">mol</m:mi>
+                    <m:msub>
+                      <m:mi>O</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mi mathvariant="italic">mol</m:mi>
+                    <m:msub>
+                      <m:mi>C</m:mi>
+                      <m:mn>8</m:mn>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>H</m:mi>
+                      <m:mn>18</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:mo fence="true" stretchy="true">)</m:mo>
+            </m:mrow>
+            <m:mi>×</m:mi>
+            <m:mrow>
+              <m:mo fence="true" stretchy="true">(</m:mo>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>32</m:mn>
+                    <m:mi>g</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mi mathvariant="italic">mol</m:mi>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+              <m:mo fence="true" stretchy="true">)</m:mo>
+            </m:mrow>
+            <m:mi>×</m:mi>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mi mathvariant="italic">kg</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1000</m:mn>
+                      <m:mi>g</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>79</m:mn>
+            </m:mrow>
+            <m:mi>g</m:mi>
+            <m:msub>
+              <m:mi>O</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">30 L  {C} rsub {8} {H} rsub {18}  × left ({0.75 kg} over {1 L} right ) × left ({1000 g} over {1 kg} right ) × left ({1 mol} over {114.22 g} right ) × left ({25 mol  {O} rsub {2}} over {2 mol  {C} rsub {8} {H} rsub {18}} right ) × left ({32 g} over {1 mol} right ) × left ({1 kg} over {1000 g} right ) =79 g  {O} rsub {2}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+
+</solution>
+</exercise>
+
+<exercise id="eip-388"><problem id="eip-494">
+  <para id="eip-258">Suppose we desire a barrel that has a certain percentage hydrocarbons. If we need to obtain 200 gallons of crude oil that’s 80% hydrocarbons but the only available sources are barrel A (crude oil that’s 65% hydrocarbons) and barrel B (crude oil that’s 90% hydrocarbons), how much oil from each barrel should be used to produce the desired mixture?</para>
+</problem>
+
+<solution id="eip-772">
+  <para id="eip-363">If we let <emphasis effect="italics">a</emphasis> be the number of gallons of barrel A and <emphasis effect="italics">b</emphasis> be the number of gallons of barrel B, we have a system of equations we can solve:</para>
+
+
+
+<equation id="eip-992"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mi>b</m:mi>
+            </m:mrow>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mn>200</m:mn>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">a+b=200</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-802"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mn>0.65</m:mn>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mn>0.90</m:mn>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>b</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>0.80</m:mn>
+            </m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mn>200</m:mn>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>160</m:mn>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">0.65a+0.90b=0.80 left (200 right ) =160</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-463">Using the <link target-id="eip-992"/> to get b = 200 – a and therefore:</para><equation id="eip-966"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mn>0.65</m:mn>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mo stretchy="false">+</m:mo>
+              <m:mn>0.90</m:mn>
+            </m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mo fence="true" stretchy="true">(</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>200</m:mn>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mi>a</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo fence="true" stretchy="true">)</m:mo>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mn>180</m:mn>
+                <m:mo stretchy="false">−</m:mo>
+                <m:mn>0.25</m:mn>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>160</m:mn>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">0.65a+0.90 left (200-a right ) =180-0.25a=160</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-389"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mrow>
+              <m:mn>80</m:mn>
+              <m:mo stretchy="false"> and </m:mo>
+              <m:mi>b</m:mi>
+            </m:mrow>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mn>120</m:mn>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">a=80  and b=120</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+
+
+</solution>
+</exercise>
+
+
+
+
+<exercise id="eip-397"><problem id="eip-758">
+  <para id="eip-312">If barrel A contained 0.33% sulfur content while barrel B contained 0.62% sulfur content, would the mixture made in <link target-id="eip-388"/> be classified as sweet crude, sour crude, or neither?</para>
+</problem>
+
+<solution id="eip-125">
+
+    
+
+<para id="import-auto-idm235327136">We use our results from <link target-id="eip-388"/> to calculate the amount of sulfur content. First, we calculate that the fraction of mixture from barrels A and B are <link target-id="eip-691s"/> and <link target-id="eip-140"/>, respectively. </para><equation id="eip-691s"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>80</m:mn>
+              <m:mn>200</m:mn>
+            </m:mfrac>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mn>0.4</m:mn>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{80} over {200} =0.4</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-140"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>120</m:mn>
+              <m:mn>200</m:mn>
+            </m:mfrac>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mn>0.6</m:mn>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">{120} over {200} =0.6</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-idm508464752">Thus we have a total sulfur content of: </para>
+    <equation id="eip-840"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>0.4</m:mn>
+                      <m:mi>×</m:mi>
+                      <m:mn>0.330</m:mn>
+                      <m:mtext/>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="true">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>0.6</m:mn>
+                      <m:mi>×</m:mi>
+                      <m:mn>0.620</m:mn>
+                      <m:mtext/>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="true">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mn>0.504</m:mn>
+            </m:mrow>
+            <m:mtext/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">left (0.4 × 0.330% right ) + left (0.6 × 0.620% right ) =0.504%</m:annotation>
+        </m:semantics>
+      </m:math></equation><para id="import-auto-idm215052544">Since this percentage is just above 0.5%, the mixture would be classified as sour crude.</para>
+</solution>
+</exercise><exercise id="eip-179"><problem id="eip-84">
+  <para id="eip-455">A jet fuel analyst wants to correlate jet propulsion to the quantity of n-decane (C<sub>10</sub>H<sub>22</sub>) is found in their kerosene. After determining the thrust produced by a particular sample, she conducts UV-visible spectroscopy to determine the concentration within the sample. From this experiment, she finds the n-decane to have an absorbance of 0.698. The path length of her cuvette is 2.5 cm. From earlier experiments, she determines her molar absorptivity to be 12000 dm<sup>3</sup>mol<sup>-1</sup>cm<sup>-1</sup>. What is the concentration of n-decane in the sample?</para></problem>
+
+<solution id="eip-817">
+  <para id="eip-926">For this problem, we use Beer’s Law (<link target-id="eip-94"/>) to calculate the concentration (<link target-id="eip-638"/>).</para><equation id="eip-94"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mo stretchy="false">=</m:mo>
+            <m:mi mathvariant="italic">εbc</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">A=εbc</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-638"><m:math display="block">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>c</m:mi>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mi>A</m:mi>
+                <m:mi mathvariant="italic">εb</m:mi>
+              </m:mfrac>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mfrac>
+                <m:mn>0.698</m:mn>
+                <m:mrow>
+                  <m:mo fence="true" stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mn>12000</m:mn>
+                      <m:mi>d</m:mi>
+                      <m:msup>
+                        <m:mi>m</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                      <m:mi mathvariant="italic">mo</m:mi>
+                      <m:msup>
+                        <m:mi>l</m:mi>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mi>c</m:mi>
+                      <m:msup>
+                        <m:mi>m</m:mi>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mi>×</m:mi>
+                      <m:mn>2.5</m:mn>
+                      <m:mi mathvariant="italic">cm</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo fence="true" stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo stretchy="false">=</m:mo>
+              <m:mrow>
+                <m:mn>2.3</m:mn>
+                <m:mo stretchy="false">×</m:mo>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:mrow>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">c= {A} over {εb} = {0.698} over {(12000   d {m} ^ {3} mo {l} ^ {-1} c {m} ^ {-1}  ×  2.5cm)} =2.3 x {10} ^ {-5} M</m:annotation>
+        </m:semantics>
+      </m:math></equation>
+</solution>
+</exercise>
+        
+      </section><section id="import-auto-idm342704384">
+        <title>Thought-provoking questions</title>
+        <list id="import-auto-idm361109728" list-type="enumerated" number-style="arabic"><item>To what extent and under which circumstances should the oil industries be self-regulated, and in what situations should the government step in to impose restrictions?</item>
+          <item>In your opinion, what is the biggest challenge faced by the oil industry and what would be the best way to approach this problem? Can analytical chemistry be used to help solve this issue?</item>
+          <item>Pick one of the analytical techniques described in this paper and explain how it could be applied to another field of chemistry (ex. Pharmaceuticals, chemical industry, etc.) in detail.</item>
+          <item>What are the pros and cons of continued oil exploration and excavation? Are there any changes you would implement in the current status of the oil industry to help with future concerns regarding renewability and supply.</item>
+        <item>Analytical methods, such as spectroscopy and chromatography, allow us to determine the contents of the oils that we produce. From this, we are able to determine the types of fuels that have distilled. How was oil refined before such methods were introduced?</item>
+        <item>The relationship between regulation of the oil and gas sector and political relationships is complicated and objective, leaving gaps for regulation. Such an example is the gap between EPA and EAA regulation, which leaves room for carmakers to falsify and cheat on emission standard testing. How can (if at all) analytical measurements and instruments help close the gap created by political institutions? </item>
+
+</list></section>
+    </section>
+    <section id="import-auto-idm835903856">
+      <title>Bibliography</title>
+      <list id="import-auto-idm529565008" list-type="bulleted"><item>V. Rao and R. Knight, <emphasis effect="italics">Sustainable Shale Oil and Gas: Analytical Chemistry, Geochemistry, and Biochemistry Methods</emphasis>, Elsevier, United Kingdom (2017).</item>
+        <item>Oil and Gas Extraction Sector (NAICS 211), <link url=" https://www.epa.gov/regulatory-information-sector/oil-and-gas-extraction-sector-naics-211" window="new"> https://www.epa.gov/regulatory-information-sector/oil-and-gas-extraction-sector-naics-211</link> (accessed December 2018).</item>
+        <item>R. Valdmanis, As Trump targets energy rules, oil companies downplay their impact, <emphasis effect="italics">Reuters</emphasis>, <link url=" https://www.reuters.com/article/us-usa-trump-oil-regulation-insight-idUSKBN16U1A9" window="new"> https://www.reuters.com/article/us-usa-trump-oil-regulation-insight-idUSKBN16U1A9</link> (accessed December 2018).</item>
+        <item>H. Devold, <emphasis effect="italics">Oil and Gas Production Handbook: An Introduction to Oil and Gas Production</emphasis>, Lulu.com (2013).</item>
+        <item>B. Plainchont, P. Berruyer, J.-N. Dumez, S. Jannin, and P. Giraudeau, <emphasis effect="italics">Anal. Chem.</emphasis>, 2018, <emphasis effect="bold">90</emphasis>, 3639. </item>
+        <item>P. Motamedi, H. Bargozin and P. Pourafshary, <emphasis effect="italics">J. Energy Resour. Technol</emphasis>, 2018, <emphasis effect="bold">140</emphasis>, 052908. </item>
+        <item>Dallas Fed, <link url=" https://www.nbr.org/publication/the-impact-of-low-oil-prices-on-north-america/" window="new"> https://www.nbr.org/publication/the-impact-of-low-oil-prices-on-north-america/</link>  (accessed December 2018).</item>
+        <item>O. C. Mullins, G. T Ventura, and R. K. Nelson. <emphasis effect="italics">Energy Fuels</emphasis>, 2008, <emphasis effect="bold">22</emphasis>, 496.</item>
+        <item>R. Rodgers and A. McKenna. <emphasis effect="italics">Anal. Chem.</emphasis>, 2011, <emphasis effect="bold">83</emphasis>, 4665.</item>
+        <item>D. Mao and V. Weghe. <emphasis effect="italics"> J. Chromatogr., A</emphasis>, 2008, <emphasis effect="bold">1179</emphasis>, 33.</item>
+        <item>K. Qian, R. Rodgers, C. L. Hendrickson, and M. R. Emmett.<emphasis effect="italics"> Energy Fuels</emphasis>, 2001, <emphasis effect="bold">15</emphasis>, 492.</item>
+        <item>T. A. Maryutina and A. V. Soin. <emphasis effect="italics">Anal. Chem.</emphasis>, 2009, <emphasis effect="bold">81</emphasis>, 5896.</item>
+        <item>C. Becker, F. A. Fernandez-Lima, and D. H. Russell, <emphasis effect="italics">Spectroscopy</emphasis> 2009, <emphasis effect="bold">24</emphasis>, 38.</item>
+        <item>E. Y. Sheu, <emphasis effect="italics">J. Phys.: Condens. Matter</emphasis> , 2006, <emphasis effect="bold">18</emphasis>, S2485.</item>
+        <item><emphasis effect="italics">Anal. Chem.</emphasis>, 1964, <emphasis effect="bold">36</emphasis>, 31A.</item>
+        <item>M. Khopkar, <emphasis effect="italics">Basic Concepts of Analytical Chemistry</emphasis>, New Age Science Ltd; 3rd Ed. (2008). </item>
+        <item>M. C. Kennicutt II, <emphasis effect="italics">Oil Chem. Pollut.</emphasis>, 1988, <emphasis effect="bold">4</emphasis>, 89.</item>
+        <item>G. S. Kumar, A. K Mishra, <emphasis effect="italics">Aquat. Procedia</emphasis>, 2015, <emphasis effect="bold">4</emphasis>, 435.</item>
+        <item>C. Becker, F. A. Fernandez-Lima, A. G. Marshall, A. M. McKenna, R. P. Rodgers, and D. H. Russell, <emphasis effect="italics">Anal. Chem.</emphasis>, 2009, <emphasis effect="bold">81</emphasis>, 9941. </item>
+        <item>M. Bjoroey, S. R. Larter, M. Li, and D. Stoddart, <emphasis effect="italics">Anal. Chem.</emphasis>, 1992, <emphasis effect="bold">64</emphasis>, 1337. </item>
+        <item>G. J. Dechert, E. K. Fukuda, C. S. Hsu, and W. K. Robbins, <emphasis effect="italics">Anal. Chem.</emphasis>, 2000, <emphasis effect="bold">14</emphasis>. 217.</item>
+        <item>J. G. Erdman, S. S. Pollack, and T. F. Yen, <emphasis effect="italics">Anal. Chem.</emphasis>, 1961, <emphasis effect="bold">33</emphasis>, 1587. </item>
+        <item>N. Aske, H. Kallevik, and J. Sjöblom, <emphasis effect="italics">Energy Fuels</emphasis>, 2001, <emphasis effect="bold">15</emphasis>, 1304. </item>
+        <item>L. Petrakis, D. M. Jewell, W. F. Benusa, in <emphasis effect="italics">Petroleum in the Marine Environment, </emphasis>Eds:<emphasis effect="bold"/>L. Petrakis, F. T. Weiss, ACS Wahsington DC (1980). </item>
+
+        <item>D. O'Rourke and S. Connolly, <emphasis effect="italics">Environ. Resour.</emphasis>, 2003, <emphasis effect="bold">28</emphasis>, 587.  </item>
+<item>E. T. C. Vogt and B. M. Weckhuysen, <emphasis effect="italics">Chem. Soc. Rev.</emphasis>, 2015, <emphasis effect="bold">44</emphasis>, 7342.   </item>
+
+<item>M. Tavakkoli, M. Grimes, X. Liu, C. Garcia, S. Correa, Q. Cox, and F. Vargas, <emphasis effect="italics">Energy Fuels</emphasis>, 2015, <emphasis effect="bold">29</emphasis>, 2890.  </item>
+
+<item>V. Cebolla, L. Membrado, M. Domingo, P. Henrion, R. Garriga, P. Gonzalez, F. Cossio, A. Arrieta, and J. Vela, <emphasis effect="italics">J. Chromatogr. Sci.</emphasis>, 1999, <emphasis effect="bold">37</emphasis>, 219. </item>
+
+<item>H. Longwell, <emphasis effect="italics">World Energy</emphasis>, 2002, <emphasis effect="bold">5</emphasis>, 100. </item></list></section>
+  </content>
+</document>

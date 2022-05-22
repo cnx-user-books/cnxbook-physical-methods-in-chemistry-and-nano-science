@@ -1,0 +1,821 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Measuring the Specific Surface Area of Nanoparticle Suspensions using NMR</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34663</md:content-id>
+  <md:title>Measuring the Specific Surface Area of Nanoparticle Suspensions using NMR</md:title>
+  <md:abstract/>
+  <md:uuid>13b3db12-39fd-4614-aed3-44f1db1fe082</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1165984769990">
+      <title>Introduction</title>
+      <para id="id1166006111712">Surface area is a property of immense importance in the nano-world, especially in the area of heterogeneous catalysis. A solid catalyst works with its active sites binding to the reactants, and hence for a given active site reactivity, the higher the number of active sites available, the faster the reaction will occur. In heterogeneous catalysis, if the catalyst is in the form of spherical nanoparticles, most of the active sites are believed to be present on the outer surface. Thus it is very important to know the catalyst surface area in order to get a measure of the reaction time. One expresses this in terms of volume specific surface area, i.e., surface area/volume although in industry it is quite common to express it as surface area per unit mass of catalyst, e.g., m<sup>2</sup>/g.</para>
+    </section>
+    <section id="id1165979963917"><title>Overview of NMR</title><para id="id1165954787319">Nuclear magnetic resonance (NMR) is the study of the nuclei of the response of an atom to an external magnetic field. Many nuclei have a net magnetic moment with <m:math>
+<m:apply>
+  <m:neq/>
+  <m:ci>I</m:ci>
+  <m:cn>0</m:cn>
+</m:apply>
+</m:math>, along with an angular momentum in one direction where I is the spin quantum number of the nucleus. In the presence of an external magnetic field, a nucleus would precess around the field. With all the nuclei precessing around the external magnetic field, a measurable signal is produced.</para>
+      <para id="id1165962749616">NMR can be used on any nuclei with an odd number of protons or neutrons or both, like the nuclei of hydrogen (<sup>1</sup>H), carbon (<sup>13</sup>C), phosphorous (<sup>31</sup>P), etc. Hydrogen has a relatively large magnetic moment (μ = 14.1 x 10<sup>-27</sup> J/T) and hence it is used in NMR logging and NMR rock studies. The hydrogen nucleus composes of a single positively charged proton that can be seen as a loop of current generating a magnetic field. It is may be considered as a tiny bar magnet with the magnetic axis along the spin axis itself as shown in <link target-id="id2150051"/>. In the absence of any external forces, a sample with hydrogen alone will have the individual magnetic moments randomly aligned as shown in <link target-id="id1165960171273"/>.</para>
+      <figure id="id2150051"><media id="id2150051_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-3958.jpg" id="id2150051__onlineimage" width="200" print-width="2in"/>
+          </media>
+        <caption>A simplistic representation of a spinning nucleus as bar magnet. Copyright: Halliburton Energy Services, Duncan, OK (1999). </caption></figure>
+      
+        <figure id="id1165960171273"><media id="id1165960171273_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-925f.jpg" id="id1165960171273__onlineimage" width="250" print-width="2.5in"/>
+          </media>
+        <caption>Representation of randomly aligned hydrogen nuclei. 
+Copyright: Halliburton Energy Services, Duncan, OK (1999). </caption></figure>
+      
+      
+      
+      
+    </section>
+    <section id="id1165954617576">
+      <title>Advantages of NMR over BET technique</title>
+      <para id="id1165997373093">BET measurements follow the BET (Brunner-Emmet-Teller) adsorption isotherm of a gas on a solid surface. Adsorption experiments of a gas of known composition can help determine the specific surface area of the solid particle. This technique has been the main source of surface area analysis used industrially for a long time. However BET techniques take a lot of time for the gas-adsorption step to be complete while one shall see in the course of this module that NMR can give you results in times averaging around 30 minutes depending on the sample. BET also requires careful sample preparation with the sample being in dry powder form, whereas NMR can accept samples in the liquid state as well.</para>
+    </section>
+    <section id="id1165955373891">
+      <title>How does NMR work?</title>
+      <section id="id1165986828913">
+        <title>Polarization</title>
+        <para id="id1165979023786">Polarization involves the alignment of the individual magnetic nuclei in the presence of a static external magnetic field B<sub>o</sub>. This external field exerts a torque that forces the spinning nuclei to precess around it by a frequency given by the <emphasis effect="italics">Larmor frequency</emphasis> given by <link target-id="eip-108"/>, where γ is the gyromagnetic ratio which is a characteristic property of the nucleus. For hydrogen, γ/2π = 42.58 MHz/Tesla. This value is different for different elements.</para>
+        <equation id="eip-108"><media id="id12355_media" alt=""><image mime-type="image/jpg" src="../../media/Eq4-ac3c.jpg" id="id12355__onlineimage" width="450" print-width="4in"/></media></equation>
+        
+        <para id="id1165970312886">Considering the case of a proton under the influence of an external magnetic field, it will be in one of two possible energy states depending on the orientation of the precession axis. If the axis is parallel to B<sub>o</sub>, the proton is in the lower energy state (preferred state) and in the higher energy state if anti-parallel shown by <link target-id="id1165986969004"/>. </para>
+        <figure id="id1165986969004"><media id="id1165986969004_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-0215.jpg" id="id1165986969004__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>Alignment of precession axis. Copyright: Halliburton Energy Services, Duncan, OK (1999). </caption></figure>
+        
+        
+        <para id="id1166002352151">We define the net magnetization per unit volume of material, M<sub>o</sub>, from Curie’s law as <link target-id="eip-835"/>, where N = number of protons, h = Planck's constant (6.626 x 10<sup>-34</sup> Js), I = spin quantum number of the nucleus, k = Boltzmann's constant (1.381 x 10<sup>-23</sup> m<sup>2</sup> Kg s<sup>-2</sup> K<sup>-1</sup>), and T = temperature (K)</para>
+        <equation id="eip-835"><m:math>
+<m:apply>
+  <m:eq/>
+  <m:ci>
+    <m:msub>
+      <m:mi>M</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+  </m:ci>
+  <m:apply>
+    <m:divide/>
+    <m:apply>
+      <m:times/>
+      <m:ci>N</m:ci>
+      <m:apply>
+        <m:power/>
+        <m:ci>γ</m:ci>
+        <m:cn>2</m:cn>
+      </m:apply>
+      <m:apply>
+        <m:power/>
+        <m:ci>h</m:ci>
+        <m:cn>2</m:cn>
+      </m:apply>
+      <m:ci>I</m:ci>
+      <m:apply>
+        <m:plus/>
+        <m:ci>I</m:ci>
+        <m:cn>1</m:cn>
+      </m:apply>
+      <m:ci>
+        <m:msub>
+          <m:mi>B</m:mi>
+          <m:mi>o</m:mi>
+        </m:msub>
+      </m:ci>
+    </m:apply>
+    <m:apply>
+      <m:times/>
+      <m:cn>12</m:cn>
+      <m:apply>
+        <m:power/>
+        <m:ci>Π</m:ci>
+        <m:cn>2</m:cn>
+      </m:apply>
+      <m:ci>k</m:ci>
+      <m:ci>T</m:ci>
+    </m:apply>
+  </m:apply>
+</m:apply>
+</m:math></equation>
+        
+        
+        
+        
+        
+      </section>
+      <section id="id3807789">
+        <title>T<sub>1</sub> relaxation</title>
+        <para id="id1165955582005">The protons are said to be polarized completely once they are all aligned with the static external field. Polarization grows with a time constant called the <emphasis effect="italics">longitudinal relaxation time</emphasis> (T<sub>1</sub>) as shown in <link target-id="eip-810"/>, where t = time of exposure to B<sub>o</sub>, M<sub>z</sub>(t) = magnitude of magnetization at time t, with B<sub>o</sub> along z-axis and T<sub>1</sub> = time at which M<sub>z</sub>(t) reaches 90% of its final value, i.e., M<sub>o</sub>. 
+</para>
+        <equation id="eip-810"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>M</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>z</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>t</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>M</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>o</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msup>
+                      <m:mi>e</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>t</m:mi>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>T</m:mi>
+                              <m:mstyle fontsize="6pt">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{z} }  \( t \) =M rSub { size 8{o} }  \( 1 - e rSup { size 8{ {  { - t}  over  {T rSub { size 6{1} } } } } }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+        
+        
+        
+        <para id="id1165986092910">T<sub>1</sub> is the time at which M<sub>z</sub>(t) reaches 63% of its final value, M<sub>o</sub>. A typical T<sub>1</sub> relaxation experiment involves application of a 90<sup>o</sup> RF pulse that rotates the magnetization to the transverse direction. With time, the magnetization returns to its original value in the same fashion described by the above equation.</para>
+        <para id="eip-57">Click on the video below to see the mechanism of T<sub>1</sub> relaxation</para><code id="eip-877" display="block"><media id="movieeqw2" alt="Test 2">
+      <video mime-type="video/x-ms-wmv" src="T1_Relaxation_Video.wmv" width="350" height="300"/>  
+   </media>
+<caption>T<sub>1</sub> relaxation mechanism. </caption></code>
+      </section>
+      <section id="id1165959403294">
+        <title>T<sub>2</sub> Relaxation</title>
+        <para id="id1165950478942">Once the polarization is complete, the magnetization direction is tipped from the longitudinal plane to a transverse plane by applying an oscillating field B<sub>1</sub> perpendicular to B<sub>o</sub>. The frequency of B­­<sub>1</sub> must equal the Larmor frequency of the material from B<sub>o</sub>. This oscillating field causes a possible change in energy state, and in-phase precession. The total phenomenon is called <emphasis effect="italics">nuclear magnetic resonance</emphasis> as shown in <link target-id="id1165984934785"/>. </para>
+        <figure id="id1165984934785"><media id="id1165984934785_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-5a40.jpg" id="id1165984934785__onlineimage" width="500" print-width="5in"/>
+          </media>
+        <caption>A schematic representation of the phenomenon of nuclear magnetic resonance. Copyright: Halliburton Energy Services, Duncan, OK (1999). </caption></figure>
+        
+        
+        
+        <para id="id1165969074457">The oscillating field is generally pulsed in nature and so terms in books such a 180<sup>o</sup> pulse or 90<sup>o</sup> pulse indicates the angle through which the net magnetization gets tipped over. Application of a 90<sup>o</sup> pulse causes precession in the transverse phase. When the field B­<sub>1</sub> is removed, the nuclei begin to de-phase and the net magnetization decreases. Here a receiver coil detects the decaying signal in a process called <emphasis effect="italics">free induction decay (FID)</emphasis>. This exponential decay has an FID time constant (T<sub>2</sub>) which is in the order of microseconds.</para>
+        
+        <para id="id1165958328477">The time constant of the transverse relaxation is referred as T<sub>2</sub>, and the amplitude of the decaying signal is given by <link target-id="eip-413"/>, with symbols as defined earlier.</para>
+        <equation id="eip-413"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>M</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mrow>
+                    <m:mi/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi/>
+                  </m:mrow>
+                  <m:msub>
+                    <m:mi>M</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mi>o</m:mi>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msub>
+                  <m:mi/>
+                  <m:msup>
+                    <m:mi>e</m:mi>
+                    <m:mstyle fontsize="8pt">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>t</m:mi>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>T</m:mi>
+                            <m:mstyle fontsize="6pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{M rSub { size 8{x} }  \( t \) `=`M rSub { size 8{o} } `e rSup { size 8{ {  { - t}  over  {T rSub { size 6{2} } } } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-153">Click on the video below to see the mechanism of T<sub>2</sub> relaxation</para><code id="eip-24" display="block"><media id="movieeqq2" alt="Test 2">
+      <video mime-type="video/x-ms-wmv" src="T2_Relaxation_Video.wmv" width="350" height="300"/>  
+   </media>
+<caption>T<sub>2</sub> relaxation mechanism. </caption></code>
+      </section>
+      <section id="id1165988327127">
+        <title>CPMG sequence</title>
+        <para id="id1166011791679">The de-phasing caused by T<sub>1</sub> relaxation can be reversed by applying a 180<sup>o</sup> pulse after a time τ has passed after application of the initial 90<sup>o</sup> pulse. Thus the phase of the transverse magnetization vector is now reversed by 180<sup>o</sup> so that “slower” vectors are now ahead of the “faster” vectors. These faster vectors eventually over-take the slower vectors and cause rephasing which is detected by a receiver coil as a s<emphasis effect="italics">pin echo</emphasis>. Thus time τ also passes between the application of the 180<sup>o</sup> pulse and the maximum peak in the spin echo. The entire sequence is illustrated in <link target-id="id1165963512324"/>. A single echo decays very quickly and hence a series of 180<sup>0</sup> pulses are applied repeatedly in a sequence called the <emphasis effect="italics">Carr-Purcell-Meiboom-Gill (CPMG) sequence</emphasis>. </para>
+        <figure id="id1165963512324"><media id="id1165963512324_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-9a90.jpg" id="id1165963512324__onlineimage" width="500" print-width="5in"/>
+          </media>
+        <caption>A schematic representation of the generation of a spin echo. Copyright: Halliburton Energy Services, Duncan, OK (1999). </caption></figure>
+        
+        
+        
+      </section>
+    </section>
+    <section id="id1165962303633">
+      <title>NMR relaxation mechanism in solid suspensions</title>
+      <section id="id1165951037470"><title>Calculations</title><para id="id1165992450441">From an atomic stand point, T<sub>1</sub> relaxation occurs when a precessing proton transfers energy with its surroundings as the proton relaxes back from higher energy state to its lower energy state. With T<sub>2</sub> relaxation, apart from this energy transfer there is also dephasing and hence T<sub>2</sub> is less than T<sub>1</sub> in general. For solid suspensions, there are three independent relaxation mechanisms involved:-</para>
+        
+        <list id="id1165974696435" mark-suffix=")" list-type="enumerated" number-style="arabic"><item>Bulk fluid relaxation, which affects both T<sub>1</sub> and T<sub>2</sub> relaxation. </item>
+          <item>Surface relaxation, which affects both T<sub>1</sub> and T<sub>2</sub> relaxation. </item>
+          <item>Diffusion in the presence of the magnetic field gradients, which affects only T<sub>2</sub> relaxation. </item>
+        </list>
+        <para id="id1165941597392">These mechanisms act in parallel so that the net effects are given by <link target-id="eip-111"/> and <link target-id="id1165978250339"/></para>
+        <equation id="eip-111"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mstyle fontsize="12pt">
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msub>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>T</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mn>2,</m:mn>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>bulk</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>T</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mn>2,</m:mn>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>surface</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>T</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>2,</m:mn>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>diffusion</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mstyle>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {T rSub { size 8{2} } } } = {  {1}  over  {T rSub { size 8{2, ital "bulk"} } } } + {  {1}  over  {T rSub { size 8{2, ital "surface"} } } } + {  {1}  over  {T rSub { size 8{2, ital "diffusion"} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+        <equation id="id1165978250339">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>T</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:msub>
+                            <m:mi>T</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>1,</m:mn>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>bulk</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:msub>
+                            <m:mi>T</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>1,</m:mn>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>surface</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {T rSub { size 8{1} } } } = {  {1}  over  {T rSub { size 8{1, ital "bulk"} } } } + {  {1}  over  {T rSub { size 8{1, ital "surface"} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1165959361430">The relative importance of each of these terms depend on the specific scenario. For the case of most solid suspensions in liquid, the diffusion term can be ignored by having a relatively uniform external magnetic field that eliminates magnetic gradients. Theoretical analysis has shown that the surface relaxation terms can be written as <link target-id="id1165957582262"/> and <link target-id="id1165974683552"/>, where ρ = surface relaxivity and s/v = specific surface area. </para>
+        <equation id="id1165957582262">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:msub>
+                            <m:mi>T</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>1,</m:mn>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>surface</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>ρ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mfrac>
+                        <m:mi>S</m:mi>
+                        <m:mi>V</m:mi>
+                      </m:mfrac>
+                      <m:msub>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>particle</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {T rSub { size 8{1, ital "surface"} } } } =ρ rSub { size 8{1} }  \(  {  {S}  over  {V} }  \)  rSub { size 8{ ital "particle"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <equation id="id1165974683552">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:msub>
+                            <m:mi>T</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>2,</m:mn>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>surface</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>ρ</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mfrac>
+                        <m:mi>S</m:mi>
+                        <m:mi>V</m:mi>
+                      </m:mfrac>
+                      <m:msub>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>particle</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {T rSub { size 8{2, ital "surface"} } } } =ρ rSub { size 8{2} }  \(  {  {S}  over  {V} }  \)  rSub { size 8{ ital "particle"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        
+        
+        <para id="id1165967153339">Thus one can use T<sub>1</sub> or T<sub>2</sub> relaxation experiment to determine the specific surface area. We shall explain the case of the T<sub>2</sub> technique further as <link target-id="id1165969730126"/>. </para>
+        <equation id="id1165969730126">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:msub>
+                            <m:mi>T</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:msub>
+                              <m:mi>T</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>2,</m:mn>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:mtext>bulk</m:mtext>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>ρ</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mfrac>
+                        <m:mi>S</m:mi>
+                        <m:mi>V</m:mi>
+                      </m:mfrac>
+                      <m:msub>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>particle</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {T rSub { size 8{2} } } } = {  {1}  over  {T rSub { size 8{2, ital "bulk"} } } } +ρ rSub { size 8{2} }  \(  {  {S}  over  {V} }  \)  rSub { size 8{ ital "particle"} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1166007196409">One can determine T<sub>2</sub> by spin-echo measurements for a series of samples of known S/V values and prepare a calibration chart as shown in  <link target-id="id1165982453834"/>, with the intercept as <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>T</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2,</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>bulk</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {T rSub { size 8{2, ital "bulk"} } } } } {}</m:annotation></m:semantics></m:math> and the slope as 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, one can thus find the specific surface area of an unknown sample of the same material.</para>
+   
+          <figure id="id1165982453834"><media id="id1165982453834_media" alt="">
+              <image mime-type="image/jpg" src="../../media/Calibration.jpg" id="id1165982453834__onlineimage" width="300" print-width="3in"/>
+            </media>
+          <caption>Example of a calibration plot of 1/T<sub>2</sub> versus specific surface area (S/V) of a sample. </caption></figure>
+      
+        
+        
+      </section>
+    </section>
+    <section id="id1165986537135">
+      <title>Sample preparation and experimental setup</title>
+      <para id="id1165951594151">The sample must be soluble in the solvent. For proton NMR, about 0.25-1.00 mg/mL are needed depending on the sensitivity of the instrument.</para>
+      <note id="eip-307">The solvent properties will have an impact of some or all of the spectrum. Solvent viscosity affects obtainable resolution, while other solvents like water or ethanol have exchangeable protons that will prevent the observation of such exchangeable protons present in the solute itself. Solvents must be chosen such that the temperature dependence of solute solubility is low in the operation temperature range. Solvents containing aromatic groups like benzene can cause shifts in the observed spectrum compared to non-aromatic solvents.</note>
+      <para id="id1165995086742">NMR tubes are available in a wide range of specifications depending on specific scenarios. The tube specifications need to be extremely narrow while operating with high strength magnetic fields. The tube needs to be kept extremely clean and free from dust and scratches to obtain good results, irrespective of the quality of the tube. Tubes can cleaned without scratching by rinsing out the contents and soaking them in a degreasing solution, and by avoiding regular glassware cleaning brushes. After soaking for a while, rinse with distilled water and acetone and dry the tube by blowing filterened nitrogen gas through a pipette or by using a swob of cotton wool.</para>
+      <para id="id1165971058519">Filter the sample solution by using a Pasteur pipette stuffed with a piece of cotton wool at the neck. Any suspended material like dust can cause changes in the spectrum. When working with dilute aqueous solutions, sweat itself can have a major effect and so gloves are recommended at all times.</para>
+      <note id="eip-159">Sweat contains mainly water, minerals (sodium 0.9 g/L, potassium 0.2 g/L, calcium 0.015 g/L, magnesium 0.0013 g/L and other trace elements like iron, nickel, zinc, copper, lead and chromium), as well as lactate and urea. In presence of a dilute solution of the sample, the proton-containing substances in sweat (e.g., lactate and urea) can result in a large signal that can mask the signal of the sample.</note>
+      <para id="id1165964360103">The NMR probe is the most critical piece of equipment as it contains the apparatus that must detect the small NMR signals from the sample without adding a lot of noise. The size of the probe is given by the diameter of the NMR tube it can accommodate with common sizes 5, 10 and 15 mm. A larger size probe can be used in the case of less sensitive samples in order to get as much solute into the active zone as possible. When the sample is available in less quantity, use a smaller size tube to get an intrinsically higher sensitivity.</para>
+      <section id="id2137657">
+        <title>NMR analysis</title>
+        <para id="id1165960031994">A result sheet of T<sub>2</sub>­ relaxation has the plot of magnetization versus time, which will be linear in a semi-log plot as shown in <link target-id="id1165956615129"/>. Fitting it to the equation, we can find T­<sub>2</sub> and thus one can prepare a calibration plot of 1/T<sub>2</sub> versus S/V of known samples.</para>
+        
+        <figure id="id1165956615129"><media id="id1165956615129_media" alt="">
+            <image mime-type="image/png" src="../../media/NMR7.jpg" id="id1165956615129__onlineimage" width="400" print-width="4in"/>
+          </media>
+        <caption>Example of T<sub>2</sub> relaxation with magnetization versus time on a semi-log plot. </caption></figure>
+        
+        
+      </section>
+      <section id="id1165982437020">
+        <title>Limitations of the T<sub>2</sub> technique</title>
+        <para id="eip-325">The following are a few of the limitations of the T<sub>2</sub> technique: </para><list id="eip-60"><item>One can’t always guarantee no magnetic field gradients, in which case the T<sub>1</sub> relaxation technique is to be used. However this takes much longer to perform than the T<sub>2</sub> relaxation.</item>
+          <item>There is the requirement of the odd number of nucleons in the sample or solvent.</item>
+          <item>The solid suspension should not have any para- or ferromagnetic substance (for instance, organics like hexane tend to have dissolved O<sub>2</sub> which is paramagnetic).</item>
+          <item>The need to prepare a calibration chart of the material with known specific surface area.</item></list>
+        
+      </section>
+      <section id="id6687357"><title>Example of usage</title><para id="id1165970104661">A study of colloidal silica dispersed in water provides a useful example. <link target-id="id1165988615779"/> shows a representation of an individual silica particle.</para>
+        
+        <figure id="id1165988615779"><media id="id1165988615779_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics8-99b4.jpg" id="id1165988615779__onlineimage" width="200" print-width="2in"/>
+          </media>
+        <caption>A representation of the silica particle with a thin water film surrounding it. </caption></figure>
+        <para id="id1165970750714">A series of dispersion in DI water at different concentrations was made and surface area calculated. The T<sub>2</sub> relaxation technique was performed on all of them with a typical T<sub>2</sub> plot shown in <link target-id="id1165963604438"/> and T<sub>2</sub> was recorded at 2117 milliseconds for this sample.</para>
+     
+
+          <figure id="id1165963604438"><media id="id1165963604438_media" alt="">
+              <image mime-type="image/jpg" src="../../media/NMR9.jpg" id="id1165963604438__onlineimage" width="340" print-width="3.4in"/>
+            </media>
+          <caption>T<sub>2</sub> measurement for 2.3 wt% silica in DI water. </caption></figure>
+       
+        
+        
+        <para id="id1165966509498">A calibration plot was prepared with 1/T<sub>2</sub> – 1/T<sub>2,bulk</sub> as ordinate (the <emphasis effect="italics">y</emphasis>-axis coordinate) and S/V as abscissa (the <emphasis effect="italics">x</emphasis>-axis coordinate). This is called the <emphasis effect="italics">surface relaxivity plot</emphasis> and is illustrated in <link target-id="id1165987032833"/>. </para>
+        
+          <figure id="id1165987032833"><media id="id1165987032833_media" alt="">
+              <image mime-type="image/jpg" src="../../media/NMR10.jpg" id="id1165987032833__onlineimage" width="415" print-width="4.15in"/>
+            </media>
+          <caption>Calibration plot of (1/T<sub>2</sub> – 1/T<sub>2,Bulk</sub>) versus specific surface area for silica in DI water. </caption></figure>
+        
+        
+        <para id="id1165971639074">Accordingly for the colloidal dispersion of silica in DI water, the best fit resulted in <link target-id="id1165950818519"/>, from which one can see that the value of surface relaxivity, 2.3 x 10<sup>-8</sup>, is in close accordance with values reported in literature.</para>
+        <equation id="id1165950818519">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>T</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                      <m:mrow>
+                        <m:mi/>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi/>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:msub>
+                            <m:mi>T</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>2,</m:mn>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>bulk</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mn>3</m:mn>
+                      <m:mi/>
+                      <m:mi>x</m:mi>
+                      <m:mi/>
+                      <m:mn>1</m:mn>
+                      <m:mi/>
+                      <m:msup>
+                        <m:mn>0</m:mn>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>8</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mfrac>
+                        <m:mi>S</m:mi>
+                        <m:mi>V</m:mi>
+                      </m:mfrac>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mi/>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi/>
+                      </m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>0051</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {T rSub { size 8{2} } } } ` - `` {  {1}  over  {T rSub { size 8{2, ital "bulk"} } } } =2 "." 3`x`1`0 rSup { size 8{ - 8} }  \(  {  {S}  over  {V} }  \) ` - `0 "." "0051"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        
+        <para id="id5285096">The T<sub>2</sub> technique has been used to find the pore-size distribution of water-wet rocks. Information of the pore size distribution helps petroleum engineers model the permeability of rocks from the same area and hence determine the extractable content of fluid within the rocks.</para>
+        <para id="id1165978393889">Usage of NMR for surface area determination has begun to take shape with a company, Xigo nanotools, having developed an instrument called the Acorn Area<sup>TM</sup> to get surface area of a suspension of aluminum oxide. The results obtained from the instrument match closely with results reported by other techniques in literature. Thus the T<sub>2</sub> NMR technique has been presented as a strong case to obtain specific surface areas of nanoparticle suspensions.</para>
+        
+        
+        
+        
+        
+        
+        
+      </section>  </section><section id="eip-356"><title>Bibliography</title><list id="eip-407" list-type="bulleted" bullet-style="bullet"><item>G. R Coates, L. Xiao, and M.G. Prammer,<emphasis effect="italics"> NMR Logging: Principles &amp; Applications</emphasis>,  Halliburton Energy Services, Houston (2001).</item>
+
+<item>B. Cowan,<emphasis effect="italics"> Nuclear magnetic resonance and relaxation</emphasis>, Cambridge University Press, Cambridge UK (2001).</item>
+
+<item>W. E. Kenyon, <emphasis effect="italics">The Log Analyst</emphasis>, 1997, <emphasis effect="bold">6</emphasis>, 2.</item>
+
+<item>A. E. Derome, <emphasis effect="italics">Modern NMR Techniques for Chemistry Research</emphasis>, Vol 6, Pergamon Press, Oxford (1988).</item></list></section>
+  
+<!-- Added video by Ed Woodward -->
+    
+    
+<!-- End of added video by Ed Woodward -->
+  </content>
+</document>

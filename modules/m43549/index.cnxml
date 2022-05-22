@@ -1,0 +1,127 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Adaptations to Scanning Tunneling Microscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43549</md:content-id>
+  <md:title>Adaptations to Scanning Tunneling Microscopy</md:title>
+  <md:abstract>Explanation of spin-polarized scanning tunneling microscopy, ballistic electron emission microscopy and photon scanning tunneling microscopy.</md:abstract>
+  <md:uuid>ec5a7464-025c-47b0-b765-dc2c56823f04</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1163676950740"><title>Introduction</title><para id="import-auto-id1163661013439">Scanning tunneling microscopy (STM) is a relatively recent imaging technology that has proven very useful for determining the topography of conducting and semiconducting samples with angstrom (Å) level precision. STM was invented by Gerd Binnig (<link target-id="import-auto-id1163676833772"/>)  and Heinrich Rohrer (<link target-id="import-auto-id1163668012321"/>), who both won the 1986 Nobel Prize in physics for their technological advances. </para><figure id="import-auto-id1163676833772"><media id="import-auto-id1163671578925" alt="">
+            <image mime-type="image/png" src="../../media/Picture 5-e11e.png" width="300" print-width="2in"/>
+          </media>
+        <caption>German physicist Gerd Binnig (1947 - ). </caption></figure><figure id="import-auto-id1163668012321"><media id="import-auto-id1163676758132" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-f5dc.jpg" width="300" print-width="2in"/>
+        </media>
+      <caption>Swiss physicist Heinrich Rohrer (1933 - ).</caption></figure><para id="import-auto-id1163658046700">The main component of a scanning tunneling microscope is a rigid metallic probe tip, typically composed of tungsten, connected to a piezodrive containing three perpendicular piezoelectric transducers (<link target-id="import-auto-id1163677314507"/>). The tip is brought within a fraction of a nanometer of an electrically conducting sample. At close distances, the electron clouds of the metal tip overlap with the electron clouds of the surface atoms (<link target-id="import-auto-id1163677314507"/> inset). If a small voltage is applied between the tip and the sample a tunneling current is generated. The magnitude of this  tunneling current is dependent on the bias voltage applied and the distance between the tip and the surface. A current amplifier can covert the generated tunneling current into a voltage. The magnitude of the resulting voltage as compared to the initial voltage can then be used to control the piezodrive, which controls the distance between the tip and the surface (i.e., the <emphasis effect="italics">z</emphasis> direction).  By scanning the tip in the <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> directions, the tunneling current can be measured across the entire sample. The STM system can operate in either of two modes: . </para><list id="eip-475" list-type="enumerated" number-style="arabic"><item>Constant height. </item>
+<item>Constant current. </item>
+</list><figure id="import-auto-id1163677314507"><media id="import-auto-id1163663084333" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-697c.png" width="500" print-width="4in"/>
+        </media>
+      <caption>Schematic drawing of a STM apparatus. </caption></figure><para id="eip-13">In constant height mode, the tip is fixed in the <emphasis effect="italics">z</emphasis>  direction and the change in tunneling current as the tip changes in the <emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis>  direction is collected and plotted to describe the change in topography of the sample. This method is dangerous for use in samples with fluctuations in height as the fixed tip might contact and destroy raised areas of the sample.  A common method for non-uniformly smooth samples is constant current mode. In this mode, a target current value, called the set point, is selected and the tunneling current data gathered from the sample is compared to the target value. If the collected voltage deviates from the set point, the tip is moved in the <emphasis effect="italics">z</emphasis>  direction and the voltage is measured again until the target voltage is reached. The change in the <emphasis effect="italics">z</emphasis>  direction required to reach the set point is recorded across the entire sample and plotted as a representation of the topography of the sample. The height data is typically displayed as a gray scale image of the topography of the sample, where lighter areas typically indicate raised sample areas and darker spots indicate protrusions. These images are typically colored for better contrast. </para><para id="import-auto-id1163673565511">The standard method of STM, described above, is useful for many substances (including high precision optical components, disk drive surfaces, and buckyballs) and is typically used under ultrahigh vacuum to avoid contamination of the samples from the surrounding systems. Other sample types, such as semiconductor interfaces or biological samples, need some enhancements to the traditional STM apparatus to yield more detailed sample information. Three such modifications, spin-polarized STM (SP-STM), ballistic electron emission microscopy (BEEM) and photon STM (PSTM) are summarized in <link target-id="import-auto-id1163659036259"/> and in described in detail below. </para><table id="import-auto-id1163659036259" summary="Comparison of conventional STM and alterations.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <thead>
+            <row>
+              <entry>Name</entry>
+              <entry>Alterations to conventional STM</entry>
+              <entry>Sample types</entry>
+              <entry>Limitations</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>STM</entry>
+              <entry>None</entry>
+              <entry>Conducting surface</entry>
+              <entry>Rigidity of probe</entry>
+            </row>
+            <row>
+              <entry>SP-STM</entry>
+              <entry>Magnetized STM tip</entry>
+              <entry>Magnetic </entry>
+              <entry>Needs to be overlaid with STM, magnetized tip type</entry>
+            </row>
+            <row>
+              <entry>BEEM</entry>
+              <entry>Three-terminal with base electrode and current collector</entry>
+              <entry>Interfaces</entry>
+              <entry>Voltage, changes due to barrier height</entry>
+            </row>
+            <row>
+              <entry>PSTM</entry>
+              <entry>Optical fiber tip</entry>
+              <entry>Biological</entry>
+              <entry>Optical tip and prism manufacture</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Comparison of conventional STM and alterations.</caption>
+</table></section><section id="import-auto-id1163677404877">
+      <title>Spin-polarized STM</title><para id="import-auto-id1163677364954">Spin-polarized scanning tunneling microscopy (SP-STM) can be used to provide detailed information of magnetic phenomena on the single-atom scale. This imaging technique is particularly important for accurate measurement of superconductivity and high-density magnetic data storage devices. In addition, SP-STM, while sensitive to the partial magnetic moments of the sample, is not a field-sensitive technique and so can be applied in a variety of different magnetic fields. </para><section id="import-auto-id1163675570408">
+        <title>Device setup and sample preparation</title>
+        <para id="import-auto-id1163662158191">In SP-STM, the STM tip is coated with a thin layer of magnetic material. As with STM, voltage is then applied between tip and sample resulting in tunneling current. Atoms with partial magnetic moments that are aligned in the same direction as the partial magnetic moment of the atom at the very tip of the STM tip show a higher magnitude of tunneling current due to the interactions between the magnetic moments. Likewise, atoms with partial magnetic moments opposite that of the atom at the tip of the STM tip demonstrate a reduced tunneling current (<link target-id="import-auto-id1163671175150"/>). A computer program can then translate the change in tunneling current to a topographical map, showing the spin density on the surface of the sample.</para><figure id="import-auto-id1163671175150"><media id="import-auto-id1163668026175" alt="">
+            <image mime-type="image/png" src="../../media/Picture 40.png" width="400" print-width="4in"/>
+          </media>
+        <caption>Schematic illustration of magnetized tip for SP-STM.</caption></figure><para id="import-auto-id1163676874105">The sensitivity to magnetic moments depends greatly upon the direction of the magnetic moment of the tip, which can be controlled by the magnetic properties of the material used to coat the outermost layer of the tungsten STM probe.  A wide variety of magnetic materials have been studied as possible coatings, including both ferromagnetic materials, such as a thin coat of iron or of gadolinium, and antiferromagnetic materials such as chromium. Another method that has been used to make a magnetically sensitive probe tip is irradiation of a semiconducting GaAs tip with high energy circularly polarized light. This irradiation causes a splitting of electrons in the GaAs valence band and population of the conduction band with spin-polarized electrons. These spin-polarized electrons then provide partial magnetic moments which in turn influence the tunneling current generated by the sample surface.  </para><para id="import-auto-id1163676743236">Sample preparation for SP-STM is essentially the same as for STM. SP-STM has been used to image samples such as thin films and nanoparticle constructs as well as determining the magnetic topography of thin metallic sheets such as in <link target-id="import-auto-id1163661120038"/>.  The upper image is a traditional STM image of a thin layer of cobalt, which shows the topography of the sample. The second image is an SP-STM image of the same layer of cobalt, which shows the magnetic domain of the sample. The two images, when combined provide useful information about the exact location of the partial magnetic moments within the sample. </para><figure id="import-auto-id1163661120038"><media id="import-auto-id1163667819608" alt="">
+            <image mime-type="image/png" src="../../media/Picture 14-e60d.png" width="500" print-width="4in"/>
+          </media>
+        <caption>A thin layer of Co(0001) as imaged by (a) STM, showing the topography, and (b) SP-STM, showing the magnetic domain structure. Image adapted from W. Wulfhekel and J. Kirschner, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1999, <emphasis effect="bold">75</emphasis>, 1944.</caption></figure></section>
+      <section id="import-auto-id1163674375011">
+        <title>Limitations</title>
+        <para id="import-auto-id1163671129553">One of the major limitations with SP-STM is that both distance and partial magnetic moment yield the same contrast in a SP-STM image. This can be corrected by combination with conventional STM to get multi-domain structures and/or topological information which can then be overlaid on top of the SP-STM image, correcting for differences in sample height as opposed to magnetization. </para>
+        <para id="import-auto-id1163674167362">The properties of the magnetic tip dictate much of the properties of the technique itself. If the outermost atom of the tip is not properly magnetized, the technique will yield no more information than a traditional STM. The direction of the magnetization vector of the tip is also of great importance. If the magnetization vector of the tip is perpendicular to the magnetization vector of the sample, there will be no spin contrast. It is therefore important to carefully choose the coating applied to the tungsten STM tip in order to align appropriately with the expected magnetic moments of the sample. Also, the coating makes the magnetic tips more expensive to produce than standard STM tips. In addition, these tips are often made of mechanically soft materials, causing them to wear quickly and require a high cost of maintenance. </para></section>
+    </section>
+    <section id="import-auto-id1163664866564">
+      <title>Ballistic electron emission microscopy</title>
+      <para id="import-auto-id1163677313261">Ballistic electron emission microscopy (BEEM) is a technique commonly used to image semiconductor interfaces. Conventional surface probe techniques can provide detailed information on the formation of interfaces, but lack the ability to study fully formed interfaces due to inaccessibility to the surface. BEEM allows for the ability to obtain a quantitative measure of electron transport across fully formed interfaces, something necessary for many industrial applications.</para>
+      <section id="import-auto-id1163660295334">
+        <title>Device setup and sample preparation</title><para id="import-auto-id1163661154989">BEEM utilizes STM with a three-electrode configuration, as seen in <link target-id="import-auto-id1163677314507"/>. In this technique, ballistic electrons are first injected from a STM tip into the sample, traditionally composed of at least two layers separated by an interface, which rests on three indium contact pads that provide a connection to a base electrode (<link target-id="import-auto-id1163674568994"/>). As the voltage is applied to the sample, electrons tunnel across the vacuum and through the first layer of the sample, reaching the interface, and then scatter. Depending on the magnitude of the voltage, some percentage of the electrons tunnel through the interface, and can be collected and measured as a current at a collector attached to the other side of the sample. The voltage from the STM tip is then varied, allowing for measurement of the barrier height. The barrier height is defined as the threshold at which electrons will cross the interface and are measurable as a current in the far collector. At a metal/n-type semiconductor interface this is the difference between the conduction band minimum and the Fermi level. At a metal/p-type semiconductor interface this is the difference between the valence band maximum of the semiconductor and the metal Fermi level. If the voltage is less than the barrier height, no electrons will cross the interface and the collector will read zero. If the voltage is greater than the barrier height, useful information can be gathered about the magnitude of the current at the collector as opposed to the initial voltage.</para><figure id="import-auto-id1163674568994"><media id="import-auto-id1163677698222" alt="">
+            <image mime-type="image/png" src="../../media/Picture 41-c5d9.png" width="500" print-width="4in"/>
+          </media>
+        <caption>Diagram of a STM/BEEM system. The tip is maintained at the tunneling voltage, V, and the tunneling current, I<sub>t</sub> = V<sub>I­</sub>/R<sub>F,</sub> is held constant by the STM feedback circuit. The sample base layer is grounded and current into the semiconductor is measured by a virtual ground current amplifier.</caption></figure><para id="import-auto-id1163659261365">Samples are prepared from semiconductor wafers by chemical oxide growth-strip cycles, ending with the growth of a protective oxide layer. Immediately prior to imaging the sample is spin-etched in an inert environment to remove oxides of oxides and then transferred directly to the ultra-high vacuum without air exposure. The BEEM apparatus itself is operated in a glove box under inert atmosphere and shielded from light. </para>
+        <para id="import-auto-id1163661211162">Nearly any type of semiconductor interface can be imaged with BEEM. This includes both simple binary interfaces such as Au/n-Si(100) and more chemically complex interfaces such as Au/n-GaAs(100), such as seen in <link target-id="import-auto-id1163676861402"/>. </para><figure id="import-auto-id1163676861402"><media id="import-auto-id1163676812150" alt="">
+            <image mime-type="image/png" src="../../media/Picture 17-19d1.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Images of Au/n-GaAs(100) layer (image area  510 Å x 390 Å) showing (a) the topography of the Au surface and (b) the BEEM grey-scale interface image. Image adapted from M. H. Hecht, L. D. Bell, W. J. Kaiser, and F. J. Grunthaner, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1989, <emphasis effect="bold">55</emphasis>, 780.</caption></figure></section>
+      <section id="import-auto-id1163677360670">
+        <title>Limitations</title>
+        <para id="import-auto-id1163662186564">Expected barrier height matters a great deal in the desired setup of the BEEM apparatus. If it is necessary to measure small collector currents, such as with an interface of high-barrier-height, a high-gain, low-noise current preamplifier can be added to the system.  If the interface is of low-barrier-height, the BEEM apparatus can be operated at very low temperatures, accomplished by immersion of the STM tip in liquid nitrogen and enclosure of the BEEM apparatus in a nitrogen-purged glove box. </para>
+      </section>
+    </section>
+    <section id="import-auto-id1163677084292"><title>Photon STM</title><para id="import-auto-id1163662204752">Photon scanning tunneling microscopy (PSTM) measures light to determine more information about characteristic sample topography. It has primarily been used as a technique to measure the electromagnetic interaction of two metallic objects in close proximity to one another and biological samples, which are both difficult to measure using many other common surface analysis techniques. </para><section id="import-auto-id1163663188335">
+        <title>Device setup and sample preparation</title>
+        <para id="import-auto-id1163674056041">This technique works by measuring the tunneling of photons to an optical tip. The source of these photons is the evanescent field generated by the total internal reflection (TIR) of a light beam from the surface of the sample (<link target-id="import-auto-id1163660353899"/>). This field is characteristic of the sample material on the TIR surface, and can be measured by a sharpened optical fiber probe tip where the light intensity is converted to an electrical signal (<link target-id="import-auto-id1163672221743"/>). Much like conventional STM, the force of this electrical signal modifies the location of the tip in relation to the sample.  By mapping these modifications across the entire sample, the topography can be determined to a very accurate degree as well as allowing for calculations of polarization, emission direction and emission time.</para><figure id="import-auto-id1163660353899"><media id="import-auto-id1163676777222" alt="">
+            <image mime-type="image/png" src="../../media/Picture 1-874c.png" width="500" print-width="5in"/>
+          </media>
+        <caption>A schematic of a PSTM system.</caption></figure><figure id="import-auto-id1163672221743"><media id="import-auto-id1163676027480" alt="">
+            <image mime-type="image/png" src="../../media/Picture 43-57ca.png" width="300" print-width="3in"/>
+          </media>
+        <caption>A TIR light beam generates an evanescent field which is modulated by the sample. A sharpened fiber optic probe tip receives light from the evanescent field and spatial variations in evanescent field intensity form the basis for imaging.</caption></figure><para id="import-auto-id1163658980618">In PSTM, the vertical resolution is governed only by the noise, as opposed to conventional STM where the vertical resolution is limited by the tip dimensions. Therefore, this technique provides advantages over more conventional STM apparatus for samples where subwavelength resolution in the vertical dimension is a critical measurement, including fractal metal colloid clusters, nanostructured materials and simple organic molecules. </para><para id="import-auto-id1163677336237">Samples are prepared by placement on a quartz or glass slide coupled to the TIR face of a triangular prism containing a laser beam, making the sample surface into the TIR surface (<link target-id="import-auto-id1163672221743"/>). The optical fiber probe tips are constructed from UV grade quartz optical fibers by etching in HF acid to have nominal end diameters of 200 nm or less and resemble either a truncated cone or a paraboloid of revolution (<link target-id="import-auto-id1163674053965"/>).</para><figure id="import-auto-id1163674053965"><media id="import-auto-id1163677617807" alt="">
+            <image mime-type="image/png" src="../../media/Picture 16-d932.png" width="300" print-width="3in"/>
+          </media>
+        <caption>Possible optical fiber tip configurations: (a) truncated cone and (b) paraboloid of rotation.</caption></figure><para id="import-auto-id1163674402542">PSTM  shows much promise in the imaging of biological materials due to the increase in vertical resolution and the ability to measure a sample within a liquid environment with a high index TIR substrate and probe tip. This would provide much more detailed information about small organisms than is currently available. </para></section>
+      <section id="import-auto-id1163666647042">
+        <title>Limitations</title>
+        <para id="import-auto-id1163661002362">The majority of the limitations in this technique come from the materials and construction of the optical fibers and the prism used in the sample collection. The sample needs to be kept at low temperatures, typically around 100K, for the duration of the imaging and therefore cannot decompose or be otherwise negatively impacted by drastic temperature changes. </para>
+      </section>
+    </section><section id="import-auto-id1163676785929">
+      <title>Conclusion</title>
+      <para id="import-auto-id1163676868804">Scanning tunneling microscopy can provide a great deal of information into the topography of a sample when used without adaptations, but with adaptations, the information gained is nearly limitless. Depending on the likely properties of your sample surface, SP-STM, BEEM and PSTM can provide much more accurate topographical pictures than conventional forms of STM (<link target-id="import-auto-id1163659036259"/>). All of these adaptations to STM have their limitations and all work within relatively specialized categories and subsets of substances, but they are very strong tools that are constantly improving to provide more useful information about materials to the nanometer scale.</para></section>
+    <section id="import-auto-id1163660312268">
+      <title>Bibliograpy</title>
+      <list id="import-auto-id1163662188600" list-type="bulleted"><item>R. Berndt and J. K. Gimzewski, <emphasis effect="italics">Phys. Rev. B</emphasis>, 1993, <emphasis effect="bold">48</emphasis>, 4746.</item>
+        <item>G. Binnig, H. Rohrer, C. Gerber, and E. Weibel, <emphasis effect="italics">Phys. Rev. Lett.</emphasis>, 1982, <emphasis effect="bold">49</emphasis>, 57.</item>
+        <item>M. Bode, <emphasis effect="italics">Rep. Prog. Phys.</emphasis> 2003, <emphasis effect="bold">66</emphasis>, 523. </item>
+        <item>M. H. Hecht, L. D. Bell, W. J. Kaiser, and F. J. Grunthaner, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1989, <emphasis effect="bold">55</emphasis>, 780.</item>
+        <item>W. J. Kaiser and L. D. Bell, <emphasis effect="italics">Phys. Rev. Lett.</emphasis>, 1988, <emphasis effect="bold">60</emphasis>, 1406.</item>
+        <item>R. C. Reddick, D. W. Warmack, D. W. Chilcott, S. L. Sharp, and T. L. Ferrell, <emphasis effect="italics">Rev. Sci. Instrum.</emphasis>, 1990, <emphasis effect="bold">61</emphasis>, 3669.</item>
+        <item>D. P. Tsai, J. Kovacs, Z. Wang, M. Moskovits, V. M. Shalaev, J. S. Suh, and R. Botet, <emphasis effect="italics">Phys. Rev. Lett.</emphasis>, 1994, <emphasis effect="bold">72</emphasis>, 4149.</item>
+        <item>W. Wulfhekel and J. Kirschner, <emphasis effect="italics">Appl. Phys. Lett.</emphasis>, 1999, <emphasis effect="bold">75</emphasis>, 1944.</item>
+      </list></section>
+  </content>
+</document>

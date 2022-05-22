@@ -1,0 +1,288 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Protein Analysis using Electrospray Ionization Mass Spectroscopy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38341</md:content-id>
+  <md:title>Protein Analysis using Electrospray Ionization Mass Spectroscopy</md:title>
+  <md:abstract>Electrospray ionization combined with mass spectrometry (ESI MS) will be looked at in detail to explain the use and purpose of the device and how it helps to provide information on the inorganic components of proteins. Analysis of similar techniques, such as MALDI-TOF will also be examined and compared.</md:abstract>
+  <md:uuid>115bc618-6874-4dbe-8967-480a6be6c35f</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1172682368323"><title>Introduction</title><para id="id1172721615028">Electrospray ionization-mass spectrometry (ESI-MS) is an analytical method that focuses on macromolecular structural determination. The unique component of ESI-MS is the electrospray ionization. The development of electrospraying, the process of charging a liquid into a fine aerosol, was completed in the 1960’s when Malcolm Dole (<link target-id="Dole"/>) demonstrated the ability of chemical species to be separated through electrospray techniques. With this important turn of events, the combination of ESI and MS was feasible and was later developed by John B. Fenn (<link target-id="id1172691093701"/>), as a functional analytical method that could provide beneficial information about the structure and size of a protein. Fenn shared the Nobel Prize in 2002, with Koichi Tanaka (<link target-id="Tanaka"/>) and Kurt Wüthrich (<link target-id="Kurt"/>) for the development of ESI-MS. </para>
+
+        <figure id="Dole"><media id="Dole_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Dole2.jpg" id="Dole__onlineimage" width="300" print-width="2in"/>
+          </media>
+
+        <caption>American chemist Malcolm Dole (on right) (1903 – 1990).</caption></figure>
+
+
+        <figure id="id1172691093701"><media id="id1172691093701_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-04c1.jpg" id="id1172691093701__onlineimage" width="300" print-width="2in"/>
+          </media>
+
+        <caption>American chemist John Bennett Fenn (1917 - 2010) shared the Nobel Prize for his work in ESI-MS and other identification and structural analyses of biological molecules.</caption></figure>
+
+        <figure id="Tanaka">
+          <media id="Tanaka_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Tanaka.jpg" id="Tanaka__onlineimage" width="300" print-width="2in"/>
+          </media>
+<caption>Japanese chemist and Nobel laureate Tanaka (1959 – ).</caption>
+        </figure>
+
+
+
+        <figure id="Kurt">
+          <media id="Kurt_media" alt="">
+            <image mime-type="image/jpg" src="../../media/Kurt.jpg" id="Kurt__onlineimage" width="300" print-width="2in"/>
+          </media>
+<caption>Swiss chemist and Nobel laureate Kurt Wüthrich (1938 – ).</caption>
+        </figure>
+ 
+
+    
+
+      <para id="eip-259">ESI-MS is the process through which proteins, or macromolecules, in the liquid phase are charged and fragmented into smaller aerosol droplets. These aerosol droplets lose their solvent and propel the charged fragments into the gas phase in several components that vary by charge. These components can then be detected by a mass spectrometer. The recent boom and development of ESI-MS is attributed to its benefits in characterizing and analyzing macromolecules, specifically biologically important macromolecules such as proteins. </para>
+
+
+
+</section>
+    <section id="id1172724993491">
+      <title>How does ESI-MS function?</title>
+      <para id="id1172722871235">ESI-MS is a process that requires the sample to be in liquid solution, so that tiny droplets may be ionized and analyzed individually by a mass spectrometer. The following delineates the processes that occur as relevant to <link target-id="id1172733630039"/>:</para>
+      <list id="id1172724917060" list-type="bulleted"><item id="id1172695552251">Spray needle/capillary- The liquid solution of the desired macromolecule is introduced into the system through this needle. The needle is highly charged via an outside voltage source that maintains the charge constant across the needle. The normal charge for a needle is approximately 2.5 to 4 kV. The voltage causes the large droplets to fragment into small droplets based on charge that is accumulated from the protein constituent parts, and the liquid is now in the gas phase.</item>
+        <item id="id1172717802578">Droplet formation- The droplets that are expelled from the needle are smaller than initially, and as a result the solvent will evaporate. The smaller droplets then start increasing their charge density on the surface as the volume decreases. As the droplets near the Rayleigh limit, Coulombic interactions of the droplet equal the surface tension of the droplet, a <emphasis effect="italics">Coulombic explosion</emphasis> occurs that further breaks the droplet into minute fractions, including the isolated analyte with charge. </item>
+        <item id="id1172721275609">Vacuum interface/cone - This portion of the device allows for the droplets to align in a small trail and pass through to the mass spectrometer. Alignment occurs because of the similarity and differences in charges amongst all the droplets. All the droplets are ionized to positive charges through addition of protons to varying basic sites on the droplets, yet all the charges vary in magnitude dependent upon the number of basic sites available for protonation. The receiving end or the cone has the opposite charge of the spray needle, causing an attraction between the cone and the droplets. </item>
+        <item>Mass spectrometer- The charged particles then reach the mass spectrometer and are deflected based on the charge of each particle. Deflection occurs by the quadrupole magnet of the mass spectrometer. The different deflection paths of the ions occur due to the strength of the interaction with the magnetic field. This leads to various paths based on a mass/charge (<emphasis effect="italics">m/z</emphasis>) ratio. The particles are then read by the ion detector, as they arrive, providing a spectrum based on <emphasis effect="italics">m/z</emphasis> ratio.</item>
+      </list>
+      <figure id="id1172733630039"><media id="id1172733630039_media" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics2-8dcd.jpg" id="id1172733630039__onlineimage" width="500" print-width="5in"/>
+        </media>
+      <caption>The process of ESI-MS. A focus on the capillary spray needle and the generation of aerosol particles. </caption></figure>
+      
+    </section>
+    <section id="id1172694015067">
+      <title>What data is provided by ESI-MS?</title>
+      <para id="id1172723820501">As implied by the name, the data produced from this technique is a mass spectrometry spectrum. Without delving too deeply into the topic of mass spectrometry, which is out of the true scope of this module, a slight explanation will be provided here. The mass spectrometer separates particles based on a magnetic field created by a quadrupole magnet. The strength of the interaction varies on the charge the particles carry. The amount of deflection or strength of interaction is determined by the ion detector and quantified into a mass/charge (<emphasis effect="italics">m/z</emphasis>) ratio. Because of this information, determination of chemical composition or peptide structure can easily be managed as is explained in greater detail in the following section.</para>
+    </section>
+    <section id="id1172683663129">
+      <title>Interpretation of a typical MS spectrum</title>
+      <para id="id1172712371481">Interpreting the mass spectrometry data involves understanding the <emphasis effect="italics">m/z</emphasis> ratio. The knowledge necessary to understanding the interpretation of the spectrum is that the peaks correspond to portions of the whole molecule. That is to say, hypothetically, if you put a human body in the mass spectrometer, one peak would coincide with one arm, another peak would coincide with the arm and the abdomen, etc. The general idea behind these peaks, is that an overlay would paint the entire picture, or in the case of the hypothetical example, provide the image of the human body. The <emphasis effect="italics">m/z</emphasis> ratio defines these portions based on the charges carried by them; thus the terminology of the mass/charge ratio. The more charges a portion of the macromolecule or protein holds, the smaller the <emphasis effect="italics">m/z</emphasis> ratio will be and the farther left it will appear on the spectrum. The fundamental concept behind interpretation involves understanding that the peaks are interrelated, and thus the math calculations may be carried out to provide relevant information of the protein or macromolecule being analyzed. </para>
+    </section>
+    <section id="id1172694926529"><title>Calculation of m/z of the MS spectrum peaks</title><para id="id1172702289099">As mentioned above, the pertinent information to be obtained from the ESI-MS data is extrapolated from the understanding that the peaks are interrelated. The steps for calculating the data are as follow:</para>
+
+
+      <list id="id1172683319150" list-type="enumerated" number-style="arabic" class="stepwise"><item>Determine which two neighboring peaks will be analyzed.</item>
+        <item>Establish the first peak (the one farthest left) as the peak with the greatest <emphasis effect="italics">m/z</emphasis> ratio. This is mathematically defined as our <emphasis effect="italics">z</emphasis>+1 peak. </item>
+        <item>Establish the adjacent peak to the right of our first peak as the peak with the lower <emphasis effect="italics">m/z</emphasis> ratio. This is mathematically our <emphasis effect="italics">z</emphasis> peak.</item>
+        <item>Our <emphasis effect="italics">z</emphasis>+1 peak will also be our <emphasis effect="italics">m</emphasis>+1 peak as the difference between the two peaks is the charge of one proton. Consequently, our <emphasis effect="italics">z </emphasis>peak will be defined as our <emphasis effect="italics">m</emphasis> peak. </item>
+        <item>Solve both equations for <emphasis effect="italics">m</emphasis> to allow for substitution. Both sides of the equation should be in terms of <emphasis effect="italics">z</emphasis> and can be solved.</item>
+        <item>Determine the charge of the <emphasis effect="italics">z</emphasis> peak and subsequently, the charge of the <emphasis effect="italics">z+1</emphasis> peak. </item>
+        <item>Subtract one from the <emphasis effect="italics">m/</emphasis>z ratio and multiply the <emphasis effect="italics">m/z</emphasis> ratio of each peak by the previous charges determined to obtain the mass of the protein or macromolecule.</item>
+        <item>Average the results to determine the average mass of the macromolecule or protein.</item>
+      </list>
+
+
+
+
+<example id="eip-761">
+
+<list id="eip-244" list-type="enumerated" number-style="arabic" class="stepwise">
+
+<item>Determine which two neighboring peaks will be analyzed from the MS (<link target-id="id1172698824054"/>) as the <emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis> = 5 and <emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis> = 10 peaks. 
+
+        <figure id="id1172698824054">
+          <media id="id1172698824054_media" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-953c.jpg" id="id1172698824054__onlineimage" width="300" print-width="3in"/>
+          </media>
+<caption>Hypothetical mass spectrometry data; not based off of any particular compound. The example steps are based off of this spectrum.</caption>
+        </figure>
+</item>
+
+<item>Establish the first peak (the one farthest left in <link target-id="id1172698824054"/>) as the <emphasis effect="italics">z</emphasis> + 1 peak (i.e., <emphasis effect="italics">z</emphasis> + 1 = 5).</item>
+
+
+<item>Establish the adjacent peak to the right of the first peak as the  <emphasis effect="italics">z</emphasis> peak (i.e., <emphasis effect="italics">z</emphasis> = 10).</item>
+
+
+
+<item>Establish the peak ratios, <link target-id="eip-986"/> and <link target-id="eip-396"/>. 
+
+<equation id="eip-986"><media id="id201121_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq21-f6c6.jpg" id="id201121__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-396"><media id="id201122_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq22-4a08.jpg" id="id201122__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+</item>
+
+
+
+<item>Solve the ratios for <emphasis effect="italics">m</emphasis>: <link target-id="eip-986B"/> and <link target-id="eip-396B"/>. 
+
+<equation id="eip-986B"><media id="id201123_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq23-3d66.jpg" id="id201123__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-396B"><media id="id201124_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq24-4f9d.jpg" id="id201124__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+</item>
+
+
+
+<item>Substitute one equation for <emphasis effect="italics">m</emphasis>: <link target-id="eip-396C"/>. 
+<equation id="eip-396C"><media id="id201125_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq25-ac89.jpg" id="id201125__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+</item>
+
+
+
+<item>Solve for <emphasis effect="italics">z</emphasis>: <link target-id="eip-396D"/>. 
+<equation id="eip-396D"><media id="id201126_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq26-abb0.jpg" id="id201126__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+</item>
+
+
+
+<item>Find <emphasis effect="italics">z</emphasis> + 1: <link target-id="eip-396E"/>. 
+<equation id="eip-396E"><media id="id201127_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq27-8cde.jpg" id="id201127__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+</item>
+
+
+<item>Find average molecular mass by subtracting the mass by 1 and multiplying by the charge: <link target-id="eip-986F"/> and <link target-id="eip-396F"/>. Hence, the average mass = 7.2. 
+
+
+<equation id="eip-986F"><media id="id201128_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq28-ae3f.jpg" id="id201128__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+<equation id="eip-396F"><media id="id201129_media" alt="">
+<image mime-type="image/jpg" src="../../media/Eq29-4136.jpg" id="id201129__onlineimage" width="500" print-width="4.5in"/>
+</media>
+</equation>
+
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+
+
+
+
+
+</example>
+    </section>
+    <section id="id1172710131349">
+      <title>Sample preparation</title>
+      <para id="id1172688133402">Samples for ESI-MS must be in a liquid state. This requirement provides the necessary medium to easily charge the macromolecules or proteins into a fine aerosol state that can be easily fragmented to provide the desired outcomes. The benefit to this technique is that solid proteins that were once difficult to analyze, like metallothionein, can dissolved in an appropriate solvent that will allow analysis through ESI-MS. Because the sample is being delivered into the system as a liquid, the capillary can easily charge the solution to begin fragmentation of the protein into smaller fractions Maximum charge of the capillary is approximately 4 kV. However, this amount of charge is not necessary for every macromolecule. The appropriate charge is dependent on the size and characteristic of the solvent and each individual macromolecule. This has allowed for the removal of the molecular weight limit that was once held true for simple mass spectrometry analysis of proteins. Large proteins and macromolecules can now easily be detected and analyzed through ESI-MS due to the facility with which the molecules can fragment. </para>
+    </section>
+    <section id="id1172725163577"><title>Related techniques</title><para id="id1172725880808">A related technique that was developed at approximately the same time as ESI-MS is matrix assisted laser desorption/ionization mass spectrometry (MALDI-MS). This technique that was developed in the late 1980’s as wells, serves the same fundamental purpose; allowing analysis of large macromolecules via mass spectrometry through an alternative route of generating the necessary gas phase for analysis. In MALDI-MS, a matrix, usually comprised of crystallized 3,5-dimethoxy-4-hydroxycinnamic acid (<link target-id="idCinacid"/>), water, and an organic solvent, is used to mix the analyte, and a laser is used to charge the matrix. The matrix then co-crystallizes the analyte and pulses of the laser are then used to cause desorption of the matrix and some of the analyte crystals with it, leading to ionization of the crystals and the phase change into the gaseous state. The analytes are then read by the tandem mass spectrometer. <link target-id="id1172683777500"/> directly compares some attributes between ESI-MS and MALDI-MS. It should be noted that there are several variations of both ESI-MS and MALDI-MS, with the methods of data collection varying and the piggy-backing of several other methods (liquid chromatography, capillary electrophoresis, inductively coupled plasma mass spectrometry, etc.), yet all of them have the same fundamental principles as these basic two methods.</para>
+
+<figure id="idCinacid"><media id="idCin_media" alt="">
+<image mime-type="image/jpg" src="../../media/FigCin.jpg" id="idCin__onlineimage" width="225" print-width="2.25in"/>
+</media>
+
+<caption>Structure of 3,5-dimethoxy-4-hydroxycinnamic acid.</caption></figure>
+
+
+
+      <table id="id1172683777500" summary="Comparison of the general experimental details of ESI-MS and MALDI-MS.">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Experimental details</emphasis></entry>
+              <entry><emphasis effect="bold">ESI-MS</emphasis></entry>
+              <entry><emphasis effect="bold">MALDI-MS</emphasis></entry>
+            </row>
+            <row>
+              <entry>Starting analyte state</entry>
+              <entry>Liquid</entry>
+              <entry>Liquid/solid</entry>
+            </row>
+            <row>
+              <entry>Method of ionization</entry>
+              <entry>Charged capillary needle</entry>
+              <entry>Matrix laser desorption</entry>
+            </row>
+            <row>
+              <entry>Final analyte state</entry>
+              <entry>Gas</entry>
+              <entry>Gas</entry>
+            </row>
+            <row>
+              <entry>Quantity of protein needed</entry>
+              <entry>1 μL</entry>
+              <entry>1 μL</entry>
+            </row>
+            <row>
+              <entry>Spectrum method</entry>
+              <entry>Mass spectrometry</entry>
+              <entry>Mass spectrometry</entry>
+            </row>
+          </tbody>
+        
+</tgroup><caption>Comparison of the general experimental details of ESI-MS and MALDI-MS.</caption>
+</table>
+      
+    </section>
+    <section id="id1172708228308"><title>Problems with ESI-MS</title><para id="id1172692489627">ESI-MS has proven to be useful in determination of tertiary structure and molecular weight calculations of large macromolecules. However, there are still several problems incorporated with the technique and macromolecule analysis. One problem is the isolation of the desired protein for analysis. If the protein is unable to be extracted from the cell, this is usually done through gel electrophoresis, there is a limiting factor in what proteins can be analyzed. Cytochrome <emphasis effect="italics">c</emphasis> (<link target-id="id1172727099233"/>) is an example of a protein that can be isolated and analyzed, but provides an interesting limitation on how the analytical technique does not function for a completely effective protein analysis. The problem with cytochrome <emphasis effect="italics">c</emphasis> is that even if the protein is in its native confirmation, it can still show different charge distribution. This occurs due to the availability of basic sites for protonation that are consistently exposed to the solvent. Any slight change to the native conformation may cause basic sites, such as in cytochrome <emphasis effect="italics">c</emphasis> to be blocked causing different <emphasis effect="italics">m</emphasis>/<emphasis effect="italics">z</emphasis> ratios to be seen. Another interesting limitation is seen when inorganic elements, such as in metallothioneins proteins that contain zinc, are analyzed using ESI-MS. Metallothioneins have several isoforms that show no consistent trend in ESI-MS data between the varied isoforms. The marked differences occur due to the metallation of each isoform being different, which causes the electrospraying and as a result protonation of the protein to be different. Thus, incorporation of metal atoms in proteins can have various effects on ESI-MS data due to the unexpected interactions between the metal center and the protein itself.</para>
+
+
+        <figure id="id1172727099233"><media id="id1172727099233_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics4-b6f8.png" id="id1172727099233__onlineimage" width="350" print-width="3.5in"/>
+          </media>
+
+        <caption>The 3-D structure of human cytochrome P450 2A13, a sub class of human cytochrome <emphasis effect="italics">c</emphasis>. </caption></figure>
+
+
+    </section>
+    <section id="id1172683646120"><title>Bibliography</title><list id="id1172695965293" list-type="bulleted">
+        <item>L. Konermann and D. J. Douglas, <emphasis effect="italics">Biochemistry</emphasis>, 1997, <emphasis effect="bold">36</emphasis>, 12296.</item>
+
+
+ <item>S. Pérez-Rafael, S. Atrian, M. Capdevila, and Ò. Palacios, <emphasis effect="italics">Talanta</emphasis>, 2011, <emphasis effect="bold">83</emphasis>, 1057.</item>
+   <item>D. L. Nelson and M. M. Cox, <emphasis effect="italics">Lehninger Principles of Biochemistry</emphasis>, 5<sup>th</sup> Ed, W. H. Freeman and Company, New York (2008). </item>
+        <item>A. Prange and D. Profrock, <emphasis effect="italics">Anal. Bioanal. Chem.</emphasis>, 2005, <emphasis effect="bold">383</emphasis>, 372.</item>
+
+ <item>
+          <link url="http://www.chm.bris.ac.uk/ms/theory/esi-ionisation.html">http://www.chm.bris.ac.uk/ms/theory/esi-ionisation.html</link>
+        </item>
+      </list>
+
+
+
+
+
+    </section>
+  </content>
+</document>

@@ -1,0 +1,173 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Characterization of Covalently Functionalized Single-Walled Carbon Nanotubes</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m22299</md:content-id>
+  <md:title>Characterization of Covalently Functionalized Single-Walled Carbon Nanotubes</md:title>
+  <md:abstract>A summary of common methods used to characterize chemically functionalized single-walled carbon nanotubes (SWNTs).</md:abstract>
+  <md:uuid>32119e66-825d-4320-a631-cb9c9ea96ba2</md:uuid>
+</metadata>
+
+<content>
+    <section id="id3343405">
+      <title>Introduction</title>
+      <para id="id5738662">Characterization of nanoparticles in general, and carbon nanotubes in particular, remains a technical challenge even though the chemistry of covalent functionalization has been studied for more than a decade. It has been noted by several researchers that the characterization of products represents a constant problem in nanotube chemistry. A systematic tool or suites of tools are needed for adequate characterization of chemically functionalized single-walled carbon nanotubes (SWNTs), and is necessary for declaration of success or failure in functionalization trials. </para>
+      <para id="id5246671">So far, a wide range of techniques have been applied to characterize functionalized SWNTs: infra red (IR), Raman, and UV/visible spectroscopies, thermogravimetric analysis (TGA), atomic force microscopy (AFM), transmission electron microscopy (TEM), X-ray photoelectron spectroscopy (XPS), etc. A summary of the attribute of each of the characterization method is given in <link target-id="id3479599"/>. 
+</para>
+      
+      <table id="id3479599" summary="Table of common characterization methodology for functionalized SWNTs.">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <tbody>
+            <row>
+              <entry><emphasis effect="bold">Method</emphasis></entry>
+              <entry><emphasis effect="bold">Sample</emphasis></entry>
+              <entry><emphasis effect="bold">Information</emphasis></entry>
+              <entry><emphasis effect="bold">Limitations</emphasis></entry>
+            </row>
+            <row>
+              <entry>TGA</entry>
+              <entry>solid</entry>
+              <entry>functionalization ratio</entry>
+              <entry>no evidence for covalent functionalization, not specific</entry>
+            </row>
+            <row>
+              <entry>XPS</entry>
+              <entry>solid</entry>
+              <entry>elements, functionalization ratio</entry>
+              <entry>no evidence of covalent functionalization, not specific, quantification complicated</entry>
+            </row>
+            <row>
+              <entry>Raman</entry>
+              <entry>solid</entry>
+              <entry>sp<sup>3</sup> indicated by D mode</entry>
+              <entry>not specific, quantification not reliable</entry>
+            </row>
+            <row>
+              <entry>Infra red (IR)</entry>
+              <entry>solid for (ATR-IR) or solution</entry>
+              <entry>substituent groups</entry>
+              <entry>no direct evidence for covalent functionalization, quantification not possible</entry>
+            </row>
+            <row>
+              <entry>UV/visible</entry>
+              <entry>solution</entry>
+              <entry>sidewall functionalization</entry>
+              <entry>not specific or quantitative, need highly dispersed sample</entry>
+            </row>
+            <row>
+              <entry>Solution NMR</entry>
+              <entry>solution</entry>
+              <entry>substituents</entry>
+              <entry>no evidence of covalent functionalization, high solubility of sample</entry>
+            </row>
+            <row>
+              <entry>Solid state NMR</entry>
+              <entry>solid</entry>
+              <entry>substituents, sp<sup>3</sup> molecular motions, quantification at high level of funcitionalization</entry>
+              <entry>high functionalization needed, long time for signal acquisition, quantification not available for samples with protons on side chains</entry>
+            </row>
+            <row>
+              <entry>AFM</entry>
+              <entry>solid on substrate</entry>
+              <entry>topography</entry>
+              <entry>only a small portion of sample characterized, no evidence of covalent functionalization, no chemical identity</entry>
+            </row>
+            <row>
+              <entry>TEM</entry>
+              <entry>solid on substrate</entry>
+              <entry>image of sample distribution dispersion</entry>
+              <entry>only a small portion of sample characterized, no evidence of covalent functionalization, no chemical identity dispersion information complicated</entry>
+            </row>
+            <row>
+              <entry>STM</entry>
+              <entry>solid on substrate</entry>
+              <entry>distribution</entry>
+              <entry>no chemical identity of functional groups small portion of sample conductive sample only</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Common characterization methodology for functionalized SWNTs. </caption>
+</table>
+    </section>
+    <section id="id4985059">
+      <title>Elemental and Physical Analysis</title>
+      <section id="id3319931">
+        <title>Thermogravimetric analysis (TGA)</title>
+        <para id="id4684282">Thermogravimetric analysis (TGA) is the mostly widely used method to determine the level of sidewall functionalization. Since most functional groups are labile or decompose upon heating, while the SWNTs are stable up to 1200 °C under Ar atmosphere. The weight loss at 800 °C under Ar is often used to determine functionalization ratio using this indirect method. Unfortunately, quantification can be complicated with presence of multiple functional groups. Also, TGA does not provide direct evidence for covalent functionalization since it cannot differentiate between covalent attachment and physical adsorption. </para>
+      </section>
+      <section id="id3966024">
+        <title>X-ray photoelectron spectroscopy (XPS)</title>
+        <para id="id4110213">XPS confirms the presence of different elements in functionalized SWNTs. This is useful for identification of heteroatom elements such as F and N, and then XPS can be used for quantification with simple substituent groups and used indirectly. Deconvolution of XPS is useful to study fine structures on SWNTs. However, the overlapping of binding energies in the spectrum complicates quantification.</para>
+      </section>
+    </section>
+    <section id="id3778138">
+      <title>Spectroscopy</title>
+      <section id="id3443624">
+        <title>Raman spectroscopy</title>
+        <para id="id5090454">Raman spectroscopy is very informative and important for characterizing functionalized SWNTs. The tangential G mode (<emphasis effect="italics">ca</emphasis>. 1550 – 1600 cm<sup>-1</sup>) is characteristic of sp<sup>2</sup> carbons on the hexagonal graphene network. The D-band, so-called disorder mode (found at <emphasis effect="italics">ca</emphasis>. 1295 cm<sup>-1</sup>) appears due to disruption of the hexagonal sp<sup>2</sup> network of SWNTs. The D-band was largely used to characterize functionalized SWNTs and ensure functionalization is covalent and occurred at the sidewalls. However, the observation of D band in Raman can also be related to presence of defects such as vacancies, 5-7 pairs, or dopants. Thus, using Raman to provide evidence of covalent functionalization needs to be done with caution. In particular, the use of Raman spectroscopy for a determination of the degree of functionalization is not reliable. </para>
+        <para id="id3770630">It has been shown that quantification with Raman is complicated by the distribution of functional groups on the sidewall of SWNTs. For example, if fluorinated-SWNTs (F-SWNTs) are functionalized with thiol or thiophene terminated moieties, TGA shows that they have similar level of functionalization. However, their relative intensities of D:G in Raman spectrum are quite different. The use of sulfur substituents allow for gold nanoparticles with 5 nm in diameter to be attached as a “chemical marker” for direct imaging of the distribution of functional groups. AFM and STM suggest that the functional groups of thio-SWNTs are group together while the thiophene groups are widely distributed on the sidewall of SWNTs. Thus the difference is not due to significant difference in substituent concentration but on substituent distribution, while Raman shows different D:G ratio.</para>
+      </section>
+      <section id="id3591951">
+        <title>Infra red spectroscopy</title>
+        <para id="id5739296">IR spectroscopy is useful in characterizing functional groups bound to SWNTs. A variety of organic functional groups on sidewall of SWNTs have been identified by IR, such as COOH(R), -CH<sub>2</sub>, -CH<sub>3</sub>, -NH<sub>2</sub>, -OH, etc. However, it is difficult to get direct functionalization information from IR spectroscopy. The C-F group has been identified by IR in F-SWNTs. However, C-C, C-N, C-O groups associated with the side-wall functionalization have not been observed in the appropriately functionalized SWNTs. </para>
+      </section>
+      <section id="id4829834">
+        <title>UV/visible spectroscopy</title>
+        <para id="id4967626">UV/visible spectroscopy is maybe the most accessible technique that provides information about the electronic states of SWNTs, and hence functionalization. The absorption spectrum shows bands at <emphasis effect="italics">ca</emphasis>. 1400 nm and 1800 nm for pristine SWNTs. A complete loss of such structure is observed after chemical alteration of SWNTs sidewalls. However, such information is not quantitative and also does not show what type of functional moiety is on the sidewall of SWNTs. </para>
+      </section>
+      <section id="id4510653">
+        <title>Nuclear magnetic resonance</title>
+        <para id="id5376082">NMR can be considered as a “new” characterization technique as far as SWNTs are concerned. Solution state NMR is limited for SWNT characterization because low solubility and slow tumbling of the SWNTs results in broad spectra. Despite this issue, there are still solution <sup>1</sup>H NMR reported of SWNTs functionalized by carbenes, nitrenes and azomethine ylides because of the high solubility of derivatized SWNTs. However, proof of covalent functionalization cannot be obtained from the <sup>1</sup>H NMR. As an alternative, solid state <sup>13</sup>C NMR has been employed to characterize several functionalized SWNTs and show successful observation of sidewall organic functional groups, such as carboxylic and alkyl groups. But there has been a lack of direct evidence of sp<sup>3</sup> carbons on the sidewall of SWNTs that provides information of covalent functionalization. </para>
+        <para id="id4913908">Solid state <sup>13</sup>C NMR has been successfully employed in the characterization of F-SWNTs through the direct observation of the sp<sup>3</sup><emphasis effect="italics">C</emphasis>-F carbons on sidewall of SWNTs. This methodology has been transferred to more complicated systems; however, it has been found that longer side chain length increases the ease to observe sp<sup>3</sup><emphasis effect="italics">C</emphasis>-X sidewall carbons. </para>
+        <para id="id4620097">Solid state NMR is a potentially powerful technique for characterizing functionalized SWNTs because molecular dynamic information can also be obtained. Observation that higher side chain mobility can be achieved by using a longer side chain length offers a method of exploring functional group conformation. In fact, there have been reports using solid state NMR to study molecular mobility of functionalized multi-walled carbon nanotubes. </para>
+      </section>
+    </section>
+    <section id="id4968195">
+      <title>Microscopy</title>
+      <para id="id2672538">AFM, TEM and STM are useful imaging techniques to characterize functionalized SWNTs. As techniques, they are routinely used to provide an “image” of an individual nanoparticle, as opposed to an average of all the particles. </para>
+      <section id="id5287124">
+        <title>Atomic force microscopy</title>
+        <para id="id3408639">AFM shows morphology on the surface of SWNTs. The height profile on AFM is often used to show presence of functional groups on sidewall of SWNTs. Individual SWNTs can be probed by AFM and sometimes provide information of dispersion and exfoliation of bundles. Measurement of heights along an individual SWNT can be correlated with the substituent group, i.e., the larger an alkyl chain of a sidewall substituent the greater the height measured. AFM does not distinguish whether those functional groups are covalently attached or physically adsorbed on the surface of SWNTs.</para>
+      </section>
+      <section id="id4623456">
+        <title>Transmission electron microscopy</title>
+        <para id="id3961135">TEM can be used to directly image SWNTs and at high resolution clearly shows the sidewall of individual SWNT. However, the resolution of TEM is not sufficient to directly observe covalent attachment of chemical modification moieties, i.e., to differentiate between sp<sup>2</sup> and sp<sup>3</sup> carbon atoms. TEM can be used to provide information of functionalization effect on dispersion and exfoliation of ropes. </para>
+        <para id="id4802556">Samples are usually prepared from very dilute concentration of SWNTs. Sample needs to be very homogeneous to get reliable data. As with AFM, TEM only shows a very small portion of sample, using them to characterize functionalized SWNTs and evaluate dispersion of samples in solvents needs to be done with caution. </para>
+      </section>
+      <section id="id2550388">
+        <title>Scanning tunneling microscopy</title>
+        <para id="id2677160">STM offers a lot of insight on structure and surface of functionalized SWNTs. STM measures electronic structure, while sometimes the topographical information can be indirectly inferred by STM images. STM has been used to characterize F-SWNTs gold-marked SWNTs, and organic functionalized SWNTs. Distribution of functional groups can be inferred from STM images since the location of a substituent alters the localized electronic structure of the tube. STM images the position/location of chemical changes to the SWNT structure. The band-like structure of F-SWNTs was first disclosed by STM. </para>
+        <para id="id5789843">STM has the same problem that is inherent with AFM and TEM, that when using small sample size, the result may not be statistically relevant. Also, chemical identity of the features on SWNTs cannot be determined by STM; rather, they have to be identified by spectroscopic methods such as IR or NMR. A difficulty with STM imaging is that the sample has to be conductive, thus deposition of the SWNT onto a gold (or similar) surface is necessary. </para>
+      </section>
+    </section>
+    <section id="id1998472">
+      <title>Bibliography</title>
+      <list id="eip-58"><item>L. B. Alemany, L. Zhang, L. Zeng, C. L. Edwards, and A. R. Barron, <emphasis effect="italics">Chem. Mater</emphasis>., 2007, <emphasis effect="bold">19</emphasis>, 735. </item>
+<item>J. L. Bahr and J. M. Tour, <emphasis effect="italics">J. Mater. </emphasis><emphasis effect="italics">Chem</emphasis>., 2002, <emphasis effect="bold">12</emphasis>, 1952.</item>
+<item>M. S. Dresselhaus, G. Dresselhaus, and A. Jorio, <emphasis effect="italics">J. Phys. </emphasis><emphasis effect="italics">Chem. C</emphasis>, 2007, <emphasis effect="bold">111</emphasis>, 17887.</item>
+<item>A. Hirsch, <emphasis effect="italics">Angew. Chem. Int. Ed</emphasis>., 2002, <emphasis effect="bold">41</emphasis>, 1853.</item>
+<item>M. Holzinger, J. Abraham, P. Whelan, R. Graupner, L. Ley, F. Hennrich, M. Kappes, and A. Hirsch, <emphasis effect="italics">J. Am. Chem. Soc</emphasis>., 2003, <emphasis effect="bold">125</emphasis>, 8566.</item>
+<item>K. F. Kelly, I. W. Chiang, E. T. Mickelson, R. H. Hauge, J. L. Margrave, X. Wang, G. E. Scuseria, C. Radloff, and N. J. Halas, <emphasis effect="italics">Chem. Phys. Lett</emphasis>., 1999, <emphasis effect="bold">313</emphasis>, 455. </item>
+<item>V. N. Khabashesku, W. E. Billups, and J. L. Margrave, <emphasis effect="italics">Acc. Chem. Res</emphasis>., 2002, <emphasis effect="bold">35</emphasis>, 1087.</item>
+<item>F. Liang, L. B. Alemany, J. M. Beach, and W. E. Billups, <emphasis effect="italics">J. Am. Chem. Soc</emphasis>., 2005, <emphasis effect="bold">127</emphasis>, 13941.</item>
+<item>D. Tasis, N. Tagmatarchis, A. Bianco, and M. Prato, <emphasis effect="italics">Chem. Rev</emphasis>., 2006, <emphasis effect="bold">106</emphasis>, 1105.</item>
+<item>H-L. Wu, Y-T. Yang, C-C. M. Ma, and H-C. Kuan, <emphasis effect="italics">J. Polym. Sci. A. Polym. Chem</emphasis>., 2005, 6084.</item>
+<item>L. Zeng, L. Zhang, and A. R. Barron, <emphasis effect="italics">Nano Lett</emphasis>., 2005, <emphasis effect="bold">5</emphasis>, 2001.</item>
+<item>L. Zhang, J. Zhang, N. Schmandt, J. Cratty, V. N. Khabashesku, K. F. Kelly, and A. R. Barron, <emphasis effect="italics">Chem. </emphasis><emphasis effect="italics">Commun</emphasis>., 2005, 5429.</item></list>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </section>
+  </content>
+</document>

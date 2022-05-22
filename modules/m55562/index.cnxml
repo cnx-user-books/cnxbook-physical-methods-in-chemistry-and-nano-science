@@ -1,0 +1,397 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Characterization of Bionanoparticles by Electrospray-Differential Mobility Analysis</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55562</md:content-id>
+  <md:title>Characterization of Bionanoparticles by Electrospray-Differential Mobility Analysis</md:title>
+  <md:abstract/>
+  <md:uuid>14e31893-3067-4ffd-a6d3-c07e959021bc</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id8301195">
+      <title>Introduction</title>
+      <para id="import-auto-id1170473039178">Electrospray-differential mobility analysis (ES-DMA) is an analytical technique that uses first an electrospray to aerosolize particles and then DMA to characterize their electrical mobility at ambient conditions. This versatil tool can be used to quantitative characterize biomolecules and nanoparticles from 0.7 to 800 nm. In the 1980s, it was discovered that ES could be used for producing aerosols of biomacromolecules. In the case of the DMA, its predecesor was developed by Hewitt in 1957 to analize charging of small particles. The modified DMA, which is a type of ion mobility analyzer, was developed by Knutson and Whitby (<link target-id="import-auto-id1170473049211"/>) in 1975 and later it was commercialized. Among the several designs, the cylindrical DMA has become the standard design and has been used for the obtention of monodisperse aerosols, as well as for the classification of polydisperse aerosols.  </para><figure id="import-auto-id1170473049211"><media id="import-auto-id8313176" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 29-34f2.jpg" width="300" print-width="2.5in"/>
+        </media>
+      <caption>American engineer K. T. Whitby (1925-1983). </caption></figure><para id="import-auto-id7369377">The first integration of ES with DMA ocurred in 1996 when this technique was used to determine the size of different globular proteins. DMA was refined over the past decade to be used in a wide range of applications for the characterization of polymers, viruses, bacteriophages and nanoparticle-biomolecule conjugates. Although numerous publications have reported the use of ES-DMA in medicinal and pharmaceutical applications, this present module describes the general principles of the technique and its application in the analysis of gold nanoparticles. </para>
+    </section>
+    <section id="import-auto-id1170473310323">
+      <title>How does ES-DMA function?</title>
+      <para id="import-auto-id7417514">ES-DMA consits of an electrospray source (ES) that aerosolizes bionanoparticles and a class of ion mobility analyzer (DMA) that measures their electrical mobility by balancing electrical and drag forces on the particles. DMA continously separates particles based on their charge to size ratio. An schematic of the experimental setup for ES-DMA is shown in <link target-id="import-auto-id8231940"/> for the analysis of gold nanoparticles. </para><figure id="import-auto-id8231940"><media id="import-auto-id7931564" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 193.jpg" width="450" print-width="4.5in"/>
+        </media>
+      <caption>Schematic of experimental setup for ES-DMA. Reprinted with permission from D. Tsai, R. A. Zangmeister, L. F. Pease III, M. J. Tarlov, and M. R. Zachariah. <emphasis effect="italics">Langmuir</emphasis>, 2008, <emphasis effect="bold">24</emphasis>, 8483. Copyright (2015) American Chemical Society.</caption></figure><para id="import-auto-id2634134">The process of analyzing particles with ES-DMA involves four steps:</para>
+      <para id="import-auto-id7909454">First, the analyte dissolved in a volatile buffer such as ammonium acetate [NH<sub>4</sub>][O<sub>2</sub>CCH<sub>3</sub>] is placed inside a pressure chamber. Then, the solution is delivered to the nozzle through a fused silica capillary to generate multiply charged droplets. ES nebulizers produce droplets of 100-400 nm in diameter but they are highly charged. </para><para id="import-auto-id8579857">In the next step, the droplets are mixed with air and carbon dioxide (CO<sub>2</sub>) and are passed through the charge reducer or neutralizer where the solvent continues to evaporate and charge distribution decreases. The charge reducer is an ionizing α radiation source such as Po<sup>210</sup> that ionizes the carrier gas and reduces the net charges on the particles to a Fuchs’-Boltzmann distribution. As a result, the majority of the droplets contain single net charge particles that pass directly to the DMA. DMA separates positively or negatively charged particles by applying a negative or positive potential. <link target-id="import-auto-id8003991"/> shows a single channel design of cylindrical DMA that is composed of two concentric electrodes between which a voltage is applied. The inner electrode is maintained at a controlled voltage from 1V to 10 kV, whereas the outer electrode is electrically grounded. </para><figure id="import-auto-id8003991"><media id="import-auto-id1170473469375" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 3new.jpg" width="400" print-width="4in"/>
+        </media>
+      <caption>Basic principle of a general DMA. Adapted from P. Intra and N. Tippayawong. <emphasis effect="italics">Songklanakarin J. Sci. Technol</emphasis>., 2008, <emphasis effect="bold">30</emphasis>, 243-256. </caption></figure><para id="eip-933">In the third step, the aerosol flow (Q<sub>a</sub>) enters through a slit that is adjacent to one electrode and the sheath air (air or N<sub>2</sub>) flow (Q<sub>s</sub>) is introduced to separate the aerosol flow from the other electrode. After a voltage is applied between the inner and outer electrodes, an electric field is formed and the charged particles with specific electrical mobility are attracted to a charged collector rod. The positions of the charged particles along the length of the collector depend on their electrical mobility (Z<sub>p</sub>), the fluid flow rate and the DMA geometry. In the case of particles with a high electrical mobility, they are collected in the upper part of the rod (particles a and b, <link target-id="import-auto-id8003991"/>) while particles with a low electrical mobility are collected in the lower part of the rod (particle d, <link target-id="import-auto-id8003991"/>).</para><para id="import-auto-id8291307">The electrical mobility of the particles (Z<sub>p</sub>) is a function of the fluid flow rate (Q<sub>s</sub> and Q<sub>a</sub>), the applied voltaje (V) and the dimensions of the DMA as described by <link target-id="eip-707"/>, where R<sub>1</sub> and R<sub>2 </sub>correspond to the radii of the outer and inner electrodes and L is the effective electrode length. Since DMA differentiates small changes in mobility, particles with a narrow range of electrical mobility (monodisperse aerosol) exit through a small slit at the bottom of the collector rod (particle c on inner electrode, <link target-id="import-auto-id8003991"/>). The excess air flow contains remaining particles.  </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-707"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mrow>
+                      <m:mi>Z</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mrow>
+                            <m:mi>Q</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>s</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mrow>
+                            <m:mi>Q</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mtext>ln</m:mtext>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">/</m:mo>
+                        <m:msub>
+                          <m:mrow>
+                            <m:mi>R</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2π</m:mn>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>LV</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { size 24{Z} }  rSub { size 8{p} } = {  { \(  { size 24{Q} }  rSub { size 8{s} } + { size 24{Q} }  rSub { size 8{a} }  \) "ln" \(  { size 24{R} }  rSub { size 8{2} } / { size 24{R} }  rSub { size 8{1} }  \) }  over  {2π ital "LV"} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><para id="import-auto-id2634170">With the value of the electrical mobility, the particle diameter (d<sub>p</sub>) can be determined by using Stokes’ law as described by <link target-id="eip-388"/>, where n is the number of charge units, e is the elementary unit of charge (1.61x10<sup>-19</sup>C), C<sub>c</sub> is the Cunningham slip correction factor and µ is the gas viscosity. C<sub>c</sub>, <link target-id="eip-218"/>, considers the noncontinuum flow effect when d<sub>p</sub> is similar to or smaller than the mean free path (λ) of the carrier gas. </para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-388"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mrow>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>ne</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:msub>
+                        <m:mrow>
+                          <m:mi>C</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>c</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>πμ</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:msub>
+                        <m:mrow>
+                          <m:mi>Z</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { size 24{d} }  rSub { size 8{p} } = {  { ital "ne" { size 24{C} }  rSub { size 8{c} } }  over  {3 ital "πμ" { size 24{Z} }  rSub { size 8{p} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-218"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mrow>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>C</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mn>2λ</m:mn>
+                        <m:msub>
+                          <m:mrow>
+                            <m:mi>d</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>p</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">[</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>257</m:mtext>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>40</m:mtext>
+                  <m:mtext>exp</m:mtext>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>10</m:mtext>
+                      <m:msub>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mn>2λ</m:mn>
+                  </m:mfrac>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo stretchy="false">]</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { size 24{C} }  rSub { size 8{C} } =1+ {  {2λ}  over  { { size 24{d} }  rSub { size 8{p} } } }  \[ 1 "." "257"+0 "." "40""exp" \(  {  { - 1 "." "10" { size 24{d} }  rSub { size 8{p} } }  over  {2λ} }  \)  \] } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><para id="import-auto-id1170473172853">In the last step, the size-selected particles are detected with a condensation particle counter (CPC) or an aerosol electrometer (AE) that determines the particle number concentration. CPC has lower detection and quantitation limits and is the most sensitive detector available. AE is used when the particles concentrations are high or when particles are so small that cannot be detected by CPC. <link target-id="import-auto-id6651524"/> shows the operation of the CPC in which the aerosol is mixed with butanol (C<sub>4</sub>H<sub>9</sub>OH) or water vapor (working fluid) that condensates on the particles to produce supersaturation. Hence, large size particles (around 10 μm) are obtained, detected optically and counted. Since each droplet is approximately of the same size, the count is not biased. The particle size distribution is obtained by changing the applied voltage. Generally, the performance of the CPC is evaluated in terms of the minimum size that is counted with 50% efficiency. </para><figure id="import-auto-id6651524"><media id="import-auto-id6646684" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 31-4749.jpg" width="500" print-width="5in"/>
+        </media>
+      <caption>Working principle of the condensation particle counter (CPC). Reprinted from Trends in Biotechnology, <emphasis effect="bold">30</emphasis>,<emphasis effect="bold"/> S. Guha, M. Li, M. J. Tarlov, and M. R. Zachariah, Electrospray-differential mobility analysis of bionanoparticles, 291-300, Copyright (2015), with permission from Elsevier.</caption></figure><section id="import-auto-id1170473286553">
+        <title>What type of information is obtained by ES-DMA?</title>
+        <para id="import-auto-id1170473055813">ES-DMA provides information of the mobility diameter of particles and their concentration in number of particles per unit volume of analyzed gas so that the particle size distribution is obtained as shown in <link target-id="import-auto-id1170473466178"/>. Another form of data representation is the differential distribution plot of ΔN/Δlogd<sub>p</sub> versus d<sub>P</sub> (<link target-id="import-auto-id1170473233734"/>). This presentation has a logarithmic size axis that is usually more convenient because particles are often distributed over a wide range of sizes.<emphasis effect="bold"/></para><figure id="import-auto-id1170473466178"><media id="import-auto-id1170474227522" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 195.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Size distribution of human serum albumin, [p/cc]: particles per cubic centimeter. Reprinted with permission from S. T. Kaufman, J. W. Skogen, F. D. Dorman, and F. Zarrin. <emphasis effect="italics">Anal. Chem.,</emphasis> 1996, <emphasis effect="bold">68</emphasis>, 1895-1904. Copyright (2015) American Chemical Society.</caption></figure></section>
+      <section id="import-auto-id7177857">
+        <title>How data from ES-DMA is processed? </title>
+        <para id="import-auto-id1170472914905">To obtain the actual particle size distribution (<link target-id="import-auto-id1170473466178"/>), the raw data acquired with the ES-DMA is corrected for charge correction, transfer function of the DMA and collection efficiency for CPC. <link target-id="import-auto-id1170473276243"/> illustrates the charge correction in which a charge reducer or neutralizer is necessary to reduce the problem of multiple charging and simplify the size distribution. The charge reduction depends on the particle size and multiple charging can be produced as the particle size increases. For instance, for 10 nm particles, the percentages of single charged particles are lower than those of neutral particles. After a negative voltage is applied, only the positive charged particles are collected. Conversely, for 100 nm particles, the percentages of single charged particles increase and multiple charges are present. Hence, after a negative bias is applied, +1 and +2 particles are collected. The presence of more charges in particles indicates high electrical mobility and particles are observed at smaller diameter.  </para><figure id="import-auto-id1170473276243"><media id="import-auto-id1170473275377" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 196.jpg" width="550" print-width="5.5in"/>
+          </media>
+        <caption>Data processing for the charge correction in the aerosol phase. Reprinted from Trends in Biotechnology, <emphasis effect="bold">30</emphasis>,<emphasis effect="bold"/> S. Guha, M. Li, M. J. Tarlov, and M. R. Zachariah, Electrospray-differential mobility analysis of bionanoparticles, 291-300, Copyright (2015), with permission from Elsevier.</caption></figure><para id="import-auto-id7402096">The transfer function for DMA modifies the input particle size distribution and affects the resolution as shown in <link target-id="import-auto-id1170473624628"/>. This transfer function depends on the operation conditions such as flow rates and geometry of the DMA. Furthermore, the transfer function can be broadened by Brownian diffusion and this effect produces the actual size distribution. The theoretical resolution is measured by the ratio of the sheath to the aerosol flow in under balance flow conditions (sheath flow equals excess flow and aerosol flow in equals monodisperse aerosol flow out). </para><figure id="import-auto-id1170473624628"><media id="import-auto-id7189825" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 197.jpg" width="550" print-width="5.5in"/>
+          </media>
+        <caption>Data processing for transfer function for DMA. Reprinted from Trends in Biotechnology, <emphasis effect="bold">30</emphasis>,<emphasis effect="bold"/> S. Guha, M. Li, M. J. Tarlov, and M. R. Zachariah, Electrospray-differential mobility analysis of bionanoparticles, 291-300, Copyright (2015), with permission from Elsevier.</caption></figure><para id="import-auto-id1170471895920">The CPC has a size limit of detection of 2.5 nm because small particles are difficult to activate at the supersaturation of the working fluid. Therefore, CPC collection efficiency is required that consists on the calibration of the CPC against an electrometer.</para>
+      </section>
+    </section>
+    <section id="import-auto-id1170471896328">
+      <title>Applications of ES-DMA</title>
+      <list id="import-auto-id1170473324010" list-type="bulleted">
+        <item>Determination of molecular weight of polymers and proteins in the range of 3.5 kDa to 2 MDa by correlating molecular weight and mobility diameter. </item>
+        <item>Determination of absolute number concentration of nanoparticles in solution by obtaining the ES droplet size distributions and using statistical analysis to find the original monomer concentration. Dimers or trimers can be formed in the electrospray process due to droplet induced aggregation and are observed in the spectrum. </item>
+        <item>Kinetics of aggregation of nanoparticles in solution by analysis of multimodal mobility distributions from which distinct types of aggregation states can be identified.</item>
+        <item>Quantification of ligand adsorption to bionanoparticles by measuring the reduction in electrical mobility of a complex particle (particle-protein) that corresponds to an increase in mobility diameter. </item>
+      </list>
+      <section id="import-auto-id6753477">
+        <title>Characterization of SAM-functionalized gold nanoparticles by ES-DMA </title>
+        <para id="import-auto-id1170473378759">Citrate (<link target-id="import-auto-id1170474403252"/>) stabilized gold nanoparticles (AuNPs) with diameter in the range 10-60 nm and conjugated AuNPs are analyzed by ES-DMA. This investigation shows that the formation of salt particles on the surface of AuNPs can interfere with the mobility analysis because of the reduction in analyte signals. Since sodium citrate is a non volatile soluble salt, ES produces two types of droplets. One droplet consists of AuNPs and salt and the other droplet contains only salt. Thus, samples must be cleaned by centrifugation prior to determine the size of bare AuNPs. <link target-id="import-auto-id1170473609636"/>
+ presents the size distribution of AuNPs of distinct diameters and peaks corresponding to salt residues.</para><figure id="import-auto-id1170474403252"><media id="import-auto-id7506822" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 205.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>Structure of citrate that provides charge stabilization to AuNPs.</caption></figure><figure id="import-auto-id1170473609636"><media id="import-auto-id6822183" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 198.jpg" width="350" print-width="3.5in"/>
+          </media>
+        <caption>Particle size distribution of 10 nm, 30 nm and 60 nm AuNPs after centrifugation cleaning. Reprinted with permission from D. Tsai, R. A. Zangmeister, L. F. Pease III, M. J. Tarlov and M. R. Zachariah. <emphasis effect="italics">Langmuir</emphasis>, 2008, <emphasis effect="bold">24</emphasis>, 8483. Copyright (2015) American Chemical Society.</caption></figure><para id="import-auto-id1170473470833">The mobility size of bare AuNPs (d<sub>p0</sub>) can be obtained by using <link target-id="eip-584"/>, where d<sub>p,m </sub>and d<sub>s</sub> are mobility sizes of the AuNPs encrusted with salts and the salt NP, respectively. However, the presence of self-assembled monolayer (SAM) produces a difference in electrical mobility between conjugated and bare AuNPs. Hence, the determination of the diameter of AuNPs (salt-free) is critical to distinguish the increment in size after functionalization with SAM. The coating thickness of SAM that corresponds to the change in particle size (ΔL) is calculated by using <link target-id="eip-918"/>, where d<sub>p</sub> and d<sub>p0</sub> are the coated and uncoated particle mobility diameters, respectively.</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-584"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mrow>
+                        <m:mi>d</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi fontstyle="italic">p0</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mroot>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mrow>
+                            <m:mi>d</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>p</m:mi>
+                              <m:mi>,</m:mi>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:msubsup>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msubsup>
+                          <m:mrow>
+                            <m:mi>d</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>s</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:msubsup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:mroot>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ { size 24{d} }  rSub { size 8{p0} } = nroot { size 8{3} }  { { size 24{d} }  rSub { size 8{p,m} }  rSup { size 8{3} }  -  { size 24{d} }  rSub { size 8{s} }  rSup { size 8{3} } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-918"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi fontstyle="italic">ΔL</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>p</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi fontstyle="italic">p0</m:mi>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ΔL= { size 24{d} }  rSub { size 8{p} }  -  { size 24{d} }  rSub { size 8{p0} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation><para id="import-auto-id1170473506650">In addition, the change in particle size can be determined by considering a simple rigid core-shell model that gives theoretical values of ΔL<sub>1</sub> higher than the experimental ones (ΔL). A modified core-shell model is proposed in which a size dependent effect on ΔL<sub>2</sub> is observed for a range of particle sizes. AuNPs of 10 nm and 60 nm are coated with MUA (<link target-id="import-auto-id1170473241021"/>), a charge alkanethiol, and the particle size distributions of bare and coated AuNPs are presented in <link target-id="import-auto-id1170473233734"/>. The increment in average particle size is 1.2 ± 0.1 nm for 10 nm AuNPs and 2.0 ± 0.3 nm for 60 nm AuNPs so that ΔL depends on particle size. </para><figure id="import-auto-id1170473241021"><media id="import-auto-id1170473330476" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 206.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Structure of 11-mercaptoundecanoic acid (MUA).</caption></figure><figure id="import-auto-id1170473233734"><media id="import-auto-id6790240" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 203.jpg" width="600" print-width="6in"/>
+          </media>
+        <caption>Particle size distributions of bare versus MUA-coated AuNP for (a) 10 nm and (b) 60 nm. (c) A comparison of predicted ΔL from experiment (diamonds) with theory (ΔL<sub>1</sub> in dashed lines and ΔL<sub>2</sub> in solid lines). Reprinted with permission from D. Tsai, R. A. Zangmeister, L. F. Pease III, M. J. Tarlov, and M. R. Zachariah, <emphasis effect="italics">Langmuir</emphasis>, 2008, <emphasis effect="bold">24</emphasis>, 8483. Copyright (2015) American Chemical Society.</caption></figure></section>
+    </section>
+    <section id="import-auto-id8157299">
+      <title>Advantages of ES-DMA </title>
+      <list id="import-auto-id8296425" list-type="bulleted"><item>ES-DMA does not need prior information about particle type.</item>
+        <item>It characterizes broad particle size range and operates under ambient pressure conditions.</item>
+        <item>A few µL or less of sample volume is required and total time of analysis is 2-4 min.</item>
+        <item>Data interpretation and mobility spectra simple to analyze compared to ES-MS where there are several charge states.</item>
+      </list></section>
+    <section id="import-auto-id1170473104300">
+      <title>Limitations of ES-DMA </title>
+      <list id="import-auto-id1170473325161" list-type="bulleted">
+        <item>Analysis requires the following solution conditions: concentrations of a few hundred µg/mL, low ionic strength (&lt;100 mM) and volatile buffers. </item>
+        <item>Uncertainty is usually ± 0.3 nm from a size range of a few nm to around 100 nm. This is not appropriate to distinguish proteins with slight differences in molecular weight.  </item>
+      </list>
+    </section>
+    <section id="import-auto-id8150617">
+      <title>Related techniques</title><para id="import-auto-id1170473553966">A tandem technique is ES-DMA-APM that determines mass of ligands adsorbed to nanoparticles after size selection with DMA. APM is an aerosol particle mass analyzer that measures mass of particles by balancing electrical and centrifugal forces. DMA-APM has been used to analyze the density of carbon nanotubes, the porosity of nanoparticles and the mass and density differences of metal nanoparticles that undergo oxidation.  </para>
+    </section>
+    <section id="import-auto-id7540084">
+      <title>Bibliography</title>
+      <list id="import-auto-id1170473104188" list-type="bulleted">
+        <item>http://www.iara.org/newsfolder/pioneers/8aerosolpioneereditedaugktwhitby.pdf</item>
+        <item>E. O. Knutson and K. T. Whitby. <emphasis effect="italics">Aerosol Sci.</emphasis>, 1975, <emphasis effect="bold">6</emphasis>, 443.</item>
+        <item>S. T. Kaufman, J. W. Skogen, F. D. Dorman, and F. Zarrin. <emphasis effect="italics">Anal. Chem.</emphasis>, 1996, <emphasis effect="bold">68</emphasis>, 1895. </item>
+        <item>R. C. Flagan. <emphasis effect="italics">KONA</emphasis>, 2008, <emphasis effect="bold">26</emphasis>, 254.</item>
+        <item>P. Intra and N. Tippayawong. <emphasis effect="italics">Songklanakarin J. Sci. Technol</emphasis>., 2008, <emphasis effect="bold">30</emphasis>, 243. </item>
+        <item>D. Tsai, R. A. Zangmeister, L. F. Pease III, M. J. Tarlov, and M. R. Zachariah. <emphasis effect="italics">Langmuir</emphasis>, 2008, <emphasis effect="bold">24</emphasis>, 8483.</item>
+        <item>D. Tsai, L. F. Pease III, R. A. Zangmeister, M. J. Tarlov, and M. R. Zachariah. <emphasis effect="italics">Langmuir</emphasis>, 2009, <emphasis effect="bold">25</emphasis>, 140.</item>
+        <item>G. Bacher, W. W. Szymanski, S. T. Kaufman, P. Zollner, D. Blaas, and G. Allmaier. <emphasis effect="italics">J. Mass Spectrom.</emphasis>, 2001, <emphasis effect="bold">36</emphasis>, 1038. </item>
+        <item>M. Li, S. Guha, R. Zangmeister, M. J. Tarlov, and M. R. Zachariah. <emphasis effect="italics">Langmuir</emphasis>, 2011, <emphasis effect="bold">27</emphasis>, 14732.</item>
+        <item>S. Guha, M. Li, M. J. Tarlov, and M. R. Zachariah. <emphasis effect="italics">Trends Biotechnol</emphasis>., 2012, <emphasis effect="bold">30</emphasis>, 291.</item>
+        <item>L. F. Pease III. <emphasis effect="italics">Trends Biotechnol</emphasis>., 2012, <emphasis effect="bold">30</emphasis>, 216-224.</item>
+        <item>S. Guha, X. Ma, M. J. Tarlov, and M. R. Zachariah. <emphasis effect="italics">Anal. Chem.</emphasis>, 2012, <emphasis effect="bold">84</emphasis>, 6308. </item>
+        <item>Y. Tseng and L. F. Pease III. <emphasis effect="italics">Nanomed-Nanotechnol</emphasis>., 2014, <emphasis effect="bold">10</emphasis>, 1591. </item>
+      </list>
+    </section>
+  </content>
+</document>

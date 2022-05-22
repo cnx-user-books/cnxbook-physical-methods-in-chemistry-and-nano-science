@@ -1,0 +1,65 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Using UV-vis for the detection and characterization of silicon quantum dots</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34655</md:content-id>
+  <md:title>Using UV-vis for the detection and characterization of silicon quantum dots</md:title>
+  <md:abstract/>
+  <md:uuid>8f17e958-0ad0-496b-a85d-da44dc5ad8ed</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1170007782015">
+      <title>What are quantum dots?</title>
+      <para id="id1170008257692">Quantum dots (QDs) are small semiconductor nanoparticles generally composed of two elements that have extremely high quantum efficiencies when light is shined on them. The most common quantum dots are CdSe, PbS, and ZnSe, but there are many many other varieties of these particles that contain other elements as well. QDs can also be made of just three elements or just one element such as silicon. </para>
+    </section>
+    <section id="id1169998268262">
+      <title>Synthesis of silicon quantum dots</title>
+      <para id="id1170012667636">Silicon quantum dots are synthesized in inverse micelles. SiCl<sub>4</sub> is reduced using a two fold excess of LiAlH<sub>4</sub> (<link target-id="id1169999185134"/>). After the silicon has been fully reduced and the excess reducing agent quenched, the particles are capped with hydrogens and are hydrophobic. A platinum catalyzed ligand exchange of hydrogen for allylamine will produce hydrophilic particles (<link target-id="id1170004732144"/>). All reactions in making these particles are extremely air sensitive, and silica is formed readily, so the reactions should be performed in a highly controlled atmosphere, such as a glove box. The particles are then washed in DMF, and finally filtered and stored in deionized water. This will allow the Si QDs to be pure in water, and the particles are ready for analysis. This technique yields Si QDs of 1 - 2 nm in size.</para>
+      
+        <figure id="id1169999185134"><media id="id1169999185134_media" alt="">
+		<image mime-type="image/jpg" src="../../media/graphics1-dea0.jpg" id="id1169999185134__onlineimage" width="400" print-width="4in"/>
+	</media>
+<caption>A schematic representation of the inverse micelle used for the synthesis of Si QDs.</caption></figure>
+      
+      
+      <figure id="id1170004732144"><media id="id1170004732144_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics2-8208.png" id="id1170004732144__onlineimage" width="400" print-width="4in"/>
+	</media>
+<caption>Conversion of hydrophobic Si QDs to hydrophillic Si QDs. Adapted from J. H. Warner, A. Hoshino, K. Yamamoto, and R. D. Tilley, <emphasis effect="italics">Angew. Chem., Int. Ed.</emphasis>, 2005, <emphasis effect="bold">44</emphasis>, 4550. Copyright: American Chemical Society (2005). </caption></figure>
+      
+      <section id="id1170009275162">
+        <title>Sample preparation of Si QDs </title>
+        <para id="id1169999323860">The reported absorbtion wavelength for 1 - 2 nm Si QDs absorb is 300 nm. With the hydrophobic Si QDs, UV-vis absorbance analysis in toluene does not yield an acceptable spectrum because the UV-vis absorbance cutoff is 287 nm, which is very close to 300 nm for the peaks to be resolvable. A better hydrophobic solvent would be hexanes. All measurements of these particles would require a quartz cuvette since the glass aborbance cutoff (300 nm) is exactly where the particles would be observed. Hydrophilic substituted particles do not need to be transferred to another solvent because water’s absorbance cutoff is much lower. There is usually a slight impurity of DMF in the water due to residue on the particles after drying. If there is a DMF peak in the spectrum with the Si QDs the wavelengths are far enough apart to be resolved. </para>
+      </section>
+    </section>
+    <section id="id1169999208871">
+      <title>What information can be obtained from UV-visible spectra?</title>
+      <para id="id1170010561840">Quantum dots are especially interesting when it comes to UV-vis spectroscopy because the size of the quantum dot can be determined from the position of the absorbtion peak in the UV-vis spectrum. Quantum dots absorb different wavelengths depending on the size of the particles (e.g., <link target-id="id1170007441803"/>). Many calibration curves would need to be done to determine the exact size and concentration of the quantum dots, but it is entirely possible and very useful to be able to determine size and concentration of quantum dots in this way since other ways of determining size are much more expensive and extensive (electron microscopy is most widely used for this data). </para>
+      
+        <figure id="id1170007441803"><media id="id1170007441803_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics3-6626.png" id="id1170007441803__onlineimage" width="250" print-width="2.5in"/>
+	</media>
+	<caption>Absorbance of different sized CdSe QDs. Reprinted with permission from C. B. Murray, D. J. Norris, and M. G. Bawendi, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1993, <emphasis effect="bold">115</emphasis>, 8706. Copyright: American Chemical Society (1993). </caption></figure>
+      
+      
+      <para id="id1170009149714">An example of silicon quantum dot data can be seen in <link target-id="id1170007251285"/>. The wider the absorbance peak is, the less monodispersed the sample is. </para>
+      
+        <figure id="id1170007251285"><media id="id1170007251285_media" alt="">
+		<image mime-type="image/jpg" src="../../media/FigB5.jpg" id="id1170007251285__onlineimage" width="450" print-width="4.5in"/>
+	</media>
+	<caption>UV-vis absorbance spectrum of 1 - 2 nm Si QDs with a DMF reference spectrum. </caption></figure>
+      
+      
+      <section id="id1170003637196">
+        <title>Why is knowing the size of QDs important?</title>
+        <para id="id1170001401722">Different size (different excitation) quantum dots can be used for different applications. The absorbance of the QDs can also reveal how monodispersed the sample is; more monodispersity in a sample is better and more useful in future applications. Silicon quantum dots in particular are currently being researched for making more efficient solar cells. The monodispersity of these quantum dots is particularly important for getting optimal absorbance of photons from the sun or other light source. Different sized quantum dots will absorb light differently, and a more exact energy absorption is important in the efficiency of solar cells. UV-vis absorbance is a quick, easy, and cheap way to determine the monodispersity of the silicon quantum dot sample. The peak width of the absorbance data can give that information. The other important information for future applications is to get an idea about the size of the quantum dots. Different size QDs absorb at different wavelengths; therefore, specific size Si QDs will be required for different cells in tandem solar cells.</para>
+      </section>
+    </section>
+    <section id="id1170000541181">
+      <title>Bibliography</title>
+      <list id="id1169999215620" list-type="bulleted"><item>J. H. Warner, A. Hoshino, K. Yamamoto, and R. D. Tilley, <emphasis effect="italics">Angew. Chem., Int. Ed.</emphasis>, 2005, <emphasis effect="bold">44</emphasis>, 4550.</item>
+	<item>C. B. Murray, D. J. Norris, and M. G. Bawendi, <emphasis effect="italics">J. Am. Chem. Soc.</emphasis>, 1993, <emphasis effect="bold">115</emphasis>, 8706.</item>
+</list>
+    </section>
+  </content>
+</document>

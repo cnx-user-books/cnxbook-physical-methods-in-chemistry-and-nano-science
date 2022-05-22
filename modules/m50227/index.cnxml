@@ -1,0 +1,157 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Secondary Ion Mass Spectrometry (SIMS)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50227</md:content-id>
+  <md:title>Secondary Ion Mass Spectrometry (SIMS)</md:title>
+  <md:abstract/>
+  <md:uuid>f4c3ae16-c224-4cf7-99b6-ce2d791ffe68</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165399565100">
+      <title>Introduction</title>
+      <para id="import-auto-id1165397329715">Secondary ion mass spectrometry (SIMS) is an analytical method which has very low detection limits, is capable of analyzing over a broad dynamic range, has high sensitivity, and has high mass resolution. In this technique, <emphasis effect="italics">primary ions</emphasis> are used to sputter a solid (and sometimes a liquid) surface of any composition. This causes the emission of electrons, ions, and neutral species, so called <emphasis effect="italics">secondary particles</emphasis>, from the solid surface. The secondary ions are then analyzed by a mass spectrometer. Depending on the operating mode selected, SIMS can be used for surface composition and chemical structure analysis, depth profiling, and imaging. </para></section>
+    <section id="import-auto-id1165394674210">
+      <title>Theory</title>
+      <para id="import-auto-id1165394496133">Of all the secondary particles that are sputtered from the sample surface, only about 1 in every 1,000 is emitted as an ion. Because only the ions may be detected by mass spectrometry, an understanding of how these secondary ions form is important.</para>
+      <section id="import-auto-id1165393333031">
+        <title>Sputtering models</title>
+        <para id="import-auto-id1165406159549">Sputtering can be defined as the emission of atoms, molecules, or ions from a target surface as a result of particle bombardment of the surface. This phenomenon has been described by two different sets of models.</para>
+        <para id="import-auto-id1165392354260">The first approach to describe sputtering, called linear collision cascade theory, compares the atoms to billiard balls and assumes that atomic collisions are completely elastic. Although there are a few different types of sputtering defined by this model, the type which is most important to SIMS is slow collisional sputtering. In this type of sputtering, the primary ion collides with the surface of the target and causes a cascade of random collisions between the atoms in the target. Eventually, these random collisions result in the emission of an atom from the target surface, as can be seen in <link target-id="import-auto-id1165393995017"/>. This model does not take into account the location of atoms- it only requires that the energy of the incoming ion be higher than the energy required to sublimate atoms from the target surface.</para><figure id="import-auto-id1165393995017"><media id="import-auto-id1165394645588" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 2-7d26.jpg" width="250" print-width="2in"/>
+          </media>
+        <caption>A diagram that illustrates linear collision cascade theory. The primary ion collides with an atom on the surface of the target, causing other elastic collisions to occur within the target. Eventually, a target atom or molecule is ejected from the surface.</caption></figure><para id="import-auto-id1165408113385">Despite that fact that this method makes oversimplifications regarding atomic interactions and structure, its predicted sputter yield data is actually fairly close to the experimental data for elements such as Cu, Zn, Ag, and Au, which have high sputter yields. However, for low sputter yield elements, the model predicts three times more sputtered ions than what is actually observed.  </para>
+        <para id="import-auto-id1165392845984">The second method to describe sputtering uses computer-generated three-dimensional models of the atoms and molecules in the sample to predict the effect of particle bombardment. All models under this category describe the target solid in terms of its constituent atoms and molecules and their interactions with one another. However, these models only take into account atomic forces (not electronic forces) and describe atomic behavior using classical mechanics (not quantum mechanics). Two specific examples of this type of model are:</para>
+        <list id="import-auto-id1165405299906" list-type="enumerated" number-style="arabic">
+          <item>The molecular dynamics model </item>
+          <item>The binary collision approximation.</item>
+        </list>
+      </section>
+      <section id="import-auto-id1165393905691">
+        <title>Ionization models</title>
+        <para id="import-auto-id1165391519590">The ionization models of sputtering can be divided into two categories, theories that predict ionization outside the target and theories that predict that they are generated inside the target. In the theories that describe ionization outside of the target, the primary particle strikes the target, causing the emission of an excited atom or molecule from the target. This particle relaxes by emitting an Auger electron, thus becoming an ion. Because no simple mathematical equation has been described for this theory, it is of little practical use. For this reason, ionization inside the target models are used more often. Additionally, it has been shown that ionization occurs more often inside the target. Although there are many models that describe ionization within the target, two representative models of this type are the bond-breaking model and the local thermal equilibrium theory.  </para>
+        <para id="import-auto-id1165398415507">In the bond breaking model, the primary particle strikes the target and causes the heterolytic cleavage of a bond in the target. So, either an anion or a cation is emitted directly from the target surface. This is an important model to mention because it has useful implications. Stated simply, the yield of positive ions can be increased by the presence of electronegative atoms in the target, in the primary ion beam, or in the sample chamber in general. The reverse is also true- the negative ion yield may be increased by the presence of electropositive atoms. </para>
+        <para id="import-auto-id1165393923741">The local thermal equilibrium theory can be described as an expansion of the bond breaking model. Here, the increase in yield of positive ions when the target is in the presence of electronegative atoms is said to be the result of the high potential barrier of the metal oxide which is formed. This results in a low probability of the secondary ion being neutralized by an electron, thus giving a high positive ion yield.</para>
+      </section>
+    </section>
+    <section id="import-auto-id1165392835887">
+      <title>Instrumentation</title>
+      <section id="import-auto-id1165392378260">
+        <title>Primary ion sources</title>
+        <para id="import-auto-id1165395018841">The primary ions in a SIMS instrument (labeled “Primary ion source” in <link target-id="import-auto-id1165408177773"/>) are generated by one of three types of ion guns. The first type, called an electron bombardment plasma source, uses accelerating electrons (produced from a heated filament) to bombard an anode. If the energy of these electrons is two to three times higher than the ionization energy of the atom, ionization occurs. Once a certain number of ions and electrons are obtained, a plasma forms. Then, an extractor is used to make a focused ion beam from the plasma. </para><para id="import-auto-id1165400224833">In the second type of source, called the liquid metal source, a liquid metal film flows over a blunt needle. When this film is subjected to a strong electric field, electrons are ejected from the atoms in the liquid metal, leaving them ionized. An extractor then directs the ions out of the ion gun. </para>
+        <para id="import-auto-id1165401474586">The last source is called a surface ionization source. Here, atoms of low ionization energy are absorbed onto a high work function metal. This type of system allows for the transfer of electrons from the surface atoms to the metal. When the temperature is increased, more atoms (or ions) leave the surface than absorb on the surface, causing an increase in absorbed ions compared to absorbed atoms. Eventually, nearly all of the atoms that leave the surface are ionized and can be used as an ion beam.</para>
+        <para id="import-auto-id1165391892442">The type of source used depends on the type of SIMS experiment which is going to be run as well as the composition of the sample to be analyzed. A comparison of the three different sources is given in <link target-id="import-auto-id1165392905038"/>.</para><table id="import-auto-id1165392905038" summary="A comparison of primary ion sources">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <thead>
+              <row>
+                <entry>Source</entry>
+                <entry>Spot size (µm)</entry>
+                <entry>Brightness (A/m<sup>2</sup>Sr)</entry>
+                <entry>Energy spread (eV)</entry>
+                <entry>Ion type</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Electron bombardment plasma</entry>
+                <entry>1</entry>
+                <entry>10<sup>4</sup>-10<sup>7</sup></entry>
+                <entry>&lt;10</entry>
+                <entry>Ar<sup>+</sup>, Xe<sup>+</sup>, O<sub>2</sub><sup>+</sup></entry>
+              </row>
+              <row>
+                <entry>Liquid metal</entry>
+                <entry>0.05</entry>
+                <entry>10<sup>10</sup></entry>
+                <entry>&gt;10</entry>
+                <entry>Ga<sup>+</sup>, In<sup>+</sup>, Cs<sup>+</sup></entry>
+              </row>
+              <row>
+                <entry>Surface ionization</entry>
+                <entry>0.1</entry>
+                <entry>10<sup>7</sup></entry>
+                <entry>&lt;1</entry>
+                <entry>Cs<sup>+</sup></entry>
+              </row>
+            </tbody>
+          
+</tgroup><caption>A comparison of primary ion sources. Data from J.C. Vickerman, A. Brown, N.M. Reed, <emphasis effect="italics">Secondary ion mass spectrometry: Principles and applications, </emphasis>Clarendon Press, Oxford, 1989.</caption>
+</table><para id="import-auto-id1165399665035">Of the three sources, electron bombardment plasma has the largest spot size. Thus, this source has a high-diameter beam and does not have the best spatial resolution. For this reason, this source is commonly used for bulk analysis such as depth profiling. The liquid metal source is advantageous for imaging SIMS because it has a high spatial resolution (or low spot size). Lastly, the surface ionization source works well for dynamic SIMS (see <link target-id="import-auto-id1165400246992"/> for details on dynamic SIMS) because its very small energy spread allows for a uniform etch rate.  </para><para id="import-auto-id1165393938036">In addition to the ion gun type, the identity of the primary ion is also important. O<sub>2</sub><sup>+</sup> and Cs<sup>+</sup> are commonly used because they enhance the positive or negative secondary ion yield, respectively. However, use of the inert gas plasma source is advantageous because it allows for surface studies without reacting with the surface itself. Using the O<sub>2</sub><sup>+ </sup>plasma source allows for an increased output of positively charged secondary ions, but it will alter the surface that is being studied. Also, a heavy primary ion allows for better depth resolution because it does not penetrate as far into the sample as a light ion. </para>
+      </section>
+      <section id="import-auto-id1165392178804">
+        <title>Sputtering</title>
+        <para id="import-auto-id1165392933864">The sputter rate, or the number of secondary ions that are removed from the sample surface by bombardment by one primary ion, depends both on the properties of the target and on the parameters of the primary beam. </para>
+        <para id="import-auto-id1165392178025">There are many target factors that affect the sputter rate. A few examples are crystal structure and the topography of the target. Specifically, hexagonal close-packed crystals and rough surfaces give the highest sputter yield. There are many other properties of the target which effect sputtering, but they will not be discussed here.</para>
+        <para id="import-auto-id1165397379984">As was discussed earlier, different primary ion sources are used for different SIMS applications. In addition to the source used, the manner in which the source is used is also important. First, the sputter rate can be increased by increasing the energy of the beam. For example, using a beam of energy greater than 10 keV gives a maximum of 10 sputtered particles per primary ion impact. Second, increasing the primary ion mass will also increase the secondary ion yield. Lastly, the angle of incidence is also important. It has been found that a maximum sputter rate can be achieved if the angle of impact is 70° relative to the surface normal. </para></section>
+      <section id="import-auto-id1165397425143">
+        <title>Mass spectrometers</title>
+        <para id="import-auto-id1165392266642">The detector which measures the amount and type of secondary ions sputtered from the sample surface is a mass spectrometer. See <link target-id="import-auto-id1165408177773"/>  for a diagram that shows where the mass spectrometer is relative to the other instrument components. The type of analysis one wishes to do determines which type of spectrometer is used. Both dynamic and static SIMS usually use a magnetic sector mass analyzer because it has a high mass resolution. Static SIMS (as well as imaging SIMS) may also use a time-of-flight system, which allows for high transmission. A description of how each of these mass spectrometers works and how the ions are detected can be found elsewhere (see <link url="http://cnx.org/contents/925e204d-d85f-4db8-be50-3e4d60057b37@1" window="new"> Principles of Mass Spectrometry and Modern Applications</link>).</para><figure id="import-auto-id1165408177773"><media id="import-auto-id1165408190127" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 3-15a5.jpg" width="500" print-width="5in"/>
+          </media>
+        <caption>A diagram that shows the main components of a SIMS instrument. Diagram adapted from Wilson R.G. Wilson, F.A. Stevie, and C.W. Magee, <emphasis effect="italics">Secondary ion mass spectrometry: A practical handbook for depth profiling and bulk impurity analysis,</emphasis> John Wiley &amp; Sons Inc., New York, 1989. </caption></figure></section>
+    </section>
+    <section id="import-auto-id1165400246992">
+      <title>Samples</title>
+      <para id="import-auto-id1165397204460"> SIMS can be used to analyze the surface and about 30 µm below the surface of almost any solid sample and some liquid samples. Depending on the type of SIMS analysis chosen, it is possible to obtain both qualitative and quantitative data about the sample.</para>
+      <section id="import-auto-id1165391826963">
+        <title>Technique selection</title>
+        <para id="import-auto-id1165392584231">There are three main types of SIMS experiments: Dynamic SIMS, static SIMS, and imaging SIMS. </para>
+        <para id="import-auto-id1165392929302">In dynamic SIMS analysis, the target is sputtered at a high rate. This allows for bulk analysis when the mass spectrometer is scanned over all mass ranges to get a mass spectrum and multiple measurements in different areas of the sample are taken. If the mass spectrometer is set to rapidly analyze individual masses sequentially as the target is eroded rapidly, it is possible to see the depth at which specific atoms are located up to 30 µm below the sample surface. This type of analysis is called a depth profile. Depth profiling is very useful because it is a quantitative method- it allows for the calculation of concentration as a function of depth so long as ion-implanted standards are used and the crater depth is measured. See <link target-id=" import-auto-id1165392485946"/> for more information on ion-implants.</para><para id="import-auto-id1165392924246">SIMS may also be used to obtain an image in a way similar to SEM while giving better sensitivity than SEM. Here, a finely focused ion beam (rather than an electron beam, as in SEM) is raster-scanned over the target surface and the resulting secondary ions are analyzed at each point. Using the identity of the ions at each analyzed spot, an image may be assembled based on the distributions of these ions.</para>
+        <para id="import-auto-id1165394618493">In static SIMS, the surface of the sample is eroded very slowly so that the ions which are emitted are from areas which have not already been altered by the primary ion. By doing this, it is possible to identify the atoms and some of the molecules just on the surface of the sample. </para>
+        <para id="import-auto-id1165392283208"> An example that shows the usefulness of SIMS is the analysis of fingerprints using this instrument. Many other forms of analysis have been employed to characterize the chemical composition of fingerprints such as GC-MS. This is important in forensics to determine fingerprint degradation, to detect explosives or narcotics, and to help determine age of the person who left the print by analyzing differences in sebaceous secretions. Compared to GC-MS, SIMS is a better choice of analysis because it is relatively less destructive. In order to do a GC-MS, the fingerprint must be dissolved. SIMS, on the other hand, is a solid state method. Also, because SIMS only erodes through a few monolayers, the fingerprint can be kept for future analysis and for record-keeping. Additionally, SIMS depth profiling allows the researcher to determine the order in which substances were touched. Lastly, an image of the fingerprint can be obtained using the imaging SIMS analysis.  </para>
+      </section>
+      <section id="import-auto-id1165392222991"><title>Sample preparation</title><para id="import-auto-id1165393638109">As with any other instrumental analysis, SIMS does require some sample preparation. First, rough samples may require polishing because the uneven texture will be maintained as the surface is sputtered. Because surface atoms are the analyte in imaging and static SIMS, polishing is obviously not required. However, it is required for depth profiling. Without polishing, layers beneath the surface of the sample will appear to be mixed with the upper layer in the spectrum, as can be seen in <link target-id="import-auto-id1165399613305"/>.</para>
+
+
+          <figure id="import-auto-id1165399613305"><media id="import-auto-id1165393591000" alt="">
+              <image mime-type="image/jpg" src="../../media/Picture 6-e0aa.jpg" width="400" print-width="3.5in"/>
+            </media>
+          <caption>An example of what a poorly resolved depth profile would look like. A better depth profile would show steep slopes at the layer transition, rather than the gradual slopes seen here.  </caption></figure><para id="import-auto-id1165408715363">But, polishing before analysis does not necessarily guarantee even sputtering. This is because different crystal orientations sputter at different rates. So, if the sample is polycrystalline or has grain boundaries (this is often a problem with metal samples), the sample may develop small cones where the sputtering is occurring, leading to an inaccurate depth profile, as is seen in <link target-id="import-auto-id1165397283829"/>.</para><figure id="import-auto-id1165397283829"><media id="import-auto-id1165398431378" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 4-4050.jpg" width="215" print-width="1.75in"/>
+          </media>
+        <caption>A diagram that shows cone formation during sputtering as a result of the polycrystalline nature of the sample. This leads to depth resolution degredation. Diagram adapted from R.G. Wilson, F.A. Stevie, and C.W. Magee, <emphasis effect="italics">Secondary ion mass spectrometry: A practical handbook for depth profiling and bulk impurity analysis,</emphasis> John Wiley &amp; Sons Inc., New York, 1989.  </caption></figure><para id="import-auto-id1165392909520">Analyzing insulators using SIMS also requires special sample preparation as a result of electrical charge buildup on the surface (since the insulator has no conductive path to diffuse the charge through). This is a problem because it distorts the observed spectra. To prevent surface charging, it is common practice to coat the sample with a conductive layer such as gold. </para>
+        <para id="import-auto-id3175399">Once the sample has been prepared for analysis, it must be mounted to the sample holder. There are a few methods to doing this. One way is to place the sample on a spring loaded sample holder which pushes the sample against a mask. This method is advantageous because the researcher doesn’t have to worry about adjusting the sample height for different samples (see below to find out why sample height is important). However, because the mask is on top of the sample, it is possible to accidentally sputter the mask. Another method used to mount samples is to simply glue them to a backing plate using silver epoxy. This method requires drying under a heat lamp to ensure that all volatiles are evaporated off the glue before analysis. Alternatively, the sample can be pressed in a soft metal like indium. The last two methods are especially useful for mounting of insulating samples, since they provide a conductive path to help prevent charge buildup. </para>
+        <para id="import-auto-id1165399352114">When loading the mounted sample into the instrument, it is important that the sample height relative to the instrument lens is correct. If the sample is either too close or too far away, the secondary ions will either not be detected or they will be detected at the edge of the crater being produced by the primary ions (see <link target-id="import-auto-id1165391733014"/>). Ideally, the secondary ions that are analyzed should be those resulting from the center of the primary beam where the energy and intensity are most uniform.</para><figure id="import-auto-id1165391733014"><media id="import-auto-id1165393857079" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 5-b5fd.jpg" width="630" print-width="6in"/>
+          </media>
+        <caption>A diagram showing the importance of sample height in the instrument. If it is too high or too low, the sputtered ions will not make it through the extraction lense. Diagram adapted from R.G. Wilson, F.A. Stevie, and C.W. Magee, <emphasis effect="italics">Secondary ion mass spectrometry: A practical handbook for depth profiling and bulk impurity analysis,</emphasis> John Wiley &amp; Sons Inc., New York, 1989.  </caption></figure></section><section id="import-auto-id1165392485946">
+        <title>Standards</title>
+        <para id="import-auto-id1165397355496">In order to do quantitative analysis using SIMS, it is necessary to use calibration standards since the ionization rate depends on both the atom (or molecule) and the matrix. These standards are usually in the form of ion implants which can be deposited in the sample using an implanter or using the primary ion beam of the SIMS (if the primary ion source is mass filtered). By comparing the known concentration of implanted ions to the number of sputtered implant ions, it is possible to calculate the relative sensitivity factor (RSF) value for the implant ion in the particular sample. By comparing this RSF value to the value in a standard RSF table and adjusting all the table RSF values by the difference between them, it is possible to calculate the concentrations of other atoms in the sample. For more information on RSF values, see <link target-id="import-auto-id1165393323867"/>. </para><para id="import-auto-id1165393901969">When choosing an isotope to use for ion implantation, it is important take into consideration possible mass interferences. For example, <sup>11</sup>B, <sup>16</sup>O, and <sup>27</sup>Al have the same overall masses and will interfere with each others ion intensity in the spectra. Therefore, one must chose an ion implant that does not have the same mass as any other species in the sample which are of interest. </para><para id="import-auto-id1165397387572">Also, the depth at which the implant is deposited is also important. The implanted ion must be lower than the equilibration depth, above which, chaotic sputtering occurs until a sputter equilibrium is reached. However, care should be taken to ensure that the implanted ions do not pass the layer of interest in the sample- if the matrix changes, the implanted ions will no longer sputter at the same rate, causing concentrations to be inaccurate. </para>
+      </section>
+      <section id="import-auto-id1165401965260">
+        <title>Matrix effects</title>
+        <para id="import-auto-id1165391773528">In SIMS, matrix effects are common and originate from changes in the ionization efficiency (the number of ionized species compared to totally number of sputtered species) and the sputtering yield. One of the main causes of matrix effects is the primary beam. As was discussed earlier, electronegative primary ions increases the number of positively charged secondary ions, while electropositive primary ions increases the number of negatively charged secondary ions. Matrix effects can also be caused by species present in the sample. The consequences of these matrix effects depends on the identity of the effecting species and the composition of the sample. To correct for matrix effects, it is necessary to use a standards and compare the results with RSFs (see <link target-id="import-auto-id1165393323867"/>).  </para></section>
+      <section id="import-auto-id1165408100803">
+        <title>Detection limits</title>
+        <para id="import-auto-id1165392845308">For most atoms, SIMS can accurately detect down to a concentration of 1ppm. For some atoms, a concentration of 10 ppb may be achieved. The detection limit in this instrument is set by the count rate (how many ions may be counted per second) rather than by a limitation due to the mass of the ion. So, to decrease detection limit, the sample can be sputtered at a higher rate. </para></section>
+      <section id="import-auto-id1165393323867">
+        <title>Sensitivity</title>
+        <para id="import-auto-id1165408551974">The sensitivity of SIMS analysis depends on the element of interest, the matrix the element is in, and what primary ion is used. The sensitivity of SIMS towards a particular ion may easily be determined by looking at an RSF table. So, for example, looking at an RSF table for an oxygen primary ion and positive secondary ions shows that the alkali metals have the highest sensitivity (they have low RSF values). This makes sense, since these atoms have the lowest electron affinities and are the easiest to ionize. Similarly, looking at the RSF table for a cesium primary ion beam and negative secondary ions shows that the halogens have the highest sensitivity. Again, this makes sense since the halogens have the highest electron affinities and accept electrons easily. </para>
+      </section>
+    </section>
+    <section id="import-auto-id1165393700449">
+      <title>Data interpretation</title>
+      <para id="import-auto-id1165391799761">Three types of spectra can be obtained from a SIMS analysis. From static SIMS, a mass spectrum is produced. From dynamic SIMS, a depth profile or mass spectrum is produced. And, not surprisingly, an image is produced from imaging SIMS.</para><section id="import-auto-id1165392347796">
+        <title>Mass spectra</title>
+        <para id="import-auto-id1165393472450">As with a typical mass spectrum, the mass to charge ratio (<emphasis effect="italics">m/z</emphasis>) is compared to the ion intensity. However, because SIMS is capable of a dynamic range of 9 orders of magnitude, the intensity of the SIMS mass spectra is displayed on a logarithmic scale. From this data, it is possible to observe isotopic data as well as molecular ion data and their relative abundances on the sample surface.</para></section>
+      <section id="import-auto-id1165408323384">
+        <title>Depth profile</title>
+        <para id="import-auto-id1165391765968">A depth profile displays the intensity of one or more ions with respect to the depth (or, equivalently, time). Caution should be taken when interpreting this data- if ions are collected off the wall of the crater rather than from the bottom, it will appear that the layer in question runs deeper in the sample than it actually does. </para>
+      </section>
+    </section>
+    <section id="import-auto-id1165393659027">
+      <title>Bibliography</title>
+      <list id="import-auto-id1165397431139" list-type="bulleted"><item>E. Sisco, L. T. Demoranville, and G. Gillen, <emphasis effect="italics">Forensic Science International</emphasis>, 2013, <emphasis effect="bold">231</emphasis>, 263.</item>
+        <item>H. W. Werner, <emphasis effect="italics">Surface Science, </emphasis>1975, <emphasis effect="bold">47</emphasis>, 301.</item>
+        <item>H. W. Werner, <emphasis effect="italics">Vacuum</emphasis>, 1974, <emphasis effect="bold">24</emphasis>, 439.</item>
+        <item>J. C. Vickerman, A. Brown, N.M. Reed, <emphasis effect="italics">Secondary ion mass spectrometry: Principles and applications, </emphasis>Clarendon Press, Oxford, 1989.</item>
+        <item>M. Maier, <emphasis effect="italics">Vacuum</emphasis>, 1986, <emphasis effect="bold">36</emphasis>, 409.</item>
+        <item>P. Peres, A. Merkulov, F. Desse, and M. Schuhmacher, <emphasis effect="italics">Surface and Interface Analysis, </emphasis>2010, <emphasis effect="bold">43</emphasis>, 643.</item>
+        <item>R. G. Wilson, F. A. Stevie, and C. W. Magee, <emphasis effect="italics">Secondary ion mass spectrometry: A practical handbook for depth profiling and bulk impurity analysis,</emphasis> John Wiley &amp; Sons Inc., New York, 1989.</item>
+      </list></section>
+  </content>
+</document>

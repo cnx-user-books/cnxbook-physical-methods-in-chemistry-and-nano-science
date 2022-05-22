@@ -1,0 +1,281 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Detection of Explosives</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m71313</md:content-id>
+  <md:title>Detection of Explosives</md:title>
+  <md:abstract/>
+  <md:uuid>983a3ed2-95e4-47a0-8227-c9b61c4c6ef4</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-idm735896224">
+      <title>Introduction</title>
+      <para id="import-auto-idm666126096">Explosive detection is defined as a non-destructive detection process used to determine if an area, product, or container contains any explosive material. Explosive material is anything that can be initiated to undergo very rapid decomposition resulting in the formation of more stable material, as well as the liberation of heat of the development of the sudden pressure effect. There are many different types of explosive detection that can be used in different fields. Explosive detection is extremely useful for many government agencies, and specifically for homeland security and other counter-terrorism organizations. Unfortunately, in the late 20<sup>th</sup> century there were many terrorist threats. Examples of these include threats on airplanes and to cities worldwide. The increase in threats led to new developments in the field of explosive detection. </para>
+      <para id="import-auto-idm225649200">Explosives are a large threat to public safety, and therefore a very important field of research. The effects of bettering detection techniques save lives. The US Bomb Arson Tracking System (BATS) released an explosive incident report in 2015 that details the statistics on explosive incidents. Explosive incidents are any bombings, accidental explosions or other undetermined explosion incidents. In 2015 there were 630 explosion incidents that went unstopped, however there were 6,727 recoveries by BATS. This begins to show the large scope and importance of these techniques.</para>
+      <para id="import-auto-idm908706688">Explosive detection tools are used in many large public spaces. For example; airports, government offices, industries, churches, bus and train stations, ports, and border control. They are used in almost any space that needs a security entrance. Airports use traditional methods of X-ray and metal detectors. However these have proven to not be useful for some explosives, so they are in need of new more cutting-edge detection techniques.  Explosive threats are constantly evolving, so the research in this field must keep up with the new threats. Worryingly, adversaries continually develop new materials and delivery methods, so scientists must stay on top of explosive research. </para><section id="import-auto-idm684185920"><title>Key chemicals and materials</title><para id="import-auto-idm254085920">The main materials needed for explosive detection are the samples themselves. What these analytical methods need to be able to do is determine the composition of something and indicate whether or not it is a threat. There are a wide variety of combustible chemicals and materials used in modern explosives, and this clandestine field is continually growing. It is essential on the part of law enforcement and analytical chemists to be constantly evolving their techniques to match the new developments in improvised explosive devices (IEDs).</para>
+        <para id="import-auto-idm769467984">Although there are many new chemicals being used for explosives, there still need to be methods to detect more classic and well-known chemicals. Such compounds include black powder, a mix of sulfur, nitrates, and charcoal, and trinitrotoluene (TNT, <link target-id="import-auto-idm913192032"/>). While less popular, these compounds and their analogues present just as much of a threat to society. Other common explosive materials to be detected include nitroglycerin (<link target-id="import-auto-idm753435408CCC"/>), perchlorate derivatives, hydrogen peroxide derivatives, and solutions containing ammonium nitrate. All of these compounds and more are extremely volatile and/or reactive, and are powerful detonators. </para><figure id="import-auto-idm913192032"><media id="import-auto-idm596904288" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 5-a8e9.jpg" width="150" print-width="1.5in"/>
+          </media>
+        <caption>Structure of trinitrotoluene (TNT).</caption></figure>
+
+
+  <figure id="import-auto-idm753435408CCC"><media id="import-auto-idm574037904CCC" alt="">
+            <image mime-type="image/jpg" src="../../media/NG.jpg" width="200" print-width="2in"/>
+          </media>
+        <caption>Structure of 1,2,3-trinitroxypropane, commonly referred to as nitroglycerin or TNG. </caption></figure><para id="import-auto-idm575681360">As important as detecting the explosive materials themselves is detecting the precursors to make these improvised units. These precursors could be extremely common items like sugar, fertilizer (ammonium nitrate, NH<sub>4</sub>NO<sub>3</sub>), and common fuel oil, but when mixed together, in the case of ammonium nitrate and fuel oil (together called ANFO), they can cause blasts like that in the Oklahoma City bombing of 1995. It is crucial that there are ways to identify these compounds separately before detonation, as finding them together in one spot could be an indication of a possible threat.</para>
+      </section></section>
+    <section id="import-auto-idm502719520"><title>Key analytical techniques</title><para id="import-auto-idm613236752"><link target-id="import-auto-idm254293568"/> details the wide varieties of methods used by laboratories and law enforcement agencies to detect explosives and their precursors. The detection methods listed above fit into several categories: spectroscopic, olfactory, general sensory, and nanotechnology techniques. Each category and each method has its unique advantages and disadvantages when it comes to doing this analytical work in the field. For example, for many years spectroscopic methods have been limited to the laboratories because of the size of their instruments. Thus, trained animals, like canines, were the better option for analyzing possible explosives in mobile settings like airports. While the technology has improved for these laboratory methods in recent years, animal detectors are still commonly used and can be very successful for qualitative detection. </para>
+      
+      <table id="import-auto-idm254293568" summary="Common detection methods used in analyzing explosive materials and residues.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry>
+                <emphasis effect="bold">Analytical technique</emphasis>
+              </entry>
+              <entry>
+                <emphasis effect="bold">Purpose</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Mass spectrometry (<link url=" https://cnx.org/contents/uieDnVBC@23.1:kl4gTdhf@1/Principles-of-Mass-Spectrometry-and-Modern-Applications" window="new">MS</link>)</entry>
+              <entry>Identify substance based on mass</entry>
+            </row>
+            <row>
+              <entry>Ion-mobility spectrometry</entry>
+              <entry>Identify compounds based on mass</entry>
+            </row>
+            <row>
+              <entry>Fourier-transform IR spectrometry (<link url=" https://cnx.org/contents/uieDnVBC@23.1:6oYLai6Q@1/Fourier-Transform-Infrared-Spectroscopy-of-Metal-Ligand-Complexes" window="new">FT-IR</link>)</entry>
+              <entry>IR radiation to identify functional groups</entry>
+            </row>
+            <row>
+              <entry>Terahertz spectrometry</entry>
+              <entry>Long-range IR radiation to determine groups</entry>
+            </row>
+            <row>
+              <entry>Laser-induced breakdown spectrometry</entry>
+              <entry>Vaporize sample to analyze plasma components</entry>
+            </row>
+            <row>
+              <entry>Raman spectrometry (<link url=" https://cnx.org/contents/uieDnVBC@23.1:c6H4ozK6@1/Raman-and-Surface-Enhanced-Raman-Spectroscopy" window="new">Raman</link>)</entry>
+              <entry>Attribute vibrations to specific compounds</entry>
+            </row>
+            <row>
+              <entry>Animal detectors</entry>
+              <entry>Olfactory sensors trained to pick out smells</entry>
+            </row>
+            <row>
+              <entry>Electronic nose</entry>
+              <entry>Man-made sensor to recognize molecules</entry>
+            </row>
+            <row>
+              <entry>Colorimetrics</entry>
+              <entry>Color change in presence of nitrogen</entry>
+            </row>
+            <row>
+              <entry>Neutron activation analysis (<link url=" https://cnx.org/contents/uieDnVBC@23.1:8vxLu97L@2/Neutron-Activation-Analysis-NAA" window="new">NAA</link>)</entry>
+              <entry>Gamma radiation measured and attributed to specific compounds</entry>
+            </row>
+            <row>
+              <entry>Chemical sensors</entry>
+              <entry>Reactions with sample produce color or conductance change</entry>
+            </row>
+            <row>
+              <entry>Electrochemical sensors</entry>
+              <entry>Measures electrical output (change in voltage or current) from redox reaction with sample</entry>
+            </row>
+            <row>
+              <entry>Enzyme-linked immunosorbent assay (elisa)</entry>
+              <entry>Antibodies specific to explosive bind and fluorescence is measured</entry>
+            </row>
+            <row>
+              <entry>Flow-through assay</entry>
+              <entry>Elisa assays but with continuous flow</entry>
+            </row>
+            <row>
+              <entry>Fluorescence sensors</entry>
+              <entry>Either detects sample fluorescence or the quenching of sample on fluorescent material</entry>
+            </row>
+            <row>
+              <entry>Molecular-imprinted polymers</entry>
+              <entry>Molecules with binding sites for explosive residues</entry>
+            </row>
+            <row>
+              <entry>Silicon nanowires</entry>
+              <entry>Senses and analyzes sample vapors</entry>
+            </row>
+            <row>
+              <entry>Nanotubes</entry>
+              <entry>Variety can carry sensors and detect small amounts</entry>
+            </row>
+            <row>
+              <entry>Nanoparticles</entry>
+              <entry>Can react with sample and cause large scale result</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Common detection methods used in analyzing explosive materials and residues. </caption>
+</table><para id="import-auto-idm211056624">In fact, some of the current research focuses on how to mechanize the processes and advantages of canine and animal detection. In canine detection, the animals’ more advanced olfactory nerves are capable of detecting traces of explosive material in its odor environment, which the animal is then trained to recognize that specific odorant. One area in which this process has been successfully mechanized is in the “electronic noses”. Chemical sensors replace an animal’s olfactory system and a pattern recognition system tied to an artificial neural network automatically distinguishes what substances are there. These are often more sensitive and accurate than tradition canine methods, with detection limits in the parts per trillion.</para>
+      <para id="import-auto-idm625408624">Another common qualitative technique involves the use of colormetrics, a technique often utilized with nitroaromatics in general, but specifically with TNT (<link target-id="import-auto-idm913192032"/>). The theory takes advantage of the Janovsky reaction (<link target-id="eip-928"/>) in which a strong base reacts with the nitroaromatics to produce a color change. This strong base is coated onto a cellulose or glass swab so as to be able to test a specific item in question. </para><equation id="eip-928"><media id="import-auto-idm527357712" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 4-74dc.jpg" width="300" print-width="3in"/>
+        </media></equation><para id="import-auto-idm595818000">These analytical techniques all use different ways to identify potentially dangerous compounds and mixtures, each method has its own benefits and drawbacks. While some of these methods use properties of the compounds on an atomic level to identify molecules of interest, others, like the chemical and immunochemical sensing methods, rely on the chemical properties of the specific compound when introduced to a reactive chemical or mixture. </para>
+      <para id="import-auto-idm590976448">More advances in these various technical methods are expected in the near future. There are many fields that are rapidly expanding. For example, the blossoming field of nanotechnology has many applications for explosive detection. There are many ways this area of study can help improve and modify the current detection techniques.</para>
+      <section id="import-auto-idm232822576">
+        <title>Spectroscopy</title>
+        <para id="import-auto-idm253881392">One of the more widely used techniques in the lab is spectroscopy, analyzing molecules based on the way they respond to different forms of light. There are many different spectroscopic methods in the overarching field of analytical chemistry, and plenty of them can be applied to explosives detection. Some specific methods include mass spectrometry, ion mobility spectrometry, terahertz spectrometry, Fourier-transform ion spectroscopy, laser-induced breakdown spectrometry, and raman spectroscopy. While all of these methods have proven useful in identifying and analyzing explosives, some of the above techniques are more commonly used among analytical chemists and law enforcement agents in the field. </para>
+        <para id="import-auto-idm906191744">Perhaps the most popular spectroscopic method for detecting explosives is ion-mobility spectrometry, which resembles mass spectroscopy in its procedure. In this method, sample particles are exposed to an ionizing source, and sent into a magnetic field. The magnetic environment causes the charged particles to separate by size and take unique amounts of time to travel to the detector. The time of flight distinguishes the molecular components of the sample and, using a Faraday plate as a detector, can quickly identify the substance being analyzed and approximately, the concentration of this compound. Research into this detection method has led to the production of many portable machines that have been put into use in airports, and further research is being done into optimizing the process to decrease required sample size further and decrease errors. </para>
+        <para id="import-auto-idm227901328">Another common use of spectroscopy methods to explosives detection is Raman spectroscopy, which focuses on the vibrational and rotational changes in molecules when they are exposed to a laser. These changes can be sensed by a detector in the machine, which can then compare these values to known standards in a library. This technique, though not very sensitive at this point in time, is very useful, as it provides results quickly and can be used a distance away from the sample. This is especially of interest for the detection of explosives, as the potential samples being analyzed could be extremely sensitive and dangerous. Research being done into Raman spectroscopy is working on making the system more sensitive and specific, as well as more portable. Should these drawbacks to the Raman method be reduced, this spectroscopy technique could be one of the most effective and ideal ones in the field.</para>
+      </section>
+      <section id="import-auto-idm920522816"><title>Sensors</title><para id="import-auto-idm665455216">Chemical sensors undergo reaction with explosive vapors to result in detectable color or conductivity changes. Examples of chemical sensors include EXPRAY and DROPEX detectors, where clothing/baggage surfaces are wiped with test paper and sprayed with aerosols to detect reactions with explosives. </para><para id="eip-645">Electrochemical sensors utilize electron output from redox reactions with explosives at the electrode. Nitroaromatic explosives such as TNT (<link target-id="import-auto-idm913192032"/>) or DNT (FIGURE) are ideal for these sensors readily due to their reducible nitro groups. However, these sensors are also very valuable for their ability to detect peroxide explosives, which do not fluoresce, have minimal UV absorption and lack nitro groups, making them generally harder to detect than nitroaromatics. </para>
+
+  <figure id="import-auto-idm753435408CC"><media id="import-auto-idm574037904CC" alt="">
+            <image mime-type="image/jpg" src="../../media/DNT.jpg" width="110" print-width="1.1in"/>
+          </media>
+        <caption>Structure of 2,4-dinitrotoluene, commonly referred to as DNT or dinitro, is a precursor to TNT (<link target-id="import-auto-idm913192032"/>) . </caption></figure><para id="eip-596">Immunochemical sensors utilize highly specific antibodies to bind explosives for detection. In competitive ELISA assays, the explosive and explosive analogue conjugated to an enzyme or fluorophore compete to bind the anti-explosive antibody; the resulting fluorescence is measured spectrophotometrically. As concentration of explosive increases, fluorescence decreases as the explosive analogue is outcompeted. This method allows for massive sample throughput with minimal preparation, but there are multiple disadvantages, including multiple wash steps and long incubation times. Flow-through assays circumvent these disadvantages and removes the need for complex lab equipment with continuous fluid flow. </para>
+      </section><section id="import-auto-idm763290192">
+        <title>Nanotechnology</title>
+        <para id="import-auto-idm617868592">Nanoparticle assemblies exhibit a diverse and interesting range of properties that fundamentally differ from the properties of the constituent nanoparticle building blocks. Moreover, they may potentially be used to detect smaller quantities of targeted compounds due to their high surface area – to – volume ratios. For this reason, nanoparticles have exciting applications in detection fields. Molecular Imprinted polymers are an example of an exciting application. They involve the formation of molecules with specific recognition sites. These sites can be designed to detect specific explosive compounds, for example PETN (<link target-id="import-auto-idm651973856"/>), RDX (<link target-id="import-auto-idm654616736"/>), tetryl (<link target-id="import-auto-idm753435408"/>), and TNT (<link target-id="import-auto-idm913192032"/>). </para><figure id="import-auto-idm651973856"><media id="import-auto-idm667909328" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 8-0a2f.jpg" width="150" print-width="1.5in"/>
+          </media>
+        <caption>Structure of pentaerythritol tetranitrate (PETN). </caption></figure>
+        
+        <figure id="import-auto-idm654616736"><media id="import-auto-idm568267568" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 7-4a42.jpg" width="150" print-width="1.5in"/>
+          </media>
+        <caption>Structure of 1,3,5-trinitro-1,3,5-triazinane (RDX).</caption></figure>
+        
+        <figure id="import-auto-idm753435408"><media id="import-auto-idm574037904" alt="">
+            <image mime-type="image/jpg" src="../../media/Picture 6-8261.jpg" width="150" print-width="1.5in"/>
+          </media>
+        <caption>Structure of 2,4,6-trinitrophenylmethylnitramine commonly referred to as tetryl. </caption></figure>
+        
+   
+
+
+        
+        <para id="import-auto-idm654750304">Silicon nanowires are also a developing technology for explosive detection. They have shown to be extremely useful, and more sensitive than canines. A liquid of vapor containing explosive material is passed over a chip containing silicon nanowire sensing elements. The molecules of the explosive material interact with the surface of the nanowires and as a result induce a measurable change in the electrical properties of the nanowire.</para>
+        <para id="import-auto-idm613876704">Carbon nanotubes have many applications including the field of explosives. Multi-walled carbon nanotubes (MWCNT) are used to modify glassy carbon electrodes. This increases the surface area of the electrode. Those electrodes are then used to detect TNT, because TNT will accumulate on the surface of the electrode and is aided by the increased surface area due to the MWCNT. Single-walled carbon nanotubes (SWCNT) are also used for explosive detection. They are first aligned in an array on quartz using chemical vapor deposition (CVD), and then that array is transferred onto textiles. The coated textile then becomes a wearable transmitter. This is a fascinating development that could lead to more wearable chemical sensors.</para>
+        <para id="import-auto-idm203155424">Nanoparticles can also be used to detect explosive compounds. Gold nanoparticles are used in an aqueous solution. When TNT is introduced to this solution it causes an aggregation of gold nanoparticles which then results in a color change of the solution from red to violet. This an extremely valuable detection tool because it can be observed without further analysis. </para>
+        <para id="import-auto-idm211071376">Functionalized silver nanoparticles coated on silver molybdate nanowires can also be used to detect TNT through a similar manner as the gold nanoparticles. The TNT complexes the nanoparticles and causes the nanowires to agglomerate together. </para>
+      </section>
+    </section><section id="import-auto-idm558922960">
+      <title>Regulations</title>
+      <para id="import-auto-idm578885984">The Bureau of Alcohol, Tobacco and Firearms (ATF) was formed from overtaking the responsibilities pertaining to alcohol, tobacco, firearms, and explosives from the Internal Revenue Service, in the US. After the terrorist attacks of September 11, 2001, the passage of the 2003 Homeland Security Act added “explosives” to the name to become the Bureau of Alcohol, Tobacco, Firearms and Explosives, while transferring it from the Department of Treasury to the Department of Justice. Currently, ATF’s jurisdiction over explosives includes licensing imports, manufacturing/distribution, permits for shipping/transporting/receiving explosives, and inspection and regulation. ATF enforces both Title XI of the 1970 Organized Crime Control Act and the 2002 Safe Explosives Act. Other departments that have jurisdiction over explosives include Dept. of Transportation over explosives in transit, Mine Safety and Health Administration over explosives at mining sites, Dept. of Defense over explosives in military use, Consumer Product Safety Commission over fireworks consumers may buy and Dept. of Homeland Security over high-risk chemicals in industrial/laboratory facilities. </para>
+      <para id="import-auto-idm916269952">Due to the influx of fake explosive detection devices on the market, the Dept. of Justice provides a “Guide for the Selection of Commercial Explosives Detection Systems for Law Enforcement Applications”. This guide explains how to select and utilize the current explosive detection devices on the market while avoiding bogus devices. Many bogus devices advertise scientific-sounding principles, but will be based on superstitions such as “dowsing” (the act of using rods to find well water) or they will have no backing from regulatory agencies. Currently, the Department of Justice and the scientific community must work in conjunction to enforce regulations on explosive detectors while protecting the public from scientific sounding bogus devices. </para>
+    </section>
+    <section id="import-auto-idm648000736">
+      <title>Challenges and need for innovation</title>
+      <para id="import-auto-idm609889680">The explosives detection industry faces the need for continual innovation and product development especially in light of the continual evolution of explosives and improvements to their concealment.  Much of the focus in the past has been on the identification and neutralization of nitroaromatic based explosive materials, as these are the most prevalent in traditional explosives.  In fact, many explosives are permutations of the same basic compound, cyclonite (<link target-id="import-auto-idm654616736"/>), mixed in different concentrations and with different salts or binding materials. Therefore, as these combinations continue to evolve, so does the need for diverse detection of explosive materials and their precursors.  Some of the most devastating domestic bombings within the United States in recent history have been done not with formal explosives but rather with precursors and crude alternatives.  For example, there has been a rise in the use of the ammonium nitrate found in fertilizer and fuel oil (ANFO).  Both of these materials are available widely for purchases, and so explosive detection techniques need to evolve to be able to identify when these dangerous precursors are present together. There has also been a rise in non-nitrogen containing explosives, such as peroxide based materials or sarin gas, demonstrating a need for continual innovation.</para><para id="import-auto-idm899949760">Another realm of challenges for the explosive detection industry is in the fact that any analytical technique developed must take into account the environment in which they must be used; namely they must be self-contained, mobile, and able to detect from a distance. It is not possible to transport a possible live explosive to a lab for analysis, detection often takes place in busy locations such as transportation hubs, or in remote, unsterile situations if used in military maneuvers.  Nor is it safe for security personal to get too close to an unknown object, as it could be set off.</para>
+      <para id="import-auto-idm759391232">A continual challenge for any detection industry is improving the sensitivity and accuracy of the apparatus and techniques. Any methods of detection used must be powerful enough to detect the presence of dangerous material if it is there, for any missed detection of a wide variety explosives and precursors can have catastrophic consequences.  However, it also needs to be discerning and accurate enough to identify the right materials, and not have false positives.  An issue with many of the newest technological advances is that while they are much more powerful, they can also give false positives for things like medication or perfumes. At a busy airport checkpoint, for example, this can lead to a waste of valuable time and resources.</para>
+    </section>
+    <section id="import-auto-idm649683648">
+      <title>Conclusions and future direction</title>
+      <para id="import-auto-idm489546400">Explosive detection is of the utmost importance in the modern age, and therefore the analytical techniques that ensure our safety must continue to evolve. The techniques developed can be widely applied, whether in military and public defense to private security. </para>
+      <para id="import-auto-idm483951888">As with any field, there is always a need and room for improvement. In a field such as this, it is pertinent that analytical chemists and bomb technicians both continue to improve their practices and techniques. The future of explosive detection lies in addressing the challenges mentioned above. The ultimate goal of this field is to become more precise and accurate when doing analyses and reduce the number of false readings. Incorrect conclusions drawn from false results can have heavy and disastrous consequences, and the hope is that technological and procedural advances can reduce the likelihood of this happening. </para>
+      <para id="import-auto-idm623566176">Current research is being done in ways to improve the portability and accuracy of the detection methods described above. Methods like mass spectroscopy and nanoparticle-based sensors are being enhanced by chemists to require less sample material, and less detection time and space. This will greatly improve the quality of results obtained in both the forensic laboratory and the field. The more portable these detection techniques become, the more they can be applied and used to reveal threats. These advancements also work to protect the people using them, by becoming more long-range and less dependent on human operation. </para>
+      <para id="import-auto-idm625919728">The work being done in explosives detection is a combination of technological advancements and improving procedures so as to be as accurate, quick, and safe as possible. In the politically charged world atmosphere we live in today, the advances in this field have become a key issue in national and global security. While there are many encouraging new advancements, the challenge of developing mobile, accurate, and safe analytical detection methods remains.</para>
+    </section>
+    <section id="import-auto-idm736297680">
+      <title>Exercises</title>
+      <section id="import-auto-idm596254640"><title>Numerical questions</title><exercise id="eip-30"><problem id="eip-375">
+  <para id="eip-360">Several detection devices rely on aerosol traces of explosives for their analysis. Given a partially solved form of the Clapeyron equation (<link target-id="eip-146"/>), which provides information about changes between states of matter, where P is pressure in pascals, L is the specific latent heat of the material and T is absolute temperature, and n is a constant specific to the material. </para>
+  <equation id="eip-146">ln(P) = n + L/T </equation>
+        
+        <para id="import-auto-idm741295040">What would be the partial pressure of TNT at standard temperature? Assuming use of a chemical sensor with a detection limit of one part per billion, would the gaseous TNT be detected? (n = 34.9 and L = 12058 for TNT)</para>
+</problem>
+
+<solution id="eip-276">
+  <para id="eip-421">From <link target-id="eip-146"/>: </para>
+   
+        
+        
+        <equation id="eip-618">ln(P) = 34.9 +12058/298</equation>
+<equation id="eip-102">P = 4.32 Pa</equation>
+        <para id="import-auto-idm461506400">Assuming a detection limit of one part per billion in standard atmospheric conditions, the partial pressure of the TNT would need to be greater than:</para>
+        
+        <equation id="eip-47">101325/1,000,000,000 = 0.000101325 Pa.</equation><para id="import-auto-idm900833984">Therefore, the sensor would be able to detect the TNT.</para>
+
+
+</solution>
+</exercise>
+
+
+   
+
+
+        <exercise id="eip-428"><problem id="eip-648">
+  <para id="eip-727">The “oxygen balance” is a key way to understanding how explosives will react in various environments, as it describes the amount of oxygen necessary to activate the explosive device. The oxygen balance is dependent on the chemical formula of the explosive material (<link target-id="eip-186"/>), where C, H, and O are the amounts of carbon, oxygen, and nitrogen present in one molecule of the compound.</para>
+      <equation id="eip-186">OB = (-1600/molecular weight) × (2C + 0.5H - O)</equation>
+        
+        <para id="import-auto-idm254730096">What is the oxygen balance of nitroglycerin (<link target-id="import-auto-idm753435408CCC"/>), a common nitroaromatic explosive? The chemical formula of nitroglycerin is C<sub>3</sub>H<sub>5</sub>(ONO<sub>2</sub>)<sub>3</sub> and its molecular weight is 227 g/mol.</para>
+
+
+</problem>
+
+<solution id="eip-162">
+    <equation id="eip-89">OB = (-1600/227) × (6 + 2.5 - 9) = 3.52</equation>
+
+</solution>
+</exercise>
+
+
+  
+        
+      
+
+<exercise id="eip-767"><problem id="eip-203">
+  <para id="eip-315">Square wave voltammetry is valued in explosive detection for its extremely fast scan rates. The equation to determine scan rate is: scan rate (mV/sec) = Estep (mV) /τ (sec). If the square wave voltammetry produces the waveform in <link target-id="import-auto-idm753435408XCC"/>, what is the scan rate?</para><figure id="import-auto-idm753435408XCC"><media id="import-auto-idm574037904XCC" alt="">
+            <image mime-type="image/jpg" src="../../media/SQ.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>Square wave voltammetry produced for explosive detection. </caption></figure></problem>
+
+<solution id="eip-361">
+  <para id="eip-323">Scan rate = 3/0.01 = 300 mV/sec</para>
+</solution>
+</exercise>
+        <exercise id="eip-904"><problem id="eip-540">
+  <para id="eip-354">Trace explosive detectors are often used to detect explosive residues, these are extremely small amounts of material that the naked eye cannot see. Most trace detectors are able to detect explosive materials based only on a few nanograms. However, it is necessary to test the instruments. In order to conduct these tests, it is necessary to prepare solutions of known composition and content. Given 12 ng of explosive TNT material, how many μL of methanol are necessary for a desired concentration of 1.5 ng/μL (<link url="https://www.hsdl.org/?abstract&amp;did=1647" window="new">https://www.hsdl.org/?abstract&amp;did=1647</link>).</para></problem>
+
+<solution id="eip-864">
+  <para id="eip-419">12 ng / (1.5 ng/μL) = 8 μL methanol </para>
+</solution>
+</exercise>
+        
+      </section><section id="import-auto-idm756647696">
+        <title>Open-ended questions</title>
+        <list id="import-auto-idm620626240" list-type="enumerated" number-style="arabic">
+          <item>In the world of explosive detection, professionals have to balance the problems of having false positives against the fear of missing something.  How should the industry deal with finding the correct balance?</item>
+          <item>One of the ways law enforcement officials and analytical chemists work to improve their results is by combining several of the detection methods described above, such as using a colorimetric method in tandem with a spectroscopy method. What are the benefits of using two different methods when presented with a possible explosive?</item>
+          <item>For an immunochemical detector such as a competitive Elisa Assay, what does high fluorescence detected signify about the amount of explosive in the sample?</item>
+          <item>What is the importance of explosive detection? What are some examples of common application of explosive detection techniques? </item>
+        </list>
+      </section>
+    </section>
+    <section id="import-auto-idm789357456">
+      <title>Bibliography</title>
+      <list id="import-auto-idm461065568" list-type="bulleted"><item>A. R. Barron, <emphasis effect="italics">The Detonator</emphasis>, 2009, <emphasis effect="bold">36</emphasis>, 60. </item>
+        <item>J. V. Janovsky and L. Erb, <emphasis effect="italics">Ber.</emphasis>, 1886, <emphasis effect="bold">19,</emphasis> 2155.</item>
+        <item>J. Caygill, F. Davis, and S. Higson, <emphasis effect="italics">Talanta</emphasis>, 2012, <emphasis effect="bold">88</emphasis>, 14. </item>
+        <item>J. Yinon, <emphasis effect="italics">Anal. Chem.</emphasis>, 2003, <emphasis effect="bold">75</emphasis>, 99A.</item>
+        <item>W. J. Peveler, S. B. Jaber, and I. P. Parkin, <emphasis effect="italics">Forensic Sci. Med. Pat.</emphasis>, 2017, <emphasis effect="bold">13</emphasis>, 490.</item>
+        <item>M. Coffey, <emphasis effect="italics">Chemical and Explosives Detection</emphasis>, American Physical Society Task Force on Countering Terrorism, <link url=" https://www.aps.org/about/governance/task-force/counter-terrorism/coffey.cfm"> <emphasis effect="underline"> https://www.aps.org/about/governance/task-force/counter-terrorism/coffey.cfm</emphasis></link> (accessed November 2018).</item>
+        <item>J. Rostberg, <emphasis effect="italics">Common Chemicals as Precursors of Improvised Explosive Devices: The Challenges of Defeating Domestic Terrorism</emphasis>, Master’s thesis, Naval Postgraduate School, 2005. </item>
+        <item>U.S. Bomb Data Center Explosives Incident Report 2014, <link url="https://www.atf.gov/explosives/docs/report/2014-usbdc-explosive-incident-report/download"> <emphasis effect="underline"> https://www.atf.gov/explosives/docs/report/2014-usbdc-explosive-incident-report/download </emphasis></link> (accessed December 2018).</item>
+        <item>Department of Homeland Security Explosives Detection and Aviation Screening, <link url=" https:/www.dhs.gov/science-and-technology/explosives-detection-and-aviation-screening "> <emphasis effect="underline"> https:/www.dhs.gov/science-and-technology/explosives-detection-and-aviation-screening </emphasis></link>  (accessed November 2018).</item>
+        <item>Department of Homeland Security Detection Canines, <link url=" https://www.dhs.gov/science-and-technology/Explosives-Detection-Canine-Program# "> <emphasis effect="underline"> https://www.dhs.gov/science-and-technology/Explosives-Detection-Canine-Program# </emphasis></link>  (accessed December 2018).</item>
+        <item>Bureau of Alcohol, Tobacco, Firearms, and Explosives Explosives, <link url=" https://www.atf.gov/explosives "> <emphasis effect="underline"> https://www.atf.gov/explosives </emphasis></link> (accessed December 2018).</item>
+        <item>T. Ong, T. Mendum, G. Geurtsen, J. Kelley, <emphasis effect="italics">Anal. Chem.</emphasis>, 2017, <emphasis effect="bold">89</emphasis>, 6482.</item>
+        <item>A. Berliner, M. Lee, Y. Zhang, S. Park, R. Martino, P. A. Rhodes, G.-R. Yi, and S. H. Lim<emphasis effect="italics"> RCS Adv.</emphasis>, 2014, <emphasis effect="bold">4</emphasis>, 10672.</item>
+        <item>J. S. Caygill, F. David, and S. P. Higson, <emphasis effect="italics">Talanta</emphasis>, 2012, <emphasis effect="bold">88</emphasis>, 14.</item>
+        <item>S. Singh, <emphasis effect="italics">J. Hazard. Mater.</emphasis>, 2007, <emphasis effect="bold">144</emphasis>, 15.</item>
+        <item>L. Turker, <emphasis effect="italics">Defense Technology</emphasis>, 2017, <emphasis effect="bold">13</emphasis>, 385. </item>
+<item>NIJ Guide for the Selection of Commercial Explosives Detection Systems for Law Enforcement Applications, <link url="https://www.hsdl.org/?abstract&amp;did=1647" window="new">https://www.hsdl.org/?abstract&amp;did=1647</link>  (accessed December 2018). 
+  
+      </item></list></section>
+  </content>
+</document>

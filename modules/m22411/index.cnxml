@@ -1,0 +1,222 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rutherford Backscattering of Thin Films</title>
+  <metadata>
+  <md:content-id>m22411</md:content-id><md:title>Rutherford Backscattering of Thin Films</md:title>
+  <md:abstract/>
+  <md:uuid>da32efcf-e20e-4f3f-aa34-07c49209a8d6</md:uuid>
+</metadata>
+
+<content>
+    <section id="eip-388"><title>Introduction</title><para id="eip-393">One of the main research interests of the semiconductor industry is to improve the performance of semiconducting devices and to construct new materials with reduced size or thickness that have potential application in transistors and microelectronic devices. However, the most significant challenge regarding thin film semiconductor materials is measurement. Properties such as the thickness, composition at the surface, and contamination, all are critical parameters of the thin films. To address these issues, we need an analytical technique which can measure accurately through the depth of the of the semiconductor surface without destruction of the material. Rutherford backscattering spectroscopy is a unique analysis method for this purpose. It can give us information regarding in-depth profiling in a non-destructive manner. However X-ray photo electron spectroscopy (XPS), energy dispersive X-ray analysis (EDX) and Auger electron spectroscopy are also able to study the depth-profile of semiconductor films. <link target-id="id3818859"/> demonstrates the comparison between those techniques with RBS.
+
+</para>
+    
+    <table id="id3818859" summary="Comparison between different thin film analysis techniques.">
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry><emphasis effect="bold">Method</emphasis> </entry>
+            <entry><emphasis effect="bold">Destructive</emphasis> </entry>
+            <entry><emphasis effect="bold">Incident particle</emphasis>  </entry>
+            <entry><emphasis effect="bold">Outgoing Particle</emphasis> </entry>
+            <entry><emphasis effect="bold">Detection limit</emphasis> </entry>
+            <entry><emphasis effect="bold">Depth resolution</emphasis></entry>
+          </row>
+          <row>
+            <entry>RBS</entry>
+            <entry>No</entry>
+            <entry>Ion</entry>
+            <entry>Ion</entry>
+            <entry>~1</entry>
+            <entry>10 nm</entry>
+          </row>
+          <row>
+            <entry>XPS</entry>
+            <entry>Yes</entry>
+            <entry>X-ray photon</entry>
+            <entry>Electron</entry>
+            <entry>~0.1-1</entry>
+            <entry>~1 µm</entry>
+          </row>
+          <row>
+            <entry>EDX</entry>
+            <entry>Yes</entry>
+            <entry>Electron</entry>
+            <entry>X-ray photon</entry>
+            <entry>~0.1</entry>
+            <entry>1.5 nm</entry>
+          </row>
+          <row>
+            <entry>Auger</entry>
+            <entry>Yes</entry>
+            <entry>Electron</entry>
+            <entry>Electron</entry>
+            <entry>~0.1-1</entry>
+            <entry>1.5 nm</entry>
+          </row>
+        </tbody>
+      
+
+
+
+</tgroup><caption>Comparison between different thin film analysis techniques. </caption>
+</table></section>
+
+    <section id="eip-897"><title>Basic concept of Rutherford backscattering spectroscopy</title><para id="eip-795">At a basic level, RBS demonstrates the electrostatic repulsion between high energy incident ions and target nuclei. The specimen under study is bombarded with monoenergetic beam of <sup>4</sup>He<sup>+ </sup>particles and the backscattered particles are detected by the detector-analysis system which measures the energies of the particles. During the collision, energy is transferred from the incident particle to the target specimen atoms; the change in energy of the scattered particle depends on the masses of incoming and target atoms. For an incident particle of mass M<sub>1</sub>, the energy is E<sub>0</sub> while the mass of the target atom is M<sub>2</sub>. After the collision, the residual energy E of the particle scattered at angle Ø can be expressed as: </para>
+
+    <para id="eip-93"><media id="id3623498_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 1-e879.jpg" id="id3623498__onlineimage" width="250" print-width="2.5in"/>
+        </media>
+      </para>
+     
+    <para id="id3623244">where <emphasis effect="italics">k</emphasis> is the kinematic scattering factor, which is actually the energy ratio of the particle before and after the collision. Since <emphasis effect="italics">k</emphasis> depends on the masses of the incident particle and target atom and the scattering angle, the energy of the scattered particle is also determined by these three parameters. A simplified layout of backscattering experiment is shown in <link target-id="figure-id">Figure 1</link>.</para>
+    
+<figure id="figure-id"><media id="media-id" alt="alternate text">
+     <image mime-type="image/jpeg" src="../../media/set up1.JPG" width="500" print-width="4.5in"/>
+  </media>
+  
+<caption>Schematic representation of the experimental setup for Rutherford backscattering analysis. </caption></figure>
+ 
+
+    
+    <para id="id3621153">The probability of a scattering event can be described by the differential scattering cross section of a target atom for scattering an incoming particle through the angle Ø into differential solid angle <emphasis effect="bold"/>as follows,</para>
+
+  
+  
+
+    <para id="eip-909"><media id="id3628630_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 10-a835.jpg" id="id3628630__onlineimage" width="300" print-width="3in"/>
+        </media>
+</para><para id="id3633529">where <emphasis effect="italics">d</emphasis>σ<sub>R </sub>is the effective differential cross section for the scattering of a particle. The above equation may looks complicated but it conveys the message that the probability of scattering event can be expressed as a function of scattering cross section which is proportional to the zZ when a particle with charge ze approaches the target atom with charge Ze.</para>
+    <para id="id3633702">Helium ions not scattered at the surface lose energy as they traverse the solid. They lose energy due to interaction with electrons in the target. After collision the He particles lose further energy on their way out to the detector. We need to know two quantities to measure the energy loss, the distance Δt that the particles penetrate into the target and the energy loss ΔE in this distance <link target-id="id3630028"/>. The rate of energy loss or stopping power is a critical component in backscattering experiments as it determines the depth profile in a given experiment.
+
+</para>
+
+
+    
+
+
+      <figure id="id3630028"><media id="id3630028_media" alt="alternate text">
+     <image mime-type="image/jpeg" src="../../media/12.JPG" width="450" print-width="4in"/>
+  </media>
+  
+<caption>Components of energy loss for a ion beam that scatters from depth t. First, incident beam loses energy through interaction with electrons ΔE<sub>in</sub>. Then energy lost occurs due to scattering E<sub>c</sub>. Finally outgoing beam loses energy for interaction with electrons ΔE<sub>out</sub>. Adapted from L. C. Feldman and J. W. Mayer, <emphasis effect="italics">Fundamentals of Surface and Thin Film Analysis</emphasis> ,  North Holland-Elsevier, New York (1986). </caption></figure>
+   
+    <para id="id3634002">In thin film analysis, it is convenient to assume that total energy loss ΔE into depth t is only proportional to t for a given target. This assumption allows a simple derivation of energy loss in backscattering as more complete analysis requires many numerical techniques. In constant <emphasis effect="italics">dE</emphasis>/<emphasis effect="italics">dx</emphasis> approximation, total energy loss becomes linearly related to depth t, <link target-id="id3633856"/>.</para>
+    
+
+
+    
+
+<figure id="id3633856"><media id="id3633856_media" alt="alternate text">
+     <image mime-type="image/jpeg" src="../../media/14.JPG" width="500" print-width="4in"/>
+  </media>
+  
+<caption>Variation of energy loss with the depth of the target in constant dE/dx approximation. </caption></figure>
+
+
+</section>
+
+
+<section id="eip-151"><title>Experimental set-up</title><para id="eip-600">The apparatus for Rutherford backscattering analysis of thin solid surface typically consist of three components: </para><list id="eip-840" list-type="enumerated" number-style="arabic"><item>A source of helium ions.</item>
+<item>An accelerator to energize the helium ions.</item>
+<item>A detector to measure the energy of scattered ions.</item>
+
+</list><para id="eip-778">There are two types of accelerator/ion source available. In single stage accelerator, the He<sup>+ </sup>source is placed within an insulating gas-filled tank (<link target-id="id3628805"/>). It is difficult to install new ion source when it is exhausted in this type of accelerator. Moreover, it is also difficult to achieve particles with energy much more than 1 MeV since it is difficult to apply high voltages in this type of system. </para>
+ 
+
+   
+
+
+      <figure id="id3628805"><media id="id3628805_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 13-8bdf.jpg" id="id3628805__onlineimage" width="500" print-width="4in"/>
+        </media>
+      <caption>Schematic representation of a single stage accelerator. </caption></figure>
+
+    <para id="id3630051">Another variation is “tandem accelerator.” Here the ion source is at ground and produces negative ion. The positive terminal is located is at the center of the acceleration tube (<link target-id="id3630082"/>). Initially the negative ion is accelerated from ground to terminal. At terminal two-electron stripping process converts the He<sup>- </sup>to He<sup>++</sup>. The positive ions are further accelerated toward ground due to columbic repulsion from positive terminal. This arrangement can achieve highly accelerated He<sup>++</sup> ions (~ 2.25 MeV) with moderate voltage of 750 kV.</para>
+   
+ 
+
+      <figure id="id3630082"><media id="id3630082_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 14-7dc6.jpg" id="id3630082__onlineimage" height="122" width="650"/>
+        </media>
+      <caption>Schematic representation of a tandem accelerator.</caption></figure>
+  
+    <para id="id3633750">Particles that are backscattered by surface atoms of the bombarded specimen are detected by a surface barrier detector. The surface barrier detector is a thin layer of p-type silicon on the n-type substrate resulting p-n junction. When the scattered ions exchange energy with the electrons on the surface of the detector upon reaching the detector, electrons get promoted from the valence band to the conduction band. Thus, each exchange of energy creates electron-hole pairs. The energy of scattered ions is detected by simply counting the number of electron-hole pairs. The energy resolution of the surface barrier detector in a standard RBS experiment is 12 - 20 keV. The surface barrier detector is generally set between 90° and 170° to the incident beam. Films are usually set normal to the incident beam. A simple layout is shown in <link target-id="id3637216"/>. 
+
+</para>
+
+    
+
+      <figure id="id3637216"><media id="id3637216_media" alt="">
+          <image mime-type="image/jpg" src="../../media/Picture 15-47d1.jpg" id="id3637216__onlineimage" width="350" print-width="3in"/>
+        </media>
+      <caption>Schematic representation general setup where the surface barrier detector is placed at angle of 165° to the extrapolated incident beam. </caption></figure>
+ 
+
+    
+
+</section>
+
+
+
+<section id="eip-462"><title>Depth profile analysis</title><para id="eip-127">As stated earlier, it is a good approximation in thin film analysis that the total energy loss ΔE is proportional to depth t. With this approximation, we can derive the relation between energy width ΔE of the signal from a film of thickness Δt as follows,</para>
+
+
+
+
+    <para id="id3626896">ΔE = Δt(<emphasis effect="italics">k</emphasis> dE/dx <sub>in</sub> ­+ 1/cosØ dE/dx <sub>out</sub> ) </para>
+    <para id="eip-258">where Ø = lab scattering angle.</para><para id="id3626814">It is worth noting that <emphasis effect="italics">k</emphasis> is the kinematic factor defined in equation above and the subscripts “in” and “out” indicate the energies at which the rate of loss of energy or dE/dx is evaluated. As an example, we consider the backscattering spectrum, at scattering angle 170°, for 2 MeV He<sup>++</sup> incidents on silicon layer deposited onto 2 mm thick niobium substrate <link target-id="id3626751"/>.
+
+</para>
+   
+ 
+
+
+     
+
+   <figure id="id3626751"><media id="id362751_media" alt="alternate text">
+     <image mime-type="image/jpeg" src="../../media/16.jpg"/>
+  </media>
+  
+<caption>The backscattering spectrum for 2.0 MeV He ions incident on a silicon thin film deposited onto a niobium substrate. Adapted from P. D. Stupik, M. M. Donovan, A. R. Barron, T. R. Jervis and M. Nastasi, <emphasis effect="italics">Thin Solid Films</emphasis>, 1992, <emphasis effect="bold"> 207</emphasis>, 138.</caption></figure>
+
+
+<para id="id3626690">The energy loss rate of incoming He<sup>++</sup> or dE/dx along inward path in elemental Si is ≈24.6 eV/Å at 2 MeV and is ≈26 eV/Å for the outgoing particle at 1.12 MeV (Since K of Si is 0.56 when the scattering angle is 170°, energy of the outgoing particle would be equal to 2 x 0.56 or 1.12 MeV) . Again the value of ΔE<sub>Si</sub> is ≈133.3 keV. Putting the values into above equation we get</para>
+    <para id="id3626616">Δt ≈ 133.3 keV/(0.56 * 24.6 eV/Å + 1/cos 170° * 26 eV/Å)</para>
+    <para id="id3626460">= 133.3 keV/(13.77 eV/Å + 29/.985 eV/Å)</para>
+    <para id="id3626432">= 133.3 keV/ 40.17 eV/Å</para>
+    <para id="id3626440">= 3318 Å.</para>
+    <para id="id3626409">Hence a Si layer of ca. 3300 Å thickness has been deposited on the niobium substrate. However we need to remember that the value of dE/dx is approximated in this calculation. </para>
+    
+
+</section>
+
+<section id="eip-267"><title>Quantitative Analysis</title><para id="eip-744">In addition to depth profile analysis, we can study the composition of an element quantitatively by backscattering spectroscopy. The basic equation for quantitative analysis is 
+                                                     
+</para><para id="eip-169">Y = σ. Ω. Q. NΔt
+</para><para id="eip-360">Where Y is the yield of scattered ions from a thin layer of thickness Δt, Q is the number of incident ions and Ω is the detector solid angle, and NΔt is the number of specimen atoms (atom/cm<sup>2</sup>). <link target-id="id3726749"/> shows the RBS spectrum for a sample of silicon deposited on a niobium substrate and subjected to laser mixing. The Nb has reacted with the silicon to form a NbSi<sub>2</sub> interphase layer. The Nb signal has broadened after the reaction as show in <link target-id="id3726749"/>. </para>
+
+<figure id="id3726746"><media id="id3726746_media" alt="alternate text">
+     <image mime-type="image/jpeg" src="../../media/17.jpg"/>
+  </media>
+  
+<caption>Backscattering spectra of Si diffused into Nb and Si as deposited on Nb substrate. Adapted from P. D. Stupik, M. M. Donovan, A. R. Barron, T. R. Jervis and M. Nastasi, <emphasis effect="italics">Thin Solid Films</emphasis>, 1992, <emphasis effect="bold"> 207</emphasis>, 138.</caption></figure>
+
+<para id="eip-964">We can use ratio of the heights H<sub>Si</sub>/H<sub>Nb</sub> of the backscattering spectrum after formation of NbSi<sub>2</sub> to determine the composition of the silicide layer. The stoichiometric ratio of Nb and Si can be approximated as,</para><para id="eip-469">N<sub>Si</sub>/N<sub>Nb</sub> ≈ [H<sub>Si</sub> * σ<sub>Si</sub>]/[H<sub>Nb</sub> * σ<sub>Nb</sub>]</para><para id="eip-678">Hence the concentration of Si and Nb can be determined if we can know the appropriate cross sections σ<sub>Si</sub> and σ<sub>Nb</sub>. However the yield in the backscattering spectra is better represented as the product of signal height and the energy width ΔE. Thus stoichiometric ratio can be better approximated as</para><para id="eip-363">N<sub>Si</sub>/N<sub>Nb</sub> ≈ [H<sub>Si</sub> * ΔE<sub>Si</sub> * σ<sub>Si</sub>]/[H<sub>Nb</sub> * ΔE<sub>Nb</sub> * σ<sub>Nb</sub>]</para></section><section id="eip-608"><title>Limitations</title><para id="eip-995">It is of interest to understand the limitations of the backscattering technique in terms of the comparison with other thin film analysis technique such as AES, XPS and SIMS (<link target-id="id3818859"/>). AES has better mass resolution, lateral resolution and depth resolution than RBS. But AES suffers from sputtering artifacts. Compared to RBS, SIMS has better sensitivity. RBS does not provide any chemical bonding information which we can get from XPS. Again, sputtering artifact problems are also associated in XPS. The strength of RBS lies in quantitative analysis. However, conventional RBS systems cannot analyze ultrathin films since the depth resolution is only about 10 nm using surface barrier detector.
+
+</para></section>
+    <section id="eip-520"><title>Summary</title><para id="eip-991">Rutherford Backscattering analysis is a straightforward technique to determine the thickness and composition of thin films (&lt; 4000 Å). Areas that have been lately explored are the use of backscattering technique in composition determination of new superconductor oxides; analysis of lattice mismatched epitaxial layers, and as a probe of thin film morphology and surface clustering. </para></section>
+    <section id="eip-225"><title>Bibliography</title><list id="eip-728"><item> L. C. Feldman and J. W. Mayer, <emphasis effect="italics">Fundamentals of Surface and Thin Film Analysis</emphasis>, North Holland-Elsevier, New York (1986). </item>
+<item> <emphasis effect="italics">Ion Spectroscopies for Surface Analysis</emphasis>, Ed.  A. W. Czanderna and D. M. Hercules, Plenum Press (New York), 1991. </item>
+<item> P. D. Stupik, M. M. Donovan, A. R Barron, T. R. Jervis, and M. Nastasi, <emphasis effect="italics">Thin Solid Films</emphasis>, 1992, <emphasis effect="bold"> 207</emphasis>, 138 </item>
+
+
+</list></section>
+  </content>
+</document>

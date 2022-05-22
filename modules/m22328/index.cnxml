@@ -1,0 +1,81 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction to Mossbauer Spectroscopy</title>
+  <metadata>
+  <md:content-id>m22328</md:content-id><md:title>Introduction to Mossbauer Spectroscopy</md:title>
+  <md:abstract/>
+  <md:uuid>0fe211ee-e70e-4db9-bee7-4a99b6d88f68</md:uuid>
+</metadata>
+
+<content>
+    <section id="id8786004">
+      <title/>
+
+      
+      <para id="id8229503">In 1957 Rudolf Mossbauer achieved the first experimental observation of the resonant absorption and recoil-free emission of nuclear γ-rays in solids during his graduate work at the Institute for Physics of the Max Planck Institute for Medical Research in Heidelberg Germany. Mossbauer received the 1961 Nobel Prize in Physics for his research in resonant absorption of γ-radiation and the discovery of recoil-free emission a phenomenon that is named after him (<link url="http://nobelprize.org/nobel_prizes/physics/laureates/1961">http://nobelprize.org/nobel_prizes/physics/laureates/1961</link> for more information about Rudolf Mossbauer and his nobel prize). The Mossbauer effect is the basis of Mossbauer spectroscopy.</para>
+    
+
+        
+   
+
+    <para id="id9569030">The Mossbauer effect can be described very simply by looking at the energy involved in the absorption or emission of a γ-ray from a nucleus. When a free nucleus absorbs or emits a γ-ray to conserve momentum the nucleus must recoil, so in terms of energy:</para>
+      <para id="id8692147">E<sub>γ-ray</sub> = E<sub>nuclear transition</sub> - E<sub>recoil</sub></para>
+      <para id="id9084164">When in a solid matrix the recoil energy goes to zero because the effective mass of the nucleus is very large and momentum can be conserved with negligible movement of the nucleus. So, for nuclei in a solid matrix:</para>
+      <para id="id8652091">E<sub>γ-ray</sub> = E<sub>nuclear transition</sub></para>
+      <para id="id8976293">This is the Mossbauer effect which results in the resonant absorption/emission of γ-rays and gives us a means to probe the hyperfine interactions of an atoms nucleus and its surroundings.</para>
+      <para id="id9066101"> A Mossbauer spectrometer system consists of a γ-ray source that is oscillated toward and away from the sample by a “Mossbauer drive”, a collimator to filter the γ-rays, the sample, and a detector.  </para>
+
+      <figure id="id9021186"><media id="id9021186_media" alt="">
+          <image mime-type="image/jpeg" src="../../media/zeb1.jpg" id="id9021186__onlineimage" width="500" print-width="3in"/>
+        </media>
+      
+
+<caption>Schematic of Mossbauer Spectrometers. A = transmission; B = backscatter set up. Adapted from M. D. Dyar, D. G. Agresti, M. W. Schaefer, C. A. Grant, and E. C. Sklute, <emphasis effect="italics"> Annu. Rev. Earth. Planet. Sci.</emphasis>, 2006, <emphasis effect="bold"> 34</emphasis> , 83. Copyright Annual Reviews (2006). </caption></figure>
+      
+      <para id="id8653699"><link target-id="id9021186"/> shows the two basic set ups for a Mossbauer spectrometer. The Mossbauer drive oscillates the source so that the incident γ-rays hitting the absorber have a range of energies due to the doppler effect. The energy scale for Mossbauer spectra (x-axis) is generally in terms of the velocity of the source in mm/s. The source shown (<sup>57</sup>Co) is used to probe <sup>57</sup>Fe in iron containing samples because <sup>57</sup>Co decays to <sup>57</sup>Fe emitting a γ-ray of the right energy to be absorbed by <sup>57</sup>Fe. To analyze other Mossbauer isotopes other suitable sources are used. Fe is the most common element examined with Mossbauer spectroscopy because its <sup>57</sup>Fe isotope is abundant enough (2.2), has a low energy γ-ray, and a long lived excited nuclear state which are the requirements for observable Mossbauer spectrum. Other elements that have isotopes with the required parameters for Mossbauer probing are seen in <link target-id="id8644708"/>.</para>
+      <table id="id8644708" summary="Elements with known Mossbauer isotopes and most commonly examined with Mossbauer spectroscopy.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Most commonly examined elements</entry>
+              <entry>Fe, Ru, W, Ir, Au, Sn, Sb, Te, I, W, Ir, Au, Eu, Gd, Dy, Er, Yb, Np</entry>
+            </row>
+            <row>
+              <entry>Elements that exhibit Mossbauer effect</entry>
+              <entry>K, Ni, Zn, Ge, Kr, Tc, Ag, Xe, Cs, Ba, La, Hf, Ta, Re, Os, Pt, Hg, Ce, Pr, Nd, Sm, Tb, Ho, Tm, Lu, Th, Pa, U, Pu, Am</entry>
+            </row>
+          </tbody>
+        
+
+</tgroup><caption>Elements with known Mossbauer isotopes and most commonly examined with Mossbauer spectroscopy.</caption>
+</table>
+      
+      
+      <section id="id9013654">
+        <title>Mossbauer spectra</title>
+        <para id="id9398983"> The primary characteristics looked at in Mossbauer spectra are isomer shift (IS), quadrupole splitting (QS), and magnetic splitting (MS or hyperfine splitting). These characteristics are effects caused by interactions of the absorbing nucleus with its environment. </para>
+        <para id="id9076390">Isomer shift is due to slightly different nuclear energy levels in the source and absorber due to differences in the s-electron environment of the source and absorber. The oxidation state of an absorber nucleus is one characteristic that can be determined by the IS of a spectra. For example due to greater d electron screening Fe<sup>2+</sup> has less s-electron density than Fe<sup>3+</sup> at its nucleus which results in a greater positive IS for Fe<sup>2+</sup>. </para>
+        <para id="id8701176">For absorbers with nuclear angular momentum quantum number I &gt; ½ the non-spherical charge distribution results in quadrupole splitting of the energy states. For example Fe with a transition from I=1/2 to 3/2 will exhibit doublets of individual peaks in the Mossbauer spectra due to quadrupole splitting of the nuclear states as shown in red in <link target-id="id6623897"/>.</para>
+        <para id="id9066972">In the presence of a magnetic field the interaction between the nuclear spin moments with the magnetic field removes all the degeneracy of the energy levels resulting in the splitting of energy levels with nuclear spin I into 2I + 1 sublevels. Using Fe for an example again, magnetic splitting will result in a sextet as shown in green in <link target-id="id6623897"/>. Notice that there are 8 possible transitions shown, but only 6 occur.  Due to the selection rule ІΔm<sub>I</sub>І = 0, 1, the transitions represented as black arrows do not occur.</para>
+       
+
+          <figure id="id6623897"><media id="id6623897_media" alt="">
+              <image mime-type="image/jpg" src="../../media/zeb2.jpg" id="id6623897__onlineimage" width="500" print-width="4in"/>
+            </media>
+          
+<caption>Characteristics of Mossbauer spectra related to nuclear energy levels. Adapted from M. D. Dyar, D. G. Agresti, M. W. Schaefer, C. A. Grant, and E. C. Sklute, <emphasis effect="italics"> Annu. Rev. Earth. Planet. Sci.</emphasis>, 2006, <emphasis effect="bold"> 34</emphasis> , 83. Copyright Annual Reviews (2006). </caption></figure>
+      
+        
+        
+        
+        
+        
+      </section>
+    </section><section id="eip-907"><title>Bibliography</title><list id="eip-602"><item>G. Wertheim. <emphasis effect="italics">Mossbauer Effect: Principles and Applications</emphasis>. New York: Academic Press Inc. (1964).</item>
+<item>D. P. E. Dickson and F. J. Berry. <emphasis effect="italics">Mossbauer Spectroscopy.</emphasis> New York: Cambridge University Press (1986).</item>
+<item>A. G. Maddock. <emphasis effect="italics">Mossbauer Spectroscopy: Principles and Applications of the Techniques.</emphasis> England: Horwood Publishing Limited (1997).</item>
+<item>M. D. Dyar, D. G. Agresti, M. W. Schaefer, C. A. Grant, and E. C. Sklute, <emphasis effect="italics"> Annu. Rev. Earth. Planet. Sci.</emphasis>, 2006, <emphasis effect="bold"> 34</emphasis> , 83.</item>
+
+</list></section>
+  </content>
+</document>

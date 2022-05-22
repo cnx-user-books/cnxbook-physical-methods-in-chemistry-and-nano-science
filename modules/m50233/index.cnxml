@@ -1,0 +1,118 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Fast Atom Bombardment</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m50233</md:content-id>
+  <md:title>Fast Atom Bombardment</md:title>
+  <md:abstract/>
+  <md:uuid>c5935332-5983-4ac9-bf4c-b0a85d8a085c</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1167529328810">
+      <title>Introduction</title>
+      <para id="import-auto-id1167528467279">Fast atom bombardment (FAB) is an ionization technique for mass spectroscopy employing secondary ion mass spectroscopy (SIMS). Before the appearance of this technique, there was only limited way to obtain the mass spectrum of the intact oligopeptide which is not easy to be vaporized. Prior to 1970, electron ionization (EI) or chemical ionization (CI) was widely used but those methods require the destructive vaporization of the sample. Field desorption of ions with nuclear fission overcame this problem though due to the necessity of special technique and nuclear fission of <sup>252</sup>Cf limits the generality of this approach. FAB became prevalent solving those underlying problems by using bombardment of fast atom or ion which has high kinetic energy onto the sample in matrix.</para>
+    </section>
+    <section id="import-auto-id1167534668084">
+      <title>Principle</title>
+      <para id="import-auto-id1167526913489">The FAB utilizes the bombardment of accelerated atom or ion beams and the ionized sample is emitted by the collision of the beams and the sample in matrix. In this section, the detail of each step is discussed.</para>
+      <section id="import-auto-id1167527124930">
+        <title>Atom beam</title>
+        <para id="import-auto-id1167542278175">Although ions can be accelerated by electric field relatively easily, that is not the case for the neutral atom. Therefore, in the FAB conversion of neutral atom into ion is significant to generate the accelerated species. The fast atom such as xenon used for the bombardment is produced through three steps (<link target-id="import-auto-id1167516616014"/>): </para><list id="import-auto-id1167516052530" list-type="enumerated" number-style="arabic">
+          <item>Ionization of the atom by collision with electron.</item>
+          <item>Acceleration of the generated ion through high electric potential. </item>
+          <item>Electron transfer from the accelerated ion to another slow atom, affording the desired accelerated atom.</item>
+        </list>
+        <figure id="import-auto-id1167516616014"><media id="import-auto-id1167531434541" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-d570.jpg" width="300" print-width="3in"/>
+          </media>
+        <caption>Process of generation of fast atom. </caption></figure></section>
+      <section id="import-auto-id1167542698104">
+        <title>Ion beam</title>
+        <para id="import-auto-id1167523090566">In the same way as the atom beam, a fast ion beam also can be used. Although cesium ion (Cs<sup>+</sup>) cheaper and heavier than xenon is often employed, they have drawback that the mass spectroscopy can be contaminated by the ions.</para>
+      </section>
+      <section id="import-auto-id1167528644385">
+        <title>Bombardment</title>
+        <para id="import-auto-id1167540126627">The obtained fast atom or ion is then bombarded to the sample in matrix which is a type of solvent having high boiling point, resulting in momentum transfer and vaporization of the sample (<link target-id="import-auto-id1167533977490"/>). The fast atom used for the bombardment is called primary beam of atoms or ions while secondary beam of atoms or ions corresponds to the sputtered ions and neutrals. The ionized sample is directed by ion optics, leading to the detection of those ion in mass analyzer. </para><figure id="import-auto-id1167533977490"><media id="import-auto-id1167532497495" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-9b67.jpg" height="213" width="421" print-width="3.5in"/>
+          </media>
+        <caption>Bombardment of accelerated atom into sample. Only sputtered species with charge is introduced into ion optics and detected by analyzer.</caption></figure></section>
+      <section id="import-auto-id1167530779033">
+        <title>Matrices</title>
+        <para id="import-auto-id1167537024869">One of the crucial characteristics of FAB is using liquid matrix. For example, long-lived signal in FAB is responsible for using matrix. Due to the high vacuum condition, usual solvent for chemistry laboratory such as water and other common organic solvent is precluded for FAB and, therefore, solvent with high boiling point called matrix is necessary to be employed. Table 1 shows examples of matrix.</para><table id="import-auto-id1167528165784" summary="Typical examples of matrices.">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <thead>
+              <row>
+                <entry>
+                  <emphasis effect="bold">Matrix</emphasis>
+                </entry>
+                <entry>
+                  <emphasis effect="bold">Observed ions (</emphasis><emphasis effect="bold"><emphasis effect="italics">m/z</emphasis></emphasis><emphasis effect="bold">)</emphasis>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Glycerol</entry>
+                <entry>93</entry>
+              </row>
+              <row>
+                <entry>Thioglycerol</entry>
+                <entry>109</entry>
+              </row>
+              <row>
+                <entry>3-Nitrobenzyl alcohol (3-NOBA)</entry>
+                <entry>154</entry>
+              </row>
+              <row>
+                <entry>n-Octyl-3-nitrophenylether (NOP)</entry>
+                <entry>252</entry>
+              </row>
+              <row>
+                <entry>Triethanolamine</entry>
+                <entry>150</entry>
+              </row>
+              <row>
+                <entry>Diethanolamine</entry>
+                <entry>106</entry>
+              </row>
+              <row>
+                <entry>Polyethylene glycol (mixtures)</entry>
+                <entry>Dependent on the glycol used</entry>
+              </row>
+            </tbody>
+          
+
+
+
+</tgroup><caption>Typical examples of matrices. Data from C. G. Herbert and R. A. W. Johnstone, <emphasis effect="italics">Mass Spectrometry Basics</emphasis>, CRC Press, New York (2002)</caption>
+</table></section>
+      <section id="import-auto-id1167529387058"><title>Instrument</title><para id="import-auto-id1167517422504">An image of a typical instrument for fast atom bombardment mass spectrometry  is shown in <link target-id="import-auto-id1167528460033"/>. </para><figure id="import-auto-id1167528460033"><media id="import-auto-id1167535321939" alt=""><image mime-type="image/png" src="../../media/graphics3-7d61.png" height="239" width="427" print-width="3.5in"/></media><caption>Instrumentation of fast atom bombardment mass spectrometry. </caption></figure></section></section>
+    <section id="import-auto-id1167525841978">
+      <title>Spectra</title>
+      <para id="import-auto-id1167548731937">The obtained spectrum by FAB has information of structure or bond nature of the compound in addition to the mass. Here, three spectrum are shown as examples.</para>
+      <section id="import-auto-id1167531433951">
+        <title>Glycerol</title>
+        <para id="import-auto-id1167537450381">Typical FAB mass spectrum of glycerol alone is shown in <link target-id="import-auto-id1167531894840"/>. </para><figure id="import-auto-id1167531894840"><media id="import-auto-id1167532654970" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics4-ddad.jpg" width="400" print-width="4in"/>
+          </media>
+        <caption>A simplified FAB mass spectrum of glycerol.</caption></figure><para id="import-auto-id1167539685127">Glycerol shows signal at <emphasis effect="italics">m/z </emphasis>93 which is corresponding to the protonated glycerol with small satellite derived from isotope of carbon (<sup>13</sup>C). At the same time, signals for cluster of protonated glycerol are also often observed at <emphasis effect="italics">m/z</emphasis> 185, 277, and 369. As is seen in this example, signal from aggregation of the sample also can be detected and this will provide the information of the sample.</para></section>
+      <section id="import-auto-id1167530807070">
+        <title>Sulfonated azo compound </title><para id="import-auto-id1167519556048"><link target-id="import-auto-id1167536832359"/>  shows positive FAB spectrum of sulfonated azo compound X and structure of the plausible fragments in the spectrum. The signal of the target compound X (M<sub>w</sub> = 409) was observed at <emphasis effect="italics">m/z</emphasis> 432 and 410 as an adduct with sodium and proton, respectively. Because of the presence of some type of relatively weak bonds, several fragmentation was observed. For example, signal at m/z 352 and 330 resulted from the cleavage of aryl-sulfonate bond. Also, nitrogen-nitrogen bond cleavage in the azo moiety occurred, producing the fragment signal at <emphasis effect="italics">m/z</emphasis> 267 and 268. Furthermore, taking into account the fact that favorable formation of nitrogen-nitrogen triple bond from azo moiety, aryl-nitrogen bond can be cleaved and in fact those were detected at <emphasis effect="italics">m/z</emphasis> 253 and 252. As is shown in these example, fragmentation can be used for obtaining information regarding structure and bond nature of desired compound.</para><figure id="import-auto-id1167536832359"><media id="import-auto-id1167533158517" alt="">
+            <image mime-type="image/jpg" src="../../media/new.jpg" width="500" print-width="4in"/>
+          </media>
+        <caption>Positive FAB spectrum of sulfonated azo compound X. Adapted from J. J. Monaghan, M. Barber, R. S. Bordoli, R. D. Sedgwick, and A. N. Tyler, <emphasis effect="italics">Int. J. Mass. Spectrom.</emphasis>, 1983, <emphasis effect="bold">46</emphasis>, 447. Copyright: Elsevier (1983). </caption></figure></section>
+      <section id="import-auto-id1167516584232"><title>Bradykinin potentiator C</title><para id="import-auto-id1167531318084">The mass spectrum of protonated molecule (MH<sup>+</sup> = <emphasis effect="italics">m/z</emphasis> 1052) of bradykinin potentiator C is shown in <link target-id="import-auto-id1167531507995"/>. In this case fragmentation occurs between certain amino acids, affording the information of peptide sequence. For example, signal at <emphasis effect="italics">m/z</emphasis> 884 is corresponding to the fragment as a result of scission of Gly-Leu bond. It should be noted that the pattern of fragmentation is not only done by one type of bond cleavage. Fragmentation at the bond between Gly-Pro is a good example; two type of fragment (<emphasis effect="italics">m/z</emphasis> 533 and 520) are observed. Thus, pattern of fragmentation can afford the information of sequence of peptide. </para><figure id="import-auto-id1167531507995"><media id="import-auto-id1167516474034" alt=""><image mime-type="image/jpg" src="../../media/graphics6-409b.jpg" width="500" print-width="5in"/></media><caption>FAB spectrum of Bradykinin Potentiator C (above) and pattern of fragmentation (below). Adapted from J. T. Watson, D. S. Wagner, Y.-S. Chang, J. R. Strahler, S. M. Hanash, and D. A. Gage, <emphasis effect="italics">Int. J. Mass. Spectrom.</emphasis>, 1991, <emphasis effect="bold">111</emphasis>, 191. Copyright: Elsevier (1991). </caption></figure></section></section>
+    <section id="import-auto-id1167529459219">
+      <title>Bibliography</title>
+      <list id="import-auto-id1167528167310" list-type="bulleted"><item>C. G. Herbert and R. A. W. Johnstone, <emphasis effect="italics">Mass Spectrometry Basics</emphasis>, CRC Press, New York (2002)</item>
+        <item>H. R. Morris and M. Panico, <emphasis effect="italics">Biochem. Bioph. Res. Co.</emphasis>, 1981, <emphasis effect="bold">101</emphasis>, 623.</item>
+        <item>M. Barber, R. S. Bordoli, R. D. Sedgwick, and A. N. Tyler, <emphasis effect="italics">J. Chem. Soc., Chem. Comm.,</emphasis> 1981, <emphasis effect="bold">7</emphasis>, 235.</item>
+        <item>M. Barber, R. S. Bordoli, R. D. Sedgwick, and A. N. Tyler, <emphasis effect="italics">Nature,</emphasis> 1981, <emphasis effect="bold">293</emphasis>, 270.</item>
+        <item>C. Barner-Kowollik, T. Gründling,  J. Falkenhagen, and S. Weidner, <emphasis effect="italics">Mass Spectrometry in Polymer Chemistry</emphasis>, Wiley-VCH Press, Singapore (2011).</item>
+        <item>J. T. Watson, <emphasis effect="italics">Introduction to Mass Spectroscopy</emphasis>, 3rd Ed., Lippincot-Raven Press, New York (1997).</item>
+        <item>J. J. Monaghan, M. Barber, R. S. Bordoli, R. D. Sedgwick, and A. N. Tyler, <emphasis effect="italics">Int. J. Mass. Spectrom.</emphasis>, 1983, <emphasis effect="bold">46</emphasis>, 447.</item>
+        <item>J. T. Watson, D. S. Wagner, Y.-S. Chang, J. R. Strahler, S. M. Hanash, and D. A. Gage, <emphasis effect="italics">Int. J. Mass. Spectrom.</emphasis> 1991, <emphasis effect="bold">111</emphasis>, 191.</item>
+      </list></section>
+  </content>
+</document>

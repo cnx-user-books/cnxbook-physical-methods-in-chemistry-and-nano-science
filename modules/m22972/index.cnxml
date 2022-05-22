@@ -1,0 +1,142 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Thermogravimetric Analysis of Single Walled Carbon Nanotubes</title>
+  <metadata>
+  <md:content-id>m22972</md:content-id><md:title>Thermogravimetric Analysis of Single Walled Carbon Nanotubes</md:title>
+  <md:abstract>This module explains how to use Thermal Gravimetric Analysis to obtain information on the properties of SWNTs. It also includes examples on how to interpret the results given by TGA.</md:abstract>
+  <md:uuid>4222ea1e-47fb-4878-8428-731be8aa523f</md:uuid>
+</metadata>
+
+<content>
+    
+    <para id="id1169193203525">Thermogravimetric analysis (TGA) and the associated differential thermal analysis (DTA) are widely used for the characterization of both as-synthesized and side-wall functionalized single walled carbon nanotubes (SWNTs). Under oxygen, SWNTs will pyrolyze leaving any inorganic residue behind. In contrast in an inert atmosphere since most functional groups are labile or decompose upon heating and as SWNTs are stable up to 1200 °C, any weight loss before 800 °C is used to determine the functionalization ratio of side-wall functionalized SWNTs. The following properties of SWNTs can be determined using this TGA;
+
+</para>
+    <list id="id1169200847061" list-type="enumerated" number-style="arabic"><item>
+       The mass of metal catalyst impurity in as synthesized SWNTs. 
+      </item>
+      <item>
+        The number of functional groups per SWNT carbon (C<sub>SWNT</sub>).
+      </item>
+      <item>
+        The mass of a reactive species absorbed by a functional group on a SWNT.
+      </item>
+    </list>
+    
+    <para id="id1169183407079">Quantitative determination of these properties are used to define the purity of SWNTs, and the extent of their functionalization. </para>
+    <section id="eip-486"><title>An overview of thermogravimetric analysis</title><para id="eip-371">The main function of TGA is the monitoring of the thermal stability of a material by recording the change in mass of the sample with respect to temperature. <link target-id="id1169208085640"/> shows a simple diagram of the inside of a typical TGA. </para>
+
+
+  <figure id="id1169208085640"><media id="id1169208085640_media" alt="">
+        <image mime-type="image/jpg" src="../../media/TGA.jpg" id="id1169208085640__onlineimage" width="400" print-width="3.5in"/>
+      </media>
+    <caption>Schematic representation of a TGA apparatus. </caption></figure>
+
+
+<para id="eip-315">Inside the TGA, there are two pans, a reference pan and a sample pan. The pan material can be either aluminium or platinum. The type of pan used depends on the maximum temperature of a given run. As platinum melts at 1760 °C and alumium melts at 660 °C, platinum pans are chosen when the maximum temperature exceeds 660 °C. Under each pan there is a thermocouple which reads the temperature of the pan. Before the start of each run, each pan is balanced on a balance arm. The balance arms should be calibrated to compensate for the differential thermal expansion between the arms. If the arms are not calibrated, the instrument will only record the temperature at which an event occurred and not the change in mass at a certain time. To calibrate the system, the empty pans are placed on the balance arms and the pans are weighed and zeroed.</para><para id="eip-808">As well as recording the change in mass, the heat flow into the sample pan (differential scanning calorimetry, DSC) can also be measured and the difference in temperature between the sample and reference pan (differential thermal analysis, DTA). DSC is quantitative and is a measure of the total energy of the system. This is used to monitor the energy released and absorbed during a chemical reaction for a changing temperature. The DTA shows if and how the sample phase changed. If the DTA is constant, this means that there was no phase change. <link target-id="id1169185564086"/> shows a DTA with typical examples of an exotherm and an endotherm. </para>
+
+      <figure id="id1169185564086"><media id="id1169185564086_media" alt="">
+		<image mime-type="image/jpg" src="../../media/therms.jpg" id="id1169185564086__onlineimage" width="300" print-width="2.5in"/>
+	</media>
+<caption>Simplified representation of the DTA for an exotherm and an endotherm. </caption></figure>
+
+<para id="eip-488">When the sample melts, the DTA dips which signifies an endotherm. When the sample is melting it requires energy from the system. Therefore the temperature of the sample pan decreases compared with the temperature of the reference pan. When the sample has melted, the temperature of the sample pan increases as the sample is releasing energy. Finally the temperatures of the reference and sample pans equilibrate resulting in a constant DTA. When the sample evaporates, there is a peak in the DTA. This exotherm can be explained in the same way as the endotherm. </para><para id="eip-671">Typically the sample mass range should be between 0.1 to 10 mg and the heating rate should be 3 to 5 °C/min. </para></section>
+  
+    
+  
+    
+    
+    <section id="eip-978"><title>Determination of the mass of iron catalyst impurity in HiPCO SWNTs. </title><para id="eip-733">SWNTs are typically synthesized using metal catalysts. Those prepared using the HiPco method, contain residual Fe catalyst. The metal (i.e., Fe) is usually oxidized upon exposure to air to the appropriate oxide (i.e., Fe<sub>2</sub>O<sub>3</sub>). While it is sometimes unimportant that traces of metal oxide are present during subsequent applications it is often necessary to quantify their presence. This is particularly true if the SWNTs are to be used for cell studies since it has been shown that the catalyst residue is often responsible for observed cellular toxicity.  
+
+</para><para id="eip-220">In order to calculate the mass of catalyst residue the SWNTs are pyrolyzed under air or O<sub>2</sub>, and the residue is assumed to be the oxide of the metal catalyst. Water can be added to the raw SWNTs, which enhances the low-temperature catalytic oxidation of carbon. A typical TGA plot of a sample of raw HiPco SWNTs is shown in <link target-id="id1169193539548"/>. 
+</para>
+
+<figure id="id1169193539548"><media id="id1169193539548_media" alt="">
+		<image mime-type="image/png" src="../../media/graphics3-3479.png" id="id1169193539548__onlineimage" width="535" print-width="4in"/>
+	</media>
+	<caption>The TGA of unpurified HiPco SWNTs under air showing the residual mass associated with the iron catalyst. Adapted from I. W. Chiang, B. E. Brinson, A. Y. Huang, P. A. Willis, M. J. Bronikowski, J. L. Margrave, R. E. Smalley, and R. H. Hauge, <emphasis effect="italics">J. Phys. Chem. B</emphasis>, 2001, <emphasis effect="bold"> 105</emphasis>, 8297. 
+Adapted from Chiang et al, 2001</caption></figure>
+
+
+<para id="eip-607">The weight gain (of ca. 5%) at 300 °C is due to the formation of metal oxide from the incompletely oxidized catalyst. To determine the mass of iron catalyst impurity in the SWNT, the residual mass must be calculated. The residual mass is the mass that is left in the sample pan at the end of the experiment. From this TGA diagram, it is seen that 70% of the total mass is lost at 400 °C. This mass loss is attributed to the removal of carbon. The residual mass is 30%. Given that this is due to both oxide and oxidized metal, the original total mass of residual catalyst in raw HiPCO SWNTs is ca. 25%. </para></section>
+    
+    
+    
+    <section id="eip-77"><title>Determining the number of functional groups on SWNTs</title><para id="eip-571">The limitation of using SWNTs in any practical applications is their solubility; for example SWNTs have little to no solubility in most solvents due to aggregation of the tubes. Aggregation/roping of nanotubes occurs as a result of the high van der Waals binding energy of ca. 500 eV per μm of tube contact. The van der Waals force between the tubes is so great, that it take tremendous energy to pry them apart, making it very difficult to make combination of nanotubes with other materials such as in composite applications. The functionalization of nanotubes, i.e., the attachment of “chemical functional groups”, provides the path to overcome these barriers. Functionalization can improve solubility as well as processability, and has been used to align the properties of nanotubes to those of other materials. In this regard, covalent functionalization provides a higher degree of fine-tuning for the chemical and physical properties of SWNTs than non-covalent functionalization. </para><para id="eip-414">Functionalized nanotubes can be characterized by a variety of techniques, such as atomic force microscopy (AFM), transmission electron microscopy (TEM), UV-vis spectroscopy, and Raman spectroscopy, however, the quantification of the extent of functionalization is important and can be determined using TGA. Because any sample of functionalized-SWNTs will have individual tubes of different lengths (and diameters) it is impossible to determine the number of substituents per SWNT. Instead the extent of functionalization is expressed as number of substituents per SWNT carbon atom (C<sub>SWNT</sub>), or more often as C<sub>SWNT</sub>/substituent, since this is then represented as a number greater than 1. </para><para id="eip-174"><link target-id="peiswnt"/> shows a typical TGA for a functionalized SWNT. In this case it is polyethyleneimine (PEI) functionalized SWNTs prepared by the reaction of fluorinated SWNTs (F-SWNTs) with PEI in the presence of a base catalyst. </para>
+
+
+
+  
+
+
+<figure id="peiswnt"><media id="pei-burn" alt="">
+		<image mime-type="image/jpg" src="../../media/peiburn.jpg" id="pei-burn__onlineimage" width="535" print-width="4in"/>
+	</media>
+	<caption>The TGA of SWNTs functionalized with polyethyleimine (PEI) under air showing the sequential loss of complexed CO<sub>2</sub> and decomposition of PEI.
+  </caption></figure>
+<para id="eip-967">In the present case the molecular weight of the PEI is 600 g/mol. When the sample is heated, the PEI thermally decomposes leaving behind the unfunctionalized SWNTs. The initial mass loss below 100 °C is due to residual water and ethanol used to wash the sample. </para><para id="eip-216">In the following example the total mass of the sample is 25 mg. </para><list id="eip-540" list-type="enumerated" number-style="arabic" class="stepwise"><item>
+       The initial mass, M<sub>i</sub> = 25 mg = mass of the SWNTs, residues and the PEI.
+      </item>
+	<item>
+        After the initial moisture has evaporated there is 68% of the sample left. 68% of 25 mg is 17 mg. This is the mass of the PEI and the SWNTs. 
+      </item>
+	<item>At 300 °C the PEI starts to decompose and all of the PEI has been removed from the SWNTs at 370 °C. The mass loss during this time is 53% of the total mass of the sample. 53% of 25 mg is 13.25 mg. </item>
+	<item>
+        The molecular weight of this PEI is 600 g/mol. Therefore there is 0.013 g / 600 g/mol = 0.022 mmole of PEI in the sample.
+      </item>
+	<item>
+       15% of the sample is the residual mass, this is the mass of the decomposed SWNTs. 15% of 25 mg is 3.75 mg. The molecular weight of carbon is 12 g/mol. So there is 0.3125 mmole of carbon in the sample. 
+      </item>
+	<item>
+        There is 93.4 mol% of carbon and 6.5 mol% of PEI in the sample.
+      </item>
+</list></section>
+  
+    
+    
+    
+    
+    <section id="eip-637"><title>Determination of the mass of a chemical absorbed by functionalized SWNTs</title><para id="eip-869">Solid-state <sup>13</sup>C NMR of PEI-SWNTs shows the presence of carboxylate substituents that can be attributed to carbamate formation as a consequence of the reversable CO<sub>2</sub> absorption to the primary amine substituents of the PEI. Desorption of CO<sub>2</sub> is accomplished by heating under argon at 75 °C. </para><para id="eip-81">The quantity of CO<sub>2</sub> absorbed per PEI-SWNT unit may be determined by initially exposing the PEI-SWNT to a CO<sub>2</sub> atmosphere to maximize absorption. The gas flow is switched to either Ar or N<sub>2</sub> and the sample heated to liberate the absorbed CO<sub>2</sub> without decomposing the PEI or the SWNTs. An example of the appropriate TGA plot is shown in <link target-id="cute-dog"/>. </para>
+
+   
+<figure id="cute-dog"><media id="cycle1N" alt="">
+		<image mime-type="image/bmp" src="../../media/cycle1N.bmp" id="cycle1N__onlineimage" print-width="4in"/>
+	</media>
+	<caption>The TGA results of PEI(10000)-SWNT absorbing and desorbing CO<sub>2</sub>. The mass has been normalized to the lowest mass recorded, which is equivalent to PEI(10000)-SWNT.  </caption></figure>
+
+
+<para id="eip-324">The sample was heated to 75 °C under Ar, and an initial mass loss due to moisture and/or atmospherically absorbed CO<sub>2</sub> is seen. In the temperature range of 25 °C to 75 °C the flow gas was switched from an inert gas to CO<sub>2</sub>. In this region an increase in mass is seen, the increase is due to CO<sub>2</sub> absorption by the PEI (10000Da)-SWNT. Switching the carrier gas back to Ar resulted in the desorption of the CO<sub>2</sub>. </para><para id="eip-329">The total normalized mass of CO<sub>2</sub> absorbed by the PEI(10000)-SWNT can be calculated as follows;</para><list id="eip-441" list-type="enumerated" number-style="arabic" class="stepwise"><title>Solution Outline</title><item>Minimum mass = mass of absorbant = M<sub>absorbant</sub>
+	</item>
+	<item>Maximum mass = mass of absorbant and absorbed species = M<sub>total</sub>
+	</item>
+	<item>Absorbed mass = M<sub>absorbed</sub> = M<sub>total</sub> - M<sub>absorbant</sub>
+	</item>
+	<item>% of absorbed species= (M<sub>absorbed</sub>/M<sub>absorbant</sub>)*100 </item>
+	<item>1 mole of absorbed species = MW of absorbed species </item>
+	<item>Number of moles of absorbed species = (M<sub>absorbed</sub>/MW of absorbed species) </item>
+	<item>The number of moles of absorbed species absorbed per gram of absorbant=             (1g/M<sub>total</sub>)*(Number of moles of absorbed species) </item>
+</list><list id="eip-497" list-type="enumerated" number-style="arabic" class="stepwise"><title>Solution</title><item> M<sub>absorbant</sub> = Mass of PEI-SWNT = 4.829 mg 
+	</item>
+	<item>M<sub>total</sub> = Mass of PEI-SWNT and CO<sub>2</sub> = 5.258 mg
+	</item>
+	<item>M<sub>absorbed</sub> = M<sub>total</sub> - M<sub>absorbant</sub> = 5.258 mg - 4.829 mg = 0.429 mg
+	</item>
+	<item>% of absorbed species= % of CO<sub>2</sub> absorbed = (M<sub>absorbed</sub>/M<sub>absorbant</sub>)*100 = (0.429/4.829)*100 = 8.8% </item>
+	<item>1 mole of absorbed species = MW of absorbed species = MW of CO<sub>2</sub> = 44 therefore 1 mole = 44g </item>
+	<item>Number of moles of absorbed species = (M<sub>absorbed</sub>/MW of absorbed species)= (0.429 mg / 44 g) = 9.75 μM </item>
+	<item>The number of moles of absorbed species absorbed per gram of absorbant =(1 g/M<sub>total</sub>)*(Number of moles of absorbed species) = (1 g/5.258 mg)*(9.75)= 1.85 mmol of CO<sub>2</sub> absorbed per gram of absorbant  </item>
+</list></section>
+ 
+    
+    
+    
+    
+    
+    
+    <section id="id1169199440083">
+      <title>Bibliography</title>
+      <list id="eip-966"><item>I. W. Chiang, B. E. Brinson, A. Y. Huang, P. A. Willis, M. J. Bronikowski, J. L. Margrave, R. E. Smalley, and R. H. Hauge, <emphasis effect="italics">J. Phys. Chem. B</emphasis>, 2001, <emphasis effect="bold"> 105</emphasis>, 8297.</item>
+	<item>E. P. Dillon, C. A. Crouse and A. R. Barron, <emphasis effect="italics">ACS Nano</emphasis>, 2008, <emphasis effect="bold"> 2</emphasis>, 156. </item>
+	</list>
+    </section>
+  </content>
+</document>
