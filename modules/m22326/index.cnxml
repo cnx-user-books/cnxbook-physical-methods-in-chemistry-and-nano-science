@@ -1106,12 +1106,7 @@
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>Δ</m:mi><m:mover accent="true"><m:mi>h</m:mi><m:mo stretchy="false">ˉ</m:mo></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ { bar  {h}}} {}</m:annotation></m:semantics></m:math>between the unreacted and dissolved areas. The average heights of dissolved and unreacted areas are obtained through digital processing of data obtained by microscopes. The velocity of normal surface retreat 
 <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SNR</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{ ital "SNR"} } } {}</m:annotation></m:semantics></m:math> during the time interval ∆t is defined as</para>
       <para id="id1172437810970">
-        <m:math>
-          <m:semantics>
-            <m:mrow/>
-            <m:annotation encoding="StarMath 5.0">{}</m:annotation>
-          </m:semantics>
-        </m:math>
+        
         <m:math>
           <m:semantics>
             <m:mrow>
